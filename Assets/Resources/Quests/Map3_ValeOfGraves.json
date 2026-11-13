@@ -1,0 +1,93 @@
+{
+ "ppt": 4,
+ "hidden": [],
+ "view": {
+  "x": 0,
+  "y": 0,
+  "w": 136,
+  "h": 126,
+  "label": ""
+ },
+ "steps": [
+  {
+   "title": "Climb the Pilgrim's Stair to the Lychgate",
+   "done": "v2_cleared",
+   "targets": [
+    {
+     "label": "The Lychgate",
+     "x": 68,
+     "y": 27,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Silence the three bells of the Vale",
+   "done": "x3_cleared,amen_rung,south_bell_rung",
+   "targets": [
+    {
+     "label": "The West Bell",
+     "x": 12,
+     "y": 62,
+     "done": "x3_cleared",
+     "pre": "vey_open",
+     "preLabel": "The Vey Gate",
+     "preX": 24,
+     "preY": 56
+    },
+    {
+     "label": "The Ossuary Tower",
+     "x": 118,
+     "y": 10,
+     "done": "amen_rung"
+    },
+    {
+     "label": "The Broken Bridge",
+     "x": 116,
+     "y": 90,
+     "done": "south_bell_rung"
+    }
+   ]
+  },
+  {
+   "title": "Restore the rose window of the Chapel of Naming",
+   "done": "window_solved",
+   "targets": [
+    {
+     "label": "Chapel of Naming",
+     "x": 61.5,
+     "y": 74.5,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Face what waits in the Mausoleum Forecourt",
+   "done": "v11_cleared",
+   "targets": [
+    {
+     "label": "Mausoleum Forecourt",
+     "x": 68,
+     "y": 99,
+     "done": "",
+     "pre": "v11_started",
+     "preLabel": "The mausoleum gate",
+     "preX": 68,
+     "preY": 80.5
+    }
+   ]
+  },
+  {
+   "title": "Pass through the Requiem Door",
+   "done": "never",
+   "targets": [
+    {
+     "label": "The Requiem Door",
+     "x": 67.9,
+     "y": 120.8,
+     "done": ""
+    }
+   ]
+  }
+ ]
+}

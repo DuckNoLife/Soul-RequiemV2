@@ -67,5 +67,6 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "Soul Requiem.slnx"
+    "dotnet.defaultSolution": "Soul Requiem.slnx",
+    "git.ignoreLimitWarning": true
 }

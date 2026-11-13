@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 716b9cf07abda98419344f29dbcd68f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3792087347520693165
+    second: Choir_Novice_Attack_N_0
+  - first:
+      213: 1522972015234759690
+    second: Choir_Novice_Attack_N_1
+  - first:
+      213: 6494971736911304985
+    second: Choir_Novice_Attack_N_2
+  - first:
+      213: -2299638340408105440
+    second: Choir_Novice_Attack_N_3
+  - first:
+      213: -3169006378923545516
+    second: Choir_Novice_Attack_N_4
+  - first:
+      213: -4768611333007978588
+    second: Choir_Novice_Attack_N_5
+  - first:
+      213: 9197593547017369618
+    second: Choir_Novice_Attack_N_6
+  - first:
+      213: 4018273227004695603
+    second: Choir_Novice_Attack_N_7
+  - first:
+      213: 8685969109998810234
+    second: Choir_Novice_Attack_N_8
+  - first:
+      213: 2196619333794946409
+    second: Choir_Novice_Attack_N_9
+  - first:
+      213: -7883771649140216796
+    second: Choir_Novice_Attack_N_10
+  - first:
+      213: 3482678356000574417
+    second: Choir_Novice_Attack_N_11
+  - first:
+      213: 665508224013810973
+    second: Choir_Novice_Attack_N_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Choir_Novice_Attack_N_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 152
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c96c516accf5bc0800000000000000
+      internalID: -3792087347520693165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Choir_Novice_Attack_N_1
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 152
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0cbde29afea22510800000000000000
+      internalID: 1522972015234759690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Choir_Novice_Attack_N_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 152
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919dcc40266c22a50800000000000000
+      internalID: 6494971736911304985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Choir_Novice_Attack_N_3
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 0
+        width: 152
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0262b180d1b0610e0800000000000000
+      internalID: -2299638340408105440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Choir_Novice_Attack_N_4
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 0
+        width: 152
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ca05d0d7d6504d0800000000000000
+      internalID: -3169006378923545516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Choir_Novice_Attack_N_5
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 0
+        width: 152
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af4820024d72ddb0800000000000000
+      internalID: -4768611333007978588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Choir_Novice_Attack_N_6
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 0
+        width: 152
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218356e999a64af70800000000000000
+      internalID: 9197593547017369618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Choir_Novice_Attack_N_7
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 0
+        width: 152
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334d312d536c3c730800000000000000
+      internalID: 4018273227004695603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Choir_Novice_Attack_N_8
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 0
+        width: 152
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74be73a2e2ca8870800000000000000
+      internalID: 8685969109998810234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Choir_Novice_Attack_N_9
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 0
+        width: 152
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d5a9955a5fb7e10800000000000000
+      internalID: 2196619333794946409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Choir_Novice_Attack_N_10
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 0
+        width: 152
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ca3b28477379290800000000000000
+      internalID: -7883771649140216796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Choir_Novice_Attack_N_11
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 0
+        width: 152
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db0b544385f45030800000000000000
+      internalID: 3482678356000574417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Choir_Novice_Attack_N_12
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 0
+        width: 152
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1db177243c5c3900800000000000000
+      internalID: 665508224013810973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ce3e89a311d542a419655574194385c9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Choir_Novice_Attack_N_0: -3792087347520693165
+      Choir_Novice_Attack_N_1: 1522972015234759690
+      Choir_Novice_Attack_N_10: -7883771649140216796
+      Choir_Novice_Attack_N_11: 3482678356000574417
+      Choir_Novice_Attack_N_12: 665508224013810973
+      Choir_Novice_Attack_N_2: 6494971736911304985
+      Choir_Novice_Attack_N_3: -2299638340408105440
+      Choir_Novice_Attack_N_4: -3169006378923545516
+      Choir_Novice_Attack_N_5: -4768611333007978588
+      Choir_Novice_Attack_N_6: 9197593547017369618
+      Choir_Novice_Attack_N_7: 4018273227004695603
+      Choir_Novice_Attack_N_8: 8685969109998810234
+      Choir_Novice_Attack_N_9: 2196619333794946409
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

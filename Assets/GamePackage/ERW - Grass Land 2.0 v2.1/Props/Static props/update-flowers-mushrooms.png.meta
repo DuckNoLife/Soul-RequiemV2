@@ -1,0 +1,3393 @@
+fileFormatVersion: 2
+guid: 901d6e5dc2d25784c89d94da5d2ff665
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8432557184012150487
+    second: update-flowers-mushrooms_0
+  - first:
+      213: -2681728161936105696
+    second: update-flowers-mushrooms_1
+  - first:
+      213: -3849646445931791673
+    second: update-flowers-mushrooms_2
+  - first:
+      213: 813977151797106038
+    second: update-flowers-mushrooms_3
+  - first:
+      213: -6180913578140711664
+    second: update-flowers-mushrooms_4
+  - first:
+      213: -1175315480583001120
+    second: update-flowers-mushrooms_5
+  - first:
+      213: 865872647481627138
+    second: update-flowers-mushrooms_6
+  - first:
+      213: 1442117695170853780
+    second: update-flowers-mushrooms_7
+  - first:
+      213: -7262740099034921782
+    second: update-flowers-mushrooms_8
+  - first:
+      213: 2272404800035351068
+    second: update-flowers-mushrooms_9
+  - first:
+      213: 3828130151181292419
+    second: update-flowers-mushrooms_10
+  - first:
+      213: 4688115835097108670
+    second: update-flowers-mushrooms_11
+  - first:
+      213: 2514567246274843524
+    second: update-flowers-mushrooms_12
+  - first:
+      213: 1175364078665874726
+    second: update-flowers-mushrooms_13
+  - first:
+      213: -159324039397450425
+    second: update-flowers-mushrooms_14
+  - first:
+      213: -8630456586993333942
+    second: update-flowers-mushrooms_15
+  - first:
+      213: -1352884108232968522
+    second: update-flowers-mushrooms_16
+  - first:
+      213: -4947019338111423973
+    second: update-flowers-mushrooms_17
+  - first:
+      213: -6444972624354199473
+    second: update-flowers-mushrooms_18
+  - first:
+      213: 7366972115304010434
+    second: update-flowers-mushrooms_19
+  - first:
+      213: 4053169225043148278
+    second: update-flowers-mushrooms_20
+  - first:
+      213: -7662257843916698132
+    second: update-flowers-mushrooms_21
+  - first:
+      213: 3167470949706308474
+    second: update-flowers-mushrooms_22
+  - first:
+      213: 2747013398432852120
+    second: update-flowers-mushrooms_23
+  - first:
+      213: -7388752932882199278
+    second: update-flowers-mushrooms_24
+  - first:
+      213: 1681266280574215871
+    second: update-flowers-mushrooms_25
+  - first:
+      213: 5923856600200263398
+    second: update-flowers-mushrooms_26
+  - first:
+      213: 1124601255643972945
+    second: update-flowers-mushrooms_27
+  - first:
+      213: 1799209633061491181
+    second: update-flowers-mushrooms_28
+  - first:
+      213: -3541033388228031847
+    second: update-flowers-mushrooms_29
+  - first:
+      213: 8939227080043816424
+    second: update-flowers-mushrooms_30
+  - first:
+      213: 9044369283036053333
+    second: update-flowers-mushrooms_31
+  - first:
+      213: -1523494191669304513
+    second: update-flowers-mushrooms_32
+  - first:
+      213: -6821006679064062272
+    second: update-flowers-mushrooms_33
+  - first:
+      213: -6932568897669866264
+    second: update-flowers-mushrooms_34
+  - first:
+      213: 7858413947729854296
+    second: update-flowers-mushrooms_35
+  - first:
+      213: -5714313042935204777
+    second: update-flowers-mushrooms_36
+  - first:
+      213: -5515608411657380788
+    second: update-flowers-mushrooms_37
+  - first:
+      213: 961676170291789580
+    second: update-flowers-mushrooms_38
+  - first:
+      213: 3320289610203703463
+    second: update-flowers-mushrooms_39
+  - first:
+      213: 5603685090059961216
+    second: update-flowers-mushrooms_40
+  - first:
+      213: -6278211896880679140
+    second: update-flowers-mushrooms_41
+  - first:
+      213: -5375683352129993500
+    second: update-flowers-mushrooms_42
+  - first:
+      213: 8274841427048296112
+    second: update-flowers-mushrooms_43
+  - first:
+      213: -3955227777234438275
+    second: update-flowers-mushrooms_44
+  - first:
+      213: 8322180695611531215
+    second: update-flowers-mushrooms_45
+  - first:
+      213: 5650303990154344678
+    second: update-flowers-mushrooms_46
+  - first:
+      213: -6559847731418705785
+    second: update-flowers-mushrooms_47
+  - first:
+      213: -715637708425025498
+    second: update-flowers-mushrooms_48
+  - first:
+      213: 7907390530715908470
+    second: update-flowers-mushrooms_49
+  - first:
+      213: 5579524727854098405
+    second: update-flowers-mushrooms_50
+  - first:
+      213: -4161472421724382013
+    second: update-flowers-mushrooms_51
+  - first:
+      213: 2863454786623805585
+    second: update-flowers-mushrooms_52
+  - first:
+      213: -9014671756108726950
+    second: update-flowers-mushrooms_53
+  - first:
+      213: -6977445946016345072
+    second: update-flowers-mushrooms_54
+  - first:
+      213: 4806462608664486721
+    second: update-flowers-mushrooms_55
+  - first:
+      213: -4594206846945189394
+    second: update-flowers-mushrooms_56
+  - first:
+      213: -2796012006417677984
+    second: update-flowers-mushrooms_57
+  - first:
+      213: 4337022973279398429
+    second: update-flowers-mushrooms_58
+  - first:
+      213: 3203226268469482068
+    second: update-flowers-mushrooms_59
+  - first:
+      213: 1045870965205553700
+    second: update-flowers-mushrooms_60
+  - first:
+      213: -6553586879452379433
+    second: update-flowers-mushrooms_61
+  - first:
+      213: -7694485803911670025
+    second: update-flowers-mushrooms_62
+  - first:
+      213: -8818750980604568067
+    second: update-flowers-mushrooms_63
+  - first:
+      213: -2192762170261407906
+    second: update-flowers-mushrooms_64
+  - first:
+      213: -8063790816598097729
+    second: update-flowers-mushrooms_65
+  - first:
+      213: -1559016736331739016
+    second: update-flowers-mushrooms_66
+  - first:
+      213: -9165866344577101097
+    second: update-flowers-mushrooms_67
+  - first:
+      213: -2785322858999572036
+    second: update-flowers-mushrooms_68
+  - first:
+      213: -4311584523536337524
+    second: update-flowers-mushrooms_69
+  - first:
+      213: -2754164932270770856
+    second: update-flowers-mushrooms_70
+  - first:
+      213: -4900135553798047712
+    second: update-flowers-mushrooms_71
+  - first:
+      213: -1516069462350768863
+    second: update-flowers-mushrooms_72
+  - first:
+      213: 5505203036134985629
+    second: update-flowers-mushrooms_73
+  - first:
+      213: -4848310442890863386
+    second: update-flowers-mushrooms_74
+  - first:
+      213: -66166985816715084
+    second: update-flowers-mushrooms_75
+  - first:
+      213: -3190255424765400573
+    second: update-flowers-mushrooms_76
+  - first:
+      213: 7732182043907307790
+    second: update-flowers-mushrooms_77
+  - first:
+      213: 9154423040093673892
+    second: update-flowers-mushrooms_78
+  - first:
+      213: -1908779205428525214
+    second: update-flowers-mushrooms_79
+  - first:
+      213: -1641252463099668671
+    second: update-flowers-mushrooms_80
+  - first:
+      213: -2289122614230378526
+    second: update-flowers-mushrooms_81
+  - first:
+      213: 5514488614356164259
+    second: update-flowers-mushrooms_82
+  - first:
+      213: 8147652524302162502
+    second: update-flowers-mushrooms_83
+  - first:
+      213: -6325304362369781602
+    second: update-flowers-mushrooms_84
+  - first:
+      213: -2294074837562312898
+    second: update-flowers-mushrooms_85
+  - first:
+      213: 7989138745872425170
+    second: update-flowers-mushrooms_86
+  - first:
+      213: -6410783158976948937
+    second: update-flowers-mushrooms_87
+  - first:
+      213: 6244800181357490931
+    second: update-flowers-mushrooms_88
+  - first:
+      213: 8391556643146235625
+    second: update-flowers-mushrooms_89
+  - first:
+      213: -2356019012107094399
+    second: update-flowers-mushrooms_90
+  - first:
+      213: -2429720356960098747
+    second: update-flowers-mushrooms_91
+  - first:
+      213: 4505208323346656539
+    second: update-flowers-mushrooms_92
+  - first:
+      213: -1596084275449623063
+    second: update-flowers-mushrooms_93
+  - first:
+      213: 8892943464990400267
+    second: update-flowers-mushrooms_94
+  - first:
+      213: 6984756453131137381
+    second: update-flowers-mushrooms_95
+  - first:
+      213: -3982265538818643042
+    second: update-flowers-mushrooms_96
+  - first:
+      213: -2766710158250267274
+    second: update-flowers-mushrooms_97
+  - first:
+      213: -2146212209860626273
+    second: update-flowers-mushrooms_98
+  - first:
+      213: -1049459102524379572
+    second: update-flowers-mushrooms_99
+  - first:
+      213: -1923840158717341563
+    second: update-flowers-mushrooms_100
+  - first:
+      213: -3467654263499933419
+    second: update-flowers-mushrooms_101
+  - first:
+      213: 2698814622119301981
+    second: update-flowers-mushrooms_102
+  - first:
+      213: 4769256451670150152
+    second: update-flowers-mushrooms_103
+  - first:
+      213: 5119548814699569357
+    second: update-flowers-mushrooms_104
+  - first:
+      213: 653316771656216725
+    second: update-flowers-mushrooms_105
+  - first:
+      213: 7489556265237449032
+    second: update-flowers-mushrooms_106
+  - first:
+      213: -4526572862897029023
+    second: update-flowers-mushrooms_107
+  - first:
+      213: 3163848240035302621
+    second: update-flowers-mushrooms_108
+  - first:
+      213: 7050912662472515511
+    second: update-flowers-mushrooms_109
+  - first:
+      213: 4723966889984434250
+    second: update-flowers-mushrooms_110
+  - first:
+      213: -4763794616548803147
+    second: update-flowers-mushrooms_111
+  - first:
+      213: 4351278515113980837
+    second: update-flowers-mushrooms_112
+  - first:
+      213: -7704441550011516348
+    second: update-flowers-mushrooms_113
+  - first:
+      213: -1723479445054797044
+    second: update-flowers-mushrooms_114
+  - first:
+      213: 9026367574729549122
+    second: update-flowers-mushrooms_115
+  - first:
+      213: -6554891552255209507
+    second: update-flowers-mushrooms_116
+  - first:
+      213: 5904248148370763620
+    second: update-flowers-mushrooms_117
+  - first:
+      213: -7927412348832456078
+    second: update-flowers-mushrooms_118
+  - first:
+      213: 4156657773233760637
+    second: update-flowers-mushrooms_119
+  - first:
+      213: 8566502273080207620
+    second: update-flowers-mushrooms_120
+  - first:
+      213: -2221714972660051559
+    second: update-flowers-mushrooms_121
+  - first:
+      213: 5781021524851432467
+    second: update-flowers-mushrooms_122
+  - first:
+      213: -3766018363530644407
+    second: update-flowers-mushrooms_123
+  - first:
+      213: -1546958297302927114
+    second: update-flowers-mushrooms_124
+  - first:
+      213: 5679605262686222094
+    second: update-flowers-mushrooms_125
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 587
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d6663dc416760570800000000000000
+      internalID: 8432557184012150487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 586
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f13a3f17698cad0800000000000000
+      internalID: -2681728161936105696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 586
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7caf36724fe439ac0800000000000000
+      internalID: -3849646445931791673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 586
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675962c28e3db4b00800000000000000
+      internalID: 813977151797106038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 586
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015c88b39dbf83aa0800000000000000
+      internalID: -6180913578140711664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 586
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb25d82cc070bfe0800000000000000
+      internalID: -1175315480583001120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_6
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 589
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2029ed5d592340c00800000000000000
+      internalID: 865872647481627138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_7
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 31
+        width: 66
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49bb6f0376e630410800000000000000
+      internalID: 1442117695170853780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_8
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 579
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4c90d0c50953b90800000000000000
+      internalID: -7262740099034921782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_9
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 579
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1aeffb3024398f10800000000000000
+      internalID: 2272404800035351068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_10
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 578
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3839f171710402530800000000000000
+      internalID: 3828130151181292419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_11
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 578
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0d8d863888f0140800000000000000
+      internalID: 4688115835097108670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_12
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 31
+        width: 66
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4835b06769985e220800000000000000
+      internalID: 2514567246274843524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_13
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 578
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d32a6f66bbf4010800000000000000
+      internalID: 1175364078665874726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_14
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 578
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74dd88b51a7f9cdf0800000000000000
+      internalID: -159324039397450425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_15
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 578
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4905d2d5757a3880800000000000000
+      internalID: -8630456586993333942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_16
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 578
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b6b08a4217993de0800000000000000
+      internalID: -1352884108232968522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_17
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 556
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a61e65f18a85bb0800000000000000
+      internalID: -4947019338111423973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_18
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 555
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48304a8b8bde86a0800000000000000
+      internalID: -6444972624354199473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_19
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 555
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c257e26b1ebc3660800000000000000
+      internalID: 7366972115304010434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_20
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 555
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fdfd318fefbf3830800000000000000
+      internalID: 4053169225043148278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_21
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 555
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced05eb56113aa590800000000000000
+      internalID: -7662257843916698132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_22
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 555
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b1d99fb0e15fb20800000000000000
+      internalID: 3167470949706308474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_23
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 558
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89824dea12a5f1620800000000000000
+      internalID: 2747013398432852120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_24
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 546
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d4e66da50e57990800000000000000
+      internalID: -7388752932882199278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_25
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 546
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6e77246ce055710800000000000000
+      internalID: 1681266280574215871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_26
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 546
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e63a432134c53250800000000000000
+      internalID: 5923856600200263398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_27
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 546
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1550e9432e26b9f00800000000000000
+      internalID: 1124601255643972945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_28
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 546
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1571fe0a318f810800000000000000
+      internalID: 1799209633061491181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_29
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 546
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99aced405e8bbdec0800000000000000
+      internalID: -3541033388228031847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_30
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 546
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e56090daa38e0c70800000000000000
+      internalID: 8939227080043816424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_31
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 546
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f71dc91fd048d70800000000000000
+      internalID: 9044369283036053333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_32
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 523
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f332e20ca167bdae0800000000000000
+      internalID: -1523494191669304513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_33
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 522
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6d1db809ae651a0800000000000000
+      internalID: -6821006679064062272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_34
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 522
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec577161519acf90800000000000000
+      internalID: -6932568897669866264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_35
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 522
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85fb96c89d1be0d60800000000000000
+      internalID: 7858413947729854296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_36
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 522
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754377c209ea2b0b0800000000000000
+      internalID: -5714313042935204777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_37
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 522
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c510f5f5f9473b0800000000000000
+      internalID: -5515608411657380788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_38
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 525
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f3337b16f885d00800000000000000
+      internalID: 961676170291789580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_39
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 514
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8ac9f0fc9041e20800000000000000
+      internalID: 3320289610203703463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_40
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 514
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0834d2a56e944cd40800000000000000
+      internalID: 5603685090059961216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_41
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 514
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17bbcd0b8f4fd8a0800000000000000
+      internalID: -6278211896880679140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_42
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 514
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e48f4b097cb565b0800000000000000
+      internalID: -5375683352129993500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_43
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 514
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be66e79f6426d270800000000000000
+      internalID: 8274841427048296112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_44
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 514
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77fe24da453c19c0800000000000000
+      internalID: -3955227777234438275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_45
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 514
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcfd986ff335e7370800000000000000
+      internalID: 8322180695611531215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_46
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 514
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e83f1eda89e96e40800000000000000
+      internalID: 5650303990154344678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_47
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 492
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 780d22c6e3db6f4a0800000000000000
+      internalID: -6559847731418705785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_48
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 491
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628a379bb4b8116f0800000000000000
+      internalID: -715637708425025498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_49
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 491
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679fb93eac1bcbd60800000000000000
+      internalID: 7907390530715908470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_50
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 491
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7604bad247e6d40800000000000000
+      internalID: 5579524727854098405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_51
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 491
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc988081ea7f36c0800000000000000
+      internalID: -4161472421724382013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_52
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 491
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1989a1b05f80db720800000000000000
+      internalID: 2863454786623805585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_53
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 494
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d7462bcc375e280800000000000000
+      internalID: -9014671756108726950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_54
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 483
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014d43451e12b2f90800000000000000
+      internalID: -6977445946016345072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_55
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 483
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143e4afd64cf3b240800000000000000
+      internalID: 4806462608664486721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_56
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 483
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee12a2fb6391e30c0800000000000000
+      internalID: -4594206846945189394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_57
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 483
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0614fb1e4e19239d0800000000000000
+      internalID: -2796012006417677984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_58
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 482
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ae6096a63303c30800000000000000
+      internalID: 4337022973279398429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_59
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 482
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452d25bd155247c20800000000000000
+      internalID: 3203226268469482068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_60
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 482
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422d8f10a1ea38e00800000000000000
+      internalID: 1045870965205553700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_61
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 482
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d6849d947bfc05a0800000000000000
+      internalID: -6553586879452379433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_62
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 462
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f61f80bde1b73590800000000000000
+      internalID: -7694485803911670025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_63
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 461
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfddf66f4b08d9580800000000000000
+      internalID: -8818750980604568067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_64
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 461
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5777a48c6eb191e0800000000000000
+      internalID: -2192762170261407906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_65
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 461
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb00d91e9f8a71090800000000000000
+      internalID: -8063790816598097729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_66
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 461
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 870de00d9824d5ae0800000000000000
+      internalID: -1559016736331739016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_67
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 461
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d216c85f1d4cc080800000000000000
+      internalID: -9165866344577101097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_68
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 464
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb91e84fd9b8859d0800000000000000
+      internalID: -2785322858999572036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_69
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 450
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c857b8738bc2a24c0800000000000000
+      internalID: -4311584523536337524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_70
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 450
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855b927169d37c9d0800000000000000
+      internalID: -2754164932270770856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_71
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 450
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028fa940da83ffbb0800000000000000
+      internalID: -4900135553798047712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_72
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 452
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125d3c14bd6d5fae0800000000000000
+      internalID: -1516069462350768863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_73
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 452
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f4a395ef8666c40800000000000000
+      internalID: 5505203036134985629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_74
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 452
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec5ca2f65757bcb0800000000000000
+      internalID: -4848310442890863386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_75
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 450
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0598a1a7de41ff0800000000000000
+      internalID: -66166985816715084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_76
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 452
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a6818089fe9b3d0800000000000000
+      internalID: -3190255424765400573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_77
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 425
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09bfb12a9a3e4b60800000000000000
+      internalID: 7732182043907307790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_78
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 424
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a95f64b04b0b0f70800000000000000
+      internalID: 9154423040093673892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_79
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 424
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 267c7c10d67a285e0800000000000000
+      internalID: -1908779205428525214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_80
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 424
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147953e94991939e0800000000000000
+      internalID: -1641252463099668671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_81
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 424
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e71c735c176b30e0800000000000000
+      internalID: -2289122614230378526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_82
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 424
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae92a08d26678c40800000000000000
+      internalID: 5514488614356164259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_83
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 427
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a58508dc6421170800000000000000
+      internalID: 8147652524302162502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_84
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 419
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9078b002310838a0800000000000000
+      internalID: -6325304362369781602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_85
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 419
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37bfeaf61fc920e0800000000000000
+      internalID: -2294074837562312898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_86
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 419
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d029017c5f1fde60800000000000000
+      internalID: 7989138745872425170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_87
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 419
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7355f15cea25807a0800000000000000
+      internalID: -6410783158976948937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_88
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 420
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2bb17bdacf9a650800000000000000
+      internalID: 6244800181357490931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_89
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 420
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eefc4b7e4cc47470800000000000000
+      internalID: 8391556643146235625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_90
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 420
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1863a43f03dbd4fd0800000000000000
+      internalID: -2356019012107094399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_91
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 420
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546abd36536e74ed0800000000000000
+      internalID: -2429720356960098747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_92
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 396
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1de538b917b58e30800000000000000
+      internalID: 4505208323346656539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_93
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 393
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed0d32dec199d9e0800000000000000
+      internalID: -1596084275449623063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_94
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 393
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f526ee6f41a6b70800000000000000
+      internalID: 8892943464990400267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_95
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 393
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 561bf7fbcf6dee060800000000000000
+      internalID: 6984756453131137381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_96
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 394
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b6f6567962cb8c0800000000000000
+      internalID: -3982265538818643042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_97
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 386
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d270d05cbaa99d0800000000000000
+      internalID: -2766710158250267274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_98
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 386
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98b6a2cd5f1732e0800000000000000
+      internalID: -2146212209860626273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_99
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 386
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4eebbba1829f61f0800000000000000
+      internalID: -1049459102524379572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_100
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 386
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580950f81952d45e0800000000000000
+      internalID: -1923840158717341563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_101
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 360
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519b73cd1da60efc0800000000000000
+      internalID: -3467654263499933419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_102
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 357
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d531d02999d147520800000000000000
+      internalID: 2698814622119301981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_103
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 357
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c0a84697dcf2240800000000000000
+      internalID: 4769256451670150152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_104
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 357
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc0a07eb58a4c0740800000000000000
+      internalID: 5119548814699569357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_105
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 358
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590bf54742c011900800000000000000
+      internalID: 653316771656216725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_106
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 331
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84987caedbf30f760800000000000000
+      internalID: 7489556265237449032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_107
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 328
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1608919c6f16e21c0800000000000000
+      internalID: -4526572862897029023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_108
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 328
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc8c86263f38eb20800000000000000
+      internalID: 3163848240035302621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_109
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 328
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf5afc85bfd9d160800000000000000
+      internalID: 7050912662472515511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_110
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 329
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40aa389bd6ee8140800000000000000
+      internalID: 4723966889984434250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_111
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 300
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bdb0b1390a93edb0800000000000000
+      internalID: -4763794616548803147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_112
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 297
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3782461c8d26c30800000000000000
+      internalID: 4351278515113980837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_113
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 297
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44abdcaea33541590800000000000000
+      internalID: -7704441550011516348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_114
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 297
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b42db7398f418e0800000000000000
+      internalID: -1723479445054797044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_115
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 298
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 245ebd74c79144d70800000000000000
+      internalID: 9026367574729549122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_116
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 268
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf8e9eccd85805a0800000000000000
+      internalID: -6554891552255209507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_117
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 265
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46fa56da86a10f150800000000000000
+      internalID: 5904248148370763620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_118
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 265
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272ebcf487c2cf190800000000000000
+      internalID: -7927412348832456078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_119
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 265
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d79e67ac83a6fa930800000000000000
+      internalID: 4156657773233760637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_120
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 266
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409a58a1e6452e670800000000000000
+      internalID: 8566502273080207620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_121
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 237
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9915e66e002ea21e0800000000000000
+      internalID: -2221714972660051559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_122
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 234
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c18ab92705a3050800000000000000
+      internalID: 5781021524851432467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_123
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 234
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9447828604a6cbbc0800000000000000
+      internalID: -3766018363530644407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_124
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 234
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f87aeeef99188ae0800000000000000
+      internalID: -1546958297302927114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: update-flowers-mushrooms_125
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 235
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e07f9d205e202de40800000000000000
+      internalID: 5679605262686222094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      update-flowers-mushrooms_0: 8432557184012150487
+      update-flowers-mushrooms_1: -2681728161936105696
+      update-flowers-mushrooms_10: 3828130151181292419
+      update-flowers-mushrooms_100: -1923840158717341563
+      update-flowers-mushrooms_101: -3467654263499933419
+      update-flowers-mushrooms_102: 2698814622119301981
+      update-flowers-mushrooms_103: 4769256451670150152
+      update-flowers-mushrooms_104: 5119548814699569357
+      update-flowers-mushrooms_105: 653316771656216725
+      update-flowers-mushrooms_106: 7489556265237449032
+      update-flowers-mushrooms_107: -4526572862897029023
+      update-flowers-mushrooms_108: 3163848240035302621
+      update-flowers-mushrooms_109: 7050912662472515511
+      update-flowers-mushrooms_11: 4688115835097108670
+      update-flowers-mushrooms_110: 4723966889984434250
+      update-flowers-mushrooms_111: -4763794616548803147
+      update-flowers-mushrooms_112: 4351278515113980837
+      update-flowers-mushrooms_113: -7704441550011516348
+      update-flowers-mushrooms_114: -1723479445054797044
+      update-flowers-mushrooms_115: 9026367574729549122
+      update-flowers-mushrooms_116: -6554891552255209507
+      update-flowers-mushrooms_117: 5904248148370763620
+      update-flowers-mushrooms_118: -7927412348832456078
+      update-flowers-mushrooms_119: 4156657773233760637
+      update-flowers-mushrooms_12: 2514567246274843524
+      update-flowers-mushrooms_120: 8566502273080207620
+      update-flowers-mushrooms_121: -2221714972660051559
+      update-flowers-mushrooms_122: 5781021524851432467
+      update-flowers-mushrooms_123: -3766018363530644407
+      update-flowers-mushrooms_124: -1546958297302927114
+      update-flowers-mushrooms_125: 5679605262686222094
+      update-flowers-mushrooms_13: 1175364078665874726
+      update-flowers-mushrooms_14: -159324039397450425
+      update-flowers-mushrooms_15: -8630456586993333942
+      update-flowers-mushrooms_16: -1352884108232968522
+      update-flowers-mushrooms_17: -4947019338111423973
+      update-flowers-mushrooms_18: -6444972624354199473
+      update-flowers-mushrooms_19: 7366972115304010434
+      update-flowers-mushrooms_2: -3849646445931791673
+      update-flowers-mushrooms_20: 4053169225043148278
+      update-flowers-mushrooms_21: -7662257843916698132
+      update-flowers-mushrooms_22: 3167470949706308474
+      update-flowers-mushrooms_23: 2747013398432852120
+      update-flowers-mushrooms_24: -7388752932882199278
+      update-flowers-mushrooms_25: 1681266280574215871
+      update-flowers-mushrooms_26: 5923856600200263398
+      update-flowers-mushrooms_27: 1124601255643972945
+      update-flowers-mushrooms_28: 1799209633061491181
+      update-flowers-mushrooms_29: -3541033388228031847
+      update-flowers-mushrooms_3: 813977151797106038
+      update-flowers-mushrooms_30: 8939227080043816424
+      update-flowers-mushrooms_31: 9044369283036053333
+      update-flowers-mushrooms_32: -1523494191669304513
+      update-flowers-mushrooms_33: -6821006679064062272
+      update-flowers-mushrooms_34: -6932568897669866264
+      update-flowers-mushrooms_35: 7858413947729854296
+      update-flowers-mushrooms_36: -5714313042935204777
+      update-flowers-mushrooms_37: -5515608411657380788
+      update-flowers-mushrooms_38: 961676170291789580
+      update-flowers-mushrooms_39: 3320289610203703463
+      update-flowers-mushrooms_4: -6180913578140711664
+      update-flowers-mushrooms_40: 5603685090059961216
+      update-flowers-mushrooms_41: -6278211896880679140
+      update-flowers-mushrooms_42: -5375683352129993500
+      update-flowers-mushrooms_43: 8274841427048296112
+      update-flowers-mushrooms_44: -3955227777234438275
+      update-flowers-mushrooms_45: 8322180695611531215
+      update-flowers-mushrooms_46: 5650303990154344678
+      update-flowers-mushrooms_47: -6559847731418705785
+      update-flowers-mushrooms_48: -715637708425025498
+      update-flowers-mushrooms_49: 7907390530715908470
+      update-flowers-mushrooms_5: -1175315480583001120
+      update-flowers-mushrooms_50: 5579524727854098405
+      update-flowers-mushrooms_51: -4161472421724382013
+      update-flowers-mushrooms_52: 2863454786623805585
+      update-flowers-mushrooms_53: -9014671756108726950
+      update-flowers-mushrooms_54: -6977445946016345072
+      update-flowers-mushrooms_55: 4806462608664486721
+      update-flowers-mushrooms_56: -4594206846945189394
+      update-flowers-mushrooms_57: -2796012006417677984
+      update-flowers-mushrooms_58: 4337022973279398429
+      update-flowers-mushrooms_59: 3203226268469482068
+      update-flowers-mushrooms_6: 865872647481627138
+      update-flowers-mushrooms_60: 1045870965205553700
+      update-flowers-mushrooms_61: -6553586879452379433
+      update-flowers-mushrooms_62: -7694485803911670025
+      update-flowers-mushrooms_63: -8818750980604568067
+      update-flowers-mushrooms_64: -2192762170261407906
+      update-flowers-mushrooms_65: -8063790816598097729
+      update-flowers-mushrooms_66: -1559016736331739016
+      update-flowers-mushrooms_67: -9165866344577101097
+      update-flowers-mushrooms_68: -2785322858999572036
+      update-flowers-mushrooms_69: -4311584523536337524
+      update-flowers-mushrooms_7: 1442117695170853780
+      update-flowers-mushrooms_70: -2754164932270770856
+      update-flowers-mushrooms_71: -4900135553798047712
+      update-flowers-mushrooms_72: -1516069462350768863
+      update-flowers-mushrooms_73: 5505203036134985629
+      update-flowers-mushrooms_74: -4848310442890863386
+      update-flowers-mushrooms_75: -66166985816715084
+      update-flowers-mushrooms_76: -3190255424765400573
+      update-flowers-mushrooms_77: 7732182043907307790
+      update-flowers-mushrooms_78: 9154423040093673892
+      update-flowers-mushrooms_79: -1908779205428525214
+      update-flowers-mushrooms_8: -7262740099034921782
+      update-flowers-mushrooms_80: -1641252463099668671
+      update-flowers-mushrooms_81: -2289122614230378526
+      update-flowers-mushrooms_82: 5514488614356164259
+      update-flowers-mushrooms_83: 8147652524302162502
+      update-flowers-mushrooms_84: -6325304362369781602
+      update-flowers-mushrooms_85: -2294074837562312898
+      update-flowers-mushrooms_86: 7989138745872425170
+      update-flowers-mushrooms_87: -6410783158976948937
+      update-flowers-mushrooms_88: 6244800181357490931
+      update-flowers-mushrooms_89: 8391556643146235625
+      update-flowers-mushrooms_9: 2272404800035351068
+      update-flowers-mushrooms_90: -2356019012107094399
+      update-flowers-mushrooms_91: -2429720356960098747
+      update-flowers-mushrooms_92: 4505208323346656539
+      update-flowers-mushrooms_93: -1596084275449623063
+      update-flowers-mushrooms_94: 8892943464990400267
+      update-flowers-mushrooms_95: 6984756453131137381
+      update-flowers-mushrooms_96: -3982265538818643042
+      update-flowers-mushrooms_97: -2766710158250267274
+      update-flowers-mushrooms_98: -2146212209860626273
+      update-flowers-mushrooms_99: -1049459102524379572
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

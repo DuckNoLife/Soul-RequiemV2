@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: ec0d67e3eeca47d9948bb41d4458f193
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 759291868487766669
+    second: m3_claw_S_0
+  - first:
+      213: 3204398569752614079
+    second: m3_claw_S_1
+  - first:
+      213: -3015983473052575631
+    second: m3_claw_S_2
+  - first:
+      213: 1272964345252212741
+    second: m3_claw_S_3
+  - first:
+      213: -3878275317773453660
+    second: m3_claw_S_4
+  - first:
+      213: 23301607209304486
+    second: m3_claw_S_5
+  - first:
+      213: -3140023256442246602
+    second: m3_claw_S_6
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: m3_claw_S_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 61
+        height: 54
+      alignment: 9
+      pivot: {x: 0.508197, y: 0.981481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d6b3c03a1bedfcdee8e8b0c6ed125f
+      internalID: 759291868487766669
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_claw_S_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 0
+        width: 61
+        height: 54
+      alignment: 9
+      pivot: {x: 0.508197, y: 0.981481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052ea99a0cac999167cd13e15b463878
+      internalID: 3204398569752614079
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_claw_S_2
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 0
+        width: 61
+        height: 54
+      alignment: 9
+      pivot: {x: 0.508197, y: 0.981481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888375d6ecbe1ec77f56cf39550a254c
+      internalID: -3015983473052575631
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_claw_S_3
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 0
+        width: 61
+        height: 54
+      alignment: 9
+      pivot: {x: 0.508197, y: 0.981481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90f1a2f217bbf54bde586a899a3a821
+      internalID: 1272964345252212741
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_claw_S_4
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 0
+        width: 61
+        height: 54
+      alignment: 9
+      pivot: {x: 0.508197, y: 0.981481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3107b1a2a87d23ee434bc4f5e7ff442d
+      internalID: -3878275317773453660
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_claw_S_5
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 0
+        width: 61
+        height: 54
+      alignment: 9
+      pivot: {x: 0.508197, y: 0.981481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d03bd814d12c14d5178237f2fa2c6e
+      internalID: 23301607209304486
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_claw_S_6
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 0
+        width: 61
+        height: 54
+      alignment: 9
+      pivot: {x: 0.508197, y: 0.981481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac10dc5f139119b162f5d860fe65c5d1
+      internalID: -3140023256442246602
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      m3_claw_S_0: 759291868487766669
+      m3_claw_S_1: 3204398569752614079
+      m3_claw_S_2: -3015983473052575631
+      m3_claw_S_3: 1272964345252212741
+      m3_claw_S_4: -3878275317773453660
+      m3_claw_S_5: 23301607209304486
+      m3_claw_S_6: -3140023256442246602
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

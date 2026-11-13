@@ -1,3 +1,10 @@
 ﻿<Solution>
-  <Project Path="Assembly-CSharp-Editor.csproj" />
+  <Project Path="SoulRequiem.Gameplay.csproj" />
+  <Project Path="SuperTiled2Unity.csproj" />
+  <Project Path="SuperTiled2UnityEditor.csproj" />
+  <Project Path="SoulRequiem.Core.csproj" />
+  <Project Path="SoulRequiem.Editor.csproj" />
+  <Project Path="SoulRequiem.Visual.csproj" />
+  <Project Path="SoulRequiem.UI.csproj" />
+  <Project Path="SoulRequiem.DevTools.csproj" />
 </Solution>

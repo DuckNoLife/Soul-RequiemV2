@@ -1,0 +1,437 @@
+fileFormatVersion: 2
+guid: 8b06cd80e0f29864f97a7eecf9ad7d2c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1204063653419750304
+    second: Precentor_Morrow_Death_0
+  - first:
+      213: -2968189067727258186
+    second: Precentor_Morrow_Death_1
+  - first:
+      213: -880496948265207136
+    second: Precentor_Morrow_Death_2
+  - first:
+      213: -7742147121368161616
+    second: Precentor_Morrow_Death_3
+  - first:
+      213: 7144566823935159008
+    second: Precentor_Morrow_Death_4
+  - first:
+      213: 2533307014208951073
+    second: Precentor_Morrow_Death_5
+  - first:
+      213: -3357781731140238128
+    second: Precentor_Morrow_Death_6
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Precentor_Morrow_Death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 156
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ce4f29c7e4a4fe0800000000000000
+      internalID: -1204063653419750304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Precentor_Morrow_Death_1
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 156
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd3befd4cfdec6d0800000000000000
+      internalID: -2968189067727258186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Precentor_Morrow_Death_2
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 156
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa36dcc0b8d7c3f0800000000000000
+      internalID: -880496948265207136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Precentor_Morrow_Death_3
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 156
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2a908763e5e8490800000000000000
+      internalID: -7742147121368161616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Precentor_Morrow_Death_4
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 156
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea22be3ca9962360800000000000000
+      internalID: 7144566823935159008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Precentor_Morrow_Death_5
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 0
+        width: 156
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1231ee0be4d182320800000000000000
+      internalID: 2533307014208951073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Precentor_Morrow_Death_6
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 0
+        width: 156
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4071a4e43c661d0800000000000000
+      internalID: -3357781731140238128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Precentor_Morrow_Death_7
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 0
+        width: 156
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9a74558407d2642a6fea176d7fd499
+      internalID: 311853642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Precentor_Morrow_Death_8
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 0
+        width: 156
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abe9326aa6e57e4e97271f3940c7fe8
+      internalID: 1874150955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Precentor_Morrow_Death_9
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 0
+        width: 156
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556c488b15344234eb127733618f67d1
+      internalID: -168229584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Precentor_Morrow_Death_10
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 0
+        width: 156
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503e70f0a4727664aac161ed6681689d
+      internalID: 1692004615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Precentor_Morrow_Death_11
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 0
+        width: 156
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a577f996efc55244398810456c9fef32
+      internalID: 1718462053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Precentor_Morrow_Death_12
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 0
+        width: 156
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f4fc8e1e3d6494ebd0119cb85633c1
+      internalID: -1163648274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 15909f3b064186b49962ef3e2c8dddb9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Precentor_Morrow_Death_0: -1204063653419750304
+      Precentor_Morrow_Death_1: -2968189067727258186
+      Precentor_Morrow_Death_10: 1692004615
+      Precentor_Morrow_Death_11: 1718462053
+      Precentor_Morrow_Death_12: -1163648274
+      Precentor_Morrow_Death_2: -880496948265207136
+      Precentor_Morrow_Death_3: -7742147121368161616
+      Precentor_Morrow_Death_4: 7144566823935159008
+      Precentor_Morrow_Death_5: 2533307014208951073
+      Precentor_Morrow_Death_6: -3357781731140238128
+      Precentor_Morrow_Death_7: 311853642
+      Precentor_Morrow_Death_8: 1874150955
+      Precentor_Morrow_Death_9: -168229584
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

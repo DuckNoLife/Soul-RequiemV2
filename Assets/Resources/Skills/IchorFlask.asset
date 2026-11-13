@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b25aa070651f4e46a131cf80cb652617, type: 3}
+  m_Name: IchorFlask
+  m_EditorClassIdentifier: 
+  id: ichor_flask
+  displayName: Ichor Flask
+  description: 'Lob a flask of raw Ichor. It bursts, then pools for four seconds: foes inside burn and are Corroded, taking 20% more damage. Creatures born of Ichor shrug off the corrosion.'
+  icon: {fileID: 0}
+  iconName: ic_mantra_flask
+  accent: {r: 0.72, g: 0.95, b: 0.3, a: 1}
+  cooldown: 12
+  unlockedAtStart: 0
+  setId: 
+  setSlot: -1
+  setName: 
+  setDescription: 
+  range: 2.6
+  flight: 0.45
+  arc: 0.5
+  splashRadius: 0.6
+  splashDamage: 15
+  poolRadius: 0.6
+  poolTime: 4
+  poolDps: 6
+  tick: 0.5
+  corrode: 0.2
+  corrodeLinger: 1.5
+  castLock: 0.35
+  throwDelay: 0.22
+  splashVfx: sk_ichor_splash
+  poolVfx: sk_ichor_pool
+  poolScale: 1.1

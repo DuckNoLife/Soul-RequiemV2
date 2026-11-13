@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: 6cccc084799a442fa5cf0b483f15c170
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4141526930730713134
+    second: m3_cast_hymn_0
+  - first:
+      213: 3223651777216522395
+    second: m3_cast_hymn_1
+  - first:
+      213: 540443864735570123
+    second: m3_cast_hymn_2
+  - first:
+      213: 1257106408943596727
+    second: m3_cast_hymn_3
+  - first:
+      213: -4261083038069393428
+    second: m3_cast_hymn_4
+  - first:
+      213: 3797059993907428089
+    second: m3_cast_hymn_5
+  - first:
+      213: 4344934355086622063
+    second: m3_cast_hymn_6
+  - first:
+      213: 1570531758162934500
+    second: m3_cast_hymn_7
+  - first:
+      213: 245575856612874138
+    second: m3_cast_hymn_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: m3_cast_hymn_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 51
+        height: 51
+      alignment: 9
+      pivot: {x: 0.509804, y: 0.529412}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45934059cebe83f5857ab24a6e74c752
+      internalID: 4141526930730713134
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_cast_hymn_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0
+        width: 51
+        height: 51
+      alignment: 9
+      pivot: {x: 0.509804, y: 0.529412}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74de4ccba4f98d859a0193e62852a9c
+      internalID: 3223651777216522395
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_cast_hymn_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 51
+        height: 51
+      alignment: 9
+      pivot: {x: 0.509804, y: 0.529412}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb35380cffeb3c22272e4552027b45aa
+      internalID: 540443864735570123
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_cast_hymn_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 0
+        width: 51
+        height: 51
+      alignment: 9
+      pivot: {x: 0.509804, y: 0.529412}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ca54927eade9ee77be3ae914d352fc
+      internalID: 1257106408943596727
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_cast_hymn_4
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 51
+        height: 51
+      alignment: 9
+      pivot: {x: 0.509804, y: 0.529412}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c543351bf2af8609385a7a89d24aeab9
+      internalID: -4261083038069393428
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_cast_hymn_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 51
+        height: 51
+      alignment: 9
+      pivot: {x: 0.509804, y: 0.529412}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226faadeb764ac7a6ae950a6df4157c5
+      internalID: 3797059993907428089
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_cast_hymn_6
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 0
+        width: 51
+        height: 51
+      alignment: 9
+      pivot: {x: 0.509804, y: 0.529412}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666b237794f0b34a05c4c1f739f6d876
+      internalID: 4344934355086622063
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_cast_hymn_7
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 0
+        width: 51
+        height: 51
+      alignment: 9
+      pivot: {x: 0.509804, y: 0.529412}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc1448638125146d62ba5ca5443a6c4
+      internalID: 1570531758162934500
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_cast_hymn_8
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 51
+        height: 51
+      alignment: 9
+      pivot: {x: 0.509804, y: 0.529412}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da103376a1e0ccf598260fc60916fd83
+      internalID: 245575856612874138
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      m3_cast_hymn_0: 4141526930730713134
+      m3_cast_hymn_1: 3223651777216522395
+      m3_cast_hymn_2: 540443864735570123
+      m3_cast_hymn_3: 1257106408943596727
+      m3_cast_hymn_4: -4261083038069393428
+      m3_cast_hymn_5: 3797059993907428089
+      m3_cast_hymn_6: 4344934355086622063
+      m3_cast_hymn_7: 1570531758162934500
+      m3_cast_hymn_8: 245575856612874138
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

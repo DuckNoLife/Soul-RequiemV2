@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 41146e22873b3f1419f79619b07c95d3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8005851270078272278
+    second: Precentor_Morrow_Toll_0
+  - first:
+      213: 147042992570539129
+    second: Precentor_Morrow_Toll_1
+  - first:
+      213: 8391914504462662768
+    second: Precentor_Morrow_Toll_2
+  - first:
+      213: 194857192073517227
+    second: Precentor_Morrow_Toll_3
+  - first:
+      213: -2933009509590931401
+    second: Precentor_Morrow_Toll_4
+  - first:
+      213: -3917126535166028405
+    second: Precentor_Morrow_Toll_5
+  - first:
+      213: 507963408247523322
+    second: Precentor_Morrow_Toll_6
+  - first:
+      213: 2719288308414496541
+    second: Precentor_Morrow_Toll_7
+  - first:
+      213: -9055400918690564816
+    second: Precentor_Morrow_Toll_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Precentor_Morrow_Toll_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 156
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aecef5acfa085e090800000000000000
+      internalID: -8005851270078272278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Precentor_Morrow_Toll_1
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 156
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c90ea92d66a0200800000000000000
+      internalID: 147042992570539129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Precentor_Morrow_Toll_2
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 156
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07cf1ff87c1167470800000000000000
+      internalID: 8391914504462662768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Precentor_Morrow_Toll_3
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 156
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8d873759544b200800000000000000
+      internalID: 194857192073517227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Precentor_Morrow_Toll_4
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 156
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7386df9046bdb47d0800000000000000
+      internalID: -2933009509590931401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Precentor_Morrow_Toll_5
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 0
+        width: 156
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b851c2b8b2293a9c0800000000000000
+      internalID: -3917126535166028405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Precentor_Morrow_Toll_6
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 0
+        width: 156
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af78d7b4706ac0700800000000000000
+      internalID: 507963408247523322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Precentor_Morrow_Toll_7
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 0
+        width: 156
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f3be02f4adcb520800000000000000
+      internalID: 2719288308414496541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Precentor_Morrow_Toll_8
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 0
+        width: 156
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 035f3be87d0c45280800000000000000
+      internalID: -9055400918690564816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c4d3f4c57bc232343b7554c2802d1d01
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Precentor_Morrow_Toll_0: -8005851270078272278
+      Precentor_Morrow_Toll_1: 147042992570539129
+      Precentor_Morrow_Toll_2: 8391914504462662768
+      Precentor_Morrow_Toll_3: 194857192073517227
+      Precentor_Morrow_Toll_4: -2933009509590931401
+      Precentor_Morrow_Toll_5: -3917126535166028405
+      Precentor_Morrow_Toll_6: 507963408247523322
+      Precentor_Morrow_Toll_7: 2719288308414496541
+      Precentor_Morrow_Toll_8: -9055400918690564816
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

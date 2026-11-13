@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: 2f319cd420a842b9affc4b417fb0c94b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4088751019365743409
+    second: m3_ground_burst_0
+  - first:
+      213: 4370020645283891450
+    second: m3_ground_burst_1
+  - first:
+      213: 2378789559599973462
+    second: m3_ground_burst_2
+  - first:
+      213: 2513435739910830722
+    second: m3_ground_burst_3
+  - first:
+      213: 4126386117928338633
+    second: m3_ground_burst_4
+  - first:
+      213: -524393900176391324
+    second: m3_ground_burst_5
+  - first:
+      213: 328693669873293339
+    second: m3_ground_burst_6
+  - first:
+      213: -1450485571814861735
+    second: m3_ground_burst_7
+  - first:
+      213: -3205444763711294240
+    second: m3_ground_burst_8
+  - first:
+      213: 3659198566011467739
+    second: m3_ground_burst_9
+  - first:
+      213: -1012199096601471720
+    second: m3_ground_burst_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: m3_ground_burst_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.567164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a237bd94da0367b241b54f18eb06d3
+      internalID: -4088751019365743409
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_ground_burst_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.567164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3639381cda0014a5d6ad6335ad58afb3
+      internalID: 4370020645283891450
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_ground_burst_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.567164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e023433e002fe1027f58ada9fd87e90
+      internalID: 2378789559599973462
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_ground_burst_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 80
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.567164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41586c33af8940f69fb27e96f8385f8
+      internalID: 2513435739910830722
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_ground_burst_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.567164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d0e8daa5c3b5ae13d722add9c0a50c
+      internalID: 4126386117928338633
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_ground_burst_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 80
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.567164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0994e37908571811e385e6bc430d503
+      internalID: -524393900176391324
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_ground_burst_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 80
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.567164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a49d7b9a0bbfdd5288c2eeae6390399
+      internalID: 328693669873293339
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_ground_burst_7
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 80
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.567164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49adac36137188b279fcb26e37960184
+      internalID: -1450485571814861735
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_ground_burst_8
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 80
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.567164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed39bd931f682927eeb1e05dd729ca3
+      internalID: -3205444763711294240
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_ground_burst_9
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 80
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.567164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5eb0be98ba4b767beb3641b73f37065
+      internalID: 3659198566011467739
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_ground_burst_10
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 80
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.567164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4380a1609580274a42588acae313492b
+      internalID: -1012199096601471720
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      m3_ground_burst_0: -4088751019365743409
+      m3_ground_burst_1: 4370020645283891450
+      m3_ground_burst_2: 2378789559599973462
+      m3_ground_burst_3: 2513435739910830722
+      m3_ground_burst_4: 4126386117928338633
+      m3_ground_burst_5: -524393900176391324
+      m3_ground_burst_6: 328693669873293339
+      m3_ground_burst_7: -1450485571814861735
+      m3_ground_burst_8: -3205444763711294240
+      m3_ground_burst_9: 3659198566011467739
+      m3_ground_burst_10: -1012199096601471720
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

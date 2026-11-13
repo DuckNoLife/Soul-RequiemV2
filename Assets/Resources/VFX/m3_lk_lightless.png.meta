@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: dc1a25968e994a64a570567647623fd3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2431998141774304681
+    second: m3_lk_lightless_0
+  - first:
+      213: 3862459265711567292
+    second: m3_lk_lightless_1
+  - first:
+      213: 3571998467002638541
+    second: m3_lk_lightless_2
+  - first:
+      213: 2501790659803774749
+    second: m3_lk_lightless_3
+  - first:
+      213: -2356059178350170705
+    second: m3_lk_lightless_4
+  - first:
+      213: 2600582032972074997
+    second: m3_lk_lightless_5
+  - first:
+      213: 4254375115089206815
+    second: m3_lk_lightless_6
+  - first:
+      213: 2605241748932219140
+    second: m3_lk_lightless_7
+  - first:
+      213: 632152941947179794
+    second: m3_lk_lightless_8
+  - first:
+      213: 216107978416393670
+    second: m3_lk_lightless_9
+  - first:
+      213: 367385505891704825
+    second: m3_lk_lightless_10
+  - first:
+      213: -192806298065175882
+    second: m3_lk_lightless_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: m3_lk_lightless_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 163
+        height: 139
+      alignment: 9
+      pivot: {x: 0.5, y: 0.230216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 060c8dafa7d539746f1141a4fcd4426e
+      internalID: 2431998141774304681
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_lk_lightless_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 0
+        width: 163
+        height: 139
+      alignment: 9
+      pivot: {x: 0.5, y: 0.230216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa553397941afc2f0487324bd0130494
+      internalID: 3862459265711567292
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_lk_lightless_2
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 0
+        width: 163
+        height: 139
+      alignment: 9
+      pivot: {x: 0.5, y: 0.230216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd3bad57e24cfefcf34baaff6420dbd
+      internalID: 3571998467002638541
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_lk_lightless_3
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 0
+        width: 163
+        height: 139
+      alignment: 9
+      pivot: {x: 0.5, y: 0.230216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54f865a49f9b7de28b40325b0a219d9
+      internalID: 2501790659803774749
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_lk_lightless_4
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 0
+        width: 163
+        height: 139
+      alignment: 9
+      pivot: {x: 0.5, y: 0.230216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb3e84b4eadb126b3c30edba51cea5c
+      internalID: -2356059178350170705
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_lk_lightless_5
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 0
+        width: 163
+        height: 139
+      alignment: 9
+      pivot: {x: 0.5, y: 0.230216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 912ac2b65689cfe190d80a2f04959924
+      internalID: 2600582032972074997
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_lk_lightless_6
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 0
+        width: 163
+        height: 139
+      alignment: 9
+      pivot: {x: 0.5, y: 0.230216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be3255791a185c0e325d73b1b3cc3c4
+      internalID: 4254375115089206815
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_lk_lightless_7
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 0
+        width: 163
+        height: 139
+      alignment: 9
+      pivot: {x: 0.5, y: 0.230216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca84560c275ebae7f9134dff336d4354
+      internalID: 2605241748932219140
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_lk_lightless_8
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 0
+        width: 163
+        height: 139
+      alignment: 9
+      pivot: {x: 0.5, y: 0.230216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d0921cb292df192e1c8228dce8c7d6
+      internalID: 632152941947179794
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_lk_lightless_9
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 0
+        width: 163
+        height: 139
+      alignment: 9
+      pivot: {x: 0.5, y: 0.230216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a56eca5f99176a4c6e9763f0c6b859
+      internalID: 216107978416393670
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_lk_lightless_10
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 0
+        width: 163
+        height: 139
+      alignment: 9
+      pivot: {x: 0.5, y: 0.230216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0851fbf8acaf75a0e0e6e67312d02e2b
+      internalID: 367385505891704825
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_lk_lightless_11
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 0
+        width: 163
+        height: 139
+      alignment: 9
+      pivot: {x: 0.5, y: 0.230216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305009789d4387b9745a2e3642943415
+      internalID: -192806298065175882
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      m3_lk_lightless_0: 2431998141774304681
+      m3_lk_lightless_1: 3862459265711567292
+      m3_lk_lightless_2: 3571998467002638541
+      m3_lk_lightless_3: 2501790659803774749
+      m3_lk_lightless_4: -2356059178350170705
+      m3_lk_lightless_5: 2600582032972074997
+      m3_lk_lightless_6: 4254375115089206815
+      m3_lk_lightless_7: 2605241748932219140
+      m3_lk_lightless_8: 632152941947179794
+      m3_lk_lightless_9: 216107978416393670
+      m3_lk_lightless_10: 367385505891704825
+      m3_lk_lightless_11: -192806298065175882
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

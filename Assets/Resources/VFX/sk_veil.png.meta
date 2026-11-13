@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: 22fc5c4a5fcb4cdb9df79cddefc0be94
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1702561969372492787
+    second: sk_veil_0
+  - first:
+      213: -3255403216795067889
+    second: sk_veil_1
+  - first:
+      213: 1777144630726544282
+    second: sk_veil_2
+  - first:
+      213: 145982770765271272
+    second: sk_veil_3
+  - first:
+      213: -421986839633805238
+    second: sk_veil_4
+  - first:
+      213: 3740015421585150122
+    second: sk_veil_5
+  - first:
+      213: 3565057733067060078
+    second: sk_veil_6
+  - first:
+      213: -905692912310461327
+    second: sk_veil_7
+  - first:
+      213: 1080462888927204312
+    second: sk_veil_8
+  - first:
+      213: 1692592149527048670
+    second: sk_veil_9
+  - first:
+      213: 4195616237487039505
+    second: sk_veil_10
+  - first:
+      213: 3767354079209572590
+    second: sk_veil_11
+  - first:
+      213: -3938705462448839675
+    second: sk_veil_12
+  - first:
+      213: 4586637040263456606
+    second: sk_veil_13
+  - first:
+      213: 3866497262331523647
+    second: sk_veil_14
+  - first:
+      213: 826377913553486748
+    second: sk_veil_15
+  - first:
+      213: 4468839444362003970
+    second: sk_veil_16
+  - first:
+      213: 1629020426870327660
+    second: sk_veil_17
+  - first:
+      213: 3161061996670696253
+    second: sk_veil_18
+  - first:
+      213: -3832289220568244831
+    second: sk_veil_19
+  - first:
+      213: 4323949095122900977
+    second: sk_veil_20
+  - first:
+      213: -3950835202062181790
+    second: sk_veil_21
+  - first:
+      213: -3736324213448571318
+    second: sk_veil_22
+  - first:
+      213: -1169295861237736509
+    second: sk_veil_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sk_veil_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 54
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.493333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8512a8af98b035986f7acd5107db6db
+      internalID: -1702561969372492787
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_veil_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 54
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.493333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dee7acdad9ccce6efa380a7b9ce1135
+      internalID: -3255403216795067889
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_veil_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 54
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.493333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1d54217f460f1b4063370ab76ef585
+      internalID: 1777144630726544282
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_veil_3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 54
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.493333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3632199dfd3233eec1bd08531cd361df
+      internalID: 145982770765271272
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_veil_4
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 54
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.493333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a1f1293519595f45f6173d50bcfb907
+      internalID: -421986839633805238
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_veil_5
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 54
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.493333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef4a5b270ee63e64fcc08c4c34c7b07
+      internalID: 3740015421585150122
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_veil_6
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 54
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.493333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c0c245ee1913048eacdbb8acaf648a7
+      internalID: 3565057733067060078
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_veil_7
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 0
+        width: 54
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.493333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9ea8fd5b3094f9203c4f377ce5746b
+      internalID: -905692912310461327
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_veil_8
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 54
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.493333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bcc1f1895aca0d77c4528df6735eb3e
+      internalID: 1080462888927204312
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_veil_9
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 0
+        width: 54
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.493333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a97bedf4715df4cabaf1f5b2e64f3b5
+      internalID: 1692592149527048670
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_veil_10
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 54
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.493333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb90e0962456da906d9efa56ac86d4a
+      internalID: 4195616237487039505
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_veil_11
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 0
+        width: 54
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.493333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 719daff3b3a1eedf5c21015c571268a1
+      internalID: 3767354079209572590
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_veil_12
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 0
+        width: 54
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.493333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e6c5818256dd36c45cb6f817198efc
+      internalID: -3938705462448839675
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_veil_13
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 0
+        width: 54
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.493333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753998a3b6299310ad027a24ccb64056
+      internalID: 4586637040263456606
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_veil_14
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 0
+        width: 54
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.493333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f11a4c39a85cad707d56305a542404b
+      internalID: 3866497262331523647
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_veil_15
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 0
+        width: 54
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.493333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eafe71c264928d16f2a0119669b264f
+      internalID: 826377913553486748
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_veil_16
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 54
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.493333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d0e8d4526438c20acef357040d711e
+      internalID: 4468839444362003970
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_veil_17
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 0
+        width: 54
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.493333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe76f392a2eecd5810660276ff50cdb
+      internalID: 1629020426870327660
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_veil_18
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 0
+        width: 54
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.493333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b5e4365706287089ad6719009731d3
+      internalID: 3161061996670696253
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_veil_19
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 0
+        width: 54
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.493333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9f5e06b0ac3acb5df92b2958d2cdef
+      internalID: -3832289220568244831
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_veil_20
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 54
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.493333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80239715b6c1a382f510a64cb6687f54
+      internalID: 4323949095122900977
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_veil_21
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 0
+        width: 54
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.493333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae62cbbc15242a0a7ae0fcbd3dd718b
+      internalID: -3950835202062181790
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_veil_22
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 0
+        width: 54
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.493333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9450be03e309d1fc71d5681ee39b592f
+      internalID: -3736324213448571318
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_veil_23
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 0
+        width: 54
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.493333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258812def80e3e2707712bf6d24bd663
+      internalID: -1169295861237736509
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sk_veil_0: -1702561969372492787
+      sk_veil_1: -3255403216795067889
+      sk_veil_2: 1777144630726544282
+      sk_veil_3: 145982770765271272
+      sk_veil_4: -421986839633805238
+      sk_veil_5: 3740015421585150122
+      sk_veil_6: 3565057733067060078
+      sk_veil_7: -905692912310461327
+      sk_veil_8: 1080462888927204312
+      sk_veil_9: 1692592149527048670
+      sk_veil_10: 4195616237487039505
+      sk_veil_11: 3767354079209572590
+      sk_veil_12: -3938705462448839675
+      sk_veil_13: 4586637040263456606
+      sk_veil_14: 3866497262331523647
+      sk_veil_15: 826377913553486748
+      sk_veil_16: 4468839444362003970
+      sk_veil_17: 1629020426870327660
+      sk_veil_18: 3161061996670696253
+      sk_veil_19: -3832289220568244831
+      sk_veil_20: 4323949095122900977
+      sk_veil_21: -3950835202062181790
+      sk_veil_22: -3736324213448571318
+      sk_veil_23: -1169295861237736509
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

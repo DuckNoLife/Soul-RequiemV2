@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: 068109e01fdf45e99abf95ed7a60d65a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3312930245917943105
+    second: m3_st_silence_0
+  - first:
+      213: 1614166546137889406
+    second: m3_st_silence_1
+  - first:
+      213: -2723696272171165752
+    second: m3_st_silence_2
+  - first:
+      213: -3982291414700207932
+    second: m3_st_silence_3
+  - first:
+      213: 3289821155993260902
+    second: m3_st_silence_4
+  - first:
+      213: -601586261786741494
+    second: m3_st_silence_5
+  - first:
+      213: 64157938958693859
+    second: m3_st_silence_6
+  - first:
+      213: 3220432061830772180
+    second: m3_st_silence_7
+  - first:
+      213: 2218204787393142895
+    second: m3_st_silence_8
+  - first:
+      213: -2864434996227315936
+    second: m3_st_silence_9
+  - first:
+      213: -1290358608592715720
+    second: m3_st_silence_10
+  - first:
+      213: 3928640577259476059
+    second: m3_st_silence_11
+  - first:
+      213: 2732385903170510085
+    second: m3_st_silence_12
+  - first:
+      213: 520392208076542867
+    second: m3_st_silence_13
+  - first:
+      213: -1680847128440461463
+    second: m3_st_silence_14
+  - first:
+      213: 3130545785969906768
+    second: m3_st_silence_15
+  - first:
+      213: 1234712769556317067
+    second: m3_st_silence_16
+  - first:
+      213: -4274016530321810911
+    second: m3_st_silence_17
+  - first:
+      213: -4534196997131305609
+    second: m3_st_silence_18
+  - first:
+      213: -1442239531156186140
+    second: m3_st_silence_19
+  - first:
+      213: -1162375499541317894
+    second: m3_st_silence_20
+  - first:
+      213: -3574656601704112150
+    second: m3_st_silence_21
+  - first:
+      213: 3466169972761079749
+    second: m3_st_silence_22
+  - first:
+      213: 2627959093825546324
+    second: m3_st_silence_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: m3_st_silence_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 43
+        height: 22
+      alignment: 9
+      pivot: {x: 0.488372, y: 0.590909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b5544002c78150f0617e3cc7164129
+      internalID: -3312930245917943105
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_silence_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 0
+        width: 43
+        height: 22
+      alignment: 9
+      pivot: {x: 0.488372, y: 0.590909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc299c53e8a9767f8b960b62f4abee2
+      internalID: 1614166546137889406
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_silence_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 0
+        width: 43
+        height: 22
+      alignment: 9
+      pivot: {x: 0.488372, y: 0.590909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc4976d8bd454889baace0c43bce5fe
+      internalID: -2723696272171165752
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_silence_3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 43
+        height: 22
+      alignment: 9
+      pivot: {x: 0.488372, y: 0.590909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89bd25c6041400f5bdd5a8a9c26f4b6
+      internalID: -3982291414700207932
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_silence_4
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 0
+        width: 43
+        height: 22
+      alignment: 9
+      pivot: {x: 0.488372, y: 0.590909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493a9c51a686a0e845a8c76f46c48878
+      internalID: 3289821155993260902
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_silence_5
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 0
+        width: 43
+        height: 22
+      alignment: 9
+      pivot: {x: 0.488372, y: 0.590909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0365bc6f2c8cf2cfab1cb01969cafc
+      internalID: -601586261786741494
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_silence_6
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 43
+        height: 22
+      alignment: 9
+      pivot: {x: 0.488372, y: 0.590909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8fc53ef27c9fcc7ece03b14658c3d43
+      internalID: 64157938958693859
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_silence_7
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 0
+        width: 43
+        height: 22
+      alignment: 9
+      pivot: {x: 0.488372, y: 0.590909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3edfc3ceba0736e69ea39c0a93ee1528
+      internalID: 3220432061830772180
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_silence_8
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 0
+        width: 43
+        height: 22
+      alignment: 9
+      pivot: {x: 0.488372, y: 0.590909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9214fe336d1718d0aebe64eb972db3
+      internalID: 2218204787393142895
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_silence_9
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 0
+        width: 43
+        height: 22
+      alignment: 9
+      pivot: {x: 0.488372, y: 0.590909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0adb72771c5f9ff459ca04f0861a583
+      internalID: -2864434996227315936
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_silence_10
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 0
+        width: 43
+        height: 22
+      alignment: 9
+      pivot: {x: 0.488372, y: 0.590909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d07f6b11aadd5551b859e7013476f8c
+      internalID: -1290358608592715720
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_silence_11
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 0
+        width: 43
+        height: 22
+      alignment: 9
+      pivot: {x: 0.488372, y: 0.590909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe76474e04218e7c859897d467712bf
+      internalID: 3928640577259476059
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_silence_12
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 0
+        width: 43
+        height: 22
+      alignment: 9
+      pivot: {x: 0.488372, y: 0.590909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3a984d756edff9b3427eb81015d5ae
+      internalID: 2732385903170510085
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_silence_13
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 0
+        width: 43
+        height: 22
+      alignment: 9
+      pivot: {x: 0.488372, y: 0.590909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dab0c5f5f5c186065411fdd645700f0
+      internalID: 520392208076542867
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_silence_14
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 0
+        width: 43
+        height: 22
+      alignment: 9
+      pivot: {x: 0.488372, y: 0.590909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4132170827dab243dcf7582b108931d8
+      internalID: -1680847128440461463
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_silence_15
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 0
+        width: 43
+        height: 22
+      alignment: 9
+      pivot: {x: 0.488372, y: 0.590909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc95e0bc05384de5268e940f62a45258
+      internalID: 3130545785969906768
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_silence_16
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 0
+        width: 43
+        height: 22
+      alignment: 9
+      pivot: {x: 0.488372, y: 0.590909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d596f72f1f87e70eb4a5015ff6195142
+      internalID: 1234712769556317067
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_silence_17
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 0
+        width: 43
+        height: 22
+      alignment: 9
+      pivot: {x: 0.488372, y: 0.590909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641c95a613719ff0da2d61ebbd48100b
+      internalID: -4274016530321810911
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_silence_18
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 0
+        width: 43
+        height: 22
+      alignment: 9
+      pivot: {x: 0.488372, y: 0.590909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5592c85723d87768c82f322f196bef06
+      internalID: -4534196997131305609
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_silence_19
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 0
+        width: 43
+        height: 22
+      alignment: 9
+      pivot: {x: 0.488372, y: 0.590909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44cf6c1d8570d23d886bae3ea8fc9d5
+      internalID: -1442239531156186140
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_silence_20
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 0
+        width: 43
+        height: 22
+      alignment: 9
+      pivot: {x: 0.488372, y: 0.590909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d475f385670eb12b33e3c062e333354a
+      internalID: -1162375499541317894
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_silence_21
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 0
+        width: 43
+        height: 22
+      alignment: 9
+      pivot: {x: 0.488372, y: 0.590909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb973aebb020418f59e7997e9759c62
+      internalID: -3574656601704112150
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_silence_22
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 0
+        width: 43
+        height: 22
+      alignment: 9
+      pivot: {x: 0.488372, y: 0.590909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e491b28052b0db117d64b4b7748d706e
+      internalID: 3466169972761079749
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_silence_23
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 0
+        width: 43
+        height: 22
+      alignment: 9
+      pivot: {x: 0.488372, y: 0.590909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d82f5f06179fe234653a2ecb22ddeb2
+      internalID: 2627959093825546324
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      m3_st_silence_0: -3312930245917943105
+      m3_st_silence_1: 1614166546137889406
+      m3_st_silence_2: -2723696272171165752
+      m3_st_silence_3: -3982291414700207932
+      m3_st_silence_4: 3289821155993260902
+      m3_st_silence_5: -601586261786741494
+      m3_st_silence_6: 64157938958693859
+      m3_st_silence_7: 3220432061830772180
+      m3_st_silence_8: 2218204787393142895
+      m3_st_silence_9: -2864434996227315936
+      m3_st_silence_10: -1290358608592715720
+      m3_st_silence_11: 3928640577259476059
+      m3_st_silence_12: 2732385903170510085
+      m3_st_silence_13: 520392208076542867
+      m3_st_silence_14: -1680847128440461463
+      m3_st_silence_15: 3130545785969906768
+      m3_st_silence_16: 1234712769556317067
+      m3_st_silence_17: -4274016530321810911
+      m3_st_silence_18: -4534196997131305609
+      m3_st_silence_19: -1442239531156186140
+      m3_st_silence_20: -1162375499541317894
+      m3_st_silence_21: -3574656601704112150
+      m3_st_silence_22: 3466169972761079749
+      m3_st_silence_23: 2627959093825546324
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

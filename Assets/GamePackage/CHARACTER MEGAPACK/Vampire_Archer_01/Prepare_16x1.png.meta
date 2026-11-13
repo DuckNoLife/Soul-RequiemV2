@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: b25e393fa86a0854486fe039271ab3c0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9190410056613509685
+    second: Prepare_16x1_0
+  - first:
+      213: -553319772120312693
+    second: Prepare_16x1_1
+  - first:
+      213: 456515988303387832
+    second: Prepare_16x1_2
+  - first:
+      213: -5257607850754888287
+    second: Prepare_16x1_3
+  - first:
+      213: -4725668901950495901
+    second: Prepare_16x1_4
+  - first:
+      213: 7744485711293206618
+    second: Prepare_16x1_5
+  - first:
+      213: -8883799424093977858
+    second: Prepare_16x1_6
+  - first:
+      213: -4308610525046999069
+    second: Prepare_16x1_7
+  - first:
+      213: 2413807118371863579
+    second: Prepare_16x1_8
+  - first:
+      213: -8574571642789464165
+    second: Prepare_16x1_9
+  - first:
+      213: 3568006138234883289
+    second: Prepare_16x1_10
+  - first:
+      213: 6347222120898047066
+    second: Prepare_16x1_11
+  - first:
+      213: -556977378926879493
+    second: Prepare_16x1_12
+  - first:
+      213: 7576481761238526958
+    second: Prepare_16x1_13
+  - first:
+      213: -7039487357500984862
+    second: Prepare_16x1_14
+  - first:
+      213: 463745939207601187
+    second: Prepare_16x1_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Prepare_16x1_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5cf531fba157080800000000000000
+      internalID: -9190410056613509685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_16x1_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 0
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84919f49963258f0800000000000000
+      internalID: -553319772120312693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_16x1_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 0
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc1c156fded55600800000000000000
+      internalID: 456515988303387832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_16x1_3
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 0
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad237704893907b0800000000000000
+      internalID: -5257607850754888287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_16x1_4
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363612ddb2d0b6eb0800000000000000
+      internalID: -4725668901950495901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_16x1_5
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 0
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5058bde8b0f97b60800000000000000
+      internalID: 7744485711293206618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_16x1_6
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef20f0ffd7766b480800000000000000
+      internalID: -8883799424093977858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_16x1_7
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 0
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e770133e8db434c0800000000000000
+      internalID: -4308610525046999069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_16x1_8
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c3dd609c09f7120800000000000000
+      internalID: 2413807118371863579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_16x1_9
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 0
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97756a5580010980800000000000000
+      internalID: -8574571642789464165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_16x1_10
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 0
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc47e9bdaa148130800000000000000
+      internalID: 3568006138234883289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_16x1_11
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 0
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c21a2d3ecd51850800000000000000
+      internalID: 6347222120898047066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_16x1_12
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 0
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc922d56083548f0800000000000000
+      internalID: -556977378926879493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_16x1_13
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 0
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb29d91502152960800000000000000
+      internalID: 7576481761238526958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_16x1_14
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 0
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1fc4f8b87be4e90800000000000000
+      internalID: -7039487357500984862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_16x1_15
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 0
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32cbf74897e8f6600800000000000000
+      internalID: 463745939207601187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Prepare_16x1_0: -9190410056613509685
+      Prepare_16x1_1: -553319772120312693
+      Prepare_16x1_10: 3568006138234883289
+      Prepare_16x1_11: 6347222120898047066
+      Prepare_16x1_12: -556977378926879493
+      Prepare_16x1_13: 7576481761238526958
+      Prepare_16x1_14: -7039487357500984862
+      Prepare_16x1_15: 463745939207601187
+      Prepare_16x1_2: 456515988303387832
+      Prepare_16x1_3: -5257607850754888287
+      Prepare_16x1_4: -4725668901950495901
+      Prepare_16x1_5: 7744485711293206618
+      Prepare_16x1_6: -8883799424093977858
+      Prepare_16x1_7: -4308610525046999069
+      Prepare_16x1_8: 2413807118371863579
+      Prepare_16x1_9: -8574571642789464165
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

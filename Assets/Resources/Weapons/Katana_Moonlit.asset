@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc669ea7b8d44e6bb40a46af73e7651e, type: 3}
+  m_Name: Katana_Moonlit
+  m_EditorClassIdentifier: 
+  id: katana_moonlit
+  displayName: Moonlit Edge
+  description: Folded under a lantern that never went out. The temper line keeps a little of that light - quick in the hand.
+  epithet: Relic of the Ascended - kept lit for a thousand years
+  lore: "They folded it under the vigil lamp in the years when the Choir still called itself a church of mercy, and the lamp was not allowed to go out while the steel was in the fire. Fifteen nights; fifteen men taking turns at the bellows and the wick.\n\nWhen the Requiem came, the relic went down into the Undercity instead of being surrendered, and the brothers who carried it did not come back up. Malric's wardens found it on their bones, and found what it does to a thing made of Ether - what it cuts, it holds still. They drove it into the Sleeper's chest, and the Sleeper slept. The vigil lamp in the Reliquary is still burning over an empty place.\n\nThe temper line keeps a little of that light. It will keep it for you too - for exactly as long as you are not bleeding."
+  foundAt: The Containment Vault - fallen from the Sleeper's chest
+  icon: {fileID: 0}
+  showcase: {fileID: 21300000, guid: ad5d42578d5c405b9b1e68123d5275e8, type: 3}
+  design: {fileID: 2800000, guid: 3b572bf7659743cbb3a7c71d5d8db98c, type: 3}
+  glowTint: {r: 0.55, g: 0.9, b: 1.3, a: 1}
+  glow: 1
+  swingGlowBoost: 3
+  trailColor: {r: 0.55, g: 0.85, b: 1, a: 1}
+  slashStyle: moonlit
+  comboWindow: 0.36
+  finisherRecovery: 0.25
+  combo:
+  - name: Kesa Cut
+    damage: 14
+    range: 0.75
+    arcDegrees: 140
+    knockback: 1.4
+    hitFrame: 3
+    cancelFrame: 6
+    fps: 15
+    impact: 1
+    flipTrail: 0
+    trailScale: 1
+    thrust: 0
+  - name: Rising Cut
+    damage: 14
+    range: 0.75
+    arcDegrees: 140
+    knockback: 1.4
+    hitFrame: 3
+    cancelFrame: 6
+    fps: 15
+    impact: 1
+    flipTrail: 1
+    trailScale: 1
+    thrust: 0
+  - name: Horizontal Sweep
+    damage: 23
+    range: 0.9
+    arcDegrees: 170
+    knockback: 3.2
+    hitFrame: 3
+    cancelFrame: 7
+    fps: 14
+    impact: 1.5
+    flipTrail: 0
+    trailScale: 1.2
+    thrust: 0
+  trait:
+    kind: 2
+    title: Vigil
+    text: "Go five seconds without being hit and the edge takes light: +15% cut damage, and the blade shows it plainly. One hit puts it out."
+    window: 5.0
+    bonus: 0.15
+    leech: 0
+    threshold: 0

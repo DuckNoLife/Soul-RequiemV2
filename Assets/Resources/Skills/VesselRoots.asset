@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6662a979fec4f3e4d5aa0bd50436661a, type: 3}
+  m_Name: VesselRoots
+  m_EditorClassIdentifier: 
+  id: vessel_roots
+  displayName: Grasping Roots
+  description: 'Stamp the floor and the Vessel''s roots burst up in a line toward your aim. Every foe they catch is held fast and left Bound for two seconds - even the great ones, who cannot be held but cannot shake the roots. The Vessel mantras are bound together: they take all three sockets.'
+  icon: {fileID: 0}
+  iconName: ic_vessel_roots_bind
+  accent: {r: 0.78, g: 0.5, b: 1, a: 1}
+  cooldown: 9
+  unlockedAtStart: 0
+  setId: vessel
+  setSlot: 0
+  setName: Mantras of the Vessel
+  setDescription: 'What slept in the vault is broken, and its hunger now answers to you. Grasping Roots, Hand of the Vessel and Requiem Wail come as one and take all three sockets: drag the dead in, bind them and crush them - but they give you no shield.'
+  length: 2.4
+  spacing: 0.36
+  stepDelay: 0.06
+  startDelay: 0.28
+  damage: 30
+  hitRadius: 0.36
+  rootTime: 1.4
+  castLock: 0.5
+  rootScale: 0.75
+  boundTime: 2

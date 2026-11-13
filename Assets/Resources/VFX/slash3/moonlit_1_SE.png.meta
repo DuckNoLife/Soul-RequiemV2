@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: d417eb4bcb11599a93ca36b84752f9ef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2919052839270226191
+    second: moonlit_1_SE_0
+  - first:
+      213: 4597512428419306629
+    second: moonlit_1_SE_1
+  - first:
+      213: 3703315761384730295
+    second: moonlit_1_SE_2
+  - first:
+      213: 1748212571282535006
+    second: moonlit_1_SE_3
+  - first:
+      213: 2659947279437666644
+    second: moonlit_1_SE_4
+  - first:
+      213: 1455144011282942405
+    second: moonlit_1_SE_5
+  - first:
+      213: 889941200481809517
+    second: moonlit_1_SE_6
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 4096
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: moonlit_1_SE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 87
+        height: 121
+      alignment: 9
+      pivot: {x: 0.015114, y: 0.016529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79859f4bae8c5bba91b2b3168ff9562e
+      internalID: 2919052839270226191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moonlit_1_SE_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 0
+        width: 87
+        height: 121
+      alignment: 9
+      pivot: {x: 0.015114, y: 0.016529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd3949db5c5b57acb6be7b1e82e5e982
+      internalID: 4597512428419306629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moonlit_1_SE_2
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 0
+        width: 87
+        height: 121
+      alignment: 9
+      pivot: {x: 0.015114, y: 0.016529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a72d77237c1526db8ec90ca961c0c6d
+      internalID: 3703315761384730295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moonlit_1_SE_3
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 0
+        width: 87
+        height: 121
+      alignment: 9
+      pivot: {x: 0.015114, y: 0.016529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514f749e8b44510bad36cb05bb19f140
+      internalID: 1748212571282535006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moonlit_1_SE_4
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 0
+        width: 87
+        height: 121
+      alignment: 9
+      pivot: {x: 0.015114, y: 0.016529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976e5496b3f55ab680bc67e2be31b7b6
+      internalID: 2659947279437666644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moonlit_1_SE_5
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 0
+        width: 87
+        height: 121
+      alignment: 9
+      pivot: {x: 0.015114, y: 0.016529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8486b61535fc52379de32273bdedf2d8
+      internalID: 1455144011282942405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moonlit_1_SE_6
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 0
+        width: 87
+        height: 121
+      alignment: 9
+      pivot: {x: 0.015114, y: 0.016529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d708bd95ddd255778f69718618759f55
+      internalID: 889941200481809517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      moonlit_1_SE_0: 2919052839270226191
+      moonlit_1_SE_1: 4597512428419306629
+      moonlit_1_SE_2: 3703315761384730295
+      moonlit_1_SE_3: 1748212571282535006
+      moonlit_1_SE_4: 2659947279437666644
+      moonlit_1_SE_5: 1455144011282942405
+      moonlit_1_SE_6: 889941200481809517
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

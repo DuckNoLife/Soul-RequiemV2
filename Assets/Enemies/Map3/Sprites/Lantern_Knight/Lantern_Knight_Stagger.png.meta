@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 756c141a0768c84409ca23b1e6bb6914
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3179922459718948520
+    second: Lantern_Knight_Stagger_0
+  - first:
+      213: 7981726296206546309
+    second: Lantern_Knight_Stagger_1
+  - first:
+      213: 373229255466869450
+    second: Lantern_Knight_Stagger_2
+  - first:
+      213: 2011551233200430827
+    second: Lantern_Knight_Stagger_3
+  - first:
+      213: 2644570861537751868
+    second: Lantern_Knight_Stagger_4
+  - first:
+      213: -3473059354021478757
+    second: Lantern_Knight_Stagger_5
+  - first:
+      213: -4518245455730324529
+    second: Lantern_Knight_Stagger_6
+  - first:
+      213: 1816173919495847212
+    second: Lantern_Knight_Stagger_7
+  - first:
+      213: 4232291442780583813
+    second: Lantern_Knight_Stagger_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lantern_Knight_Stagger_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a695d011aa512c20800000000000000
+      internalID: 3179922459718948520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_Knight_Stagger_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58519c307c9c4ce60800000000000000
+      internalID: 7981726296206546309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_Knight_Stagger_2
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2e2e7c70afd2500800000000000000
+      internalID: 373229255466869450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_Knight_Stagger_3
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee196e50377aeb10800000000000000
+      internalID: 2011551233200430827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_Knight_Stagger_4
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c337e41ef2763b420800000000000000
+      internalID: 2644570861537751868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_Knight_Stagger_5
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9eb3b72be63dcfc0800000000000000
+      internalID: -3473059354021478757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_Knight_Stagger_6
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbcb2b52b7fb41c0800000000000000
+      internalID: -4518245455730324529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_Knight_Stagger_7
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2df0e9ae88543910800000000000000
+      internalID: 1816173919495847212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_Knight_Stagger_8
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587bcd0c4ae1cba30800000000000000
+      internalID: 4232291442780583813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4eaf9fca1608ee5488bb063f497b7c31
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Lantern_Knight_Stagger_0: 3179922459718948520
+      Lantern_Knight_Stagger_1: 7981726296206546309
+      Lantern_Knight_Stagger_2: 373229255466869450
+      Lantern_Knight_Stagger_3: 2011551233200430827
+      Lantern_Knight_Stagger_4: 2644570861537751868
+      Lantern_Knight_Stagger_5: -3473059354021478757
+      Lantern_Knight_Stagger_6: -4518245455730324529
+      Lantern_Knight_Stagger_7: 1816173919495847212
+      Lantern_Knight_Stagger_8: 4232291442780583813
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

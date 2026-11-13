@@ -1,0 +1,328 @@
+fileFormatVersion: 2
+guid: fd37b0f06cfaa3741b23540765683487
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 67408298948507362
+    second: Lantern_Knight_Move_S_0
+  - first:
+      213: 1349490326813254307
+    second: Lantern_Knight_Move_S_1
+  - first:
+      213: 4029177706969271277
+    second: Lantern_Knight_Move_S_2
+  - first:
+      213: -9138001652731928827
+    second: Lantern_Knight_Move_S_3
+  - first:
+      213: 8623472445265881872
+    second: Lantern_Knight_Move_S_4
+  - first:
+      213: -1086398261276821752
+    second: Lantern_Knight_Move_S_5
+  - first:
+      213: 4352781775856362088
+    second: Lantern_Knight_Move_S_6
+  - first:
+      213: -7655565641957498603
+    second: Lantern_Knight_Move_S_7
+  - first:
+      213: 8844313192783090699
+    second: Lantern_Knight_Move_S_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lantern_Knight_Move_S_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e63db1ad7b7fe000800000000000000
+      internalID: 67408298948507362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_Knight_Move_S_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2a7856d4a5ab210800000000000000
+      internalID: 1349490326813254307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_Knight_Move_S_2
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb83d8e6c38ae730800000000000000
+      internalID: 4029177706969271277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_Knight_Move_S_3
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f1bfb79eb4f2180800000000000000
+      internalID: -9138001652731928827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_Knight_Move_S_4
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b2176ff7abca770800000000000000
+      internalID: 8623472445265881872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_Knight_Move_S_5
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8073eff89865ce0f0800000000000000
+      internalID: -1086398261276821752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_Knight_Move_S_6
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86266be86ff286c30800000000000000
+      internalID: 4352781775856362088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_Knight_Move_S_7
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511207c0c97f1c590800000000000000
+      internalID: -7655565641957498603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 44b2a7f800cf1234a83184ad2e7573d7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Lantern_Knight_Move_S_0: 67408298948507362
+      Lantern_Knight_Move_S_1: 1349490326813254307
+      Lantern_Knight_Move_S_2: 4029177706969271277
+      Lantern_Knight_Move_S_3: -9138001652731928827
+      Lantern_Knight_Move_S_4: 8623472445265881872
+      Lantern_Knight_Move_S_5: -1086398261276821752
+      Lantern_Knight_Move_S_6: 4352781775856362088
+      Lantern_Knight_Move_S_7: -7655565641957498603
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

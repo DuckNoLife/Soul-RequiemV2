@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: d40d5859867a4164ba92a50e7744240f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4333536212906570169
+    second: m3_death_soul_0
+  - first:
+      213: -2587514209365225757
+    second: m3_death_soul_1
+  - first:
+      213: 4512489373894536372
+    second: m3_death_soul_2
+  - first:
+      213: 2971370412899982176
+    second: m3_death_soul_3
+  - first:
+      213: 3899643589000993754
+    second: m3_death_soul_4
+  - first:
+      213: -4551860572080066879
+    second: m3_death_soul_5
+  - first:
+      213: 550022030221284040
+    second: m3_death_soul_6
+  - first:
+      213: -1622697318989328823
+    second: m3_death_soul_7
+  - first:
+      213: -276373113670494467
+    second: m3_death_soul_8
+  - first:
+      213: 4447906266870839062
+    second: m3_death_soul_9
+  - first:
+      213: -3884552313501565409
+    second: m3_death_soul_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: m3_death_soul_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 42
+        height: 87
+      alignment: 9
+      pivot: {x: 0.52381, y: 0.126437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac7afe807c6e79420df17f0bdf98a3e
+      internalID: 4333536212906570169
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_death_soul_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 42
+        height: 87
+      alignment: 9
+      pivot: {x: 0.52381, y: 0.126437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44f5e0a045685af1a5d4f850e2c491e
+      internalID: -2587514209365225757
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_death_soul_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 42
+        height: 87
+      alignment: 9
+      pivot: {x: 0.52381, y: 0.126437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a687328bd5c6de837ed3e6fef3667d
+      internalID: 4512489373894536372
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_death_soul_3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 42
+        height: 87
+      alignment: 9
+      pivot: {x: 0.52381, y: 0.126437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6800d2e1b3fac80666afe12bac57bdf5
+      internalID: 2971370412899982176
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_death_soul_4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 42
+        height: 87
+      alignment: 9
+      pivot: {x: 0.52381, y: 0.126437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a58ccd98106ca40dcd5669a720560d
+      internalID: 3899643589000993754
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_death_soul_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 42
+        height: 87
+      alignment: 9
+      pivot: {x: 0.52381, y: 0.126437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075d0a1236092f661884f4937b56daa0
+      internalID: -4551860572080066879
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_death_soul_6
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 42
+        height: 87
+      alignment: 9
+      pivot: {x: 0.52381, y: 0.126437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994acd05b41672535f7a520de7c7ffef
+      internalID: 550022030221284040
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_death_soul_7
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0
+        width: 42
+        height: 87
+      alignment: 9
+      pivot: {x: 0.52381, y: 0.126437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf88a82737f9e2a681d2f36ad7c4e543
+      internalID: -1622697318989328823
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_death_soul_8
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 42
+        height: 87
+      alignment: 9
+      pivot: {x: 0.52381, y: 0.126437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77c0a59ad05f4ef1fd9e0b6a2eea0c3
+      internalID: -276373113670494467
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_death_soul_9
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 0
+        width: 42
+        height: 87
+      alignment: 9
+      pivot: {x: 0.52381, y: 0.126437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a04bcc4251a710f5504f13288957ea
+      internalID: 4447906266870839062
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_death_soul_10
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 42
+        height: 87
+      alignment: 9
+      pivot: {x: 0.52381, y: 0.126437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550630466dc8bb955f3fcbef6594dab1
+      internalID: -3884552313501565409
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      m3_death_soul_0: 4333536212906570169
+      m3_death_soul_1: -2587514209365225757
+      m3_death_soul_2: 4512489373894536372
+      m3_death_soul_3: 2971370412899982176
+      m3_death_soul_4: 3899643589000993754
+      m3_death_soul_5: -4551860572080066879
+      m3_death_soul_6: 550022030221284040
+      m3_death_soul_7: -1622697318989328823
+      m3_death_soul_8: -276373113670494467
+      m3_death_soul_9: 4447906266870839062
+      m3_death_soul_10: -3884552313501565409
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c8b8256af307e0fa66d1ba4128d461, type: 3}
+  m_Name: SeveringDraw
+  m_EditorClassIdentifier: 
+  id: sever_draw
+  displayName: Severing Draw
+  description: Dash toward your aim and draw in one stroke, cutting every foe in your path. Nothing touches you mid-dash, but you pause to sheathe at the end.
+  icon: {fileID: 0}
+  iconName: ic_mantra_draw
+  accent: {r: 0.86, g: 0.9, b: 1, a: 1}
+  cooldown: 6
+  unlockedAtStart: 0
+  setId: 
+  setSlot: -1
+  setName: 
+  setDescription: 
+  distance: 1.6
+  dashTime: 0.16
+  damage: 32
+  hitWidth: 0.5
+  knockback: 1.2
+  recover: 0.3
+  bodyRadius: 0.13
+  vfx: sk_draw
+  vfxLength: 113

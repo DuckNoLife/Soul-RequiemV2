@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4107c2a33b693779f9e71b07c46788, type: 3}
+  m_Name: Riposte
+  m_EditorClassIdentifier: 
+  id: riposte
+  displayName: Riposte
+  description: 'Take a guard for a heartbeat. The first blow struck at you up close is turned aside and answered with a cut that stuns; against a foe too great to stun, the cut lands half again as hard. Arrows and bolts are not stopped. A clean parry returns half the cooldown; guarding at nothing leaves you open.'
+  icon: {fileID: 0}
+  iconName: ic_mantra_riposte
+  accent: {r: 1, g: 0.85, b: 0.45, a: 1}
+  cooldown: 8
+  unlockedAtStart: 0
+  setId: 
+  setSlot: -1
+  setName: 
+  setDescription: 
+  window: 0.45
+  counterDamage: 60
+  counterRadius: 0.55
+  stun: 1.2
+  refund: 0.5
+  whiffLock: 0.35
+  safeAfter: 0.3
+  reach: 1.8
+  vfx: sk_riposte
+  bossCounterMul: 1.5

@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: 498055dece604457b772241079acb142
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3731036353263097855
+    second: m3_sap_communion_0
+  - first:
+      213: 225972239234835891
+    second: m3_sap_communion_1
+  - first:
+      213: 3909377956485871510
+    second: m3_sap_communion_2
+  - first:
+      213: -2382176869381463561
+    second: m3_sap_communion_3
+  - first:
+      213: -506293334618962299
+    second: m3_sap_communion_4
+  - first:
+      213: -1241845049316674151
+    second: m3_sap_communion_5
+  - first:
+      213: 3578718529183940731
+    second: m3_sap_communion_6
+  - first:
+      213: -1668960299499957935
+    second: m3_sap_communion_7
+  - first:
+      213: 1800427063420739445
+    second: m3_sap_communion_8
+  - first:
+      213: -2966347406578327411
+    second: m3_sap_communion_9
+  - first:
+      213: -1723771350875766118
+    second: m3_sap_communion_10
+  - first:
+      213: 4158046603562956215
+    second: m3_sap_communion_11
+  - first:
+      213: -2098376727736942334
+    second: m3_sap_communion_12
+  - first:
+      213: 965425430422532345
+    second: m3_sap_communion_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: m3_sap_communion_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 54
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.179104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4eb61b12252e30c67fe4d37c21e5060
+      internalID: 3731036353263097855
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_sap_communion_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 54
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.179104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94746c3dfb280c83c6fbb76aa2c9db6d
+      internalID: 225972239234835891
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_sap_communion_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 54
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.179104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c3ed9ad9917368a5e0db238e4e2a91
+      internalID: 3909377956485871510
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_sap_communion_3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 54
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.179104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f689d66aadf61e5aafc05fece3f2519
+      internalID: -2382176869381463561
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_sap_communion_4
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 54
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.179104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80efea19b4ad7703daeb6380367dc333
+      internalID: -506293334618962299
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_sap_communion_5
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 54
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.179104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ace4ef980cfcd136602cee09033ab90
+      internalID: -1241845049316674151
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_sap_communion_6
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 54
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.179104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1cd1260e3b97ba76f9641ea6e592f65
+      internalID: 3578718529183940731
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_sap_communion_7
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 0
+        width: 54
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.179104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b4bf8d8b186eb6e5900309d50dccf6
+      internalID: -1668960299499957935
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_sap_communion_8
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 54
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.179104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c69ce5e0c06c85659cb9f026e7715c2e
+      internalID: 1800427063420739445
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_sap_communion_9
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 0
+        width: 54
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.179104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a20d20dc78d8719f243a00730224f723
+      internalID: -2966347406578327411
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_sap_communion_10
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 54
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.179104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd164b1b4404bdf9879c1e88995541b
+      internalID: -1723771350875766118
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_sap_communion_11
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 0
+        width: 54
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.179104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3278980478bc139067f7e83ca96316cf
+      internalID: 4158046603562956215
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_sap_communion_12
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 0
+        width: 54
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.179104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49538619162009594cd4f358db1edb7c
+      internalID: -2098376727736942334
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_sap_communion_13
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 0
+        width: 54
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.179104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8a09b92a7861e77129b20e28bc5dc4
+      internalID: 965425430422532345
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      m3_sap_communion_0: 3731036353263097855
+      m3_sap_communion_1: 225972239234835891
+      m3_sap_communion_2: 3909377956485871510
+      m3_sap_communion_3: -2382176869381463561
+      m3_sap_communion_4: -506293334618962299
+      m3_sap_communion_5: -1241845049316674151
+      m3_sap_communion_6: 3578718529183940731
+      m3_sap_communion_7: -1668960299499957935
+      m3_sap_communion_8: 1800427063420739445
+      m3_sap_communion_9: -2966347406578327411
+      m3_sap_communion_10: -1723771350875766118
+      m3_sap_communion_11: 4158046603562956215
+      m3_sap_communion_12: -2098376727736942334
+      m3_sap_communion_13: 965425430422532345
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

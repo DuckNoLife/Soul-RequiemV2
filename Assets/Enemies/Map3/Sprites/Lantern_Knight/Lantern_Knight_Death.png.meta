@@ -1,0 +1,449 @@
+fileFormatVersion: 2
+guid: 164f6773945336d449d0a1738de6e4e8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2310804060550720015
+    second: Lantern_Knight_Death_0
+  - first:
+      213: 273475596784574210
+    second: Lantern_Knight_Death_1
+  - first:
+      213: -4467458242955267602
+    second: Lantern_Knight_Death_2
+  - first:
+      213: 6432580409748423954
+    second: Lantern_Knight_Death_3
+  - first:
+      213: -6980402916412693787
+    second: Lantern_Knight_Death_4
+  - first:
+      213: 3105025788832010020
+    second: Lantern_Knight_Death_5
+  - first:
+      213: 7060457438124220596
+    second: Lantern_Knight_Death_6
+  - first:
+      213: 6245473847352534184
+    second: Lantern_Knight_Death_7
+  - first:
+      213: 498203505466131397
+    second: Lantern_Knight_Death_8
+  - first:
+      213: 8445109257357400479
+    second: Lantern_Knight_Death_9
+  - first:
+      213: 4243945272422985983
+    second: Lantern_Knight_Death_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lantern_Knight_Death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ae7a6cc00a11020800000000000000
+      internalID: 2310804060550720015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_Knight_Death_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f15193b949bc300800000000000000
+      internalID: 273475596784574210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_Knight_Death_2
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1b2cbc5666002c0800000000000000
+      internalID: -4467458242955267602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_Knight_Death_3
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21501382dcd154950800000000000000
+      internalID: 6432580409748423954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_Knight_Death_4
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2ee120880a02f90800000000000000
+      internalID: -6980402916412693787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_Knight_Death_5
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f42c9f084471b20800000000000000
+      internalID: 3105025788832010020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_Knight_Death_6
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0a82fc1a8cbf160800000000000000
+      internalID: 7060457438124220596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_Knight_Death_7
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4a07dcf516ca650800000000000000
+      internalID: 6245473847352534184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_Knight_Death_8
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3c929d279f9e600800000000000000
+      internalID: 498203505466131397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_Knight_Death_9
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99962e102e033570800000000000000
+      internalID: 8445109257357400479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_Knight_Death_10
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff078f86db585ea30800000000000000
+      internalID: 4243945272422985983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_Knight_Death_11
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f979c3c4d391aad4cbe83f2830c9d9dc
+      internalID: -709882015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lantern_Knight_Death_12
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 0
+        width: 176
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896787f4966c8d344bd140bb7db4b682
+      internalID: 679261122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: aaa25c13e802e9f4090852947cd925fb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Lantern_Knight_Death_0: 2310804060550720015
+      Lantern_Knight_Death_1: 273475596784574210
+      Lantern_Knight_Death_10: 4243945272422985983
+      Lantern_Knight_Death_11: -709882015
+      Lantern_Knight_Death_12: 679261122
+      Lantern_Knight_Death_2: -4467458242955267602
+      Lantern_Knight_Death_3: 6432580409748423954
+      Lantern_Knight_Death_4: -6980402916412693787
+      Lantern_Knight_Death_5: 3105025788832010020
+      Lantern_Knight_Death_6: 7060457438124220596
+      Lantern_Knight_Death_7: 6245473847352534184
+      Lantern_Knight_Death_8: 498203505466131397
+      Lantern_Knight_Death_9: 8445109257357400479
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

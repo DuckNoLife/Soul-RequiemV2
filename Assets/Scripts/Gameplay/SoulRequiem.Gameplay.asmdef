@@ -1,0 +1,21 @@
+{
+    "name": "SoulRequiem.Gameplay",
+    "rootNamespace": "SoulRequiem.Gameplay",
+    "references": [
+        "SoulRequiem.Core",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.RenderPipelines.Universal.2D.Runtime",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.InputSystem",
+        "SuperTiled2Unity"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,133 @@
+{
+ "ppt": 4,
+ "hidden": [],
+ "steps": [
+  {
+   "title": "Find a way out of the Undercity",
+   "done": "r2_cleared",
+   "targets": [
+    {
+     "label": "Gallery of Arches",
+     "x": 60,
+     "y": 19,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Cross the Ether Well - follow the cold air east",
+   "done": "r3_cleared",
+   "targets": [
+    {
+     "label": "The Ether Well",
+     "x": 59,
+     "y": 36,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Reach the Sluice Hall",
+   "done": "r4_started",
+   "targets": [
+    {
+     "label": "Sluice Hall",
+     "x": 52.5,
+     "y": 58.4,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Find the way out - east of the Sluice Hall",
+   "done": "eye_glimpsed|cistern_note_read|pump_key|ichor_diverted",
+   "targets": [
+    {
+     "label": "Cistern Gate",
+     "x": 88.6,
+     "y": 53.5,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Search the cistern",
+   "done": "cistern_note_read|pump_key|ichor_diverted",
+   "targets": [
+    {
+     "label": "A page by the old converter",
+     "x": 121.4,
+     "y": 50.6,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Open the Pump Room - find what it takes",
+   "done": "lever_handle,pump_key",
+   "targets": [
+    {
+     "label": "Malric's Laboratory - the crank",
+     "x": 13.6,
+     "y": 37.2,
+     "done": "lever_handle",
+     "check": "Malric's crank - the Laboratory"
+    },
+    {
+     "label": "Boiler Room - the Vat Hall key",
+     "x": 110.5,
+     "y": 89.5,
+     "done": "vat_key|pump_key",
+     "check": "Vat Hall key - Brakk, Boiler Room"
+    },
+    {
+     "label": "Culture Hall - the Pump Room key",
+     "x": 17,
+     "y": 88.4,
+     "done": "pump_key",
+     "pre": "vat_key",
+     "preLabel": "Boiler Room - the Vat Hall key",
+     "preX": 110.5,
+     "preY": 89.5,
+     "check": "Pump Room key - Culture Hall"
+    }
+   ]
+  },
+  {
+   "title": "Drain the cistern at the Pump Control",
+   "done": "ichor_diverted",
+   "targets": [
+    {
+     "label": "Pump Control",
+     "x": 60.2,
+     "y": 69.5,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Get past the Plague Eye",
+   "done": "r8_cleared",
+   "targets": [
+    {
+     "label": "The Eye's Cistern",
+     "x": 107.5,
+     "y": 45,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Climb out through the outflow",
+   "done": "never",
+   "targets": [
+    {
+     "label": "The outflow",
+     "x": 107.4,
+     "y": 29,
+     "done": ""
+    }
+   ]
+  }
+ ]
+}

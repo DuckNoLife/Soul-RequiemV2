@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: 4e47178cf7ef4cc983933c2060294367
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 539842862888942930
+    second: m3_choir_lance_0
+  - first:
+      213: 498228309399629425
+    second: m3_choir_lance_1
+  - first:
+      213: 3783436312468139116
+    second: m3_choir_lance_2
+  - first:
+      213: -4424908045746433413
+    second: m3_choir_lance_3
+  - first:
+      213: -4333923280926600060
+    second: m3_choir_lance_4
+  - first:
+      213: -844844419893873257
+    second: m3_choir_lance_5
+  - first:
+      213: 982628527388136707
+    second: m3_choir_lance_6
+  - first:
+      213: 1430880567513121584
+    second: m3_choir_lance_7
+  - first:
+      213: -3758799950365982038
+    second: m3_choir_lance_8
+  - first:
+      213: 44993788753240498
+    second: m3_choir_lance_9
+  - first:
+      213: 352544248529046838
+    second: m3_choir_lance_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: m3_choir_lance_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 68
+        height: 118
+      alignment: 9
+      pivot: {x: 0.5, y: 0.118644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2593770aa87df0c072e231593648505d
+      internalID: 539842862888942930
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_choir_lance_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 68
+        height: 118
+      alignment: 9
+      pivot: {x: 0.5, y: 0.118644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a1c9c662b31f46c541f6d0f2bd44664
+      internalID: 498228309399629425
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_choir_lance_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 68
+        height: 118
+      alignment: 9
+      pivot: {x: 0.5, y: 0.118644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784356fa0834d5a1ad3cb8043fa79c78
+      internalID: 3783436312468139116
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_choir_lance_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 68
+        height: 118
+      alignment: 9
+      pivot: {x: 0.5, y: 0.118644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f7c37c5fb92b8a310f1ecc977ffda8
+      internalID: -4424908045746433413
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_choir_lance_4
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 68
+        height: 118
+      alignment: 9
+      pivot: {x: 0.5, y: 0.118644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c026be655909aa39110de7b04759b25c
+      internalID: -4333923280926600060
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_choir_lance_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 68
+        height: 118
+      alignment: 9
+      pivot: {x: 0.5, y: 0.118644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a8e047f7c287c17ee186e0f858bf01
+      internalID: -844844419893873257
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_choir_lance_6
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 68
+        height: 118
+      alignment: 9
+      pivot: {x: 0.5, y: 0.118644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cebfc1ad2d2308cfb9b82cee9ed2da2
+      internalID: 982628527388136707
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_choir_lance_7
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 0
+        width: 68
+        height: 118
+      alignment: 9
+      pivot: {x: 0.5, y: 0.118644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747e602a07e3cd8cb48ecff6e5c0a6eb
+      internalID: 1430880567513121584
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_choir_lance_8
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 68
+        height: 118
+      alignment: 9
+      pivot: {x: 0.5, y: 0.118644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74a56bdb3e891b08297bc1b428a77c93
+      internalID: -3758799950365982038
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_choir_lance_9
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 0
+        width: 68
+        height: 118
+      alignment: 9
+      pivot: {x: 0.5, y: 0.118644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c0eb1c2e60747a961af1a2b4603a0f
+      internalID: 44993788753240498
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_choir_lance_10
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 68
+        height: 118
+      alignment: 9
+      pivot: {x: 0.5, y: 0.118644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d92657ee578f17fae64670a26eee1d
+      internalID: 352544248529046838
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      m3_choir_lance_0: 539842862888942930
+      m3_choir_lance_1: 498228309399629425
+      m3_choir_lance_2: 3783436312468139116
+      m3_choir_lance_3: -4424908045746433413
+      m3_choir_lance_4: -4333923280926600060
+      m3_choir_lance_5: -844844419893873257
+      m3_choir_lance_6: 982628527388136707
+      m3_choir_lance_7: 1430880567513121584
+      m3_choir_lance_8: -3758799950365982038
+      m3_choir_lance_9: 44993788753240498
+      m3_choir_lance_10: 352544248529046838
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

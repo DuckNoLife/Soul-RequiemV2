@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: 0d776d4f128457c89df18a9cee923e8f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 893214658105028839
+    second: ronin_2_NE_0
+  - first:
+      213: 350092627270761667
+    second: ronin_2_NE_1
+  - first:
+      213: 3073987984155305629
+    second: ronin_2_NE_2
+  - first:
+      213: 1328603720527861487
+    second: ronin_2_NE_3
+  - first:
+      213: 2750368825569481752
+    second: ronin_2_NE_4
+  - first:
+      213: 2527950853562715599
+    second: ronin_2_NE_5
+  - first:
+      213: 124062320881489824
+    second: ronin_2_NE_6
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 4096
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ronin_2_NE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 97
+        height: 122
+      alignment: 9
+      pivot: {x: 0.014213, y: 0.016393}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5724b6a59c7a54a2a64d0f3d3421e64e
+      internalID: 893214658105028839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ronin_2_NE_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 97
+        height: 122
+      alignment: 9
+      pivot: {x: 0.014213, y: 0.016393}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6952aafaad45021a9ae0ef755228416
+      internalID: 350092627270761667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ronin_2_NE_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 97
+        height: 122
+      alignment: 9
+      pivot: {x: 0.014213, y: 0.016393}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c481f220aed753dd8d91cc04c16ed6a2
+      internalID: 3073987984155305629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ronin_2_NE_3
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 0
+        width: 97
+        height: 122
+      alignment: 9
+      pivot: {x: 0.014213, y: 0.016393}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af2da285c3ab556cab9ab6f7a56bffe6
+      internalID: 1328603720527861487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ronin_2_NE_4
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 0
+        width: 97
+        height: 122
+      alignment: 9
+      pivot: {x: 0.014213, y: 0.016393}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20dca840408b59258c023496e295ed1b
+      internalID: 2750368825569481752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ronin_2_NE_5
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 0
+        width: 97
+        height: 122
+      alignment: 9
+      pivot: {x: 0.014213, y: 0.016393}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60a814423be563ca198a9e14e08c19e
+      internalID: 2527950853562715599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ronin_2_NE_6
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 0
+        width: 97
+        height: 122
+      alignment: 9
+      pivot: {x: 0.014213, y: 0.016393}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8c8887186e5809b7d24a8b044d34dd
+      internalID: 124062320881489824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ronin_2_NE_0: 893214658105028839
+      ronin_2_NE_1: 350092627270761667
+      ronin_2_NE_2: 3073987984155305629
+      ronin_2_NE_3: 1328603720527861487
+      ronin_2_NE_4: 2750368825569481752
+      ronin_2_NE_5: 2527950853562715599
+      ronin_2_NE_6: 124062320881489824
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

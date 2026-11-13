@@ -1,0 +1,260 @@
+fileFormatVersion: 2
+guid: db85d1010a9f4ad4abb2bc1f91b07a9b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3837118194734175182
+    second: m3_thrust_E_0
+  - first:
+      213: 1964518739562479415
+    second: m3_thrust_E_1
+  - first:
+      213: -1424423323736589069
+    second: m3_thrust_E_2
+  - first:
+      213: 1023857352159796890
+    second: m3_thrust_E_3
+  - first:
+      213: 2015390007599679165
+    second: m3_thrust_E_4
+  - first:
+      213: -2530833556823437227
+    second: m3_thrust_E_5
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: m3_thrust_E_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 83
+        height: 14
+      alignment: 9
+      pivot: {x: 0.012048, y: 0.642857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a694b22d9db8fa8fcebe33342e5c2ea
+      internalID: -3837118194734175182
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_thrust_E_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 0
+        width: 83
+        height: 14
+      alignment: 9
+      pivot: {x: 0.012048, y: 0.642857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a3a70ec0b4e672b0f961125d8a608c
+      internalID: 1964518739562479415
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_thrust_E_2
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 0
+        width: 83
+        height: 14
+      alignment: 9
+      pivot: {x: 0.012048, y: 0.642857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa630dde87506cb2d0bb74bb6d74f4b
+      internalID: -1424423323736589069
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_thrust_E_3
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 0
+        width: 83
+        height: 14
+      alignment: 9
+      pivot: {x: 0.012048, y: 0.642857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de67fea0731c4b393b2e7a505e039bc
+      internalID: 1023857352159796890
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_thrust_E_4
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 0
+        width: 83
+        height: 14
+      alignment: 9
+      pivot: {x: 0.012048, y: 0.642857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a53c91f3674eb8e0920fa1fff7dbaee
+      internalID: 2015390007599679165
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_thrust_E_5
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 0
+        width: 83
+        height: 14
+      alignment: 9
+      pivot: {x: 0.012048, y: 0.642857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06e8694beb33f62ed8f3f39a50cd84e
+      internalID: -2530833556823437227
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      m3_thrust_E_0: -3837118194734175182
+      m3_thrust_E_1: 1964518739562479415
+      m3_thrust_E_2: -1424423323736589069
+      m3_thrust_E_3: 1023857352159796890
+      m3_thrust_E_4: 2015390007599679165
+      m3_thrust_E_5: -2530833556823437227
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 09badb74cdd54722b2ca8490f2ec644b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1731475199534613403
+    second: sk_riposte_0
+  - first:
+      213: 887048702669100401
+    second: sk_riposte_1
+  - first:
+      213: 3171242573236470707
+    second: sk_riposte_2
+  - first:
+      213: -1554611699788034399
+    second: sk_riposte_3
+  - first:
+      213: 3295829469929335138
+    second: sk_riposte_4
+  - first:
+      213: 3838248957849450137
+    second: sk_riposte_5
+  - first:
+      213: 657607473383574829
+    second: sk_riposte_6
+  - first:
+      213: 3859555528985713285
+    second: sk_riposte_7
+  - first:
+      213: 1553854333592838389
+    second: sk_riposte_8
+  - first:
+      213: -3117964769892863824
+    second: sk_riposte_9
+  - first:
+      213: 3644945241218236144
+    second: sk_riposte_10
+  - first:
+      213: 980198631205961285
+    second: sk_riposte_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sk_riposte_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 50
+        height: 57
+      alignment: 9
+      pivot: {x: 0.54, y: 0.614035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6d65601e9070aa12149f705f35dbc0
+      internalID: -1731475199534613403
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_riposte_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 50
+        height: 57
+      alignment: 9
+      pivot: {x: 0.54, y: 0.614035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b26776c160a8ec6da02b665ca80d362
+      internalID: 887048702669100401
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_riposte_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 50
+        height: 57
+      alignment: 9
+      pivot: {x: 0.54, y: 0.614035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e3e06188dd96b5c87b9238ec7c98f7
+      internalID: 3171242573236470707
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_riposte_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 50
+        height: 57
+      alignment: 9
+      pivot: {x: 0.54, y: 0.614035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d87acdea0654479e751020e680904e
+      internalID: -1554611699788034399
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_riposte_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 50
+        height: 57
+      alignment: 9
+      pivot: {x: 0.54, y: 0.614035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192198128b7d97b5612fe1f99e615efe
+      internalID: 3295829469929335138
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_riposte_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 50
+        height: 57
+      alignment: 9
+      pivot: {x: 0.54, y: 0.614035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa5883a2c4d0ab95c6329b5ad5d4ec6
+      internalID: 3838248957849450137
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_riposte_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 50
+        height: 57
+      alignment: 9
+      pivot: {x: 0.54, y: 0.614035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d9d27f83a77cdb69c4c1bc1bb12fb0
+      internalID: 657607473383574829
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_riposte_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 50
+        height: 57
+      alignment: 9
+      pivot: {x: 0.54, y: 0.614035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7118c79959411d9e66bd317d1bd56ecc
+      internalID: 3859555528985713285
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_riposte_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 50
+        height: 57
+      alignment: 9
+      pivot: {x: 0.54, y: 0.614035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237f389eec84450b2f6ee4e68a8c0970
+      internalID: 1553854333592838389
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_riposte_9
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 50
+        height: 57
+      alignment: 9
+      pivot: {x: 0.54, y: 0.614035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593a8b5525a0cb25748574fac4ecc14b
+      internalID: -3117964769892863824
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_riposte_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 50
+        height: 57
+      alignment: 9
+      pivot: {x: 0.54, y: 0.614035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678409875fbb997079222a5060215fca
+      internalID: 3644945241218236144
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_riposte_11
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 0
+        width: 50
+        height: 57
+      alignment: 9
+      pivot: {x: 0.54, y: 0.614035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e9994ea87e83e3f99eee2a0be7b77f
+      internalID: 980198631205961285
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sk_riposte_0: -1731475199534613403
+      sk_riposte_1: 887048702669100401
+      sk_riposte_2: 3171242573236470707
+      sk_riposte_3: -1554611699788034399
+      sk_riposte_4: 3295829469929335138
+      sk_riposte_5: 3838248957849450137
+      sk_riposte_6: 657607473383574829
+      sk_riposte_7: 3859555528985713285
+      sk_riposte_8: 1553854333592838389
+      sk_riposte_9: -3117964769892863824
+      sk_riposte_10: 3644945241218236144
+      sk_riposte_11: 980198631205961285
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

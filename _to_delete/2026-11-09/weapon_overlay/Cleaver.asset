@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc669ea7b8d44e6bb40a46af73e7651e, type: 3}
+  m_Name: Cleaver
+  m_EditorClassIdentifier: 
+  id: cleaver
+  displayName: Butcher Cleaver
+  description: A slaughterhouse cleaver from beneath Vael. Slow and heavy - every blow drives foes back.
+  sprite: {fileID: 21300000, guid: 68eda94ae9094273b20891a223b16418, type: 3}
+  icon: {fileID: 0}
+  spriteScale: 1
+  trailColor: {r: 1, g: 0.72, b: 0.55, a: 1}
+  comboWindow: 0.36
+  finisherRecovery: 0.3
+  combo:
+  - name: Hack
+    damage: 22
+    range: 0.7
+    arcDegrees: 120
+    knockback: 2.4
+    hitFrame: 3
+    cancelFrame: 5
+    fps: 15
+    impact: 1.3
+    flipTrail: 0
+    trailScale: 1
+  - name: Backhand
+    damage: 22
+    range: 0.7
+    arcDegrees: 120
+    knockback: 2.4
+    hitFrame: 3
+    cancelFrame: 5
+    fps: 15
+    impact: 1.3
+    flipTrail: 1
+    trailScale: 1
+  - name: Cleave
+    damage: 38
+    range: 0.8
+    arcDegrees: 100
+    knockback: 4.5
+    hitFrame: 3
+    cancelFrame: 6
+    fps: 13
+    impact: 2.2
+    flipTrail: 0
+    trailScale: 1.25

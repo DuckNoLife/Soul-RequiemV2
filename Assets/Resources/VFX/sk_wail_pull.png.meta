@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: 4c6651f68c8245f4bc1a26e847d59e7e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4006970855201634650
+    second: sk_wail_pull_0
+  - first:
+      213: -4070431551695810408
+    second: sk_wail_pull_1
+  - first:
+      213: -2129506049640337025
+    second: sk_wail_pull_2
+  - first:
+      213: 3181015520567201213
+    second: sk_wail_pull_3
+  - first:
+      213: 1275900545717935630
+    second: sk_wail_pull_4
+  - first:
+      213: -640873618537842193
+    second: sk_wail_pull_5
+  - first:
+      213: -3359155018679723412
+    second: sk_wail_pull_6
+  - first:
+      213: 4124155207934474907
+    second: sk_wail_pull_7
+  - first:
+      213: 1255633266378822927
+    second: sk_wail_pull_8
+  - first:
+      213: 3255681685840935758
+    second: sk_wail_pull_9
+  - first:
+      213: 3473653059674972714
+    second: sk_wail_pull_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 8192
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sk_wail_pull_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 374
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932df52553b1df6a8346fb4a79670d81
+      internalID: 4006970855201634650
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_wail_pull_1
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 0
+        width: 374
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d39d90125cfa45fd0b1ecf23e1f4c7
+      internalID: -4070431551695810408
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_wail_pull_2
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 0
+        width: 374
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca16bb3ec3d2053cbe7edc5ae77b2a2
+      internalID: -2129506049640337025
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_wail_pull_3
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 0
+        width: 374
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2564e86299054d4bfcf8a03535fd6f
+      internalID: 3181015520567201213
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_wail_pull_4
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 0
+        width: 374
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd20f69de56ad7f4b8857539a6498d9
+      internalID: 1275900545717935630
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_wail_pull_5
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 0
+        width: 374
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c782b85b7dc50432feca4c841dec159
+      internalID: -640873618537842193
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_wail_pull_6
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 0
+        width: 374
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892aac1a9f7878b67a260890420ea2e5
+      internalID: -3359155018679723412
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_wail_pull_7
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 0
+        width: 374
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6343acd2e25bbe8dc9a68a896517a1ef
+      internalID: 4124155207934474907
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_wail_pull_8
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 0
+        width: 374
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6d597f9370c4293549bfd7db0c3f2f
+      internalID: 1255633266378822927
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_wail_pull_9
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 0
+        width: 374
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2678466dfa14aee85299067e190b1872
+      internalID: 3255681685840935758
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_wail_pull_10
+      rect:
+        serializedVersion: 2
+        x: 3740
+        y: 0
+        width: 374
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c85efb5e6c7b5dbc417238f2729fe80
+      internalID: 3473653059674972714
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sk_wail_pull_0: 4006970855201634650
+      sk_wail_pull_1: -4070431551695810408
+      sk_wail_pull_2: -2129506049640337025
+      sk_wail_pull_3: 3181015520567201213
+      sk_wail_pull_4: 1275900545717935630
+      sk_wail_pull_5: -640873618537842193
+      sk_wail_pull_6: -3359155018679723412
+      sk_wail_pull_7: 4124155207934474907
+      sk_wail_pull_8: 1255633266378822927
+      sk_wail_pull_9: 3255681685840935758
+      sk_wail_pull_10: 3473653059674972714
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 9e4c305d392c4aa7b283f4745d7c3687
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3026244737141191712
+    second: m3_lk_sigil_0
+  - first:
+      213: 2874396553037467722
+    second: m3_lk_sigil_1
+  - first:
+      213: 1732195454420435186
+    second: m3_lk_sigil_2
+  - first:
+      213: 3166986526997250626
+    second: m3_lk_sigil_3
+  - first:
+      213: 2950868650824133381
+    second: m3_lk_sigil_4
+  - first:
+      213: 1407387219354089751
+    second: m3_lk_sigil_5
+  - first:
+      213: 3488942156106565775
+    second: m3_lk_sigil_6
+  - first:
+      213: 2636126909322208235
+    second: m3_lk_sigil_7
+  - first:
+      213: 3069688497826603648
+    second: m3_lk_sigil_8
+  - first:
+      213: 1808822449845729490
+    second: m3_lk_sigil_9
+  - first:
+      213: -1213816679523972769
+    second: m3_lk_sigil_10
+  - first:
+      213: -1850628845774888467
+    second: m3_lk_sigil_11
+  - first:
+      213: 50186182051834698
+    second: m3_lk_sigil_12
+  - first:
+      213: 574314468879034598
+    second: m3_lk_sigil_13
+  - first:
+      213: -1344729671207874773
+    second: m3_lk_sigil_14
+  - first:
+      213: 3374055645789195792
+    second: m3_lk_sigil_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: m3_lk_sigil_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 83
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.435897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4648250a96eb1dbc037cacd96e8fc0af
+      internalID: 3026244737141191712
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_lk_sigil_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 0
+        width: 83
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.435897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67f008a24dba5eda4a97bc44818cb8d
+      internalID: 2874396553037467722
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_lk_sigil_2
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 0
+        width: 83
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.435897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269ce89874c0ab2a89213a642dd655b0
+      internalID: 1732195454420435186
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_lk_sigil_3
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 0
+        width: 83
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.435897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795777555e7e7591005a97d50dd3fa84
+      internalID: 3166986526997250626
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_lk_sigil_4
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 0
+        width: 83
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.435897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0752db86598927ab079386dc76a78fd5
+      internalID: 2950868650824133381
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_lk_sigil_5
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 0
+        width: 83
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.435897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d919f0e0d908ea11a8c0310cbd0e7a8b
+      internalID: 1407387219354089751
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_lk_sigil_6
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 0
+        width: 83
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.435897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef894beef16e7388171e5b7cdb2faac1
+      internalID: 3488942156106565775
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_lk_sigil_7
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 0
+        width: 83
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.435897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e48d6a3317deb20cd05c85ecd368395f
+      internalID: 2636126909322208235
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_lk_sigil_8
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 0
+        width: 83
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.435897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161471be300a7de73384b7f0fdf2485e
+      internalID: 3069688497826603648
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_lk_sigil_9
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 0
+        width: 83
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.435897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee81cf9487eee16f9ade97d01bfd96c
+      internalID: 1808822449845729490
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_lk_sigil_10
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 0
+        width: 83
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.435897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2f75a96d156fe1ebe225bcf9dc5b07
+      internalID: -1213816679523972769
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_lk_sigil_11
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 0
+        width: 83
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.435897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07d80446a4a7b878e8b9938ca8cfd0b
+      internalID: -1850628845774888467
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_lk_sigil_12
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 0
+        width: 83
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.435897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e17630657d0a7334832888195bb41b4
+      internalID: 50186182051834698
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_lk_sigil_13
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 0
+        width: 83
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.435897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da26b27f886be7eccd4fb9b727ac99f5
+      internalID: 574314468879034598
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_lk_sigil_14
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 0
+        width: 83
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.435897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7f2016122476f7187fcbdc83353b18
+      internalID: -1344729671207874773
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_lk_sigil_15
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 0
+        width: 83
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.435897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181ac25bdceb6b7f080c20f326e89836
+      internalID: 3374055645789195792
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      m3_lk_sigil_0: 3026244737141191712
+      m3_lk_sigil_1: 2874396553037467722
+      m3_lk_sigil_2: 1732195454420435186
+      m3_lk_sigil_3: 3166986526997250626
+      m3_lk_sigil_4: 2950868650824133381
+      m3_lk_sigil_5: 1407387219354089751
+      m3_lk_sigil_6: 3488942156106565775
+      m3_lk_sigil_7: 2636126909322208235
+      m3_lk_sigil_8: 3069688497826603648
+      m3_lk_sigil_9: 1808822449845729490
+      m3_lk_sigil_10: -1213816679523972769
+      m3_lk_sigil_11: -1850628845774888467
+      m3_lk_sigil_12: 50186182051834698
+      m3_lk_sigil_13: 574314468879034598
+      m3_lk_sigil_14: -1344729671207874773
+      m3_lk_sigil_15: 3374055645789195792
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

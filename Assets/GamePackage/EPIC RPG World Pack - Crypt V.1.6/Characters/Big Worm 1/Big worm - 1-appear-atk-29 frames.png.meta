@@ -1,0 +1,1119 @@
+fileFormatVersion: 2
+guid: b182f4eaba07f3a4ea628e16f7ad19fa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1500866238327271237
+    second: Big worm - 1-appear-atk-29 frames_0
+  - first:
+      213: 7034335705402797419
+    second: Big worm - 1-appear-atk-29 frames_1
+  - first:
+      213: -321118130755634335
+    second: Big worm - 1-appear-atk-29 frames_2
+  - first:
+      213: 6038868741155230975
+    second: Big worm - 1-appear-atk-29 frames_3
+  - first:
+      213: 5090728481368401100
+    second: Big worm - 1-appear-atk-29 frames_4
+  - first:
+      213: 6429192614295690288
+    second: Big worm - 1-appear-atk-29 frames_5
+  - first:
+      213: 7791639883995902537
+    second: Big worm - 1-appear-atk-29 frames_6
+  - first:
+      213: -7004283993211797096
+    second: Big worm - 1-appear-atk-29 frames_7
+  - first:
+      213: 658684795295370209
+    second: Big worm - 1-appear-atk-29 frames_8
+  - first:
+      213: -5659002153149565955
+    second: Big worm - 1-appear-atk-29 frames_9
+  - first:
+      213: -7982349931592215286
+    second: Big worm - 1-appear-atk-29 frames_10
+  - first:
+      213: 3893233238209440263
+    second: Big worm - 1-appear-atk-29 frames_11
+  - first:
+      213: 480851439800246668
+    second: Big worm - 1-appear-atk-29 frames_12
+  - first:
+      213: -3563466282765888589
+    second: Big worm - 1-appear-atk-29 frames_13
+  - first:
+      213: -9169072705652488523
+    second: Big worm - 1-appear-atk-29 frames_14
+  - first:
+      213: -1772011331710279877
+    second: Big worm - 1-appear-atk-29 frames_15
+  - first:
+      213: 4539058303004385696
+    second: Big worm - 1-appear-atk-29 frames_16
+  - first:
+      213: 5933020538676194816
+    second: Big worm - 1-appear-atk-29 frames_17
+  - first:
+      213: 5779473926821625359
+    second: Big worm - 1-appear-atk-29 frames_18
+  - first:
+      213: -3014644928063440485
+    second: Big worm - 1-appear-atk-29 frames_19
+  - first:
+      213: -2842631256764558168
+    second: Big worm - 1-appear-atk-29 frames_20
+  - first:
+      213: 7583083820953649592
+    second: Big worm - 1-appear-atk-29 frames_21
+  - first:
+      213: 3213518419738787120
+    second: Big worm - 1-appear-atk-29 frames_22
+  - first:
+      213: 1237120853796568059
+    second: Big worm - 1-appear-atk-29 frames_23
+  - first:
+      213: 3750727076027405579
+    second: Big worm - 1-appear-atk-29 frames_24
+  - first:
+      213: -4742128946583254945
+    second: Big worm - 1-appear-atk-29 frames_25
+  - first:
+      213: -4845602931981820866
+    second: Big worm - 1-appear-atk-29 frames_26
+  - first:
+      213: -4543481059412674848
+    second: Big worm - 1-appear-atk-29 frames_27
+  - first:
+      213: 8175645200830701523
+    second: Big worm - 1-appear-atk-29 frames_28
+  - first:
+      213: -7258211941289630868
+    second: Big worm - 1-appear-atk-29 frames_29
+  - first:
+      213: 2641687078698507606
+    second: Big worm - 1-appear-atk-29 frames_30
+  - first:
+      213: -5985319484926103709
+    second: Big worm - 1-appear-atk-29 frames_31
+  - first:
+      213: 685704216101623141
+    second: Big worm - 1-appear-atk-29 frames_32
+  - first:
+      213: -6625289978743022473
+    second: Big worm - 1-appear-atk-29 frames_33
+  - first:
+      213: 1720340956107784061
+    second: Big worm - 1-appear-atk-29 frames_34
+  - first:
+      213: -5115634831474356402
+    second: Big worm - 1-appear-atk-29 frames_35
+  - first:
+      213: 8836820346089847167
+    second: Big worm - 1-appear-atk-29 frames_36
+  - first:
+      213: -3018576463788512752
+    second: Big worm - 1-appear-atk-29 frames_37
+  - first:
+      213: 5352795816193385242
+    second: Big worm - 1-appear-atk-29 frames_38
+  - first:
+      213: -6044216747476205236
+    second: Big worm - 1-appear-atk-29 frames_39
+  - first:
+      213: -6156909131045772922
+    second: Big worm - 1-appear-atk-29 frames_40
+  - first:
+      213: -1555441166484401844
+    second: Big worm - 1-appear-atk-29 frames_41
+  - first:
+      213: -3364888382929918198
+    second: Big worm - 1-appear-atk-29 frames_42
+  - first:
+      213: -7031694766854723689
+    second: Big worm - 1-appear-atk-29 frames_43
+  - first:
+      213: 9069690352307385966
+    second: Big worm - 1-appear-atk-29 frames_44
+  - first:
+      213: 6520498912863644431
+    second: Big worm - 1-appear-atk-29 frames_45
+  - first:
+      213: 7636006607237907911
+    second: Big worm - 1-appear-atk-29 frames_46
+  - first:
+      213: 4551651110548881015
+    second: Big worm - 1-appear-atk-29 frames_47
+  - first:
+      213: 8724458013576543691
+    second: Big worm - 1-appear-atk-29 frames_48
+  - first:
+      213: -2168534947372600399
+    second: Big worm - 1-appear-atk-29 frames_49
+  - first:
+      213: 2624560427413352729
+    second: Big worm - 1-appear-atk-29 frames_50
+  - first:
+      213: 7056958657065427543
+    second: Big worm - 1-appear-atk-29 frames_51
+  - first:
+      213: -4686428787176907635
+    second: Big worm - 1-appear-atk-29 frames_52
+  - first:
+      213: 1361217225885471289
+    second: Big worm - 1-appear-atk-29 frames_53
+  - first:
+      213: 5759090710509492769
+    second: Big worm - 1-appear-atk-29 frames_54
+  - first:
+      213: 880461130118230359
+    second: Big worm - 1-appear-atk-29 frames_55
+  - first:
+      213: 3616957905178485449
+    second: Big worm - 1-appear-atk-29 frames_56
+  - first:
+      213: 8282422020896826749
+    second: Big worm - 1-appear-atk-29 frames_57
+  - first:
+      213: 4118559824601609751
+    second: Big worm - 1-appear-atk-29 frames_58
+  - first:
+      213: 8381089930602048249
+    second: Big worm - 1-appear-atk-29 frames_59
+  - first:
+      213: 7085152181670395860
+    second: Big worm - 1-appear-atk-29 frames_60
+  - first:
+      213: -298582811018182998
+    second: Big worm - 1-appear-atk-29 frames_61
+  - first:
+      213: -6390832454927561463
+    second: Big worm - 1-appear-atk-29 frames_62
+  - first:
+      213: 448145370087325804
+    second: Big worm - 1-appear-atk-29 frames_63
+  - first:
+      213: 3381113208223626164
+    second: Big worm - 1-appear-atk-29 frames_64
+  - first:
+      213: -8429925832691437053
+    second: Big worm - 1-appear-atk-29 frames_65
+  - first:
+      213: -334464476824501184
+    second: Big worm - 1-appear-atk-29 frames_66
+  - first:
+      213: 9206455301803685654
+    second: Big worm - 1-appear-atk-29 frames_67
+  - first:
+      213: 8670296224057902366
+    second: Big worm - 1-appear-atk-29 frames_68
+  - first:
+      213: 2831379939872397208
+    second: Big worm - 1-appear-atk-29 frames_69
+  - first:
+      213: 5356341223384871775
+    second: Big worm - 1-appear-atk-29 frames_70
+  - first:
+      213: -2835517520749834388
+    second: Big worm - 1-appear-atk-29 frames_71
+  - first:
+      213: 676777704868534076
+    second: Big worm - 1-appear-atk-29 frames_72
+  - first:
+      213: 2557913693206701641
+    second: Big worm - 1-appear-atk-29 frames_73
+  - first:
+      213: -3385469382416114802
+    second: Big worm - 1-appear-atk-29 frames_74
+  - first:
+      213: 458914529589271040
+    second: Big worm - 1-appear-atk-29 frames_75
+  - first:
+      213: 2051155964180495017
+    second: Big worm - 1-appear-atk-29 frames_76
+  - first:
+      213: -4824594796870502821
+    second: Big worm - 1-appear-atk-29 frames_77
+  - first:
+      213: 5039233120417096603
+    second: Big worm - 1-appear-atk-29 frames_78
+  - first:
+      213: -8979277278937592660
+    second: Big worm - 1-appear-atk-29 frames_79
+  - first:
+      213: -5436384926423073145
+    second: Big worm - 1-appear-atk-29 frames_80
+  - first:
+      213: -8303672156026009123
+    second: Big worm - 1-appear-atk-29 frames_81
+  - first:
+      213: 2776000630973608398
+    second: Big worm - 1-appear-atk-29 frames_82
+  - first:
+      213: -7525222887609390252
+    second: Big worm - 1-appear-atk-29 frames_83
+  - first:
+      213: 789437286857761509
+    second: Big worm - 1-appear-atk-29 frames_84
+  - first:
+      213: -8431552446061568649
+    second: Big worm - 1-appear-atk-29 frames_85
+  - first:
+      213: 5218224005755092397
+    second: Big worm - 1-appear-atk-29 frames_86
+  - first:
+      213: -517917849951752020
+    second: Big worm - 1-appear-atk-29 frames_87
+  - first:
+      213: -1213745024085047289
+    second: Big worm - 1-appear-atk-29 frames_88
+  - first:
+      213: -1720114829595768038
+    second: Big worm - 1-appear-atk-29 frames_89
+  - first:
+      213: -2647599011078857451
+    second: Big worm - 1-appear-atk-29 frames_90
+  - first:
+      213: 8366124342169689672
+    second: Big worm - 1-appear-atk-29 frames_91
+  - first:
+      213: -4764587390129923756
+    second: Big worm - 1-appear-atk-29 frames_92
+  - first:
+      213: -436389209558577542
+    second: Big worm - 1-appear-atk-29 frames_93
+  - first:
+      213: 4418584530904810447
+    second: Big worm - 1-appear-atk-29 frames_94
+  - first:
+      213: 6369028549104449387
+    second: Big worm - 1-appear-atk-29 frames_95
+  - first:
+      213: 4936354650600539287
+    second: Big worm - 1-appear-atk-29 frames_96
+  - first:
+      213: -3274139702657388810
+    second: Big worm - 1-appear-atk-29 frames_97
+  - first:
+      213: -357234996806604641
+    second: Big worm - 1-appear-atk-29 frames_98
+  - first:
+      213: -3859676090051822064
+    second: Big worm - 1-appear-atk-29 frames_99
+  - first:
+      213: 4827320220328282338
+    second: Big worm - 1-appear-atk-29 frames_100
+  - first:
+      213: -3312030368720142602
+    second: Big worm - 1-appear-atk-29 frames_101
+  - first:
+      213: -2155752167398832638
+    second: Big worm - 1-appear-atk-29 frames_102
+  - first:
+      213: -1619546529261678148
+    second: Big worm - 1-appear-atk-29 frames_103
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb05021bb1adb2be0800000000000000
+      internalID: -1500866238327271237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d6167fd0bfe9160800000000000000
+      internalID: 7034335705402797419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b7f5de2c82b8bf0800000000000000
+      internalID: -321118130755634335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff494c1ff1f5ec350800000000000000
+      internalID: 6038868741155230975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc46debf496e5a640800000000000000
+      internalID: 5090728481368401100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03cd8af8e94193950800000000000000
+      internalID: 6429192614295690288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942775f4137712c60800000000000000
+      internalID: 7791639883995902537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89108a681d8cbce90800000000000000
+      internalID: -7004283993211797096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb088ad45e142900800000000000000
+      internalID: 658684795295370209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3795e368f2771b0800000000000000
+      internalID: -5659002153149565955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05159e870ff83190800000000000000
+      internalID: -7982349931592215286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70aa73fb00b870630800000000000000
+      internalID: 3893233238209440263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81670b36d35ca600800000000000000
+      internalID: 480851439800246668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b358aebb460c8ec0800000000000000
+      internalID: -3563466282765888589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b68adb34f8e0c080800000000000000
+      internalID: -9169072705652488523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f1173151d8867e0800000000000000
+      internalID: -1772011331710279877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_16
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a12d554a79fdfe30800000000000000
+      internalID: 4539058303004385696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_17
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e24e4deb2565250800000000000000
+      internalID: 5933020538676194816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_18
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0eb5dc5ae0d43050800000000000000
+      internalID: 5779473926821625359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_19
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9978d20964d926d0800000000000000
+      internalID: -3014644928063440485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_20
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a45021dee1fc88d0800000000000000
+      internalID: -2842631256764558168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_21
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b144f9ee868c3960800000000000000
+      internalID: 7583083820953649592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_22
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d74bf0af5b89c20800000000000000
+      internalID: 3213518419738787120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_23
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfbb5caacd22b2110800000000000000
+      internalID: 1237120853796568059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_24
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b059d0847624d0430800000000000000
+      internalID: 3750727076027405579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_25
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58cec319d2903eb0800000000000000
+      internalID: -4742128946583254945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_26
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3cd1a47ec5f0ccb0800000000000000
+      internalID: -4845602931981820866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_27
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e6fdf18c0052f0c0800000000000000
+      internalID: -4543481059412674848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_28
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df14256ef9b57170800000000000000
+      internalID: 8175645200830701523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big worm - 1-appear-atk-29 frames_29
+      rect:
+        serializedVersion: 2
+        x: 3712
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63eeeee1b6a54b90800000000000000
+      internalID: -7258211941289630868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c75702a9802032041a62088a8b7c08c3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Big worm - 1-appear-atk-29 frames_0: -1500866238327271237
+      Big worm - 1-appear-atk-29 frames_1: 7034335705402797419
+      Big worm - 1-appear-atk-29 frames_10: -7982349931592215286
+      Big worm - 1-appear-atk-29 frames_11: 3893233238209440263
+      Big worm - 1-appear-atk-29 frames_12: 480851439800246668
+      Big worm - 1-appear-atk-29 frames_13: -3563466282765888589
+      Big worm - 1-appear-atk-29 frames_14: -9169072705652488523
+      Big worm - 1-appear-atk-29 frames_15: -1772011331710279877
+      Big worm - 1-appear-atk-29 frames_16: 4539058303004385696
+      Big worm - 1-appear-atk-29 frames_17: 5933020538676194816
+      Big worm - 1-appear-atk-29 frames_18: 5779473926821625359
+      Big worm - 1-appear-atk-29 frames_19: -3014644928063440485
+      Big worm - 1-appear-atk-29 frames_2: -321118130755634335
+      Big worm - 1-appear-atk-29 frames_20: -2842631256764558168
+      Big worm - 1-appear-atk-29 frames_21: 7583083820953649592
+      Big worm - 1-appear-atk-29 frames_22: 3213518419738787120
+      Big worm - 1-appear-atk-29 frames_23: 1237120853796568059
+      Big worm - 1-appear-atk-29 frames_24: 3750727076027405579
+      Big worm - 1-appear-atk-29 frames_25: -4742128946583254945
+      Big worm - 1-appear-atk-29 frames_26: -4845602931981820866
+      Big worm - 1-appear-atk-29 frames_27: -4543481059412674848
+      Big worm - 1-appear-atk-29 frames_28: 8175645200830701523
+      Big worm - 1-appear-atk-29 frames_29: -7258211941289630868
+      Big worm - 1-appear-atk-29 frames_3: 6038868741155230975
+      Big worm - 1-appear-atk-29 frames_4: 5090728481368401100
+      Big worm - 1-appear-atk-29 frames_5: 6429192614295690288
+      Big worm - 1-appear-atk-29 frames_6: 7791639883995902537
+      Big worm - 1-appear-atk-29 frames_7: -7004283993211797096
+      Big worm - 1-appear-atk-29 frames_8: 658684795295370209
+      Big worm - 1-appear-atk-29 frames_9: -5659002153149565955
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

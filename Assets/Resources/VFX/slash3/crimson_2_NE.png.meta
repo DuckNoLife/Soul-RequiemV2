@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: a77671bdb91951c5b68c929c47bb3a81
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1960491335156103034
+    second: crimson_2_NE_0
+  - first:
+      213: 2217982813716915236
+    second: crimson_2_NE_1
+  - first:
+      213: 1238946252581662746
+    second: crimson_2_NE_2
+  - first:
+      213: 1025893019117576526
+    second: crimson_2_NE_3
+  - first:
+      213: 669186862841996846
+    second: crimson_2_NE_4
+  - first:
+      213: 2333658485362044818
+    second: crimson_2_NE_5
+  - first:
+      213: 2875133121334575562
+    second: crimson_2_NE_6
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 4096
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: crimson_2_NE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 103
+        height: 144
+      alignment: 9
+      pivot: {x: 0.013385, y: 0.166666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b398b0d6e5f45b98b0e3c8c778d9215d
+      internalID: 1960491335156103034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crimson_2_NE_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 0
+        width: 103
+        height: 144
+      alignment: 9
+      pivot: {x: 0.013385, y: 0.166666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd77864fb92f52f8a0724945b06326d7
+      internalID: 2217982813716915236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crimson_2_NE_2
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 0
+        width: 103
+        height: 144
+      alignment: 9
+      pivot: {x: 0.013385, y: 0.166666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29dca92137735ea581e5e78d80f8a66f
+      internalID: 1238946252581662746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crimson_2_NE_3
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 0
+        width: 103
+        height: 144
+      alignment: 9
+      pivot: {x: 0.013385, y: 0.166666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ffe3160a2358bfa47e262dccf7c6f3
+      internalID: 1025893019117576526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crimson_2_NE_4
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 0
+        width: 103
+        height: 144
+      alignment: 9
+      pivot: {x: 0.013385, y: 0.166666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7ecf14ee7f585dac8752308d2c8ad9
+      internalID: 669186862841996846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crimson_2_NE_5
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 0
+        width: 103
+        height: 144
+      alignment: 9
+      pivot: {x: 0.013385, y: 0.166666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a018250974576cbe37b6d4e5cce74e
+      internalID: 2333658485362044818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crimson_2_NE_6
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 0
+        width: 103
+        height: 144
+      alignment: 9
+      pivot: {x: 0.013385, y: 0.166666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e69eb887dc5577ab24eccc48dca91c6
+      internalID: 2875133121334575562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      crimson_2_NE_0: 1960491335156103034
+      crimson_2_NE_1: 2217982813716915236
+      crimson_2_NE_2: 1238946252581662746
+      crimson_2_NE_3: 1025893019117576526
+      crimson_2_NE_4: 669186862841996846
+      crimson_2_NE_5: 2333658485362044818
+      crimson_2_NE_6: 2875133121334575562
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:
