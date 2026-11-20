@@ -48,6 +48,7 @@ namespace SoulRequiem.Gameplay
         {
             if (Done || !Overlaps(at, r)) return false;
             Done = true;
+            SfxHooks.MechanismEvent(this, "break", "glass_break"); // 19/11 (§335): âm
             Ctx.Show(Str("obj", ""), false);
             Ctx.Show(Str("broken", ""), true);
             Ctx.Run(Spill());

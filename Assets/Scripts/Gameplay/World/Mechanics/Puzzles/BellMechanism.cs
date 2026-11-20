@@ -17,6 +17,15 @@ namespace SoulRequiem.Gameplay
         private static readonly string[] BellNames = { "", "great", "low", "middle", "high", "small" };
 
         public override string DefaultVerb => "Ring";
+
+        /// <summary>19/11 (§343): cờ `sets` bị gỡ (vd gục giữa trận Isolde) -> nhóm chuông rung lại được từ đầu.</summary>
+        public override void OnFlagsReset()
+        {
+            string group = Str("group", "");
+            if (!Done || group.Length == 0 || Ctx.Flags.HasAll(Str("sets", group + "_done"))) return;
+            Done = false;
+            Ctx.BellProgress[group] = 0;
+        }
         public override bool Usable => true;
 
         public override void Use()
@@ -25,6 +34,7 @@ namespace SoulRequiem.Gameplay
             string req = Str("requires", "");
             if (req.Length > 0 && !Ctx.Flags.HasAll(req)) { Hints.Show(Str("locked_text", "The bell will not answer yet."), 2.5f); return; }
             int note = Int("note", 1);
+            SfxHooks.MechanismEvent(this, "toll", "bell_toll"); // 19/11 (§335): âm
             Ctx.Run(Flash(Rect.center, note));
             string group = Str("group", "");
             if (string.IsNullOrEmpty(group) || Done) { Hints.Show("The bell tolls.", 1.2f); return; }

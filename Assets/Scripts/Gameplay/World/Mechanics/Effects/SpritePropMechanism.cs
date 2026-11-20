@@ -13,6 +13,8 @@ namespace SoulRequiem.Gameplay
     ///   sprite_lit    ảnh lúc sáng (để trống = dùng `sprite`)
     ///   group         tên nhóm để code tìm lại (vd sz_ward) — <see cref="Group"/>
     ///   collider      "rộng,cao" (đơn vị thế giới) của khối chặn ở chân; "0" = không chặn. Mặc định 0.34,0.12
+    ///   collider_shape 17/11 (§303): "box" (mặc định, vật đáy vuông) | "round" (vật chân tròn: thùng, chậu, cột tròn, đống đá...)
+    ///                 round = CapsuleCollider2D nằm ngang (rộng = cao thì thành hình tròn) -> người chơi trượt quanh mép, không kẹt góc.
     ///   light_color   màu đèn khi sáng (#rrggbb, mặc định vàng nến), light_radius (mặc định 1.6)
     ///   decal         ảnh vẽ trên sàn (vd VFX/specimen/ward_sigil) — vòng ấn; decal_at "x,y" (ô Tiled, tâm vòng);
     ///   decal_size    đường kính (đơn vị, mặc định 0.8), decal_squash (dẹt theo chiều dọc, mặc định 0.6), decal_alpha (lúc thường, 0.14)
@@ -75,15 +77,29 @@ namespace SoulRequiem.Gameplay
             Body.spriteSortPoint = SpriteSortPoint.Pivot;                      // cùng lớp nhân vật: Ren đứng phía bắc trụ thì bị trụ che
             if (psr != null) { Body.sortingLayerID = psr.sortingLayerID; Body.sortingOrder = psr.sortingOrder; Body.sharedMaterial = psr.sharedMaterial; }
             if (Props.GetBool("flat", false)) Body.sortingOrder -= 6;           // nằm bẹt trên sàn: dưới chân nhân vật
+            // 20/11 (§350): `scale` (cách đặt hình chữ nhật, không có tile art) — phóng to ảnh; `flip` = lật ngang
+            float sc = Float("scale", 1f);
+            if (art == null && Mathf.Abs(sc - 1f) > 0.001f) go.transform.localScale = new Vector3(sc, sc, 1f);
+            if (Props.GetBool("flip", false)) Body.flipX = true;
 
             string col = Str("collider", "0.34,0.12");
             var wh = col.Split(',');
             if (wh.Length == 2 && float.TryParse(wh[0], System.Globalization.NumberStyles.Float, System.Globalization.CultureInfo.InvariantCulture, out float w) &&
                 float.TryParse(wh[1], System.Globalization.NumberStyles.Float, System.Globalization.CultureInfo.InvariantCulture, out float h) && w > 0f && h > 0f)
             {
-                var box = go.AddComponent<BoxCollider2D>();                    // không có Rigidbody -> vật cản tĩnh
-                box.size = new Vector2(w, h);
-                box.offset = new Vector2(0f, h * 0.5f);
+                if (Str("collider_shape", "box").ToLowerInvariant() == "round")
+                {
+                    var cap = go.AddComponent<CapsuleCollider2D>();            // §303: chân tròn — không có góc vuông để kẹt
+                    cap.direction = w >= h ? CapsuleDirection2D.Horizontal : CapsuleDirection2D.Vertical;
+                    cap.size = new Vector2(w, h);
+                    cap.offset = new Vector2(0f, h * 0.5f);
+                }
+                else
+                {
+                    var box = go.AddComponent<BoxCollider2D>();                // không có Rigidbody -> vật cản tĩnh
+                    box.size = new Vector2(w, h);
+                    box.offset = new Vector2(0f, h * 0.5f);
+                }
             }
 
             DecalAt = Foot;
@@ -119,6 +135,8 @@ namespace SoulRequiem.Gameplay
             Glow.intensity = 0f;
             Glow.enabled = false;
             all.Add(this);
+            // 20/11 (§350): `lit` = sáng sẵn (đồ trang trí có đèn: lò lửa hồn, cụm pha lê) — `light_intensity` (mặc định 0,8)
+            if (Props.GetBool("lit", false)) { SetLit(true); Glow.intensity = Float("light_intensity", 0.8f); }
         }
 
         /// <summary>Bật / tắt trạng thái sáng (đổi ảnh). Đèn và độ sáng vòng ấn do người gọi điều khiển qua Glow / Decal.</summary>

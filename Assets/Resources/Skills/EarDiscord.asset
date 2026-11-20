@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a786005ac53040f09e225f5e2eefabcf, type: 3}
+  m_Name: EarDiscord
+  m_EditorClassIdentifier: 
+  id: ear_discord
+  displayName: Discord
+  description: 'Whisper into the ear of the foe nearest your aim. For five seconds it hears its master in the wrong place and turns on the nearest of its own - and they answer it. The great ones will not be fooled: they falter for a moment and take 20% more damage. The Ear mantras are attuned together: they take all three sockets.'
+  icon: {fileID: 0}
+  iconName: ic_ear_discord
+  accent: {r: 0.65, g: 0.82, b: 1, a: 1}
+  cooldown: 16
+  unlockedAtStart: 0
+  setId: ear
+  setSlot: 1
+  setName: 
+  setDescription: ''
+  range: 3.5
+  searchRadius: 1.1
+  duration: 5
+  allyRadius: 3
+  bossHold: 1
+  bossVuln: 0.2
+  bossVulnTime: 4
+  fallbackStun: 2
+  castLock: 0.35
+  flightTime: 0.3
+  tint: {r: 0.65, g: 0.82, b: 1, a: 1}

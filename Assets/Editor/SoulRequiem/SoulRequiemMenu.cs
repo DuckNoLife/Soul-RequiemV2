@@ -27,8 +27,14 @@ namespace SoulRequiem.EditorTools
         [MenuItem(Root + "Scenes/Build Title Scene", false, 100)]
         static void BuildTitle() { if (Ready()) TitleSceneBuilder.Build(); }
 
+        [MenuItem(Root + "Scenes/Build Map 1b Scene (Hermit's Hollow)", false, 110)]
+        static void BuildMap1bScene() { if (Ready()) Map2SceneBuilder.BuildMap1b(); }
+
         [MenuItem(Root + "Scenes/Build Map 2 Scene (Undercity of Vael)", false, 111)]
         static void BuildMap2Scene() { if (Ready()) Map2SceneBuilder.Build(); }
+
+        [MenuItem(Root + "Scenes/Build Map 2b Scene (Kroven Deep)", false, 111)]
+        static void BuildMap2bScene() { if (Ready()) Map2SceneBuilder.BuildMap2b(); }
 
         [MenuItem(Root + "Scenes/Build Map 3 Scene (Vale of Graves)", false, 112)]
         static void BuildMap3Scene() { if (Ready()) Map2SceneBuilder.BuildMap3(); }
@@ -47,8 +53,10 @@ namespace SoulRequiem.EditorTools
             Map2SceneBuilder.Build();
             Map2SceneBuilder.BuildMap3();
             Map2SceneBuilder.BuildMap3b();
-            Map2SceneBuilder.BuildMap4();
-            Debug.Log("[Soul Requiem] All map scenes rebuilt (Map 2, Map 3, Map 3b, Map 4).");
+            Map2SceneBuilder.BuildMap1b();   // 16/11 (§261)
+            Map2SceneBuilder.BuildMap2b();   // 16/11 (§281)
+            // 16/11: Map 4 cũ đã bỏ (§234) — không dựng lại cho tới khi có Map 4 mới
+            Debug.Log("[Soul Requiem] All map scenes rebuilt (Map 2, Map 3, Map 3b, Map 1b, Map 2b).");
         }
 
         // ------------------------------------------------------------------ Enemies
@@ -71,6 +79,10 @@ namespace SoulRequiem.EditorTools
 
         [MenuItem(Root + "Enemies/Build Map 3 Enemies", false, 202)]
         static void BuildMap3Enemies() { if (Ready()) Map3EnemyBuilder.BuildAllMenu(); }
+
+        // 17/11 (§307): quái Map 4 (Tiny Swords + MEGAPACK + Lantern Knight Map 3); Build Map 4 Scene cũng tự gọi
+        [MenuItem(Root + "Enemies/Build Map 4 Enemies", false, 213)]
+        static void BuildMap4Enemies() { if (Ready()) Map4EnemyBuilder.BuildAllMenu(); }
 
         [MenuItem(Root + "Enemies/Build All Enemies", false, 220)]
         static void BuildAllEnemies()

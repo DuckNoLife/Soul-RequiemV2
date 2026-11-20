@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: e2d0720467694d47bb1de9cb32788ace
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3520863736006331333
+    second: accord_3_NW_0
+  - first:
+      213: 2624248638207130715
+    second: accord_3_NW_1
+  - first:
+      213: 3087930556080287063
+    second: accord_3_NW_2
+  - first:
+      213: 952402090928680905
+    second: accord_3_NW_3
+  - first:
+      213: 4516799479700196345
+    second: accord_3_NW_4
+  - first:
+      213: 3751407173866017187
+    second: accord_3_NW_5
+  - first:
+      213: 1789770466497085142
+    second: accord_3_NW_6
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 4096
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: accord_3_NW_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.525265, y: 0.017391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d58193698074813b3b30f34313dd344
+      internalID: 3520863736006331333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accord_3_NW_1
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 0
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.525265, y: 0.017391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b670cb96b32241709dd3277b2d65ca47
+      internalID: 2624248638207130715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accord_3_NW_2
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 0
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.525265, y: 0.017391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523bcbdac665487db7a4ac3f2af583e6
+      internalID: 3087930556080287063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accord_3_NW_3
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 0
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.525265, y: 0.017391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cfdf3cfcdbd45bc86761a78a2bd40c1
+      internalID: 952402090928680905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accord_3_NW_4
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 0
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.525265, y: 0.017391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372c01593ea1406b8636a4f29546ec41
+      internalID: 4516799479700196345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accord_3_NW_5
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 0
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.525265, y: 0.017391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc26084b16d24bfb8040a71f4eea2d51
+      internalID: 3751407173866017187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accord_3_NW_6
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 0
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.525265, y: 0.017391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321e9eeeb3eb47fabca0bd54dc0cd00d
+      internalID: 1789770466497085142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      accord_3_NW_0: 3520863736006331333
+      accord_3_NW_1: 2624248638207130715
+      accord_3_NW_2: 3087930556080287063
+      accord_3_NW_3: 952402090928680905
+      accord_3_NW_4: 4516799479700196345
+      accord_3_NW_5: 3751407173866017187
+      accord_3_NW_6: 1789770466497085142
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

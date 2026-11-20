@@ -17,10 +17,12 @@ namespace SoulRequiem.Gameplay
         private bool initialized;
         private int current;
         private Coroutine running;
+        private string animName = ""; // 19/11 (§335): âm
 
         public void Setup(string anim, float framesPerSecond)
         {
             frames = TrapArt.Frames(anim);
+            animName = anim; // 19/11 (§335): âm
             fps = Mathf.Max(1f, framesPerSecond);
         }
 
@@ -68,6 +70,7 @@ namespace SoulRequiem.Gameplay
                 return;
             }
             if (running != null) StopCoroutine(running);
+            if (target != current) SfxHooks.Gate(animName, closed, transform.position); // 19/11 (§335): âm
             running = StartCoroutine(Play(target));
         }
 

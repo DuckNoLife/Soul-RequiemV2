@@ -14,6 +14,11 @@ namespace SoulRequiem.Gameplay
     /// Dữ liệu Tiled — thuộc tính trên object "boss" (lớp triggers, vd plague_eye_fight):
     ///   relic_skill (id SkillDefinition, bắt buộc), relic_flag (mặc định relic_&lt;skill&gt;), relic_color (#8fd0ff), relic_delay (1.4 s),
     ///   relic_text (dòng chữ khi cổ vật trồi lên), relic_say (Ren nói sau khi nhận), relic_hint (gợi ý cuối cảnh).
+    ///   16/11: relic_sprite = hình cổ vật: "eye" (mặc định, con mắt vẽ bằng code) hoặc đường dẫn Resources (vd VFX/specimen/relic_knot);
+    ///   relic_beat (bool) = cổ vật đập như nhịp tim (mặc định true khi không phải con mắt); relic_size (float, đv) = cạnh dài nhất của ảnh (mặc định 0,6).
+    ///   Bộ thánh tích sẵn có (16/11): VFX/relics/relic_eye_left, relic_eye_right, relic_ears, relic_arm_left, relic_heart; VFX/specimen/relic_spine.
+    ///   Mỗi boss mang bộ phận thánh rơi đúng bộ phận đó: Plague Eye = con mắt (mặc định), Specimen Zero = VFX/specimen/relic_spine (relic_beat=false,
+    ///   tránh nhầm với trái tim). Còn ảnh dự phòng VFX/specimen/relic_knot (búi rễ).
     /// Bản lưu cũ đã hạ boss (cờ &lt;zone_id&gt;_cleared) mà chưa có cờ cổ vật -> trao luôn, không diễn.
     /// Space / Enter: tua nhanh.
     /// </summary>
@@ -80,6 +85,7 @@ namespace SoulRequiem.Gameplay
             if (player == null || dir.Flags.Has(FlagOf(p))) { running = false; yield break; }
 
             Color col = ColorUtility.TryParseHtmlString(p.GetString("relic_color", "#8fd0ff"), out var c) ? c : EtherVfx.Blue;
+            SoulRequiem.Core.Sfx.Play2D("relic_absorb"); // 19/11 (§335): âm
             var combat = player.GetComponent<PlayerCombat>();
             var psr = player.GetComponentInChildren<SpriteRenderer>();
             int layer = psr != null ? psr.sortingLayerID : 0, order = psr != null ? psr.sortingOrder + 6 : 8;
@@ -95,20 +101,26 @@ namespace SoulRequiem.Gameplay
             var relic = new GameObject("Boss Relic");
             relic.transform.position = from;
             var halo = EtherVfx.Spawn("halo", EtherVfx.Orb, from, new Color(col.r, col.g, col.b, 0f), layer, order - 1, relic.transform);
-            var eye = EtherVfx.Spawn("eye", EyeSprite, from, new Color(1f, 1f, 1f, 0f), layer, order, relic.transform);
+            Sprite look = RelicSprite(p, out bool beat);
+            var eye = EtherVfx.Spawn("eye", look, from, new Color(1f, 1f, 1f, 0f), layer, order, relic.transform);
+            float baseScale = eye.transform.localScale.x;
+            float big = Mathf.Max(look.bounds.size.x, look.bounds.size.y);
+            if (look != EyeSprite && big > 0.01f) baseScale *= p.GetFloat("relic_size", 0.6f) / big;   // cạnh dài nhất = relic_size đv (mặc định 0,6)
+            eye.transform.localScale = Vector3.one * baseScale;
             var light = relic.AddComponent<Light2D>();
             light.lightType = Light2D.LightType.Point;
             light.color = col; light.pointLightOuterRadius = 2.2f; light.pointLightInnerRadius = 0.15f; light.intensity = 0f;
             if (combat != null) combat.FacingOverride = (Vector2)(from - player.position);
 
             // 1. trồi lên khỏi xác, ánh sáng dâng dần, đất rung nhẹ
-            Hints.Show(p.GetString("relic_text", "Something rises from the remains - a core of pure, blue light."), 3f);
+            // 16/11 (§269): bỏ thông báo thừa — hình / hoạt ảnh / bảng tên boss đã thể hiện (relic_text)
             Vector3 up = from + Vector3.up * 0.7f;
             for (float t = 0f; t < 1.6f && !skip; t += Time.deltaTime)
             {
                 float k = Mathf.SmoothStep(0f, 1f, t / 1.6f);
                 relic.transform.position = Vector3.Lerp(from, up, k) + Vector3.up * 0.04f * Mathf.Sin(t * 5f);
                 eye.color = new Color(1f, 1f, 1f, k);
+                if (beat) eye.transform.localScale = Vector3.one * baseScale * Beat(t);
                 halo.color = new Color(col.r, col.g, col.b, 0.55f * k);
                 halo.transform.localScale = Vector3.one * (1.4f + 0.2f * Mathf.Sin(t * 7f));
                 light.intensity = 1.6f * k;
@@ -122,7 +134,8 @@ namespace SoulRequiem.Gameplay
             for (float t = 0f; t < 0.8f && !skip; t += Time.deltaTime)
             {
                 relic.transform.position = up + Vector3.up * 0.04f * Mathf.Sin(t * 5f);
-                light.intensity = 1.6f + 0.8f * Mathf.Abs(Mathf.Sin(t * 8f));
+                light.intensity = beat ? 1.4f + 1.2f * (Beat(t) - 1f) / 0.16f : 1.6f + 0.8f * Mathf.Abs(Mathf.Sin(t * 8f));
+                if (beat) eye.transform.localScale = Vector3.one * baseScale * Beat(t);
                 yield return null;
             }
             skip = false;
@@ -138,6 +151,7 @@ namespace SoulRequiem.Gameplay
                 float u = t / dur, k = u * u;                                  // chậm rồi nhanh
                 Vector3 pos = Vector3.Lerp(start, chest, k) + Vector3.up * (0.9f * 4f * u * (1f - u));
                 relic.transform.position = pos;
+                if (beat && eye != null) eye.transform.localScale = Vector3.one * baseScale * Beat(t);
                 if (cam != null) cam.Focus(pos, size);
                 if (combat != null) combat.FacingOverride = (Vector2)(pos - player.position);
                 if (t >= nextTrail)
@@ -155,6 +169,7 @@ namespace SoulRequiem.Gameplay
             StartCoroutine(Wave(at, col, layer, order, 0f));
             StartCoroutine(Wave(at, col, layer, order, 0.18f));
             StartCoroutine(Flash(player, at, col, psr));
+            SoulRequiem.Core.Sfx.Play2D("new_mantra"); // 19/11 (§335): âm
             Grant(p, true);
             Hints.Show(p.GetString("relic_hint", "The relic sinks into you. New mantras stir in your blood."), 4.5f);
             if (cam != null) { cam.focusSharpness = 3f; cam.Release(); }
@@ -218,6 +233,31 @@ namespace SoulRequiem.Gameplay
             }
             if (psr != null) psr.color = c0;
             Destroy(go);
+        }
+
+        /// <summary>16/11: hình cổ vật theo thuộc tính relic_sprite ("eye" = con mắt vẽ bằng code, còn lại = đường dẫn Resources).
+        /// Không tải được ảnh -> quay về con mắt và báo trong Console.</summary>
+        private static Sprite RelicSprite(SuperCustomProperties p, out bool beat)
+        {
+            string path = p.GetString("relic_sprite", "eye");
+            Sprite s = null;
+            if (path.Length > 0 && path != "eye")
+            {
+                s = Resources.Load<Sprite>(path);
+                if (s == null) Debug.LogWarning("[BossRelic] Không tải được relic_sprite '" + path + "' -> dùng con mắt.");
+            }
+            if (s == null) s = EyeSprite;
+            beat = p.GetBool("relic_beat", s != EyeSprite);
+            return s;
+        }
+
+        /// <summary>Nhịp tim đôi (thịch-thịch, nghỉ) ~ 75 nhịp/phút: trả hệ số scale 1.0 .. 1.16.</summary>
+        private static float Beat(float t)
+        {
+            float ph = Mathf.Repeat(t, 0.8f);
+            float a = Mathf.Exp(-Mathf.Pow((ph - 0.08f) / 0.05f, 2f));
+            float b = Mathf.Exp(-Mathf.Pow((ph - 0.26f) / 0.05f, 2f)) * 0.6f;
+            return 1f + 0.16f * Mathf.Max(a, b);
         }
 
         /// <summary>Con mắt 22x14 px: lòng trắng xanh nhạt, viền tối, tròng xanh Ether, đồng tử dọc, chấm sáng.</summary>

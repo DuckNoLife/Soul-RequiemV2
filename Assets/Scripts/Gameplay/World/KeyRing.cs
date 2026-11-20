@@ -84,10 +84,12 @@ namespace SoulRequiem.Gameplay
         }
 
         /// <summary>Cho Ren một món đồ: bật cờ + dòng thông báo (kèm chữ riêng `text` nếu có).</summary>
-        public static void Give(WorldFlags f, string id, string text)
+        public static void Give(WorldFlags f, string id, string text, bool announce = true)   // 16/11 (§269): announce = false -> nơi gọi tự hiện
         {
             if (f == null || string.IsNullOrEmpty(id)) return;
             f.Set(Flag(id));
+            { var ki = Find(id); SoulRequiem.Core.Sfx.Play2D(ki != null && ki.kind == "Document" ? "pickup_note" : "pickup_item"); }   // 17/11 (§294): âm
+            if (!announce) return;
             string msg = string.IsNullOrEmpty(text) ? $"Obtained: {NameOf(id)}." : text;
             Hints.Show(msg + "  [Inventory]", Mathf.Max(4f, msg.Length / 16f));
         }

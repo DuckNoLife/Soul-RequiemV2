@@ -28,6 +28,9 @@ namespace SoulRequiem.Gameplay
         }
 
         /// <summary>03/11: vòng sáng (đang ẩn) tại `foot` (chân vật), đốm lấp lánh ở độ cao `top` — dùng cả ngoài cơ quan (đồ nhặt).</summary>
+        /// <summary>17/11 (§286): bật lại vòng vàng dưới chân vật đánh dấu (mặc định tắt).</summary>
+        public static bool ShowRing = false;
+
         public static GameObject CreateAt(Vector2 foot, float top, string name)
         {
             var root = new GameObject("NoteMarker " + name);
@@ -35,6 +38,7 @@ namespace SoulRequiem.Gameplay
             var ringSr = new GameObject("ring").AddComponent<SpriteRenderer>();
             ringSr.transform.SetParent(root.transform, false);
             ringSr.sprite = Ring; ringSr.sortingOrder = 1; ringSr.color = new Color(1f, 0.82f, 0.35f, 0.8f);
+            ringSr.enabled = ShowRing;                          // 17/11 (§286): người dùng — bỏ VÒNG VÀNG dưới chân mọi vật đánh dấu; chỉ còn đốm lấp lánh + ánh sáng nhẹ
             for (int i = 0; i < 3; i++)
             {
                 var sp = new GameObject("spark" + i).AddComponent<SpriteRenderer>();

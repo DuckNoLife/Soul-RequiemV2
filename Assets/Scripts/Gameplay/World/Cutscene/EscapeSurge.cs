@@ -91,6 +91,8 @@ namespace SoulRequiem.Gameplay
             // 1. hố trào Ether: rung mạnh dần, loé xanh từng nhịp, bụi đá bật quanh miệng hố
             Hints.Show(props.GetString("surge_text", "The shattered pit heaves - the Ether is welling back up!"), 3.5f);
             float nextKick = 0f, nextBurst = 0.3f;
+            SoulRequiem.Core.Sfx.Play2D("quake_rumble"); // 19/11 (§337): âm: hố trào Ether
+            SoulRequiem.Core.Sfx.Play2D("rock_fall");
             for (float t = 0f; t < 2.4f && !skip; t += Time.deltaTime)
             {
                 float k = t / 2.4f;

@@ -67,6 +67,7 @@ namespace SoulRequiem.Gameplay
             ReadMap(dir.mapRoot);
             foreach (var m in mechs) m.Init();
             dir.Flags.Changed += _ => RefreshFlags();
+            dir.Flags.Removed += _ => { foreach (var m in mechs) m.OnFlagsReset(); RefreshFlags(); };   // 19/11 (§343): cờ bị gỡ -> cơ quan mở lại
             RefreshFlags();
             foreach (var m in mechs) RegisterInteraction(m);
             Debug.Log($"[MapMechanics] {mechs.Count} cơ quan, {ctx.PipeSprites.Count} sprite ống.");
@@ -79,14 +80,19 @@ namespace SoulRequiem.Gameplay
         private void ReadMap(Transform mapRoot)
         {
             var pieces = new List<MechanismArt>();                 // mảnh hình `art_for` — gắn vào cơ quan sau khi đọc hết
+            bool sawMechanicsLayer = false;
             foreach (var so in mapRoot.GetComponentsInChildren<SuperObject>(true))
             {
                 string layer = so.transform.parent != null ? so.transform.parent.name : "";
+                if (layer == "mechanics") sawMechanicsLayer = true;
                 if (layer == "mechanics" || layer == ArtLayer)
                 {
                     var art = MechanismArt.From(so);               // tile object -> khung hình (tắt ảnh ST2U dựng sẵn)
                     var props = so.GetComponent<SuperCustomProperties>();
                     if (art != null && props != null && props.GetString("art_for", "").Length > 0) { pieces.Add(art); continue; }
+                    // 20/11 (§348): vùng cơ quan chỉ là khung đọc vị trí — thiếu unity:IsTrigger trong Tiled thì SuperTiled2Unity dựng va chạm ĐẶC
+                    // (lỗi duo_arena phủ sàn Warden Gallery thành tường vô hình). Va chạm thật do từng cơ quan tự tạo -> ép mọi va chạm lớp này thành trigger.
+                    foreach (var c in so.GetComponentsInChildren<Collider2D>(true)) c.isTrigger = true;
                     var col = so.GetComponent<Collider2D>();
                     var rect = col != null ? new Rect(col.bounds.min, col.bounds.size)
                              : art != null ? art.Box
@@ -109,6 +115,9 @@ namespace SoulRequiem.Gameplay
             }
             foreach (var l in FindObjectsByType<Light2D>(FindObjectsInactive.Include, FindObjectsSortMode.None))
                 if (l.name.StartsWith("Light ")) ctx.Lights[l.name.Substring(6)] = l;
+            // 20/11 (§359): lớp "mechanics" bị ẨN trong Tiled (visible = 0) -> SuperTiled2Unity bỏ qua cả lớp: mọi bẫy / đèn / cơ quan biến mất
+            if (!sawMechanicsLayer && pieces.Count + mechs.Count > 0)
+                Debug.LogError("[MapMechanics] Không thấy lớp 'mechanics' trong map — lớp này có đang bị ẨN trong Tiled không? (bật hiện lại rồi lưu; muốn đỡ rối thì giảm opacity / khoá lớp)");
             foreach (var a in pieces)
             {
                 string owner = a.Props.GetString("art_for", "");
@@ -152,9 +161,13 @@ namespace SoulRequiem.Gameplay
         }
 
         // ------------------------------------------------------------------ đòn chém / phím T
+        /// <summary>16/11 (§255): bán kính của đòn đang xét (chém ~0,45; Earthshatter 1,1) — vật cần đòn nặng (min_radius) đọc giá trị này.</summary>
+        public static float StrikeRadius { get; private set; }
+
         private void OnStruck(Vector2 c, float r)
         {
             if (ctx == null || ctx.ActiveConsole != null) return;
+            StrikeRadius = r;
             // 28/10: đòn chém chỉ còn tác dụng với van gỉ và vật cản gỗ (chuông / cần gạt / vòng số / bàn điều khiển dùng phím T)
             foreach (var m in mechs)
                 if (!m.Done && m.ReactsToStrike && m.Overlaps(c, r)) m.OnStruck();
@@ -173,7 +186,7 @@ namespace SoulRequiem.Gameplay
                 anchor = new Vector2(r.center.x, Mathf.Min(r.yMax, r.center.y + 0.45f)),
                 verbNow = () => m.PanelIsOpen ? "Close" : verb,
                 available = () => m.Usable,
-                use = () => { if (ctx.ActiveConsole == null) m.Use(); },
+                use = () => { if (ctx.ActiveConsole == null) { SfxHooks.MechanismUsed(m); m.Use(); } },   // 17/11 (§294): âm
             });
         }
 

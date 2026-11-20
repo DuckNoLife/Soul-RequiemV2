@@ -22,7 +22,7 @@ namespace SoulRequiem.Gameplay
 
         // ------------------------------------------------------------------ sát thương
         /// <summary>Mọi quái có collider trong vòng tròn (và <paramref name="accept"/> đồng ý) nhận sát thương; trả về số quái trúng.</summary>
-        public int Damage(Vector2 center, float radius, float dmg, float knock, Func<Collider2D, bool> accept)
+        public int Damage(Vector2 center, float radius, float dmg, float knock, Func<Collider2D, bool> accept, bool melee = false, bool finisher = false)
         {
             hits.Clear();
             Physics2D.OverlapCircle(center, radius, filter, hits);
@@ -45,6 +45,8 @@ namespace SoulRequiem.Gameplay
                     Debug.Log($"[Strike] {ai.name}: chạm nhưng KHÔNG nhận đòn (bất tử={ai.Health.Invulnerable}, chết={ai.Health.IsDead}, máu {hpBefore:0.#}/{ai.Health.Max:0})");
                 if (!landed) continue;
                 landedCount++;
+                if (melee && !ai.Health.IsDead) WeaponTraits.ApplyHitStatus(owner, ai, finisher);   // 16/11 (§275): chảy máu / thiêu / chậm / đánh dấu
+                if (melee && ai.Health.IsDead) WeaponTraits.OnMeleeKill(owner);                   // 16/11 (§254): Hunger
                 // VFX trúng đòn ở thân quái (collider quái chỉ là vệt chân -> kéo lên phía giữa hình quái);
                 // máu bắn theo hướng đòn (ảnh gốc bắn sang phải)
                 if (owner.showVfx)

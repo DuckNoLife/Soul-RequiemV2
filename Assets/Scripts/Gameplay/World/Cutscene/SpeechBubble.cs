@@ -6,12 +6,17 @@ namespace SoulRequiem.Gameplay
     /// <summary>
     /// 02/11: bóng thoại nhỏ trên đầu nhân vật / trong cảnh (chữ pixel RequiemBody trên nền tối), tự mờ dần rồi biến mất.
     /// SpeechBubble.Show(vịTríThếGiới, "Help!", 2.5f)
+    /// 17/11 (người dùng): mặc định KHÔNG vẽ bóng trên đầu nữa — câu nói chuyển xuống khung hội thoại dưới đáy màn hình (<see cref="Subtitles"/>),
+    /// không chặn điều khiển. Tên người nói: tham số speaker, hoặc tự suy ra khi gọi Follow (Ren / NPC / quái). WorldBubbles = true để quay lại kiểu cũ.
     /// </summary>
     public class SpeechBubble : MonoBehaviour
     {
         private static Font font;
         private static Sprite white;
         private static readonly List<SpeechBubble> active = new List<SpeechBubble>();
+        /// <summary>17/11: true = vẽ bóng thoại trên đầu như cũ; false (mặc định) = đưa câu xuống khung hội thoại dưới đáy.</summary>
+        public static bool WorldBubbles = false;
+        private int subtitleSerial = -1;                    // >= 0: bóng này chỉ là "chỗ giữ" cho một câu phụ đề (không vẽ gì)
 
         private TextMesh text;
         private SpriteRenderer bg;
@@ -26,6 +31,7 @@ namespace SoulRequiem.Gameplay
         {
             follow = speaker;
             if (speaker != null) followOffset = transform.position - speaker.position;
+            if (subtitleSerial >= 0) Subtitles.SetSpeaker(subtitleSerial, Subtitles.NameOf(speaker));
             return this;
         }
 
@@ -34,8 +40,19 @@ namespace SoulRequiem.Gameplay
             if (follow != null) transform.position = follow.position + followOffset;
         }
 
-        public static SpeechBubble Show(Vector3 at, string message, float seconds, Color? color = null)
+        public static SpeechBubble Show(Vector3 at, string message, float seconds, Color? color = null, string speaker = null, string voice = null)
         {
+            if (!WorldBubbles)
+            {
+                // 17/11: phụ đề dưới đáy. Vẫn trả về một SpeechBubble (rỗng, tự huỷ) để code cũ gọi .Follow(...) không lỗi.
+                if (string.IsNullOrEmpty(message)) return null;
+                var sgo = new GameObject("Speech (subtitle)");
+                sgo.transform.position = at;
+                var sb = sgo.AddComponent<SpeechBubble>();
+                sb.subtitleSerial = Subtitles.Say(speaker, message, seconds, color, voice);   // 19/11 (§338): voice = giọng bíp khi không ghi tên
+                sb.born = Time.time; sb.until = Subtitles.Until;
+                return sb;
+            }
             if (font == null) font = Resources.Load<Font>("UI/Requiem/Fonts/RequiemBody");
             if (white == null)
             {
@@ -112,6 +129,7 @@ namespace SoulRequiem.Gameplay
         private void Update()
         {
             float t = Time.time;
+            if (subtitleSerial >= 0) { if (t > until) Destroy(gameObject); return; }
             // nảy nhẹ khi hiện, mờ dần 0.35 giây cuối
             float pop = Mathf.Clamp01((t - born) / 0.12f);
             transform.localScale = Vector3.one * Mathf.Lerp(0.7f, 1f, pop);

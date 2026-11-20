@@ -10,6 +10,8 @@ namespace SoulRequiem.Gameplay
     ///   dir    down (mặc định) | up | left | right      mode cycle (mặc định: `period`, `offset`) | trigger (`trigger` = tín hiệu)
     ///   warn_seconds (hình báo trước), speed (ô / giây), damage, range (ô), burst + burst_gap (bắn nhiều phát / lượt)
     ///   disable_on + disable_seconds, start_when, stop_when (lớp nền). Đạn trúng cả quái; chặn được bằng bàn lật, cột, tường.
+    ///   16/11 (§262): `art` = hậu tố bộ hình hốc bắn (vd mine -> trap_arrow_prep_mine: hốc đá nâu cho vách mỏ Map 1b); thiếu ảnh thì dùng bản gốc.
+    ///   Đạn bỏ qua khối tường đang chứa miệng bắn (trước đây tên vừa sinh đã chạm va chạm vách -> cắm ngay tại chỗ, bẫy như hỏng).
     /// </summary>
     public sealed class LauncherMechanism : HazardMechanismBase
     {
@@ -23,6 +25,9 @@ namespace SoulRequiem.Gameplay
         private int shotsLeft, shownFireFrame = -1;
         private float nextBurst;
         private float lastCycle = -1f;
+        private bool mounted;                 // 18/11: hình đã xoay áp tường
+        private Vector2 wallBack;             // mép tường (lưng hình)
+        private float artDepth;               // chiều sâu hình theo hướng bắn
 
         private static Kind Of(string kind)
         {
@@ -52,8 +57,8 @@ namespace SoulRequiem.Gameplay
         public override void Init()
         {
             k = Of(Str("kind", "arrow"));
-            warnFrames = TrapArt.Frames(k.warn);
-            fireFrames = TrapArt.Frames(k.fire);
+            warnFrames = Skin(k.warn);
+            fireFrames = Skin(k.fire);
             fly = TrapArt.Frames(k.fly);
             end = TrapArt.Frames(k.end);
             var idle = warnFrames.Length > 0 ? warnFrames[0] : fireFrames.Length > 0 ? fireFrames[0] : null;
@@ -62,9 +67,38 @@ namespace SoulRequiem.Gameplay
                 sr = TrapArt.MakeRenderer(Ctx.Host.transform, "Launcher " + Name, new Vector3(Rect.center.x, Rect.yMin, 0f), Ctx.Player, 0);
                 sr.sprite = idle;
                 sr.flipX = Props.GetBool("flip", false);
+                MountOnWall(idle);
             }
             trigger = new TrapListener(Str("trigger", ""));
             disabler = new TrapListener(Str("disable_on", ""));
+        }
+
+        /// <summary>18/11 (§319): máy bắn trên tường TÂY / ĐÔNG / NAM (dir right / left / up): xoay hình cho miệng quay đúng hướng bắn
+        /// (hình gốc vẽ miệng chĩa xuống), LƯNG hình áp sát mép vùng phía ngược hướng bắn (= mặt tường), miệng bắn dời ra theo hình.
+        /// Tường bắc (dir down) giữ như cũ. Tắt bằng rotate_art = false.</summary>
+        private void MountOnWall(Sprite s)
+        {
+            Vector2 d = Dir;
+            if (sr == null || d == Vector2.down || !Props.GetBool("rotate_art", true)) return;
+            artDepth = s.bounds.size.y;
+            float rot = d.x > 0f ? 90f : d.x < 0f ? -90f : 180f;
+            wallBack = new Vector2(d.x > 0f ? Rect.xMin : d.x < 0f ? Rect.xMax : Rect.center.x,
+                                   d.y > 0f ? Rect.yMin : Rect.center.y);
+            sr.transform.SetPositionAndRotation(wallBack + d * artDepth, Quaternion.Euler(0f, 0f, rot));
+            sr.flipX = false;
+            mounted = true;
+        }
+
+        /// <summary>16/11 (§262): bộ hình hốc bắn theo `art` (hậu tố), không có thì bản gốc.</summary>
+        private Sprite[] Skin(string name)
+        {
+            string art = Str("art", "");
+            if (name.Length > 0 && art.Length > 0)
+            {
+                var f = TrapArt.Frames(name + "_" + art);
+                if (f.Length > 0) return f;
+            }
+            return TrapArt.Frames(name);
         }
 
         private bool Armed()
@@ -107,11 +141,14 @@ namespace SoulRequiem.Gameplay
         private void Shoot()
         {
             if (fly.Length == 0) return;
+            string kindS = Str("kind", "arrow"); // 19/11 (§335): âm
+            SoulRequiem.Core.Sfx.Play(kindS.StartsWith("fire") ? "trap_fire" : kindS == "ice" ? "trap_ice" : "trap_arrow", Rect.center);
             Vector2 d = Dir;
             var r = Rect;
             Vector2 muzzle = new Vector2(
                 d.x > 0 ? r.xMax : d.x < 0 ? r.xMin : r.center.x,
                 d.y > 0 ? r.yMax : d.y < 0 ? r.yMin : r.center.y) + d * 0.06f;
+            if (mounted) muzzle = wallBack + d * (artDepth * 0.6f + 0.06f);   // 18/11: miệng theo hình đã xoay
             var go = new GameObject("TrapShot " + Name);
             go.transform.position = muzzle;
             var s = go.AddComponent<SpriteRenderer>();
@@ -124,7 +161,13 @@ namespace SoulRequiem.Gameplay
             p.fps = 14f;
             p.spinToDirection = k.spin;
             p.knockback = 1.2f;
-            p.hitsEnemies = true;
+            p.hitsEnemies = false;                                          // 20/11 (§353): tên / cầu lửa của bẫy KHÔNG trúng quái (bay xuyên qua)
+            p.keepRotationOnEnd = k.spin;                                   // 16/11 (§262): tên bắn dọc cắm dọc
+            // 16/11 (§262): bỏ qua tường / vách chứa miệng bắn (vật không có Health quanh miệng lúc sinh)
+            var wall = Physics2D.OverlapCircleAll(muzzle, 0.2f);
+            var skip = new System.Collections.Generic.List<Collider2D>();
+            foreach (var c in wall) if (c != null && !c.isTrigger && c.GetComponentInParent<Health>() == null) skip.Add(c);
+            if (skip.Count > 0) p.Ignore(skip);
             string kind = Str("kind", "arrow");
             if (kind == "fire" || kind == "fire_hole") { p.burnDps = Float("burn_dps", 4f); p.burnSeconds = Float("burn_seconds", 2.5f); }
             if (kind == "ice") { p.chillMul = Float("chill", 0.55f); p.chillSeconds = Float("chill_seconds", 2f); }

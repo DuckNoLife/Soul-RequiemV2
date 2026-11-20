@@ -16,7 +16,10 @@ namespace SoulRequiem.Gameplay
     /// </summary>
     public sealed class VillagerDirector : MonoBehaviour
     {
-        private struct Entry { public Villager v; public string showWhen, hideWhen; public Vector2[] enterPath; public Vector2 home, face; }
+        private struct Entry { public Villager v; public string showWhen, hideWhen; public Vector2[] enterPath; public Vector2 home, face;
+                               public string[] baseLines; public List<AltLines> alt; }
+        /// <summary>16/11 (§260): một bộ lời thay thế theo cờ (Tiled `lines_N_when` / `lines_N_unless` / `lines_N`).</summary>
+        private class AltLines { public string when = "", unless = ""; public string[] lines; }
         private bool started;
         private readonly List<Entry> all = new List<Entry>();
         private static readonly Dictionary<string, Dictionary<string, Sprite[]>> cache = new Dictionary<string, Dictionary<string, Sprite[]>>();
@@ -54,8 +57,19 @@ namespace SoulRequiem.Gameplay
                 v.lines = string.IsNullOrEmpty(lines) ? null : lines.Split('|').Select(s => s.Trim()).Where(s => s.Length > 0).ToArray();
                 v.speaker = p.GetString("speaker", Pretty(so.m_TiledName));
                 v.Init(reference);
-                all.Add(new Entry { v = v, showWhen = p.GetString("show_when", ""), hideWhen = p.GetString("hide_when", ""),
-                                    enterPath = ParsePath(dir, p.GetString("enter_from", "")), home = go.transform.position, face = v.facing });
+                var ent = new Entry { v = v, showWhen = p.GetString("show_when", ""), hideWhen = p.GetString("hide_when", ""),
+                                    enterPath = ParsePath(dir, p.GetString("enter_from", "")), home = go.transform.position, face = v.facing,
+                                    alt = new List<AltLines>() };
+                // 16/11 (§260): lời theo cờ — `lines_N_when` (+ `lines_N_unless`) + `lines_N`, N = 1..6; bộ có N lớn nhất đủ điều kiện thắng
+                ent.baseLines = v.lines;
+                for (int n = 1; n <= 6; n++)
+                {
+                    string ln = p.GetString("lines_" + n, "");
+                    if (ln.Length == 0) continue;
+                    ent.alt.Add(new AltLines { when = p.GetString("lines_" + n + "_when", ""), unless = p.GetString("lines_" + n + "_unless", ""),
+                                               lines = ln.Split('|').Select(x => x.Trim()).Where(x => x.Length > 0).ToArray() });
+                }
+                all.Add(ent);
             }
             dir.Flags.Changed += _ => Refresh(dir.Flags);
             Refresh(dir.Flags);
@@ -68,6 +82,13 @@ namespace SoulRequiem.Gameplay
             foreach (var e in all)
             {
                 if (e.v == null) continue;
+                if (e.alt.Count > 0)                                                   // 16/11 (§260): chọn bộ lời theo cờ
+                {
+                    string[] pick = e.baseLines;
+                    foreach (var a in e.alt)
+                        if ((a.when.Length == 0 || flags.HasAll(a.when)) && (a.unless.Length == 0 || !a.unless.Split(',').Any(f => f.Trim().Length > 0 && flags.Has(f.Trim())))) pick = a.lines;
+                    e.v.lines = pick;
+                }
                 bool on = (string.IsNullOrEmpty(e.showWhen) || flags.HasAll(e.showWhen)) &&
                           (string.IsNullOrEmpty(e.hideWhen) || !flags.HasAll(e.hideWhen));
                 if (e.v.gameObject.activeSelf == on) continue;

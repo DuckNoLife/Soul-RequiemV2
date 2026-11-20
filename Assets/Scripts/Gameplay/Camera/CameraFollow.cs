@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using SoulRequiem.Core;
+using SuperTiled2Unity;
 
 namespace SoulRequiem.Gameplay
 {
@@ -61,6 +62,11 @@ namespace SoulRequiem.Gameplay
         /// <summary>Trả khung hình về như cũ.</summary>
         public void ClearZoom() { zoomMul = 1f; }
 
+        // ---- 20/11 (§371): THEO SÁT nhân vật, không kẹp biên map (minigame lùi camera ở khu sát mép map: kẹp biên đẩy nhân vật lệch sang một bên)
+        private bool freeFollow;
+        private float freeBlend;                                     // 0 = kẹp biên như thường, 1 = bỏ kẹp; chuyển mượt 0,6 s
+        public void SetFreeFollow(bool on) { freeFollow = on; }
+
         private void FindPixelPerfect()
         {
             if (pixelPerfect != null) return;
@@ -93,6 +99,9 @@ namespace SoulRequiem.Gameplay
         }
         private Bounds mapBounds;
         private bool hasBounds;
+        // 19/11 (§332): thuộc tính map `camera_clamp` = both (mặc định) | y | x | none. Map phòng rời trôi giữa nền đen (King's Barrow)
+        // dùng "y": chiều ngang đi theo Ren — trước đây camera kẹp theo sân boss rộng nhất nên phòng hẹp bị đẩy lệch sang một bên.
+        private bool clampX = true, clampY = true;
 
         // ---- giật camera ngắn theo một hướng (đòn chém trúng): đẩy ra rồi lò xo về, theo thời gian thật
         private Vector2 kickDir;
@@ -172,12 +181,20 @@ namespace SoulRequiem.Gameplay
                 else mapBounds.Encapsulate(b);
             }
 
+            clampX = clampY = true;
+            var sm = mapRoot != null ? mapRoot.GetComponentInChildren<SuperMap>() : FindFirstObjectByType<SuperMap>();
+            var mp = sm != null ? sm.GetComponent<SuperCustomProperties>() : null;
+            string mode = mp != null ? mp.GetString("camera_clamp", "both").Trim().ToLowerInvariant() : "both";
+            clampX = mode == "both" || mode == "x";
+            clampY = mode == "both" || mode == "y";
+
             if (!hasBounds && clampToMap)
                 Debug.LogWarning("CameraFollow: không tìm thấy Tilemap nào có tile để giới hạn camera.");
         }
 
         private void LateUpdate()
         {
+            freeBlend = Mathf.MoveTowards(freeBlend, freeFollow ? 1f : 0f, Time.unscaledDeltaTime / 0.6f);   // §371
             if (focusing || returning)
             {
                 float k = 1f - Mathf.Exp(-focusSharpness * Time.unscaledDeltaTime);
@@ -222,14 +239,16 @@ namespace SoulRequiem.Gameplay
         private Vector3 Clamp(Vector3 p)
         {
             if (!clampToMap || !hasBounds || !cam.orthographic) return p;
+            Vector3 raw = p;
 
             float halfH = cam.orthographicSize;
             float halfW = halfH * cam.aspect;
             Vector3 min = mapBounds.min + new Vector3(inset, inset, 0f);
             Vector3 max = mapBounds.max - new Vector3(inset, inset, 0f);
 
-            p.x = (max.x - min.x) <= 2f * halfW ? (min.x + max.x) * 0.5f : Mathf.Clamp(p.x, min.x + halfW, max.x - halfW);
-            p.y = (max.y - min.y) <= 2f * halfH ? (min.y + max.y) * 0.5f : Mathf.Clamp(p.y, min.y + halfH, max.y - halfH);
+            if (clampX) p.x = (max.x - min.x) <= 2f * halfW ? (min.x + max.x) * 0.5f : Mathf.Clamp(p.x, min.x + halfW, max.x - halfW);
+            if (clampY) p.y = (max.y - min.y) <= 2f * halfH ? (min.y + max.y) * 0.5f : Mathf.Clamp(p.y, min.y + halfH, max.y - halfH);
+            if (freeBlend > 0f) p = Vector3.Lerp(p, raw, freeBlend);           // §371
             return p;
         }
 

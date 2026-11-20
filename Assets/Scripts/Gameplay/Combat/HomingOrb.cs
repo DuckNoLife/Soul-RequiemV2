@@ -28,6 +28,7 @@ namespace SoulRequiem.Gameplay
         public static HomingOrb Spawn(Vector2 pos, Vector2 direction, EnemyAI enemy, int sortingLayer, int order)
         {
             var r = EtherVfx.Spawn("Ether Orb", EtherVfx.Orb, pos, EtherVfx.Blue, sortingLayer, order);
+            SoulRequiem.Core.Sfx.Play("proj_magic", pos); // 19/11 (§335): âm
             r.transform.localScale = Vector3.one * 0.6f;
             var core = EtherVfx.Spawn("Core", EtherVfx.Orb, pos, EtherVfx.Core, sortingLayer, order + 1, r.transform);
             core.transform.localScale = Vector3.one * 0.45f;

@@ -257,6 +257,37 @@ namespace SoulRequiem.Gameplay
 
         /// <summary>06/11: gây hấn ngay với người chơi, bỏ qua tầm nhìn / tầm phát hiện (lỗi: cóc con của Gorgemaw chui ra ở góc phòng,
         /// xa hơn aggroRange -> đứng im chờ Ren lại gần). summoned = quái triệu hồi: bỏ dây xích về chỗ sinh.</summary>
+        // ------------------------------------------------------------------ 16/11 (§252): Discord (Mantras of the Ear)
+        private Coroutine retargetCo;
+        /// <summary>Đang bị Discord lừa: coi một con quái khác là "người chơi".</summary>
+        public bool Retargeted { get; private set; }
+        /// <summary>Tạm coi <paramref name="other"/> là mục tiêu (mọi đòn / chiêu sẵn có của quái tự đánh vào nó) trong <paramref name="seconds"/> s;
+        /// hết giờ hoặc mục tiêu chết -> trả về Ren. Boss không bị lừa.</summary>
+        public void Retarget(EnemyAI other, float seconds)
+        {
+            if (other == null || other == this || other.Health == null || Health == null || Health.IsDead || IsBoss) return;
+            if (retargetCo != null) StopCoroutine(retargetCo);
+            retargetCo = StartCoroutine(RetargetRoutine(other, seconds));
+        }
+
+        private IEnumerator RetargetRoutine(EnemyAI other, float seconds)
+        {
+            Retargeted = true;
+            player = other.transform; playerHealth = other.Health; playerCol = other.bodyCol;
+            aggro = true; returning = false; reachGap = float.MaxValue; noProgressT = 0f;
+            float end = Time.time + seconds;
+            while (Time.time < end && other != null && other.Health != null && !other.Health.IsDead && !Health.IsDead) yield return null;
+            var pc = FindFirstObjectByType<PlayerController>();
+            player = null; playerHealth = null; playerCol = null;
+            if (pc != null)
+            {
+                player = pc.transform;
+                playerHealth = pc.GetComponent<Health>();
+                foreach (var c in pc.GetComponents<Collider2D>()) if (!c.isTrigger) { playerCol = c; break; }
+            }
+            Retargeted = false; retargetCo = null;
+        }
+
         public void Provoke(bool summoned = true)
         {
             aggro = true; reachGap = float.MaxValue; noProgressT = 0f;
@@ -367,7 +398,7 @@ namespace SoulRequiem.Gameplay
             if (Health.IsDead || kind == EnemyKind.Turret || Airborne) return;
             steering?.TrackProgress(desired, Time.fixedDeltaTime);
             Vector2 extra = Health.ConsumeExtraVelocity(Time.fixedDeltaTime);
-            Vector2 next = rb.position + (desired + extra) * Time.fixedDeltaTime;
+            Vector2 next = rb.position + (desired * Health.MoveMul + extra) * Time.fixedDeltaTime;   // 16/11 (§275): bị làm chậm (Bind / Chill)
             if (floating && bounds.width > 0f)
                 next = new Vector2(Mathf.Clamp(next.x, bounds.xMin + 0.3f, bounds.xMax - 0.3f), Mathf.Clamp(next.y, bounds.yMin + 0.3f, bounds.yMax - 0.3f));
             rb.MovePosition(next);
@@ -426,7 +457,7 @@ namespace SoulRequiem.Gameplay
                     bool notices = d <= aggroRange && playerNearHome && (SeesPlayer() || d <= aggroRange * 0.35f);
                     // vừa rút lui vì bị trap: chỉ gây hấn lại khi người chơi thật sự áp sát
                     if (notices && Time.time < reaggroGuardUntil && gap > attackRange + 0.3f) notices = false;
-                    if (notices) { aggro = true; reachGap = float.MaxValue; noProgressT = 0f; }
+                    if (notices) { aggro = true; reachGap = float.MaxValue; noProgressT = 0f; SfxHooks.EnemyAlert(this); } // 19/11 (§335): âm
                     else { desired = Vector2.zero; Play("Idle"); yield return null; continue; }
                 }
 
@@ -588,14 +619,18 @@ namespace SoulRequiem.Gameplay
             nextDash = Time.time + dashCooldown;
             desired = Vector2.zero;
             Play("Windup", true);
-            yield return Telegraph(0.5f, new Color(1f, 0.4f, 0.4f));
-            if (Health.IsDead || player == null) yield break;
+            // §372: làn báo trước (trước đây chỉ nháy màu thân) + quãng lao tới chỗ Ren + 0,8 đv (2..3,8; cũ 1,4–2,1 đv — lao "hụt hơi")
             Vector2 dir = ((Vector2)(player.position - transform.position)).normalized;
+            float reach = DashTelegraph.Reach(transform.position, dir, DashTelegraph.WantReach(transform.position, player.position, 0.8f, 2f, 3.8f), 0.25f, bodyCol, player);
+            var tg = DashTelegraph.Spawn(transform.position, dir, reach, DashTelegraph.WidthFor(bodyCol, 0.6f), new Color(1f, 0.4f, 0.35f), 0.6f, SortingLayer, SortingOrder - 1);
+            yield return Telegraph(0.6f, new Color(1f, 0.4f, 0.4f));
+            tg.Release();
+            if (Health.IsDead || player == null) yield break;
             Face(dir.x);
             Play("Move", true);
             bool hit = false;
-            float t = 0f;
-            while (t < dashTime && !Health.IsDead)
+            float t = 0f, runTime = reach / Mathf.Max(0.1f, dashSpeed);
+            while (t < runTime && !Health.IsDead)
             {
                 desired = dir * dashSpeed;
                 if (!hit && Gap() <= 0.1f) { HitPlayer(damage * 1.2f); hit = true; }
@@ -691,16 +726,33 @@ namespace SoulRequiem.Gameplay
             // 1. Gồng đòn — báo hiệu rõ ràng
             desired = Vector2.zero;
             Play("Windup");
-            yield return Telegraph(windup, new Color(1f, 0.6f, 0.4f));
+            // §372: làn báo trước bám theo Ren trong 75% đầu thời gian gồng rồi khoá (trước chỉ nháy màu thân, hướng lao chọn lúc gồng xong);
+            // quãng lao = tới đúng chỗ Ren (1,6..4 đv; cũ 2 đv cố định) rồi đập
+            Vector2 dir = ((Vector2)(player.position - transform.position)).normalized;
+            float reach = 2f;
+            DashTelegraph tg = null;
+            StartCoroutine(Telegraph(windup, new Color(1f, 0.6f, 0.4f)));
+            for (float w = 0f; w < windup && !Health.IsDead; w += Time.deltaTime)
+            {
+                if (player != null && (w < windup * 0.75f || tg == null))
+                {
+                    dir = ((Vector2)(player.position - transform.position)).normalized;
+                    reach = DashTelegraph.Reach(transform.position, dir, DashTelegraph.WantReach(transform.position, player.position, 0.1f, 1.6f, 4f), 0.25f, bodyCol, player);
+                }
+                if (tg == null) tg = DashTelegraph.Spawn(transform.position, dir, reach, DashTelegraph.WidthFor(bodyCol, 0.7f), new Color(1f, 0.55f, 0.35f), windup, SortingLayer, SortingOrder - 1);
+                else tg.Aim(transform.position, dir, reach);
+                Face(dir.x);
+                yield return null;
+            }
+            if (tg != null) tg.Release();
             if (Health.IsDead || player == null) yield break;
 
             // 2. Lao tới vị trí người chơi lúc gồng xong, đập khi tới nơi
-            Vector2 dir = ((Vector2)(player.position - transform.position)).normalized;
             Face(dir.x);
             Play("Attack");
             bool hitDuringCharge = false, hitPillar = false;
-            float t = 0f;
-            while (t < chargeTime && !Health.IsDead)
+            float t = 0f, runTime = (reach + 0.3f) / Mathf.Max(0.1f, chargeSpeed);   // +0,3: vẫn húc vào cột đá ở cuối làn (RingPillar)
+            while (t < runTime && !Health.IsDead)
             {
                 desired = dir * chargeSpeed;
                 // 02/11: đâm vào cột đá -> cột vỡ, khựng lâu (người chơi dụ boss vào cột)
@@ -724,8 +776,9 @@ namespace SoulRequiem.Gameplay
                 yield return Wait(cooldown);
                 yield break;
             }
+            SoulRequiem.Core.Sfx.Play("boss_slam", transform.position); // 19/11 (§337): âm: cú đập cuối đòn lao
             if (!hitDuringCharge && Gap() <= slamRadius) HitPlayer(damage);
-            yield return Wait(Mathf.Max(0f, attackTime - chargeTime));
+            yield return Wait(Mathf.Max(0f, attackTime - runTime));
 
             // 3. Khựng lại — cửa sổ phản công theo logbook
             Play("Recovery");
@@ -824,6 +877,7 @@ namespace SoulRequiem.Gameplay
                     if (!restart && resolved == currentState) return;
                     anim.Play(Animator.StringToHash(resolved), 0, 0f);
                     currentState = resolved; currentBase = state;
+                    SfxHooks.EnemyState(this, state); // 19/11 (§335): âm
                     anim.speed = state == "Move" ? MoveAnimSpeed : 1f;   // đi chậm: chân bước chậm theo
                     return;
                 }
@@ -840,13 +894,14 @@ namespace SoulRequiem.Gameplay
             }
             anim.Play(Animator.StringToHash(state), 0, 0f);
             currentState = state; currentBase = state;
+            SfxHooks.EnemyState(this, state); // 19/11 (§335): âm
             anim.speed = state == "Move" ? MoveAnimSpeed : 1f;   // đi chậm: chân bước chậm theo
         }
 
         private void OnDamaged(Health h, float amount)
         {
             lastDamagedAt = Time.time;
-            if (!returning) aggro = true;
+            if (!returning) { if (!aggro) SfxHooks.EnemyAlert(this); aggro = true; } // 19/11 (§335): âm
             if (special == EnemySpecial.Shell && !inShell && !h.IsDead && Time.time >= nextShell) StartCoroutine(ShellRoutine());
             if (IsBoss && !phase2Fired && h.Percent <= phase2At)
             {

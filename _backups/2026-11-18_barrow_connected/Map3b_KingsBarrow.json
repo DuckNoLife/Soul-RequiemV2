@@ -1,0 +1,74 @@
+{
+ "ppt": 4,
+ "hidden": [],
+ "view": {
+  "x": 0,
+  "y": 0,
+  "w": 64,
+  "h": 42,
+  "label": ""
+ },
+ "kind": "side",
+ "steps": [
+  {
+   "title": "Find what lies beneath the empty coffin",
+   "done": "x2_slab_broken",
+   "targets": [
+    {
+     "label": "Crowned flagstone",
+     "x": 5.5,
+     "y": 11.6,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Cross the Drowned Muster",
+   "done": "x3_cleared",
+   "targets": [
+    {
+     "label": "The Drowned Muster",
+     "x": 40,
+     "y": 6.5,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Face what still holds the field",
+   "done": "x4_cleared",
+   "targets": [
+    {
+     "label": "The Red Field",
+     "x": 38,
+     "y": 28,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Find the king who walked into the marsh",
+   "done": "oath_taken",
+   "targets": [
+    {
+     "label": "Borrow's Rest",
+     "x": 11.5,
+     "y": 27.2,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Climb back up to the Sinking Fields",
+   "done": "never",
+   "targets": [
+    {
+     "label": "The rope",
+     "x": 4.5,
+     "y": 5.1,
+     "done": ""
+    }
+   ]
+  }
+ ]
+}

@@ -16,9 +16,14 @@ namespace SoulRequiem.Gameplay
         /// <summary>Có bảng đang mở — hoặc vừa đóng trong khung hình này (để phím Esc/chuột đóng bảng không mở menu Pause / chém).</summary>
         public static bool BlocksInput => Current != null || closedFrame == Time.frameCount;
 
+        /// <summary>16/11 (§270): điểm Ren quay mặt nhìn khi đọc (tâm vùng của cơ quan mở bảng).</summary>
+        public static Vector2? Focus { get; private set; }
+
         internal static void Open(MechanismPanel panel)
         {
             Current = panel;
+            Focus = panel != null && panel.Owner != null ? panel.Owner.Rect.center : (Vector2?)null;
+            SoulRequiem.Core.GameInput.Reading = panel != null;                // đứng yên đọc tới khi đóng bảng
             Version++;
         }
 
@@ -26,6 +31,8 @@ namespace SoulRequiem.Gameplay
         {
             if (Current == null) return;
             Current = null;
+            Focus = null;
+            SoulRequiem.Core.GameInput.Reading = false;
             closedFrame = Time.frameCount;
             Version++;
         }
@@ -36,6 +43,8 @@ namespace SoulRequiem.Gameplay
         internal static void Reset()
         {
             Current = null;
+            Focus = null;
+            SoulRequiem.Core.GameInput.Reading = false;
             closedFrame = -1;
             Version++;
         }
@@ -52,6 +61,8 @@ namespace SoulRequiem.Gameplay
     public sealed class NotePanel : MechanismPanel
     {
         public string Body = "";
+        /// <summary>16/11 (§269): dòng "đã nhận" (kiếm / chìa) in ở chân bảng — thay cho dòng chữ dưới màn hình.</summary>
+        public string Obtained = "";
         public Sprite Picture;
         public readonly System.Collections.Generic.List<(Sprite glyph, string caption)> Glyphs =
             new System.Collections.Generic.List<(Sprite, string)>();

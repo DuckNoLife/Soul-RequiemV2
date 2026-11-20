@@ -91,11 +91,11 @@
    ]
   },
   {
-   "title": "Follow the Ruins Path east",
+   "title": "Follow the Cloister Ruins east",
    "done": "z4_cleared",
    "targets": [
     {
-     "label": "Ruins Path",
+     "label": "Cloister Ruins",
      "x": 73.5,
      "y": 17.5,
      "done": ""

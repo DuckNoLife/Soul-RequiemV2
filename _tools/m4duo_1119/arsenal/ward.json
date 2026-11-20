@@ -1,0 +1,443 @@
+{
+ "frames": [
+  {
+   "filename": "duo-ward 0.png",
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.8571428571428571
+   },
+   "duration": 83
+  },
+  {
+   "filename": "duo-ward 1.png",
+   "frame": {
+    "x": 136,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.8571428571428571
+   },
+   "duration": 83
+  },
+  {
+   "filename": "duo-ward 2.png",
+   "frame": {
+    "x": 272,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.8571428571428571
+   },
+   "duration": 83
+  },
+  {
+   "filename": "duo-ward 3.png",
+   "frame": {
+    "x": 408,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.8571428571428571
+   },
+   "duration": 83
+  },
+  {
+   "filename": "duo-ward 4.png",
+   "frame": {
+    "x": 0,
+    "y": 112,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.8571428571428571
+   },
+   "duration": 83
+  },
+  {
+   "filename": "duo-ward 5.png",
+   "frame": {
+    "x": 136,
+    "y": 112,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.8571428571428571
+   },
+   "duration": 83
+  },
+  {
+   "filename": "duo-ward 6.png",
+   "frame": {
+    "x": 272,
+    "y": 112,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.8571428571428571
+   },
+   "duration": 83
+  },
+  {
+   "filename": "duo-ward 7.png",
+   "frame": {
+    "x": 408,
+    "y": 112,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.8571428571428571
+   },
+   "duration": 83
+  },
+  {
+   "filename": "duo-ward 8.png",
+   "frame": {
+    "x": 0,
+    "y": 224,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.8571428571428571
+   },
+   "duration": 83
+  },
+  {
+   "filename": "duo-ward 9.png",
+   "frame": {
+    "x": 136,
+    "y": 224,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.8571428571428571
+   },
+   "duration": 83
+  },
+  {
+   "filename": "duo-ward 10.png",
+   "frame": {
+    "x": 272,
+    "y": 224,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.8571428571428571
+   },
+   "duration": 83
+  },
+  {
+   "filename": "duo-ward 11.png",
+   "frame": {
+    "x": 408,
+    "y": 224,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.8571428571428571
+   },
+   "duration": 83
+  },
+  {
+   "filename": "duo-ward 12.png",
+   "frame": {
+    "x": 0,
+    "y": 336,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.8571428571428571
+   },
+   "duration": 83
+  },
+  {
+   "filename": "duo-ward 13.png",
+   "frame": {
+    "x": 136,
+    "y": 336,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.8571428571428571
+   },
+   "duration": 83
+  },
+  {
+   "filename": "duo-ward 14.png",
+   "frame": {
+    "x": 272,
+    "y": 336,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.8571428571428571
+   },
+   "duration": 83
+  },
+  {
+   "filename": "duo-ward 15.png",
+   "frame": {
+    "x": 408,
+    "y": 336,
+    "w": 136,
+    "h": 112
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 136,
+    "h": 112
+   },
+   "sourceSize": {
+    "w": 136,
+    "h": 112
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.8571428571428571
+   },
+   "duration": 83
+  }
+ ],
+ "meta": {
+  "app": "PixelLab VFX Creator",
+  "image": "duo-ward.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 544,
+   "h": 448
+  },
+  "scale": "1",
+  "anchor": {
+   "kind": "origin",
+   "x": 68,
+   "y": 96
+  },
+  "frameTags": [
+   {
+    "name": "duo-ward",
+    "from": 0,
+    "to": 15,
+    "direction": "forward"
+   }
+  ]
+ }
+}

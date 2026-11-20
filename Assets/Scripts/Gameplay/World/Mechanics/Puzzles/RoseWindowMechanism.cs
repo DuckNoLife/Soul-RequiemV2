@@ -48,6 +48,7 @@ namespace SoulRequiem.Gameplay
             foreach (var v in wheels) if (v != 0) return;
             Done = true;
             SolvedAt = Time.unscaledTime;
+            SfxHooks.MechanismEvent(this, "solved", "puzzle_solved"); // 19/11 (§335): âm
             Ctx.Flags.Set(Str("sets", Name));
             Hints.Show(Str("solved_hint", "The altar grinds aside. Stairs lead down beneath the chapel."), 5f);
             MechanismPanels.MarkDirty();

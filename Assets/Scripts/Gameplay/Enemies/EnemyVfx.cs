@@ -58,6 +58,7 @@ namespace SoulRequiem.Gameplay
         /// Vệt đánh theo hướng tới người chơi: trục trội (dọc khi |y| > 1.3|x|, khớp cách EnemyAI chọn hướng).
         public void Swing(Vector2 dir)
         {
+            // 19/11 (§335): tiếng vung chuyển sang SfxHooks.EnemyState (mọi quái, theo họ giọng)
             if (!Has(swing)) return;
             bool vertical = Mathf.Abs(dir.y) > Mathf.Abs(dir.x) * 1.3f;
             string suf = vertical ? (dir.y < 0f ? "_S" : "_N") : "_E";

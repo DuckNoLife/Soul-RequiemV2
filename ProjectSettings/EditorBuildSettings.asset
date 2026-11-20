@@ -23,6 +23,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Map4_CatacombsOfNaming.unity
     guid: 2a1e7d0b4cfc4b54e9710687e0f94bf4
+  - enabled: 1
+    path: Assets/Scenes/Map1b_HermitsHollow.unity
+    guid: bad64b886019bf44cb4002ea9f3bfac1
+  - enabled: 1
+    path: Assets/Scenes/Map2b_KrovenDeep.unity
+    guid: f1bd2829614d4a5408cb3b42ebcfbbed
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

@@ -65,12 +65,15 @@ namespace SoulRequiem.Gameplay
         public static void Reset() => Equipped = "";
 
         /// <summary>Nhặt được một thanh: bật cờ + dòng thông báo.</summary>
-        public static void Give(WorldFlags f, string id, string line)
+        /// <summary>16/11 (§269): `announce` = false -> không hiện dòng chữ dưới màn hình (nơi gọi tự hiện, vd chân bảng ghi chú).</summary>
+        public static void Give(WorldFlags f, string id, string line, bool announce = true)
         {
             var w = Find(id);
             if (f == null || w == null) { Debug.LogWarning($"[WeaponRing] không có katana id '{id}' trong Resources/Weapons."); return; }
             if (f.Has(Flag(id))) return;
+            SoulRequiem.Core.Sfx.Play2D("pickup_weapon");   // 17/11 (§294): âm
             f.Set(Flag(id));
+            if (!announce) return;
             string msg = string.IsNullOrEmpty(line) ? $"Obtained: {w.displayName}." : line;
             Hints.Show(msg + "  [Inventory]", Mathf.Max(5f, msg.Length / 15f));
         }

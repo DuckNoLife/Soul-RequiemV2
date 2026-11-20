@@ -55,6 +55,7 @@ namespace SoulRequiem.Gameplay
         {
             if (!Load() || pebbles.Count == 0) yield break;
             var sr = new GameObject("Cutscene Debris").AddComponent<SpriteRenderer>();
+            SoulRequiem.Core.Sfx.Play2D("rock_fall", 0.6f); // 19/11 (§337): âm
             sr.sprite = pebbles[Random.Range(0, pebbles.Count)];
             sr.flipX = Random.value < 0.5f;
             sr.color = new Color(0.8f, 0.82f, 0.8f);

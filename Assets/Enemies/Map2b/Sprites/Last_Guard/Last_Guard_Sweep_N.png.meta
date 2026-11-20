@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: e30073813de27eb4b9b54f5db1f594c5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2852580993628493279
+    second: Last_Guard_Sweep_N_0
+  - first:
+      213: 5082139394033345005
+    second: Last_Guard_Sweep_N_1
+  - first:
+      213: 7254817528237269876
+    second: Last_Guard_Sweep_N_2
+  - first:
+      213: -5071988656308790131
+    second: Last_Guard_Sweep_N_3
+  - first:
+      213: 9033009036269478087
+    second: Last_Guard_Sweep_N_4
+  - first:
+      213: 7627307785456728826
+    second: Last_Guard_Sweep_N_5
+  - first:
+      213: 4444406981252134999
+    second: Last_Guard_Sweep_N_6
+  - first:
+      213: -7700740831312747814
+    second: Last_Guard_Sweep_N_7
+  - first:
+      213: 4589474889620138137
+    second: Last_Guard_Sweep_N_8
+  - first:
+      213: -4732110435603967072
+    second: Last_Guard_Sweep_N_9
+  - first:
+      213: 2700895877977374149
+    second: Last_Guard_Sweep_N_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Last_Guard_Sweep_N_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 168
+        height: 168
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a2ebd23b89968d0800000000000000
+      internalID: -2852580993628493279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last_Guard_Sweep_N_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 168
+        height: 168
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de160604ad2678640800000000000000
+      internalID: 5082139394033345005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last_Guard_Sweep_N_2
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 168
+        height: 168
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4732cd0ba1a4ea460800000000000000
+      internalID: 7254817528237269876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last_Guard_Sweep_N_3
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 0
+        width: 168
+        height: 168
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c57eb803dac99b0800000000000000
+      internalID: -5071988656308790131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last_Guard_Sweep_N_4
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 168
+        height: 168
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c06cbb0cd1bb5d70800000000000000
+      internalID: 9033009036269478087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last_Guard_Sweep_N_5
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 0
+        width: 168
+        height: 168
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa38b80504a9d960800000000000000
+      internalID: 7627307785456728826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last_Guard_Sweep_N_6
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 0
+        width: 168
+        height: 168
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758bcca1a94bdad30800000000000000
+      internalID: 4444406981252134999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last_Guard_Sweep_N_7
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 0
+        width: 168
+        height: 168
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2e142a309712590800000000000000
+      internalID: -7700740831312747814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last_Guard_Sweep_N_8
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 168
+        height: 168
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9982265981711bf30800000000000000
+      internalID: 4589474889620138137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last_Guard_Sweep_N_9
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 0
+        width: 168
+        height: 168
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a318ef61aa245eb0800000000000000
+      internalID: -4732110435603967072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Last_Guard_Sweep_N_10
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 0
+        width: 168
+        height: 168
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd7826bd728b7520800000000000000
+      internalID: 2700895877977374149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 21d886cb3a56f314bbdd757a956a5057
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Last_Guard_Sweep_N_0: -2852580993628493279
+      Last_Guard_Sweep_N_1: 5082139394033345005
+      Last_Guard_Sweep_N_10: 2700895877977374149
+      Last_Guard_Sweep_N_2: 7254817528237269876
+      Last_Guard_Sweep_N_3: -5071988656308790131
+      Last_Guard_Sweep_N_4: 9033009036269478087
+      Last_Guard_Sweep_N_5: 7627307785456728826
+      Last_Guard_Sweep_N_6: 4444406981252134999
+      Last_Guard_Sweep_N_7: -7700740831312747814
+      Last_Guard_Sweep_N_8: 4589474889620138137
+      Last_Guard_Sweep_N_9: -4732110435603967072
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

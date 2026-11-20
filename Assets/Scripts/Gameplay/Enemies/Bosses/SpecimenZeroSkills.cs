@@ -140,7 +140,7 @@ namespace SoulRequiem.Gameplay
                 LoadRoots();
                 LoadHand();
                 ai.PlayState("Awake");
-                Hints.Show("Specimen Zero awakens.", 3f);
+                // 16/11 (§269): bỏ thông báo thừa — hình / hoạt ảnh / bảng tên boss đã thể hiện
                 yield return ai.Flash(1.4f, tint);
                 nextRoots = Time.time + 0.6f;
                 nextLash = Time.time + 4f;
@@ -223,6 +223,7 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ 1. Grasping Roots
         private IEnumerator Roots()
         {
+            SfxHooks.BossMove(this, "Roots"); // 19/11 (§335): âm
             nextRoots = Time.time + 3.4f * Pace;
             if (rootSets.Count == 0) yield break;
             Vector2 target = ai.Player.position;
@@ -254,6 +255,7 @@ namespace SoulRequiem.Gameplay
                     var fr = rootSets[Random.Range(0, rootSets.Count)];
                     bool fallback = fr == tentacleFrames;
                     var g = GroundStrike.Spawn(p, 0.12f, 0.24f, ai.damage * 0.7f, fr, Mathf.Min(2, fr.Length - 1), 16f, Order, tint);
+                    g.impactSfx = "root_spike"; // 19/11 (§337): âm
                     g.bodyScale = fallback ? 0.9f : Random.Range(0.85f, 1.05f);
                     g.bodyColor = fallback ? rootTint : Color.white;
                     g.onHit = h => { var st = h != null ? h.GetComponent<PlayerStatus>() : null; if (st != null) st.Slow(0.5f, 1.4f, "Roots grip your legs!"); };
@@ -267,13 +269,14 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ 2. Tentacle Lash
         private IEnumerator Lash()
         {
+            SfxHooks.BossMove(this, "Lash"); // 19/11 (§335): âm
             nextLash = Time.time + 6.5f * Pace;
             if (tentacleFrames == null || tentacleFrames.Length == 0 || !hasRoom) yield break;
             float y = Mathf.Clamp(ai.Player.position.y, room.yMin + 0.3f, room.yMax - 0.3f);
             bool fromLeft = ai.Player.position.x > room.center.x;          // quét từ phía xa Ren về phía Ren
             float x0 = fromLeft ? room.xMin + 0.2f : room.xMax - 0.2f, x1 = fromLeft ? room.xMax - 0.2f : room.xMin + 0.2f;
             var lane = Bar(new Vector2((x0 + x1) * 0.5f, y), new Vector2(Mathf.Abs(x1 - x0), 0.5f), new Color(0.7f, 0.3f, 1f, 0f), Order - 3);
-            Hints.Show("The floor ripples - tentacles surge across the vault!", 2f);
+            // 16/11 (§269): bỏ thông báo thừa — hình / hoạt ảnh / bảng tên boss đã thể hiện
             for (float t = 0f; t < 0.9f; t += Time.deltaTime)
             {
                 lane.color = new Color(0.7f, 0.3f, 1f, 0.12f + 0.18f * Mathf.Abs(Mathf.Sin(t * 9f)));
@@ -285,6 +288,7 @@ namespace SoulRequiem.Gameplay
             {
                 Vector2 p = new Vector2(Mathf.Lerp(x0, x1, i / (float)n), y + (i % 2 == 0 ? 0.08f : -0.08f));
                 var g = GroundStrike.Spawn(p, 0.05f, 0.3f, ai.damage * 0.9f, tentacleFrames, Mathf.Min(2, tentacleFrames.Length - 1), 18f, Order, tint);
+                g.impactSfx = "flesh_slam"; // 19/11 (§337): âm
                 g.bodyScale = 1.6f; g.bodyColor = tint; g.knockback = 3f;
                 yield return new WaitForSeconds(P2 ? 0.035f : 0.05f);
             }
@@ -294,6 +298,7 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ 3. Vessel's Gaze
         private IEnumerator Gaze()
         {
+            SfxHooks.BossMove(this, "Gaze"); // 19/11 (§335): âm
             nextGaze = Time.time + 9f * Pace;
             Vector2 eye = Eye;
             var glowGo = new GameObject("SZ Eye Glow"); fx.Add(glowGo);
@@ -301,7 +306,7 @@ namespace SoulRequiem.Gameplay
             var glow = glowGo.AddComponent<Light2D>();
             glow.lightType = Light2D.LightType.Point; glow.color = tint; glow.pointLightOuterRadius = 2.2f; glow.pointLightInnerRadius = 0.1f;
             var aim = Line(eye, eye, 0.025f, new Color(tint.r, tint.g, tint.b, 0.35f), Order + 2);
-            Hints.Show("The slit in its chest peels open...", 2f);
+            // 16/11 (§269): bỏ thông báo thừa — hình / hoạt ảnh / bảng tên boss đã thể hiện
             // nạp: đèn dâng, vạch nhắm bám theo Ren
             Vector2 toP = Vector2.down;
             for (float t = 0f; t < 1.1f && !ai.Health.IsDead; t += Time.deltaTime)
@@ -326,6 +331,7 @@ namespace SoulRequiem.Gameplay
                 beam.transform.rotation = Quaternion.Euler(0f, 0f, Mathf.Atan2(d.y, d.x) * Mathf.Rad2Deg);
                 beam.transform.localScale = new Vector3(reach / EtherVfx.BeamWidthUnits, (0.22f + 0.04f * Mathf.Sin(t * 40f)) / EtherVfx.BeamHeightUnits, 1f);
                 glow.intensity = 3f + Mathf.Sin(t * 30f);
+                SoulRequiem.Core.Sfx.Loop(beam, "eye_beam", transform); // 19/11 (§337): âm: tia quét kêu suốt lúc bắn
                 if (t >= nextTick && ai.Player != null)
                 {
                     Vector2 pp = (Vector2)ai.Player.position + Vector2.up * 0.25f;
@@ -354,6 +360,7 @@ namespace SoulRequiem.Gameplay
 
         private IEnumerator Wail()
         {
+            SfxHooks.BossMove(this, "Wail"); // 19/11 (§335): âm
             nextWail = Time.time + 14f * Pace;
             var wards = SpritePropMechanism.Group(wardGroup);
             var ward = PickWard(wards, null);
@@ -377,6 +384,7 @@ namespace SoulRequiem.Gameplay
                 }
                 if (ai.Health.IsDead) yield break;
                 yield return ai.Flash(0.2f, new Color(1f, 0.55f, 0.85f));
+                SoulRequiem.Core.Sfx.Play("sz_wail", transform.position); // 19/11 (§335): âm
                 int rings = 3;                                        // pha 2: vẫn 3 vòng nhưng đổi trụ giữa chừng (bản cũ 4 vòng: đòn quá dài)
                 for (int i = 0; i < rings && !ai.Health.IsDead; i++)
                 {
@@ -577,6 +585,7 @@ namespace SoulRequiem.Gameplay
         // Pha 2: 3 bàn tay nối tiếp, mỗi tay nhắm chỗ Ren đứng lúc đó — phải chạy liên tục hoặc lăn đúng lúc.
         private IEnumerator Hand()
         {
+            SfxHooks.BossMove(this, "Hand"); // 19/11 (§335): âm
             nextHand = Time.time + 8f * Pace;
             if (handFrames == null || handFrames.Length == 0) yield break;
             int n = P2 ? 3 : 1;
@@ -599,6 +608,7 @@ namespace SoulRequiem.Gameplay
                 }
                 if (shadow != null) Destroy(shadow.gameObject);
                 var strike = GroundStrike.Spawn(mark, 0.45f, 0.42f, ai.damage * 1.1f, handFrames, 3, 14f, Order, new Color(0.75f, 0.3f, 1f));
+                strike.impactSfx = "sz_hand"; // 19/11 (§337): âm
                 strike.knockback = 3.5f;
                 strike.onHit = h => CameraFollow.KickMain(Vector2.up, 0.05f, 0.15f);
                 yield return new WaitForSeconds(P2 ? 0.35f : 0.2f);
@@ -701,6 +711,7 @@ namespace SoulRequiem.Gameplay
                     Vector2 p = c + new Vector2(Mathf.Cos(a) * rr, Mathf.Sin(a) * rr * 0.6f);
                     var fr = rootSets[Random.Range(0, rootSets.Count)];
                     var g = GroundStrike.Spawn(p, 0.02f, 0.3f, ai.damage * 0.8f, fr, Mathf.Min(2, fr.Length - 1), 18f, Order, tint);
+                    g.impactSfx = "root_spike"; // 19/11 (§337): âm
                     g.bodyScale = Random.Range(0.9f, 1.1f);
                     g.bodyColor = fr == tentacleFrames ? rootTint : Color.white;
                     g.knockback = 4f;
@@ -718,7 +729,8 @@ namespace SoulRequiem.Gameplay
 
         private IEnumerator ChainsBreak()
         {
-            Hints.Show("The chains snap - Specimen Zero tears free of its seals!", 3f);
+            SfxHooks.BossMove(this, "ChainsBreak"); // 19/11 (§335): âm
+            // 16/11 (§269): bỏ thông báo thừa — hình / hoạt ảnh / bảng tên boss đã thể hiện
             for (float t = 0f; t < 1.2f; t += 0.07f) { CameraFollow.KickMain(Random.insideUnitCircle, 0.09f, 0.12f); yield return new WaitForSeconds(0.07f); }
             yield return ai.Flash(0.6f, tint);
             LoadEyeFx();
@@ -726,7 +738,7 @@ namespace SoulRequiem.Gameplay
             var eyes = SpritePropMechanism.Group(wallEyeGroup);
             if (eyes.Count > 0)
             {
-                Hints.Show("Eyes open in the vault walls...", 2.5f);
+                // 16/11 (§269): bỏ thông báo thừa — hình / hoạt ảnh / bảng tên boss đã thể hiện
                 eyes.Sort((x, y) => x.Foot.x.CompareTo(y.Foot.x));
                 for (int i = 0; i < eyes.Count; i++) StartCoroutine(OpenEye(eyes[i], eyes[i].Foot, 0.4f + i * 0.35f));
             }
@@ -744,6 +756,7 @@ namespace SoulRequiem.Gameplay
 
         private IEnumerator OpenEye(SpritePropMechanism prop, Vector2 at, float delay)
         {
+            SfxHooks.BossMove(this, "OpenEye"); // 19/11 (§335): âm
             yield return new WaitForSeconds(delay);
             if (ai == null || ai.Health.IsDead) yield break;
             var e = new WatchEye { at = at };
@@ -799,6 +812,7 @@ namespace SoulRequiem.Gameplay
 
         private IEnumerator WatcherShot(WatchEye e, float track, System.Action done)
         {
+            SfxHooks.BossMove(this, "WatcherShot"); // 19/11 (§337): âm
             var temp = new List<SpriteRenderer>();
             try
             {
@@ -901,6 +915,7 @@ namespace SoulRequiem.Gameplay
         /// <summary>Chỗ tia đâm: nổ (PixelLab eyefx_burst, thiếu -> vòng nở) + vết cháy (eyefx_scorch, thiếu -> đốm tối) mờ dần 1,6 s.</summary>
         private IEnumerator Scorch(Vector2 at, int layer)
         {
+            SfxHooks.BossMove(this, "Scorch"); // 19/11 (§337): âm
             var mark = EtherVfx.Spawn("SZ Eye Scorch", eyeScorch != null ? eyeScorch : Blob, at,
                                       eyeScorch != null ? new Color(1f, 1f, 1f, 0.9f) : new Color(0.25f, 0.02f, 0.05f, 0.6f), layer, Order - 4);
             fx.Add(mark.gameObject);

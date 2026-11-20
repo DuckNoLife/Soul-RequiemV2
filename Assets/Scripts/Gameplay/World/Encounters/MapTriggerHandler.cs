@@ -17,7 +17,8 @@ namespace SoulRequiem.Gameplay
         private readonly List<MapTrigger> triggers;
 
         // Bia tự hiện khi bước vào (lời dẫn mở map, mẹo né bẫy) — còn lại phải lại gần nhấn T.
-        private static readonly HashSet<string> AutoSignNames = new HashSet<string> { "r1_hatch", "r2_spout_hint", "stair_sign" };
+        // 19/11 (§342): + walk_hint (Map 2b / Map 4), roll_hint (Map 4) — lời nhắc vượt bẫy, trước đây phải nhấn T "đọc" giữa khoảng trống (không có hình gì).
+        private static readonly HashSet<string> AutoSignNames = new HashSet<string> { "r1_hatch", "r2_spout_hint", "stair_sign", "walk_hint", "roll_hint" };
 
         // 02/11: vật nhặt (bình máu, nâng cấp bình, thuốc xanh) trước đây vô hình -> đốm sáng ấm nhấp nháy, tắt khi nhặt
         private readonly Dictionary<MapTrigger, ExitBeacon> pickupGlow = new Dictionary<MapTrigger, ExitBeacon>();
@@ -43,8 +44,15 @@ namespace SoulRequiem.Gameplay
                 if (t.type == MapSchema.ObjectType.Checkpoint)
                 {
                     shrines[t] = ShrineMarker.Create(t.rect, director.mapRoot, psr != null ? psr.sortingLayerID : 0);
-                    // 04/11: điểm nghỉ nhỏ khó thấy (cụm nến dưới cống Map 2): thuộc tính marker = true -> vòng sáng + đốm lấp lánh tới khi thắp
-                    if (t.props.GetBool("marker", false))
+                    // 17/11 (§285): KHÔNG còn vòng sáng / đốm lấp lánh đánh dấu điểm hồi sinh (người dùng: thiếu chuyên nghiệp).
+                    // Điểm nghỉ không có lửa / nến thật trong map -> điểm hồi sinh ẨN: không đèn, không ô [T] Rest; chỉ ghi nhận khi đi qua.
+                    if (shrines[t] != null && !shrines[t].TryFlameBounds(out _))
+                    {
+                        UnityEngine.Object.Destroy(shrines[t].gameObject);
+                        shrines[t] = null;
+                        silent.Add(t);
+                    }
+                    if (ShowCheckpointMarkers && t.props.GetBool("marker", false))
                     {
                         // 04/11 (ảnh chạy thử): vùng nghỉ đã nới rộng cho dễ bấm -> tâm vùng lệch khỏi nến; vòng đặt dưới chân cụm nến thật
                         Vector2 foot = new Vector2(t.rect.center.x, t.rect.center.y - 0.12f);
@@ -91,6 +99,10 @@ namespace SoulRequiem.Gameplay
         }
 
         private readonly Dictionary<MapTrigger, GameObject> pickupMarker = new Dictionary<MapTrigger, GameObject>();
+        /// <summary>17/11 (§285): điểm nghỉ ẩn (không có lửa / nến thật) — chỉ là điểm hồi sinh tự động.</summary>
+        private readonly HashSet<MapTrigger> silent = new HashSet<MapTrigger>();
+        /// <summary>17/11 (§285): tắt mọi dấu hiệu "điểm lưu" (vòng sáng, đốm lấp lánh, lời nhắc thắp lửa). Bật lại = true.</summary>
+        private static readonly bool ShowCheckpointMarkers = false;
 
         public IReadOnlyList<MapTrigger> All => triggers;
 
@@ -156,6 +168,21 @@ namespace SoulRequiem.Gameplay
             return false;
         }
 
+        /// <summary>17/11 (§289): Ren vào khu -> mọi điểm nghỉ thuộc khu đó (zone_id trùng, hoặc tâm nằm trong khung khu) coi như đã thắp:
+        /// cờ lit_&lt;tên&gt; (icon lửa trên minimap đổi xanh ngay), lửa / nến thật bùng lên. Trước đây phải bước sát vào vùng điểm nghỉ.</summary>
+        public void LightCheckpointsIn(string zoneId, Rect zoneRect)
+        {
+            foreach (var t in triggers)
+            {
+                if (t.type != MapSchema.ObjectType.Checkpoint) continue;
+                if (t.zoneId != zoneId && !zoneRect.Contains(t.rect.center)) continue;
+                string f = "lit_" + t.name;
+                if (director.Flags.Has(f)) continue;
+                director.Flags.Set(f);
+                if (shrines.TryGetValue(t, out var sh) && sh != null) sh.Kindle();
+            }
+        }
+
         /// <summary>08/11 (§187): checkpoint là điểm hồi sinh của ải `stage` — thuộc tính stage có thể là danh sách "a,b" (dùng chung).</summary>
         private static bool HasStage(MapTrigger t, string stage)
         {
@@ -203,7 +230,7 @@ namespace SoulRequiem.Gameplay
                 Vector2 p = director.Player != null ? (Vector2)director.Player.position : new Vector2(float.NaN, float.NaN);
                 foreach (var t in triggers)
                 {
-                    if (t.type != MapSchema.ObjectType.Checkpoint) continue;
+                    if (t.type != MapSchema.ObjectType.Checkpoint || silent.Contains(t)) continue;   // 17/11: điểm ẩn không có ô Rest
                     if (t.inside) return true;
                     var r = t.rect;
                     if (p.x >= r.xMin - 0.25f && p.x <= r.xMax + 0.25f && p.y >= r.yMin - 0.25f && p.y <= r.yMax + 0.25f) return true;
@@ -308,6 +335,61 @@ namespace SoulRequiem.Gameplay
             }
         }
 
+        /// <summary>18/11 (§326): MỌI đồ nhặt (pickup) = lại gần nhấn T. Chữ nút: `verb` (mặc định "Take"), tầm `range`
+        /// (đơn vị thế giới, mặc định 0,3 ≈ 1 ô, tính tới mép vùng — đồ treo tường thì vùng nằm trên mặt tường, Ren đứng dưới chân tường vẫn với tới).
+        /// Đã nhặt / bị `unless` thì nút biến mất. Chưa đủ `requires` thì nhấn T nhắc `locked_text`.</summary>
+        public void RegisterPickups()
+        {
+            InteractionSystem.Ensure();
+            var flags = director.Flags;
+            foreach (var t in triggers)
+            {
+                if (t.type != MapSchema.ObjectType.Pickup || t.props.GetBool("auto", false)) continue;
+                var pick = t;
+                var r = t.rect;
+                string unlessFlags = t.props.GetString("unless", "");
+                // 19/11 (§342): đồ RƠI TỪ BOSS (chìa, nanh Grok, ấn Vey...) trước đây hiện nút T ngay từ đầu dù đồ chưa rơi ra.
+                // Nay nút chỉ hiện khi: hình món đồ (`hide`) đang hiện trên map VÀ (đủ `requires`, hoặc có `locked_text` — đồ thấy được
+                // nhưng còn bị canh, vd ấn ở Map 4 "Its keeper still stands guard", bình trong hang gấu: nhấn T để đọc lời nhắc).
+                string requires = t.props.GetString(MapSchema.Prop.Requires, "");
+                bool hasLocked = !string.IsNullOrEmpty(t.props.GetString(MapSchema.Prop.LockedText, ""));
+                var visuals = VisualsOf(t.props.GetString(MapSchema.Prop.Hide, ""));
+                // 19/11 (§344): đồ nhặt đặt TRÊN bệ / kệ (ấn Map 4 trên bệ đá) bị chính cái bệ che: cùng sortingOrder, chân ảnh món đồ cao hơn chân bệ
+                // -> sắp theo Y vẽ món đồ phía sau. Hình món đồ luôn nổi trên lớp của nó một bậc.
+                foreach (var v in visuals)
+                    if (v != null) foreach (var sr in v.GetComponentsInChildren<SpriteRenderer>(true)) sr.sortingOrder += 1;
+                InteractionSystem.Add(new Interactable
+                {
+                    id = "pickup_" + t.name, verb = t.props.GetString(MapSchema.Prop.Verb, "Take"), rect = r, clue = false,
+                    range = t.props.GetFloat(MapSchema.Prop.Range, 0.3f),
+                    anchor = new Vector2(r.center.x, Mathf.Min(r.yMax, r.center.y + 0.45f)),
+                    available = () => !pick.fired && (unlessFlags.Length == 0 || !flags.HasAll(unlessFlags))
+                                      && Shown(visuals) && (hasLocked || flags.HasAll(requires)),
+                    use = () => OnPickup(pick),
+                });
+            }
+        }
+
+        /// <summary>19/11 (§342): object Tiled là hình của món đồ (thuộc tính `hide` của pickup).</summary>
+        private List<GameObject> VisualsOf(string names)
+        {
+            var list = new List<GameObject>();
+            if (string.IsNullOrEmpty(names) || director.mapRoot == null) return list;
+            var want = new HashSet<string>();
+            foreach (var n in names.Split(',')) if (n.Trim().Length > 0) want.Add(n.Trim());
+            foreach (var so in director.mapRoot.GetComponentsInChildren<SuperTiled2Unity.SuperObject>(true))
+                if (want.Contains(so.m_TiledName)) list.Add(so.gameObject);
+            return list;
+        }
+
+        /// <summary>19/11 (§342): hình món đồ đang hiện (không có hình -> coi như hiện).</summary>
+        private static bool Shown(List<GameObject> visuals)
+        {
+            if (visuals.Count == 0) return true;
+            foreach (var v in visuals) if (v != null && v.activeInHierarchy) return true;
+            return false;
+        }
+
         /// <summary>08/11 (§190): lối ra có `interact` = true -> lại gần nhấn T (chữ `verb`, mặc định "Enter"; tầm `range`).
         /// Chưa đủ cờ / khu chưa dọn thì không hiện (cơ quan mở khoá ở gần nhận phím T), trừ khi `show_locked` = true
         /// (khi đó nhấn T nhắc locked_text).</summary>
@@ -340,13 +422,14 @@ namespace SoulRequiem.Gameplay
                     // 02/11: vùng nghỉ bao quanh đống lửa (vào từ hướng nào cũng được) -> hồi sinh ở chỗ người chơi vừa đứng (chắc chắn đi được),
                     // không phải tâm vùng (giữa đống lửa có collider)
                     director.SetRespawnPoint(director.Player != null ? (Vector2)director.Player.position : t.rect.center);
+                    director.AddAutoRespawn(director.Player != null ? (Vector2)director.Player.position : t.rect.center);   // 17/11 (§285)
                     if (shrines.TryGetValue(t, out var shrine) && shrine != null) shrine.Kindle();
                     director.Flags.Set("lit_" + t.name);
                     director.SaveProgress();                          // 02/11: thắp lửa trại = lưu game
                     string noun = t.props.GetString("rest_noun", "shrine"); if (string.IsNullOrEmpty(noun)) noun = "shrine";
                     ShrineMarker.RestLabel = "Rest at the " + noun;
                     // 02/11: chỉ MỘT lời nhắc: ô [T] Rest at the campfire của HUD. Lần đầu: ô đó thêm dòng giải thích (ShrineMarker.Notice), không Hints.Show
-                    if (!director.Flags.HasAll("tut_shrine"))
+                    if (ShowCheckpointMarkers && !director.Flags.HasAll("tut_shrine"))   // 17/11 (§285): bỏ lời nhắc "lit - you wake at the last one you lit" (hồi sinh tự động, gần chỗ gục nhất)
                     {
                         director.Flags.Set("tut_shrine");
                         ShrineMarker.Notice = char.ToUpperInvariant(noun[0]) + noun.Substring(1) + " lit - if you fall, you wake at the last one you lit. Resting restores health and flasks.";
@@ -363,7 +446,8 @@ namespace SoulRequiem.Gameplay
                     }
                     break;
                 case MapSchema.ObjectType.Pickup:
-                    OnPickup(t);
+                    // 18/11 (§326): KHÔNG nhặt khi bước vào nữa — lại gần nhấn T (RegisterPickups). `auto` = true giữ kiểu cũ nếu cần.
+                    if (t.props.GetBool("auto", false)) OnPickup(t);
                     break;
                 case MapSchema.ObjectType.Portal:
                     OnPortal(t);
@@ -383,6 +467,15 @@ namespace SoulRequiem.Gameplay
         {
             if (t.fired) return;
             var flags = director.Flags;
+            // 16/11 (§237): `unless` = đồ đã được dùng vào việc khác (vd. đưa lọ thuốc cho goblin con) -> biến mất, không nhặt nữa
+            string unlessFlags = t.props.GetString("unless", "");
+            if (unlessFlags.Length > 0 && flags.HasAll(unlessFlags))
+            {
+                t.fired = true;
+                if (pickupGlow.TryGetValue(t, out var g0) && g0 != null) UnityEngine.Object.Destroy(g0.gameObject);
+                if (pickupMarker.TryGetValue(t, out var m0) && m0 != null) UnityEngine.Object.Destroy(m0);
+                return;
+            }
             // vật phẩm khoá theo cờ (vd. chìa khoá rơi ra khi dọn xong khu mini-boss): chưa đủ cờ thì chưa nhặt được
             if (!flags.HasAll(t.props.GetString(MapSchema.Prop.Requires, "")))
             {
@@ -400,7 +493,7 @@ namespace SoulRequiem.Gameplay
             {
                 case "potion":
                     var kit = player.GetComponent<PlayerCombat>();
-                    if (kit != null) { kit.AddPotion(1); Hints.Show("Picked up a potion.", 2.5f); }
+                    if (kit != null) { kit.AddPotion(1); Hints.Show("Picked up a potion.", 2.5f); SoulRequiem.Core.Sfx.Play2D("pickup_item"); }   // 17/11 (§294): âm
                     break;
                 case "key":   // 04/11: chìa khoá / đồ then chốt -> túi đồ (KeyRing). Cửa chỉ mở khi Ren tới đúng cửa (requires_key)
                     KeyRing.Give(flags, KeyRing.Register(t.props), t.props.GetString(MapSchema.Prop.HintText, ""));
@@ -430,7 +523,7 @@ namespace SoulRequiem.Gameplay
                     if (!string.IsNullOrEmpty(skillHide)) HideMapObject(skillHide);
                     string skillFlag = t.props.GetString(MapSchema.Prop.Flag, "");   // 01/11: vd cổ vật Con Mắt -> tắt đèn chỗ nhặt
                     if (!string.IsNullOrEmpty(skillFlag)) flags.Set(skillFlag);
-                    Hints.Show(t.props.GetString(MapSchema.Prop.HintText, $"A new mantra. Rest at a {ShrineMarker.Noun} to attune it."), 4.5f);
+                    Hints.Show(t.props.GetString(MapSchema.Prop.HintText, "A new mantra. Press {mantras} to attune it."), 4.5f);
                     break;
                 case "skill_scroll":   // 02/11: cuộn giấy chiêu + 1 bình máu (rương của Hob): học chiêu, lắp vào ô trống đầu tiên (F)
                     var slo = player.GetComponent<PlayerLoadout>();
@@ -579,6 +672,14 @@ namespace SoulRequiem.Gameplay
             yield return RingCollapse.Play(director, c);
             OnExit(exit);
             if (!SceneTransition.Busy) CutsceneState.End();                  // không chuyển được map: trả HUD
+        }
+
+        /// <summary>16/11 (§237): rời map ngay qua lối ra tên `exitName` (cảnh cốt truyện).</summary>
+        public void ExitNow(string exitName)
+        {
+            foreach (var t in triggers)
+                if (t.type == MapSchema.ObjectType.Exit && t.name == exitName) { OnExit(t); return; }
+            Debug.LogWarning($"[Map] ExitNow: không thấy lối ra '{exitName}'");
         }
 
         private System.Collections.IEnumerator ExitAfter(string exitName, float delay)

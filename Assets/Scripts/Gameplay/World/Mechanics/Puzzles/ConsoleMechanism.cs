@@ -65,6 +65,7 @@ namespace SoulRequiem.Gameplay
                 Ctx.Flags.Set(FitFlag);                                       // -> OnFlagsChanged hiện cần gạt
                 string item = Str("fit_item", "");
                 if (item.Length > 0) Ctx.Flags.Set(KeyRing.UsedFlag(item));
+                SfxHooks.MechanismEvent(this, "fit", "fit_part"); // 19/11 (§335): âm
                 Hints.Show(Str("fit_text", "You fit the crank onto the console. It locks into place."), 2.5f);
                 CameraFollow.KickMain(Vector2.down, 0.02f, 0.12f);
             }

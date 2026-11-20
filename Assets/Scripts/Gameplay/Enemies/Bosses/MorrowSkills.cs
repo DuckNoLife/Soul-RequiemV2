@@ -125,6 +125,7 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ cận chiến
         private IEnumerator TollStrike()
         {
+            SfxHooks.BossMove(this, "TollStrike"); // 19/11 (§335): âm
             Use("sweep", 4f);
             ai.Desired = Vector2.zero;
             ai.FaceX((PlayerPos - Pos).x);
@@ -144,6 +145,7 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ Toll of Hymns
         private IEnumerator TollOfHymns()
         {
+            SfxHooks.BossMove(this, "TollOfHymns"); // 19/11 (§335): âm
             Use("toll", 9f);
             ai.Desired = Vector2.zero;
             ai.PlayState("Toll");
@@ -168,6 +170,7 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ Choir Lances
         private IEnumerator ChoirLances()
         {
+            SfxHooks.BossMove(this, "ChoirLances"); // 19/11 (§335): âm
             Use("lances", 10f);
             ai.Desired = Vector2.zero;
             ai.PlayState("Cast");
@@ -178,6 +181,7 @@ namespace SoulRequiem.Gameplay
             for (int i = 0; i < n && !hp.IsDead && ai.Player != null; i++)
             {
                 var g = GroundStrike.Spawn(PlayerPos, 0.85f, 0.34f, ai.damage * 0.8f, frames, 2, 16f, Order + 1, Ice);
+                g.impactSfx = "ice_shatter"; // 19/11 (§337): âm
                 g.bodyScale = 0.7f;
                 yield return ai.WaitFor(0.32f);
             }
@@ -188,6 +192,7 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ Dirge Notes
         private IEnumerator DirgeNotes()
         {
+            SfxHooks.BossMove(this, "DirgeNotes"); // 19/11 (§335): âm
             Use("dirge", 6f);
             ai.Desired = Vector2.zero;
             ai.PlayState("Cast");
@@ -211,6 +216,7 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ Raise the Named (mộ quanh mép)
         private IEnumerator RaiseTheNamed()
         {
+            SfxHooks.BossMove(this, "RaiseTheNamed"); // 19/11 (§335): âm
             Use("raise", 26f);
             ai.Desired = Vector2.zero;
             ai.PlayState("Toll");
@@ -263,7 +269,7 @@ namespace SoulRequiem.Gameplay
         /// Bóng mờ ở chỗ cũ: sau 1 s nổ thành vòng Toll nhỏ.
         private IEnumerator Echo(Vector2 at)
         {
-            GroundStrike.Spawn(at, 1.0f, 0.5f, 0f, null, 0, 14f, Order, Ice);   // vòng báo chỗ bóng mờ sẽ nổ
+            GroundStrike.Spawn(at, 1.0f, 0.5f, 0f, null, 0, 14f, Order, Ice).impactSfx = "ice_shatter"; // 19/11 (§337): âm: bóng mờ nổ   // vòng báo chỗ bóng mờ sẽ nổ
             SpriteVfx.Spawn("m3_vespers", at, 0.45f, Layer, Order, false, 9f);
             yield return new WaitForSeconds(1.0f);
             var w = Wave(at, 1.4f, 0.7f, 0f, "m3_wave_hymn");          // dư âm: làm chậm, không mất máu
@@ -338,6 +344,7 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ Requiem (pha 3): mọi đèn còn lại bắn 3 loạt
         private IEnumerator Requiem()
         {
+            SfxHooks.BossMove(this, "Requiem"); // 19/11 (§335): âm
             Use("requiem", 20f);
             yield return VespersToCenter();
             Hint("\"Sing, lanterns. Sing the Requiem!\"", 2.5f);
@@ -387,6 +394,7 @@ namespace SoulRequiem.Gameplay
 
         private IEnumerator Drain(Pillar p)
         {
+            SfxHooks.BossMove(this, "Drain"); // 19/11 (§337): âm
             var mm = MapMechanics.Instance;
             p.blood = true; p.hits = 0;
             p.drainEnd = Time.time + drainTime;

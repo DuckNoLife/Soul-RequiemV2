@@ -63,6 +63,7 @@ namespace SoulRequiem.Gameplay
 
             anim.Attack(step, d, s.fps / 20f);
             owner.SetFacing(d);
+            WeaponTraits.OnSwingStart(owner);                                    // 16/11 (§254): Iaijutsu
             var view = owner.WeaponView;
             if (view != null) { view.Show(true); showId = id; }
 
@@ -72,10 +73,19 @@ namespace SoulRequiem.Gameplay
             NextAttack = now + s.CancelTime + (last ? s.Length - s.CancelTime + (owner.Weapon != null ? owner.Weapon.finisherRecovery : 0.2f) : 0f);
             chainUntil = last ? 0f : now + s.CancelTime + (owner.Weapon != null ? owner.Weapon.comboWindow : 0.3f);
 
+            yield return Strike(id, step, d, s, last, 0f);
+        }
+
+        /// <summary>16/11 (§271): phần sau khi vung — VFX + gây sát thương + giữ vũ khí tới hết clip. <paramref name="elapsed"/> = giây đã trôi của clip
+        /// tính tới lúc gọi (đòn Iaijutsu giữ ở khung vung lên rồi mới chém tiếp).</summary>
+        private IEnumerator Strike(int id, int step, Vector2 d, ComboStep s, bool last, float elapsed)
+        {
             string style = StyleOf(owner.Weapon);
             // 10/11 (§209): VFX theo khung — bắt đầu đúng lúc khung (hitFrame-1) hiện, chạy 2 khung VFX / 1 khung hoạt ảnh
-            float lead = owner.showVfx ? (style != null ? Mathf.Min(1f / Mathf.Max(1f, s.fps), s.HitTime) : Mathf.Min(1f / SlashVfxFps, s.HitTime)) : 0f;
-            yield return new WaitForSeconds(s.HitTime - lead);
+            float hitIn = Mathf.Max(0f, s.HitTime - elapsed);
+            float lead = owner.showVfx ? (style != null ? Mathf.Min(1f / Mathf.Max(1f, s.fps), hitIn) : Mathf.Min(1f / SlashVfxFps, hitIn)) : 0f;
+            yield return new WaitForSeconds(hitIn - lead);
+            SoulRequiem.Core.Sfx.Play(last ? "pl_swing_heavy" : "pl_swing", owner.transform.position);   // 17/11 (§294): âm
             if (!actions.Alive(id)) { Hide(id); yield break; }                    // bị Roll / choáng / gục huỷ
             if (owner.showVfx)
             {
@@ -86,14 +96,82 @@ namespace SoulRequiem.Gameplay
             Vector2 pivot = Pivot;
             PlayerCombat.RaiseStruck(pivot + d * s.range * 0.5f, s.range * 0.6f);
             TurnedBlade.TryParry(pivot, d, s.range);                             // sách Turned Blade — chém trúng đạn thì dội ngược
-            float dmg = s.damage * WeaponTraits.MeleeMul(owner);                 // 10/11 (§217): nội tại của thanh katana
-            int n = strikes.Damage(pivot, s.range, dmg, s.knockback, c => InArc(c, pivot, d, s));
+            float dmg = s.damage * WeaponTraits.MeleeMul(owner, last);           // 10/11 (§217) + 16/11 (§254): nội tại của thanh katana
+            int n = strikes.Damage(pivot, s.range, dmg, s.knockback, c => InArc(c, pivot, d, s), true, last);
             if (n > 0) { strikes.Impact(d, s.impact); WeaponTraits.AfterMeleeHit(owner, dmg * n, n); }
+            WeaponTraits.AfterSwing(owner, pivot + d * s.range * 0.5f, s.range * 0.6f, n, last);
+            PlayerCombat.RaiseMeleeSwung(owner, pivot, d, s.range, dmg, s.knockback);   // 16/11 (§252): Afterecho
             if (owner.debugHitbox) owner.StartCoroutine(DebugArc(pivot, d, s));
 
             // vũ khí còn hiện tới hết clip (trừ khi đã sang nhát khác / lăn)
-            yield return new WaitForSeconds(Mathf.Max(0f, s.Length - s.HitTime));
+            yield return new WaitForSeconds(Mathf.Max(0f, s.Length - Mathf.Max(s.HitTime, elapsed)));
             Hide(id);
+        }
+
+        /// <summary>
+        /// 16/11 (§271): ĐÒN GIỮ IAIJUTSU (thanh kiếm có nội tại Iaijutsu, nhát đầu combo). Bấm chém -> nhát 1 bắt đầu như thường; còn GIỮ phím
+        /// khi tới khung vung kiếm lên thì Ren đứng im ở thế đó (hoạt ảnh nhát 1 dừng khung), thanh nộ cạnh người đầy dần trong `window` giây
+        /// (tính từ lúc bấm). Phím lướt xoay hướng chém tại chỗ. THẢ phím -> hoạt ảnh chạy tiếp, chém: thanh đã đầy = đòn rút kiếm
+        /// (IaiCharged: +bonus sát thương, choáng quái thường); chưa đầy = nhát thường. Bấm nhả nhanh = nhát 1 bình thường, không chậm.
+        /// Lăn / bị choáng huỷ thế giữ.
+        /// </summary>
+        public IEnumerator IaiSlash(System.Func<bool> held)
+        {
+            int id = actions.Begin();
+            Vector2 d = Snap(owner.Facing);
+            var s = Step(0);
+            lastStep = 1;
+            bool last = StepCount <= 1;
+            float speed = s.fps / 20f;
+            anim.Attack(1, d, speed);
+            owner.SetFacing(d);
+            owner.IaiCharged = false; owner.IaiCharge = 0f; owner.IaiHolding = false; owner.IaiPower = 0f;
+            var view = owner.WeaponView;
+            if (view != null) { view.Show(true); showId = id; }
+
+            // 16/11 (§273): thanh nộ đầy sau `full` giây (tối đa); chỉ có tác dụng khi giữ quá mốc `window`, càng lâu càng mạnh tới khi đầy
+            float pressAt = Time.time, window = Mathf.Max(0.05f, WeaponTraits.IaiWindow(owner)), full = Mathf.Max(window + 0.05f, WeaponTraits.IaiFull(owner));
+            float holdAt = s.HitTime * 0.55f;                                     // khung vung kiếm lên, trước khung chém
+            actions.LockUntil = pressAt + holdAt + 0.05f;
+            while (Time.time - pressAt < holdAt)
+            {
+                if (!actions.Alive(id)) { Hide(id); yield break; }
+                yield return null;
+            }
+            float elapsed = holdAt;
+            if (held())
+            {
+                anim.SetAttackSpeed(0f);                                          // đứng thế
+                owner.IaiHolding = true;
+                while (held())
+                {
+                    if (!actions.Alive(id))
+                    {
+                        anim.SetAttackSpeed(speed);
+                        owner.IaiHolding = false; owner.IaiCharge = 0f;
+                        Hide(id); yield break;
+                    }
+                    actions.LockUntil = Time.time + 0.1f;
+                    owner.IaiCharge = Mathf.Clamp01((Time.time - pressAt) / full);
+                    Vector2 nd = Snap(owner.Facing);
+                    if (nd != d) { d = nd; anim.SetAttackDir(d); owner.SetFacing(d); }
+                    yield return null;
+                }
+                owner.IaiHolding = false;
+                float heldFor = Time.time - pressAt;
+                owner.IaiCharged = heldFor >= window;                                    // chưa qua mốc = nhát thường
+                owner.IaiPower = owner.IaiCharged ? Mathf.Clamp01((heldFor - window) / (full - window)) : 0f;   // tối đa = thanh đầy
+                owner.IaiCharge = 0f;
+                anim.SetAttackSpeed(speed);
+                if (owner.IaiCharged) { var st = owner.GetComponent<IaiStance>(); if (st != null) st.Release(d, owner.IaiPower); }
+            }
+            float now = Time.time;
+            float toCancel = Mathf.Max(0f, s.CancelTime - elapsed);
+            actions.LockUntil = now + toCancel;
+            NextAttack = now + toCancel + (last ? s.Length - s.CancelTime + (owner.Weapon != null ? owner.Weapon.finisherRecovery : 0.2f) : 0f);
+            chainUntil = last ? 0f : now + toCancel + (owner.Weapon != null ? owner.Weapon.comboWindow : 0.3f);
+            WeaponTraits.OnSwingStart(owner);                                     // ghi LastSwingTime (Iaijutsu không tính lại IaiCharged)
+            yield return Strike(id, 1, d, s, last, elapsed);
         }
 
         private void Hide(int id)

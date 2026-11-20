@@ -30,6 +30,7 @@ namespace SoulRequiem.Gameplay
             actions.Interrupt();
             actions.LockUntil = 0f;
             anim.Dash(facing);
+            SoulRequiem.Core.Sfx.Play("pl_dodge", owner.transform.position);   // 17/11 (§294): âm
 
             var health = owner.Health;
             health.AddImpulse(facing * owner.rollSpeed);

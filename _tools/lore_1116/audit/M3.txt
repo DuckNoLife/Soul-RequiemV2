@@ -1,0 +1,278 @@
+### 1 glyphpal_0 []
+  <hint_text> The drain from the pump works empties here.
+  <title> The Outfall
+### 4415 v1 [zone]
+  <hint_text> Finish the dead on dry ground.
+### 4416 v2 [zone]
+  <hint_text> Strike the Monk first - it mends the others.
+  <title> The Lychgate
+### 4417 v3 [zone]
+  <hint_text> Three bells toll over the Vale - and the Eye inside you answers each one. Silence them.
+  <title> The Commons
+### 4418 x1 [zone]
+  <title> Field of the Unnamed
+### 4419 v4 [zone]
+  <hint_text> Let the dead and the drinkers tear at each other.
+  <title> Avenue of Peers
+### 4420 v5 [zone]
+  <hint_text> The inner gate answers only to the names of the family.
+  <title> House Vey
+### 4421 v5b [zone]
+  <hint_text> Cut down the singers - then ring the bell yourself, and end their hymn.
+  <title> The West Bell
+### 4422 x3 [zone]
+  <title> The Matriarch's Bower
+### 4423 v6 [zone]
+  <hint_text> Trees with red roots are not trees.
+### 4424 v7 [zone]
+  <hint_text> Every hymn has an end. Ring the bells (T).
+  <title> The Ossuary Tower
+### 4425 v8 [zone]
+  <hint_text> Mind the cracks in the earth.
+  <title> Sinking Fields
+### 4427 v9 [zone]
+  <hint_text> Break the lamps first, or nothing here stays dead. Then ring the bell.
+  <title> The Broken Bridge
+### 4428 v10 [zone]
+  <title> Chapel of Naming
+### 4429 v11 [zone]
+  <title> The Precentor's Court
+### 4430 v12 [zone]
+  <title> The Requiem Door
+### 5467 aldous [villager]
+  <lines> Don't finish them in the green. Drag them onto dry ground first. Learned that one the hard way. | The Lady of House Vey keeps the green for the King. If anyone can pull that thing out of you, it's her. Whether you'd live through it is another matter. | Me? Never took the Gift. The dead don't seem to notice me. One of the few perks of the job.
+### 5468 aldous_field [villager]
+  <lines> The only quiet patch in the Vale. Babes who died before they could drink. Not one of them has stood up. | Funny. The Choir calls these the lost ones.
+### 4493 rest_outfall [checkpoint]
+  <stage_name> The Descent
+### 4494 wanted_poster [sign]
+  <hint_text> WANTED: The Nameless - alive. By order of the Soul Requiem.
+### 4495 mirela_grave [sign]
+  <hint_text> Mirela, wife of Aldous. Named and wed in the same spring. The earth is torn open - from below.
+### 4496 rest_commons [checkpoint]
+  <stage_name> The Ossuary Bell
+### 4497 sexton_door_note [sign]
+  <hint_text> Pinned to the door: "Gone to the lower rows. If the dead get up, don't finish them in the green - they only stand again. Drag them onto dry ground first.  - Aldous, Sexton"
+### 4498 barrier_sign [sign]
+  <hint_text> A red ward hums across the chapel gate. Three blue flames burn before it - one for each bell.
+### 4501 vey_lucan [sign]
+  <hint_text> LUCAN VEY, son of Casimir. Last of the line.
+### 4502 vey_aurel [sign]
+  <hint_text> AUREL VEY. First of the House. He held the cup at the lake.
+### 4503 vey_casimir [sign]
+  <hint_text> CASIMIR VEY, son of Isolde.
+### 4504 vey_isolde [sign]
+  <hint_text> ISOLDE VEY, daughter of Aurel. The lid was never sealed, and no date of death was ever carved.
+### 4505 vey_servant [sign]
+  <hint_text> MAREK. In service of House Vey.
+### 4506 vey_signet [pickup]
+  <hint_text> The Vey Signet. A drop of the old blood returns to you with every kill.
+### 4508 mass_grave [sign]
+  <hint_text> A board hammered into the mud: "Mass grave, the Drowning. 1,100 Named. No time for stones."
+### 4509 barrow_drop [exit]
+  <depart_text> You lower yourself over the broken edge and drop into the dark.
+  <verb> Climb down
+### 4510 barrow_glint [sign]
+  <hint_text> Far below, something gold catches the light.
+### 4514 rest_bridge [checkpoint]
+  <stage_name> The South Bell
+### 4516 naming_font [sign]
+  <hint_text> The Font of the Gift. Raw Ether wells up through it from the pipes below - and shrinks away from you.
+### 4517 rest_chapel [checkpoint]
+  <stage_name> The Requiem
+### 4519 barred_gate [sign]
+  <hint_text> A red ward seals the gate - the same light that left the rose window dark. Beyond the railings: the mausoleum arch.
+### 4520 morrow_fight [boss]
+  <card_sub> PRECENTOR OF THE CHOIR
+  <intro_line1> The Nameless. You silenced my bells - and I heard every one of them fall quiet.
+  <intro_line2> Seven hundred years the Choir has sung for Him in the dark. Tonight, at last, the hymn has its verse.
+  <intro_line3> Give me the Eye, and the Choir will lift Him up at last.
+  <relic_text> Something falls from under the Precentor's hood - a pair of withered ears on a cord, older than any bell in the Vale. As they leave him, they begin to glow blue.
+  <relic_say> So that's how he heard me coming... Every bell. Every step.
+  <relic_hint> The ears sink into you, and the world grows loud: Afterecho, Discord and Forewarning - three mantras attuned as one.
+### 4521 to_map4 [exit]
+  <depart_text> The red light seizes the Eye inside you - and you with it.
+  <open_text> With his last breath, Morrow tears the Requiem Door open. Red light pours out of it.
+### 5250 chapel_door_lock [turn_back]
+  <say> The bells still toll over the Vale - and the Eye answers every one. Silence them first.
+### 5430 isolde_fight [boss]
+  <card_name> ISOLDE VEY
+  <card_sub> THE VEY MATRIARCH
+  <intro_line1> So this is the Nameless. My King would pay a great deal for you.
+  <intro_line2> House Vey kept this vale before their Hierophant learned to write. We kept it with blood.
+  <intro_line3> Kneel, and I will cut the Eye out of you gently. You will hardly miss the rest.
+### 5431 lantern_fight [boss]
+  <card_name> THE LANTERN KNIGHT
+  <card_sub> WARDEN OF THE BROKEN BRIDGE
+  <intro_line1> Halt, pilgrim. This bridge is the Choir's - and so is the bell beyond it.
+  <intro_line2> I swore to keep these lamps lit until the last hymn is sung. While they burn, nothing that falls here stays fallen.
+  <intro_line3> Not your friends. Not the Choir's dead. Not me.
+### 5432 ent_fight [boss]
+  <card_sub> THE PENITENTS' GARDEN
+  <intro_line1> Another one... walks the garden of the penitent...
+  <intro_line2> We knelt here for our sins. The roots drank us. Now - we drink.
+### 5441 barrow_drop_w [exit]
+  <depart_text> You lower yourself over the broken edge and drop into the dark.
+  <verb> Climb down
+### 5442 barrow_drop_s [exit]
+  <depart_text> You lower yourself over the broken edge and drop into the dark.
+  <verb> Climb down
+### 5455 rest_fields [checkpoint]
+  <stage_name> The Sinking Fields
+### 5462 rest_west [checkpoint]
+  <stage_name> The West Bell
+### 5469 outfall [story]
+  <script> fade out 0.01
+narrate Far below, in the Undercity, red lanterns came down the old ring shaft.|The Hierophant's men chained the Sleeper's body and carried it away.|They took the old goblin, too. He did not fight them.
+fade in 1.5
+cam 60,12 1
+wait 1.2
+glow 60,12 #8dff5a 2.4 3
+shake 0.03 0.8
+camren
+wait 0.6
+bubble ren: The water from the pumps... it's running into the graves. I did this.
+### 5470 commons_bell [story]
+  <script> shake 0.03 0.6
+bubble ren: That bell... the thing in my chest is singing back to it.
+hint Every bell that tolls tells the Choir where you are. Silence them.
+### 5471 aldous_meet [story]
+  <script> bubble aldous: Easy, easy. I'm still breathing - unlike most of my parish.
+say Aldous: Aldous. Sexton of the Vale, for what's left of it.|You came up out of the pump works drain, didn't you? With that green light in your chest. The Choir has your face on every gate.|If you want it out of you, only one soul keeps the green in this valley: the Lady of House Vey. West, along the Avenue of Peers.|Mind her, though. She's been "the Lady" for four hundred years.
+set aldous_met
+### 5472 aldous_field [story]
+  <script> say Aldous: Followed you. Hope you don't mind.|These are the ones who died before they could drink. The Choir calls them lost.|Strange, isn't it? They're the only dead in the Vale who sleep.
+### 5473 morrow_door [story]
+  <script> cam 66,116 1
+wait 1.4
+shake 0.05 1.2
+glow 66,116 #e05a64 3 4
+narrate With his last breath, Morrow strikes his bell once more. The Requiem Door tears open.|Red light pours out of it - and the Eye inside you answers.
+exit to_map4
+### 5170 bl_orders [note]
+  <text> Weighted down with a stone on the watch's supply barrel.
+
+To the Lychgate watch.
+
+A man came up out of the pump works drain. No family, no Naming, no name. He carries what the Choir has waited four hundred years for. He is to be taken ALIVE and brought to the Precentor.
+
+Keep the bells ringing. The Precentor hears what the bells hear - he will know where the man is before you see him.
+
+Any man who drinks his blood or wastes it answers to Morrow.   - Sergeant of the Lantern
+  <title> Black Lantern Orders
+### 5181 naming_register [note]
+  <text> Pages torn from the Book of Names, blown out across the flagstones.
+
+...every child of the Vale, in its twelfth year, is brought to the Chapel to drink of the Font. Only then is its name written in the Book of Names.
+
+A name written is a soul bound. A soul bound is a soul kept.
+
+- Chapter of the Naming, verse 4
+  <title> Naming Register (torn)
+### 5182 x1_wall [breakable]
+  <text> The mossy stones crumble. Beyond them, a quiet field.
+### 5185 unnamed_rubbing [note]
+  <text> Small crosses ring the old tree. Each reads only: "Unnamed. At rest."
+
+A scrap tucked under a stone, in the Sexton's hand:
+Babes who died before the Naming. The Choir says they are lost. Funny - it's the only quiet patch in the Vale.   - A.
+  <title> Field of the Unnamed
+### 5188 peer_diary [note]
+  <text> The vintage thins each year. Tonight we dig up Uncle.
+
+Grandmother Isolde still sleeps below the old crypt. We do not dig there. We do not even knock.
+
+The King's riders came again tonight. They want the thing the drain-man carries - for the King's collection, they said, and whole. Grandmother says if she brings it to him, he will lift her up into the light at last. She has been promised that before.
+### 5190 vey_lock [cipher]
+  <hint> "Speak the line of Vey, from the first who drank to the last." The family lies in the yard behind you.
+  <text> The four names align. The lock turns, and the gate swings open.
+  <title> The Vey Gate - Line of Names
+### 5194 sermon [note]
+  <text> The Eternal King gives, and his Gift answers.
+
+The serf drank, and worked without rest. The soldier drank, and did not fall. The noble drank of the older water,
+
+and did not die.
+
+Give thanks for the Gift. Ask nothing more of it.
+  <title> Sermon of the Gift
+### 5196 bell_east_1 [bell]
+  <text> The Amen rings out across the Vale. For the first time in seven hundred years, the hymn ends.
+### 5197 bell_east_2 [bell]
+  <text> The Amen rings out across the Vale. For the first time in seven hundred years, the hymn ends.
+### 5198 bell_east_3 [bell]
+  <text> The Amen rings out across the Vale. For the first time in seven hundred years, the hymn ends.
+### 5199 bell_east_4 [bell]
+  <text> The Amen rings out across the Vale. For the first time in seven hundred years, the hymn ends.
+### 5200 bell_east_5 [bell]
+  <text> The Amen rings out across the Vale. For the first time in seven hundred years, the hymn ends.
+### 5202 hymn_sheet [note]
+  <text> The Requiem, as sung at the Ossuary. Four bell-marks drawn by size at the foot of the page.
+
+Under them, underlined twice: "The Amen - never to be rung."
+  <title> Hymn Sheet
+### 5217 ichor_lamp_0 [breakable]
+  <hint> A lamp brimming with green, tainted Ether. Three strikes would shatter it.
+  <text> The lamp shatters. Green glass and ash.
+### 5219 ichor_lamp_1 [breakable]
+  <hint> A lamp brimming with green, tainted Ether. Three strikes would shatter it.
+  <text> The lamp shatters. Green glass and ash.
+### 5221 ichor_lamp_2 [breakable]
+  <hint> A lamp brimming with green, tainted Ether. Three strikes would shatter it.
+  <text> The lamp shatters. Green glass and ash.
+### 5222 soldier_letter [note]
+  <text> Mother - they've got us guarding a bridge with lamps full of the green. Anything that dies near them gets up again. Even ours.
+
+Break the lamps first, or nothing here stays dead.
+
+Captain read us the King's own order: the drain-man's Eye goes to the capital whole. Not a scratch on it. Nobody says what for.
+### 5226 rose_window [rosewindow]
+  <hint> The Choir pulled the window down and left its panes before the door. Turn them until the lead lines meet.
+  <solved_hint> Moonlight stains the floor red. Down the path, the ward on the mausoleum gate gutters out.
+  <text> Moonlight floods the glass. The blue was never sky - it was blood. The Ascended is not rising. He is held down - and the hands on him wear the rings of the great Houses. Above them, white birds. Beside His heart, one hand that wears no ring at all.
+  <title> The Rose Window
+### 5229 book_of_hours [note]
+  <text> Fallen from the hands of a pilgrim who died kneeling at the font. The plate is titled "The Glory of the Ascended": the Chapel's rose window, all in gold leaf. The Ascended rises in glory; the faithful kneel around him in prayer.
+  <title> Book of Hours
+### 5235 morrow_pillar_0 [ritual_pillar]
+  <text> The lantern bursts. The blood in the channel runs dry.
+### 5237 morrow_pillar_1 [ritual_pillar]
+  <text> The lantern bursts. The blood in the channel runs dry.
+### 5239 morrow_pillar_2 [ritual_pillar]
+  <text> The lantern bursts. The blood in the channel runs dry.
+### 5241 morrow_pillar_3 [ritual_pillar]
+  <text> The lantern bursts. The blood in the channel runs dry.
+### 5243 morrow_pillar_4 [ritual_pillar]
+  <text> The lantern bursts. The blood in the channel runs dry.
+### 5245 morrow_pillar_5 [ritual_pillar]
+  <text> The lantern bursts. The blood in the channel runs dry.
+### 5427 bell_west [bell]
+  <locked_text> The singers still circle the bell. Cut them down first.
+  <text> The last note of the hymn rolls over House Vey... and something beneath the graves answers it.
+  <verb> Ring the Amen
+### 5428 bell_south [bell]
+  <locked_text> While the Lantern Knight stands, the bell will not answer you.
+  <text> The last note crosses the Broken Bridge. The second bell falls silent.
+  <verb> Ring the Amen
+### 5429 isolde_summon [summon]
+  <line1> Who rings the bell of House Vey?
+  <line2> Who dares walk among my children's graves - with that thing burning in his chest?
+  <line3> Come down, little thief. Let me look at you.
+  <speaker> Isolde Vey
+  <throw_line> Down you go, little thief.
+  <warp_text> Cold hands close around your ankles - and the earth drags you down into the Bower.
+### 5474 reliquary_old [note]
+  <text> A reliquary case far older than the Chapel's pews, its lid stamped with the crown of Vael. Whoever brought it here brought it a long way, and in a hurry: one hinge is torn half off.
+
+The velvet inside is pressed into hollows. One long and ridged, like a string of knuckles. Two small and curled, like shells. One round.
+
+All of them empty. Dust has settled in each of them, and in nothing else.
+  <title> Reliquary of the Crown
+### 5475 reliquary_eye_case [note]
+  <text> A small case of black lacquer left on the crypt step - new, its gold still bright, the King's seal on the lid. Inside, a single round hollow lined with fresh red velvet. It is about the size of an eye.
+
+A card is tucked into the lid:
+
+To be filled in the Vale, and carried to the capital by a Vey hand. Not to be opened on the road.
+   - by order of the Crown
+  <title> A Case for the King

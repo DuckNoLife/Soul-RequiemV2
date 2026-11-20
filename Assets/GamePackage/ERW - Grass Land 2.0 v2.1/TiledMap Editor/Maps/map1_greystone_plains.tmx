@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="128" height="88" tilewidth="32" tileheight="32" infinite="0" nextlayerid="28" nextobjectid="4450">
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="128" height="88" tilewidth="32" tileheight="32" infinite="0" nextlayerid="28" nextobjectid="4458">
  <tileset firstgid="1" source="../Tilesets/Tileset-Terrain-new grass.tsx"/>
  <tileset firstgid="3961" source="../Tilesets/Tileset-Terrain-new grass - transparency.tsx"/>
  <tileset firstgid="7921" source="../Tilesets/platform - water to grass(transparency) - river orientation.tsx"/>
@@ -3650,6 +3650,22 @@
     <property name="when" value="z2b_flask_taken"/>
    </properties>
   </object>
+  <object id="4456" name="hollow_rubble" type="breakable" x="300.8" y="1508.8" width="70.4" height="32">
+   <properties>
+    <property name="hint" value="The old shaft has caved in. Cold air seeps between the stones."/>
+    <property name="hits" type="int" value="1"/>
+    <property name="mechanic" value="breakable"/>
+    <property name="min_radius" type="float" value="0.9"/>
+    <property name="sets" value="hollow_rubble_broken"/>
+    <property name="sprite" value="VFX/props/rubble_0"/>
+    <property name="sprite_broken" value="VFX/props/rubble_broken"/>
+    <property name="sprite_count" value="1"/>
+    <property name="sprite_width" type="float" value="0.7"/>
+    <property name="text" value="The rubble bursts apart. Behind it, a shaft drops away into the dark."/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="weak_hint" value="The stones barely shift. It would take a blow that shakes the ground itself."/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="26" name="npcs" opacity="0.5">
   <properties>
@@ -3668,7 +3684,7 @@
   <object id="4363" name="square_man" type="villager" x="3398.4" y="2400" width="128" height="83.2">
    <properties>
     <property name="kind" value="mb_man"/>
-    <property name="lines" value="The well's gone bitter since spring. Tastes like an old copper pot. | Mind the bridge. The stones get slick when the mill runs hard."/>
+    <property name="lines" value="The well's gone bitter since spring - since the goblins started digging up at the stone ring. Tastes like an old copper pot. | Mind the bridge. The stones get slick when the mill runs hard."/>
     <property name="show_when" value="zf_cleared"/>
     <property name="speaker" value="Villager"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
@@ -3711,7 +3727,7 @@
    <properties>
     <property name="face" value="W"/>
     <property name="kind" value="mb_todd"/>
-    <property name="lines" value="Every new moon Grok's tax-men come for our grain. Short a sack, and a barn burns. | We can't pay you much. But end Grok, and Millbrook will owe you everything. | Take the north road past Brookside. Greystone land starts at the war totem."/>
+    <property name="lines" value="No Gift in Millbrook, so no soldiers for Millbrook. Every new moon Grok's tax-men come for our grain instead. Short a sack, and a barn burns. | We can't pay you much. But end Grok, and Millbrook will owe you everything. | Take the north road past Brookside. Greystone land starts at the war totem."/>
     <property name="show_when" value="todd_door"/>
     <property name="speaker" value="Todd"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
@@ -3722,7 +3738,7 @@
    <properties>
     <property name="enter_from" value="67.5,77.9;58.4,77.9"/>
     <property name="kind" value="mb_smith"/>
-    <property name="lines" value="Your blade's seen honest work. Bring back Grok's tusk and I'll hang it over the village gate."/>
+    <property name="lines" value="Your blade's seen honest work. Bring back Grok's tusk and I'll hang it over the village gate. | My grandfather swore an old swordsman out of the three kingdoms lived out his days in the copper mine. Never once drew his blade, they said. The deep shafts caved in long before my time."/>
     <property name="show_when" value="zf_cleared"/>
     <property name="speaker" value="Smith"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
@@ -3748,6 +3764,17 @@
     <property name="speaker" value="Peddler"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="walk" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="4450" name="goblin_child" type="villager" x="288" y="800" width="32" height="32">
+   <properties>
+    <property name="face" value="E"/>
+    <property name="kind" value="goblin_child"/>
+    <property name="lines" value="...cold. Always cold, since the water went green. | Grandmother says the green will make me strong. It only makes me tired."/>
+    <property name="speaker" value="Goblin Child"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="walk" type="bool" value="false"/>
+   <property name="scale" type="float" value="0.6"/>
    </properties>
   </object>
  </objectgroup>
@@ -3824,7 +3851,7 @@
    <properties>
     <property name="hint_text" value=""/>
     <property name="optional" type="bool" value="true"/>
-    <property name="title" value="Healer's Tent"/>
+    <property name="title" value="The Seer's Tent"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="zone_id" value="z3b"/>
    </properties>
@@ -3835,7 +3862,7 @@
     <property name="stage" value="ruins"/>
     <property name="story" value="7"/>
     <property name="story_done" value="z4_cleared"/>
-    <property name="title" value="Ruins Path"/>
+    <property name="title" value="Cloister Ruins"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="zone_id" value="z4"/>
    </properties>
@@ -4010,6 +4037,7 @@
     <property name="enemy" value="Grok_Troll"/>
     <property name="wave" type="int" value="1"/>
     <property name="zone_id" value="z5"/>
+   <property name="stand_in" type="bool" value="true"/>
    </properties>
    <point/>
   </object>
@@ -4018,6 +4046,7 @@
     <property name="enemy" value="Goblin_Spearman"/>
     <property name="wave" type="int" value="1"/>
     <property name="zone_id" value="z5"/>
+   <property name="stand_in" type="bool" value="true"/>
    </properties>
    <point/>
   </object>
@@ -4026,6 +4055,7 @@
     <property name="enemy" value="Goblin_Spearman"/>
     <property name="wave" type="int" value="1"/>
     <property name="zone_id" value="z5"/>
+   <property name="stand_in" type="bool" value="true"/>
    </properties>
    <point/>
   </object>
@@ -4125,7 +4155,7 @@
   </object>
   <object id="3032" name="z3b_seer" type="sign" x="371.2" y="704" width="128" height="44.8">
    <properties>
-    <property name="hint_text" value="A dying seer whispers: &quot;The hooded one came in spring. He said if we dug up the stone ring, our sick young would heal. We dug. The water turned green. Grok drank his medicine... and became something else.&quot;"/>
+    <property name="hint_text" value="A dying seer whispers: &quot;The hooded one came in spring, swinging a red lantern and singing. He said if we dug up the stone ring, our sick young would heal. We dug. The water turned green. Grok drank his medicine... and became something else.&quot;\n\n&quot;Before the green water, our grandmothers' grandmothers had names like yours.&quot;"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="zone_id" value="z3b"/>
    </properties>
@@ -4135,11 +4165,12 @@
     <property name="item" value="green_tonic"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="zone_id" value="z3b"/>
+   <property name="unless" value="mercy_1"/>
    </properties>
   </object>
   <object id="3036" name="z4_dig" type="sign" x="2624" y="339.2" width="96" height="44.8">
    <properties>
-    <property name="hint_text" value="Fresh digging. The trench runs toward the ring - and the water in it smells green."/>
+    <property name="hint_text" value="Fresh digging. The trench runs toward the ring - and the water in it smells green. The slabs heaved out of it bear a noble house's crest, worn almost smooth."/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="zone_id" value="z4"/>
    </properties>
@@ -4154,6 +4185,7 @@
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="wake_line" value="Get UP, you worms! Tear him apart!"/>
     <property name="zone_id" value="z5"/>
+   <property name="intro_line3" value="And you... you smell of nothing. No Gift in you at all."/>
    </properties>
   </object>
   <object id="3038" name="to_map2" type="exit" x="3504" y="480" width="96" height="32">
@@ -4170,7 +4202,7 @@
   <object id="4311" name="notice_todd_contract" type="sign" x="3443.2" y="2348.8" width="64" height="44.8">
    <properties>
     <property name="flag" value="todd_contract"/>
-    <property name="hint_text" value="Nailed over the village notices, in crude red paint: &quot;BY ORDER OF GROK, CHIEF OF GREYSTONE - MILLBROOK OWES TWENTY SACKS OF GRAIN EACH NEW MOON. SHORT SACKS, BURNT BARNS.&quot; | Beneath it, in a careful hand: &quot;Grain store: seven sacks. Winter is three months off. - Todd&quot;"/>
+    <property name="hint_text" value="Nailed over the village notices, in crude red paint: &quot;BY ORDER OF GROK, CHIEF OF GREYSTONE - MILLBROOK OWES TWENTY SACKS OF GRAIN EACH NEW MOON. SHORT SACKS, BURNT BARNS.&quot; | Beneath it, in a careful hand: &quot;Grain store: seven sacks. Winter is three months off. - Todd&quot;\n\nPasted over an older notice, under a red wax seal: &quot;BY GRACE OF THE ETERNAL KING - every child of age who takes the Gift at the Chapel of the Vale is AWAKENED, and kept under the King's protection.&quot; No soldier has ever come to collect a child from Millbrook."/>
     <property name="speaker" value="Notice board"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="zone_id" value="zf"/>
@@ -4194,7 +4226,7 @@
    <properties>
     <property name="flag" value="grok_tusk"/>
     <property name="hide" value="grok_tusk_item"/>
-    <property name="hint_text" value="Grok's tusk - proof that Millbrook is free. Then the ring shudders, and the stones begin to sink..."/>
+    <property name="hint_text" value="Grok's tusk - proof that Millbrook is free. Then the ring shudders. Something deep below turns over, like a sleeper in the dark - and the stones begin to sink..."/>
     <property name="item" value="flag"/>
     <property name="requires" value="z5_cleared"/>
     <property name="say" value="What - the ground's giving way!"/>
@@ -4205,7 +4237,7 @@
   </object>
   <object id="4398" name="z2_hob_note" type="sign" x="745.6" y="1740.8" width="83.2" height="51.2">
    <properties>
-    <property name="hint_text" value="A note nailed to the post: &quot;The bear took the old copper mine - and my iron chest by the shaft. In it: a spare flask and the mantra scroll my father brought down from the monastery. I can't read the thing. Whoever puts that brute down, keep them both. - Hob of Millbrook&quot;"/>
+    <property name="hint_text" value="A note nailed to the post: &quot;The bear took the old copper mine - and my iron chest by the shaft. In it: a spare flask and the mantra scroll my father brought down from the old cloister on the ruins road. I can't read the thing. Whoever puts that brute down, keep them both. And leave the caved-in shaft be. My father worked the deep vein behind it until the day he heard something down there that clicked whenever he moved, and went quiet when he stood still. He brought the roof down on it himself. - Hob of Millbrook&quot;"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="zone_id" value="z2"/>
    </properties>
@@ -4300,7 +4332,7 @@
   </object>
   <object id="4439" name="z4_secret_flask" type="pickup" x="1689.6" y="384" width="32" height="32">
    <properties>
-    <property name="hint_text" value="A ruin-warden's copper flask, tucked behind the old wall. Every drink now heals more."/>
+    <property name="hint_text" value="A cloister brother's copper flask, tucked behind the old wall. Every drink now heals more."/>
     <property name="item" value="flask_upgrade"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="zone_id" value="z4"/>
@@ -4310,9 +4342,63 @@
    <properties>
     <property name="rest_noun" value="campfire"/>
     <property name="stage" value="ring"/>
-    <property name="stage_name" value="ring=The Stone Ring;ruins=Ruins Path"/>
+    <property name="stage_name" value="ring=The Stone Ring;ruins=Cloister Ruins"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="zone_id" value="z4"/>
+   </properties>
+  </object>
+  <object id="4451" name="prologue" type="story" x="3328" y="2720" width="32" height="32">
+   <properties>
+    <property name="script" value="fade out 0.01\nslide Story/prologue_1: For 1,176 years, one kingdom has stood where three once warred - and one king has ruled it for every one of those years.|He does not age. He does not die. His people call him the Eternal King.\nslide Story/prologue_2: Every child knows how it began. A holy man, the Ascended, ended the age of war - and was murdered by Thrag, a jealous king.|His most faithful apostle, Darwin, cut the murderer down and bound the warring crowns into one realm. Heaven blessed him with a life without end.\nslide Story/epic_gift_light: In the Year 780, a light rose from the holy ground where the Ascended once wept for His people - green as the fields that grew wherever He walked.|The King proclaimed it the Tears of the Ascended: His last gift, kept sealed since His death for the day His people would need it.\nslide Story/epic_gift_strong: All who drank grew strong. The sick rose from their beds. One pair of hands could lift what four had carried, and men worked from dawn to dark without tiring.|Since that day, every child of age drinks the Tears at the Awakening.\nslide Story/epic_classes: Above all stand the great Houses, blessed by Heaven at the King's side. They do not grow old.|Below them, the Awakened: soldiers and labourers, strong with the Gift and protected by the Crown.\nslide Story/prologue_4: Last come the Unawakened - those who never drank. No soldier marches to save their villages.|And in the hills, the goblins: those who drank from wild springs instead of the King's cup. So the priests say.\nslide Story/prologue_6: It is the Year 1176 of the Eternal King. Ren is a wandering swordsman. He has never taken the Gift.|He draws his blade for those no soldier will defend. It pays poorly. He keeps doing it.|This year the ground itself has begun to tremble across the Greystone Plains. No one can say why.\nslide Story/prologue_7: On the morning of the new moon, smoke rises over the village of Millbrook. Ren quickens his pace.\nslide end\nfade in 1.2"/>
+    <property name="trigger" value="start"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="unless" value="intro_done"/>
+   </properties>
+  </object>
+  <object id="4452" name="tremor_caves" type="story" x="64" y="64" width="32" height="32">
+   <properties>
+    <property name="script" value="shake 0.05 1.4\nbubble ren: The ground... it's moving. Like something down there is turning in its sleep.\nhint Deep below Greystone, something stirs."/>
+    <property name="trigger" value="flag"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="when" value="z2_cleared"/>
+   </properties>
+  </object>
+  <object id="4453" name="tremor_ruins" type="story" x="64" y="96" width="32" height="32">
+   <properties>
+    <property name="script" value="shake 0.04 1.2\nbubble ren: Again. Stronger this time - and closer to that ring of stones."/>
+    <property name="trigger" value="flag"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="when" value="z4_started"/>
+   </properties>
+  </object>
+  <object id="4454" name="ring_look" type="story" x="3008" y="384" width="128" height="320">
+   <properties>
+    <property name="script" value="face 111,19.8\ncam 111,19.8 1.1\nwait 1.6\nbeat 111,19.8 #8dff5a 3\ncamren\nwait 0.8\nbubble ren: That's Grok, standing over a pit of grain like an offering... and something down there is breathing."/>
+    <property name="trigger" value="enter"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="unless" value="z5_started"/>
+    <property name="when" value="z4_cleared"/>
+   </properties>
+  </object>
+  <object id="4455" name="give_tonic" type="story" x="288" y="800" width="32" height="32">
+   <properties>
+    <property name="script" value="set mercy_1\nbubble goblin_child: ...for me?\nbubble ren: Drink it slowly. It burns.\nhint Some mercies are never repaid. They are only remembered."/>
+    <property name="trigger" value="interact"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="unless" value="picked_z3b_tonic,mercy_1"/>
+    <property name="verb" value="Give the green tonic"/>
+   </properties>
+  </object>
+  <object id="4457" name="to_hermits_hollow" type="exit" x="304" y="1513.6" width="64" height="25.6">
+   <properties>
+    <property name="depart_text" value="You squeeze past the broken stones and follow the cold air down."/>
+    <property name="interact" type="bool" value="true"/>
+    <property name="quake" type="bool" value="false"/>
+    <property name="range" type="float" value="0.6"/>
+    <property name="requires" value="hollow_rubble_broken"/>
+    <property name="target" value="map1b_hermits_hollow"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="verb" value="Enter"/>
    </properties>
   </object>
  </objectgroup>
@@ -5650,7 +5736,7 @@
    <properties>
     <property name="collider_kind" value="prop"/>
    </properties>
-  </object>
+  <ellipse/></object>
   <object id="3310" name="tree - naked - small 2" type="obstacle" x="1579" y="154" width="29" height="16">
    <properties>
     <property name="collider_kind" value="prop"/>
@@ -5769,7 +5855,7 @@
    <properties>
     <property name="collider_kind" value="prop"/>
    </properties>
-  </object>
+  <ellipse/></object>
   <object id="3330" name="tree - color scheme 2 - 3" type="obstacle" x="1581.2" y="261.4" width="29" height="16">
    <properties>
     <property name="collider_kind" value="prop"/>
@@ -5816,7 +5902,7 @@
    <properties>
     <property name="collider_kind" value="prop"/>
    </properties>
-  </object>
+  <ellipse/></object>
   <object id="3338" name="tree - color scheme 2 - 2" type="obstacle" x="1591" y="355" width="29" height="16">
    <properties>
     <property name="collider_kind" value="prop"/>
@@ -5845,7 +5931,7 @@
    <properties>
     <property name="collider_kind" value="prop"/>
    </properties>
-  </object>
+  <ellipse/></object>
   <object id="3343" name="tree - color scheme 1 - 1" type="obstacle" x="1635.8" y="425" width="29" height="16">
    <properties>
     <property name="collider_kind" value="prop"/>
@@ -5862,12 +5948,12 @@
    <properties>
     <property name="collider_kind" value="prop"/>
    </properties>
-  </object>
+  <ellipse/></object>
   <object id="3346" name="tree - color scheme 1 - 1" type="obstacle" x="110.4" y="525" width="29" height="16">
    <properties>
     <property name="collider_kind" value="prop"/>
    </properties>
-  </object>
+  <ellipse/></object>
   <object id="3347" name="pine-tree_7" type="obstacle" x="4098" y="512" width="19" height="13">
    <properties>
     <property name="collider_kind" value="prop"/>
@@ -5878,7 +5964,7 @@
    <properties>
     <property name="collider_kind" value="prop"/>
    </properties>
-  </object>
+  <ellipse/></object>
   <object id="3349" name="pine-tree_0" type="obstacle" x="106.2" y="614.3" width="19" height="13">
    <properties>
     <property name="collider_kind" value="prop"/>

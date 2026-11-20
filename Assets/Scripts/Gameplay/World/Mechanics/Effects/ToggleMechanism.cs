@@ -15,6 +15,7 @@ namespace SoulRequiem.Gameplay
         {
             if (Done || !Ctx.Flags.HasAll(Str("when", "-"))) return;
             Done = true;
+            SfxHooks.Toggled(this);   // 17/11 (§294): âm
             foreach (var ln in Str("hide_layers", "").Split(','))
                 if (!string.IsNullOrEmpty(ln)) Ctx.Run(FadeLayer(ln.Trim(), 2.5f));
             Ctx.Show(Str("hide_objects", ""), false);

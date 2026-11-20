@@ -22,9 +22,18 @@ namespace SoulRequiem.Gameplay
     {
         private bool running;
 
+        /// <summary>19/11 (§343): cờ `sets` bị gỡ -> cảnh chạy lại được (gục giữa trận Isolde: rung chuông lại -> bị kéo xuống lại).</summary>
+        public override void OnFlagsReset()
+        {
+            string sets = Str("sets", "");
+            if (Done && !running && sets.Length > 0 && !Ctx.Flags.HasAll(sets)) Done = false;
+        }
+
         public override void OnFlagsChanged()
         {
             if (Done || running) return;
+            string unless = Str("unless", "");                         // 19/11 (§343): vd đã hạ Isolde (đi bộ vào Bower) thì rung chuông không bị kéo xuống nữa
+            if (unless.Length > 0 && Ctx.Flags.HasAll(unless)) { Done = true; return; }
             string sets = Str("sets", "");
             if (sets.Length > 0 && Ctx.Flags.HasAll(sets)) { Done = true; return; }
             if (!Ctx.Flags.HasAll(Str("when", "-"))) return;

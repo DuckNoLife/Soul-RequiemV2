@@ -42,6 +42,8 @@ namespace SoulRequiem.Gameplay
 
         public virtual void Init() { }
         public virtual void OnFlagsChanged() { }
+        /// <summary>19/11 (§343): có cờ vừa bị GỠ (người chơi gục giữa trận `reset_on_death`) — cơ quan đã xong nhờ cờ đó thì mở lại.</summary>
+        public virtual void OnFlagsReset() { }
         public virtual void Animate() { }
         public virtual void Tick(Vector2 playerPos, bool inside) { }
 

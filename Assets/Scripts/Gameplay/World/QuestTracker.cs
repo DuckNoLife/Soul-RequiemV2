@@ -53,6 +53,8 @@ namespace SoulRequiem.Gameplay
             public Area[] hidden = new Area[0];
             public Area view;
             public Detour[] detours = new Detour[0];
+            /// <summary>16/11 (§267): "side" = nhiệm vụ phụ (map bí mật: khám phá theo manh mối dân làng / ghi chú) -> bảng ghi SIDE QUEST.</summary>
+            public string kind = "main";
         }
 
         public static QuestTracker Instance { get; private set; }
@@ -64,6 +66,8 @@ namespace SoulRequiem.Gameplay
 
         // ---- trạng thái cho HUD ----
         public bool HasQuest => data != null && data.steps != null && data.steps.Length > 0;
+        /// <summary>16/11 (§267): nhiệm vụ phụ (kind = side).</summary>
+        public bool IsSide => data != null && string.Equals(data.kind, "side", StringComparison.OrdinalIgnoreCase);
         public int StepIndex { get; private set; } = -1;
         /// <summary>02/11: cờ hoàn thành của bước hiện tại (vd "z3_cleared") — HUD đếm quái của khu.</summary>
         public string StepDone => data != null && data.steps != null && StepIndex >= 0 && StepIndex < data.steps.Length ? data.steps[StepIndex].done : "";
@@ -194,7 +198,7 @@ namespace SoulRequiem.Gameplay
 
             if (idx != StepIndex)
             {
-                if (StepIndex >= 0 && idx > StepIndex) StepChangedAt = Time.time;
+                if (StepIndex >= 0 && idx > StepIndex) { StepChangedAt = Time.time; SoulRequiem.Core.Sfx.Play2D("quest_update"); }   // 17/11 (§294): âm
                 StepIndex = idx;
             }
             AllDone = idx >= data.steps.Length;
@@ -239,6 +243,14 @@ namespace SoulRequiem.Gameplay
                         break;
                     }
             if (HasTarget) TargetWorld = TileToWorld(TargetTile);
+            // 20/11 (§362): mục tiêu tạm của một cơ quan đang diễn ra (minigame) thay bước hiện tại trên bảng + mũi tên đích
+            if (QuestGuide.Active)
+            {
+                Title = QuestGuide.Title; Label = QuestGuide.Label; Checks.Clear();
+                DoneCount = QuestGuide.Done; TotalCount = QuestGuide.Total > 1 ? QuestGuide.Total : 0;
+                HasTarget = QuestGuide.HasTarget;
+                if (HasTarget) { TargetWorld = QuestGuide.World; TargetTile = WorldToTile(QuestGuide.World); }
+            }
         }
     }
 }

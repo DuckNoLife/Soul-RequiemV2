@@ -29,14 +29,17 @@ namespace SoulRequiem.Gameplay
 
         public void SetClosed(MapGate g, bool closed)
         {
+            bool animated = false, changed = false;
             foreach (var part in g.parts)
             {
                 if (part == null) continue;
                 // 08/11 (§196): hình cổng có hoạt ảnh -> luôn hiện, chạy khung đóng / mở thay vì bật / tắt
                 var anim = part.GetComponent<GateAnimator>();
-                if (anim != null) { part.SetActive(true); anim.SetClosed(closed); }
-                else part.SetActive(closed);
+                if (anim != null) { animated = true; part.SetActive(true); anim.SetClosed(closed); }
+                else { if (part.activeSelf != closed) changed = true; part.SetActive(closed); }
             }
+            // 19/11 (§335): cổng không có hoạt ảnh -> âm ở đây (cổng có hoạt ảnh tự kêu trong GateAnimator); bỏ qua lúc nạp map
+            if (!animated && changed && UnityEngine.Time.timeSinceLevelLoad > 1f) SfxHooks.Gate(g.name, closed, g.bounds.center);
         }
 
         public void Open(MapGate g)

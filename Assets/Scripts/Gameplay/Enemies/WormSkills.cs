@@ -47,7 +47,8 @@ namespace SoulRequiem.Gameplay
             if (ai.GapToPlayer() <= ai.attackRange) { yield return Bite(ai, false); yield break; }
 
             Vector2 p = ai.Player.position;
-            bool reachable = (p - home).magnitude <= Leash(ai) + 0.6f && (p - (Vector2)transform.position).magnitude <= maxChase;
+            // 19/11 (§340): bị gọi (quái sót / triệu hồi) -> đào hầm theo Ren bất kể xa (mỗi lượt tối đa maxTunnel giây, lượt sau đi tiếp)
+            bool reachable = ai.Summoned || ((p - home).magnitude <= Leash(ai) + 0.6f && (p - (Vector2)transform.position).magnitude <= maxChase);
             if (Time.time >= nextBurrow && reachable) { yield return Tunnel(ai); yield break; }
 
             ai.Desired = Vector2.zero;            // không bò: đứng chờ ở chỗ vừa trồi
@@ -60,6 +61,7 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ cắn (Attack: đất rung -> trồi -> cắn)
         private IEnumerator Bite(EnemyAI ai, bool emerging)
         {
+            SfxHooks.BossMove(this, "Bite"); // 19/11 (§335): âm
             ai.Desired = Vector2.zero;
             ai.FaceX(ai.DirToPlayer.x);
             ai.PlayState("Attack");
@@ -85,6 +87,7 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ đào hầm
         private IEnumerator Tunnel(EnemyAI ai)
         {
+            SfxHooks.BossMove(this, "Tunnel"); // 19/11 (§335): âm
             nextBurrow = Time.time + burrowCooldown;
             ai.Desired = Vector2.zero;
             if (!ai.HasAnimState(burrowState)) { yield return Bite(ai, false); yield break; }   // prefab cũ chưa dựng lại

@@ -15,6 +15,8 @@ namespace SoulRequiem.Gameplay
         public float speed = 3f;
         public float lifetime = 1.5f;
         public float radius = 0.08f;
+        /// <summary>16/11 (§262): true = khung kết thúc (tên cắm) giữ hướng bay (tên bắn dọc cắm dọc), false = về ngang như cũ.</summary>
+        public bool keepRotationOnEnd;
         public float knockback = 0f;
         public float poisonPercent = 0f;
         public float poisonDuration = 5f;
@@ -86,6 +88,7 @@ namespace SoulRequiem.Gameplay
             dir = direction.sqrMagnitude > 0.0001f ? direction.normalized : Vector2.right;
             speed = spd;
             damage = dmg;
+            SfxHooks.Launched(this);   // 17/11 (§294): âm
             if (spinToDirection)
                 transform.rotation = Quaternion.Euler(0f, 0f, Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg);
         }
@@ -180,7 +183,7 @@ namespace SoulRequiem.Gameplay
             {
                 exploding = true;
                 explodeStart = Time.time;
-                transform.rotation = Quaternion.identity;
+                if (!keepRotationOnEnd) transform.rotation = Quaternion.identity;
             }
             else Destroy(gameObject);
         }

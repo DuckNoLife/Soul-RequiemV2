@@ -1,0 +1,21 @@
+### 4512 kings_relic [pickup]
+  <hint_text> The King's Censer. Earthshatter now burns away a wider pool of tainted Ether.
+### 4513 x2_climb [exit]
+  <arrive_subtitle> The Vale of Graves
+  <arrive_title> The Sinking Fields
+  <depart_text> You climb back up to the Sinking Fields.
+  <locked_text> The rope is out of reach. Pull it down first.
+  <verb> Climb up
+### 5252 barrow_oath [note]
+  <key_got> Crimson Oath. It drinks what it cuts, and it answers hardest when there is little left of you.
+  <text> He drank the most, and he drowned the first.
+
+A boy from a poor village in the east swore this blade to a broken kingdom, and made it whole. Then the field of six hundred thousand woke something, and the blade drank the rest of the war for him.
+
+The Ascended's light burned it out of him. He walked into these marshes and did not walk out. No one ever found the body; no one was meant to. His hands are still folded over the hilt.
+  <title> The Purified King
+  <verb> Take the blade
+### 5211 x2_rope_lever [lever]
+  <hint> A frayed rope hangs from the rim above.
+  <text> You haul the rope down. A way back up.
+  <verb> Pull rope

@@ -23,7 +23,7 @@ namespace SoulRequiem.Gameplay
         public void OnHit(Health h, float amount, Vector2 dir, float force)
         {
             if (!anim.Exists || h.IsDead) return;
-            if (force >= owner.heavyHitKnockback && anim.HasStagger)
+            if (force >= owner.heavyHitKnockback && anim.HasStagger && !WeaponTraits.Unflinching(owner))   // 16/11 (§254): Last Stand
             {
                 actions.Interrupt();                       // đòn nặng: loạng choạng, huỷ chém / dậm đang làm
                 actions.LockUntil = Time.time + owner.staggerLock;

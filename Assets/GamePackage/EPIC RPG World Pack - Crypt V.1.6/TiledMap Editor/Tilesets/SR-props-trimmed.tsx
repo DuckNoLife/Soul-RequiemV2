@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.10" tiledversion="1.11.2" name="SR-props-trimmed" tilewidth="32" tileheight="32" tilecount="94" columns="0">
+<tileset version="1.10" tiledversion="1.11.2" name="SR-props-trimmed" tilewidth="32" tileheight="32" tilecount="163" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="0">
   <image source="../../Props/SR-trimmed/banner 1.png" width="32" height="47"/>
@@ -282,5 +282,212 @@
  </tile>
  <tile id="93">
   <image source="../../Props/SR-trimmed/vase color scheme 4 - 10.png" width="32" height="22"/>
+ </tile>
+ <tile id="94">
+  <image source="../../Props/SR-trimmed/candle 4.png" width="32" height="19"/>
+ </tile>
+ <tile id="95">
+  <image source="../../Props/SR-trimmed/candle 2.png" width="32" height="23"/>
+ </tile>
+ <tile id="96">
+  <image source="../../Props/SR-trimmed/vase color scheme 4 - 4.png" width="32" height="22"/>
+ </tile>
+ <tile id="97">
+  <image source="../../Props/SR-trimmed/candle 3.png" width="32" height="23"/>
+ </tile>
+ <tile id="98">
+  <image source="../../Props/SR-trimmed/vase color scheme 1 - 9.png" width="32" height="22"/>
+ </tile>
+ <tile id="99">
+  <image source="../../Props/SR-trimmed/vase color scheme 4 - 6.png" width="32" height="23"/>
+ </tile>
+ <tile id="100">
+  <image source="../../Props/SR-trimmed/candle 1.png" width="32" height="22"/>
+ </tile>
+ <tile id="101">
+  <image source="../../Props/SR-trimmed/vase color scheme 4 - 3.png" width="32" height="22"/>
+ </tile>
+ <tile id="102">
+  <image source="../../Props/SR-trimmed/chest - 1.png" width="64" height="50"/>
+ </tile>
+ <tile id="103">
+  <image source="../../Props/SR-trimmed/stone chest 1.png" width="128" height="61"/>
+ </tile>
+ <tile id="104">
+  <image source="../../Props/SR-trimmed/stone chest 2.png" width="96" height="59"/>
+ </tile>
+ <tile id="105">
+  <image source="../../Props/SR-trimmed/chest - 2.png" width="64" height="50"/>
+ </tile>
+ <tile id="106">
+  <image source="../../Props/SR-trimmed/vase color scheme 4 - 7.png" width="32" height="24"/>
+ </tile>
+ <tile id="107">
+  <image source="../../Props/SR-trimmed/coffin lid - vertical - 2.png" width="64" height="77"/>
+ </tile>
+ <tile id="108">
+  <image source="../../Props/SR-trimmed/coffin lid - vertical - 5.png" width="64" height="76"/>
+ </tile>
+ <tile id="109">
+  <image source="../../Props/SR-trimmed/standard - support - 1.png" width="64" height="61"/>
+ </tile>
+ <tile id="110">
+  <image source="../../Props/SR-trimmed/pit - spikes - 1.png" width="32" height="62"/>
+ </tile>
+ <tile id="111">
+  <image source="../../Props/SR-trimmed/pit - spikes - 6.png" width="32" height="30"/>
+ </tile>
+ <tile id="112">
+  <image source="../../Props/SR-trimmed/pit - spikes - 2.png" width="32" height="62"/>
+ </tile>
+ <tile id="113">
+  <image source="../../Props/SR-trimmed/pit - spikes - 11.png" width="32" height="62"/>
+ </tile>
+ <tile id="114">
+  <image source="../../Props/SR-trimmed/op_gear.png" width="64" height="57"/>
+ </tile>
+ <tile id="115">
+  <image source="../../Props/SR-trimmed/bones - color scheme 1 - 9.png" width="32" height="23"/>
+ </tile>
+ <tile id="116">
+  <image source="../../Props/SR-trimmed/op_bridge_v.png" width="128" height="144"/>
+ </tile>
+ <tile id="117">
+  <image source="../../Props/SR-trimmed/bones - color scheme 1 - 5.png" width="64" height="52"/>
+ </tile>
+ <tile id="118">
+  <image source="../../Props/SR-trimmed/metal ball with spikes - color scheme 1 - 1.png" width="32" height="28"/>
+ </tile>
+ <tile id="119">
+  <image source="../../Props/SR-trimmed/chains - 11.png" width="64" height="25"/>
+ </tile>
+ <tile id="120">
+  <image source="../../Props/SR-trimmed/chains - 14.png" width="32" height="21"/>
+ </tile>
+ <tile id="121">
+  <image source="../../Props/SR-trimmed/barrel - 7.png" width="32" height="62"/>
+ </tile>
+ <tile id="122">
+  <image source="../../Props/SR-trimmed/barrel - 71.png" width="32" height="62"/>
+ </tile>
+ <tile id="123">
+  <image source="../../Props/SR-trimmed/torture chamber - 3.png" width="96" height="94"/>
+ </tile>
+ <tile id="124">
+  <image source="../../Props/SR-trimmed/barrel - 8.png" width="32" height="62"/>
+ </tile>
+ <tile id="125">
+  <image source="../../Props/SR-trimmed/bucket - 1.png" width="32" height="26"/>
+ </tile>
+ <tile id="126">
+  <image source="../../Props/SR-trimmed/table - chair - 7.png" width="32" height="62"/>
+ </tile>
+ <tile id="127">
+  <image source="../../Props/SR-trimmed/table - 1.png" width="96" height="57"/>
+ </tile>
+ <tile id="128">
+  <image source="../../Props/SR-trimmed/table - 2.png" width="64" height="88"/>
+ </tile>
+ <tile id="129">
+  <image source="../../Props/SR-trimmed/torture stuffs - 1.png" width="64" height="61"/>
+ </tile>
+ <tile id="130">
+  <image source="../../Props/SR-trimmed/crate - broken - 2.png" width="32" height="27"/>
+ </tile>
+ <tile id="131">
+  <image source="../../Props/SR-trimmed/table - chair - 9.png" width="32" height="62"/>
+ </tile>
+ <tile id="132">
+  <image source="../../Props/SR-trimmed/table - 3.png" width="96" height="57"/>
+ </tile>
+ <tile id="133">
+  <image source="../../Props/SR-trimmed/barrel - 9.png" width="32" height="62"/>
+ </tile>
+ <tile id="134">
+  <image source="../../Props/SR-trimmed/torture stuffs - 2.png" width="64" height="61"/>
+ </tile>
+ <tile id="135">
+  <image source="../../Props/SR-trimmed/pit - spikes - 7.png" width="32" height="62"/>
+ </tile>
+ <tile id="136">
+  <image source="../../Props/SR-trimmed/supply - 1.png" width="64" height="26"/>
+ </tile>
+ <tile id="137">
+  <image source="../../Props/SR-trimmed/bucket - color scheme 2 - 5.png" width="32" height="27"/>
+ </tile>
+ <tile id="138">
+  <image source="../../Props/SR-trimmed/tissue - horizontal - 4.png" width="128" height="29"/>
+ </tile>
+ <tile id="139">
+  <image source="../../Props/SR-trimmed/book - open.png" width="32" height="22"/>
+ </tile>
+ <tile id="140">
+  <image source="../../Props/SR-trimmed/book - closed 1.png" width="32" height="23"/>
+ </tile>
+ <tile id="141">
+  <image source="../../Props/SR-trimmed/book - closed 2.png" width="32" height="23"/>
+ </tile>
+ <tile id="142">
+  <image source="../../Props/SR-trimmed/chains - ceiling - 2.png" width="128" height="62"/>
+ </tile>
+ <tile id="143">
+  <image source="../../Props/SR-trimmed/suspended cage - 2.png" width="64" height="131"/>
+ </tile>
+ <tile id="144">
+  <image source="../../Props/SR-trimmed/suspended cage - 3.png" width="32" height="120"/>
+ </tile>
+ <tile id="145">
+  <image source="../../Props/SR-trimmed/chains - ceiling - 5.png" width="32" height="124"/>
+ </tile>
+ <tile id="146">
+  <image source="../../Props/SR-trimmed/suspended cage - 1.png" width="64" height="131"/>
+ </tile>
+ <tile id="147">
+  <image source="../../Props/SR-trimmed/cr_metal5.png" width="128" height="95"/>
+ </tile>
+ <tile id="148">
+  <image source="../../Props/SR-trimmed/cr_metal3.png" width="128" height="95"/>
+ </tile>
+ <tile id="149">
+  <image source="../../Props/SR-trimmed/cr_wood1.png" width="128" height="95"/>
+ </tile>
+ <tile id="150">
+  <image source="../../Props/SR-trimmed/cr_metal2.png" width="128" height="95"/>
+ </tile>
+ <tile id="151">
+  <image source="../../Props/SR-trimmed/op_skullgate.png" width="96" height="96"/>
+ </tile>
+ <tile id="152">
+  <image source="../../Props/SR-trimmed/op_cellgate2.png" width="128" height="149"/>
+ </tile>
+ <tile id="153">
+  <image source="../../Props/SR-trimmed/op_cellgate1_open.png" width="128" height="88"/>
+ </tile>
+ <tile id="154">
+  <image source="../../Props/SR-trimmed/op_cellgate1.png" width="128" height="149"/>
+ </tile>
+ <tile id="155">
+  <image source="../../Props/SR-trimmed/op_door_h.png" width="96" height="110"/>
+ </tile>
+ <tile id="156">
+  <image source="../../Props/SR-trimmed/lintel_ren_gate.png" width="128" height="96"/>
+ </tile>
+ <tile id="157">
+  <image source="../../Props/SR-trimmed/lintel_pell_gate.png" width="128" height="96"/>
+ </tile>
+ <tile id="158">
+  <image source="../../Props/SR-trimmed/lintel_oub_door.png" width="128" height="96"/>
+ </tile>
+ <tile id="159">
+  <image source="../../Props/SR-trimmed/lintel_guard_door.png" width="128" height="96"/>
+ </tile>
+ <tile id="160">
+  <image source="../../Props/SR-trimmed/lintel_arch_warden.png" width="128" height="96"/>
+ </tile>
+ <tile id="161">
+  <image source="../../Props/SR-trimmed/m4_warden_keys.png" width="32" height="24"/>
+ </tile>
+ <tile id="162">
+  <image source="../../Props/SR-trimmed/m4_ren_belongings.png" width="72" height="34"/>
  </tile>
 </tileset>

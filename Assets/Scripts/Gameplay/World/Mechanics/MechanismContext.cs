@@ -111,7 +111,7 @@ namespace SoulRequiem.Gameplay
         {
             var parts = new List<Transform>();
             foreach (var so in Director.mapRoot.GetComponentsInChildren<SuperObject>())
-                if (so.m_TiledName == gateName && so.transform.parent != null && so.transform.parent.name == MapSchema.Layer.Gates) parts.Add(so.transform);
+                if (so.m_TiledName == gateName && so.transform.parent != null && (so.transform.parent.name == MapSchema.Layer.Gates || so.transform.parent.name.StartsWith(MapSchema.Layer.Gates + " (")))   /* 18/11: lớp trùng tên "gates (1)" */ parts.Add(so.transform);
             var start = new List<Vector3>();
             foreach (var p in parts) start.Add(p.localPosition);
             for (int i = 0; i < 6; i++)

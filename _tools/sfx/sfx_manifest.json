@@ -1,0 +1,434 @@
+{
+ "flow_id": "EVLxBJiWqsWWZXQEeRK9",
+ "model": "eleven_text_to_sound_v2",
+ "note": "id = tên file trong Resources/Audio/SFX (biến thể: id_1, id_2...). takes = số biến thể. loop = âm lặp liền mạch. node = node ElevenLabs (flow EVLxBJiWqsWWZXQEeRK9, nhãn node = id). Đã chạy 17/11: pl_swing(1/3), pl_swing_heavy, pl_death, footstep(1/4), trap_saw, stone_door, lg_spear_thrust; còn lại bị giới hạn lượt/phút của gói free -> chạy tiếp theo nhóm nhỏ.",
+ "sounds": [
+  {
+   "id": "pl_swing",
+   "takes": 3,
+   "dur": 0.6,
+   "prompt": "Katana sword swing whoosh, fast sharp air cut, close-mic",
+   "node": "XmVPRszgRBPBqyRFJKZ4"
+  },
+  {
+   "id": "pl_swing_heavy",
+   "takes": 1,
+   "dur": 0.8,
+   "prompt": "Heavy powerful katana slash, deep whoosh with a short ringing steel tail",
+   "node": "huIZzTt5vd6YqJyHe3Dy"
+  },
+  {
+   "id": "hit_flesh",
+   "takes": 3,
+   "dur": 0.5,
+   "prompt": "Sword slicing into flesh, wet short cut impact",
+   "node": "3giqeGXje2NsbmYdVRho"
+  },
+  {
+   "id": "hit_armor",
+   "takes": 2,
+   "dur": 0.6,
+   "prompt": "Katana striking heavy steel plate armor, sharp metallic clang, short",
+   "node": "IqcB86faJj83XloDBvJe"
+  },
+  {
+   "id": "hit_block",
+   "takes": 2,
+   "dur": 0.7,
+   "prompt": "Blade hitting a large iron tower shield, loud dull metal clang",
+   "node": "a5GJAhj7W8AojCd7he9a"
+  },
+  {
+   "id": "parry",
+   "takes": 1,
+   "dur": 0.7,
+   "prompt": "Sword parry, bright ringing steel clash",
+   "node": "Xp77aBflka6HUnOtwLmv"
+  },
+  {
+   "id": "pl_dodge",
+   "takes": 2,
+   "dur": 0.6,
+   "prompt": "Quick dodge roll on stone floor, cloth rustle and light scuff",
+   "node": "lOBvSiZ9uLyameK4bavj"
+  },
+  {
+   "id": "pl_hurt",
+   "takes": 2,
+   "dur": 0.5,
+   "prompt": "Heavy blow hitting a body, dull punch impact with cloth thud",
+   "node": "lC1MvukNnN6Qbyyim2ZS"
+  },
+  {
+   "id": "pl_death",
+   "takes": 1,
+   "dur": 2.0,
+   "prompt": "Body collapsing onto stone floor, heavy fall, then a faint ghostly exhale",
+   "node": "kgSZVpMwu7gUBeKy64vF"
+  },
+  {
+   "id": "flask_drink",
+   "takes": 1,
+   "dur": 1.6,
+   "prompt": "Drinking from a small glass flask, two gulps, then a soft magical healing shimmer",
+   "node": "1ioRUPiaCUlqlGqrlK0K"
+  },
+  {
+   "id": "iai_charge",
+   "takes": 1,
+   "dur": 1.5,
+   "prompt": "Katana slowly sliding out of its scabbard, tense metal scrape with a rising low hum",
+   "node": "wa4SuLBhCk20oS9NDONm"
+  },
+  {
+   "id": "iai_ready",
+   "takes": 1,
+   "dur": 0.6,
+   "prompt": "Single crisp ringing blade ping, bright metallic",
+   "node": "63G1BwiPsPq2255NGERM"
+  },
+  {
+   "id": "iai_release",
+   "takes": 1,
+   "dur": 0.8,
+   "prompt": "Lightning fast iaido draw slash, piercing whoosh with a sharp steel ring",
+   "node": "b4WQXTdvvFZk61RW2dUy"
+  },
+  {
+   "id": "footstep",
+   "takes": 4,
+   "dur": 0.4,
+   "prompt": "Single footstep on damp stone floor, leather boot, close",
+   "node": "dt51pPhDHn8ktlMVslvS"
+  },
+  {
+   "id": "en_swing",
+   "takes": 2,
+   "dur": 0.6,
+   "prompt": "Heavy rusty weapon swing whoosh, slow and deep",
+   "node": "WpOi2R6mdBInJT3zXpfE"
+  },
+  {
+   "id": "en_death",
+   "takes": 2,
+   "dur": 1.2,
+   "prompt": "Creature body collapsing to the ground, heavy thud with a dying breath",
+   "node": "EGKXzItas8KZIdDXt6z3"
+  },
+  {
+   "id": "arrow_shot",
+   "takes": 2,
+   "dur": 0.6,
+   "prompt": "Bow string release with an arrow whoosh",
+   "node": "WdrFTmN2fqEEreUfVMpR"
+  },
+  {
+   "id": "arrow_hit",
+   "takes": 1,
+   "dur": 0.4,
+   "prompt": "Arrow thudding into wood, short",
+   "node": "aVkTgTRm5ESOVZbMzbtq"
+  },
+  {
+   "id": "proj_magic",
+   "takes": 1,
+   "dur": 0.8,
+   "prompt": "Dark magic orb launched, low whooshing hum",
+   "node": "RFo1aFl7fz2kwfAWICxi"
+  },
+  {
+   "id": "st_bleed",
+   "takes": 1,
+   "dur": 0.5,
+   "prompt": "Short wet blood spurt splash",
+   "node": "fmiTsGqD9nuaCCJ3OtSP"
+  },
+  {
+   "id": "st_burn",
+   "takes": 1,
+   "dur": 0.8,
+   "prompt": "Fire igniting with a quick whoosh and crackle",
+   "node": "HkfkWXz3Hz5vTzaGchuU"
+  },
+  {
+   "id": "st_chill",
+   "takes": 1,
+   "dur": 0.8,
+   "prompt": "Ice crystals forming fast, crisp crackling freeze",
+   "node": "wY77NISZSBhzrU5ML7yV"
+  },
+  {
+   "id": "st_bind",
+   "takes": 1,
+   "dur": 0.9,
+   "prompt": "Thick roots bursting from the ground, wooden creak and soil crunch",
+   "node": "2QqTaVvHVsvcylYzI7T8"
+  },
+  {
+   "id": "st_mark",
+   "takes": 1,
+   "dur": 0.7,
+   "prompt": "Eerie magical mark, short dissonant glassy chime",
+   "node": "jIfmrJp5VEvJKi9wceRb"
+  },
+  {
+   "id": "trap_arrow",
+   "takes": 2,
+   "dur": 0.5,
+   "prompt": "Crossbow trap firing a bolt, mechanical twang",
+   "node": "KrEBtA100TrRQ8qP4Eto"
+  },
+  {
+   "id": "trap_plate",
+   "takes": 1,
+   "dur": 0.5,
+   "prompt": "Stone pressure plate sinking with a heavy click",
+   "node": "cylHTDoYNIMeHLoT0NBo"
+  },
+  {
+   "id": "trap_roller",
+   "takes": 1,
+   "dur": 2.5,
+   "prompt": "Huge wooden log rolling fast across a stone floor, deep rumbling",
+   "node": "aPoprnzSmHVP27ZVPlf6"
+  },
+  {
+   "id": "trap_spikes",
+   "takes": 1,
+   "dur": 0.6,
+   "prompt": "Iron spikes shooting up from a stone floor, sharp metallic shing",
+   "node": "heew4w6PsxnkxnXe3deD"
+  },
+  {
+   "id": "trap_saw",
+   "takes": 1,
+   "dur": 2.0,
+   "loop": true,
+   "prompt": "Spinning saw blade grinding along a metal rail, steady whirring",
+   "node": "BpWLPdMvqeUDCbr3aCnH"
+  },
+  {
+   "id": "lever",
+   "takes": 1,
+   "dur": 0.9,
+   "prompt": "Rusty iron lever pulled, heavy clunk and gear click",
+   "node": "UA0IDgXaqJenjWoS54wP"
+  },
+  {
+   "id": "gate_open",
+   "takes": 1,
+   "dur": 2.0,
+   "prompt": "Heavy iron portcullis grinding open, chains rattling",
+   "node": "o1O1TFHHx7c2JQdBf4mi"
+  },
+  {
+   "id": "stone_door",
+   "takes": 1,
+   "dur": 2.0,
+   "prompt": "Heavy stone slab door sliding, deep grinding rumble",
+   "node": "OmJMPDJ1M3qB3CtFxB5j"
+  },
+  {
+   "id": "dial_turn",
+   "takes": 1,
+   "dur": 0.4,
+   "prompt": "Old stone dial wheel turning one notch, dry click",
+   "node": "zUzlXvbxr6hT1iEAGhnO"
+  },
+  {
+   "id": "pickup_item",
+   "takes": 1,
+   "dur": 0.5,
+   "prompt": "Picking up a small metal trinket, soft clink",
+   "node": "QbqJUX4WznQ0jamTQIkx"
+  },
+  {
+   "id": "pickup_note",
+   "takes": 1,
+   "dur": 0.7,
+   "prompt": "Old paper page unfolding, soft rustle",
+   "node": "KPRX4NOEahfoObidUgR9"
+  },
+  {
+   "id": "pickup_weapon",
+   "takes": 1,
+   "dur": 0.9,
+   "prompt": "Sheathed katana picked up, wooden scabbard clack and a short metallic ring",
+   "node": "9GmCK332jaL5QzP0Li8L"
+  },
+  {
+   "id": "key_unlock",
+   "takes": 1,
+   "dur": 0.8,
+   "prompt": "Old iron key turning in a heavy lock, solid click",
+   "node": "B6s7A8w5oKUPwAHsHv94"
+  },
+  {
+   "id": "checkpoint",
+   "takes": 1,
+   "dur": 1.8,
+   "prompt": "Ghostly blue flame igniting, soft ethereal whoosh with a faint choir tone",
+   "node": "uY6gn92sqmg18v8uwnT1"
+  },
+  {
+   "id": "rest",
+   "takes": 1,
+   "dur": 1.5,
+   "prompt": "Campfire flaring up, warm whoosh and crackle",
+   "node": "ZJyG7IDNwb6jaj7aHvr2"
+  },
+  {
+   "id": "quest_update",
+   "takes": 1,
+   "dur": 1.2,
+   "prompt": "Soft low bell chime, mysterious and short",
+   "node": "uwmze4689JZGZ0AnCT8I"
+  },
+  {
+   "id": "ui_move",
+   "takes": 1,
+   "dur": 0.3,
+   "prompt": "Soft subtle menu tick, dry wooden click",
+   "node": "FN0fujlcXsvo59gnwR06"
+  },
+  {
+   "id": "ui_confirm",
+   "takes": 1,
+   "dur": 0.4,
+   "prompt": "Menu confirm sound, low muted metallic tap",
+   "node": "Sl7WV5L20lTCs8L3KJYL"
+  },
+  {
+   "id": "ui_back",
+   "takes": 1,
+   "dur": 0.3,
+   "prompt": "Menu cancel sound, soft low muffled click",
+   "node": "Aqnzcuve5x5BXD2PfYd7"
+  },
+  {
+   "id": "ui_open",
+   "takes": 1,
+   "dur": 0.7,
+   "prompt": "Old leather book opening, paper rustle",
+   "node": "v9by2eVP9JhJYwUifopa"
+  },
+  {
+   "id": "dialog_next",
+   "takes": 1,
+   "dur": 0.3,
+   "prompt": "Quiet paper page flick",
+   "node": "K5C7WWVaPQUYrDGTLglc"
+  },
+  {
+   "id": "boss_intro",
+   "takes": 1,
+   "dur": 3.0,
+   "prompt": "Deep ominous impact boom with a low reverberating drone, dark fantasy",
+   "node": "LPsv5FqGqMJqf7saWmfT"
+  },
+  {
+   "id": "boss_slam",
+   "takes": 1,
+   "dur": 1.5,
+   "prompt": "Massive ground slam, heavy stone impact with falling debris",
+   "node": "IOn4oXlBeZTfhgOorEPF"
+  },
+  {
+   "id": "boss_death",
+   "takes": 1,
+   "dur": 3.0,
+   "prompt": "Huge armored body crashing down, metal clatter and a deep rumble fading out",
+   "node": "npqzkyPbHpGDZbvNQKy8"
+  },
+  {
+   "id": "lg_shield_bash",
+   "takes": 1,
+   "dur": 0.8,
+   "prompt": "Heavy iron tower shield bashing forward, loud metal thump",
+   "node": "KZsQIQOT1IaO6PmiGrg5"
+  },
+  {
+   "id": "lg_charge",
+   "takes": 1,
+   "dur": 1.5,
+   "prompt": "Heavy armored knight running, clanking plate armor footsteps",
+   "node": "vsNyaE7qzFO3qDw9ioeY"
+  },
+  {
+   "id": "lg_wall_crash",
+   "takes": 1,
+   "dur": 1.2,
+   "prompt": "Armored body crashing into a stone wall, crunch and metal clang",
+   "node": "ZupWLpl0uqdBAMWOjhMO"
+  },
+  {
+   "id": "lg_spear_thrust",
+   "takes": 1,
+   "dur": 0.6,
+   "prompt": "Long spear thrust, heavy fast whoosh",
+   "node": "Mz2N6xBOF89lE8Ubtaeh"
+  },
+  {
+   "id": "lg_spear_stuck",
+   "takes": 1,
+   "dur": 0.8,
+   "prompt": "Spear tip stabbing into a stone floor and getting stuck, metal scrape",
+   "node": "pqqIPvOyvLa8Fe9VbcJD"
+  },
+  {
+   "id": "lg_shield_break",
+   "takes": 1,
+   "dur": 1.2,
+   "prompt": "Iron shield cracking and shattering, sharp metal snap",
+   "node": "wYneHoR78WPSQppq8qGo"
+  },
+  {
+   "id": "lg_whirl",
+   "takes": 1,
+   "dur": 1.0,
+   "prompt": "Spear spinning in a full circle, rapid swooshing",
+   "node": "Xw7ciNRGf4b5HZ9b33dh"
+  },
+  {
+   "id": "amb_plains",
+   "takes": 1,
+   "dur": 16,
+   "loop": true,
+   "prompt": "Gentle wind over open grassy plains, distant birds, calm",
+   "node": "jZwbkWlebn2nMi4gFX5f"
+  },
+  {
+   "id": "amb_hollow",
+   "takes": 1,
+   "dur": 16,
+   "loop": true,
+   "prompt": "Quiet forest at night, crickets and soft wind in leaves",
+   "node": "RKXJO5R5Zte9AtGIHrGZ"
+  },
+  {
+   "id": "amb_sewer",
+   "takes": 1,
+   "dur": 16,
+   "loop": true,
+   "prompt": "Underground sewer ambience, slow water drips echoing in stone tunnels, distant flowing water, low hollow air",
+   "node": "YfcfbyOzTfcHQ2NyS5EL"
+  },
+  {
+   "id": "amb_cistern",
+   "takes": 1,
+   "dur": 16,
+   "loop": true,
+   "prompt": "Vast underground stone cistern, deep echoing drips and a low wind hum",
+   "node": "uCzuKBsZotIQ00xYLgzX"
+  },
+  {
+   "id": "amb_crypt",
+   "takes": 1,
+   "dur": 16,
+   "loop": true,
+   "prompt": "Old crypt ambience, low eerie wind through stone halls, faint distant creaks",
+   "node": "LzGvhrqdDSEtOTC3iUz2"
+  }
+ ],
+ "flow_url": "https://elevenlabs.io/app/flows/EVLxBJiWqsWWZXQEeRK9"
+}

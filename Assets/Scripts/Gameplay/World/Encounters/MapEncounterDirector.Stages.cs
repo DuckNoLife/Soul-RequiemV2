@@ -42,10 +42,13 @@ namespace SoulRequiem.Gameplay
         private void Rearm(EncounterZone z)
         {
             foreach (var e in z.alive)
-                if (e != null) { if (e == Boss) Boss = null; Destroy(e.gameObject); }
+                if (e != null) { if (e == Boss) Boss = null; if (e == BossPartner) BossPartner = null; Destroy(e.gameObject); }
             z.alive.Clear();
             gateCtl.RearmArena(z.id);
             z.started = z.cleared = false;
+            z.quietSince = -1f; z.stragglersCalled = false; z.fought = false;   // 19/11 (§340); 20/11
+            z.bossDown = false;                               // 19/11 (§343)
+            RaiseZoneReset(z.rect);                           // 19/11 (§343)
             z.waveIndex = -1;
             z.killed = 0;
             z.pending = 0; z.generation++;
@@ -68,11 +71,12 @@ namespace SoulRequiem.Gameplay
         }
 
         /// <summary>Gục trong ải chưa xong -> điểm hồi sinh của ải (nếu đã thắp).</summary>
-        private void ChooseStageRespawn(Vector2 diedAt)
+        private bool ChooseStageRespawn(Vector2 diedAt)
         {
             string st = DeathStage(diedAt);
-            if (st.Length == 0) return;
-            if (triggerHandler.TryStageSpawn(st, out var pos)) SetRespawnPoint(pos);
+            if (st.Length == 0) return false;
+            if (triggerHandler.TryStageSpawn(st, out var pos)) { SetRespawnPoint(pos); return true; }
+            return false;
         }
 
         /// <summary>Khu vừa dọn: nếu là khu cuối cùng (có quái) của ải -> qua ải. Trả true nếu vừa qua ải.</summary>

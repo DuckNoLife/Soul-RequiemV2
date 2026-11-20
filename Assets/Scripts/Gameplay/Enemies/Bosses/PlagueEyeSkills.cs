@@ -189,6 +189,7 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ 2. tia quét 360°
         private IEnumerator Ray(bool p2)
         {
+            SfxHooks.BossMove(this, "Ray"); // 19/11 (§335): âm
             float cd = p2 ? rayCooldown * rayCooldownP2 : rayCooldown;
             nextRay = Time.time + rayWindup + rayDuration + cd;                  // dự phòng nếu tia bị ngắt giữa chừng
             int beams = p2 ? 2 : 1;
@@ -289,6 +290,7 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ 3. xoay quật quanh hố
         private IEnumerator Spin(bool p2)
         {
+            SfxHooks.BossMove(this, "Spin"); // 19/11 (§337): âm
             nextSpin = Time.time + spinCooldown * (p2 ? 0.7f : 1f);
             var ring = MakeRing();
             ai.PlayState("SpinStart");
@@ -345,6 +347,7 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ 4. triệu hồi quái độc
         private IEnumerator Summon(bool p2)
         {
+            SfxHooks.BossMove(this, "Summon"); // 19/11 (§335): âm
             nextSummon = Time.time + summonEvery;
             brood.RemoveAll(e => e == null || e.Health == null || e.Health.IsDead);
             int room = summonCap - brood.Count;
@@ -352,7 +355,7 @@ namespace SoulRequiem.Gameplay
             if (room <= 0 || dir == null) yield break;
 
             ai.PlayState("VolleyWindup");
-            Hints.Show("The Plague Eye spawns its brood!", 2.5f);
+            // 16/11 (§269): bỏ thông báo thừa — hình / hoạt ảnh / bảng tên boss đã thể hiện
             // chọn điểm chui lên ngẫu nhiên, bỏ điểm vướng vật cản
             var pts = new List<Vector2>();
             foreach (var o in summonPoints)

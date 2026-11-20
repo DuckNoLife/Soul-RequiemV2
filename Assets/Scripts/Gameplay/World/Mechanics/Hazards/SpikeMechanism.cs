@@ -25,7 +25,6 @@ namespace SoulRequiem.Gameplay
         private TrapListener trigger, disabler;
         private float disabledUntil, nextScan, nextHurt;
         private readonly List<Health> found = new List<Health>();
-        private readonly Dictionary<Health, float> enemyHitAt = new Dictionary<Health, float>();
 
         private float Warn => Float("warn_seconds", Str("mode", "cycle") == "step" ? 0.35f : 0.6f);
         private float On => Float("on_seconds", 1.2f);
@@ -99,6 +98,8 @@ namespace SoulRequiem.Gameplay
             return string.IsNullOrEmpty(w) || Ctx.Flags.HasAll(w);
         }
 
+        private int[] spikeWas;   // 17/11 (§294): âm: pha trước của từng dải gai
+
         public override void Tick(Vector2 playerPos, bool inside)
         {
             if (disabler.Poll()) disabledUntil = Time.time + Float("disable_seconds", 6f);
@@ -123,22 +124,18 @@ namespace SoulRequiem.Gameplay
                     if (stepped) start[k] = now;
                 }
                 int p = Phase(k, out float e);
+                if (spikeWas == null || spikeWas.Length != rects.Length) spikeWas = new int[rects.Length];   // 17/11 (§294): âm
+                if (p == 2 && spikeWas[k] != 2) SoulRequiem.Core.Sfx.Play("trap_spikes", rects[k].center);
+                spikeWas[k] = p;
                 ShowFrame(k, p, e);
                 if (p != 2) continue;
                 if (rects[k].Contains(playerPos)) hurtPlayer = true;
-                for (int f = 0; f < found.Count; f++)
-                {
-                    var h = found[f];
-                    if (h == null || h.IsDead || !rects[k].Contains((Vector2)h.transform.position)) continue;
-                    if (enemyHitAt.TryGetValue(h, out float t) && now < t) continue;
-                    enemyHitAt[h] = now + 0.6f;
-                    h.TakeDamage(Float("enemy_damage", 25f), Vector2.up, Float("knock", 2f));
-                }
+                // 20/11 (§353): gai KHÔNG đâm quái (quái vẫn giẫm kích hoạt bẫy kiểu "step" như cũ) — chỉ Ren dính.
             }
             if (hurtPlayer && now >= nextHurt)
             {
                 nextHurt = now + Mathf.Max(0.5f, Ctx.DamageTick);
-                TrapArt.HurtPlayer(Ctx, Float("damage", 10f), Vector2.up, Float("knock", 2f));
+                TrapArt.HurtPlayerCrush(Ctx, Float("damage", 10f), Vector2.up, Float("knock", 2f));
             }
         }
 

@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc669ea7b8d44e6bb40a46af73e7651e, type: 3}
+  m_Name: Katana_Crimson
+  m_EditorClassIdentifier: 
+  id: katana_crimson
+  displayName: Crimson Oath
+  description: Quenched in the blood of the oath it swore. Heavier than it looks; it bites deep and slow.
+  epithet: Blade of Borrow, the Purified King
+  lore: "A boy from a poor village in the east swore it to a broken kingdom, and made the kingdom whole. Then the field of six hundred thousand woke something, and the blade drank the rest of the war for him. It still drinks that way.\n\nThe Ascended's light burned the war out of him. He walked into the Sinking Fields and did not walk out, and no one ever found the body. His hands are still folded over the hilt."
+  foundAt: King's Barrow, above the Vale of Graves
+  icon: {fileID: 0}
+  showcase: {fileID: 21300000, guid: ff701bd5091a49a284af47af24d23f1f, type: 3}
+  design: {fileID: 2800000, guid: 78e5eb5f19104813af3ec1671ec2a2f6, type: 3}
+  glowTint: {r: 1.4, g: 0.35, b: 0.3, a: 1}
+  glow: 1
+  swingGlowBoost: 2.5
+  trailColor: {r: 1, g: 0.45, b: 0.42, a: 1}
+  slashStyle: crimson
+  comboWindow: 0.33
+  finisherRecovery: 0.36
+  combo:
+  - name: Kesa Cut
+    damage: 19
+    range: 0.75
+    arcDegrees: 140
+    knockback: 1.8
+    hitFrame: 3
+    cancelFrame: 6
+    fps: 12
+    impact: 1
+    flipTrail: 0
+    trailScale: 1
+    thrust: 0
+  - name: Rising Cut
+    damage: 19
+    range: 0.75
+    arcDegrees: 140
+    knockback: 1.8
+    hitFrame: 3
+    cancelFrame: 6
+    fps: 12
+    impact: 1
+    flipTrail: 1
+    trailScale: 1
+    thrust: 0
+  - name: Horizontal Sweep
+    damage: 31
+    range: 0.9
+    arcDegrees: 170
+    knockback: 3.8
+    hitFrame: 3
+    cancelFrame: 7
+    fps: 10
+    impact: 1.9
+    flipTrail: 0
+    trailScale: 1.2
+    thrust: 0
+  trait:
+    kind: 3
+    title: Blood Oath
+    text: "Every cut returns 6% of its damage to you as health. Below 40% health it strikes 25% harder - the oath answers for the hand that holds it."
+    window: 0
+    bonus: 0.25
+    leech: 0.06
+    threshold: 0.4

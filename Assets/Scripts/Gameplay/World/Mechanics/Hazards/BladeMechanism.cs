@@ -16,8 +16,6 @@ namespace SoulRequiem.Gameplay
         private SpriteRenderer sr;
         private TrapListener disabler;
         private float disabledUntil, nextHurt, travel;
-        private readonly List<Health> found = new List<Health>();
-        private readonly Dictionary<Health, float> enemyHitAt = new Dictionary<Health, float>();
 
         private bool Horizontal => Rect.width >= Rect.height;
         private bool Saw => Str("kind", "saw") != "blades";
@@ -46,11 +44,24 @@ namespace SoulRequiem.Gameplay
             {
                 var trail = TrapArt.Frames(Horizontal ? "trap_saw_trail" : "trap_saw_trail_v");
                 if (trail.Length == 0) return;
-                float seg = trail[0].bounds.size.x * 0.9f / ts;               // mỗi mảnh rãnh dài ~3 ô
-                for (float i = 1f; i < n; i += seg)
+                // 18/11 (§321): rãnh nằm GỌN trong vùng bẫy. Trước đây bước mảnh tính theo bề NGANG ảnh cả với rãnh dọc
+                // + mảnh cuối đặt quá đầu ray -> rãnh thò ra ngoài tường ~1,5 ô. Nay: chia đều số mảnh trên chiều dài vùng,
+                // vùng ngắn hơn một mảnh thì co mảnh lại.
+                float total = Horizontal ? Rect.width : Rect.height;
+                const float pad = 0.06f;
+                float use = Mathf.Max(0.05f, total - 2f * pad);
+                float piece = (Horizontal ? trail[0].bounds.size.x : trail[0].bounds.size.y) * 0.8f;   // vạch rãnh ~80% khung ảnh
+                float k = use < piece ? use / piece : 1f;
+                float len = piece * k;
+                int count = Mathf.Max(1, Mathf.CeilToInt(use / len - 0.05f));
+                Vector2 start = Horizontal ? new Vector2(Rect.xMin + pad, Rect.center.y) : new Vector2(Rect.center.x, Rect.yMax - pad);
+                Vector2 axis = Horizontal ? Vector2.right : Vector2.down;
+                for (int i = 0; i < count; i++)
                 {
-                    var r = TrapArt.MakeRenderer(Ctx.Host.transform, "SawTrail " + Name, a + step * (i - 0.5f + seg / 2f - 0.5f), Ctx.Player, -7);
+                    float c = count == 1 ? use / 2f : Mathf.Lerp(len / 2f, use - len / 2f, i / (float)(count - 1));
+                    var r = TrapArt.MakeRenderer(Ctx.Host.transform, "SawTrail " + Name, start + axis * c, Ctx.Player, -7);
                     r.sprite = trail[0];
+                    if (k < 1f) r.transform.localScale = Horizontal ? new Vector3(k, 1f, 1f) : new Vector3(1f, k, 1f);
                 }
                 return;
             }
@@ -95,6 +106,7 @@ namespace SoulRequiem.Gameplay
             float u = travel < 1f ? u01 : 1f + u01;
             Vector2 pos = PosAt(u);
             sr.transform.position = pos;
+            SoulRequiem.Core.Sfx.Loop(this, Saw ? "trap_saw" : "trap_blade", sr.transform);   // 17/11 (§294): âm (thôi gọi 0.3 s là tắt)
             sr.sprite = spin[(int)(Time.time * (Saw ? 18f : 12f)) % spin.Length];
 
             float radius = Saw ? 0.2f : 0.38f;
@@ -102,15 +114,9 @@ namespace SoulRequiem.Gameplay
             if (Vector2.Distance(playerPos, pos) < radius && now >= nextHurt)
             {
                 nextHurt = now + 0.5f;
-                TrapArt.HurtPlayer(Ctx, Float("damage", 12f), playerPos - pos, Float("knock", 3f));
+                TrapArt.HurtPlayerCrush(Ctx, Float("damage", 12f), playerPos - pos, Float("knock", 3f));
             }
-            TrapArt.EnemiesIn(new Rect(pos - Vector2.one * radius, Vector2.one * radius * 2f), found);
-            foreach (var h in found)
-            {
-                if (enemyHitAt.TryGetValue(h, out float t) && now < t) continue;
-                enemyHitAt[h] = now + 0.6f;
-                h.TakeDamage(Float("enemy_damage", 30f), (Vector2)h.transform.position - pos, Float("knock", 3f));
-            }
+            // 20/11 (§353): bẫy KHÔNG gây sát thương cho quái (người dùng) — chỉ Ren dính.
         }
 
         internal override void DebugSolve() { }

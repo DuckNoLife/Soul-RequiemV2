@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: cc64e0fc723644909c1587d5052f0826
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1124666460526442097
+    second: m4_cr_bossdoor_0
+  - first:
+      213: 1090067488822865099
+    second: m4_cr_bossdoor_1
+  - first:
+      213: 4589876454359150681
+    second: m4_cr_bossdoor_2
+  - first:
+      213: 4043655710420218195
+    second: m4_cr_bossdoor_3
+  - first:
+      213: 1211085115917038517
+    second: m4_cr_bossdoor_4
+  - first:
+      213: -3272433437628798349
+    second: m4_cr_bossdoor_5
+  - first:
+      213: 489082861073944729
+    second: m4_cr_bossdoor_6
+  - first:
+      213: -992790801524617730
+    second: m4_cr_bossdoor_7
+  - first:
+      213: -2431463654101273080
+    second: m4_cr_bossdoor_8
+  - first:
+      213: -2852016896345981641
+    second: m4_cr_bossdoor_9
+  - first:
+      213: 2036105208063438368
+    second: m4_cr_bossdoor_10
+  - first:
+      213: -4213551802981371155
+    second: m4_cr_bossdoor_11
+  - first:
+      213: -4365235209263432529
+    second: m4_cr_bossdoor_12
+  - first:
+      213: 3311178800898762306
+    second: m4_cr_bossdoor_13
+  - first:
+      213: 3880818870599280582
+    second: m4_cr_bossdoor_14
+  - first:
+      213: -577276601608422891
+    second: m4_cr_bossdoor_15
+  - first:
+      213: 595357537511255845
+    second: m4_cr_bossdoor_16
+  - first:
+      213: -3987740447375198944
+    second: m4_cr_bossdoor_17
+  - first:
+      213: 1103675041693586130
+    second: m4_cr_bossdoor_18
+  - first:
+      213: 16220750803644878
+    second: m4_cr_bossdoor_19
+  - first:
+      213: -3978105750307327412
+    second: m4_cr_bossdoor_20
+  - first:
+      213: 1662197753779113166
+    second: m4_cr_bossdoor_21
+  - first:
+      213: 227071960360115161
+    second: m4_cr_bossdoor_22
+  - first:
+      213: 1242670612246867900
+    second: m4_cr_bossdoor_23
+  - first:
+      213: -2039112176590400331
+    second: m4_cr_bossdoor_24
+  - first:
+      213: 51801048417415603
+    second: m4_cr_bossdoor_25
+  - first:
+      213: -1308088328513827501
+    second: m4_cr_bossdoor_26
+  - first:
+      213: 1697255438333346557
+    second: m4_cr_bossdoor_27
+  - first:
+      213: -1640012912014775326
+    second: m4_cr_bossdoor_28
+  - first:
+      213: 4105008477255089803
+    second: m4_cr_bossdoor_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 8192
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ccc1753ddea7e4b51ff1af8f6e8eabd
+      internalID: -1124666460526442097
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6eae8114a88986cb7c29fb7f214ba0
+      internalID: 1090067488822865099
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c64c5a8fe6863b7d8e9dec44aadec3
+      internalID: 4589876454359150681
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625c7f6ef71886ff908a8c8656d70201
+      internalID: 4043655710420218195
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03bfae9347e296548be804d165d67982
+      internalID: 1211085115917038517
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa04444920f8854e2eeadb628cec836c
+      internalID: -3272433437628798349
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e89a9183c7783b887322122840456f
+      internalID: 489082861073944729
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a13ef9c89a9bdab9a1c90b511189e46
+      internalID: -992790801524617730
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15ebe56f8c201677f76154b63f20da4
+      internalID: -2431463654101273080
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8deb8015453e50b47abce2fdf1a63ffa
+      internalID: -2852016896345981641
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73176a05e8be0b191e6d33f5dd8a2ed
+      internalID: 2036105208063438368
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e462343eaab01ebeddfe60e29276d6
+      internalID: -4213551802981371155
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1fc7536b64db2f2d9d249f96e469eb3
+      internalID: -4365235209263432529
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5274cf4685fded9f38ad161b3e5838
+      internalID: 3311178800898762306
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0909ddeeab4aa74f3cdd55b7ad28d69
+      internalID: 3880818870599280582
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb64a75f3cf3ca2edffea87410f57ad
+      internalID: -577276601608422891
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_16
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a0c47732b2183baef9c1784b9d68d03
+      internalID: 595357537511255845
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_17
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7a61dc389c8832f34fc700122cf88c
+      internalID: -3987740447375198944
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_18
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca6de83ec5f032085f447d47edb1826
+      internalID: 1103675041693586130
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_19
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d3c8447416c3d6a7a05d0b76f05fd2
+      internalID: 16220750803644878
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_20
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e7266aaacb7c363d87cde145b2a1ce
+      internalID: -3978105750307327412
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_21
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5092c94dbe475be12249f892d39c86a
+      internalID: 1662197753779113166
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_22
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e21f1e8db3e535855c253835a139228
+      internalID: 227071960360115161
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_23
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8108d9adb5b188420065d98518dc09c
+      internalID: 1242670612246867900
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_24
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce02565f1c27c633535bb504e60e4fda
+      internalID: -2039112176590400331
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_25
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ea954a1a521acde7e4243deb5735f0
+      internalID: 51801048417415603
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_26
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b85c304e785a6d245bbf37ea5f5af73e
+      internalID: -1308088328513827501
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_27
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59552588ce8a0593c0d70c9f0db9f20b
+      internalID: 1697255438333346557
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_28
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3637652283a8221d2fc6846f202cef4
+      internalID: -1640012912014775326
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4_cr_bossdoor_29
+      rect:
+        serializedVersion: 2
+        x: 3712
+        y: 0
+        width: 128
+        height: 96
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089871f260e1789744fa3ab9317c03b9
+      internalID: 4105008477255089803
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      m4_cr_bossdoor_0: -1124666460526442097
+      m4_cr_bossdoor_1: 1090067488822865099
+      m4_cr_bossdoor_2: 4589876454359150681
+      m4_cr_bossdoor_3: 4043655710420218195
+      m4_cr_bossdoor_4: 1211085115917038517
+      m4_cr_bossdoor_5: -3272433437628798349
+      m4_cr_bossdoor_6: 489082861073944729
+      m4_cr_bossdoor_7: -992790801524617730
+      m4_cr_bossdoor_8: -2431463654101273080
+      m4_cr_bossdoor_9: -2852016896345981641
+      m4_cr_bossdoor_10: 2036105208063438368
+      m4_cr_bossdoor_11: -4213551802981371155
+      m4_cr_bossdoor_12: -4365235209263432529
+      m4_cr_bossdoor_13: 3311178800898762306
+      m4_cr_bossdoor_14: 3880818870599280582
+      m4_cr_bossdoor_15: -577276601608422891
+      m4_cr_bossdoor_16: 595357537511255845
+      m4_cr_bossdoor_17: -3987740447375198944
+      m4_cr_bossdoor_18: 1103675041693586130
+      m4_cr_bossdoor_19: 16220750803644878
+      m4_cr_bossdoor_20: -3978105750307327412
+      m4_cr_bossdoor_21: 1662197753779113166
+      m4_cr_bossdoor_22: 227071960360115161
+      m4_cr_bossdoor_23: 1242670612246867900
+      m4_cr_bossdoor_24: -2039112176590400331
+      m4_cr_bossdoor_25: 51801048417415603
+      m4_cr_bossdoor_26: -1308088328513827501
+      m4_cr_bossdoor_27: 1697255438333346557
+      m4_cr_bossdoor_28: -1640012912014775326
+      m4_cr_bossdoor_29: 4105008477255089803
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

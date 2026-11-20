@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="18" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="34" nextobjectid="5254">
+ <properties>
+  <property name="flag_group" value="vale_of_graves"/>
+ </properties>
+ <tileset firstgid="1" source="../Tilesets/Terrain - cemetery.tsx"/>
+ <tileset firstgid="3088" source="../Tilesets/wall 1.tsx"/>
+ <tileset firstgid="3328" source="../Tilesets/hole - transparency.tsx"/>
+ <tileset firstgid="3568" source="../Tilesets/fences.tsx"/>
+ <tileset firstgid="3652" source="../Tilesets/stone fences.tsx"/>
+ <tileset firstgid="3684" source="../Tilesets/atlas-props-sprites.tsx"/>
+ <tileset firstgid="4648" source="../Tilesets/SR-cemetery-extra.tsx"/>
+ <tileset firstgid="4741" source="../Tilesets/SR-ichor.tsx"/>
+ <tileset firstgid="4805" source="../Tilesets/SR-anim-animated-environment-particles-fx-160x96.tsx"/>
+ <tileset firstgid="4817" source="../Tilesets/SR-animT-crow-animated-crow-for-the-environment-idle1.tsx"/>
+ <tileset firstgid="4832" source="../Tilesets/SR-animT-crow-animated-crow-for-the-environment-idle3.tsx"/>
+ <tileset firstgid="4848" source="../Tilesets/SR-animT-crow-animated-crow-for-the-environment-idle2.tsx"/>
+ <tileset firstgid="4873" source="../Tilesets/SR-animT-animated-cypt9-entrance-glow-animation-160x280.tsx"/>
+ <tileset firstgid="4889" source="../Tilesets/SR-props-trimmed.tsx"/>
+ <tileset firstgid="4987" source="../Tilesets/SR-relic-crimson.tsx"/>
+ <layer id="1" name="ground" width="18" height="15">
+  <properties>
+   <property name="unity:SortingOrder" type="int" value="-20"/>
+  </properties>
+  <data encoding="csv">
+530,530,481,530,530,530,530,530,530,530,530,531,530,530,529,481,481,530,
+530,530,579,531,530,530,530,530,530,530,530,579,531,530,530,530,481,530,
+530,530,530,481,530,530,530,530,530,530,530,481,530,530,530,530,531,579,
+530,530,530,530,530,530,530,530,579,530,530,481,530,531,579,530,530,531,
+530,481,530,529,481,530,530,530,530,530,530,530,530,530,530,529,531,530,
+530,530,530,530,530,530,530,530,530,529,530,530,531,529,530,530,481,530,
+531,530,530,530,531,530,530,529,530,530,530,530,530,529,530,530,530,529,
+530,531,530,481,531,530,579,529,530,530,579,530,481,530,530,530,530,530,
+481,530,530,530,530,530,530,531,530,579,530,579,530,530,530,530,530,530,
+529,530,530,530,530,529,530,579,530,530,530,530,530,530,530,530,530,530,
+530,530,530,530,530,530,530,481,530,530,530,531,530,530,481,530,530,530,
+530,531,530,530,530,530,531,530,530,530,530,481,530,481,529,530,530,579,
+481,531,530,530,481,530,531,530,530,530,529,530,530,530,530,530,530,530,
+530,530,530,530,530,530,530,530,530,530,529,529,529,531,529,530,530,530,
+530,530,531,481,529,530,530,530,530,530,531,530,530,530,530,481,530,530
+</data>
+ </layer>
+ <layer id="2" name="rocky" width="18" height="15">
+  <data encoding="csv">
+536,535,536,536,536,536,536,536,536,536,536,536,536,535,536,536,536,585,
+536,536,536,536,536,536,536,585,585,536,536,536,536,537,536,535,536,536,
+536,537,536,536,536,536,537,487,535,536,536,537,536,536,536,536,536,585,
+487,536,535,536,536,536,536,536,536,536,536,536,536,535,585,536,536,536,
+585,536,536,535,536,536,536,536,536,536,536,536,537,536,536,585,536,536,
+536,536,536,536,536,536,487,585,536,537,537,536,536,536,536,536,536,487,
+537,536,536,536,536,536,536,535,536,585,536,536,536,536,536,536,487,536,
+536,536,536,536,536,487,536,537,536,536,536,536,537,536,536,536,536,585,
+585,536,536,536,585,585,536,487,536,536,537,536,536,537,536,536,536,537,
+536,536,487,537,536,536,487,487,536,535,536,536,487,537,536,536,536,536,
+536,536,487,536,585,536,536,585,535,585,487,536,487,536,536,536,536,585,
+487,536,585,536,536,536,585,585,536,536,536,536,536,536,536,536,536,536,
+536,536,536,536,536,535,536,536,535,536,536,585,536,487,536,536,535,536,
+536,537,536,585,536,536,536,536,536,536,536,585,487,536,585,536,536,536,
+536,487,536,487,536,536,536,536,537,536,536,536,536,536,535,536,536,536
+</data>
+ </layer>
+ <layer id="3" name="dirt2" width="18" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,719,720,720,720,771,0,0,0,0,0,0,0,0,0,0,0,
+0,0,2140,817,769,818,820,0,0,0,0,0,0,0,0,0,0,0,
+0,0,915,916,916,916,869,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,767,2041,771,0,0,0,0,0,719,720,771,0,0,0,0,0,
+0,0,816,868,869,0,0,0,0,767,768,818,770,721,0,0,0,0,
+0,0,865,869,0,0,0,0,0,915,866,818,868,917,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,915,916,917,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="grass2" width="18" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="grass1" width="18" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+179,1798,1798,132,1797,132,1796,183,0,0,0,131,183,0,131,133,0,0,
+327,1847,1845,1846,1845,1847,328,329,0,0,0,277,329,0,277,329,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+131,133,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+327,329,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+131,133,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+228,232,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1894,1944,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+277,281,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="leaves" width="18" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="7" name="stone2" width="18" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,1013,2381,2380,2381,2381,2380,1014,1015,0,0,0,0,0,
+0,0,0,0,0,2478,1111,1112,1112,1063,1112,1111,2528,0,0,0,0,0,
+0,0,0,0,0,2478,1112,1112,1063,1113,1112,1063,1064,1065,0,0,0,0,
+0,0,0,0,0,1159,1210,2429,2430,1210,1210,2431,1160,2527,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,1209,1211,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="8" name="stone" width="18" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+2377,2375,732,783,0,0,0,0,0,0,0,0,0,0,0,0,0,779,
+830,778,830,782,2375,2375,732,2375,2376,2377,2377,2377,2377,2377,2377,2375,2376,780,
+830,829,829,778,781,830,830,830,830,784,830,831,830,879,876,830,830,827,
+876,830,781,882,781,829,830,830,830,833,781,830,830,830,735,829,830,880,
+827,831,830,830,829,829,830,729,827,831,781,876,781,830,830,882,830,2522,
+878,830,833,830,729,830,876,830,830,830,827,830,735,830,781,830,830,832,
+2474,830,830,830,781,781,827,830,833,830,827,833,830,876,876,830,781,2524,
+780,830,831,827,830,830,831,830,830,784,778,829,876,831,778,830,829,2522,
+833,781,879,830,781,781,830,781,781,829,830,830,784,784,830,781,830,2523,
+784,830,778,781,829,829,830,829,827,781,829,729,876,784,829,830,830,2522,
+830,829,831,879,778,876,781,830,830,831,829,879,829,830,876,831,781,2523,
+878,829,829,827,879,781,830,882,781,781,830,830,781,829,879,781,830,2522,
+2475,830,830,830,830,830,829,781,830,735,781,781,879,830,830,729,830,2523,
+927,928,2426,878,781,829,781,735,876,830,830,833,781,880,928,2425,928,881
+</data>
+ </layer>
+ <layer id="9" name="stone detail" width="18" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="10" name="ichor" width="18" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="11" name="walls" width="18" height="15">
+  <data encoding="csv">
+3297,3234,3232,3236,3232,3233,3236,3232,3154,3240,3236,3233,3244,3232,3232,3235,3233,3137,
+3130,3250,3248,3252,3248,3249,3252,3248,3170,3256,3252,3249,3260,3248,3248,3251,3249,3129,
+3124,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3120,
+3299,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3120,
+3283,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3298,
+3315,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3282,
+3124,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3298,
+3315,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3282,
+3124,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3298,
+3283,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3120,
+3124,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3282,
+3315,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3120,
+3283,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3282,
+3124,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3298,
+3107,3284,3284,3090,3090,3316,3090,3316,3316,3090,3090,3316,3316,3284,3300,3090,3090,3105
+</data>
+ </layer>
+ <layer id="12" name="plat stone" width="18" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="13" name="walls hi" width="18" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="14" name="walls top" width="18" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="15" name="holes" width="18" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="16" name="stairs" width="18" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="17" name="ichor fall" width="18" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="18" name="fences" width="18" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="19" name="stone fences" width="18" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="20" name="tree shadows">
+  <properties>
+   <property name="unity:SortingOrder" type="int" value="-6"/>
+  </properties>
+ </objectgroup>
+ <objectgroup id="21" name="ground decals">
+  <properties>
+   <property name="unity:SortingOrder" type="int" value="-5"/>
+  </properties>
+  <object id="256" gid="3924" x="92.8" y="172.8" width="32" height="32"/>
+  <object id="257" gid="3940" x="128" y="172.8" width="32" height="32"/>
+  <object id="258" gid="3935" x="163.2" y="172.8" width="32" height="32"/>
+  <object id="259" gid="3928" x="110.4" y="188.8" width="32" height="32"/>
+  <object id="260" gid="3934" x="145.6" y="188.8" width="32" height="32"/>
+  <object id="261" gid="4694" x="60.8" y="211.2" width="32" height="32"/>
+  <object id="262" gid="4696" x="412.8" y="211.2" width="32" height="32"/>
+  <object id="263" gid="4713" x="316.8" y="243.2" width="64" height="96"/>
+  <object id="264" gid="4703" x="176" y="256" width="32" height="32"/>
+  <object id="265" gid="4695" x="67.2" y="268.8" width="32" height="32"/>
+  <object id="266" gid="4697" x="457.6" y="288" width="32" height="32"/>
+  <object id="267" gid="4704" x="208" y="345.6" width="32" height="32"/>
+  <object id="268" gid="4701" x="355.2" y="390.4" width="32" height="32"/>
+  <object id="269" gid="4696" x="105.6" y="396.8" width="32" height="32"/>
+  <object id="270" gid="4692" x="476.8" y="409.6" width="32" height="32"/>
+  <object id="271" gid="4694" x="252.8" y="416" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="22" name="props">
+  <properties>
+   <property name="unity:SortingOrder" type="int" value="2"/>
+  </properties>
+  <object id="3720" gid="4978" x="80" y="65.4" width="32" height="27"/>
+  <object id="3721" gid="4978" x="464" y="65.4" width="32" height="27"/>
+  <object id="3755" gid="4675" x="141" y="108.8" width="6" height="64"/>
+  <object id="3781" gid="4979" x="54.4" y="137.2" width="32" height="22"/>
+  <object id="3782" gid="4715" x="147.2" y="147.2" width="64" height="96"/>
+  <object id="3783" gid="4716" x="364.8" y="147.2" width="64" height="96"/>
+  <object id="3795" gid="4980" x="489.6" y="143.6" width="32" height="22"/>
+  <object id="3809" gid="4981" x="201.6" y="156" width="64" height="60"/>
+  <object id="3810" gid="4981" x="310.4" y="156" width="64" height="60"/>
+  <object id="3852" gid="4982" x="256" y="199.8" width="64" height="91"/>
+  <object id="3865" gid="4714" x="480" y="224" width="64" height="64"/>
+  <object id="4036" gid="4983" x="483.2" y="413.4" width="32" height="23"/>
+  <object id="4047" gid="4984" x="48" y="420.8" width="32" height="24"/>
+ </objectgroup>
+ <objectgroup id="23" name="props front">
+  <properties>
+   <property name="unity:SortingOrder" type="int" value="2"/>
+  </properties>
+ </objectgroup>
+ <objectgroup id="24" name="ambient fx">
+  <properties>
+   <property name="unity:SortingOrder" type="int" value="10"/>
+  </properties>
+ </objectgroup>
+ <objectgroup id="25" name="zones" opacity="0.35">
+  <properties>
+   <property name="unity:IsTrigger" type="bool" value="true"/>
+  </properties>
+  <object id="4426" name="x2" type="zone" x="0" y="32" width="576" height="448">
+   <properties>
+    <property name="ambient" value="0.2"/>
+    <property name="ambient_color" value="#8a96c0"/>
+    <property name="ambient_fight" value="0.17"/>
+    <property name="fog" value="off"/>
+    <property name="hint_text" value=""/>
+    <property name="optional" type="bool" value="true"/>
+    <property name="title" value="King's Barrow"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="zone_id" value="x2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="26" name="spawns">
+  <object id="4481" name="Undead" type="spawn" x="96" y="288">
+   <properties>
+    <property name="enemy" value="Undead"/>
+    <property name="wave" type="int" value="1"/>
+    <property name="zone_id" value="x2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="4482" name="Undead" type="spawn" x="448" y="320">
+   <properties>
+    <property name="enemy" value="Undead"/>
+    <property name="wave" type="int" value="1"/>
+    <property name="zone_id" value="x2"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="27" name="triggers" opacity="0.35">
+  <properties>
+   <property name="unity:IsTrigger" type="bool" value="true"/>
+  </properties>
+  <object id="4512" name="kings_relic" type="pickup" x="384" y="256" width="64" height="64">
+   <properties>
+    <property name="flag" value="f_upgrade_burn"/>
+    <property name="hint_text" value="The King's Censer. Earthshatter now burns away a wider pool of tainted Ether."/>
+    <property name="item" value="flag"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="zone_id" value="x2"/>
+   </properties>
+  </object>
+  <object id="4513" name="x2_climb" type="exit" x="102.4" y="147.2" width="83.2" height="32">
+   <properties>
+    <property name="arrive_at" value="118.5,66.5"/>
+    <property name="arrive_subtitle" value="The Vale of Graves"/>
+    <property name="arrive_title" value="The Sinking Fields"/>
+    <property name="depart_text" value="You climb back up to the Sinking Fields."/>
+    <property name="interact" type="bool" value="true"/>
+    <property name="locked_text" value="The rope is out of reach. Pull it down first."/>
+    <property name="quake" type="bool" value="false"/>
+    <property name="requires" value="x2_rope"/>
+    <property name="target" value="map3_vale_of_graves"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="verb" value="Climb up"/>
+   </properties>
+  </object>
+  <object id="5251" name="player_start" type="player_start" x="304" y="320" width="32" height="32">
+   <properties>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="zone_id" value="x2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="28" name="gates">
+  <properties>
+   <property name="unity:SortingOrder" type="int" value="2"/>
+  </properties>
+ </objectgroup>
+ <objectgroup id="29" name="obstacle colliders" opacity="0.35">
+  <object id="4793" name="SR crypt statue with support 3" type="obstacle" x="165" y="133" width="29" height="13">
+   <properties>
+    <property name="collider_kind" value="prop"/>
+   </properties>
+  </object>
+  <object id="4794" name="SR crypt statue with support 6" type="obstacle" x="382" y="133" width="29" height="13">
+   <properties>
+    <property name="collider_kind" value="prop"/>
+   </properties>
+  </object>
+  <object id="4795" name="SR crypt coffin - vertical - 1" type="obstacle" x="272" y="176" width="32" height="22">
+   <properties>
+    <property name="collider_kind" value="prop"/>
+   </properties>
+  </object>
+  <object id="4796" name="SR crypt candelabrum 1" type="obstacle" x="229" y="150" width="10" height="6">
+   <properties>
+    <property name="collider_kind" value="prop"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="4797" name="SR crypt candelabrum 1" type="obstacle" x="338" y="150" width="10" height="6">
+   <properties>
+    <property name="collider_kind" value="prop"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="4798" name="SR crypt vase color scheme 1 - 1" type="obstacle" x="64.4" y="131.2" width="10" height="6">
+   <properties>
+    <property name="collider_kind" value="prop"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="4799" name="SR crypt vase color scheme 1 - 4" type="obstacle" x="501" y="137" width="10" height="6">
+   <properties>
+    <property name="collider_kind" value="prop"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="4800" name="SR crypt cross with support 4" type="obstacle" x="499" y="210" width="26" height="13">
+   <properties>
+    <property name="collider_kind" value="prop"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="30" name="water colliders" opacity="0.35">
+  <properties>
+   <property name="unity:layer" value="Water"/>
+  </properties>
+ </objectgroup>
+ <objectgroup id="31" name="blockers" opacity="0.35">
+  <object id="5145" name="blocker" type="blocker" x="544" y="416" width="32" height="32">
+   <properties>
+    <property name="collider_kind" value="terrain"/>
+   </properties>
+  </object>
+  <object id="5147" name="blocker" type="blocker" x="0" y="0" width="576" height="96">
+   <properties>
+    <property name="collider_kind" value="terrain"/>
+   </properties>
+  </object>
+  <object id="5148" name="blocker" type="blocker" x="0" y="96" width="32" height="96">
+   <properties>
+    <property name="collider_kind" value="terrain"/>
+   </properties>
+  </object>
+  <object id="5149" name="blocker" type="blocker" x="0" y="288" width="32" height="64">
+   <properties>
+    <property name="collider_kind" value="terrain"/>
+   </properties>
+  </object>
+  <object id="5150" name="blocker" type="blocker" x="544" y="96" width="32" height="320">
+   <properties>
+    <property name="collider_kind" value="terrain"/>
+   </properties>
+  </object>
+  <object id="5151" name="blocker" type="blocker" x="0" y="192" width="32" height="96">
+   <properties>
+    <property name="collider_kind" value="terrain"/>
+   </properties>
+  </object>
+  <object id="5152" name="blocker" type="blocker" x="0" y="352" width="32" height="96">
+   <properties>
+    <property name="collider_kind" value="terrain"/>
+   </properties>
+  </object>
+  <object id="5153" name="blocker" type="blocker" x="0" y="448" width="576" height="32">
+   <properties>
+    <property name="collider_kind" value="terrain"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="32" name="map bounds" opacity="0.35">
+  <object id="5159" name="map_bound" type="bound" x="-32" y="-32" width="640" height="32">
+   <properties>
+    <property name="collider_kind" value="bound"/>
+   </properties>
+  </object>
+  <object id="5160" name="map_bound" type="bound" x="-32" y="480" width="640" height="32">
+   <properties>
+    <property name="collider_kind" value="bound"/>
+   </properties>
+  </object>
+  <object id="5161" name="map_bound" type="bound" x="-32" y="0" width="32" height="480">
+   <properties>
+    <property name="collider_kind" value="bound"/>
+   </properties>
+  </object>
+  <object id="5162" name="map_bound" type="bound" x="576" y="0" width="32" height="480">
+   <properties>
+    <property name="collider_kind" value="bound"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="33" name="mechanics" opacity="0.35">
+  <object id="5253" name="barrow_oath_glow" type="light" x="280" y="152" width="32" height="32">
+    <properties>
+     <property name="anim" value="pulse"/>
+     <property name="anim_amount" type="float" value="0.22"/>
+     <property name="anim_speed" type="float" value="0.4"/>
+     <property name="color" value="#ff6a5a"/>
+     <property name="intensity" type="float" value="0.75"/>
+     <property name="light" value="torch"/>
+     <property name="mechanic" value="light"/>
+     <property name="off_when" value="oath_taken"/>
+     <property name="radius" type="float" value="2.2"/>
+     <property name="unity:IsTrigger" type="bool" value="true"/>
+    </properties>
+  </object>
+  <object id="5252" name="barrow_oath" type="note" gid="4987" x="270" y="193.6" width="36" height="56">
+    <properties>
+     <property name="key_got" value="Crimson Oath. It drinks what it cuts, and it answers hardest when there is little left of you."/>
+     <property name="mechanic" value="note"/>
+     <property name="pickup" type="bool" value="true"/>
+     <property name="range" type="float" value="1.4"/>
+     <property name="sets" value="oath_taken"/>
+     <property name="text" value="He drank the most, and he drowned the first.\n\nA boy from a poor village in the east swore this blade to a broken kingdom, and made it whole. Then the field of six hundred thousand woke something, and the blade drank the rest of the war for him.\n\nThe Ascended's light burned it out of him. He walked into these marshes and did not walk out. No one ever found the body; no one was meant to. His hands are still folded over the hilt."/>
+     <property name="title" value="The Purified King"/>
+     <property name="unity:IsTrigger" type="bool" value="true"/>
+     <property name="verb" value="Take the blade"/>
+     <property name="weapon_id" value="katana_crimson"/>
+    <property name="sort_at" value="9.0,6.3"/>
+   </properties>
+  </object>
+  <properties>
+   <property name="unity:IsTrigger" type="bool" value="true"/>
+  </properties>
+  <object id="5205" name="x2_candle_123" type="light" x="218" y="112" width="32" height="32">
+   <properties>
+    <property name="anim" value="flicker"/>
+    <property name="anim_amount" value="0.2"/>
+    <property name="color" value="#ffb45a"/>
+    <property name="light" value="torch"/>
+    <property name="mechanic" value="light"/>
+    <property name="radius" value="2.5"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="5206" name="x2_candle_157" type="light" x="326" y="112" width="32" height="32">
+   <properties>
+    <property name="anim" value="flicker"/>
+    <property name="anim_amount" value="0.2"/>
+    <property name="color" value="#ffb45a"/>
+    <property name="light" value="torch"/>
+    <property name="mechanic" value="light"/>
+    <property name="radius" value="2.5"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="5207" name="x2_torch_8" type="light" x="80" y="67" width="32" height="32">
+   <properties>
+    <property name="anim" value="flicker"/>
+    <property name="anim_amount" value="0.25"/>
+    <property name="color" value="#ff9a4a"/>
+    <property name="light" value="torch"/>
+    <property name="mechanic" value="light"/>
+    <property name="radius" value="3.5"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="5208" name="x2_torch_20" type="light" x="464" y="67" width="32" height="32">
+   <properties>
+    <property name="anim" value="flicker"/>
+    <property name="anim_amount" value="0.25"/>
+    <property name="color" value="#ff9a4a"/>
+    <property name="light" value="torch"/>
+    <property name="mechanic" value="light"/>
+    <property name="radius" value="3.5"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="5209" name="x2_light" type="light" x="272" y="240" width="32" height="32">
+   <properties>
+    <property name="color" value="#ffd27a"/>
+    <property name="light" value="torch"/>
+    <property name="mechanic" value="light"/>
+    <property name="radius" type="int" value="4"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="5210" name="x2_shaft" type="light" x="128" y="112" width="32" height="32">
+   <properties>
+    <property name="anim" value="pulse"/>
+    <property name="anim_amount" value="0.12"/>
+    <property name="color" value="#9ab0e8"/>
+    <property name="light" value="torch"/>
+    <property name="mechanic" value="light"/>
+    <property name="radius" type="int" value="3"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="5211" name="x2_rope_lever" type="lever" x="115" y="96" width="58" height="51">
+   <properties>
+    <property name="hint" value="A frayed rope hangs from the rim above."/>
+    <property name="mechanic" value="lever"/>
+    <property name="sets" value="x2_rope"/>
+    <property name="text" value="You haul the rope down. A way back up."/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="verb" value="Pull rope"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

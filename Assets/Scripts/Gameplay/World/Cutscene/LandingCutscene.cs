@@ -114,6 +114,7 @@ namespace SoulRequiem.Gameplay
             if (ghost != null) Destroy(ghost.gameObject);
             ShowRen();
             CameraFollow.KickMain(Vector2.down, 0.12f, 0.3f);
+            SoulRequiem.Core.Sfx.Play2D("rock_crash"); // 19/11 (§337): âm
             for (int i = 0; i < 6; i++)
             {
                 float a = i / 6f * Mathf.PI * 2f + Random.Range(-0.3f, 0.3f);
@@ -170,6 +171,8 @@ namespace SoulRequiem.Gameplay
                 if (col != null) col.enabled = true;
             }
             CameraFollow.KickMain(Vector2.down, 0.17f, 0.45f);
+            SoulRequiem.Core.Sfx.Play2D("rock_crash"); // 19/11 (§337): âm
+            SoulRequiem.Core.Sfx.Play2D("rock_fall");
             for (int i = 0; i < 12; i++)
             {
                 float a = i / 12f * Mathf.PI * 2f + Random.Range(-0.2f, 0.2f);
@@ -245,9 +248,10 @@ namespace SoulRequiem.Gameplay
             sr.color = RubbleTint;
             if (psr != null) sr.sharedMaterial = psr.sharedMaterial;
             sr.sortingLayerID = layer; sr.sortingOrder = order;       // cùng lớp nhân vật: đứng phía bắc đống đá thì bị che
-            var box = go.AddComponent<BoxCollider2D>();                 // chân đống đá chặn đường (không có Rigidbody -> tĩnh)
-            box.size = new Vector2(0.7f, 0.2f);
-            box.offset = new Vector2(0f, -0.08f);
+            var col = go.AddComponent<CapsuleCollider2D>();             // chân đống đá chặn đường (không có Rigidbody -> tĩnh)
+            col.direction = CapsuleDirection2D.Horizontal;             // §303: đống đá tròn -> capsule ngang, trượt quanh không kẹt góc
+            col.size = new Vector2(0.7f, 0.2f);
+            col.offset = new Vector2(0f, -0.08f);
             return sr;
         }
 
@@ -308,6 +312,7 @@ namespace SoulRequiem.Gameplay
         private SpriteRenderer NewBit(int sortOrder)
         {
             var sr = new GameObject("Landing Pebble").AddComponent<SpriteRenderer>();
+            SoulRequiem.Core.Sfx.Play2D("rock_fall", 0.6f); // 19/11 (§337): âm
             sr.sprite = pebbles[Random.Range(0, pebbles.Count)];
             sr.flipX = Random.value < 0.5f;
             sr.color = PebbleTint;

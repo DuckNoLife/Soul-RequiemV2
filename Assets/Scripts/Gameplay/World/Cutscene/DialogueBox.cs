@@ -36,6 +36,7 @@ namespace SoulRequiem.Gameplay
 
         internal static void Next()
         {
+            if (Speaker.Length > 0) SoulRequiem.Core.Sfx.Play2D("dialog_next");   // 17/11 (§294): âm; lời kể đã có tiếng lật trang (DialogueVoice) // 19/11 (§336)
             if (!LineDone) { Shown = Line.Length; return; }
             if (HasMore) { Index++; Shown = 0; return; }
             Close();

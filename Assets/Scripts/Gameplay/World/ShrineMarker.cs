@@ -86,7 +86,8 @@ namespace SoulRequiem.Gameplay
         {
             if (lit) return;
             lit = true;
-            var fx = SpriteVfx.Spawn("m3_heal_lantern", transform.position + new Vector3(0f, -0.1f, 0f), 1.1f, layer, 40, false, 14f);
+            SoulRequiem.Core.Sfx.Play("checkpoint", transform.position);   // 17/11 (§294): âm
+            var fx = SpriteVfx.Spawn("m3_heal_lantern", transform.position + new Vector3(0f, -0.1f, 0f), 1.1f, layer, 40, false, 14f, false);   // 19/11 (§339): đã có âm "checkpoint" ở trên
             if (fx != null) fx.Tint(new Color(0.6f, 0.9f, 1f, 1f));
         }
 
@@ -99,7 +100,7 @@ namespace SoulRequiem.Gameplay
             {
                 nextSpark = Time.time + Random.Range(0.35f, 0.7f);
                 var s = SpriteVfx.Spawn("m3_hymn_pop", transform.position + new Vector3(Random.Range(-0.12f, 0.12f), Random.Range(0.05f, 0.25f), 0f),
-                                        0.25f, layer, order, false, 12f);
+                                        0.25f, layer, order, false, 12f, false);   // 19/11 (§339): tia lửa trang trí — IM (trước đây kêu "hymn_pop" 2–3 lần / giây)
                 if (s != null) s.Tint(lit ? new Color(0.6f, 0.95f, 1f, 0.9f) : new Color(1f, 0.8f, 0.45f, 0.9f));
             }
         }

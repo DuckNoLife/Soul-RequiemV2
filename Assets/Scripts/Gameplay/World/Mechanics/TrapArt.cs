@@ -76,5 +76,14 @@ namespace SoulRequiem.Gameplay
             try { ctx.HurtPlayer(amount, dir, knock); }
             finally { Health.IncomingRanged = false; }
         }
+
+        /// <summary>16/11 (§284): bẫy CƠ KHÍ (gai sàn, trụ lăn, lưỡi cưa, phụt nước) — như HurtPlayer nhưng lăn không né được
+        /// (bất tử khi lăn bị bỏ qua; khiên / cảnh diễn vẫn chặn). Tên bắn vẫn dùng HurtPlayer (lăn né tên là hợp lý).</summary>
+        public static void HurtPlayerCrush(MechanismContext ctx, float amount, Vector2 dir, float knock)
+        {
+            Health.IncomingRanged = true; Health.TrapIgnoresRoll = true;
+            try { ctx.HurtPlayer(amount, dir, knock); }
+            finally { Health.IncomingRanged = false; Health.TrapIgnoresRoll = false; }
+        }
     }
 }

@@ -16,7 +16,7 @@ MonoBehaviour:
   displayName: Ronin's Katana
   description: Ren's old blade. Plain steel, an iron guard, a wrap gone soft with years of rain.
   epithet: Ren's own blade - no smith's name on the tang
-  lore: "No signature on the tang, no house crest on the guard. A travelling smith in a market town hammered it out in four days and took payment in coin, not in oaths.\n\nRen has carried it through eleven winters of contract work. The wrap has been replaced twice, the saya once. Nothing about it is remarkable, and that is the whole of its worth: it has never asked him what his name is, and it has never once failed to come out of the scabbard."
+  lore: "No signature on the tang, no house crest on the guard. Old Corwen bought it from a travelling smith in a market town and put it in Ren's hands the winter Ren turned twelve, with one rule: draw it for other people.\n\nThe wrap has been replaced twice, the saya once. Nothing about it is remarkable, and that is the whole of its worth: it has never asked him what his name is, and it has never once failed to come out of the scabbard."
   foundAt: Carried in from Greystone Plains
   icon: {fileID: 0}
   showcase: {fileID: 21300000, guid: a07a5d6c15a545429347f27c3b7f75dd, type: 3}

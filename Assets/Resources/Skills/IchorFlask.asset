@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: IchorFlask
   m_EditorClassIdentifier: 
   id: ichor_flask
-  displayName: Ichor Flask
-  description: 'Lob a flask of raw Ichor. It bursts, then pools for four seconds: foes inside burn and are Corroded, taking 20% more damage. Creatures born of Ichor shrug off the corrosion.'
+  displayName: Blight Flask
+  description: 'Lob a flask of raw Ether. It bursts, then pools for four seconds: foes inside burn and are Corroded, taking 20% more damage. Creatures born of Ether shrug off the corrosion.'
   icon: {fileID: 0}
   iconName: ic_mantra_flask
   accent: {r: 0.72, g: 0.95, b: 0.3, a: 1}

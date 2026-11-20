@@ -39,6 +39,9 @@ namespace SoulRequiem.UI
             dim = new VisualElement();
             dim.AddToClassList("sr-fill"); dim.AddToClassList("sr-dim");
             layer.Add(dim);
+            layer.RegisterCallback<NavigationMoveEvent>(_ => SoulRequiem.Core.Sfx.Play2D("ui_move"), TrickleDown.TrickleDown);   // 17/11 (§294): âm
+            layer.RegisterCallback<NavigationSubmitEvent>(_ => SoulRequiem.Core.Sfx.Play2D("ui_confirm"), TrickleDown.TrickleDown);
+            layer.RegisterCallback<ClickEvent>(_ => SoulRequiem.Core.Sfx.Play2D("ui_confirm"), TrickleDown.TrickleDown);
             var pc = FindFirstObjectByType<PlayerController>();
             if (pc != null) { hp = pc.GetComponent<Health>(); loadout = pc.GetComponent<PlayerLoadout>(); }
             BuildDeath(ui.Fx);
@@ -66,6 +69,14 @@ namespace SoulRequiem.UI
                 if (stack.Count == 0 && !GameInput.Blocked) { Push(BuildInventory()); return; }
                 if (stack.Count > 0 && inventoryPanel != null && stack[stack.Count - 1] == inventoryPanel) { Pop(); return; }
             }
+            // 18/11 (§329): phím L (tay cầm R3) mở / đóng bảng lắp Mantra ở BẤT CỨ ĐÂU (bỏ điều kiện phải đứng ở điểm nghỉ).
+            // Mở bảng = dừng thời gian như túi đồ. Không mở khi đang diễn cảnh / hội thoại / đọc bảng; Mantra bị phong theo map -> báo chữ.
+            if (GameInput.PressedRaw(GameAction.Mantras) && !dead && !MapMechanics.ConsoleActive && !MapMechanics.PanelOpen
+                && !CutsceneState.Active && !TutorialPrompt.Active && !DialogueBox.Active)
+            {
+                if (stack.Count == 0 && !GameInput.Blocked) { OpenMantras(); return; }
+                if (stack.Count > 0 && restPanel != null && stack[stack.Count - 1] == restPanel) { Pop(); return; }
+            }
             if (stack.Count > 0 && inventoryPanel != null && stack[stack.Count - 1] == inventoryPanel) InvTick();   // 11/11 (§221)
             if (stack.Count > 0 && restPanel != null && stack[stack.Count - 1] == restPanel)                       // 11/11 (§228)
             {
@@ -86,7 +97,8 @@ namespace SoulRequiem.UI
                 if (kit != null) kit.RefillPotions();
                 dir.SaveProgress();                                   // 02/11: nghỉ = lưu game
                 Hints.Show("You rest by the fire. Health and flasks restored - progress saved.", 3f);
-                Push(BuildRest());
+                pushSfx = "rest"; // 19/11 (§335): âm — nghỉ ở lửa trại / nến thật
+                Push(BuildRest(true));
             }
             UpdateDeath(dead);
         }
@@ -106,11 +118,16 @@ namespace SoulRequiem.UI
             GameInput.MenuOpen = true;
             layer.Add(panel);
             FocusFirst(panel);
+            SoulRequiem.Core.Sfx.Play2D(pushSfx ?? (stack.Count <= 1 ? "ui_open" : "ui_confirm"));   // 17/11 (§294): âm
+            pushSfx = null;
         }
+
+        private string pushSfx;   // 19/11 (§335): âm riêng cho bảng sắp Push (null = mặc định)
 
         private void Pop()
         {
             if (stack.Count == 0) return;
+            SoulRequiem.Core.Sfx.Play2D("ui_back");   // 17/11 (§294): âm
             var top = stack[stack.Count - 1];
             stack.RemoveAt(stack.Count - 1);
             top.RemoveFromHierarchy();
@@ -159,16 +176,22 @@ namespace SoulRequiem.UI
             return c;
         }
 
+        /// <summary>18/11 (§329): mở bảng Mantra không cần điểm nghỉ (phím L / nút Mantras trong Pause). Mantra bị phong -> chỉ báo chữ.</summary>
+        private bool OpenMantras()
+        {
+            var st = hp != null ? PlayerStatus.Of(hp) : null;
+            if (st != null && st.MantrasBound) { Hints.Show(st.MantraSealText, 2.5f); return false; }
+            Push(BuildRest(false));
+            return true;
+        }
+
         // ------------------------------------------------------------------ PAUSE
         private VisualElement BuildPause()
         {
             var p = Panel("PAUSED", RequiemUI.Clean(MapEncounterDirector.Instance != null ? MapEncounterDirector.Instance.CurrentZoneTitle : ""), 520);
             p.Add(new SRButton("Resume", Pop));
             p.Add(new SRButton($"Inventory  ({GameInput.Label(GameAction.Inventory)})", () => Push(BuildInventory())));   // 04/11: túi đồ
-            bool shrine = MapEncounterDirector.Instance != null && MapEncounterDirector.Instance.AtCheckpoint;
-            var skills = new SRButton(shrine ? "Mantras" : $"Mantras  (rest at a {ShrineMarker.Noun})", () => Push(BuildRest()));
-            skills.SetEnabled(shrine);
-            p.Add(skills);
+            p.Add(new SRButton($"Mantras  ({GameInput.Label(GameAction.Mantras)})", () => OpenMantras()));   // 18/11 (§329): mọi nơi
             p.Add(new SRButton("Settings", () => Push(Center(BuildSettings(Pop)))));
             if (Application.CanStreamedLevelBeLoaded("Title"))
                 p.Add(new SRButton("Quit to Title", () => { CloseAll(); SceneManager.LoadScene("Title"); }));
@@ -229,7 +252,7 @@ namespace SoulRequiem.UI
             public string Name => weapon != null ? weapon.displayName : key.name;
             public Texture2D Icon => weapon != null
                 ? RequiemUI.Tex("weapon_" + weapon.id)
-                : (string.IsNullOrEmpty(key.icon) ? null : RequiemUI.Tex(key.icon));
+                : KeyIcon(key);
             public string Sub
             {
                 get
@@ -240,6 +263,17 @@ namespace SoulRequiem.UI
                     return key.kind == "Document" ? "" : (key.opens ?? "");
                 }
             }
+        }
+
+        /// <summary>19/11 (§342): ảnh đồ trong túi. Tiled không ghi `key_icon` (ghi chép 3b, thư Map 4, 2 ấn Map 4) hoặc ghi tên ảnh không có
+        /// -> ô ảnh trống trong túi / thẻ đọc. Nay dùng ảnh mặc định theo loại: tài liệu = item_note, dụng cụ = item_crank, chìa / ấn = key_seal.</summary>
+        private static Texture2D KeyIcon(KeyItem k)
+        {
+            if (k == null) return null;
+            var t = string.IsNullOrEmpty(k.icon) ? null : RequiemUI.Tex(k.icon);
+            if (t != null) return t;
+            string kind = k.kind ?? "";
+            return RequiemUI.Tex(kind == "Document" || !string.IsNullOrEmpty(k.text) ? "item_note" : kind == "Tool" ? "item_crank" : "key_seal");
         }
 
         // ---- tiện ích dựng
@@ -443,6 +477,7 @@ namespace SoulRequiem.UI
 
         private VisualElement BuildInventory()
         {
+            pushSfx = "bag_open"; // 19/11 (§335): âm — Push phát tiếng túi da thay cho tiếng mở sách
             var dir = MapEncounterDirector.Instance;
             var flags = dir != null ? dir.Flags : null;
             if (Array.IndexOf(InvTabs, invTab) < 0) invTab = "Weapon";
@@ -481,7 +516,7 @@ namespace SoulRequiem.UI
                 var kit = hp != null ? hp.GetComponent<PlayerCombat>() : null;
                 if (kit == null || w == null || kit.Weapon == w) return;
                 kit.Equip(w);
-                Hints.Show($"{w.displayName} - drawn.", 2.2f);
+                // 16/11 (§269): bỏ thông báo thừa — hình / hoạt ảnh / bảng tên boss đã thể hiện (bảng kiếm đã đổi)
                 rebuild();
             };
 
@@ -730,6 +765,47 @@ namespace SoulRequiem.UI
         }
 
         /// <summary>Hàng chỉ số: nhãn | 10 nấc (mốc CỐ ĐỊNH) | số | chênh lệch với thanh đang đeo.</summary>
+        /// <summary>16/11 (§259): hiệu ứng đặc biệt của thanh kiếm (nội tại) thành các dòng "TÊN — con số" cho bảng SPECIAL.
+        /// Thêm loại sát thương mới (đốt / chảy máu…) thì thêm nhánh ở đây.</summary>
+        private static List<KeyValuePair<string, string>> SpecialEffects(WeaponDefinition w)
+        {
+            var o = new List<KeyValuePair<string, string>>();
+            var t = w != null ? w.trait : null;
+            if (t == null || !t.Any) return o;
+            float dps = WeaponRing.Dps(w);
+            string P(float f) => Mathf.RoundToInt(f * 100f) + "%";
+            void Add(string k, string v) => o.Add(new KeyValuePair<string, string>(k, v));
+            switch (t.kind)
+            {
+                case WeaponTraitKind.Counterstroke: Add("FIRST CUT AFTER A ROLL", "+" + P(t.bonus)); break;
+                case WeaponTraitKind.Vigil: Add("DPS WHILE UNTOUCHED", (dps * (1f + t.bonus)).ToString("0")); break;
+                case WeaponTraitKind.BloodOath:
+                    Add("LIFESTEAL", P(t.leech) + " of damage");
+                    Add("DPS BELOW " + P(t.threshold) + " HEALTH", (dps * (1f + t.bonus)).ToString("0")); break;
+                case WeaponTraitKind.Iaijutsu: Add("DRAW CUT", "+" + P(t.bonus) + " to +" + P(Mathf.Max(t.bonus, t.bonusMax)) + ", stun " + t.threshold.ToString("0.#") + "s"); break;   // §273: tăng dần theo thời gian giữ
+                case WeaponTraitKind.LastStand: Add("DAMAGE TAKEN BELOW " + P(t.threshold), "-" + P(t.bonus)); break;
+                case WeaponTraitKind.Hunger:
+                    Add("HEAL ON KILL", P(t.leech) + " max health");
+                    Add("FLASK HEALING", "-" + P(t.bonus)); break;
+                case WeaponTraitKind.Accord:
+                    Add("FINISHER", "+" + P(t.bonus));
+                    Add("GUARD AFTER FINISHER", "-" + P(t.leech) + " for " + t.window.ToString("0.#") + "s"); break;
+                case WeaponTraitKind.Namebound: Add("MANTRA COOLDOWN", "-" + P(t.bonus)); break;
+                case WeaponTraitKind.Penance: Add("PER HIT TAKEN", "+" + P(t.bonus) + " (max " + Mathf.Max(1, Mathf.RoundToInt(t.threshold * 10f)) + ")"); break;
+            }
+            // 16/11 (§275): hiệu ứng lên quái
+            string when = t.statusOn == StatusTrigger.Finisher ? " (finisher)" : t.statusOn == StatusTrigger.WhileActive ? " (while lit)" : "";
+            switch (t.status)
+            {
+                case StatusKind.Bleed: Add("BLEED" + when, t.statusPower.ToString("0.#") + "/s per stack, " + t.statusSeconds.ToString("0.#") + "s, max " + t.statusStacks); break;
+                case StatusKind.Burn: Add("HOLY FIRE" + when, t.statusPower.ToString("0.#") + "/s for " + t.statusSeconds.ToString("0.#") + "s"); break;
+                case StatusKind.Bind: Add("ROOT BIND" + when, "slow " + P(t.statusPower) + " for " + t.statusSeconds.ToString("0.#") + "s"); break;
+                case StatusKind.Chill: Add("FROST" + when, "slow " + P(t.statusPower) + " for " + t.statusSeconds.ToString("0.#") + "s"); break;
+                case StatusKind.Mark: Add("BLOOD MARK" + when, t.statusSeconds.ToString("0.#") + "s - marked kills heal"); break;
+            }
+            return o;
+        }
+
         private static void StatRow(VisualElement parent, string label, float v, float cap, string shown, float? other, string fmt)
         {
             var row = Row(parent); row.style.alignItems = Align.Center; row.style.height = 30; row.style.flexShrink = 0;
@@ -796,38 +872,31 @@ namespace SoulRequiem.UI
             // --- 2. sức chiến
             var c2 = col(1f, true);
             Header(cmp != null ? $"ATTRIBUTES  -  vs {cmp.displayName}" : "ATTRIBUTES", c2);
-            StatRow(c2, "DAMAGE", WeaponRing.ComboDamage(w), 80f, WeaponRing.ComboDamage(w).ToString("0"),
-                cmp != null ? WeaponRing.ComboDamage(cmp) : (float?)null, "0");
+            // 16/11 (§259): sát thương = MỘT con số DPS (người chơi không cần sát thương từng nhát)
+            StatRow(c2, "DPS", WeaponRing.Dps(w), 45f, WeaponRing.Dps(w).ToString("0"),
+                cmp != null ? WeaponRing.Dps(cmp) : (float?)null, "0");
             StatRow(c2, "SPEED", WeaponRing.Rate(w), 2.2f, WeaponRing.Rate(w).ToString("0.0") + "/s",
                 cmp != null ? WeaponRing.Rate(cmp) : (float?)null, "0.0");
             StatRow(c2, "REACH", WeaponRing.Reach(w), 1.2f, WeaponRing.Reach(w).ToString("0.00"),
                 cmp != null ? WeaponRing.Reach(cmp) : (float?)null, "0.00");
             StatRow(c2, "STAGGER", WeaponRing.Impact(w), 5f, WeaponRing.Impact(w).ToString("0.0"),
                 cmp != null ? WeaponRing.Impact(cmp) : (float?)null, "0.0");
-            if (w.combo != null && w.combo.Length > 0)
+            // 16/11 (§259): bỏ bảng "THE THREE CUTS" — thanh có hiệu ứng đặc biệt thì ghi thẳng hiệu ứng + con số
+            var fx = SpecialEffects(w);
+            if (fx.Count > 0)
             {
-                Header("THE THREE CUTS", c2, 16);
-                var th = Row(c2); th.style.height = 22; th.style.flexShrink = 0;
-                var hc = Txt("CUT", "sr-tiny", th, InvFaint, 15); hc.style.flexGrow = 1; hc.style.letterSpacing = 2;
-                var hd = Txt("DMG", "sr-tiny", th, InvFaint, 15); hd.style.width = 70; hd.style.unityTextAlign = TextAnchor.MiddleRight; hd.style.letterSpacing = 2;
-                var ht = Txt("TIME", "sr-tiny", th, InvFaint, 15); ht.style.width = 80; ht.style.unityTextAlign = TextAnchor.MiddleRight; ht.style.letterSpacing = 2;
-                for (int i = 0; i < w.combo.Length; i++)
+                Header("SPECIAL", c2, 16);
+                foreach (var kv in fx)
                 {
-                    var s0 = w.combo[i];
-                    var r = Row(c2); r.style.height = 24; r.style.flexShrink = 0;
-                    var cn = Txt($"{i + 1}   {s0.name}", "sr-tiny", r, InvBody); cn.style.flexGrow = 1;
-                    var cd = Txt($"{s0.damage:0}", "sr-tiny", r, RequiemUI.Gold); cd.style.width = 70; cd.style.unityTextAlign = TextAnchor.MiddleRight;
-                    var ct = Txt($"{(i < w.combo.Length - 1 ? s0.CancelTime : s0.Length):0.00}s", "sr-tiny", r, InvMuted);
-                    ct.style.width = 80; ct.style.unityTextAlign = TextAnchor.MiddleRight;
+                    var r = Row(c2); r.style.height = 26; r.style.flexShrink = 0; r.style.alignItems = Align.Center;
+                    var l = Txt(kv.Key, "sr-tiny", r, InvMuted); l.style.flexGrow = 1; l.style.letterSpacing = 1;
+                    var v = Txt(kv.Value, "sr-tiny", r, RequiemUI.Gold); v.style.unityTextAlign = TextAnchor.MiddleRight;
                 }
-                var sum = Txt($"Full chain {WeaponRing.ComboDamage(w):0} in {WeaponRing.ComboTime(w):0.00}s  -  about {WeaponRing.Dps(w):0} damage a second",
-                    "sr-tiny", c2, InvMuted, 17);
-                sum.style.marginTop = 8; sum.style.whiteSpace = WhiteSpace.Normal;
             }
 
             // --- 3. the telling
             var c3 = col(1.15f, true);
-            Header("THE TELLING", c3);
+            Header("ORIGIN", c3);                                              // 16/11 (§260): người dùng đổi tên mục
             var sc = Reader(c3);
             string lore = !string.IsNullOrEmpty(w.lore) ? w.lore : w.description;
             if (!string.IsNullOrEmpty(lore)) Txt(lore, "sr-card-desc", sc, InvBody, 20);
@@ -844,7 +913,7 @@ namespace SoulRequiem.UI
             box.style.backgroundColor = new Color(0.028f, 0.02f, 0.036f, 1f); Border(box, 1, InvLine);
             var big = new VisualElement { pickingMode = PickingMode.Ignore };
             big.style.width = 112; big.style.height = 112;
-            var bt = string.IsNullOrEmpty(cur.icon) ? null : RequiemUI.Tex(cur.icon);
+            var bt = KeyIcon(cur);   // 19/11 (§342): ảnh mặc định khi thiếu
             if (bt != null) big.style.backgroundImage = new StyleBackground(bt);
             box.Add(big); top.Add(box);
             var col = new VisualElement(); col.style.flexGrow = 1; col.style.flexShrink = 1; col.style.marginLeft = 28;
@@ -1053,7 +1122,8 @@ namespace SoulRequiem.UI
             return b;
         }
 
-        private VisualElement BuildRest()
+        /// <param name="atRest">18/11 (§329): true = mở khi nghỉ ở lửa (tiêu đề REST…, đã hồi máu); false = phím L ở bất cứ đâu.</param>
+        private VisualElement BuildRest(bool atRest)
         {
             var dir = MapEncounterDirector.Instance;
             if (Array.IndexOf(RestTabs, restTab) < 0) restTab = "Mantra";
@@ -1065,9 +1135,10 @@ namespace SoulRequiem.UI
 
             var head = Row(p); head.style.alignItems = Align.Center; head.style.flexShrink = 0;
             var tcol = new VisualElement(); tcol.style.flexGrow = 1; head.Add(tcol);
-            string ttl = ShrineMarker.Noun == "shrine" ? "SHRINE OF REST" : "REST BY THE " + ShrineMarker.Noun.ToUpperInvariant();
+            string ttl = !atRest ? "MANTRAS" : ShrineMarker.Noun == "shrine" ? "SHRINE OF REST" : "REST BY THE " + ShrineMarker.Noun.ToUpperInvariant();
             Txt(ttl, "sr-title", tcol, RequiemUI.Gold, 40).style.letterSpacing = 3;
-            Txt("Health and flasks restored - progress saved. Pick a socket, then the mantra to attune to it.", "sr-tiny", tcol, InvMuted, 17).style.marginTop = 2;
+            Txt(atRest ? "Health and flasks restored - progress saved. Pick a socket, then the mantra to attune to it."
+                       : "Pick a socket, then the mantra to attune to it.", "sr-tiny", tcol, InvMuted, 17).style.marginTop = 2;
             var tabsWrap = Row(head); tabsWrap.style.alignItems = Align.Center;
             KeyCap("Q", tabsWrap).style.marginRight = 12;
             var tabs = Row(tabsWrap);
@@ -1086,7 +1157,7 @@ namespace SoulRequiem.UI
                 if (loadout == null || e == null || e.isPassive) return;
                 if (e.set != null) loadout.Equip(0, PlayerLoadout.SetLeader(e.set[0]) ?? e.set[0]);
                 else loadout.Equip(selSlot, e.skill);
-                Hints.Show($"{e.Name} - attuned.", 2f);
+                // 16/11 (§269): bỏ thông báo thừa — hình / hoạt ảnh / bảng tên boss đã thể hiện (bảng chiêu đã đổi)
                 rebuild();
             };
             restClear = () => { if (loadout != null && loadout.SkillAt(selSlot) != null) { loadout.Equip(selSlot, null); rebuild(); } };

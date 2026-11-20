@@ -55,6 +55,7 @@ namespace SoulRequiem.Gameplay
         private void OnBossSpawned(EnemyAI boss, string zoneHint)
         {
             if (boss == null) return;
+            if (dir != null && dir.BossPartner == boss) return;          // 19/11 (§344): song đấu — boss phụ đi chung màn giới thiệu của boss chính
             StartCoroutine(Run(boss, zoneHint));
         }
 
@@ -86,6 +87,9 @@ namespace SoulRequiem.Gameplay
             foreach (var k in dead) stars.Remove(k);
             boss.Held = true;                                       // giữ ngay khung đầu (đệ sinh cùng đợt, xét ở khung sau)
             yield return null;
+            // 19/11 (§344): song đấu — boss phụ (sinh cùng đợt, khung sau) đứng yên suốt màn giới thiệu, thả cùng lúc với boss chính
+            var partner = dir.BossPartner != null && dir.BossPartner != boss ? dir.BossPartner : null;
+            if (partner != null) partner.Held = true;
             var minions = new List<EnemyAI>();
             if (props != null && props.GetBool("toss_minions", false))
                 foreach (var e in FindObjectsByType<EnemyAI>(FindObjectsSortMode.None))
@@ -105,6 +109,7 @@ namespace SoulRequiem.Gameplay
                 ShowCard(name, sub, 2.2f);
                 if (!string.IsNullOrEmpty(zoneHint)) Hints.Show(zoneHint, 4f);
                 boss.Held = false;
+                if (partner != null) partner.Held = false;                 // 19/11 (§344)
                 yield break;
             }
 
@@ -191,6 +196,7 @@ namespace SoulRequiem.Gameplay
             if (!string.IsNullOrEmpty(zoneHint)) Hints.Show(zoneHint, 4.5f);
             yield return new WaitForSeconds(0.4f);                  // một nhịp cho người chơi định thần trước khi boss lao tới
             if (boss != null) boss.Held = false;
+            if (partner != null) partner.Held = false;                     // 19/11 (§344)
         }
 
         // ---- 03/11: màn xuất hiện của boss (thuộc tính trên object "boss" của Tiled)
@@ -557,15 +563,13 @@ namespace SoulRequiem.Gameplay
             if (!string.IsNullOrEmpty(line) && boss != null && !boss.Health.IsDead)
                 SpeechBubble.Show(Head(boss, 0.18f), line, 2.4f, BossTalk).Follow(boss.transform);
             yield return new WaitForSeconds(0.6f);
-            bool any = false;
             foreach (var m in minions)
             {
                 if (stars.TryGetValue(m, out var v) && v != null) v.Stop();
                 if (m == null || m.Health.IsDead) continue;
-                any = true;
                 StartCoroutine(GetUp(m));
             }
-            if (any) Hints.Show("Grok's raiders stagger back to their feet!", 3f);
+            // 16/11 (§269): bỏ thông báo thừa — hình / hoạt ảnh / bảng tên boss đã thể hiện
         }
 
         private static IEnumerator GetUp(EnemyAI m)
@@ -611,6 +615,7 @@ namespace SoulRequiem.Gameplay
         {
             CardName = name; CardSub = sub;
             CardStart = Time.time; CardLength = seconds;
+            SoulRequiem.Core.Sfx.Play2D("boss_intro");   // 17/11 (§294): âm
         }
 
         /// <summary>Giữ khoá điều khiển suốt cảnh (đóng menu Pause sẽ nhả Blocked -> khoá lại mỗi khung); Space/Enter = bỏ qua.</summary>

@@ -59,7 +59,7 @@ namespace SoulRequiem.Gameplay
                 engaged = true;
                 nextSlam = Time.time + 4f;
                 nextTongue = Time.time + 1.2f;
-                Hints.Show("Gorgemaw, the Brood Toad", 2.5f);
+                // 16/11 (§269): bỏ thông báo thừa — hình / hoạt ảnh / bảng tên boss đã thể hiện
             }
             if (ai.Player == null) yield break;
             float d = ((Vector2)ai.Player.position - Mouth).magnitude;
@@ -72,7 +72,7 @@ namespace SoulRequiem.Gameplay
                 if (ai.InPhase2 && phaseLeapDone && !enraged && brood.Count == 0)
                 {
                     enraged = true;                                       // đàn đã chết hết
-                    Hints.Show("Gorgemaw croaks in fury!", 2f);
+                    // 16/11 (§269): bỏ thông báo thừa — hình / hoạt ảnh / bảng tên boss đã thể hiện
                     yield return ai.Flash(0.5f, new Color(1f, 0.35f, 0.3f));
                 }
                 string pick = Pick(d);
@@ -132,6 +132,7 @@ namespace SoulRequiem.Gameplay
         // uốn lượn rồi duỗi thẳng; đầu lưỡi tròn dính trúng thì quất + kéo người chơi về phía miệng, rồi thu lưỡi về.
         private IEnumerator Tongue()
         {
+            SfxHooks.BossMove(this, "Tongue"); // 19/11 (§335): âm
             nextTongue = Time.time + (ai.InPhase2 ? tongueEvery * 0.7f : tongueEvery);
             ai.Desired = Vector2.zero;
             ai.PlayState("Burp");                                    // há miệng, phồng họng
@@ -301,6 +302,7 @@ namespace SoulRequiem.Gameplay
 
         private IEnumerator SecondWave(Vector2 at)
         {
+            SfxHooks.BossMove(this, "SecondWave"); // 19/11 (§335): âm
             yield return new WaitForSeconds(0.35f);
             if (ai != null && !ai.Health.IsDead) Shockwave.Spawn(at, 3.4f, 0.8f, ai.damage * 0.7f, GroundOrder, waveColor);
         }
@@ -308,6 +310,7 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ nhảy đập
         private IEnumerator LeapSlam()
         {
+            SfxHooks.BossMove(this, "LeapSlam"); // 19/11 (§337): âm
             nextSlam = Time.time + (enraged ? slamEvery * 0.55f : ai.InPhase2 ? slamEvery * 0.7f : slamEvery);
             ai.Desired = Vector2.zero;
             ai.PlayState("JumpPrepare");
@@ -393,6 +396,7 @@ namespace SoulRequiem.Gameplay
         /// lăn ra khỏi vòng là né. Không đi xa — chỉ trừng phạt người vừa bị kéo.</summary>
         private IEnumerator BellyFlop()
         {
+            SfxHooks.BossMove(this, "BellyFlop"); // 19/11 (§337): âm
             ai.Desired = Vector2.zero;
             if (ai.Player == null) yield break;
             Vector2 start = transform.position;
@@ -401,6 +405,7 @@ namespace SoulRequiem.Gameplay
             ai.PlayState("JumpPrepare");
             int order = ai.Body != null ? ai.Body.sortingOrder - 1 : 1;
             var g = GroundStrike.Spawn(target, 0.55f, slamRadius * 0.8f, ai.damage * 1.1f, null, 0, 14f, order, new Color(1f, 0.3f, 0.25f));
+            g.impactSfx = "heavy_land"; // 19/11 (§337): âm
             g.knockback = 3f;
             yield return ai.WaitFor(0.15f);
             if (ai.Health.IsDead) yield break;
@@ -426,6 +431,7 @@ namespace SoulRequiem.Gameplay
             if (col != null) col.enabled = true;
             ai.Airborne = false;
             CameraFollow.KickMain(Vector2.down, 0.08f, 0.2f);
+            SoulRequiem.Core.Sfx.Play("heavy_land", target); // 19/11 (§337): âm
             Ripple(target, 1.8f);
             ai.PlayState("JumpRecover");
             yield return ai.WaitFor(0.7f);                                  // hồi sau cú đè: Ren phản công được
@@ -435,6 +441,7 @@ namespace SoulRequiem.Gameplay
         /// không có vũng nào (map thiếu bể) thì nhả 2 con cạnh cóc.</summary>
         private IEnumerator Brood()
         {
+            SfxHooks.BossMove(this, "Brood"); // 19/11 (§335): âm
             ai.Desired = Vector2.zero;
             ai.PlayState("Burp");
             yield return ai.Flash(0.5f, new Color(0.8f, 1f, 0.6f));
@@ -460,7 +467,7 @@ namespace SoulRequiem.Gameplay
                 brood.Add(e);
                 if (fromPool) StartCoroutine(Emerge(e, at, i * 0.45f));   // lần lượt từng vũng: người chơi kịp thấy chúng trồi lên
             }
-            if (n > 0) Hints.Show("Hoppers crawl out of the spilled Ichor!", 2.5f);
+            // 16/11 (§269): bỏ thông báo thừa — hình / hoạt ảnh / bảng tên boss đã thể hiện
             yield return ai.WaitFor(0.5f);
         }
 
@@ -493,12 +500,13 @@ namespace SoulRequiem.Gameplay
         /// vỡ mọi bể kính trong khu (Ichor tràn ra). Không bị choáng như cú đập thường.</summary>
         private IEnumerator PhaseLeap()
         {
+            SfxHooks.BossMove(this, "PhaseLeap"); // 19/11 (§337): âm
             var dir = MapEncounterDirector.Instance;
             Vector2 center = transform.position;
             if (dir != null && dir.TryGetZoneAt(transform.position, out _, out var zr)) center = zr.center;
             nextSlam = Time.time + slamEvery;
             ai.Desired = Vector2.zero;
-            Hints.Show("Gorgemaw bellows and leaps for the centre of the hall!", 2.5f);
+            // 16/11 (§269): bỏ thông báo thừa — hình / hoạt ảnh / bảng tên boss đã thể hiện
             ai.PlayState("JumpPrepare");
             yield return ai.Flash(0.8f, new Color(1f, 0.45f, 0.3f));
             if (ai.Health.IsDead) yield break;
@@ -539,11 +547,13 @@ namespace SoulRequiem.Gameplay
             if (ai.Player != null && ((Vector2)ai.Player.position - center).magnitude <= slamRadius * 1.3f)
                 ai.Hurt(ai.damage * 1.4f, center, 4f);
             CameraFollow.KickMain(Vector2.down, 0.2f, 0.5f);
+            SoulRequiem.Core.Sfx.Play("heavy_land", center); // 19/11 (§337): âm
+            SoulRequiem.Core.Sfx.Play("rock_fall", center);
             Ripple(center, 3.2f);
             Shockwave.Spawn(center, 3.6f, 0.8f, ai.damage * 0.9f, GroundOrder, waveColor);
             StartCoroutine(SecondWave(center));
             var mm = MapMechanics.Instance;
-            if (mm != null && mm.Shatter(center, 7f)) Hints.Show("Every tank bursts - Ether floods the floor!", 3f);
+            if (mm != null) mm.Shatter(center, 7f);   // 16/11 (§269): bỏ thông báo thừa — hình / hoạt ảnh / bảng tên boss đã thể hiện
             ai.PlayState("JumpRecover");
             yield return ai.WaitFor(0.9f);
         }
@@ -554,6 +564,7 @@ namespace SoulRequiem.Gameplay
         {
             if (splashFrames == null || splashFrames.Length == 0) return;
             var g = GroundStrike.Spawn(at, 0f, 0f, 0f, splashFrames, 999, 14f, ai.Body != null ? ai.Body.sortingOrder - 1 : 1, Color.clear);
+            g.impactSfx = "acid_splash"; // 19/11 (§337): âm
             g.bodyScale = scale;
             g.bodyColor = new Color(0.55f, 1f, 0.45f, 0.8f);
         }

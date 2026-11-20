@@ -28,6 +28,13 @@ namespace SoulRequiem.Gameplay
         private readonly Dictionary<Collider2D, float> ghosted = new Dictionary<Collider2D, float>();
         private readonly List<Collider2D> releaseBuf = new List<Collider2D>();
 
+        // 20/11 (người dùng: lướt Q đôi khi xuyên vào trong tường rồi kẹt luôn): Roll / bị đẩy lùi đi 0,2 đv mỗi bước vật lý, vượt qua
+        // va chạm dạng VIỀN (tường dựng từ tile = composite outline, không có bề dày) -> lọt vào trong khối tường, không ra được.
+        // Bước lớn hơn bước đi bộ thì QUÉT trước bằng rb.Cast: dừng sát tường (chừa Skin) rồi trượt phần còn lại dọc tường.
+        private const float Skin = 0.015f;
+        private readonly RaycastHit2D[] castHits = new RaycastHit2D[12];
+        private ContactFilter2D castFilter;
+
         private void Awake()
         {
             rb = GetComponent<Rigidbody2D>();
@@ -39,6 +46,9 @@ namespace SoulRequiem.Gameplay
             status = PlayerStatus.Of(this);
             myCols = GetComponentsInChildren<Collider2D>();
             lastPos = rb.position;
+            rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;   // 20/11: chống xuyên tường khi lướt
+            castFilter = new ContactFilter2D { useTriggers = false };
+            castFilter.SetLayerMask(Physics2D.GetLayerCollisionMask(gameObject.layer));
         }
 
         private void Update()
@@ -61,6 +71,12 @@ namespace SoulRequiem.Gameplay
             // Chiêu đang ép hướng nhìn (vd tia Judgement Ray theo chuột) -> nhân vật quay theo hướng đó
             if (combat != null && combat.FacingOverride.sqrMagnitude > 0.01f) lastFacing = combat.FacingOverride.normalized;
             else if (combat != null && combat.LookDir.sqrMagnitude > 0.01f) lastFacing = combat.LookDir;   // 02/11: nhìn người đang nói
+            // 16/11 (§270): đang đọc bảng -> quay mặt về phía vật đang đọc (4 hướng như hoạt ảnh đi)
+            if (MechanismPanels.Focus.HasValue)
+            {
+                Vector2 d = MechanismPanels.Focus.Value - (Vector2)transform.position;
+                if (d.sqrMagnitude > 0.0004f) lastFacing = Mathf.Abs(d.x) > Mathf.Abs(d.y) ? new Vector2(Mathf.Sign(d.x), 0f) : new Vector2(0f, Mathf.Sign(d.y));
+            }
 
             // Cập nhật Parameters cho Animator Blend Tree
             animator.SetFloat("DirX", lastFacing.x);
@@ -68,15 +84,59 @@ namespace SoulRequiem.Gameplay
             animator.SetFloat("Speed", input.magnitude); // Tốc độ = 0 khi đứng im, > 0 khi di chuyển
         }
 
+        private float stepIn;   // 17/11 (§294): âm: tiếng bước chân
+        private const float StepEvery = 0.34f;
+
         private void FixedUpdate()
         {
             Vector2 move = input.sqrMagnitude > 1f ? input.normalized : input;
-            Vector2 velocity = move * moveSpeed * (status != null ? status.SpeedMul : 1f);
+            Vector2 velocity = move * moveSpeed * (status != null ? status.SpeedMul : 1f) * RelicBoons.SpeedMul;   // 20/11 (§349): Penitent Haste
             if (health != null) velocity += health.ConsumeExtraVelocity(Time.fixedDeltaTime);   // đẩy lùi + Roll
             CheckPinned();
             lastPos = rb.position;
             lastStep = velocity * Time.fixedDeltaTime;
+            if (lastStep.magnitude > moveSpeed * RelicBoons.SpeedMul * Time.fixedDeltaTime * 1.1f) lastStep = Sweep(lastStep);   // 20/11: lướt / bị đẩy
             rb.MovePosition(rb.position + lastStep);
+            if (move.sqrMagnitude > 0.04f && Time.timeScale > 0f)   // 17/11 (§294): âm
+            {
+                stepIn -= Time.fixedDeltaTime;
+                if (stepIn <= 0f) { stepIn = StepEvery; SoulRequiem.Core.Sfx.Play(SfxHooks.FootstepId(), rb.position); }
+            }
+            else stepIn = 0.08f;
+        }
+
+        /// <summary>20/11: bước lớn -> dừng trước vật cản tĩnh (tường, đá, cổng, bàn...), phần còn lại trượt dọc mặt tường.
+        /// Bỏ qua trigger, quái (thân quái do bộ giải vật lý + "lách" CheckPinned lo) và collider đang tạm lách.</summary>
+        private Vector2 Sweep(Vector2 step)
+        {
+            float len = step.magnitude;
+            float allowed = CastFree(step / len, len, out Vector2 normal);
+            if (allowed >= len) return step;
+            Vector2 moved = step / len * allowed;
+            Vector2 rest = step - moved;
+            Vector2 tangent = rest - Vector2.Dot(rest, normal) * normal;
+            float tl = tangent.magnitude;
+            if (tl > 0.0005f) moved += tangent / tl * CastFree(tangent / tl, tl, out _);
+            return moved;
+        }
+
+        /// <summary>Đi được bao xa theo `dir` (≤ len) trước khi chạm vật cản tĩnh; `normal` = pháp tuyến chỗ chạm.</summary>
+        private float CastFree(Vector2 dir, float len, out Vector2 normal)
+        {
+            normal = Vector2.zero;
+            float allowed = len;
+            int n = rb.Cast(dir, castFilter, castHits, len + Skin);
+            for (int i = 0; i < n; i++)
+            {
+                var h = castHits[i];
+                var c = h.collider;
+                if (c == null || c.isTrigger || ghosted.ContainsKey(c)) continue;
+                if (Vector2.Dot(h.normal, dir) >= -0.01f) continue;                 // đang rời xa / đi song song mặt tường
+                if (c.attachedRigidbody != null && c.attachedRigidbody.bodyType == RigidbodyType2D.Dynamic) continue;   // quái, vật đẩy được
+                float d = Mathf.Max(0f, h.distance - Skin);
+                if (d < allowed) { allowed = d; normal = h.normal; }
+            }
+            return allowed;
         }
 
         /// <summary>Đo bước vừa rồi: muốn đi mà không nhích + đang chạm quái -> "lách" qua con quái đó (tắt va chạm tạm thời).</summary>

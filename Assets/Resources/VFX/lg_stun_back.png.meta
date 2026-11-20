@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: d9f0fed6bfd34618b8f0dcdd3c70db3d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3881113112135666315
+    second: lg_stun_back_0
+  - first:
+      213: 6431031739997924158
+    second: lg_stun_back_1
+  - first:
+      213: 5277566049427307318
+    second: lg_stun_back_2
+  - first:
+      213: 6620470476965849914
+    second: lg_stun_back_3
+  - first:
+      213: 7831588687727845578
+    second: lg_stun_back_4
+  - first:
+      213: 5303991393012644470
+    second: lg_stun_back_5
+  - first:
+      213: 1330724236823384085
+    second: lg_stun_back_6
+  - first:
+      213: 6047560676293104610
+    second: lg_stun_back_7
+  - first:
+      213: 3311156525184508311
+    second: lg_stun_back_8
+  - first:
+      213: 2795542806905602010
+    second: lg_stun_back_9
+  - first:
+      213: 7667501164395001464
+    second: lg_stun_back_10
+  - first:
+      213: 2213205386967889778
+    second: lg_stun_back_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lg_stun_back_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 42
+        height: 16
+      alignment: 9
+      pivot: {x: 0.452381, y: -6.437500}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755641715b464b6c994c7cc1689e19b1
+      internalID: 3881113112135666315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lg_stun_back_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 42
+        height: 16
+      alignment: 9
+      pivot: {x: 0.452381, y: -6.437500}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784b6e410e75488caa60c4eed843918b
+      internalID: 6431031739997924158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lg_stun_back_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 42
+        height: 16
+      alignment: 9
+      pivot: {x: 0.452381, y: -6.437500}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee5c8e08d464554b8a1c05e7dcb8c61
+      internalID: 5277566049427307318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lg_stun_back_3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 42
+        height: 16
+      alignment: 9
+      pivot: {x: 0.452381, y: -6.437500}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9abeb569094a9f87a8660e2840c8db
+      internalID: 6620470476965849914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lg_stun_back_4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 42
+        height: 16
+      alignment: 9
+      pivot: {x: 0.452381, y: -6.437500}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188527ad94eb49c09a2bc56eb2fe7869
+      internalID: 7831588687727845578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lg_stun_back_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 42
+        height: 16
+      alignment: 9
+      pivot: {x: 0.452381, y: -6.437500}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64eb5ad49d954cb1b4e0f53655e2cd10
+      internalID: 5303991393012644470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lg_stun_back_6
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 42
+        height: 16
+      alignment: 9
+      pivot: {x: 0.452381, y: -6.437500}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fefd0d02a8e49729bbe92c635ff90c2
+      internalID: 1330724236823384085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lg_stun_back_7
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0
+        width: 42
+        height: 16
+      alignment: 9
+      pivot: {x: 0.452381, y: -6.437500}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef47a3517da4a3e9557b25ef7e541e0
+      internalID: 6047560676293104610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lg_stun_back_8
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 42
+        height: 16
+      alignment: 9
+      pivot: {x: 0.452381, y: -6.437500}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b34e5b7a0434cd9bd97f2fdc59cb8fd
+      internalID: 3311156525184508311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lg_stun_back_9
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 0
+        width: 42
+        height: 16
+      alignment: 9
+      pivot: {x: 0.452381, y: -6.437500}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f46f17cd7346a28946651719978d1a
+      internalID: 2795542806905602010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lg_stun_back_10
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 42
+        height: 16
+      alignment: 9
+      pivot: {x: 0.452381, y: -6.437500}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95919d56a5454ee0b43e1063fe53a7f1
+      internalID: 7667501164395001464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lg_stun_back_11
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 0
+        width: 42
+        height: 16
+      alignment: 9
+      pivot: {x: 0.452381, y: -6.437500}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8375dd986dd14bd38348f9aa786d3d5a
+      internalID: 2213205386967889778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      lg_stun_back_0: 3881113112135666315
+      lg_stun_back_1: 6431031739997924158
+      lg_stun_back_2: 5277566049427307318
+      lg_stun_back_3: 6620470476965849914
+      lg_stun_back_4: 7831588687727845578
+      lg_stun_back_5: 5303991393012644470
+      lg_stun_back_6: 1330724236823384085
+      lg_stun_back_7: 6047560676293104610
+      lg_stun_back_8: 3311156525184508311
+      lg_stun_back_9: 2795542806905602010
+      lg_stun_back_10: 7667501164395001464
+      lg_stun_back_11: 2213205386967889778
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

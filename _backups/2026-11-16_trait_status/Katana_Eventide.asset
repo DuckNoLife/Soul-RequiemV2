@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc669ea7b8d44e6bb40a46af73e7651e, type: 3}
+  m_Name: Katana_Eventide
+  m_EditorClassIdentifier: 
+  id: katana_eventide
+  displayName: Eventide
+  description: Long, slender, deeply curved. In the dark its temper line glows the colour of old wine.
+  epithet: Aurel Vey's blade - it has not seen the sun since the first cup
+  lore: "Aurel Vey wore it on the night of the first cup, when the great Houses drank together and swore to stand above the rest for ever.\n\nThey kept the oath. From that night the blade was carried only after dusk, and it has not seen the sun since. The Vey say it still remembers the taste of what was in the cup."
+  foundAt: The First Cup, beneath the Matriarch's Bower
+  icon: {fileID: 0}
+  showcase: {fileID: 21300000, guid: c5af9d3d7a974f468b424499c34c21a5, type: 3}
+  design: {fileID: 2800000, guid: a2ee2ea962f546df9751c8c8ca5670c2, type: 3}
+  glowTint: {r: 1.5, g: 0.3, b: 0.35, a: 1}
+  glow: 1
+  swingGlowBoost: 1
+  trailColor: {r: 1, g: 0.35, b: 0.4, a: 1}
+  slashStyle: eventide
+  comboWindow: 0.35
+  finisherRecovery: 0.3
+  combo:
+  - name: Kesa Cut
+    damage: 17
+    range: 0.75
+    arcDegrees: 140
+    knockback: 1.4
+    hitFrame: 3
+    cancelFrame: 6
+    fps: 14
+    impact: 1
+    flipTrail: 0
+    trailScale: 1
+    thrust: 0
+  - name: Rising Cut
+    damage: 17
+    range: 0.75
+    arcDegrees: 140
+    knockback: 1.4
+    hitFrame: 3
+    cancelFrame: 6
+    fps: 14
+    impact: 1
+    flipTrail: 1
+    trailScale: 1
+    thrust: 0
+  - name: Horizontal Sweep
+    damage: 26
+    range: 0.9
+    arcDegrees: 170
+    knockback: 3.2
+    hitFrame: 3
+    cancelFrame: 7
+    fps: 12
+    impact: 1.6
+    flipTrail: 0
+    trailScale: 1.2
+    thrust: 0
+  trait:
+    kind: 6
+    title: Hunger
+    text: "Every foe your blade finishes returns 8% of your health. Your flasks heal 30% less - it would rather drink."
+    window: 0
+    bonus: 0.3
+    leech: 0.08
+    threshold: 0

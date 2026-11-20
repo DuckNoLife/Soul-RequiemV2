@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc669ea7b8d44e6bb40a46af73e7651e, type: 3}
+  m_Name: Katana_Oathbreaker
+  m_EditorClassIdentifier: 
+  id: katana_oathbreaker
+  displayName: Oathbreaker
+  description: A royal blade of Arden, sealed in its scabbard with a strip of prayer paper. Light, patient, and very fast out of the sheath.
+  epithet: Blade of Arden's swordmaster - drawn once more, then never again
+  lore: "The swordmaster of Arden carried it, and King Lucas sent him to use it on a child the prophets had named. He found the child. He could not do it.\n\nHe sealed the blade in its scabbard with a strip of prayer paper and walked away from his king, and every wanted poster in Arden called him what the blade is called now. He spent the rest of his life in the dark of a copper mine, and the seal was never broken.\n\nThe oath he broke was the one he made to a king. The one he kept, he never told anyone."
+  foundAt: Hermit's Hollow, deep in the Old Copper Mine
+  icon: {fileID: 0}
+  showcase: {fileID: 21300000, guid: d91a82b5b174472f9866d452d43a7246, type: 3}
+  design: {fileID: 2800000, guid: 1ace46d9b5cb4a0397be462bf9648d87, type: 3}
+  glowTint: {r: 0.8, g: 0.9, b: 1.15, a: 1}
+  glow: 1
+  swingGlowBoost: 1
+  trailColor: {r: 0.8, g: 0.88, b: 1, a: 1}
+  slashStyle: oathbreaker
+  comboWindow: 0.35
+  finisherRecovery: 0.3
+  combo:
+  - name: Kesa Cut
+    damage: 17
+    range: 0.75
+    arcDegrees: 140
+    knockback: 1.4
+    hitFrame: 3
+    cancelFrame: 6
+    fps: 13
+    impact: 1
+    flipTrail: 0
+    trailScale: 1
+    thrust: 0
+  - name: Rising Cut
+    damage: 17
+    range: 0.75
+    arcDegrees: 140
+    knockback: 1.4
+    hitFrame: 3
+    cancelFrame: 6
+    fps: 13
+    impact: 1
+    flipTrail: 1
+    trailScale: 1
+    thrust: 0
+  - name: Horizontal Sweep
+    damage: 26
+    range: 0.9
+    arcDegrees: 170
+    knockback: 3.2
+    hitFrame: 3
+    cancelFrame: 7
+    fps: 12
+    impact: 1.6
+    flipTrail: 0
+    trailScale: 1.2
+    thrust: 0
+  trait:
+    kind: 4
+    title: Iaijutsu
+    text: "Hold the attack and Ren stands in the draw while a meter fills beside him. Past the mark (0.5s) the cut leaves the sheath 60% deeper and stuns lesser foes for 0.8s; hold on and it keeps deepening, up to +100% at a full meter (1.5s). Release before the mark and it is an ordinary cut."
+    window: 0.5
+    bonus: 0.6
+    leech: 0
+    threshold: 0.8
+    hold: 1.5
+    bonusMax: 1

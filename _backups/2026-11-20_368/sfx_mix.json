@@ -1,0 +1,1219 @@
+{
+ "sounds": [
+  {
+   "id": "pl_swing",
+   "gain": 0.38,
+   "gap": 0
+  },
+  {
+   "id": "pl_swing_heavy",
+   "gain": 0.48,
+   "gap": 0
+  },
+  {
+   "id": "pl_dodge",
+   "gain": 0.38,
+   "gap": 0.1
+  },
+  {
+   "id": "pl_hurt",
+   "gain": 0.55,
+   "gap": 0.15
+  },
+  {
+   "id": "pl_death",
+   "gain": 0.75,
+   "gap": 0
+  },
+  {
+   "id": "footstep",
+   "gain": 0.15,
+   "gap": 0.12
+  },
+  {
+   "id": "footstep_grass",
+   "gain": 0.15,
+   "gap": 0.12
+  },
+  {
+   "id": "flask_drink",
+   "gain": 0.5,
+   "gap": 0
+  },
+  {
+   "id": "flask_empty",
+   "gain": 0.35,
+   "gap": 0.4
+  },
+  {
+   "id": "iai_charge",
+   "gain": 0.4,
+   "gap": 0
+  },
+  {
+   "id": "iai_ready",
+   "gain": 0.45,
+   "gap": 0
+  },
+  {
+   "id": "iai_release",
+   "gain": 0.62,
+   "gap": 0
+  },
+  {
+   "id": "sword_draw",
+   "gain": 0.5,
+   "gap": 0
+  },
+  {
+   "id": "sword_sheathe",
+   "gain": 0.45,
+   "gap": 0
+  },
+  {
+   "id": "body_fall",
+   "gain": 0.55,
+   "gap": 0
+  },
+  {
+   "id": "blunt_strike",
+   "gain": 0.6,
+   "gap": 0
+  },
+  {
+   "id": "hit_flesh",
+   "gain": 0.38,
+   "gap": 0.04
+  },
+  {
+   "id": "hit_armor",
+   "gain": 0.38,
+   "gap": 0.04
+  },
+  {
+   "id": "hit_bone",
+   "gain": 0.38,
+   "gap": 0.04
+  },
+  {
+   "id": "hit_wood",
+   "gain": 0.38,
+   "gap": 0.04
+  },
+  {
+   "id": "hit_slime",
+   "gain": 0.38,
+   "gap": 0.04
+  },
+  {
+   "id": "hit_block",
+   "gain": 0.5,
+   "gap": 0.06
+  },
+  {
+   "id": "parry",
+   "gain": 0.6,
+   "gap": 0.1
+  },
+  {
+   "id": "mantra_groundslam",
+   "gain": 0.62,
+   "gap": 0
+  },
+  {
+   "id": "mantra_ichorflask",
+   "gain": 0.55,
+   "gap": 0
+  },
+  {
+   "id": "mantra_severingdraw",
+   "gain": 0.6,
+   "gap": 0
+  },
+  {
+   "id": "mantra_eyeorbs",
+   "gain": 0.5,
+   "gap": 0
+  },
+  {
+   "id": "mantra_eyeveil",
+   "gain": 0.5,
+   "gap": 0
+  },
+  {
+   "id": "mantra_eyeray",
+   "gain": 0.58,
+   "gap": 0
+  },
+  {
+   "id": "mantra_vesselhand",
+   "gain": 0.6,
+   "gap": 0
+  },
+  {
+   "id": "mantra_vesselroots",
+   "gain": 0.55,
+   "gap": 0
+  },
+  {
+   "id": "mantra_vesselwail",
+   "gain": 0.6,
+   "gap": 0
+  },
+  {
+   "id": "mantra_earafterecho",
+   "gain": 0.5,
+   "gap": 0
+  },
+  {
+   "id": "mantra_eardiscord",
+   "gain": 0.5,
+   "gap": 0
+  },
+  {
+   "id": "mantra_earforewarning",
+   "gain": 0.45,
+   "gap": 0
+  },
+  {
+   "id": "en_swing",
+   "gain": 0.32,
+   "gap": 0.08
+  },
+  {
+   "id": "en_claw",
+   "gain": 0.32,
+   "gap": 0.08
+  },
+  {
+   "id": "en_death",
+   "gain": 0.45,
+   "gap": 0.1
+  },
+  {
+   "id": "arrow_shot",
+   "gain": 0.42,
+   "gap": 0.08
+  },
+  {
+   "id": "proj_magic",
+   "gain": 0.38,
+   "gap": 0.08
+  },
+  {
+   "id": "ground_strike",
+   "gain": 0.45,
+   "gap": 0.1
+  },
+  {
+   "id": "shockwave",
+   "gain": 0.55,
+   "gap": 0.3
+  },
+  {
+   "id": "gas_hiss",
+   "gain": 0.38,
+   "gap": 0.3
+  },
+  {
+   "id": "heavy_land",
+   "gain": 0.6,
+   "gap": 0.2
+  },
+  {
+   "id": "boss_intro",
+   "gain": 0.62,
+   "gap": 2.0
+  },
+  {
+   "id": "boss_slam",
+   "gain": 0.62,
+   "gap": 0.15
+  },
+  {
+   "id": "boss_death",
+   "gain": 0.8,
+   "gap": 1.0
+  },
+  {
+   "id": "st_bleed",
+   "gain": 0.3,
+   "gap": 0.15
+  },
+  {
+   "id": "st_burn",
+   "gain": 0.3,
+   "gap": 0.15
+  },
+  {
+   "id": "st_chill",
+   "gain": 0.3,
+   "gap": 0.15
+  },
+  {
+   "id": "st_bind",
+   "gain": 0.4,
+   "gap": 0.15
+  },
+  {
+   "id": "st_mark",
+   "gain": 0.3,
+   "gap": 0.15
+  },
+  {
+   "id": "v_goblin_alert",
+   "gain": 0.42,
+   "gap": 1.2
+  },
+  {
+   "id": "v_goblin_attack",
+   "gain": 0.36,
+   "gap": 0.25
+  },
+  {
+   "id": "v_goblin_hurt",
+   "gain": 0.28,
+   "gap": 0.35
+  },
+  {
+   "id": "v_goblin_death",
+   "gain": 0.45,
+   "gap": 0.2
+  },
+  {
+   "id": "v_troll_alert",
+   "gain": 0.65,
+   "gap": 2.0
+  },
+  {
+   "id": "v_troll_attack",
+   "gain": 0.5,
+   "gap": 0.3
+  },
+  {
+   "id": "v_troll_hurt",
+   "gain": 0.4,
+   "gap": 0.5
+  },
+  {
+   "id": "v_troll_death",
+   "gain": 0.7,
+   "gap": 1.0
+  },
+  {
+   "id": "v_bear_alert",
+   "gain": 0.55,
+   "gap": 2.0
+  },
+  {
+   "id": "v_bear_attack",
+   "gain": 0.45,
+   "gap": 0.3
+  },
+  {
+   "id": "v_bear_death",
+   "gain": 0.55,
+   "gap": 0.5
+  },
+  {
+   "id": "v_reptile_alert",
+   "gain": 0.38,
+   "gap": 1.2
+  },
+  {
+   "id": "v_reptile_attack",
+   "gain": 0.36,
+   "gap": 0.25
+  },
+  {
+   "id": "v_reptile_death",
+   "gain": 0.4,
+   "gap": 0.2
+  },
+  {
+   "id": "v_spider_alert",
+   "gain": 0.38,
+   "gap": 1.2
+  },
+  {
+   "id": "v_spider_attack",
+   "gain": 0.36,
+   "gap": 0.25
+  },
+  {
+   "id": "v_spider_death",
+   "gain": 0.4,
+   "gap": 0.2
+  },
+  {
+   "id": "v_rat_alert",
+   "gain": 0.32,
+   "gap": 1.0
+  },
+  {
+   "id": "v_rat_attack",
+   "gain": 0.3,
+   "gap": 0.25
+  },
+  {
+   "id": "v_rat_death",
+   "gain": 0.36,
+   "gap": 0.15
+  },
+  {
+   "id": "v_toad_alert",
+   "gain": 0.42,
+   "gap": 1.5
+  },
+  {
+   "id": "v_toad_attack",
+   "gain": 0.38,
+   "gap": 0.3
+  },
+  {
+   "id": "v_toad_death",
+   "gain": 0.48,
+   "gap": 0.3
+  },
+  {
+   "id": "toad_tongue",
+   "gain": 0.55,
+   "gap": 0.3
+  },
+  {
+   "id": "toad_burp",
+   "gain": 0.55,
+   "gap": 0.5
+  },
+  {
+   "id": "glass_break",
+   "gain": 0.55,
+   "gap": 0.15
+  },
+  {
+   "id": "v_flesh_alert",
+   "gain": 0.42,
+   "gap": 1.5
+  },
+  {
+   "id": "v_flesh_attack",
+   "gain": 0.38,
+   "gap": 0.3
+  },
+  {
+   "id": "v_flesh_death",
+   "gain": 0.46,
+   "gap": 0.2
+  },
+  {
+   "id": "v_ram_alert",
+   "gain": 0.62,
+   "gap": 2.0
+  },
+  {
+   "id": "ram_charge",
+   "gain": 0.6,
+   "gap": 0.5
+  },
+  {
+   "id": "v_ram_death",
+   "gain": 0.7,
+   "gap": 1.0
+  },
+  {
+   "id": "steam_vent",
+   "gain": 0.42,
+   "gap": 0.4
+  },
+  {
+   "id": "v_eye_alert",
+   "gain": 0.6,
+   "gap": 2.0
+  },
+  {
+   "id": "eye_beam_charge",
+   "gain": 0.55,
+   "gap": 0.5
+  },
+  {
+   "id": "eye_beam",
+   "gain": 0.5,
+   "gap": 0.5
+  },
+  {
+   "id": "v_eye_death",
+   "gain": 0.75,
+   "gap": 1.0
+  },
+  {
+   "id": "v_sz_alert",
+   "gain": 0.65,
+   "gap": 2.0
+  },
+  {
+   "id": "sz_inhale",
+   "gain": 0.6,
+   "gap": 0.5
+  },
+  {
+   "id": "sz_wail",
+   "gain": 0.7,
+   "gap": 0.5
+  },
+  {
+   "id": "sz_hand",
+   "gain": 0.55,
+   "gap": 0.3
+  },
+  {
+   "id": "sz_lash",
+   "gain": 0.5,
+   "gap": 0.2
+  },
+  {
+   "id": "chains_break",
+   "gain": 0.7,
+   "gap": 1.0
+  },
+  {
+   "id": "v_sz_death",
+   "gain": 0.8,
+   "gap": 1.0
+  },
+  {
+   "id": "v_bat_alert",
+   "gain": 0.32,
+   "gap": 1.0
+  },
+  {
+   "id": "v_bat_attack",
+   "gain": 0.3,
+   "gap": 0.25
+  },
+  {
+   "id": "v_bat_death",
+   "gain": 0.36,
+   "gap": 0.15
+  },
+  {
+   "id": "v_undead_alert",
+   "gain": 0.42,
+   "gap": 1.2
+  },
+  {
+   "id": "v_undead_attack",
+   "gain": 0.36,
+   "gap": 0.25
+  },
+  {
+   "id": "v_undead_death",
+   "gain": 0.45,
+   "gap": 0.15
+  },
+  {
+   "id": "worm_burrow",
+   "gain": 0.42,
+   "gap": 0.5
+  },
+  {
+   "id": "v_worm_attack",
+   "gain": 0.42,
+   "gap": 0.3
+  },
+  {
+   "id": "v_worm_death",
+   "gain": 0.46,
+   "gap": 0.3
+  },
+  {
+   "id": "v_ent_alert",
+   "gain": 0.52,
+   "gap": 2.0
+  },
+  {
+   "id": "v_ent_attack",
+   "gain": 0.45,
+   "gap": 0.3
+  },
+  {
+   "id": "v_ent_death",
+   "gain": 0.6,
+   "gap": 0.5
+  },
+  {
+   "id": "v_cultist_alert",
+   "gain": 0.42,
+   "gap": 1.2
+  },
+  {
+   "id": "v_cultist_attack",
+   "gain": 0.36,
+   "gap": 0.25
+  },
+  {
+   "id": "v_cultist_hurt",
+   "gain": 0.28,
+   "gap": 0.35
+  },
+  {
+   "id": "v_cultist_death",
+   "gain": 0.45,
+   "gap": 0.2
+  },
+  {
+   "id": "v_chant_cast",
+   "gain": 0.4,
+   "gap": 0.6
+  },
+  {
+   "id": "v_vamp_alert",
+   "gain": 0.42,
+   "gap": 1.2
+  },
+  {
+   "id": "v_vamp_attack",
+   "gain": 0.36,
+   "gap": 0.25
+  },
+  {
+   "id": "v_vamp_death",
+   "gain": 0.5,
+   "gap": 0.3
+  },
+  {
+   "id": "bat_swarm",
+   "gain": 0.52,
+   "gap": 0.5
+  },
+  {
+   "id": "mist_step",
+   "gain": 0.45,
+   "gap": 0.3
+  },
+  {
+   "id": "v_ghost_alert",
+   "gain": 0.7,
+   "gap": 2.0
+  },
+  {
+   "id": "rf_war_drum",
+   "gain": 0.55,
+   "gap": 0.3
+  },
+  {
+   "id": "ghost_march",
+   "gain": 0.45,
+   "gap": 0.6
+  },
+  {
+   "id": "oath_break",
+   "gain": 0.65,
+   "gap": 0.5
+  },
+  {
+   "id": "bell_toll",
+   "gain": 0.6,
+   "gap": 0.4
+  },
+  {
+   "id": "lk_vow",
+   "gain": 0.55,
+   "gap": 0.5
+  },
+  {
+   "id": "registrar_quill",
+   "gain": 0.5,
+   "gap": 0.5
+  },
+  {
+   "id": "lg_shield_bash",
+   "gain": 0.55,
+   "gap": 0.2
+  },
+  {
+   "id": "lg_charge",
+   "gain": 0.55,
+   "gap": 0.5
+  },
+  {
+   "id": "lg_wall_crash",
+   "gain": 0.62,
+   "gap": 0.3
+  },
+  {
+   "id": "lg_spear_thrust",
+   "gain": 0.5,
+   "gap": 0.15
+  },
+  {
+   "id": "lg_spear_stuck",
+   "gain": 0.5,
+   "gap": 0.3
+  },
+  {
+   "id": "lg_shield_break",
+   "gain": 0.65,
+   "gap": 0.5
+  },
+  {
+   "id": "lg_whirl",
+   "gain": 0.52,
+   "gap": 0.3
+  },
+  {
+   "id": "lever",
+   "gain": 0.52,
+   "gap": 0.2
+  },
+  {
+   "id": "valve_turn",
+   "gain": 0.48,
+   "gap": 0.3
+  },
+  {
+   "id": "dial_turn",
+   "gain": 0.38,
+   "gap": 0.06
+  },
+  {
+   "id": "gate_open",
+   "gain": 0.5,
+   "gap": 0.5
+  },
+  {
+   "id": "gate_close",
+   "gain": 0.68,
+   "gap": 0.5
+  },
+  {
+   "id": "door_wood",
+   "gain": 0.48,
+   "gap": 0.5
+  },
+  {
+   "id": "stone_door",
+   "gain": 0.55,
+   "gap": 0.5
+  },
+  {
+   "id": "door_locked",
+   "gain": 0.42,
+   "gap": 1.0
+  },
+  {
+   "id": "key_unlock",
+   "gain": 0.52,
+   "gap": 0.3
+  },
+  {
+   "id": "chest_open",
+   "gain": 0.52,
+   "gap": 0.5
+  },
+  {
+   "id": "break_wood",
+   "gain": 0.55,
+   "gap": 0.2
+  },
+  {
+   "id": "break_stone",
+   "gain": 0.6,
+   "gap": 0.3
+  },
+  {
+   "id": "puzzle_solved",
+   "gain": 0.5,
+   "gap": 1.0
+  },
+  {
+   "id": "fit_part",
+   "gain": 0.5,
+   "gap": 0.3
+  },
+  {
+   "id": "passage",
+   "gain": 0.45,
+   "gap": 1.0
+  },
+  {
+   "id": "pickup_item",
+   "gain": 0.42,
+   "gap": 0.2
+  },
+  {
+   "id": "pickup_note",
+   "gain": 0.4,
+   "gap": 0.2
+  },
+  {
+   "id": "pickup_weapon",
+   "gain": 0.55,
+   "gap": 0.5
+  },
+  {
+   "id": "relic_absorb",
+   "gain": 0.72,
+   "gap": 1.0
+  },
+  {
+   "id": "new_mantra",
+   "gain": 0.62,
+   "gap": 1.0
+  },
+  {
+   "id": "checkpoint",
+   "gain": 0.45,
+   "gap": 0.6
+  },
+  {
+   "id": "rest",
+   "gain": 0.5,
+   "gap": 1.0
+  },
+  {
+   "id": "quest_update",
+   "gain": 0.5,
+   "gap": 1.0
+  },
+  {
+   "id": "ui_move",
+   "gain": 0.22,
+   "gap": 0.04
+  },
+  {
+   "id": "ui_confirm",
+   "gain": 0.36,
+   "gap": 0.05
+  },
+  {
+   "id": "ui_back",
+   "gain": 0.32,
+   "gap": 0.05
+  },
+  {
+   "id": "ui_open",
+   "gain": 0.4,
+   "gap": 0.1
+  },
+  {
+   "id": "dialog_next",
+   "gain": 0.22,
+   "gap": 0.05
+  },
+  {
+   "id": "map_open",
+   "gain": 0.4,
+   "gap": 0.3
+  },
+  {
+   "id": "bag_open",
+   "gain": 0.4,
+   "gap": 0.3
+  },
+  {
+   "id": "trap_arrow",
+   "gain": 0.42,
+   "gap": 0.08
+  },
+  {
+   "id": "trap_fire",
+   "gain": 0.42,
+   "gap": 0.1
+  },
+  {
+   "id": "trap_ice",
+   "gain": 0.42,
+   "gap": 0.1
+  },
+  {
+   "id": "trap_plate",
+   "gain": 0.48,
+   "gap": 0.3
+  },
+  {
+   "id": "trap_roller",
+   "gain": 0.55,
+   "gap": 0.5
+  },
+  {
+   "id": "trap_spikes",
+   "gain": 0.3,
+   "gap": 0.2
+  },
+  {
+   "id": "trap_saw",
+   "gain": 0.26,
+   "gap": 0
+  },
+  {
+   "id": "trap_blade",
+   "gain": 0.26,
+   "gap": 0
+  },
+  {
+   "id": "trap_pit_crack",
+   "gain": 0.45,
+   "gap": 0.2
+  },
+  {
+   "id": "trap_pit_collapse",
+   "gain": 0.55,
+   "gap": 0.2
+  },
+  {
+   "id": "quake_rumble",
+   "gain": 0.5,
+   "gap": 1.0
+  },
+  {
+   "id": "tremor_soft",
+   "gain": 0.36,
+   "gap": 0.6
+  },
+  {
+   "id": "cave_collapse",
+   "gain": 0.75,
+   "gap": 2.0
+  },
+  {
+   "id": "bl_ren",
+   "gain": 0.3,
+   "gap": 0.035
+  },
+  {
+   "id": "bl_todd",
+   "gain": 0.3,
+   "gap": 0.035
+  },
+  {
+   "id": "bl_villager_m",
+   "gain": 0.3,
+   "gap": 0.035
+  },
+  {
+   "id": "bl_villager_f",
+   "gain": 0.3,
+   "gap": 0.035
+  },
+  {
+   "id": "bl_elder",
+   "gain": 0.3,
+   "gap": 0.035
+  },
+  {
+   "id": "bl_goblin_child",
+   "gain": 0.3,
+   "gap": 0.035
+  },
+  {
+   "id": "bl_goblin",
+   "gain": 0.3,
+   "gap": 0.035
+  },
+  {
+   "id": "bl_grok",
+   "gain": 0.3,
+   "gap": 0.035
+  },
+  {
+   "id": "bl_pell",
+   "gain": 0.3,
+   "gap": 0.035
+  },
+  {
+   "id": "bl_aldous",
+   "gain": 0.3,
+   "gap": 0.035
+  },
+  {
+   "id": "bl_hooded",
+   "gain": 0.3,
+   "gap": 0.035
+  },
+  {
+   "id": "bl_isolde",
+   "gain": 0.3,
+   "gap": 0.035
+  },
+  {
+   "id": "bl_morrow",
+   "gain": 0.3,
+   "gap": 0.035
+  },
+  {
+   "id": "bl_lantern_knight",
+   "gain": 0.3,
+   "gap": 0.035
+  },
+  {
+   "id": "bl_ent",
+   "gain": 0.3,
+   "gap": 0.035
+  },
+  {
+   "id": "bl_narrate",
+   "gain": 0.2,
+   "gap": 0.035
+  },
+  {
+   "id": "bl_default",
+   "gain": 0.3,
+   "gap": 0.035
+  },
+  {
+   "id": "cs_narrate",
+   "gain": 0.2,
+   "gap": 0
+  },
+  {
+   "id": "cs_page",
+   "gain": 0.32,
+   "gap": 0.15
+  },
+  {
+   "id": "cs_slide",
+   "gain": 0.42,
+   "gap": 1.0
+  },
+  {
+   "id": "cs_story_bed",
+   "gain": 0.28,
+   "gap": 0
+  },
+  {
+   "id": "rock_fall",
+   "gain": 0.4,
+   "gap": 0.12
+  },
+  {
+   "id": "rock_crash",
+   "gain": 0.6,
+   "gap": 0.15
+  },
+  {
+   "id": "ceiling_crack",
+   "gain": 0.5,
+   "gap": 0.8
+  },
+  {
+   "id": "boss_leap",
+   "gain": 0.5,
+   "gap": 0.3
+  },
+  {
+   "id": "teleport_dark",
+   "gain": 0.45,
+   "gap": 0.3
+  },
+  {
+   "id": "root_spike",
+   "gain": 0.45,
+   "gap": 0.08
+  },
+  {
+   "id": "acid_splash",
+   "gain": 0.42,
+   "gap": 0.08
+  },
+  {
+   "id": "blood_splat",
+   "gain": 0.42,
+   "gap": 0.08
+  },
+  {
+   "id": "blood_spike",
+   "gain": 0.45,
+   "gap": 0.1
+  },
+  {
+   "id": "ice_shatter",
+   "gain": 0.42,
+   "gap": 0.08
+  },
+  {
+   "id": "ink_splash",
+   "gain": 0.42,
+   "gap": 0.08
+  },
+  {
+   "id": "spear_burst",
+   "gain": 0.42,
+   "gap": 0.08
+  },
+  {
+   "id": "flesh_slam",
+   "gain": 0.5,
+   "gap": 0.08
+  },
+  {
+   "id": "blood_whip",
+   "gain": 0.5,
+   "gap": 0.2
+  },
+  {
+   "id": "life_drain",
+   "gain": 0.45,
+   "gap": 0.5
+  },
+  {
+   "id": "hymn_pop",
+   "gain": 0.4,
+   "gap": 0.08
+  },
+  {
+   "id": "eye_spin",
+   "gain": 0.45,
+   "gap": 0.5
+  },
+  {
+   "id": "duo_cannon",
+   "gain": 0.55,
+   "gap": 0.12
+  },
+  {
+   "id": "duo_mortar",
+   "gain": 0.5,
+   "gap": 0.2
+  },
+  {
+   "id": "duo_shell_land",
+   "gain": 0.45,
+   "gap": 0.08
+  },
+  {
+   "id": "duo_slam",
+   "gain": 0.62,
+   "gap": 0.3
+  },
+  {
+   "id": "keg_blast",
+   "gain": 0.7,
+   "gap": 0.12
+  },
+  {
+   "id": "keg_fuse",
+   "gain": 0.45,
+   "gap": 0.25
+  },
+  {
+   "id": "statue_shatter",
+   "gain": 0.65,
+   "gap": 0.2
+  },
+  {
+   "id": "duo_engine_drop",
+   "gain": 0.75,
+   "gap": 0.5
+  },
+  {
+   "id": "reel_spin",
+   "gain": 0.42,
+   "gap": 0.5
+  },
+  {
+   "id": "reel_stop",
+   "gain": 0.5,
+   "gap": 0.3
+  },
+  {
+   "id": "reel_jolt",
+   "gain": 0.5,
+   "gap": 0.08
+  },
+  {
+   "id": "ward_break",
+   "gain": 0.7,
+   "gap": 0.5
+  },
+  {
+   "id": "rack_unseal",
+   "gain": 0.55,
+   "gap": 0.3
+  },
+  {
+   "id": "relic_claim",
+   "gain": 0.55,
+   "gap": 0.3
+  },
+  {
+   "id": "anvil_drop",
+   "gain": 0.7,
+   "gap": 0.3
+  },
+  {
+   "id": "goblin_launch",
+   "gain": 0.5,
+   "gap": 0.15
+  },
+  {
+   "id": "bolt_strike",
+   "gain": 0.5,
+   "gap": 0.1
+  },
+  {
+   "id": "engine_backfire",
+   "gain": 0.7,
+   "gap": 0.5
+  },
+  {
+   "id": "coin_spray",
+   "gain": 0.4,
+   "gap": 0.2
+  },
+  {
+   "id": "skull_wail",
+   "gain": 0.5,
+   "gap": 0.3
+  },
+  {
+   "id": "lift_grind",
+   "gain": 0.6,
+   "gap": 0.5
+  },
+  {
+   "id": "lift_jam",
+   "gain": 0.6,
+   "gap": 0.2
+  },
+  {
+   "id": "spring_boing",
+   "gain": 0.55,
+   "gap": 0.15
+  },
+  {
+   "id": "crystal_absorb",
+   "gain": 0.55,
+   "gap": 0.4
+  },
+  {
+   "id": "duo_punch",
+   "gain": 0.48,
+   "gap": 0.1
+  },
+  {
+   "id": "drill_horn",
+   "gain": 0.75,
+   "gap": 1.5
+  },
+  {
+   "id": "drill_warhorn",
+   "gain": 0.7,
+   "gap": 1.5
+  },
+  {
+   "id": "drill_spin",
+   "gain": 0.42,
+   "gap": 0
+  },
+  {
+   "id": "drill_whoosh",
+   "gain": 0.5,
+   "gap": 0.25
+  },
+  {
+   "id": "drill_deploy",
+   "gain": 0.7,
+   "gap": 1.0
+  }
+ ]
+}

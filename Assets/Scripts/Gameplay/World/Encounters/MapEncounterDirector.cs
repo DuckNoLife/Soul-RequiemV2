@@ -49,6 +49,9 @@ namespace SoulRequiem.Gameplay
         public MapFog Fog { get; private set; }
         /// <summary>Boss / mini-boss đang đánh (thanh máu lớn trên HUD).</summary>
         public EnemyAI Boss { get; private set; }
+        /// <summary>19/11 (§344): boss THỨ HAI cùng khu (song đấu, vd Brazen Reliquary + Hollow Champion). HUD vẽ thanh máu thứ hai;
+        /// BossIntro gộp làm một màn giới thiệu. Boss chính gục -> boss phụ lên làm boss chính.</summary>
+        public EnemyAI BossPartner { get; private set; }
         /// <summary>02/11: boss vừa xuất hiện (kèm gợi ý của khu, để BossIntro hiện sau bảng tên).</summary>
         public event System.Action<EnemyAI, string> BossSpawned;
         public string CurrentZoneTitle { get; private set; }
@@ -88,6 +91,16 @@ namespace SoulRequiem.Gameplay
         private int combatFrame = -1;
 
         /// <summary>04/11: đích nhiệm vụ nằm ngay trong khu Ren đang đánh -> HUD ẩn mũi tên / điểm đích trên minimap (đã tới nơi).</summary>
+        /// <summary>20/11 (§365): cơ quan đóng / mở TẠM một cổng theo tên (không đổi trạng thái "đã mở" của cổng; nạp lại map thì về như cũ)
+        /// — vd sân tập Drill Yard nhốt người chơi trong lúc kiểm tra. Trả về false nếu không có cổng tên đó.</summary>
+        public bool SetGateClosed(string gateName, bool closed)
+        {
+            if (gateCtl == null || string.IsNullOrEmpty(gateName)) return false;
+            bool any = false;
+            foreach (var g in gateCtl.All) if (g.name == gateName) { gateCtl.SetClosed(g, closed); any = true; }
+            return any;
+        }
+
         public bool TargetReachedInFight(Vector3 target)
         {
             if (player == null || !InCombat) return false;
@@ -107,9 +120,16 @@ namespace SoulRequiem.Gameplay
         private Vector3 respawnPoint;
         private bool respawning;
 
+        /// <summary>19/11 (§343): một khu vừa được LÀM LẠI (người chơi gục / ải chưa xong hồi quái) — truyền khung khu.
+        /// Đồ trang trí do boss làm thay đổi (quan tài Isolde vỡ / bị tráo chỗ) nghe sự kiện này để dựng lại.</summary>
+        public static event System.Action<Rect> ZoneReset;
+        internal static void RaiseZoneReset(Rect r) => ZoneReset?.Invoke(r);
+
         private void Awake()
         {
             Instance = this;
+            // 19/11 (§343): âm theo khu — Core.Sfx hỏi điểm này thuộc khu nào
+            SoulRequiem.Core.Sfx.ZoneOf = p => TryGetZoneAt(p, out var zid, out _) ? zid : null;
             Flags = new WorldFlags(OnFlagSet);
             Hints.Clear();                   // gợi ý của scene trước không mang sang
             CutsceneState.Reset(); TutorialPrompt.Hide();
@@ -118,7 +138,7 @@ namespace SoulRequiem.Gameplay
 
         private void OnDestroy()
         {
-            if (Instance == this) Instance = null;
+            if (Instance == this) { Instance = null; SoulRequiem.Core.Sfx.ZoneOf = null; }
         }
 
         private void Start()
@@ -146,6 +166,10 @@ namespace SoulRequiem.Gameplay
                 string sceneName = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
                 FlagGroup = mp != null ? mp.GetString(MapSchema.Prop.FlagGroup, sceneName) : sceneName;
                 if (string.IsNullOrEmpty(FlagGroup)) FlagGroup = sceneName;
+                // 17/11 (§306): trói theo map (tước kiếm / phong Mantra tới khi đủ cờ) — xem MapRestraint
+                string disarm = mp != null ? mp.GetString("disarm_until", "") : "", seal = mp != null ? mp.GetString("mantra_seal_until", "") : "";
+                if ((disarm.Length > 0 || seal.Length > 0) && GetComponent<MapRestraint>() == null)
+                    gameObject.AddComponent<MapRestraint>().Setup(this, disarm, seal, mp.GetString("disarm_text", ""), mp.GetString("mantra_seal_text", ""));
             }
             EnsureMechanics();
             gateCtl = new GateController(layout.Gates);
@@ -166,6 +190,7 @@ namespace SoulRequiem.Gameplay
                 if (lo != null) { lo.owned.Clear(); for (int i = 0; i < PlayerLoadout.SlotCount; i++) lo.slots[i] = null; GameSession.ApplyLoadout(lo); }
             }
             triggerHandler.RegisterSigns();
+            triggerHandler.RegisterPickups();       // 18/11 (§326): đồ nhặt = lại gần nhấn T
             triggerHandler.RegisterExits();          // 08/11 (§190): lối ra nhấn T (leo dây, trèo xuống hố)
             triggerHandler.ApplyScrollLocks();       // 02/11: chiêu trong cuộn giấy chưa nhặt -> chưa có
 
@@ -200,6 +225,7 @@ namespace SoulRequiem.Gameplay
                 }
             }
             gateCtl.ApplyStartState();
+            RefreshStandIns();                // 16/11 (§271): boss / quái đứng sẵn trước trận (stand_in)
             OnFlagSet(false);                // cờ có thể đã bật trước Start (cơ quan khởi động sớm)
 
             if (triggerHandler.TryGetPlayerStart(out var start))
@@ -228,6 +254,7 @@ namespace SoulRequiem.Gameplay
                 Hints.Show("Progress restored - you wake by the last fire you lit.", 3.5f);
                 Debug.Log($"[Save] Đã nạp {save.flags.Length} cờ, hồi sinh tại {respawnPoint}.");
             }
+            if (restore) UndoZoneFlagsOnLoad();   // 19/11 (§343)
 
             // 05/11: sương bản đồ — tạo SAU khi nạp cờ bản lưu (khu đã mở hiện rõ ngay)
             var superMap = mapRoot.GetComponent<SuperMap>();
@@ -260,6 +287,8 @@ namespace SoulRequiem.Gameplay
             // 08/11: bỏ CombatTutorials (màn J / F) theo yêu cầu người dùng
             // 01/11: dân làng (lớp "npcs") -> VillagerDirector
             if (npcs && FindFirstObjectByType<VillagerDirector>() == null) gameObject.AddComponent<VillagerDirector>();
+            // 16/11 (§237): cảnh cốt truyện viết bằng dữ liệu Tiled (object type "story")
+            if (GetComponent<StoryScenes>() == null) gameObject.AddComponent<StoryScenes>();
             // 02/11: cảnh mở đầu (map có điểm "intro_cam_1")
             foreach (var t in mapRoot.GetComponentsInChildren<Transform>(true))
                 if (t.name == "intro_cam_1" || (t.GetComponent<SuperTiled2Unity.SuperObject>() is var o && o != null && o.m_TiledName == "intro_cam_1"))
@@ -327,6 +356,7 @@ namespace SoulRequiem.Gameplay
             }
 
             triggerHandler.Tick(pos);
+            TickAutoRespawn(pos);                                        // 17/11 (§285): vào khu -> ghi điểm hồi sinh ngầm
             TickGateLocks(pos);
             Fog?.Tick(player.position);
 
@@ -358,6 +388,9 @@ namespace SoulRequiem.Gameplay
                 // cổng khoá đóng sập trước mặt người chơi khi họ còn ở ngoài, không vào được boss).
                 Vector2 gc = g.bounds.center, zc = z.rect.center;
                 bool horizontal = g.bounds.width >= g.bounds.height;
+                // 20/11: cổng cao-hẹp đặt trong tường NGANG (vd cổng vòm 2x4 ô ở hành lang Warden Gallery, Map 4) -> tâm khu lệch chủ yếu theo y:
+                // xét phía theo y, nếu không Ren đứng nửa phải hành lang / phòng bị coi là "ngoài cổng" và trận không bắt đầu.
+                if (!horizontal && Mathf.Abs(zc.y - gc.y) > Mathf.Abs(zc.x - gc.x) * 2f) horizontal = true;
                 float side = horizontal ? (pos.y - gc.y) * (zc.y - gc.y) : (pos.x - gc.x) * (zc.x - gc.x);
                 if (side < 0f) return false;
             }
@@ -385,11 +418,13 @@ namespace SoulRequiem.Gameplay
         private void StartZone(EncounterZone z)
         {
             z.started = true;
+            z.bossDown = false;                          // 19/11 (§343)
             if (!string.IsNullOrEmpty(z.stage)) lastStage = z.stage;   // 08/11: ải đang đánh (chọn điểm hồi sinh khi gục)
             Flags.Set(z.id + "_started");                // cờ cho cơ quan (vd. ẩn Con Mắt "đang uống" khi trận đấu bắt đầu)
             // 02/11: khu có boss ở đợt đầu -> BossIntro hiện gợi ý sau bảng tên
             if (!string.IsNullOrEmpty(z.hint) && !(BossSpawned != null && BossInFirstWave(z))) Hints.Show(z.hint, 4f);
             gateCtl.SetArenaClosed(z.id, true);          // khóa đấu trường
+            RefreshStandIns();                           // 16/11 (§271): bỏ diễn viên đứng sẵn — quái thật sinh đúng chỗ đó
             NextWave(z);
         }
 
@@ -404,6 +439,7 @@ namespace SoulRequiem.Gameplay
 
         private void NextWave(EncounterZone z)
         {
+            z.quietSince = -1f; z.stragglersCalled = false; z.fought = false;   // 19/11 (§340); 20/11
             z.waveIndex++;
             if (z.waveIndex >= z.waveOrder.Count) return;
             int w = z.waveOrder[z.waveIndex];
@@ -470,10 +506,80 @@ namespace SoulRequiem.Gameplay
             int before = z.alive.Count;
             z.alive.RemoveAll(e => e == null || e.Health.IsDead);
             z.killed += before - z.alive.Count;
+            CheckStragglers(z);                                          // 19/11 (§340)
             if (z.alive.Count > 0 || z.pending > 0) return;
             if (z.waveIndex < z.waveOrder.Count - 1) { NextWave(z); return; }
             foreach (var c in z.caves) if (c != null && !c.Done) return;
+            // 19/11 (§343): khu boss mà boss biến mất không gục (bị xoá giữa chừng) -> KHÔNG tính là thắng: làm lại khu
+            if (HasBoss(z) && !z.bossDown)
+            {
+                Debug.LogWarning("[Map] Khu boss " + z.id + " hết quái nhưng boss chưa gục -> làm lại khu.");
+                z.started = false; z.waveIndex = -1; z.killed = 0; z.pending = 0; z.generation++;
+                if (gateCtl.HasArenaLock(z.id)) gateCtl.SetArenaClosed(z.id, false);
+                RaiseZoneReset(z.rect);
+                return;
+            }
             ClearZone(z);
+        }
+
+        /// <summary>19/11 (§343): khu đang đánh dở (chưa dọn) có thuộc tính Tiled `reset_on_death` = "cờ,cờ" -> người chơi gục thì GỠ các cờ đó
+        /// (vd Isolde: "west_bell_rung,isolde_summoned" — chuông Tây lại phải rung, cảnh Isolde kéo Ren xuống Bower chạy lại, rồi đánh lại từ đầu;
+        /// trước đây chuông đã rung + cảnh đã chạy nên không còn đường quay lại trận). Cơ quan gắn với cờ tự mở lại (Mechanism.OnFlagsReset).</summary>
+        private void UndoZoneFlagsOnDeath()
+        {
+            if (layout == null) return;
+            foreach (var z in layout.Zones.Values)
+                if (z.started && !z.cleared && z.resetOnDeath.Length > 0) UndoFlags(z);
+        }
+
+        private void UndoFlags(EncounterZone z)
+        {
+            foreach (var f in z.resetOnDeath.Split(','))
+                if (f.Trim().Length > 0) Flags.Unset(f.Trim());
+        }
+
+        /// <summary>19/11 (§343): nạp bản lưu: khu `reset_on_death` chưa dọn mà điểm hồi sinh nằm NGOÀI khu (thoát game giữa trận, bản lưu cũ)
+        /// -> gỡ cờ như khi gục, để không kẹt ngoài đấu trường.</summary>
+        private void UndoZoneFlagsOnLoad()
+        {
+            if (layout == null) return;
+            foreach (var z in layout.Zones.Values)
+                if (!z.cleared && z.resetOnDeath.Length > 0 && !z.rect.Contains((Vector2)respawnPoint)) UndoFlags(z);
+        }
+
+        // ---- 19/11 (§340): QUÁI SÓT. Lỗi gặp ở Map 3b The Drowned Muster: 2 Grave Worm đợt 2 sinh ở góc phòng tối, không bò, chỉ thấy Ren
+        // trong ~3 đv -> đứng yên ở miệng hố như đồ trang trí; người chơi tưởng đã hạ hết, cửa không mở.
+        // Luật chung mọi map: khu (không phải boss) còn ≤ 2 quái, hết lượt chờ sinh, Ren đứng trong khu và 4 giây không con nào giao chiến
+        // -> chúng lao về phía Ren (Provoke: bỏ dây xích, sâu đào hầm tới), hiện chấm đỏ trên minimap, dòng nhắc một lần.
+        private const float StragglerQuiet = 4f;
+        private const int StragglerMax = 2;
+
+        private void CheckStragglers(EncounterZone z)
+        {
+            if (z.stragglersCalled || z.pending > 0 || z.alive.Count == 0 || z.alive.Count > StragglerMax || HasBoss(z) || player == null || !z.rect.Contains((Vector2)player.position))
+            { if (!z.stragglersCalled) z.quietSince = -1f; return; }
+            foreach (var e in z.alive)
+                if (e != null && (e.Aggro || e.Summoned)) { z.fought = true; z.quietSince = -1f; return; }
+            // 20/11 (người dùng: goblin đầu game chạy cả quãng xa tới chỗ Ren thay vì đang đốt nhà): chỉ gọi quái sót khi đợt này ĐÃ giao chiến
+            // (Ren đã đánh nhau trong khu rồi mới còn sót vài con trốn góc). Quái chưa từng gây hấn = đang làm việc của nó, chờ Ren tới gần.
+            if (!z.fought) { z.quietSince = -1f; return; }
+            if (z.quietSince < 0f) { z.quietSince = Time.time; return; }
+            if (Time.time - z.quietSince < StragglerQuiet || CutsceneState.Active) return;
+            z.stragglersCalled = true;
+            foreach (var e in z.alive) if (e != null && !e.Health.IsDead) e.Provoke();
+            Hints.Show("Something still stirs in the dark...", 3f);
+        }
+
+        /// <summary>19/11 (§340): quái sót đã được gọi (HUD vẽ chấm đỏ trên minimap).</summary>
+        public static IEnumerable<EnemyAI> Stragglers()
+        {
+            var d = Instance;
+            if (d == null || d.layout == null) yield break;
+            foreach (var z in d.layout.Zones.Values)
+            {
+                if (!z.stragglersCalled || z.cleared) continue;
+                foreach (var e in z.alive) if (e != null && e.Health != null && !e.Health.IsDead) yield return e;
+            }
         }
 
         private void ClearZone(EncounterZone z)
@@ -524,12 +630,20 @@ namespace SoulRequiem.Gameplay
             if (p.props.GetBool(MapSchema.Prop.Provoke, false)) e.Provoke();   // 06/11: phục kích — chạy tới Ren ngay
             if (p.props.GetBool(MapSchema.Prop.Boss, false))
             {
-                Boss = e;
+                // 19/11 (§344): song đấu — boss chính còn sống trong cùng khu -> con này là boss phụ
+                if (Boss != null && Boss != e && Boss.Health != null && !Boss.Health.IsDead && z.alive.Contains(Boss)) BossPartner = e;
+                else { Boss = e; BossPartner = null; }
+                e.Health.Died += _ =>
+                {
+                    if (BossPartner != null && BossPartner.Health != null && !BossPartner.Health.IsDead && e == Boss) { Boss = BossPartner; BossPartner = null; }
+                    else if (e == BossPartner) BossPartner = null;
+                    // §343: khu boss chỉ "dọn xong" khi MỌI boss của khu đã gục (z.alive vẫn giữ con còn lại)
+                    z.bossDown = true;
+                };
                 e.Phase2Reached += _ =>
                 {
-                    bool any = false;
-                    foreach (var q in z.points) if (q.eventWave) { Spawn(z, q); any = true; }
-                    if (any) Hints.Show($"{e.displayName} calls for reinforcements!", 2.5f);
+                    foreach (var q in z.points) if (q.eventWave) Spawn(z, q);
+                    // 16/11 (§269): bỏ thông báo thừa — hình / hoạt ảnh / bảng tên boss đã thể hiện
                 };
                 BossSpawned?.Invoke(e, z.waveIndex <= 0 ? z.hint : "");
             }
@@ -598,6 +712,7 @@ namespace SoulRequiem.Gameplay
                 {
                     Flags.Set(KeyRing.UsedFlag(g.requiresKey));
                     Flags.Set(g.name + "_unlocked");                  // -> OnFlagSet mở cổng
+                    SfxHooks.KeyUsed(g.bounds.center); // 19/11 (§335): âm
                     Hints.Show($"Used: {KeyRing.NameOf(g.requiresKey)}. The lock turns.", 2.5f);
                     CameraFollow.KickMain(Vector2.down, 0.02f, 0.12f);
                     continue;
@@ -605,6 +720,7 @@ namespace SoulRequiem.Gameplay
                 if (g.lockedSay.Length == 0) continue;
                 if (gateBarkAt.TryGetValue(g, out float t) && Time.time < t) continue;
                 gateBarkAt[g] = Time.time + 4f;
+                SfxHooks.DoorLocked(g.bounds.center); // 19/11 (§335): âm
                 StartCoroutine(GateBark(g, pos));
             }
         }
@@ -648,6 +764,9 @@ namespace SoulRequiem.Gameplay
 
         // ------------------------------------------------------------------ toạ độ
         /// <summary>Đổi toạ độ ô Tiled (x phải, y xuống) sang toạ độ thế giới.</summary>
+        /// <summary>16/11 (§237): cảnh cốt truyện rời map qua lối ra theo tên (lệnh `exit` của StoryScenes).</summary>
+        public void ExitNow(string exitName) { if (triggerHandler != null) triggerHandler.ExitNow(exitName); }
+
         public Vector3 TileToWorld(float tx, float ty)
         {
             var p = mapRoot != null ? mapRoot.TransformPoint(new Vector3(tx * tileSize, -ty * tileSize, 0f))
@@ -666,15 +785,18 @@ namespace SoulRequiem.Gameplay
             Vector2 diedAt = player.position;
             // màn chết (RequiemMenus) hiện chữ YOU HAVE FALLEN; không hiện gợi ý trùng
             yield return new WaitForSeconds(respawnDelay);
-            ChooseStageRespawn(diedAt);                                  // 08/11: gục trong ải chưa xong -> tỉnh ở đầu ải
+            if (!ChooseStageRespawn(diedAt))                             // 08/11: gục trong ải chưa xong -> tỉnh ở đầu ải
+                ChooseNearestRespawn(diedAt);                            // 17/11 (§285): còn lại -> điểm đã qua gần chỗ gục nhất
             player.position = respawnPoint;
             playerHealth.Revive();
             var kit = player.GetComponent<PlayerCombat>();
             if (kit != null) kit.RefillPotions();                       // 02/11: hồi sinh = đầy máu + nạp lại bình
+            UndoZoneFlagsOnDeath();                                      // 19/11 (§343): vd chuông Tây -> phải rung lại, Isolde kéo xuống đánh lại
             ResetLockedZones();
             ResetOpenStages();                                           // 08/11: mọi ải chưa xong hồi quái
+            SaveProgress();                                              // 19/11 (§343): lưu ngay trạng thái đã làm lại (thoát game giữa chừng không kẹt)
             respawning = false;
-            FirstTimeHints.Show("tut_death", $"You wake at the {ShrineMarker.Noun} where this trial began, and its dead have risen again. Fight through to its end to make your progress stick.", 7f);
+            FirstTimeHints.Show("tut_death", "You wake close to where you fell. Foes you had not finished have risen again.", 6f);
         }
 
         /// <summary>Người chơi gục và hồi sinh: mọi khu đang đánh dở được làm lại từ đầu — xoá quái còn lại, mở khoá đấu trường.
@@ -692,15 +814,63 @@ namespace SoulRequiem.Gameplay
                 if (z.caves.Count > 0) continue;                       // khu có hang sinh quái: hang không làm lại được -> giữ nguyên
                 bool arena = gateCtl.HasArenaLock(z.id);
                 foreach (var e in z.alive)
-                    if (e != null) { if (e == Boss) Boss = null; Destroy(e.gameObject); }
+                    if (e != null) { if (e == Boss) Boss = null; if (e == BossPartner) BossPartner = null; Destroy(e.gameObject); }
                 z.alive.Clear();
                 if (arena) gateCtl.SetArenaClosed(z.id, false);
                 z.started = false;
+                z.quietSince = -1f; z.stragglersCalled = false; z.fought = false;   // 19/11 (§340); 20/11
+                z.bossDown = false;                               // 19/11 (§343)
+                RaiseZoneReset(z.rect);                           // 19/11 (§343)
                 z.waveIndex = -1;
                 z.killed = 0;
                 z.pending = 0; z.generation++;
                 z.holdNearRespawn = z.rect.Contains((Vector2)respawnPoint);
             }
+            RefreshStandIns();                                     // 16/11 (§271): khu làm lại -> diễn viên đứng sẵn hiện lại
+        }
+
+        // ------------------------------------------------------------------ 16/11 (§271): diễn viên đứng sẵn (stand_in)
+        /// <summary>Điểm sinh đợt đầu có thuộc tính `stand_in` = true: khi khu CHƯA bắt đầu / chưa dọn, đặt sẵn một "diễn viên" (chỉ hình + hoạt ảnh Idle,
+        /// không AI / máu / va chạm) đúng chỗ đó — người chơi thấy boss từ xa (vd cảnh động đất nhìn về Stone Ring). Trận bắt đầu -> xoá, quái thật sinh đúng chỗ.</summary>
+        private void RefreshStandIns()
+        {
+            if (layout == null) return;
+            foreach (var z in layout.Zones.Values)
+            {
+                bool show = !z.started && !z.cleared;
+                if (!show) { foreach (var g in z.standIns) if (g != null) Destroy(g); z.standIns.Clear(); continue; }
+                if (z.standIns.Count > 0) continue;
+                int first = z.waveOrder.Count > 0 ? z.waveOrder[0] : 1;
+                foreach (var p in z.points)
+                {
+                    if (p.eventWave || p.IsCave || p.wave != first || p.props == null || !p.props.GetBool("stand_in", false)) continue;
+                    var g = MakeStandIn(p.enemy, p.pos);
+                    if (g != null) z.standIns.Add(g);
+                }
+            }
+        }
+
+        private GameObject MakeStandIn(string enemy, Vector3 at)
+        {
+            var prefab = spawner != null ? spawner.Prefab(enemy) : null;
+            if (prefab == null) return null;
+            var srcSr = prefab.GetComponentInChildren<SpriteRenderer>(true);
+            var srcAn = prefab.GetComponentInChildren<Animator>(true);
+            if (srcSr == null) return null;
+            var go = new GameObject("StandIn " + enemy);
+            go.transform.position = at;
+            go.transform.localScale = srcSr.transform.lossyScale;
+            var sr = go.AddComponent<SpriteRenderer>();
+            sr.sprite = srcSr.sprite; sr.sharedMaterial = srcSr.sharedMaterial;
+            sr.sortingLayerID = srcSr.sortingLayerID; sr.sortingOrder = srcSr.sortingOrder; sr.spriteSortPoint = srcSr.spriteSortPoint;
+            if (srcAn != null && srcAn.runtimeAnimatorController != null)
+            {
+                var an = go.AddComponent<Animator>();
+                an.runtimeAnimatorController = srcAn.runtimeAnimatorController;
+                foreach (var st in new[] { "Idle_S", "Idle" })
+                    if (an.HasState(0, Animator.StringToHash(st))) { an.Play(Animator.StringToHash(st), 0, Random.value); break; }
+            }
+            return go;
         }
     }
 }

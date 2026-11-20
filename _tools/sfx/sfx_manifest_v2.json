@@ -1,0 +1,2209 @@
+{
+ "note": "§335 PixelLab create_sound_effect",
+ "sounds": [
+  {
+   "id": "pl_swing",
+   "tier": 1,
+   "takes": 3,
+   "dur": 0.6,
+   "gain": 0.38,
+   "gap": 0,
+   "prompt": "A single fast katana swing cutting the air, short sharp whoosh, no impact. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "pl_swing_heavy",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.8,
+   "gain": 0.48,
+   "gap": 0,
+   "prompt": "A powerful finishing katana slash, deeper heavier whoosh with a faint steel ring at the end. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "pl_dodge",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.6,
+   "gain": 0.38,
+   "gap": 0.1,
+   "prompt": "A quick combat roll on a stone floor, cloth rustle and a light body scuff. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "pl_hurt",
+   "tier": 3,
+   "takes": 3,
+   "dur": 0.6,
+   "gain": 0.55,
+   "gap": 0.15,
+   "prompt": "A young man grunting in pain as he is struck, short breathy grunt with a dull body impact. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "pl_death",
+   "tier": 4,
+   "takes": 1,
+   "dur": 2.0,
+   "gain": 0.75,
+   "gap": 0,
+   "prompt": "A swordsman collapsing onto a stone floor, his sword clattering beside him, a last exhale. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "footstep",
+   "tier": 1,
+   "takes": 4,
+   "dur": 0.3,
+   "gain": 0.15,
+   "gap": 0.12,
+   "prompt": "One soft leather boot footstep on a stone floor. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "footstep_grass",
+   "tier": 1,
+   "takes": 4,
+   "dur": 0.3,
+   "gain": 0.15,
+   "gap": 0.12,
+   "prompt": "One soft leather boot footstep on grass and packed dirt. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "flask_drink",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.5,
+   "gap": 0,
+   "prompt": "Two gulps from a small glass flask, then a soft warm magical shimmer of healing. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "flask_empty",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.5,
+   "gain": 0.35,
+   "gap": 0.4,
+   "prompt": "An empty glass flask shaken, a faint dry clink, nothing inside. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "iai_charge",
+   "tier": 2,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.4,
+   "gap": 0,
+   "prompt": "A katana slowly sliding a few centimeters out of its wooden scabbard, tense quiet metal scrape. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "iai_ready",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.5,
+   "gain": 0.45,
+   "gap": 0,
+   "prompt": "One crisp bright ringing ping of a steel blade. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "iai_release",
+   "tier": 3,
+   "takes": 2,
+   "dur": 0.8,
+   "gain": 0.62,
+   "gap": 0,
+   "prompt": "A lightning fast iaido draw slash, piercing whoosh ending in a sharp ringing steel note. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "sword_draw",
+   "tier": 3,
+   "takes": 1,
+   "dur": 0.8,
+   "gain": 0.5,
+   "gap": 0,
+   "prompt": "A katana drawn from a wooden scabbard, clean metallic slide. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "sword_sheathe",
+   "tier": 3,
+   "takes": 1,
+   "dur": 0.8,
+   "gain": 0.45,
+   "gap": 0,
+   "prompt": "A katana pushed back into a wooden scabbard, metal slide ending in a soft click. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "body_fall",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.0,
+   "gain": 0.55,
+   "gap": 0,
+   "prompt": "A body collapsing onto a stone floor, heavy cloth thud. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "blunt_strike",
+   "tier": 3,
+   "takes": 1,
+   "dur": 0.6,
+   "gain": 0.6,
+   "gap": 0,
+   "prompt": "A hard blow to the back of the neck, dull heavy thud. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "hit_flesh",
+   "tier": 1,
+   "takes": 3,
+   "dur": 0.4,
+   "gain": 0.38,
+   "gap": 0.04,
+   "prompt": "A blade cutting into flesh, short wet slice impact. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "hit_armor",
+   "tier": 1,
+   "takes": 3,
+   "dur": 0.4,
+   "gain": 0.38,
+   "gap": 0.04,
+   "prompt": "A katana striking steel plate armor, short sharp metallic clang. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "hit_bone",
+   "tier": 1,
+   "takes": 2,
+   "dur": 0.4,
+   "gain": 0.38,
+   "gap": 0.04,
+   "prompt": "A blade striking dry bones, sharp hollow crack and rattle. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "hit_wood",
+   "tier": 1,
+   "takes": 2,
+   "dur": 0.4,
+   "gain": 0.38,
+   "gap": 0.04,
+   "prompt": "A blade chopping into thick living wood, dull woody thunk. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "hit_slime",
+   "tier": 1,
+   "takes": 2,
+   "dur": 0.4,
+   "gain": 0.38,
+   "gap": 0.04,
+   "prompt": "A blade slicing into soft slimy flesh, wet squelch. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "hit_block",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.5,
+   "gain": 0.5,
+   "gap": 0.06,
+   "prompt": "A blade hitting a large iron tower shield, loud dull metal clang. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "parry",
+   "tier": 3,
+   "takes": 2,
+   "dur": 0.6,
+   "gain": 0.6,
+   "gap": 0.1,
+   "prompt": "A sword parry, bright ringing steel clash with a short shimmer. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "mantra_groundslam",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.4,
+   "gain": 0.62,
+   "gap": 0,
+   "prompt": "A powerful ground stomp: deep heavy earth impact, stone cracking outward, rumbling debris. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "mantra_ichorflask",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.55,
+   "gap": 0,
+   "prompt": "A glass vial thrown and shattering, followed by a corrosive bubbling hiss. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "mantra_severingdraw",
+   "tier": 3,
+   "takes": 1,
+   "dur": 0.9,
+   "gain": 0.6,
+   "gap": 0,
+   "prompt": "A blindingly fast dash and draw cut: rushing air followed by a clean ringing slice. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "mantra_eyeorbs",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.5,
+   "gap": 0,
+   "prompt": "Three small magical embers igniting and whirring into flight, soft blue fire crackle. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "mantra_eyeveil",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.4,
+   "gain": 0.5,
+   "gap": 0,
+   "prompt": "A shimmering magical veil wrapping around a body, soft glassy hum rising. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "mantra_eyeray",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.6,
+   "gain": 0.58,
+   "gap": 0,
+   "prompt": "A beam of pure blue holy light charging and firing, bright humming energy beam. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "mantra_vesselhand",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.6,
+   "gap": 0,
+   "prompt": "A giant fleshy hand bursting out of the ground and slamming shut, wet heavy grab. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "mantra_vesselroots",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.55,
+   "gap": 0,
+   "prompt": "Thick fleshy roots bursting from the ground and wrapping tight, wet creaking. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "mantra_vesselwail",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.6,
+   "gain": 0.6,
+   "gap": 0,
+   "prompt": "An eerie distorted wail that sucks the air inward, low ghostly scream. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "mantra_earafterecho",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.5,
+   "gap": 0,
+   "prompt": "A strike echoing back a moment later, layered resonant metallic echo. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "mantra_eardiscord",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.5,
+   "gap": 0,
+   "prompt": "A dissonant ringing tone that bends and warps, unsettling sonic pulse. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "mantra_earforewarning",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.45,
+   "gap": 0,
+   "prompt": "A faint high crystal chime with a soft breathy shimmer, calm and alert. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "en_swing",
+   "tier": 1,
+   "takes": 3,
+   "dur": 0.5,
+   "gain": 0.32,
+   "gap": 0.08,
+   "prompt": "A heavy crude weapon swung through the air, deep short whoosh. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "en_claw",
+   "tier": 1,
+   "takes": 2,
+   "dur": 0.4,
+   "gain": 0.32,
+   "gap": 0.08,
+   "prompt": "A fast animal claw swipe through the air, quick whoosh. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "en_death",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.9,
+   "gain": 0.45,
+   "gap": 0.1,
+   "prompt": "A creature's body falling heavily to the ground, thud with a puff of dust. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "arrow_shot",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.5,
+   "gain": 0.42,
+   "gap": 0.08,
+   "prompt": "A bow string released with an arrow whooshing away. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "proj_magic",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.6,
+   "gain": 0.38,
+   "gap": 0.08,
+   "prompt": "A small dark magic orb launched, low whooshing hum. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "ground_strike",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.8,
+   "gain": 0.45,
+   "gap": 0.1,
+   "prompt": "Spikes of earth erupting from the ground, sharp stone burst. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "shockwave",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.0,
+   "gain": 0.55,
+   "gap": 0.3,
+   "prompt": "A powerful magical shockwave ring expanding outward, deep whoom. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "gas_hiss",
+   "tier": 2,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.38,
+   "gap": 0.3,
+   "prompt": "A toxic gas cloud bursting and hissing. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "heavy_land",
+   "tier": 3,
+   "takes": 2,
+   "dur": 0.8,
+   "gain": 0.6,
+   "gap": 0.2,
+   "prompt": "A huge heavy creature landing on stone after a jump, booming thud with debris. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "boss_intro",
+   "tier": 4,
+   "takes": 1,
+   "dur": 2.2,
+   "gain": 0.62,
+   "gap": 2.0,
+   "prompt": "A single deep heavy impact thud, like a giant fist hitting packed earth, followed by a short low rumble of crumbling dirt. Noisy and percussive. No bell, no gong, no metal, no musical tone, no drone. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "boss_slam",
+   "tier": 3,
+   "takes": 2,
+   "dur": 1.2,
+   "gain": 0.62,
+   "gap": 0.15,
+   "prompt": "A massive ground slam, heavy stone impact with falling debris. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "boss_death",
+   "tier": 4,
+   "takes": 1,
+   "dur": 3.0,
+   "gain": 0.8,
+   "gap": 1.0,
+   "prompt": "A huge creature collapsing, deep crash and a long rumble fading out. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "st_bleed",
+   "tier": 1,
+   "takes": 1,
+   "dur": 0.4,
+   "gain": 0.3,
+   "gap": 0.15,
+   "prompt": "A short wet blood spurt splash. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "st_burn",
+   "tier": 1,
+   "takes": 1,
+   "dur": 0.6,
+   "gain": 0.3,
+   "gap": 0.15,
+   "prompt": "Fire igniting with a quick whoosh and crackle. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "st_chill",
+   "tier": 1,
+   "takes": 1,
+   "dur": 0.6,
+   "gain": 0.3,
+   "gap": 0.15,
+   "prompt": "Ice crystals forming fast, crisp crackling freeze. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "st_bind",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.8,
+   "gain": 0.4,
+   "gap": 0.15,
+   "prompt": "Thick roots bursting from the ground, wooden creak and soil crunch. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "st_mark",
+   "tier": 1,
+   "takes": 1,
+   "dur": 0.5,
+   "gain": 0.3,
+   "gap": 0.15,
+   "prompt": "An eerie magical mark, short dissonant glassy chime. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "v_goblin_alert",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.8,
+   "gain": 0.42,
+   "gap": 1.2,
+   "prompt": "A small goblin shrieking a raspy battle cry, nasty and high pitched. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_goblin_attack",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.5,
+   "gain": 0.36,
+   "gap": 0.25,
+   "prompt": "A small goblin's short effortful grunt as it attacks, raspy. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_goblin_hurt",
+   "tier": 1,
+   "takes": 2,
+   "dur": 0.4,
+   "gain": 0.28,
+   "gap": 0.35,
+   "prompt": "A small goblin's short pained yelp, raspy. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_goblin_death",
+   "tier": 2,
+   "takes": 2,
+   "dur": 1.0,
+   "gain": 0.45,
+   "gap": 0.2,
+   "prompt": "A small goblin's dying screech that fades out. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_troll_alert",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.6,
+   "gain": 0.65,
+   "gap": 2.0,
+   "prompt": "A huge troll chieftain bellowing a deep furious roar. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_troll_attack",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.7,
+   "gain": 0.5,
+   "gap": 0.3,
+   "prompt": "A huge troll's heavy effortful grunt as it swings a club. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_troll_hurt",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.5,
+   "gain": 0.4,
+   "gap": 0.5,
+   "prompt": "A huge troll's short pained growl. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_troll_death",
+   "tier": 4,
+   "takes": 1,
+   "dur": 2.0,
+   "gain": 0.7,
+   "gap": 1.0,
+   "prompt": "A huge troll dying, a long deep groan fading out. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_bear_alert",
+   "tier": 2,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.55,
+   "gap": 2.0,
+   "prompt": "An enraged bear roaring. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_bear_attack",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.6,
+   "gain": 0.45,
+   "gap": 0.3,
+   "prompt": "A bear's short aggressive huff and snarl. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_bear_death",
+   "tier": 2,
+   "takes": 1,
+   "dur": 1.4,
+   "gain": 0.55,
+   "gap": 0.5,
+   "prompt": "A bear's dying groan. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_reptile_alert",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.8,
+   "gain": 0.38,
+   "gap": 1.2,
+   "prompt": "A large lizard hissing threateningly. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_reptile_attack",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.5,
+   "gain": 0.36,
+   "gap": 0.25,
+   "prompt": "A lizard's quick hiss and snapping jaws. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_reptile_death",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.8,
+   "gain": 0.4,
+   "gap": 0.2,
+   "prompt": "A lizard dying with a weak rasping hiss. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_spider_alert",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.8,
+   "gain": 0.38,
+   "gap": 1.2,
+   "prompt": "A giant spider clicking and chittering its mandibles. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_spider_attack",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.5,
+   "gain": 0.36,
+   "gap": 0.25,
+   "prompt": "A giant spider's sharp screech as it lunges. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_spider_death",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.9,
+   "gain": 0.4,
+   "gap": 0.2,
+   "prompt": "A giant spider dying, legs scraping, wet crunch and a fading chitter. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_rat_alert",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.6,
+   "gain": 0.32,
+   "gap": 1.0,
+   "prompt": "A big sewer rat squeaking aggressively. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_rat_attack",
+   "tier": 1,
+   "takes": 2,
+   "dur": 0.4,
+   "gain": 0.3,
+   "gap": 0.25,
+   "prompt": "A rat's quick squeal as it bites. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_rat_death",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.6,
+   "gain": 0.36,
+   "gap": 0.15,
+   "prompt": "A rat's short dying squeal. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_toad_alert",
+   "tier": 2,
+   "takes": 2,
+   "dur": 1.0,
+   "gain": 0.42,
+   "gap": 1.5,
+   "prompt": "A giant toad's deep wet croak. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_toad_attack",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.6,
+   "gain": 0.38,
+   "gap": 0.3,
+   "prompt": "A giant toad's wet grunt and slurp as it strikes. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_toad_death",
+   "tier": 2,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.48,
+   "gap": 0.3,
+   "prompt": "A giant toad dying, a deflating gurgling croak. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "toad_tongue",
+   "tier": 3,
+   "takes": 1,
+   "dur": 0.8,
+   "gain": 0.55,
+   "gap": 0.3,
+   "prompt": "A long sticky tongue whipping out and snapping back, wet lash. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "toad_burp",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.4,
+   "gain": 0.55,
+   "gap": 0.5,
+   "prompt": "An enormous toad letting out a thick wet belch with bubbling. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "glass_break",
+   "tier": 3,
+   "takes": 2,
+   "dur": 1.0,
+   "gain": 0.55,
+   "gap": 0.15,
+   "prompt": "A large glass tank shattering, liquid splashing onto stone. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "v_flesh_alert",
+   "tier": 2,
+   "takes": 2,
+   "dur": 1.0,
+   "gain": 0.42,
+   "gap": 1.5,
+   "prompt": "A malformed flesh creature gurgling and moaning wetly. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_flesh_attack",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.6,
+   "gain": 0.38,
+   "gap": 0.3,
+   "prompt": "A wet heavy squelching lunge with a gurgle. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_flesh_death",
+   "tier": 2,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.46,
+   "gap": 0.2,
+   "prompt": "A flesh creature collapsing into a wet splatter. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_ram_alert",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.6,
+   "gain": 0.62,
+   "gap": 2.0,
+   "prompt": "A monstrous ram bellowing a deep distorted roar. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "ram_charge",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.4,
+   "gain": 0.6,
+   "gap": 0.5,
+   "prompt": "A heavy beast snorting, then hooves pounding into a charge across stone. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "v_ram_death",
+   "tier": 4,
+   "takes": 1,
+   "dur": 2.0,
+   "gain": 0.7,
+   "gap": 1.0,
+   "prompt": "A monstrous beast dying, heavy groan and collapse. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "steam_vent",
+   "tier": 2,
+   "takes": 1,
+   "dur": 1.4,
+   "gain": 0.42,
+   "gap": 0.4,
+   "prompt": "Pressurized steam blasting from a pipe, loud hiss. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "v_eye_alert",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.6,
+   "gain": 0.6,
+   "gap": 2.0,
+   "prompt": "A giant pulsating eye monster: wet throbbing pulse with an unsettling low hum. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "eye_beam_charge",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.4,
+   "gain": 0.55,
+   "gap": 0.5,
+   "prompt": "An energy beam charging up, rising unstable humming whine. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "eye_beam",
+   "tier": 3,
+   "takes": 1,
+   "dur": 2.0,
+   "gain": 0.5,
+   "gap": 0.5,
+   "prompt": "A sustained crackling green energy beam firing. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "v_eye_death",
+   "tier": 4,
+   "takes": 1,
+   "dur": 2.5,
+   "gain": 0.75,
+   "gap": 1.0,
+   "prompt": "A giant eye monster bursting, wet explosion and a dying shriek. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_sz_alert",
+   "tier": 3,
+   "takes": 1,
+   "dur": 2.0,
+   "gain": 0.65,
+   "gap": 2.0,
+   "prompt": "A colossal chained flesh abomination letting out a deep inhuman moan. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "sz_inhale",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.4,
+   "gain": 0.6,
+   "gap": 0.5,
+   "prompt": "A huge creature drawing a long deep rasping breath in. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "sz_wail",
+   "tier": 4,
+   "takes": 1,
+   "dur": 2.0,
+   "gain": 0.7,
+   "gap": 0.5,
+   "prompt": "A colossal abomination releasing a deafening ghostly wail. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "sz_hand",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.55,
+   "gap": 0.3,
+   "prompt": "A giant fleshy hand bursting out of the ground and slamming down, wet crunch. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "sz_lash",
+   "tier": 3,
+   "takes": 2,
+   "dur": 0.7,
+   "gain": 0.5,
+   "gap": 0.2,
+   "prompt": "A huge fleshy tentacle whipping through the air and cracking. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "chains_break",
+   "tier": 4,
+   "takes": 1,
+   "dur": 1.6,
+   "gain": 0.7,
+   "gap": 1.0,
+   "prompt": "Heavy iron chains snapping and falling to a stone floor. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "v_sz_death",
+   "tier": 4,
+   "takes": 1,
+   "dur": 3.0,
+   "gain": 0.8,
+   "gap": 1.0,
+   "prompt": "A colossal abomination dying, a long fading moan and a wet collapse. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_bat_alert",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.6,
+   "gain": 0.32,
+   "gap": 1.0,
+   "prompt": "A bat's high pitched screech. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_bat_attack",
+   "tier": 1,
+   "takes": 2,
+   "dur": 0.5,
+   "gain": 0.3,
+   "gap": 0.25,
+   "prompt": "A bat diving with a quick screech and wing flap. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_bat_death",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.6,
+   "gain": 0.36,
+   "gap": 0.15,
+   "prompt": "A bat's dying squeak and a fluttering fall. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_undead_alert",
+   "tier": 2,
+   "takes": 2,
+   "dur": 1.0,
+   "gain": 0.42,
+   "gap": 1.2,
+   "prompt": "A rotting undead corpse groaning, raspy moan. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_undead_attack",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.6,
+   "gain": 0.36,
+   "gap": 0.25,
+   "prompt": "An undead corpse's hoarse growl as it swings. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_undead_death",
+   "tier": 2,
+   "takes": 2,
+   "dur": 1.0,
+   "gain": 0.45,
+   "gap": 0.15,
+   "prompt": "A skeleton collapsing into a pile of rattling bones. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "worm_burrow",
+   "tier": 2,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.42,
+   "gap": 0.5,
+   "prompt": "A giant worm burrowing through soil, deep rumbling dirt movement. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "v_worm_attack",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.8,
+   "gain": 0.42,
+   "gap": 0.3,
+   "prompt": "A giant worm bursting out of the ground with a wet screech. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_worm_death",
+   "tier": 2,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.46,
+   "gap": 0.3,
+   "prompt": "A giant worm dying, wet squeal and thrashing in dirt. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_ent_alert",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.6,
+   "gain": 0.52,
+   "gap": 2.0,
+   "prompt": "An ancient tree creature waking: deep wooden creaking groan. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "v_ent_attack",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.8,
+   "gain": 0.45,
+   "gap": 0.3,
+   "prompt": "A massive wooden branch swinging, creak and whoosh. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "v_ent_death",
+   "tier": 3,
+   "takes": 1,
+   "dur": 2.0,
+   "gain": 0.6,
+   "gap": 0.5,
+   "prompt": "An ancient tree creature collapsing, timber cracking and crashing down. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "v_cultist_alert",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.8,
+   "gain": 0.42,
+   "gap": 1.2,
+   "prompt": "An armored cult warrior's short aggressive battle shout. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_cultist_attack",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.5,
+   "gain": 0.36,
+   "gap": 0.25,
+   "prompt": "A man's short effortful grunt while swinging a weapon. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_cultist_hurt",
+   "tier": 1,
+   "takes": 2,
+   "dur": 0.4,
+   "gain": 0.28,
+   "gap": 0.35,
+   "prompt": "A man's short pained grunt. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_cultist_death",
+   "tier": 2,
+   "takes": 2,
+   "dur": 1.0,
+   "gain": 0.45,
+   "gap": 0.2,
+   "prompt": "A man's dying gasp and armor clattering to the ground. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_chant_cast",
+   "tier": 2,
+   "takes": 2,
+   "dur": 1.2,
+   "gain": 0.4,
+   "gap": 0.6,
+   "prompt": "A dark cult priest humming a low eerie note as dark magic gathers. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_vamp_alert",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.8,
+   "gain": 0.42,
+   "gap": 1.2,
+   "prompt": "A vampire hissing, sharp and menacing. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_vamp_attack",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.5,
+   "gain": 0.36,
+   "gap": 0.25,
+   "prompt": "A vampire's quick snarl as it strikes. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "v_vamp_death",
+   "tier": 2,
+   "takes": 1,
+   "dur": 1.4,
+   "gain": 0.5,
+   "gap": 0.3,
+   "prompt": "A vampire shrieking and dissolving into a flurry of bat wings. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "bat_swarm",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.6,
+   "gain": 0.52,
+   "gap": 0.5,
+   "prompt": "A swarm of bats flapping and screeching as they rush past. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "mist_step",
+   "tier": 3,
+   "takes": 1,
+   "dur": 0.8,
+   "gain": 0.45,
+   "gap": 0.3,
+   "prompt": "A body dissolving into mist with a soft dark whoosh. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "v_ghost_alert",
+   "tier": 4,
+   "takes": 1,
+   "dur": 2.5,
+   "gain": 0.7,
+   "gap": 2.0,
+   "prompt": "Thousands of ghostly soldiers moaning together, a distant haunting chorus of the dead. Wordless creature vocalization, no words, no music, close and dry."
+  },
+  {
+   "id": "rf_war_drum",
+   "tier": 3,
+   "takes": 2,
+   "dur": 1.2,
+   "gain": 0.55,
+   "gap": 0.3,
+   "prompt": "One deep ancient war drum hit, low and echoing. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "ghost_march",
+   "tier": 2,
+   "takes": 1,
+   "dur": 1.6,
+   "gain": 0.45,
+   "gap": 0.6,
+   "prompt": "A ghostly army marching in step, many hollow footfalls in unison. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "oath_break",
+   "tier": 4,
+   "takes": 1,
+   "dur": 1.4,
+   "gain": 0.65,
+   "gap": 0.5,
+   "prompt": "A cursed red seal cracking open, deep heartbeat thump and shattering. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "bell_toll",
+   "tier": 3,
+   "takes": 2,
+   "dur": 2.5,
+   "gain": 0.6,
+   "gap": 0.4,
+   "prompt": "A large church bell tolling once, deep resonant ring. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "lk_vow",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.4,
+   "gain": 0.55,
+   "gap": 0.5,
+   "prompt": "Dark red flame igniting around a knight's lantern, roaring whoosh. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "registrar_quill",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.5,
+   "gap": 0.5,
+   "prompt": "A quill scratching hard across parchment, then a heavy magical seal stamp. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "lg_shield_bash",
+   "tier": 3,
+   "takes": 1,
+   "dur": 0.8,
+   "gain": 0.55,
+   "gap": 0.2,
+   "prompt": "A heavy iron tower shield bashing forward, loud metal thump. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "lg_charge",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.4,
+   "gain": 0.55,
+   "gap": 0.5,
+   "prompt": "A heavy armored knight running, clanking plate armor footsteps. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "lg_wall_crash",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.0,
+   "gain": 0.62,
+   "gap": 0.3,
+   "prompt": "An armored body crashing into a stone wall, crunch and metal clang. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "lg_spear_thrust",
+   "tier": 3,
+   "takes": 2,
+   "dur": 0.6,
+   "gain": 0.5,
+   "gap": 0.15,
+   "prompt": "A long spear thrust, heavy fast whoosh. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "lg_spear_stuck",
+   "tier": 3,
+   "takes": 1,
+   "dur": 0.8,
+   "gain": 0.5,
+   "gap": 0.3,
+   "prompt": "A spear tip stabbing into a stone floor and getting stuck, metal scrape. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "lg_shield_break",
+   "tier": 4,
+   "takes": 1,
+   "dur": 1.0,
+   "gain": 0.65,
+   "gap": 0.5,
+   "prompt": "An iron shield cracking and shattering, sharp metal snap. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "lg_whirl",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.0,
+   "gain": 0.52,
+   "gap": 0.3,
+   "prompt": "A spear spinning in a full circle, rapid swooshing. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "lever",
+   "tier": 3,
+   "takes": 2,
+   "dur": 0.8,
+   "gain": 0.52,
+   "gap": 0.2,
+   "prompt": "A rusty iron lever pulled, heavy clunk and gear click. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "valve_turn",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.48,
+   "gap": 0.3,
+   "prompt": "A rusty iron valve wheel turning, squeaky metal and water gurgling in pipes. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "dial_turn",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.4,
+   "gain": 0.38,
+   "gap": 0.06,
+   "prompt": "An old stone dial wheel turning one notch, dry click. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "gate_open",
+   "tier": 3,
+   "takes": 1,
+   "dur": 2.0,
+   "gain": 0.5,
+   "gap": 0.5,
+   "prompt": "A heavy iron portcullis grinding upward, chains rattling. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "gate_close",
+   "tier": 4,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.68,
+   "gap": 0.5,
+   "prompt": "A heavy iron portcullis slamming down shut, loud metal crash. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "door_wood",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.48,
+   "gap": 0.5,
+   "prompt": "An old heavy wooden door creaking open on rusty hinges. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "stone_door",
+   "tier": 3,
+   "takes": 1,
+   "dur": 2.0,
+   "gain": 0.55,
+   "gap": 0.5,
+   "prompt": "A heavy stone slab door sliding, deep grinding rumble. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "door_locked",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.6,
+   "gain": 0.42,
+   "gap": 1.0,
+   "prompt": "An old locked door handle rattled, the door does not open. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "key_unlock",
+   "tier": 3,
+   "takes": 1,
+   "dur": 0.8,
+   "gain": 0.52,
+   "gap": 0.3,
+   "prompt": "An old iron key turning in a heavy lock, solid click. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "chest_open",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.4,
+   "gain": 0.52,
+   "gap": 0.5,
+   "prompt": "An old wooden chest lid creaking open with a metal latch. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "break_wood",
+   "tier": 3,
+   "takes": 2,
+   "dur": 1.0,
+   "gain": 0.55,
+   "gap": 0.2,
+   "prompt": "A wooden barricade smashed apart, planks splintering. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "break_stone",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.4,
+   "gain": 0.6,
+   "gap": 0.3,
+   "prompt": "A pile of rubble blasted apart, rocks crumbling and tumbling. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "puzzle_solved",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.6,
+   "gain": 0.5,
+   "gap": 1.0,
+   "prompt": "An ancient mechanism unlocking: a deep stone click followed by a soft resonant chime. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "fit_part",
+   "tier": 3,
+   "takes": 1,
+   "dur": 0.8,
+   "gain": 0.5,
+   "gap": 0.3,
+   "prompt": "A heavy iron crank handle fitted into a mechanism, solid metal clunk. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "passage",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.4,
+   "gain": 0.45,
+   "gap": 1.0,
+   "prompt": "Footsteps descending stone stairs into the dark. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "pickup_item",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.5,
+   "gain": 0.42,
+   "gap": 0.2,
+   "prompt": "Picking up a small metal trinket, soft clink. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "pickup_note",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.6,
+   "gain": 0.4,
+   "gap": 0.2,
+   "prompt": "An old paper page unfolding, soft rustle. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "pickup_weapon",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.0,
+   "gain": 0.55,
+   "gap": 0.5,
+   "prompt": "A sheathed katana picked up, wooden scabbard clack and a short metallic ring. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "relic_absorb",
+   "tier": 4,
+   "takes": 1,
+   "dur": 2.5,
+   "gain": 0.72,
+   "gap": 1.0,
+   "prompt": "A holy relic rising and flowing into a body: rising ethereal hum and shimmer, ending in a warm deep pulse. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "new_mantra",
+   "tier": 4,
+   "takes": 1,
+   "dur": 1.8,
+   "gain": 0.62,
+   "gap": 1.0,
+   "prompt": "A swirling gust of ghostly wind sweeping around and collapsing into a muffled heavy heartbeat thud. Airy noise texture. No bell, no gong, no chime, no tone. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "checkpoint",
+   "tier": 2,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.45,
+   "gap": 0.6,
+   "prompt": "A ghostly blue flame igniting, soft ethereal whoosh. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "rest",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.6,
+   "gain": 0.5,
+   "gap": 1.0,
+   "prompt": "A campfire flaring up, warm whoosh and crackle. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "quest_update",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.9,
+   "gain": 0.5,
+   "gap": 1.0,
+   "prompt": "A journal page flipped quickly and a short pen tick on paper, soft and dry. No bell, no chime, no tone. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "ui_move",
+   "tier": 1,
+   "takes": 2,
+   "dur": 0.2,
+   "gain": 0.22,
+   "gap": 0.04,
+   "prompt": "A soft subtle menu tick, dry wooden click. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "ui_confirm",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.3,
+   "gain": 0.36,
+   "gap": 0.05,
+   "prompt": "A menu confirm sound, low muted metallic tap. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "ui_back",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.3,
+   "gain": 0.32,
+   "gap": 0.05,
+   "prompt": "A menu cancel sound, soft low muffled click. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "ui_open",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.6,
+   "gain": 0.4,
+   "gap": 0.1,
+   "prompt": "An old leather bound book opening, paper rustle. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "dialog_next",
+   "tier": 1,
+   "takes": 1,
+   "dur": 0.25,
+   "gain": 0.22,
+   "gap": 0.05,
+   "prompt": "A quiet paper page flick. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "map_open",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.8,
+   "gain": 0.4,
+   "gap": 0.3,
+   "prompt": "An old paper map unfolding. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "bag_open",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.6,
+   "gain": 0.4,
+   "gap": 0.3,
+   "prompt": "A leather satchel flap opened, soft rustle and a faint clink. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "trap_arrow",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.5,
+   "gain": 0.42,
+   "gap": 0.08,
+   "prompt": "A crossbow trap firing a bolt, mechanical twang. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "trap_fire",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.9,
+   "gain": 0.42,
+   "gap": 0.1,
+   "prompt": "A fire trap spout belching a ball of flame, whoosh. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "trap_ice",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.9,
+   "gain": 0.42,
+   "gap": 0.1,
+   "prompt": "An ice bolt launched, cold crystalline crackling whoosh. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "trap_plate",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.6,
+   "gain": 0.48,
+   "gap": 0.3,
+   "prompt": "A stone pressure plate sinking with a heavy click. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "trap_roller",
+   "tier": 3,
+   "takes": 1,
+   "dur": 2.5,
+   "gain": 0.55,
+   "gap": 0.5,
+   "prompt": "A huge wooden log rolling fast across a stone floor, deep rumbling. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "trap_spikes",
+   "tier": 1,
+   "takes": 2,
+   "dur": 0.5,
+   "gain": 0.3,
+   "gap": 0.2,
+   "prompt": "Iron spikes shooting up from a stone floor, sharp metallic shing. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "trap_saw",
+   "tier": 1,
+   "takes": 1,
+   "dur": 2.0,
+   "gain": 0.26,
+   "gap": 0,
+   "prompt": "A spinning saw blade grinding along a metal rail, steady whirring. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "trap_blade",
+   "tier": 1,
+   "takes": 1,
+   "dur": 2.0,
+   "gain": 0.26,
+   "gap": 0,
+   "prompt": "A large steel blade spinning on a rail, rhythmic whirring swoosh. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "trap_pit_crack",
+   "tier": 2,
+   "takes": 1,
+   "dur": 1.0,
+   "gain": 0.45,
+   "gap": 0.2,
+   "prompt": "A stone floor tile cracking under weight. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "trap_pit_collapse",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.4,
+   "gain": 0.55,
+   "gap": 0.2,
+   "prompt": "A stone floor collapsing into a pit, rocks falling. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "quake_rumble",
+   "tier": 3,
+   "takes": 1,
+   "dur": 2.6,
+   "gain": 0.5,
+   "gap": 1.0,
+   "prompt": "Earthquake tremor inside a cave: low noisy rumble of shifting rock, gravel and dust trickling down, a few small stones falling. Broadband noise, no tone. No bell, no gong, no hum, no drone. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "tremor_soft",
+   "tier": 2,
+   "takes": 3,
+   "dur": 1.6,
+   "gain": 0.36,
+   "gap": 0.6,
+   "prompt": "A faint distant tremor underground: soft low rumble of earth settling, a little dust and gravel trickling, quiet and subtle. Noisy texture. No bell, no tone, no hum, no drone. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "cave_collapse",
+   "tier": 4,
+   "takes": 1,
+   "dur": 4.0,
+   "gain": 0.75,
+   "gap": 2.0,
+   "prompt": "A ring of standing stones collapsing into the earth, massive rock crash and rumble. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "bl_ren",
+   "tier": 2,
+   "takes": 3,
+   "dur": 0.06,
+   "gain": 0.3,
+   "gap": 0.035,
+   "prompt": "(synth) make_blips.py",
+   "synth": true
+  },
+  {
+   "id": "bl_todd",
+   "tier": 2,
+   "takes": 3,
+   "dur": 0.06,
+   "gain": 0.3,
+   "gap": 0.035,
+   "prompt": "(synth) make_blips.py",
+   "synth": true
+  },
+  {
+   "id": "bl_villager_m",
+   "tier": 2,
+   "takes": 3,
+   "dur": 0.06,
+   "gain": 0.3,
+   "gap": 0.035,
+   "prompt": "(synth) make_blips.py",
+   "synth": true
+  },
+  {
+   "id": "bl_villager_f",
+   "tier": 2,
+   "takes": 3,
+   "dur": 0.06,
+   "gain": 0.3,
+   "gap": 0.035,
+   "prompt": "(synth) make_blips.py",
+   "synth": true
+  },
+  {
+   "id": "bl_elder",
+   "tier": 2,
+   "takes": 3,
+   "dur": 0.06,
+   "gain": 0.3,
+   "gap": 0.035,
+   "prompt": "(synth) make_blips.py",
+   "synth": true
+  },
+  {
+   "id": "bl_goblin_child",
+   "tier": 2,
+   "takes": 3,
+   "dur": 0.06,
+   "gain": 0.3,
+   "gap": 0.035,
+   "prompt": "(synth) make_blips.py",
+   "synth": true
+  },
+  {
+   "id": "bl_goblin",
+   "tier": 2,
+   "takes": 3,
+   "dur": 0.06,
+   "gain": 0.3,
+   "gap": 0.035,
+   "prompt": "(synth) make_blips.py",
+   "synth": true
+  },
+  {
+   "id": "bl_grok",
+   "tier": 2,
+   "takes": 3,
+   "dur": 0.06,
+   "gain": 0.3,
+   "gap": 0.035,
+   "prompt": "(synth) make_blips.py",
+   "synth": true
+  },
+  {
+   "id": "bl_pell",
+   "tier": 2,
+   "takes": 3,
+   "dur": 0.06,
+   "gain": 0.3,
+   "gap": 0.035,
+   "prompt": "(synth) make_blips.py",
+   "synth": true
+  },
+  {
+   "id": "bl_aldous",
+   "tier": 2,
+   "takes": 3,
+   "dur": 0.06,
+   "gain": 0.3,
+   "gap": 0.035,
+   "prompt": "(synth) make_blips.py",
+   "synth": true
+  },
+  {
+   "id": "bl_hooded",
+   "tier": 2,
+   "takes": 3,
+   "dur": 0.06,
+   "gain": 0.3,
+   "gap": 0.035,
+   "prompt": "(synth) make_blips.py",
+   "synth": true
+  },
+  {
+   "id": "bl_isolde",
+   "tier": 2,
+   "takes": 3,
+   "dur": 0.06,
+   "gain": 0.3,
+   "gap": 0.035,
+   "prompt": "(synth) make_blips.py",
+   "synth": true
+  },
+  {
+   "id": "bl_morrow",
+   "tier": 2,
+   "takes": 3,
+   "dur": 0.06,
+   "gain": 0.3,
+   "gap": 0.035,
+   "prompt": "(synth) make_blips.py",
+   "synth": true
+  },
+  {
+   "id": "bl_lantern_knight",
+   "tier": 2,
+   "takes": 3,
+   "dur": 0.06,
+   "gain": 0.3,
+   "gap": 0.035,
+   "prompt": "(synth) make_blips.py",
+   "synth": true
+  },
+  {
+   "id": "bl_ent",
+   "tier": 2,
+   "takes": 3,
+   "dur": 0.06,
+   "gain": 0.3,
+   "gap": 0.035,
+   "prompt": "(synth) make_blips.py",
+   "synth": true
+  },
+  {
+   "id": "bl_narrate",
+   "tier": 2,
+   "takes": 3,
+   "dur": 0.06,
+   "gain": 0.2,
+   "gap": 0.035,
+   "prompt": "(synth) make_blips.py",
+   "synth": true
+  },
+  {
+   "id": "bl_default",
+   "tier": 2,
+   "takes": 3,
+   "dur": 0.06,
+   "gain": 0.3,
+   "gap": 0.035,
+   "prompt": "(synth) make_blips.py",
+   "synth": true
+  },
+  {
+   "id": "cs_narrate",
+   "tier": 1,
+   "takes": 3,
+   "dur": 1.6,
+   "gain": 0.2,
+   "gap": 0,
+   "prompt": "A quill pen scratching softly and steadily across old parchment, someone writing a long sentence. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "cs_page",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.8,
+   "gain": 0.32,
+   "gap": 0.15,
+   "prompt": "An old parchment page turning softly, with a faint low resonant tone underneath. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "cs_slide",
+   "tier": 3,
+   "takes": 1,
+   "dur": 2.0,
+   "gain": 0.42,
+   "gap": 1.0,
+   "prompt": "A soft cinematic swell, a low warm drone rising gently like the opening of an old legend, dark fantasy storytelling transition. No melody, no drums, no speech."
+  },
+  {
+   "id": "cs_story_bed",
+   "tier": 1,
+   "takes": 1,
+   "dur": 12.0,
+   "gain": 0.28,
+   "gap": 0,
+   "prompt": "A quiet, steady, seamless dark fantasy atmospheric drone for storytelling: low melancholic hum, soft distant wind, very subtle airy shimmer. Constant level from start to end, no melody, no drums, no speech, no sudden sounds."
+  },
+  {
+   "id": "rock_fall",
+   "tier": 2,
+   "takes": 3,
+   "dur": 1.0,
+   "gain": 0.4,
+   "gap": 0.12,
+   "prompt": "A handful of small rocks and pebbles falling from above and clattering onto a stone floor, dusty. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "rock_crash",
+   "tier": 3,
+   "takes": 2,
+   "dur": 1.2,
+   "gain": 0.6,
+   "gap": 0.15,
+   "prompt": "A heavy boulder falling from a cave ceiling and smashing onto a stone floor, deep crunch and scattering debris. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "ceiling_crack",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.4,
+   "gain": 0.5,
+   "gap": 0.8,
+   "prompt": "A stone ceiling cracking and groaning under strain, grinding rock with dust and grit trickling down. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "boss_leap",
+   "tier": 3,
+   "takes": 1,
+   "dur": 0.8,
+   "gain": 0.5,
+   "gap": 0.3,
+   "prompt": "A huge heavy creature launching itself into a high jump, powerful rush of air and a grunt-like thump of take-off. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "teleport_dark",
+   "tier": 3,
+   "takes": 1,
+   "dur": 0.8,
+   "gain": 0.45,
+   "gap": 0.3,
+   "prompt": "A dark magical teleport: a sharp inward rush of air and a soft deep pop of shadow. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "root_spike",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.8,
+   "gain": 0.45,
+   "gap": 0.08,
+   "prompt": "Thick sharp roots bursting violently up out of the ground, cracking wood and spraying soil. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "acid_splash",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.7,
+   "gain": 0.42,
+   "gap": 0.08,
+   "prompt": "A glob of corrosive green sludge splattering onto stone with a sizzling hiss. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "blood_splat",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.7,
+   "gain": 0.42,
+   "gap": 0.08,
+   "prompt": "A thick splash of blood hitting stone, wet and heavy. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "blood_spike",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.8,
+   "gain": 0.45,
+   "gap": 0.1,
+   "prompt": "Crimson blood crystallizing into sharp spikes that burst up from the ground, wet crack. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "ice_shatter",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.7,
+   "gain": 0.42,
+   "gap": 0.08,
+   "prompt": "Sharp ice lances bursting up from the ground and shattering, crystalline crack. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "ink_splash",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.7,
+   "gain": 0.42,
+   "gap": 0.08,
+   "prompt": "Dark magical ink erupting from the floor in a wet splash, with a faint rustle of paper. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "spear_burst",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.7,
+   "gain": 0.42,
+   "gap": 0.08,
+   "prompt": "Ghostly spears thrusting up out of the earth, metallic scrape and a burst of dirt. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "flesh_slam",
+   "tier": 2,
+   "takes": 2,
+   "dur": 0.8,
+   "gain": 0.5,
+   "gap": 0.08,
+   "prompt": "A massive fleshy tentacle slamming down onto stone, wet heavy slap. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "blood_whip",
+   "tier": 3,
+   "takes": 1,
+   "dur": 0.7,
+   "gain": 0.5,
+   "gap": 0.2,
+   "prompt": "A whip of liquid blood lashing through the air, wet crack. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "life_drain",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.4,
+   "gain": 0.45,
+   "gap": 0.5,
+   "prompt": "Dark magic draining life force, a sucking hum with wet pulsing. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "hymn_pop",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.6,
+   "gain": 0.4,
+   "gap": 0.08,
+   "prompt": "A small burst of holy light with a short sung choir note popping. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "eye_spin",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.5,
+   "gain": 0.45,
+   "gap": 0.5,
+   "prompt": "A giant fleshy eye spinning rapidly, whirring hum with wet squelches. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "duo_cannon",
+   "tier": 3,
+   "takes": 2,
+   "dur": 0.9,
+   "gain": 0.55,
+   "gap": 0.12,
+   "prompt": "A heavy bronze cannon firing once: deep punchy boom with a short metallic clank of recoil. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "duo_mortar",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.5,
+   "gap": 0.2,
+   "prompt": "A mortar launching a shell high into the air: hollow thump followed by a rising whistle. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "duo_shell_land",
+   "tier": 2,
+   "takes": 1,
+   "dur": 1.0,
+   "gain": 0.45,
+   "gap": 0.08,
+   "prompt": "A small fire bomb shell landing on stone and bursting into flames: crunchy explosion with a crackling fire whoosh. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "duo_slam",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.62,
+   "gap": 0.3,
+   "prompt": "Two huge iron gauntlets smashing into a stone floor: massive heavy thud with cracking stone and a deep magical purple fire whoosh. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "keg_blast",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.6,
+   "gain": 0.7,
+   "gap": 0.12,
+   "prompt": "A gunpowder keg exploding in a stone dungeon hall, deep boom with wooden staves splintering and debris rattling. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "keg_fuse",
+   "tier": 2,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.45,
+   "gap": 0.25,
+   "prompt": "A short burning fuse hissing and sparking, quick crackle. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "statue_shatter",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.6,
+   "gain": 0.65,
+   "gap": 0.2,
+   "prompt": "A large stone statue shattering and collapsing, heavy rocks crumbling onto a stone floor. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "duo_engine_drop",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.6,
+   "gain": 0.75,
+   "gap": 0.5,
+   "prompt": "A heavy brass cannon machine tearing loose from iron mounts and crashing down onto stone, metal groan then huge impact. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "reel_spin",
+   "tier": 2,
+   "takes": 1,
+   "dur": 2.4,
+   "gain": 0.42,
+   "gap": 0.5,
+   "prompt": "Mechanical slot machine reel spinning, fast rhythmic clicking ratchet ticks. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "reel_stop",
+   "tier": 2,
+   "takes": 1,
+   "dur": 1.0,
+   "gain": 0.5,
+   "gap": 0.3,
+   "prompt": "Slot machine reel stopping with a heavy mechanical clunk and a single bright bell ding. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "reel_jolt",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.6,
+   "gain": 0.5,
+   "gap": 0.08,
+   "prompt": "Sword striking a brass machine, sharp metallic clank with gears jolting one notch. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "ward_break",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.6,
+   "gain": 0.7,
+   "gap": 0.5,
+   "prompt": "Magical energy shield shattering like glass with a deep resonant boom and sparkling shards. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "rack_unseal",
+   "tier": 2,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.55,
+   "gap": 0.3,
+   "prompt": "Heavy iron chains rattling and unlocking from a weapon rack, ghostly purple whoosh. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "relic_claim",
+   "tier": 2,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.55,
+   "gap": 0.3,
+   "prompt": "Hero grabbing a legendary weapon, triumphant shimmering chime with a metallic ring. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "anvil_drop",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.7,
+   "gap": 0.3,
+   "prompt": "Heavy iron anvil falling from above with a whistle then slamming onto stone floor. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "goblin_launch",
+   "tier": 2,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.5,
+   "gap": 0.15,
+   "prompt": "Cannon pop launching a screaming cackling goblin through the air. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "bolt_strike",
+   "tier": 2,
+   "takes": 1,
+   "dur": 1.0,
+   "gain": 0.5,
+   "gap": 0.1,
+   "prompt": "Sharp thunder crack of a lightning bolt striking the ground with electric sizzle. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "engine_backfire",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.6,
+   "gain": 0.7,
+   "gap": 0.5,
+   "prompt": "Brass machine backfiring, muffled internal explosion, sputtering gears and coughing steam. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "coin_spray",
+   "tier": 2,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.4,
+   "gap": 0.2,
+   "prompt": "A gush of gold coins spraying out and clinking. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "skull_wail",
+   "tier": 2,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.5,
+   "gap": 0.3,
+   "prompt": "Eerie ghostly skulls wailing and swooshing. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "lift_grind",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.6,
+   "gain": 0.6,
+   "gap": 0.5,
+   "prompt": "Heavy stone and brass turret platform lowering into the floor, hydraulic hiss and grinding gears and chains. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "lift_jam",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.8,
+   "gain": 0.6,
+   "gap": 0.2,
+   "prompt": "Machinery jamming suddenly with a loud metal clunk and a squeaky gear. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "spring_boing",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.6,
+   "gain": 0.55,
+   "gap": 0.15,
+   "prompt": "Comedic cartoon metal spring boing bounce. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "crystal_absorb",
+   "tier": 2,
+   "takes": 1,
+   "dur": 1.2,
+   "gain": 0.55,
+   "gap": 0.4,
+   "prompt": "Absorbing magic crystal energy, rising resonant hum with shimmering sparkle. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "duo_punch",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.6,
+   "gain": 0.48,
+   "gap": 0.1,
+   "prompt": "A fast heavy armored punch: whoosh of a big iron gauntlet cutting the air ending in a dull impact. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "drill_horn",
+   "tier": 3,
+   "takes": 1,
+   "dur": 3.0,
+   "gain": 0.75,
+   "gap": 1.5,
+   "prompt": "A single brass military bugle call echoing in a stone courtyard: a bold rising fanfare of four clear notes, ending on a long held note, medieval army assembly signal, no drums. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "drill_warhorn",
+   "tier": 3,
+   "takes": 1,
+   "dur": 3.0,
+   "gain": 0.7,
+   "gap": 1.5,
+   "prompt": "An old brass war horn blown hard: a deep powerful hooting horn blast that swells then fades with stone hall echo, medieval army signal to muster. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "drill_spin",
+   "tier": 1,
+   "takes": 1,
+   "dur": 2.0,
+   "gain": 0.42,
+   "gap": 0,
+   "prompt": "Continuous fast spinning whoosh of a wooden training dummy with blades whirling in circles, rhythmic swish swish swish cutting the air, steady loop, no impacts. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "drill_whoosh",
+   "tier": 2,
+   "takes": 1,
+   "dur": 0.7,
+   "gain": 0.5,
+   "gap": 0.25,
+   "prompt": "A spinning bladed straw dummy whizzing past very close, a single sharp doppler whoosh with a faint blade swish. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  },
+  {
+   "id": "drill_deploy",
+   "tier": 3,
+   "takes": 1,
+   "dur": 1.4,
+   "gain": 0.7,
+   "gap": 1.0,
+   "prompt": "Wooden siege machines being dragged out and slammed down onto a stone floor, heavy wooden thud with rattling chains and creaking wood. Dry close recording, single isolated sound effect, no music, no speech, no reverb tail."
+  }
+ ]
+}

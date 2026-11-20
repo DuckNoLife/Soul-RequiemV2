@@ -1,0 +1,287 @@
+{
+ "frames": [
+  {
+   "filename": "duo-muzzle 0.png",
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 56,
+    "h": 47
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 56,
+    "h": 47
+   },
+   "sourceSize": {
+    "w": 56,
+    "h": 47
+   },
+   "pivot": {
+    "x": 0.4107142857142857,
+    "y": 0.46808510638297873
+   },
+   "duration": 67
+  },
+  {
+   "filename": "duo-muzzle 1.png",
+   "frame": {
+    "x": 56,
+    "y": 0,
+    "w": 56,
+    "h": 47
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 56,
+    "h": 47
+   },
+   "sourceSize": {
+    "w": 56,
+    "h": 47
+   },
+   "pivot": {
+    "x": 0.4107142857142857,
+    "y": 0.46808510638297873
+   },
+   "duration": 67
+  },
+  {
+   "filename": "duo-muzzle 2.png",
+   "frame": {
+    "x": 112,
+    "y": 0,
+    "w": 56,
+    "h": 47
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 56,
+    "h": 47
+   },
+   "sourceSize": {
+    "w": 56,
+    "h": 47
+   },
+   "pivot": {
+    "x": 0.4107142857142857,
+    "y": 0.46808510638297873
+   },
+   "duration": 67
+  },
+  {
+   "filename": "duo-muzzle 3.png",
+   "frame": {
+    "x": 168,
+    "y": 0,
+    "w": 56,
+    "h": 47
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 56,
+    "h": 47
+   },
+   "sourceSize": {
+    "w": 56,
+    "h": 47
+   },
+   "pivot": {
+    "x": 0.4107142857142857,
+    "y": 0.46808510638297873
+   },
+   "duration": 67
+  },
+  {
+   "filename": "duo-muzzle 4.png",
+   "frame": {
+    "x": 0,
+    "y": 47,
+    "w": 56,
+    "h": 47
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 56,
+    "h": 47
+   },
+   "sourceSize": {
+    "w": 56,
+    "h": 47
+   },
+   "pivot": {
+    "x": 0.4107142857142857,
+    "y": 0.46808510638297873
+   },
+   "duration": 67
+  },
+  {
+   "filename": "duo-muzzle 5.png",
+   "frame": {
+    "x": 56,
+    "y": 47,
+    "w": 56,
+    "h": 47
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 56,
+    "h": 47
+   },
+   "sourceSize": {
+    "w": 56,
+    "h": 47
+   },
+   "pivot": {
+    "x": 0.4107142857142857,
+    "y": 0.46808510638297873
+   },
+   "duration": 67
+  },
+  {
+   "filename": "duo-muzzle 6.png",
+   "frame": {
+    "x": 112,
+    "y": 47,
+    "w": 56,
+    "h": 47
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 56,
+    "h": 47
+   },
+   "sourceSize": {
+    "w": 56,
+    "h": 47
+   },
+   "pivot": {
+    "x": 0.4107142857142857,
+    "y": 0.46808510638297873
+   },
+   "duration": 67
+  },
+  {
+   "filename": "duo-muzzle 7.png",
+   "frame": {
+    "x": 168,
+    "y": 47,
+    "w": 56,
+    "h": 47
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 56,
+    "h": 47
+   },
+   "sourceSize": {
+    "w": 56,
+    "h": 47
+   },
+   "pivot": {
+    "x": 0.4107142857142857,
+    "y": 0.46808510638297873
+   },
+   "duration": 67
+  },
+  {
+   "filename": "duo-muzzle 8.png",
+   "frame": {
+    "x": 0,
+    "y": 94,
+    "w": 56,
+    "h": 47
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 56,
+    "h": 47
+   },
+   "sourceSize": {
+    "w": 56,
+    "h": 47
+   },
+   "pivot": {
+    "x": 0.4107142857142857,
+    "y": 0.46808510638297873
+   },
+   "duration": 67
+  },
+  {
+   "filename": "duo-muzzle 9.png",
+   "frame": {
+    "x": 56,
+    "y": 94,
+    "w": 56,
+    "h": 47
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 56,
+    "h": 47
+   },
+   "sourceSize": {
+    "w": 56,
+    "h": 47
+   },
+   "pivot": {
+    "x": 0.4107142857142857,
+    "y": 0.46808510638297873
+   },
+   "duration": 67
+  }
+ ],
+ "meta": {
+  "app": "PixelLab VFX Creator",
+  "image": "duo-muzzle.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 224,
+   "h": 141
+  },
+  "scale": "1",
+  "anchor": {
+   "kind": "origin",
+   "x": 23,
+   "y": 22
+  },
+  "frameTags": [
+   {
+    "name": "duo-muzzle",
+    "from": 0,
+    "to": 9,
+    "direction": "forward"
+   }
+  ]
+ }
+}

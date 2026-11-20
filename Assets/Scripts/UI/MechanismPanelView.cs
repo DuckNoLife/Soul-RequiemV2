@@ -107,6 +107,12 @@ namespace SoulRequiem.UI
                     cap.style.width = 220;
                 }
             }
+            if (!string.IsNullOrEmpty(n.Obtained))                                  // 16/11 (§269): đồ vừa nhận — thay dòng chữ dưới màn hình
+            {
+                RequiemUI.Deco("hint_line", "sr-rule", p);
+                var got = RequiemUI.Text(n.Obtained, "sr-small sr-gold sr-center", p);
+                got.style.whiteSpace = WhiteSpace.Normal;
+            }
             RequiemUI.Text($"Press {GameInput.Label(GameAction.Interact)} or Esc to close.", "sr-tiny sr-gold sr-panel-foot", p);
             return p;
         }

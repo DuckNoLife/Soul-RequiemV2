@@ -55,11 +55,29 @@ namespace SoulRequiem.Gameplay
             chillUntil = Mathf.Max(chillUntil, Time.time + seconds);
         }
         private Coroutine burnRoutine;
+        /// <summary>20/11 (§355): GIÁP (barrier) — lớp đỡ sát thương TRƯỚC máu (vd Soul Armor của Hollow Champion). Sát thương (sau mọi hệ số)
+        /// trừ vào giáp trước, phần dư mới trừ máu; giáp về 0 -> <see cref="BarrierBroken"/>. HUD boss vẽ lớp giáp trên thanh máu.</summary>
+        public float Barrier { get; private set; }
+        public float BarrierMax { get; private set; }
+        public float BarrierPercent => BarrierMax > 0f ? Barrier / BarrierMax : 0f;
+        /// <summary>Màu lớp giáp trên HUD (Champion đổi theo màu pha lê).</summary>
+        public Color BarrierColor { get; set; } = new Color(0.62f, 0.38f, 0.95f);
+        /// <summary>Lần cuối giáp đỡ đòn (HUD nháy sáng).</summary>
+        public float BarrierHitTime { get; private set; } = -99f;
+        public event Action<Health> BarrierBroken;
+        /// <summary>Đặt giáp: tối đa `max`, hiện tại `current` (0 = tắt hẳn khi max = 0).</summary>
+        public void SetBarrier(float max, float current)
+        {
+            BarrierMax = Mathf.Max(0f, max);
+            Barrier = Mathf.Clamp(current, 0f, BarrierMax);
+        }
         /// <summary>Hệ số sát thương nhận vào (1 = bình thường). Lời thề Lantern Knight đặt 0,3 cho đồng đội.</summary>
         public float DamageTakenMul { get; set; } = 1f;
         /// <summary>08/11 (§191): Projectile bật cờ này quanh lời gọi TakeDamage lên người chơi -> thế đỡ (Riposte) KHÔNG chặn đạn
         /// (đạn để nội tại Turned Blade dội lại; hai cơ chế "đỡ đúng nhịp" không còn chồng nhau).</summary>
         public static bool IncomingRanged;
+        /// <summary>16/11 (§284): TrapArt.HurtPlayerCrush bật cờ này quanh lời gọi -> bất tử khi lăn KHÔNG cứu (lăn qua bãi gai vẫn dính).</summary>
+        public static bool TrapIgnoresRoll;
         /// <summary>08/11 (§191): màn Ether (Veil of the Ascended) — đòn trúng nhân <see cref="Guard"/> mul trong thời gian còn màn.</summary>
         public bool Guarded => Time.time < guardUntil;
         private float guardMul = 1f, guardUntil;
@@ -77,6 +95,12 @@ namespace SoulRequiem.Gameplay
         /// <summary>Mọi lần mất máu của BẤT KỲ Health nào (máu, lượng, máu trước khi trúng). Chỉ dùng cho công cụ test (DevCheats Shift+F8).</summary>
         public static event Action<Health, float, float> AnyDamaged;
         public event Action<Health> Died;
+        /// <summary>16/11 (§281): chặn đòn theo hướng (vd khiên The Last Guard). Nhận hướng đẩy của đòn (từ kẻ đánh tới mình);
+        /// trả true = đòn bị chặn, không mất máu. Chỉ áp cho đòn có hướng (chém, đạn); độc / cháy / chảy máu vẫn qua.</summary>
+        public Func<Vector2, bool> BlockCheck;
+        public event Action<Vector2> Blocked;
+        /// <summary>17/11 (§284): sát thương của đòn vừa bị khiên chặn (đọc trong Blocked).</summary>
+        public float LastBlockedAmount { get; private set; }
         /// <summary>Trúng đòn thật (TakeDamage, không tính độc): (máu, lượng, hướng đẩy, lực đẩy). Dùng cho hoạt ảnh trúng đòn.</summary>
         public event Action<Health, float, Vector2, float> Hit;
         /// <summary>Gọi khi hồi sinh (Revive).</summary>
@@ -125,19 +149,37 @@ namespace SoulRequiem.Gameplay
         /// <summary>Trả về true nếu thật sự trúng đòn (không bất tử, chưa chết).</summary>
         public bool TakeDamage(float amount, Vector2 knockbackDir = default, float knockbackForce = 0f)
         {
-            if (IsDead || Invulnerable || amount <= 0f) return false;
+            // 16/11 (§284): bẫy cơ khí (gai, trụ lăn, lưỡi cưa, phụt nước) bỏ qua bất tử khi LĂN — chỉ khiên / cảnh diễn mới chặn
+            bool blocked = TrapIgnoresRoll && isPlayer ? (Time.time < shieldUntil || CutsceneSafe) : Invulnerable;
+            if (IsDead || blocked || amount <= 0f) return false;
+            if (!isPlayer && BlockCheck != null && knockbackDir.sqrMagnitude > 0.0001f && BlockCheck(knockbackDir))   // 16/11 (§281): khiên
+            {
+                LastBlockedAmount = amount;                                   // 17/11 (§284): khiên nứt dần theo sát thương bị chặn
+                Blocked?.Invoke(knockbackDir);
+                SfxHooks.Blocked(this);   // 17/11 (§294): âm
+                return false;
+            }
             if (isPlayer && Time.time < parryUntil && !IncomingRanged)  // 07/11: Riposte — chặn đòn cận chiến đầu tiên (§191: không chặn đạn)
             {
                 parryUntil = 0f;
                 Parried?.Invoke(amount, knockbackDir);
+                SfxHooks.Parried(this);   // 17/11 (§294): âm
                 return false;
             }
             if (isPlayer && Time.time < hitImmuneUntil) return false;
             amount *= Mathf.Max(0f, DamageTakenMul) * (1f + VulnBonus) * (Guarded ? guardMul : 1f);
             if (isPlayer) hitImmuneUntil = Time.time + hitIFrames;
+            if (Barrier > 0f && amount > 0f)                                  // 20/11 (§355): giáp đỡ trước
+            {
+                float soak = Mathf.Min(Barrier, amount);
+                Barrier -= soak; amount -= soak;
+                BarrierHitTime = Time.time;
+                if (Barrier <= 0.001f) { Barrier = 0f; BarrierBroken?.Invoke(this); }
+            }
             ApplyDamage(amount, true);
             if (!immuneToCrowdControl && knockbackForce > 0f && knockbackDir.sqrMagnitude > 0.0001f)
                 extraVelocity += knockbackDir.normalized * knockbackForce;
+            SfxHooks.Hit(this);   // 17/11 (§294): âm
             if (!IsDead) Hit?.Invoke(this, amount, knockbackDir, knockbackForce);
             return true;
         }
@@ -198,6 +240,18 @@ namespace SoulRequiem.Gameplay
 
         /// <summary>Burn (lửa Ether): <paramref name="dps"/> sát thương / giây trong <paramref name="duration"/> giây.
         /// Dính lại khi đang cháy: gia hạn thời gian, giữ mức dps lớn hơn (không cộng dồn).</summary>
+        /// <summary>16/11 (§275): màu nháy khi cháy (mặc định xanh Ether; thánh quang Accord = vàng).</summary>
+        private Color burnTint = new Color(0.55f, 0.8f, 1f, 1f);
+
+        /// <summary>16/11 (§275): cháy với màu nháy riêng (vd lửa thánh quang của Arthur's Accord).</summary>
+        public void ApplyBurn(float dps, float duration, Color tint) { burnTint = tint; ApplyBurn(dps, duration); }
+
+        /// <summary>16/11 (§275): sát thương theo thời gian (chảy máu...) — không đẩy lùi, không làm khựng.</summary>
+        public void ApplyDot(float amount) { if (!IsDead && !Invulnerable && amount > 0f && !CutsceneSafe) ApplyDamage(amount, false); }
+
+        /// <summary>16/11 (§275): nháy màu thân (hiệu ứng trạng thái).</summary>
+        public void TintPulse(Color c, float seconds) { if (sr != null && !IsDead) StartCoroutine(Tint(c, seconds)); }
+
         public void ApplyBurn(float dps, float duration)
         {
             if (IsDead || Invulnerable || dps <= 0f || duration <= 0f) return;
@@ -208,7 +262,7 @@ namespace SoulRequiem.Gameplay
 
         private IEnumerator BurnRoutine()
         {
-            Color tint = new Color(0.55f, 0.8f, 1f, 1f);
+            Color tint = burnTint;
             while (!IsDead && Time.time < burnUntil)
             {
                 yield return new WaitForSeconds(0.5f);
@@ -259,7 +313,7 @@ namespace SoulRequiem.Gameplay
                 flashRoutine = StartCoroutine(Tint(new Color(1f, 0.45f, 0.45f, 1f), 0.1f));
             }
             Damaged?.Invoke(this, amount);
-            if (Current <= 0f) Died?.Invoke(this);
+            if (Current <= 0f) { SfxHooks.Died(this); Died?.Invoke(this); }   // 17/11 (§294): âm
         }
 
         private IEnumerator Tint(Color c, float seconds)

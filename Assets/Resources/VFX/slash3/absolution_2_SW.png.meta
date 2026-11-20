@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: ebb8af2841ad4495892aa4706a5fa4b0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2697249176294952783
+    second: absolution_2_SW_0
+  - first:
+      213: 3894862367924710368
+    second: absolution_2_SW_1
+  - first:
+      213: 3490810669205490223
+    second: absolution_2_SW_2
+  - first:
+      213: 1310157980670985276
+    second: absolution_2_SW_3
+  - first:
+      213: 3859243285052280118
+    second: absolution_2_SW_4
+  - first:
+      213: 752010425944535660
+    second: absolution_2_SW_5
+  - first:
+      213: 4248068258533539608
+    second: absolution_2_SW_6
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 4096
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: absolution_2_SW_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 95
+        height: 95
+      alignment: 9
+      pivot: {x: 0.982319, y: 0.547368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3061f3e38ff64c41a0c2ed40422f8582
+      internalID: 2697249176294952783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: absolution_2_SW_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 0
+        width: 95
+        height: 95
+      alignment: 9
+      pivot: {x: 0.982319, y: 0.547368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3bc70c722542b3bc9be4c647ef9a5e
+      internalID: 3894862367924710368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: absolution_2_SW_2
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 95
+        height: 95
+      alignment: 9
+      pivot: {x: 0.982319, y: 0.547368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28491dcd100a4bfd9d80e9996b724340
+      internalID: 3490810669205490223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: absolution_2_SW_3
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 0
+        width: 95
+        height: 95
+      alignment: 9
+      pivot: {x: 0.982319, y: 0.547368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf86f9e5a7746cc8b4c06674c2fa81b
+      internalID: 1310157980670985276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: absolution_2_SW_4
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 0
+        width: 95
+        height: 95
+      alignment: 9
+      pivot: {x: 0.982319, y: 0.547368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6073c7f23cae4feba7e443449c23fd37
+      internalID: 3859243285052280118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: absolution_2_SW_5
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 0
+        width: 95
+        height: 95
+      alignment: 9
+      pivot: {x: 0.982319, y: 0.547368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f732ed8a8f416bbdeae3f4e63bbddf
+      internalID: 752010425944535660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: absolution_2_SW_6
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 0
+        width: 95
+        height: 95
+      alignment: 9
+      pivot: {x: 0.982319, y: 0.547368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af014d8e93d4bf3bfdfab612871c7da
+      internalID: 4248068258533539608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      absolution_2_SW_0: 2697249176294952783
+      absolution_2_SW_1: 3894862367924710368
+      absolution_2_SW_2: 3490810669205490223
+      absolution_2_SW_3: 1310157980670985276
+      absolution_2_SW_4: 3859243285052280118
+      absolution_2_SW_5: 752010425944535660
+      absolution_2_SW_6: 4248068258533539608
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

@@ -57,6 +57,7 @@ namespace SoulRequiem.Gameplay
         [Tooltip("Khi còn quan tài, máu không xuống dưới mức này")] public float undyingFloor = 0.05f;
         private string baseName;
         private float nextFloorHint;
+        private BossMercy mercy;                     // 16/11 (§237)
         private int Intact => coffins.FindAll(c => !c.broken).Count;
         private int Destroyed => coffins.Count - Intact;
         private class Pool { public Vector2 pos; public SpriteVfx vfx; public float until; }
@@ -78,11 +79,57 @@ namespace SoulRequiem.Gameplay
             if (h != null) h.Damaged += (_, __) => hitsTaken++;
         }
 
+        // ------------------------------------------------------------------ 19/11 (§343): dựng lại quan tài khi trận làm lại
+        // Lỗi: Ren gục giữa trận sau khi đã phá quan tài -> khu làm lại, Isolde mới sinh ra coi mọi quan tài còn nguyên (đúng) nhưng HÌNH vẫn
+        // là quan tài vỡ / nắp mở / đã bị tráo chỗ -> người chơi không biết cái nào thật. Nay: nhớ vị trí gốc của mọi hình quan tài (lần đầu thấy),
+        // khi khu chứa quan tài được làm lại (MapEncounterDirector.ZoneReset) và lúc trận bắt đầu: về chỗ cũ, hiện bản nguyên vẹn, ẩn _open / _broken.
+        private const int MaxCoffins = 8;
+        private static readonly Dictionary<GameObject, Vector3> coffinHome = new Dictionary<GameObject, Vector3>();
+
+        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+        private static void HookReset()
+        {
+            coffinHome.Clear();
+            MapEncounterDirector.ZoneReset -= OnZoneReset;
+            MapEncounterDirector.ZoneReset += OnZoneReset;
+        }
+
+        private static void OnZoneReset(Rect zone)
+        {
+            var mm = MapMechanics.Instance;
+            if (mm == null) return;
+            bool mine = false;
+            for (int i = 0; i < MaxCoffins && !mine; i++)
+                foreach (var g in mm.Named("isolde_coffin_" + i))
+                    if (g != null && zone.Contains((Vector2)(coffinHome.TryGetValue(g, out var h) ? h : g.transform.position))) { mine = true; break; }
+            if (mine) RestoreCoffins(mm);
+        }
+
+        /// <summary>Mọi quan tài về chỗ gốc, nguyên vẹn.</summary>
+        private static void RestoreCoffins(MapMechanics mm)
+        {
+            for (int i = 0; i < MaxCoffins; i++)
+            {
+                string n = "isolde_coffin_" + i;
+                foreach (var suf in new[] { "", "_open", "_broken" })
+                    foreach (var g in mm.Named(n + suf))
+                    {
+                        if (g == null) continue;
+                        if (!coffinHome.ContainsKey(g)) coffinHome[g] = g.transform.position;   // lần đầu: chưa bị tráo
+                        else g.transform.position = coffinHome[g];
+                    }
+                mm.SetVisible(n + "_open", false);
+                mm.SetVisible(n + "_broken", false);
+                mm.SetVisible(n, true);
+            }
+        }
+
         // ------------------------------------------------------------------ bắt đầu
         protected override void OnEngage()
         {
             Hint("\"Who knocks upon the Matriarch's door?\"", 3.5f);
             var mm = MapMechanics.Instance;
+            if (mm != null) RestoreCoffins(mm);                                  // 19/11 (§343): trận mới = quan tài nguyên, đúng chỗ
             for (int i = 0; i < coffinCount && mm != null; i++)
             {
                 string n = "isolde_coffin_" + i;
@@ -177,6 +224,7 @@ namespace SoulRequiem.Gameplay
         // 27/10: thay đòn cào thường. Một nhát cào nhẹ (x0,55), trúng thì hút máu: dòng giọt máu chảy về bà, bà hồi 4% máu tối đa.
         private IEnumerator BloodLash()
         {
+            SfxHooks.BossMove(this, "BloodLash"); // 19/11 (§335): âm
             Use("lash", 15f);
             ai.Desired = Vector2.zero;
             Vector2 dir = (PlayerPos - Pos).normalized;
@@ -202,6 +250,7 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ Bat Dive (áp sát)
         private IEnumerator BatDive()
         {
+            SfxHooks.BossMove(this, "BatDive"); // 19/11 (§335): âm
             Use("dive", 8f);
             ai.Desired = Vector2.zero;
             Vector2 from = Pos;
@@ -209,10 +258,10 @@ namespace SoulRequiem.Gameplay
             Vector2 to = ClampArena(PlayerPos + dir * 0.6f, 0.85f);
             ai.FaceX(dir.x);
             ai.PlayState("Cast");
-            var line = Ray("m3_ray_warn", from, to, 0.62f, 2f, Order - 1, 12f, 0.65f);   // vạch báo đường lao
-            if (line != null) line.Tint(Blood);
-            yield return ai.WaitFor(0.55f);
-            if (line != null) line.Stop();
+            // §372: làn báo đường lao (rộng 0,76 đv = vùng trúng), vệt nạp đầy đúng lúc hoá dơi
+            var tg = DashTelegraph.Spawn(from, to - from, (to - from).magnitude, 0.76f, Blood, 0.6f, Layer, Order - 1);
+            yield return ai.WaitFor(0.6f);
+            tg.Release();
             float t;
             if (hp.IsDead) yield break;
             SpriteVfx.Spawn("m3_blood_mist", from, 0.6f, Layer, Order + 1, false, 18f);
@@ -238,6 +287,7 @@ namespace SoulRequiem.Gameplay
         /// Bầy dơi bay từ a tới b (chỉ để nhìn).
         private IEnumerator BatSwarm(Vector2 a, Vector2 b, float seconds, int count)
         {
+            SfxHooks.BossMove(this, "BatSwarm"); // 19/11 (§335): âm
             if (batFrames == null || batFrames.Length == 0) yield break;
             var bats = new List<SpriteRenderer>();
             var offs = new List<Vector2>();
@@ -273,6 +323,7 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ Children of the Night (dơi đuổi)
         private IEnumerator ChildrenOfTheNight(int n, bool useCd)
         {
+            SfxHooks.BossMove(this, "ChildrenOfTheNight"); // 19/11 (§335): âm
             if (useCd) Use("bats", 7f);
             ai.Desired = Vector2.zero;
             ai.FaceX((PlayerPos - Pos).x);
@@ -292,6 +343,7 @@ namespace SoulRequiem.Gameplay
         /// Một con dơi: bay ra theo quạt, rẽ dần về phía Ren trong 1,1 s đầu rồi bay thẳng; chạm Ren hoặc bị chém thì nổ máu.
         private IEnumerator BatShot(Vector2 start, float angle, float delay)
         {
+            SfxHooks.BossMove(this, "BatShot"); // 19/11 (§337): âm
             if (delay > 0f) yield return new WaitForSeconds(delay);
             var go = new GameObject("VeyBat");
             go.transform.position = start;
@@ -332,6 +384,7 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ Sanguine Siphon (dây hút máu, quan tài che)
         private IEnumerator SanguineSiphon()
         {
+            SfxHooks.BossMove(this, "SanguineSiphon"); // 19/11 (§337): âm
             Use("siphon", 16f);
             ai.Desired = Vector2.zero;
             ai.FaceX((PlayerPos - Pos).x);
@@ -403,6 +456,7 @@ namespace SoulRequiem.Gameplay
             var glob = SpriteVfx.Load("m3_blood_orb");
             // mưa máu phủ rộng -> không mất máu, mà gây HEMORRHAGE: 6 s không uống được bình máu
             var g = GroundStrike.Spawn(p, warn, poolRadius, 0f, SpriteVfx.Load("m3_blood_splash"), 1, 16f, Order, Blood);
+            g.impactSfx = "blood_splat"; // 19/11 (§337): âm
             g.onHit = _ => { var s = PS; if (s != null) s.BlockHeal(6f); };
             g.bodyScale = 0.6f;
             if (glob.Length > 0) { g.shell = glob[0]; g.shellFrom = p + Vector2.up * 2.6f; g.shellArc = 0f; g.shellScale = 0.9f; }
@@ -425,6 +479,14 @@ namespace SoulRequiem.Gameplay
         {
             base.Update();
             if (ai == null || hp == null || hp.IsDead || !engaged) return;
+            // 16/11 (§237): quan tài đã vỡ hết + máu chạm sàn -> Isolde quỳ; chém tiếp = kết liễu, [T] = tha (BossMercy)
+            if (mercy == null && Intact == 0 && coffins.Count > 0 && hp.Current <= hp.Floor + 0.5f)
+            {
+                StopAllCoroutines();
+                mercy = BossMercy.Begin(ai, "mercy_3", "isolde_slain");
+                enabled = false;
+                return;
+            }
             if (Destroyed > 0 && !Broken) hp.Heal(hp.Max * regenStep * Destroyed * Time.deltaTime);   // hồi liên tục, tăng theo số quan tài đã vỡ
             if (Intact > 0 && hp.Current <= hp.Floor + 0.5f && Time.time >= nextFloorHint)
             {
@@ -460,6 +522,7 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ Feast (uống vũng máu)
         private IEnumerator Feast()
         {
+            SfxHooks.BossMove(this, "Feast"); // 19/11 (§337): âm
             Use("feast", 16f);
             TickPools();
             if (pools.Count == 0) yield break;
@@ -494,6 +557,7 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ Mist Step (dịch chuyển)
         private IEnumerator MistStep(Vector2 to)
         {
+            SfxHooks.BossMove(this, "MistStep"); // 19/11 (§335): âm
             ai.Desired = Vector2.zero;
             SpriteVfx.Spawn("m3_blood_mist", Pos, 0.7f, Layer, Order + 1, false, 16f);
             hp.Invulnerable = true;
@@ -512,6 +576,7 @@ namespace SoulRequiem.Gameplay
         //   Sau đó cả 3 quan tài bị niêm (mở/vỡ); 20 s sau bà dùng Rite of Repose dựng lại.
         private IEnumerator NightFlight()
         {
+            SfxHooks.BossMove(this, "NightFlight"); // 19/11 (§335): âm
             Use("flight", 30f);
             var mm = MapMechanics.Instance;
             var intact = coffins.FindAll(c => !c.broken);
@@ -656,9 +721,9 @@ namespace SoulRequiem.Gameplay
                 float amt = healStep * Destroyed;
                 hp.Heal(hp.Max * amt);
                 for (int k = 0; k < 5; k++) StartCoroutine(FlyMote("m3_blood_orb", c.pos + Random.insideUnitCircle * 0.2f, transform, Vector2.up * 0.45f, 0.5f + k * 0.06f, 0.7f));
-                Hint(left > 0 ? $"A coffin shatters. She drinks its blood (+{amt * 100f:0}%). {left} remain." : "The last coffin falls. Isolde can finally die!", 2.5f);
+                Hint(left > 0 ? $"A coffin shatters. She drinks its blood (+{amt * 100f:0}%). {left} remain." : "The last coffin falls. Now she can be brought to her knees!", 2.5f);
             }
-            else if (left == 0) Hint("The last coffin falls. Isolde can finally die!", 2.5f);
+            else if (left == 0) Hint("The last coffin falls. Now she can be brought to her knees!", 2.5f);
             if (Ready("rite")) ready["rite"] = Time.time + restoreEvery;       // đếm 30 s từ lúc có quan tài vỡ
         }
 
@@ -666,7 +731,7 @@ namespace SoulRequiem.Gameplay
         private void UpdateCoffinState()
         {
             int left = Intact;
-            hp.Floor = left > 0 ? hp.Max * undyingFloor : 0f;
+            hp.Floor = (left > 0 || mercy == null) ? hp.Max * undyingFloor : 0f;   // 16/11 (§237): hết quan tài vẫn giữ mức sàn -> quỳ, chờ Ren chọn
             if (!string.IsNullOrEmpty(baseName)) ai.displayName = left > 0 ? $"{baseName}  —  Coffins {left}/{coffins.Count}" : baseName;
         }
 
@@ -684,6 +749,7 @@ namespace SoulRequiem.Gameplay
             foreach (var p in pools)
             {
                 var g = GroundStrike.Spawn(p.pos, 0.75f, 0.48f, ai.damage * 0.8f, spike, 2, 14f, Order + 1, DarkBlood);
+                g.impactSfx = "blood_spike"; // 19/11 (§337): âm
                 g.bodyScale = 0.6f;
             }
             float g0 = Random.Range(0f, 120f);

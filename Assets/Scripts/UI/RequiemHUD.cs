@@ -38,6 +38,13 @@ namespace SoulRequiem.UI
         private float lag = 1f, lagHold;
         private readonly List<Badge> badges = new List<Badge>();
         private VisualElement statusRow;
+        // 16/11 (§279): Ô NỘI TẠI của thanh katana đang cầm (thay thước §275): icon mờ khi chờ, sáng + viền màu kiếm khi bật,
+        // vòng tích / cạn cho nội tại có thời gian, số tầng (Penance / Hunger), tên hiện 2,5 s khi đổi kiếm; vạch ngưỡng trên thanh máu.
+        private VisualElement traitChip, traitGlow, traitIcon, traitHpTick;
+        private CooldownRing traitRing;
+        private Label traitLabel, traitCount;
+        private WeaponTraitKind traitShown = WeaponTraitKind.None;
+        private float traitNameT, traitFlash;
 
         // skills
         private readonly Socket[] sockets = new Socket[PlayerLoadout.SlotCount];
@@ -61,6 +68,23 @@ namespace SoulRequiem.UI
         // boss + hint
         private VisualElement bossRoot, bossFill, bossLag, bossSurf;
         private Label bossName, bossSub;
+        // 19/11 (§344): song đấu — thanh máu nhỏ của boss phụ (MapEncounterDirector.BossPartner), nằm phía trên tên boss chính
+        private VisualElement bossP, bossPFill, bossPLag, bossPGloss, bossPLock;
+        private Label bossPName, bossPSeal;
+        private float bossPLagV = 1f;
+        private Health lastPartner;
+        // 20/11 (§355): GIÁP (Health.Barrier, vd Soul Armor của Hollow Champion) — dải giáp phủ nửa trên thanh máu boss chính + nhãn trạng thái
+        private VisualElement armorBack, armorFill, armorGloss, armorFlash, armorIcon;
+        private readonly List<VisualElement> armorTicks = new List<VisualElement>();
+        private Label armorLabel;
+        private float armorShownV;
+        // 20/11 (§356): bảng điểm minigame THE DRILL YARD (DrillBoard)
+        // 20/11 (§360): bảng 3 trạm — mục tiêu + đồng hồ + ô tinh thần thay cho điểm / combo
+        private VisualElement drillRoot, drillFill, drillTime;
+        private readonly List<VisualElement> drillPips = new List<VisualElement>();
+        private Label drillTitle, drillGoal, drillClock, drillPop, drillResult, drillObjective;
+        private VisualElement drillTrackL, drillTrackR, drillTrackM;       // 20/11 (§362): biểu tượng thanh theo dõi
+        private Label drillCommand;                                         // 20/11 (§365): lệnh Sergeant Says chữ to giữa màn
         private float bossLagV = 1f, bossLagHold;
         private Health lastBoss;
         private VisualElement hintRoot, restPrompt;
@@ -70,6 +94,7 @@ namespace SoulRequiem.UI
         // 05/11: sương mù bản đồ theo khu (MapFog) — "??" trên khu chưa mở
         private MinimapFogView miniFog, bigFog;
         private readonly List<VisualElement> mapFires = new List<VisualElement>(), bigFires = new List<VisualElement>();
+        private readonly List<VisualElement> mapFoes = new List<VisualElement>();   // 19/11 (§340): chấm đỏ quái sót trên minimap
         private static readonly Color FireUnlit = new Color(1f, 0.62f, 0.25f), FireLit = new Color(0.5f, 0.88f, 1f);
         // 02/11: bảng tên boss (BossIntro)
         private VisualElement cardRoot, cardBand, cardShade, cardTilt, cardPortrait, cardPortraitShadow, cardFlash, cardStripTop, cardStripBot, cardHiTop, cardHiBot;
@@ -126,6 +151,7 @@ namespace SoulRequiem.UI
             BuildNavigation();
             BuildBossAndHint();
             BuildBossCard();
+            BuildDrill();
             BuildLetterbox();
             BuildTutorialPrompt();
             BuildDialogue();
@@ -199,16 +225,21 @@ namespace SoulRequiem.UI
             hpText = RequiemUI.Text("", "sr-hp-text", bar);
             RequiemUI.Abs(hpText, 44, 14, 352, 30);
 
+            // 16/11 (§279): vạch ngưỡng máu của nội tại (Blood Oath / Last Stand) trên thanh máu
+            traitHpTick = Box(bar, 44, 12, 2, 35, new Color(1f, 0.85f, 0.45f, 0.9f));
+            traitHpTick.style.display = DisplayStyle.None;
+
             // hàng nhỏ dưới thanh: Đánh (J) / Lăn (Q) | trạng thái
             statusRow = Group(g, "row");
             statusRow.style.left = 188; statusRow.style.top = 118;
             Chip(statusRow, 0, "ic_attack", GameInput.Label(GameAction.Attack), out _);
             rollRing = Chip(statusRow, 52, "ic_roll", GameInput.Label(GameAction.Roll), out rollCd);
-            Box(statusRow, 108, 4, 2, 34, new Color(RequiemUI.Gold.r, RequiemUI.Gold.g, RequiemUI.Gold.b, 0.6f));
+            BuildTraitChip(statusRow, 104);
+            Box(statusRow, 160, 4, 2, 34, new Color(RequiemUI.Gold.r, RequiemUI.Gold.g, RequiemUI.Gold.b, 0.6f));
             for (int i = 0; i < 6; i++)
             {
                 var b = new Badge { root = Group(statusRow, "badge") };
-                b.root.style.left = 122 + i * 100; b.root.style.top = 0;
+                b.root.style.left = 174 + i * 100; b.root.style.top = 0;
                 RequiemUI.Img("chk_off", 0, 0, 40, 40, b.root);
                 b.icon = RequiemUI.Img("ic_slow", 4, 4, 32, 32, b.root);
                 b.time = RequiemUI.Text("", "sr-small", b.root);
@@ -216,6 +247,30 @@ namespace SoulRequiem.UI
                 b.root.style.display = DisplayStyle.None;
                 badges.Add(b);
             }
+        }
+
+        /// <summary>16/11 (§279): ô nội tại cạnh Đánh / Lăn — viền sáng phía sau, icon ic_trait_&lt;kiểu&gt;, vòng tích / cạn, số tầng, tên bên dưới.</summary>
+        private void BuildTraitChip(VisualElement parent, float x)
+        {
+            traitChip = Group(parent, "trait");
+            traitChip.style.left = x; traitChip.style.top = 0; traitChip.style.width = 40; traitChip.style.height = 40;
+            traitGlow = Box(traitChip, -3, -3, 46, 46, new Color(1f, 1f, 1f, 0f));
+            RequiemUI.Img("chk_off", 0, 0, 40, 40, traitChip);
+            var wrap = Group(traitChip, "ic");
+            RequiemUI.Abs(wrap, 4, 4, 32, 32);
+            wrap.style.overflow = Overflow.Hidden;
+            traitIcon = RequiemUI.Img("ic_attack", 0, 0, 32, 32, wrap);
+            traitRing = new CooldownRing();
+            RequiemUI.Abs(traitRing, 0, 0, 32, 32);
+            wrap.Add(traitRing);
+            traitCount = RequiemUI.Text("", "sr-key-small", traitChip);
+            RequiemUI.Abs(traitCount, 22, 22, 20, 18);
+            traitLabel = RequiemUI.Text("", "sr-tiny sr-gold", traitChip);
+            RequiemUI.Abs(traitLabel, -80, 42, 200, 24);
+            traitLabel.style.unityTextAlign = TextAnchor.UpperCenter;
+            traitLabel.style.whiteSpace = WhiteSpace.NoWrap;
+            traitLabel.style.opacity = 0f;
+            traitChip.style.display = DisplayStyle.None;
         }
 
         /// Chip nhỏ (Đánh / Lăn): khung 40, icon 32, nắp phím nhỏ ở góc dưới phải.
@@ -375,11 +430,37 @@ namespace SoulRequiem.UI
             bossFill = RequiemUI.Img("bar_fill", 47, 42, 577, 19, bossRoot);
             bossFill.style.unityBackgroundImageTintColor = BossRed;
             bossSurf = Box(bossRoot, 47, 42, 577, 3, new Color(0.9f, 0.35f, 0.42f, 0.8f));
+            // 20/11 (§355): GIÁP — dải 7 px phủ nửa trên lòng thanh máu (màu theo Health.BarrierColor), vạch chia 4 ô, chớp sáng khi đỡ đòn
+            armorBack = Box(bossRoot, 47, 42, 577, 7, new Color(0.08f, 0.04f, 0.12f, 0.75f));
+            armorFill = Box(bossRoot, 47, 42, 577, 7, new Color(0.62f, 0.38f, 0.95f));
+            armorGloss = Box(bossRoot, 47, 42, 577, 1, new Color(1f, 1f, 1f, 0.55f));
+            for (int i = 1; i < 4; i++) armorTicks.Add(Box(bossRoot, 47 + 577f * i / 4f - 1f, 42, 2, 7, new Color(0.05f, 0.02f, 0.08f, 0.9f)));
+            armorFlash = Box(bossRoot, 47, 42, 577, 19, Color.white);
+            armorFlash.style.opacity = 0f;
             RequiemUI.Img("boss_frame", 0, 0, 671, 80, bossRoot);
             bossName = RequiemUI.Text("", "sr-title sr-boss-name", bossRoot);
             RequiemUI.Abs(bossName, -200, -44, 1071, 40);
             bossSub = RequiemUI.Text("", "sr-small sr-gold sr-right", bossRoot);
             RequiemUI.Abs(bossSub, 380, 2, 240, 24);
+            armorIcon = RequiemUI.Img("ic_soul_armor", 52, 6, 22, 26, bossRoot);
+            armorLabel = RequiemUI.Text("", "sr-small sr-gold", bossRoot);
+            RequiemUI.Abs(armorLabel, 80, 4, 220, 24);
+            // 20/11 (§355): THANH BOSS PHỤ làm lại — khung kim loại tím viền vàng cùng bộ với khung boss (duo_bar_frame 420x32, lòng 326x11 tại 47,11),
+            // vệt máu trễ, ánh bóng, tên trái + "SEALED" kèm ổ khoá phải khi boss phụ đang bất tử (vd pháo trên bệ)
+            bossP = new VisualElement { pickingMode = PickingMode.Ignore };
+            bossP.style.position = Position.Absolute; bossP.style.left = 125; bossP.style.top = -100; bossP.style.width = 420; bossP.style.height = 50;
+            bossRoot.Add(bossP);
+            bossPName = RequiemUI.Text("", "sr-small sr-gold", bossP);
+            RequiemUI.Abs(bossPName, 47, 0, 200, 18);
+            bossPSeal = RequiemUI.Text("SEALED", "sr-small sr-gold sr-right", bossP);
+            RequiemUI.Abs(bossPSeal, 213, 0, 140, 18);
+            bossPLock = RequiemUI.Img("ic_lock", 356, 1, 18, 22, bossP);
+            Box(bossP, 47, 29, 326, 11, new Color(0.11f, 0.06f, 0.1f));
+            bossPLag = Box(bossP, 47, 29, 326, 11, Lag);
+            bossPFill = RequiemUI.Img("bar_fill", 47, 29, 326, 11, bossP);
+            bossPGloss = Box(bossP, 47, 29, 326, 2, new Color(1f, 1f, 1f, 0.35f));
+            RequiemUI.Img("duo_bar_frame", 0, 18, 420, 32, bossP);
+            bossP.style.display = DisplayStyle.None;
             bossRoot.style.display = DisplayStyle.None;
 
             // hàng phủ cả bề ngang, dải chữ canh giữa bên trong (left:50% + translate làm dải bị bóp còn nửa màn -> lệch phải)
@@ -572,6 +653,7 @@ namespace SoulRequiem.UI
             UpdateFlask(dt);
             UpdateNavigation(q, dir);
             float bossTop = UpdateBoss(dir, dt);
+            UpdateDrill(dt);
             UpdateBossCard();
             UpdateTutorialPrompt();
             UpdateDialogue();
@@ -605,6 +687,8 @@ namespace SoulRequiem.UI
                                                               hp.IsStunned ? new Color(1f, 0.92f, 0.6f) : Color.white;
             // Lăn: vòng hồi
             if (kit != null) rollCd.Progress = kit.rollCooldown > 0f ? kit.RollCooldownLeft / kit.rollCooldown : 0f;
+            // 18/11 (§320): mặc áo tù không lăn được -> ô Lăn mờ đi
+            if (rollRing != null) rollRing.style.opacity = status != null && (status.Disarmed || status.RollSealed) ? 0.3f : 1f;   // 20/11 (§355): + khoá lăn
 
             // trạng thái
             int n = 0;
@@ -616,14 +700,90 @@ namespace SoulRequiem.UI
             {
                 if (status.SlowLeft > 0f) SetBadge(n++, "ic_slow", Secs(status.SlowLeft));
                 if (status.SilenceLeft > 0f) SetBadge(n++, "ic_silence", Secs(status.SilenceLeft));
+                if (status.RollSealLeft > 0f) SetBadge(n++, "ic_roll", Secs(status.RollSealLeft));   // 20/11 (§355): khoá lăn
                 if (status.HealBlockLeft > 0f) SetBadge(n++, "ic_bleed", Secs(status.HealBlockLeft));
             }
             for (int i = n; i < badges.Count; i++) badges[i].root.style.display = DisplayStyle.None;
+
+            UpdateTraitGauge();
 
             // viền đỏ máu thấp
             float k = (!hp.IsDead && pct < 0.3f && GameSettings.LowHpVignette) ? 1f - pct / 0.3f : 0f;
             float beat = GameSettings.ReduceFlashing ? 0.8f : 0.55f + 0.45f * Mathf.Abs(Mathf.Sin(Time.unscaledTime * (3f + 3f * k)));
             vignette.style.opacity = k > 0f ? (0.3f + 0.5f * k) * beat : 0f;
+        }
+
+        /// <summary>16/11 (§275): màu thước theo kiểu nội tại (theo màu thanh kiếm / boss nguồn gốc).</summary>
+        private static Color TraitColor(WeaponTraitKind k)
+        {
+            switch (k)
+            {
+                case WeaponTraitKind.Counterstroke: return new Color(0.85f, 0.85f, 0.8f);
+                case WeaponTraitKind.Vigil: return new Color(0.78f, 0.5f, 1f);
+                case WeaponTraitKind.BloodOath: return new Color(0.9f, 0.2f, 0.22f);
+                case WeaponTraitKind.Iaijutsu: return new Color(0.6f, 0.72f, 0.88f);
+                case WeaponTraitKind.LastStand: return new Color(0.62f, 0.8f, 0.95f);
+                case WeaponTraitKind.Hunger: return new Color(0.6f, 0.08f, 0.16f);
+                case WeaponTraitKind.Accord: return new Color(1f, 0.84f, 0.42f);
+                case WeaponTraitKind.Namebound: return new Color(0.55f, 0.75f, 1f);
+                case WeaponTraitKind.Penance: return new Color(0.85f, 0.7f, 0.4f);
+                default: return Color.white;
+            }
+        }
+
+        /// <summary>16/11 (§279): ô nội tại. Chỉ nội tại có thời gian (Counterstroke / Vigil / Accord) mới có vòng; ngưỡng máu vẽ trên thanh máu.</summary>
+        private void UpdateTraitGauge()
+        {
+            float dt = Time.unscaledDeltaTime;
+            if (kit == null || !WeaponTraits.Gauge(kit, out float fill, out bool active, out float mark))
+            {
+                traitChip.style.display = DisplayStyle.None; traitHpTick.style.display = DisplayStyle.None;
+                traitShown = WeaponTraitKind.None; return;
+            }
+            var kind = WeaponTraits.KindOf(kit);
+            traitChip.style.display = DisplayStyle.Flex;
+            if (kind != traitShown)                                   // đổi kiếm: icon mới, ô loé, tên hiện 2,5 s
+            {
+                traitShown = kind;
+                var tex = RequiemUI.Tex("ic_trait_" + kind.ToString().ToLowerInvariant());
+                if (tex == null) tex = RequiemUI.Tex("ic_attack");
+                if (tex != null) traitIcon.style.backgroundImage = new StyleBackground(tex);
+                traitLabel.text = WeaponTraits.Title(kit).ToUpperInvariant();
+                traitNameT = 2.5f; traitFlash = 1f;
+            }
+            var col = TraitColor(kind);
+
+            // vòng: phần tối = phần chưa tích / đã cạn
+            bool timed = kind == WeaponTraitKind.Counterstroke || kind == WeaponTraitKind.Vigil || kind == WeaponTraitKind.Accord;
+            traitRing.Progress = timed && (active || kind == WeaponTraitKind.Vigil) ? 1f - Mathf.Clamp01(fill) : 0f;
+
+            // số tầng
+            string count = "";
+            if (kind == WeaponTraitKind.Penance && kit.PenanceStacks > 0) count = kit.PenanceStacks.ToString();
+            else if (kind == WeaponTraitKind.Hunger && EnemyStatus.MarkedAlive > 0) count = EnemyStatus.MarkedAlive.ToString();
+            if (traitCount.text != count) traitCount.text = count;
+
+            // mờ khi chờ, sáng + viền màu kiếm khi bật
+            traitIcon.style.unityBackgroundImageTintColor = active ? Color.white : new Color(0.42f, 0.4f, 0.46f, 1f);
+            float pulse = active ? (GameSettings.ReduceFlashing ? 0.35f : 0.32f + 0.18f * Mathf.Sin(Time.unscaledTime * 6f)) : 0f;
+            traitFlash = Mathf.Max(0f, traitFlash - dt * 1.6f);
+            float a = Mathf.Max(pulse, GameSettings.ReduceFlashing ? 0f : traitFlash * 0.8f);
+            traitGlow.style.backgroundColor = new Color(col.r, col.g, col.b, a);
+
+            // tên nội tại khi vừa đổi kiếm
+            traitNameT = Mathf.Max(0f, traitNameT - dt);
+            traitLabel.style.opacity = Mathf.Clamp01(traitNameT / 0.6f);
+            traitLabel.style.color = new StyleColor(Color.Lerp(col, Color.white, 0.35f));
+
+            // vạch ngưỡng máu
+            float thr = WeaponTraits.HpThreshold(kit);
+            if (thr > 0f && thr < 1f)
+            {
+                traitHpTick.style.display = DisplayStyle.Flex;
+                traitHpTick.style.left = 44f + 352f * thr - 1f;
+                traitHpTick.style.backgroundColor = active ? Color.Lerp(col, Color.white, 0.3f) : new Color(1f, 0.85f, 0.45f, 0.75f);
+            }
+            else traitHpTick.style.display = DisplayStyle.None;
         }
 
         private void SetBadge(int i, string icon, string time)
@@ -756,6 +916,18 @@ namespace SoulRequiem.UI
                         ic.style.unityBackgroundImageTintColor = sh.Lit ? FireLit : FireUnlit;
                     }
                 for (int i = nf; i < mapFires.Count; i++) mapFires[i].style.display = DisplayStyle.None;
+                // 19/11 (§340): quái sót còn lại của khu (đã đứng yên lâu, cửa chưa mở) -> chấm đỏ nhấp nháy
+                int nfo = 0;
+                if (!hidden)
+                    foreach (var foe in MapEncounterDirector.Stragglers())
+                    {
+                        Vector2 ep2 = new Vector2(ox, oy) + q.WorldToTile(foe.transform.position) * k;
+                        if (ep2.x < 3f || ep2.x > view - 3f || ep2.y < 3f || ep2.y > view - 3f) continue;
+                        var dot = FoeDot(nfo++);
+                        dot.style.left = ep2.x - 4f; dot.style.top = ep2.y - 4f;
+                        dot.style.opacity = 0.55f + 0.45f * Mathf.Abs(Mathf.Sin(Time.unscaledTime * 5f));
+                    }
+                for (int i = nfo; i < mapFoes.Count; i++) mapFoes[i].style.display = DisplayStyle.None;
                 mapTarget.style.display = mapTargetEdge.style.display = DisplayStyle.None;
                 mapTargetGlow.style.display = mapTargetPing.style.display = mapEdgeGlow.style.display = DisplayStyle.None;
                 bool arrived = MapEncounterDirector.Instance != null && MapEncounterDirector.Instance.TargetReachedInFight(q.TargetWorld);
@@ -790,7 +962,7 @@ namespace SoulRequiem.UI
             questPanel.style.top = q.Minimap != null ? 70 + 275 + 8 : 70;
             if (!q.HasQuest) return;
             bool fresh = Time.time - q.StepChangedAt < 3f;
-            string head = fresh ? "QUEST UPDATED" : "MAIN QUEST";
+            string head = fresh ? "QUEST UPDATED" : q.IsSide ? "SIDE QUEST" : "MAIN QUEST";   // 16/11 (§267): map bí mật = nhiệm vụ phụ
             if (questHead.text != head) questHead.text = head;
             questPanel.EnableInClassList("sr-quest-fresh", fresh && !GameSettings.ReduceFlashing && Mathf.Repeat(Time.time, 0.5f) < 0.25f);
             string title = q.AllDone ? "The way onward is open." : q.Title + (q.TotalCount > 0 ? $" ({q.DoneCount}/{q.TotalCount})" : "");
@@ -849,18 +1021,187 @@ namespace SoulRequiem.UI
             }
         }
 
+        // =====================================================================================================  20/11 (§356 → §360 → §362) bảng Drill Yard
+        /// <summary>Bảng minigame người nộm (Burlap's Proving Grounds), 600 x 174 giữa mép trên:
+        /// dòng 1 "STATION 2/3 - LANTERN RUN"; dòng 2: TINH THẦN (5 ô) | MỤC TIÊU ("LANTERNS 1 / 3") | đồng hồ;
+        /// dòng 3 (§362): NHIỆM VỤ — câu nói rõ việc phải làm ngay (vàng, có dấu ">");
+        /// dòng 4 (§362): THANH THEO DÕI trong khung duo_bar_frame — biểu tượng hai đầu (bệ đèn / giá đèn) + biểu tượng chạy (đèn lồng) theo DrillBoard.TrackFrac,
+        /// không có thì là thanh tiến độ mục tiêu; vạch thời gian mảnh bên dưới; dòng sự kiện nổi lên; kết quả to giữa màn.</summary>
+        private void BuildDrill()
+        {
+            drillRoot = new VisualElement { pickingMode = PickingMode.Ignore };
+            RequiemUI.Abs(drillRoot, 0, 18, 600, 210);
+            hud.Add(drillRoot);
+            Box(drillRoot, 0, 0, 600, 174, new Color(0.05f, 0.03f, 0.08f, 0.86f));
+            var gold = new Color(0.75f, 0.56f, 0.25f);
+            Box(drillRoot, 0, 0, 600, 2, gold); Box(drillRoot, 0, 172, 600, 2, gold); Box(drillRoot, 0, 0, 2, 174, gold); Box(drillRoot, 598, 0, 2, 174, gold);
+            Box(drillRoot, 6, 34, 588, 1, new Color(0.75f, 0.56f, 0.25f, 0.35f));
+            drillTitle = RequiemUI.Text("", "sr-small sr-gold", drillRoot);
+            RequiemUI.Abs(drillTitle, 0, 6, 600, 26); drillTitle.style.unityTextAlign = TextAnchor.MiddleCenter;
+            drillTitle.style.color = new Color(1f, 0.85f, 0.5f);
+            var ml = RequiemUI.Text("MORALE", "sr-small", drillRoot);
+            RequiemUI.Abs(ml, 16, 38, 150, 20); ml.style.color = new Color(0.75f, 0.72f, 0.8f); ml.style.fontSize = 15;
+            drillPips.Clear();
+            for (int i = 0; i < 5; i++)
+            {
+                var pip = Box(drillRoot, 16 + i * 28, 58, 22, 22, new Color(0.15f, 0.1f, 0.12f));
+                drillPips.Add(Box(pip, 3, 3, 16, 16, new Color(1f, 0.78f, 0.35f)));
+            }
+            drillGoal = RequiemUI.Text("", "sr-cd", drillRoot);
+            RequiemUI.Abs(drillGoal, 170, 38, 280, 44); drillGoal.style.color = Color.white; drillGoal.style.fontSize = 26;
+            drillClock = RequiemUI.Text("", "sr-cd", drillRoot);
+            RequiemUI.Abs(drillClock, 456, 38, 130, 44); drillClock.style.color = new Color(0.7f, 0.85f, 1f); drillClock.style.fontSize = 26;
+            Box(drillRoot, 6, 86, 588, 1, new Color(0.75f, 0.56f, 0.25f, 0.2f));
+            drillObjective = RequiemUI.Text("", "sr-tiny", drillRoot);
+            RequiemUI.Abs(drillObjective, 16, 88, 568, 38); drillObjective.style.color = new Color(1f, 0.9f, 0.55f);
+            drillObjective.style.unityTextAlign = TextAnchor.MiddleCenter; drillObjective.style.fontSize = 16;
+            drillObjective.style.whiteSpace = WhiteSpace.Normal;
+            // thanh theo dõi
+            Box(drillRoot, 147, 137, 306, 11, new Color(0.11f, 0.06f, 0.1f));
+            drillFill = RequiemUI.Img("bar_fill", 147, 137, 306, 11, drillRoot);
+            RequiemUI.Img("duo_bar_frame", 100, 126, 400, 32, drillRoot);
+            drillTrackL = new VisualElement { pickingMode = PickingMode.Ignore }; drillRoot.Add(drillTrackL);
+            drillTrackR = new VisualElement { pickingMode = PickingMode.Ignore }; drillRoot.Add(drillTrackR);
+            drillTrackM = new VisualElement { pickingMode = PickingMode.Ignore }; drillRoot.Add(drillTrackM);
+            drillTime = Box(drillRoot, 147, 164, 306, 3, new Color(0.6f, 0.75f, 1f, 0.8f));
+            drillPop = RequiemUI.Text("", "sr-small", drillRoot);
+            RequiemUI.Abs(drillPop, 0, 180, 600, 24); drillPop.style.unityTextAlign = TextAnchor.MiddleCenter;
+            drillRoot.style.display = DisplayStyle.None;
+            drillResult = RequiemUI.Text("", "sr-title", hud);
+            drillResult.style.position = Position.Absolute; drillResult.style.left = 0; drillResult.style.right = 0; drillResult.style.top = Length.Percent(36);
+            drillResult.style.unityTextAlign = TextAnchor.MiddleCenter; drillResult.style.fontSize = 64;
+            drillResult.style.display = DisplayStyle.None;
+            drillCommand = RequiemUI.Text("", "sr-title", hud);
+            drillCommand.style.position = Position.Absolute; drillCommand.style.left = 0; drillCommand.style.right = 0; drillCommand.style.top = Length.Percent(25);
+            drillCommand.style.unityTextAlign = TextAnchor.MiddleCenter; drillCommand.style.fontSize = 44;
+            drillCommand.style.color = new Color(1f, 0.93f, 0.7f);
+            drillCommand.style.display = DisplayStyle.None;
+        }
+
+        /// <summary>Biểu tượng sprite (Resources) cao `h` px, chân đặt ở (cx, bottom) trong bảng; rỗng = ẩn.</summary>
+        private void DrillIcon(VisualElement v, string path, float cx, float bottom, float h, float alpha = 1f)
+        {
+            var sp = DrillSprite(path);
+            if (sp == null) { v.style.display = DisplayStyle.None; return; }
+            v.style.display = DisplayStyle.Flex;
+            if (v.userData as Sprite != sp) { v.style.backgroundImage = new StyleBackground(sp); v.userData = sp; }
+            float w = h * sp.rect.width / Mathf.Max(1f, sp.rect.height);
+            RequiemUI.Abs(v, Mathf.Round(cx - w * 0.5f), Mathf.Round(bottom - h), Mathf.Round(w), Mathf.Round(h));
+            v.style.opacity = alpha;
+        }
+
+        private readonly Dictionary<string, Sprite> drillSprites = new Dictionary<string, Sprite>();
+
+        private Sprite DrillSprite(string path)
+        {
+            if (string.IsNullOrEmpty(path)) return null;
+            if (drillSprites.TryGetValue(path, out var s)) return s;
+            var all = Resources.LoadAll<Sprite>(path);
+            s = all.Length > 0 ? all[0] : null;
+            drillSprites[path] = s;
+            return s;
+        }
+
+        private void UpdateDrill(float dt)
+        {
+            bool on = DrillBoard.Active;
+            drillRoot.style.display = on ? DisplayStyle.Flex : DisplayStyle.None;
+            float since = Time.time - DrillBoard.ResultTime;
+            bool res = since < 4.5f && DrillBoard.Result.Length > 0;
+            drillResult.style.display = res ? DisplayStyle.Flex : DisplayStyle.None;
+            if (res)
+            {
+                if (drillResult.text != DrillBoard.Result) drillResult.text = DrillBoard.Result;
+                float a = since < 0.2f ? since / 0.2f : since > 3.7f ? Mathf.Clamp01((4.5f - since) / 0.8f) : 1f;
+                var c = DrillBoard.ResultColor; drillResult.style.color = new Color(c.r, c.g, c.b, a);
+                float sc = since < 0.25f ? 1.4f - 0.4f * since / 0.25f : 1f;
+                drillResult.style.scale = new Scale(new Vector3(sc, sc, 1f));
+            }
+            // §365: lệnh Sergeant Says — chữ to, bật lên khi mới hô
+            bool cmd = on && !string.IsNullOrEmpty(DrillBoard.Command);
+            drillCommand.style.display = cmd ? DisplayStyle.Flex : DisplayStyle.None;
+            if (cmd)
+            {
+                if (drillCommand.text != DrillBoard.Command) drillCommand.text = DrillBoard.Command;
+                float cs = Time.time - DrillBoard.CommandTime;
+                float k = cs < 0.18f ? 1.35f - 0.35f * cs / 0.18f : 1f;
+                drillCommand.style.scale = new Scale(new Vector3(k, k, 1f));
+            }
+            if (!on) return;
+            drillRoot.style.left = (PanelW - 600f) * 0.5f;
+            string title = "STATION " + DrillBoard.Station + "/" + DrillBoard.Stations + "  -  " + DrillBoard.Title;
+            if (drillTitle.text != title) drillTitle.text = title;
+            if (drillGoal.text != DrillBoard.Goal) drillGoal.text = DrillBoard.Goal;
+            string clock = DrillBoard.TimeFrac >= 0f ? DrillBoard.TimeText : "";
+            if (drillClock.text != clock) drillClock.text = clock;
+            drillClock.style.color = DrillBoard.TimeFrac >= 0f && DrillBoard.TimeFrac < 0.2f && DrillBoard.Station == 2
+                ? new Color(1f, 0.45f, 0.4f, 0.6f + 0.4f * Mathf.Sin(Time.unscaledTime * 10f)) : new Color(0.7f, 0.85f, 1f);
+            string obj = string.IsNullOrEmpty(DrillBoard.Objective) ? "" : "> " + DrillBoard.Objective;
+            if (drillObjective.text != obj) drillObjective.text = obj;
+            // tinh thần: ô còn = vàng; ô vừa mất = đỏ rung rồi tối
+            float lost = Time.time - DrillBoard.MoraleLostAt;
+            for (int i = 0; i < drillPips.Count; i++)
+            {
+                var p = drillPips[i];
+                bool show = i < DrillBoard.MoraleMax;
+                p.parent.style.display = show ? DisplayStyle.Flex : DisplayStyle.None;
+                if (!show) continue;
+                bool full = i < DrillBoard.Morale;
+                bool justLost = !full && i == DrillBoard.Morale && lost < 0.8f;
+                p.style.backgroundColor = full ? (DrillBoard.Morale <= 1 ? new Color(1f, 0.45f, 0.35f) : new Color(1f, 0.78f, 0.35f))
+                                         : justLost ? new Color(1f, 0.2f, 0.15f, 1f - lost / 0.8f) : new Color(0.25f, 0.16f, 0.18f);
+                float sh = justLost ? Mathf.Sin(lost * 60f) * 4f * (1f - lost / 0.8f) : 0f;
+                p.parent.style.translate = new Translate(sh, 0f);
+            }
+            // thanh theo dõi: có TrackFrac -> theo dõi quãng đường (biểu tượng chạy); không -> tiến độ mục tiêu
+            bool track = DrillBoard.TrackFrac >= 0f;
+            float frac = track ? DrillBoard.TrackFrac : DrillBoard.GoalFrac;
+            drillFill.style.width = 306f * Mathf.Clamp01(frac);
+            drillFill.style.unityBackgroundImageTintColor = track ? new Color(0.95f, 0.72f, 0.3f)
+                : frac >= 1f ? new Color(0.35f, 0.85f, 0.4f) : new Color(0.85f, 0.62f, 0.2f);
+            if (track)
+            {
+                DrillIcon(drillTrackL, DrillBoard.TrackLeft, 120f, 160f, 30f);
+                DrillIcon(drillTrackR, DrillBoard.TrackRight, 482f, 160f, 34f);
+                float bob = Mathf.Abs(Mathf.Sin(Time.unscaledTime * 6f)) * 3f;
+                DrillIcon(drillTrackM, DrillBoard.TrackMarker, 147f + 306f * Mathf.Clamp01(frac), 146f - bob, 26f);
+            }
+            else drillTrackL.style.display = drillTrackR.style.display = drillTrackM.style.display = DisplayStyle.None;
+            drillTime.style.display = DrillBoard.TimeFrac >= 0f ? DisplayStyle.Flex : DisplayStyle.None;
+            drillTime.style.width = 306f * Mathf.Clamp01(DrillBoard.TimeFrac);
+            float ps = Time.time - DrillBoard.PopTime;
+            if (ps < 1.2f && DrillBoard.Pop.Length > 0)
+            {
+                if (drillPop.text != DrillBoard.Pop) drillPop.text = DrillBoard.Pop;
+                var c = DrillBoard.PopColor; drillPop.style.color = new Color(c.r, c.g, c.b, Mathf.Clamp01(1.4f - ps));
+                drillPop.style.top = 180 - 10f * ps;
+                drillPop.style.display = DisplayStyle.Flex;
+            }
+            else drillPop.style.display = DisplayStyle.None;
+        }
+
+        /// <summary>20/11 (§355): boss "bị niêm" = đang không nhận sát thương (DamageTakenMul 0 / bất tử) — vd Brazen Reliquary trên bệ.</summary>
+        private static bool Sealed(Health h) => h != null && (h.DamageTakenMul <= 0.001f || h.Invulnerable);
+
         private float UpdateBoss(MapEncounterDirector dir, float dt)
         {
             var boss = dir != null ? dir.Boss : null;
             bool show = boss != null && boss.Health != null && !boss.Health.IsDead && !BossIntro.CardActive;
             bossRoot.style.display = show ? DisplayStyle.Flex : DisplayStyle.None;
             if (!show) return PanelH;
-            if (boss.Health != lastBoss) { lastBoss = boss.Health; bossLagV = boss.Health.Percent; }
-            float pct = boss.Health.Percent;
+            // 19/11 (§344): boss phụ của song đấu. 20/11 (§355): con đang ĐÁNH ĐƯỢC lên thanh lớn — boss chính bị niêm mà boss phụ thì không -> đổi chỗ
+            var partner = dir.BossPartner;
+            bool two = partner != null && partner.Health != null && !partner.Health.IsDead;
+            EnemyAI main = boss, side = partner;
+            if (two && Sealed(boss.Health) && !Sealed(partner.Health)) { main = partner; side = boss; }
+            var mh = main.Health;
+            if (mh != lastBoss) { lastBoss = mh; bossLagV = mh.Percent; armorShownV = mh.BarrierPercent; }
+            float pct = mh.Percent;
             if (pct >= bossLagV) { bossLagV = pct; bossLagHold = 0.45f; }
             else if (bossLagHold > 0f) bossLagHold -= dt;
             else bossLagV = Mathf.MoveTowards(bossLagV, pct, dt * 0.5f);
             bossFill.style.width = 577f * pct; bossSurf.style.width = 577f * pct; bossLag.style.width = 577f * bossLagV;
+            UpdateArmor(mh, dt);
             // giữa màn hình, nhưng không đè cụm chiêu bên trái / bình máu bên phải (màn hẹp thì thu nhỏ)
             const float bw = 671f;
             float w = PanelW, minLeft = M + 3 * 125 + 24, maxRight = w - M - 96 - 70;
@@ -870,13 +1211,60 @@ namespace SoulRequiem.UI
             bossRoot.style.transformOrigin = new TransformOrigin(Length.Percent(50), Length.Percent(100));
             bossRoot.style.scale = new Scale(new Vector3(scale, scale, 1f));
             bossRoot.style.left = vis - (bw - sw) / 2f;
-            string name = boss.displayName ?? "", sub = "";
+            string name = main.displayName ?? "", sub = "";
             int cut = name.IndexOf('—');
             if (cut >= 0) { sub = name.Substring(cut + 1).Trim(); name = name.Substring(0, cut).Trim(); }
             name = RequiemUI.Clean(name); sub = RequiemUI.Clean(sub);
             if (bossName.text != name) bossName.text = name;
             if (bossSub.text != sub) bossSub.text = sub;
-            return PanelH - M - 80f * scale - 48f;
+            bossP.style.display = two ? DisplayStyle.Flex : DisplayStyle.None;
+            if (two)
+            {
+                var ph = side.Health;
+                if (ph != lastPartner) { lastPartner = ph; bossPLagV = ph.Percent; }
+                float pp = ph.Percent;
+                bossPLagV = pp >= bossPLagV ? pp : Mathf.MoveTowards(bossPLagV, pp, dt * 0.5f);
+                bool sealedSide = Sealed(ph);
+                bossPFill.style.width = 326f * pp; bossPGloss.style.width = 326f * pp; bossPLag.style.width = 326f * bossPLagV;
+                bossPFill.style.unityBackgroundImageTintColor = sealedSide ? new Color(0.42f, 0.38f, 0.5f) : BossRed;   // bị niêm: xám tím
+                bossPSeal.style.display = sealedSide ? DisplayStyle.Flex : DisplayStyle.None;
+                bossPLock.style.display = sealedSide ? DisplayStyle.Flex : DisplayStyle.None;
+                if (sealedSide) bossPLock.style.opacity = 0.75f + 0.25f * Mathf.Sin(Time.unscaledTime * 3f);
+                string pn = side.displayName ?? "";
+                int pc = pn.IndexOf('—');
+                if (pc >= 0) pn = pn.Substring(0, pc).Trim();
+                pn = RequiemUI.Clean(pn).ToUpperInvariant();
+                if (bossPName.text != pn) bossPName.text = pn;
+            }
+            return PanelH - M - 80f * scale - 48f - (two ? 56f * scale : 0f);
+        }
+
+        /// <summary>20/11 (§355): dải GIÁP trên thanh boss chính — chạy mượt về giá trị thật, chớp trắng khi giáp đỡ đòn,
+        /// nhãn "SOUL ARMOR" (màu giáp) / "ARMOR SHATTERED" (nhấp nháy đỏ) khi vỡ. Boss không có giáp -> ẩn hết.</summary>
+        private void UpdateArmor(Health h, float dt)
+        {
+            bool has = h.BarrierMax > 0f;
+            var disp = has ? DisplayStyle.Flex : DisplayStyle.None;
+            armorBack.style.display = disp; armorFill.style.display = disp; armorGloss.style.display = disp;
+            armorFlash.style.display = disp; armorIcon.style.display = disp; armorLabel.style.display = disp;
+            foreach (var t in armorTicks) t.style.display = disp;
+            if (!has) return;
+            float target = h.BarrierPercent;
+            armorShownV = target > armorShownV ? Mathf.MoveTowards(armorShownV, target, dt * 1.6f)   // hồi giáp: dâng dần
+                                               : Mathf.MoveTowards(armorShownV, target, dt * 4f);
+            Color c = h.BarrierColor;
+            armorFill.style.width = 577f * armorShownV;
+            armorGloss.style.width = 577f * armorShownV;
+            armorFill.style.backgroundColor = c;
+            armorGloss.style.backgroundColor = new Color(Mathf.Lerp(c.r, 1f, 0.6f), Mathf.Lerp(c.g, 1f, 0.6f), Mathf.Lerp(c.b, 1f, 0.6f), 0.8f);
+            float since = Time.time - h.BarrierHitTime;
+            armorFlash.style.opacity = since < 0.18f ? 0.45f * (1f - since / 0.18f) : 0f;
+            armorIcon.style.unityBackgroundImageTintColor = target > 0f ? c : new Color(0.35f, 0.32f, 0.38f);
+            bool broken = target <= 0f;
+            string txt = broken ? "ARMOR SHATTERED" : "SOUL ARMOR";
+            if (armorLabel.text != txt) armorLabel.text = txt;
+            armorLabel.style.color = broken ? new Color(1f, 0.35f, 0.3f, 0.65f + 0.35f * Mathf.Sin(Time.unscaledTime * 6f))
+                                            : new Color(Mathf.Lerp(c.r, 1f, 0.45f), Mathf.Lerp(c.g, 1f, 0.45f), Mathf.Lerp(c.b, 1f, 0.45f));
         }
 
         /// <summary>02/11 (v3, kiểu Soul Knight, chỉnh sau khi xem trong Unity): nền tối 55%, dải nghiêng -5° cao ~26% màn hình (viền tối dày
@@ -1153,7 +1541,11 @@ namespace SoulRequiem.UI
         private void UpdateDialogue()
         {
             bool on = DialogueBox.Active;
-            dlgRoot.style.display = on ? DisplayStyle.Flex : DisplayStyle.None;
+            bool sub = !on && Subtitles.Visible;             // 17/11: lời nói ngắn (trước là bóng thoại) -> cùng khung, không chặn điều khiển
+            dlgRoot.style.display = on || sub ? DisplayStyle.Flex : DisplayStyle.None;
+            if (sub) { UpdateSubtitle(); return; }
+            dlgRoot.style.opacity = 1f;
+            dlgName.style.color = RequiemUI.Gold;
             if (!on) return;
             float w = Mathf.Min(1040f, PanelW - 2f * M - 40f);
             dlgRoot.style.width = w;
@@ -1170,12 +1562,33 @@ namespace SoulRequiem.UI
             dlgNext.style.opacity = 0.55f + 0.45f * Mathf.Abs(Mathf.Sin(Time.unscaledTime * 3.5f));
         }
 
+        /// <summary>17/11: phụ đề (Subtitles) trong khung hội thoại: tên + chữ chạy nhanh, không có [phím] next, mờ vào / mờ ra.</summary>
+        private void UpdateSubtitle()
+        {
+            float w = Mathf.Min(1040f, PanelW - 2f * M - 40f);
+            dlgRoot.style.width = w;
+            dlgRoot.style.left = (PanelW - w) / 2f;
+            float t = Time.time;
+            dlgRoot.style.opacity = Mathf.Min(Mathf.Clamp01((t - Subtitles.Born) / 0.12f), Mathf.Clamp01((Subtitles.Until - t) / 0.35f));
+            string nm = RequiemUI.Clean(Subtitles.Speaker);
+            if (dlgName.text != nm) dlgName.text = nm;
+            dlgName.style.display = nm.Length > 0 ? DisplayStyle.Flex : DisplayStyle.None;
+            dlgName.style.color = Subtitles.NameColor.a > 0f ? Subtitles.NameColor : RequiemUI.Gold;
+            string line = Subtitles.Text;
+            int n = Mathf.Clamp(Mathf.FloorToInt((t - Subtitles.Born) * 70f), 0, line.Length);   // chữ chạy ~70 ký tự / giây
+            string shown = RequiemUI.Clean(line.Substring(0, n));
+            if (dlgText.text != shown) dlgText.text = shown;
+            if (dlgNext.text != "") dlgNext.text = "";
+        }
+
         private void UpdateHint(MapEncounterDirector dir, float bossTop)
         {
             bool dead = hp != null && hp.IsDead;
             bool show = !dead && Hints.Visible && !TutorialPrompt.Active && !DialogueBox.Active;   // màn hướng dẫn / hội thoại: không chồng chữ
             hintRoot.style.display = show ? DisplayStyle.Flex : DisplayStyle.None;
             float baseY = Mathf.Min(PanelH * 0.8f, bossTop - 14f);
+            if (Subtitles.Visible && !DialogueBox.Active && dlgRoot.layout.height > 1f)              // 17/11: gợi ý không đè lên khung phụ đề
+                baseY = Mathf.Min(baseY, PanelH - (M + 6) - dlgRoot.layout.height - 16f);
             if (show)
             {
                 string t = RequiemUI.Clean(Hints.Text);
@@ -1198,7 +1611,8 @@ namespace SoulRequiem.UI
             var panel = root.panel;
             // mũi tên đích nhiệm vụ
             bool wp = !menu && cam != null && q != null && q.HasPlayer && q.HasTarget && !q.BigMap && q.HiddenAt(q.PlayerTile) == null
-                      && hp != null && !hp.IsDead;
+                      && hp != null && !hp.IsDead && !CutsceneState.Active    // 16/11: không hiện mũi tên đích khi đang diễn cảnh
+                      && !DialogueBox.Active && !Subtitles.Visible;           // 18/11: đang có khung hội thoại / phụ đề -> ẩn mũi tên + số mét cho dễ đọc
             float dist = wp ? Vector2.Distance(q.PlayerTile, q.TargetTile) : 0f;
             if (wp && dist < 2f) wp = false;
             var med = MapEncounterDirector.Instance;
@@ -1293,6 +1707,23 @@ namespace SoulRequiem.UI
 
         /// <summary>Vị trí ảnh minimap trong khung: muốn đặt ở <paramref name="want"/> (người chơi ở tâm) nhưng kẹp để ảnh luôn phủ kín khung.
         /// Ảnh nhỏ hơn khung thì đặt giữa.</summary>
+        private VisualElement FoeDot(int i)
+        {
+            while (mapFoes.Count <= i)
+            {
+                var d = new VisualElement { pickingMode = PickingMode.Ignore };
+                d.style.position = Position.Absolute; d.style.width = 8; d.style.height = 8;
+                d.style.backgroundColor = new Color(0.95f, 0.2f, 0.18f);
+                d.style.borderTopLeftRadius = d.style.borderTopRightRadius = d.style.borderBottomLeftRadius = d.style.borderBottomRightRadius = 4;
+                d.style.borderTopWidth = d.style.borderBottomWidth = d.style.borderLeftWidth = d.style.borderRightWidth = 1;
+                d.style.borderTopColor = d.style.borderBottomColor = d.style.borderLeftColor = d.style.borderRightColor = new Color(0.15f, 0.02f, 0.02f);
+                mapFireLayer.Add(d);
+                mapFoes.Add(d);
+            }
+            mapFoes[i].style.display = DisplayStyle.Flex;
+            return mapFoes[i];
+        }
+
         private static VisualElement FireIcon(List<VisualElement> pool, VisualElement layer, int i, float size)
         {
             while (pool.Count <= i) pool.Add(RequiemUI.Img("map_campfire", 0, 0, size, size, layer));
@@ -1303,9 +1734,12 @@ namespace SoulRequiem.UI
         private static float MinimapOffset(float want, float img, float view)
             => img <= view ? (view - img) / 2f : Mathf.Clamp(want, view - img, 0f);
 
+        private bool bigMapShown; // 19/11 (§335): âm
+
         private void UpdateBigMap(QuestTracker q, MapEncounterDirector dir)
         {
             bool show = q != null && q.BigMap && q.Minimap != null && !RequiemMenus.Open;
+            if (show != bigMapShown) { bigMapShown = show; SoulRequiem.Core.Sfx.Play2D(show ? "map_open" : "ui_back"); } // 19/11 (§335): âm
             bigMap.style.display = show ? DisplayStyle.Flex : DisplayStyle.None;
             if (!show) return;
             var v = q.ViewTiles;

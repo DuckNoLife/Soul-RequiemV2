@@ -97,7 +97,8 @@ namespace SoulRequiem.Gameplay
 
         public SkillDefinition SkillAt(int i) => i >= 0 && i < SlotCount ? slots[i] : null;
         public float CooldownLeft(int i) => SkillAt(i) != null ? Mathf.Max(0f, readyAt[i] - Time.time) : 0f;
-        public float CooldownTotal(int i) => SkillAt(i) != null ? Mathf.Max(0.01f, SkillAt(i).cooldown) : 1f;
+        public float CooldownTotal(int i) => SkillAt(i) != null ? Mathf.Max(0.01f, SkillAt(i).cooldown * CdMul) : 1f;
+        private float CdMul => WeaponTraits.CooldownMul(combat != null ? combat : GetComponent<PlayerCombat>());
         public bool Owns(SkillDefinition s) => s != null && owned.Contains(s);
 
         /// Bấm phím ô `i`: kiểm tra hồi chiêu / bị khoá rồi thi triển.
@@ -112,10 +113,12 @@ namespace SoulRequiem.Gameplay
                 Hints.Show("Your mantras are sealed!", 1.2f);
                 return false;
             }
-            readyAt[i] = Time.time + s.cooldown;
+            if (st != null && st.MantrasBound) { st.SayRestraint(st.MantraSealText); return false; }   // 17/11 (§306): phong theo map
+            readyAt[i] = Time.time + s.cooldown * CdMul;                        // 16/11 (§257): nội tại Namebound
             int slot = i;
             combat.StartCoroutine(s.Cast(combat, () => readyAt[slot] = Time.time));
             Cast?.Invoke(i);
+            SfxHooks.Mantra(s, combat.transform.position); // 19/11 (§335): âm
             return true;
         }
 

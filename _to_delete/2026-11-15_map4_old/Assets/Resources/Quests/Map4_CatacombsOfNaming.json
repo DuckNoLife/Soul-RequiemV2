@@ -1,0 +1,109 @@
+{
+ "ppt": 4,
+ "hidden": [],
+ "view": {
+  "x": 0,
+  "y": 0,
+  "w": 112,
+  "h": 112,
+  "label": ""
+ },
+ "steps": [
+  {
+   "title": "Get out of the cell",
+   "done": "cell7_open",
+   "targets": [
+    {
+     "label": "Cell VII",
+     "x": 8.5,
+     "y": 8.5,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Fight through the Cell Block",
+   "done": "g1_cleared",
+   "targets": [
+    {
+     "label": "The Cell Block",
+     "x": 31,
+     "y": 17,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Get past the Warden",
+   "done": "g2_cleared",
+   "targets": [
+    {
+     "label": "The Warden's Round",
+     "x": 80,
+     "y": 19,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Free the prisoner in the far cell",
+   "done": "malric_found",
+   "targets": [
+    {
+     "label": "Far cell",
+     "x": 104,
+     "y": 8,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Break the three anchors of your chains",
+   "done": "a2_cleared,b2_cleared,c2_cleared",
+   "targets": [
+    {
+     "label": "The Archive of Names",
+     "x": 20,
+     "y": 64,
+     "done": "a2_cleared"
+    },
+    {
+     "label": "The Candidates' Wards",
+     "x": 91,
+     "y": 64,
+     "done": "b2_cleared"
+    },
+    {
+     "label": "The Drowned Ossuary",
+     "x": 24,
+     "y": 100,
+     "done": "c2_cleared"
+    }
+   ]
+  },
+  {
+   "title": "Descend to the Hall of Naming",
+   "done": "h2_cleared",
+   "targets": [
+    {
+     "label": "Hall of Naming",
+     "x": 70,
+     "y": 98,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Follow the Eye down to the Forge",
+   "done": "never",
+   "targets": [
+    {
+     "label": "Stair to the Forge",
+     "x": 70,
+     "y": 109,
+     "done": ""
+    }
+   ]
+  }
+ ]
+}

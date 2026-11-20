@@ -22,6 +22,10 @@ namespace SoulRequiem.Gameplay
             new Entry("book_purifier", "The Purifier's Rite",
                 "Earthshatter now also scatters any poison cloud it touches.",
                 "ic_passive_purifier"),
+            // 16/11 (§281): sách kiếm pháp của cận vệ Kroven (Map 2b The Kroven Deep, cạnh hài cốt vua Nolan)
+            new Entry(PlayerCombat.RampartFlag, "The Rampart Forms",
+                "Stand your ground: after half a second without moving, you take 20% less damage until you step again.",
+                "ic_trait_laststand"),
         };
 
         /// Các nội tại đã học (theo cờ của map đang chơi; cờ sách đã được chép từ GameSession.Books khi vào map).

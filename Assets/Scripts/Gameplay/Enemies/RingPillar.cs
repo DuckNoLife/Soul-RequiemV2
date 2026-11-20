@@ -26,6 +26,8 @@ namespace SoulRequiem.Gameplay
         {
             if (Broken) return;
             Broken = true;
+            SoulRequiem.Core.Sfx.Play("rock_crash", transform.position); // 19/11 (§337): âm: cột đá vỡ
+            SoulRequiem.Core.Sfx.Play("break_stone", transform.position);
             if (visual != null) visual.SetActive(false);
             if (col != null) col.enabled = false;
         }

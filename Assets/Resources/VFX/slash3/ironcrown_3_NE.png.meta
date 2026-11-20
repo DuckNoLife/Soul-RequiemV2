@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: e7ba40c526354a58bf7962a554697a2b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1201217142647137431
+    second: ironcrown_3_NE_0
+  - first:
+      213: 4571044561985972061
+    second: ironcrown_3_NE_1
+  - first:
+      213: 4324285042428418643
+    second: ironcrown_3_NE_2
+  - first:
+      213: 3867854329688812761
+    second: ironcrown_3_NE_3
+  - first:
+      213: 1654589027685812613
+    second: ironcrown_3_NE_4
+  - first:
+      213: 1599928298265524685
+    second: ironcrown_3_NE_5
+  - first:
+      213: 737419799857300796
+    second: ironcrown_3_NE_6
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 4096
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ironcrown_3_NE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 169
+        height: 135
+      alignment: 9
+      pivot: {x: 0.428276, y: 0.162962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4389da6e932a4f51bf27cbf739419714
+      internalID: 1201217142647137431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ironcrown_3_NE_1
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 0
+        width: 169
+        height: 135
+      alignment: 9
+      pivot: {x: 0.428276, y: 0.162962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dda919141af47bb8ace72965d1cb2e7
+      internalID: 4571044561985972061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ironcrown_3_NE_2
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 0
+        width: 169
+        height: 135
+      alignment: 9
+      pivot: {x: 0.428276, y: 0.162962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c732e1c9b148809ca896c46ecc2f55
+      internalID: 4324285042428418643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ironcrown_3_NE_3
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 0
+        width: 169
+        height: 135
+      alignment: 9
+      pivot: {x: 0.428276, y: 0.162962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96fa147e38eb4a719810069fc77200de
+      internalID: 3867854329688812761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ironcrown_3_NE_4
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 0
+        width: 169
+        height: 135
+      alignment: 9
+      pivot: {x: 0.428276, y: 0.162962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50b4b76f62f46a08eb54939d3bc00d3
+      internalID: 1654589027685812613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ironcrown_3_NE_5
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 0
+        width: 169
+        height: 135
+      alignment: 9
+      pivot: {x: 0.428276, y: 0.162962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043448104e4544c391dbde0715aae7de
+      internalID: 1599928298265524685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ironcrown_3_NE_6
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 0
+        width: 169
+        height: 135
+      alignment: 9
+      pivot: {x: 0.428276, y: 0.162962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017c77d277864091823a9c6906b7c069
+      internalID: 737419799857300796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ironcrown_3_NE_0: 1201217142647137431
+      ironcrown_3_NE_1: 4571044561985972061
+      ironcrown_3_NE_2: 4324285042428418643
+      ironcrown_3_NE_3: 3867854329688812761
+      ironcrown_3_NE_4: 1654589027685812613
+      ironcrown_3_NE_5: 1599928298265524685
+      ironcrown_3_NE_6: 737419799857300796
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

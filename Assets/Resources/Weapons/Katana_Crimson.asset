@@ -15,8 +15,8 @@ MonoBehaviour:
   id: katana_crimson
   displayName: Crimson Oath
   description: Quenched in the blood of the oath it swore. Heavier than it looks; it bites deep and slow.
-  epithet: Oath-blade of the Great Houses - sworn at the Requiem
-  lore: "Six were made and six were sworn, one to each house that set its ring to the deed. The oath was read aloud over the quench: that no power above a man would stand above the houses again, and that the blade would answer for the hand that broke faith.\n\nThey quenched it in blood rather than oil. It still drinks that way.\n\nThis one was buried with the man who carried it, under a mound nobody tends, his hands folded over the hilt. The coffin plate gives a house and no name. Whoever put him here wanted the oath buried quietly, and went to some trouble to do it a long way from any road."
+  epithet: Blade of Borrow, the Purified King
+  lore: "A boy from a poor village in the east swore it to a broken kingdom, and made the kingdom whole. Then the field of six hundred thousand woke something, and the blade drank the rest of the war for him. It still drinks that way.\n\nThe Ascended's light burned the war out of him. He walked into the Sinking Fields and did not walk out, and no one ever found the body. His hands are still folded over the hilt."
   foundAt: King's Barrow, above the Vale of Graves
   icon: {fileID: 0}
   showcase: {fileID: 21300000, guid: ff701bd5091a49a284af47af24d23f1f, type: 3}
@@ -68,8 +68,13 @@ MonoBehaviour:
   trait:
     kind: 3
     title: Blood Oath
-    text: "Every cut returns 6% of its damage to you as health. Below 40% health it strikes 25% harder - the oath answers for the hand that holds it."
+    text: "Every cut opens a wound that bleeds for 3s, stacking three deep, and returns 6% of its damage to you as health. Below 40% health it strikes 25% harder - the oath answers for the hand that holds it."
     window: 0
     bonus: 0.25
     leech: 0.06
     threshold: 0.4
+    status: 1
+    statusOn: 0
+    statusPower: 2.5
+    statusSeconds: 3
+    statusStacks: 3

@@ -7,7 +7,7 @@ using UnityEngine.InputSystem.Controls;
 namespace SoulRequiem.Core
 {
     /// <summary>Các hành động người chơi (phím gán được, sau này đổi phím / tay cầm chỉ cần sửa ở đây).</summary>
-    public enum GameAction { Attack, Roll, Heal, Skill1, Skill2, Skill3, Interact, Map, Pause, Inventory }   // 04/11: Inventory (thêm CUỐI để giữ phím đã lưu)
+    public enum GameAction { Attack, Roll, Heal, Skill1, Skill2, Skill3, Interact, Map, Pause, Inventory, Mantras }   // 04/11: Inventory; 18/11 (§329): Mantras (thêm CUỐI để giữ phím đã lưu)
 
     /// <summary>
     /// Bảng phím trung tâm. Mọi script đọc phím qua đây (không gõ thẳng Keyboard.current.jKey...) để:
@@ -23,12 +23,18 @@ namespace SoulRequiem.Core
             { GameAction.Attack, Key.J }, { GameAction.Roll, Key.Q }, { GameAction.Heal, Key.E },
             { GameAction.Skill1, Key.F }, { GameAction.Skill2, Key.R }, { GameAction.Skill3, Key.C },
             { GameAction.Interact, Key.T }, { GameAction.Map, Key.M }, { GameAction.Pause, Key.Escape },
-            { GameAction.Inventory, Key.B },
+            { GameAction.Inventory, Key.B }, { GameAction.Mantras, Key.L },   // 18/11 (§329): L = bảng lắp Mantra ở bất cứ đâu
         };
         private static Dictionary<GameAction, Key> keys;
 
         /// Menu đang mở: nhân vật không nhận phím (trừ Pause để đóng menu).
         public static bool Blocked { get; set; }
+
+        /// <summary>16/11 (§270): đang ĐỌC một bảng (ghi chú, khoá ký tự...): đứng yên, không chém / lăn / hồi máu / dùng chiêu;
+        /// chỉ nhận Interact (T, đóng bảng), Pause (Esc) và Map. Đóng bảng mới đi lại được.</summary>
+        public static bool Reading { get; set; }
+
+        private static bool ReadingBlocks(GameAction a) => Reading && a != GameAction.Interact && a != GameAction.Pause && a != GameAction.Map;
 
         public static event Action BindingsChanged;
 
@@ -89,6 +95,7 @@ namespace SoulRequiem.Core
                     .Replace("{interact}", Label(GameAction.Interact))
                     .Replace("{map}", Label(GameAction.Map))
                     .Replace("{inventory}", Label(GameAction.Inventory))
+                    .Replace("{mantras}", Label(GameAction.Mantras))
                     .Replace("{pause}", Label(GameAction.Pause))
                     .Replace("{move}", "WASD");
         }
@@ -107,6 +114,7 @@ namespace SoulRequiem.Core
                 case GameAction.Map: return "Map";
                 case GameAction.Pause: return "Pause";
                 case GameAction.Inventory: return "Inventory";
+                case GameAction.Mantras: return "Mantras";
             }
             return a.ToString();
         }
@@ -140,6 +148,7 @@ namespace SoulRequiem.Core
                 case GameAction.Map: return pad.selectButton;
                 case GameAction.Pause: return pad.startButton;
                 case GameAction.Inventory: return pad.leftTrigger;     // 04/11: LT
+                case GameAction.Mantras: return pad.rightStickButton;  // 18/11 (§329): R3
             }
             return null;
         }
@@ -162,6 +171,7 @@ namespace SoulRequiem.Core
         public static bool Pressed(GameAction a)
         {
             if (Blocked && a != GameAction.Pause) return false;
+            if (ReadingBlocks(a)) return false;                                // 16/11 (§270)
             var c = Control(a);
             if (c != null && c.wasPressedThisFrame) return true;
             var b = PadButton(a);
@@ -170,7 +180,7 @@ namespace SoulRequiem.Core
 
         public static bool Held(GameAction a)
         {
-            if (Blocked) return false;
+            if (Blocked || ReadingBlocks(a)) return false;
             var c = Control(a);
             if (c != null && c.isPressed) return true;
             var b = PadButton(a);
@@ -184,11 +194,25 @@ namespace SoulRequiem.Core
         /// Hướng di chuyển: W A S D / phím mũi tên (mỗi trục -1, 0, 1), hoặc cần trái / D-pad của tay cầm.
         /// Menu đang mở (<see cref="Blocked"/>) -> (0, 0). MỌI script đọc di chuyển qua đây.
         /// </summary>
+        /// <summary>19/11 (§333): tới thời điểm này (Time.time) phím di chuyển bị ĐẢO cả 4 hướng (A sang phải, D sang trái, W xuống, S lên)
+        /// — chiêu vũng máu của The Red Field. 0 = bình thường.</summary>
+        public static float InvertedUntil;
+        public static bool Inverted => InvertedUntil > 0f && Time.time < InvertedUntil;
+
         public static Vector2 Move
         {
             get
             {
-                if (Blocked) return Vector2.zero;
+                var m = RawMove;
+                return Inverted ? -m : m;
+            }
+        }
+
+        private static Vector2 RawMove
+        {
+            get
+            {
+                if (Blocked || Reading) return Vector2.zero;                       // 16/11 (§270): đang đọc bảng -> đứng yên
                 var v = Vector2.zero;
                 var kb = Keyboard.current;
                 if (kb != null)

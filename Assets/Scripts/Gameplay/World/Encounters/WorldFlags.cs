@@ -49,6 +49,17 @@ namespace SoulRequiem.Gameplay
             return true;
         }
 
+        /// <summary>19/11 (§343): một cờ vừa bị GỠ (người chơi gục giữa trận có `reset_on_death`).</summary>
+        public event Action<string> Removed;
+
+        /// <summary>19/11 (§343): gỡ cờ. Không có thì không làm gì.</summary>
+        public void Unset(string flag)
+        {
+            if (string.IsNullOrEmpty(flag) || !flags.Remove(flag.Trim())) return;
+            Debug.Log($"[Map] Gỡ cờ: {flag}");
+            Removed?.Invoke(flag.Trim());
+        }
+
         /// <summary>Bật cờ. Bật lại cờ đã có thì không làm gì.</summary>
         /// <param name="announce">true = nếu có cổng mở nhờ cờ này thì hiện "Somewhere, a way opens."</param>
         public void Set(string flag, bool announce = false)

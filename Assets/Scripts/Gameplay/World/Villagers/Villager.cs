@@ -23,6 +23,8 @@ namespace SoulRequiem.Gameplay
         public string speaker = "";
         /// <summary>Hướng nhìn ban đầu: (1,0) east, (-1,0) west, (0,-1) south, (0,1) north.</summary>
         public Vector2 facing = Vector2.down;
+        /// <summary>18/11 (§328): hướng đứng gốc (thuộc tính `face` trên map) — người đứng yên nói chuyện xong thì quay lại hướng này.</summary>
+        private Vector2 homeFacing = Vector2.down;
 
         private SpriteRenderer sr;
         private Rigidbody2D rb;
@@ -56,10 +58,10 @@ namespace SoulRequiem.Gameplay
             col.size = new Vector2(0.30f, 0.14f) / s;              // ~ bề ngang bàn chân, theo đơn vị thế giới
             col.offset = new Vector2(0f, 0.05f) / s;
 
-            filter = new ContactFilter2D();
-            filter.NoFilter();
+            filter = ContactFilter2D.noFilter;
             filter.useTriggers = false;
             frame = Random.Range(0, 8);
+            homeFacing = facing;
             wait = Random.Range(0.3f, 2.5f);
             target = transform.position;
             Apply();
@@ -96,6 +98,7 @@ namespace SoulRequiem.Gameplay
             DialogueBox.Open(speaker, lines, () =>
             {
                 wait = Random.Range(1f, 2.5f);
+                if (!walker) facing = homeFacing;               // 18/11 (§328): nói xong thì quay về hướng đứng gốc (vd S), không nhìn ngang mãi
                 if (pc != null) pc.StopLook();
             });
         }
@@ -192,6 +195,9 @@ namespace SoulRequiem.Gameplay
             {
                 var c = hits[i].collider;
                 if (c == null || c.isTrigger || c.attachedRigidbody == rb) continue;   // bỏ qua thân mình
+                // 18/11 (§319): đi theo cảnh cắt thì KHÔNG coi người chơi / dân khác là vật chặn — trước đây Ren đứng trước cửa ngục
+                // -> Pell bị chặn, đứng im 2 giây rồi "coi như tới": cả cảnh Pell không bước đi (không có hoạt ảnh đi).
+                if (scripted && (c.GetComponentInParent<PlayerController>() != null || c.GetComponentInParent<Villager>() != null)) continue;
                 // 02/11 (chạy thử): đang đứng LẤN vào collider (vd Todd bước ra ở bậc cửa, chân chạm tường nhà) -> CircleCast báo chạm ở
                 // khoảng cách 0 dù đang đi RA xa -> kẹt, cả cảnh nói chuyện diễn ra khi Todd vẫn đứng ở cửa. Chỉ coi là chặn khi đi VÀO vật.
                 if (hits[i].distance <= 0f)
@@ -235,8 +241,39 @@ namespace SoulRequiem.Gameplay
             return null;
         }
 
+        // ---- 18/11 (§327): động tác MỘT LẦN trong cảnh cắt (vd "strike" của kẻ trùm mũ cuối Map 3).
+        // Chạy hết bộ ảnh "<anim>_<E/S/N>" theo hướng đang nhìn rồi về idle; hold = giữ khung cuối tới khi ClearPose().
+        private Sprite[] oneShot;
+        private bool oneShotFlip, oneShotHold;
+        private int oneShotFrame;
+        private float oneShotT;
+
+        /// <summary>Chạy động tác <paramref name="anim"/> một lần. Trả về thời lượng (giây); 0 nếu thiếu ảnh.</summary>
+        public float Play(string anim, bool hold, float playFps = 0f)
+        {
+            string dir = Dir(out bool flip);
+            var set = Set(anim, dir, out string used);
+            if (set == null) { Debug.LogWarning($"[Villager] {name}: thiếu ảnh '{anim}'"); return 0f; }
+            if (used == "E" && dir != "E") flip = facing.x < 0f;
+            oneShot = set; oneShotFlip = flip; oneShotHold = hold;
+            oneShotFrame = 0; oneShotT = 0f; moving = false;
+            oneShotFps = playFps > 0f ? playFps : fps;
+            Apply();
+            return set.Length / oneShotFps;
+        }
+        private float oneShotFps = 8f;
+
+        /// <summary>Thôi giữ khung cuối của động tác một lần.</summary>
+        public void ClearPose() { oneShot = null; }
+
         private void Apply()
         {
+            if (oneShot != null)
+            {
+                sr.flipX = oneShotFlip;
+                sr.sprite = oneShot[Mathf.Min(oneShotFrame, oneShot.Length - 1)];
+                return;
+            }
             string dir = Dir(out bool flip);
             string used = dir;
             var set = (moving ? Set("walk", dir, out used) : null) ?? Set("idle", dir, out used);
@@ -248,6 +285,16 @@ namespace SoulRequiem.Gameplay
 
         private void Animate(float dt)
         {
+            if (oneShot != null)
+            {
+                oneShotT += dt;
+                if (oneShotT >= 1f / oneShotFps)
+                {
+                    oneShotT = 0f;
+                    if (oneShotFrame < oneShot.Length - 1) oneShotFrame++;
+                    else if (!oneShotHold) oneShot = null;
+                }
+            }
             frameT += dt;
             if (frameT >= 1f / fps) { frameT = 0f; frame++; }
             Apply();

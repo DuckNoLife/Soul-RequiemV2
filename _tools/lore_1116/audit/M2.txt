@@ -1,0 +1,293 @@
+### 1 pipepal_cell_01 []
+  <key_got> Moonlit Edge. The temper line still holds the lamp's light - and holds it for you, while you stay untouched.
+  <text> Set in the Reliquary in the first years after the Angel Bird, when the Children of Light were still what their name said. Folded under the vigil lamp - fifteen nights, fifteen brothers at the bellows and the wick.
+
+The brothers who carried it down did not go back up. Malric's wardens found them in the dark, and found what the blade does to a thing made of Ether: what it cuts, it holds still.
+
+So they drove it into the Sleeper's chest, and the Sleeper slept.
+
+It has fallen out of the wound. The temper line still holds the lamp's light.
+  <title> The Vigil
+  <verb> Take the blade
+  <show_hint> Something drops out of the Sleeper's chest - pale steel, glowing faintly.
+### 1562 cistern_note [note]
+  <key_desc> While the converter basin brims, the Eye cannot be hurt. Turn the flow at the Pump Control (south of the Sluice Hall) to starve it - then climb out through the outflow above the pit. Needs: the Pump Control key (Vat Hall), the vat-hall key (Boiler Room), Malric's crank (laboratory).
+  <text> Day thirty-one since the Eye woke. A month before it did, a stranger with a red lantern came down the old ring shaft and walked straight past the crew, singing.
+
+The outflow above the pit is the only way up to the surface - Brakk's lads saw daylight through it. But the Eye hangs over that pit, and while Malric's converter keeps its basin brimming, its hide is hard as glass. Spears just skid off.
+
+There is one way. The console at the PUMP CONTROL, south of the Sluice Hall, can send the flow down the drain instead of into the basin. Starve it. The shell cracks, and the thing can bleed.
+
+The pump control room is locked. The overseer's key went down that toad's gullet in the vat hall, and Brakk keeps the vat-hall key in the boiler room. Malric took the console's crank back to his laboratory, west.
+
+If you are reading this, I did not make it. Turn the pumps. Get out.
+  <title> A Sluice-keeper's Last Page
+### 1787 boil_brakk_note [note]
+  <text> Third time this month the beast tore loose. Bent the bars like reeds.
+
+When it glows and won't settle, open the sluices on the north wall. Cold water drops it every time - it slips, the glow hisses out, and you get a few breaths to put it down.
+
+Never stand in its green spit. Never let it lick the trail back up - it comes out faster.
+
+If the gate goes, run for the valves, not the door. - B.
+  <title> Brakk's Tally Sheet
+### 1821 office_keyrack [note]
+  <key_desc> Overseer Grisk's ring of tank keys for Cell Block B. Each one opens a specimen's tank - and lets out whatever still lives inside.
+  <key_name> Cell Keys
+  <key_opens> The specimen tanks - Specimen Cells
+  <text> Iron keys on a scorched board, each tag stamped by the overseer: G-2, G-5, V-3, V-7, V-9 - CELL BLOCK B.
+
+The hook for V-4 is empty. Someone took that one long ago.
+  <title> Overseer's Key Rack
+### 623 r1 [zone]
+  <title> The Hatch
+### 624 r2 [zone]
+  <hint_text> Pass the pipes between bursts
+  <title> Gallery of Arches
+### 625 r3 [zone]
+  <hint_text> Stay out of the tainted Ether
+  <title> The Ether Well
+### 626 r4 [zone]
+  <title> Sluice Hall
+### 627 rec [zone]
+  <title> Records Vault
+### 630 spec [zone]
+  <title> Specimen Cells
+### 631 cult [zone]
+  <hint_text> Lure its leap onto the glass tanks
+  <title> The Vat Hall
+### 632 ctrl [zone]
+  <title> Pump Control
+### 633 feed [zone]
+  <hint_text> The grates hold - the tainted Ether below feeds the cistern
+  <title> Feed Conduit
+### 635 boil [zone]
+  <hint_text> Lure its charge across a channel, then strike the valve
+  <title> Boiler Room
+### 636 e1 [zone]
+  <title> Cistern Gate
+### 637 r8 [zone]
+  <hint_text> Keep moving - it cannot leave the pit
+  <title> The Eye's Cistern
+### 638 s2 [zone]
+  <title> Forgotten Store
+### 639 s3 [zone]
+  <title> Reliquary of the Ascended
+### 640 vault [zone]
+  <title> Containment Vault
+### 1628 spec_breakout [zone]
+  <hint_text> The cells have burst open - Malric's specimens are loose!
+  <title> Specimen Cells
+### 1629 r4_swarm [zone]
+  <hint_text> The Eye has seen you. Rats swarm up from the pit to answer it!
+  <title> The Eye's Cistern
+### 1852 pell [villager]
+  <lines> He built that seal with the last of his life. Please - don't be the one who undoes it. | I kept his books for him. He lived forty years down here. I have been sweeping his floor for four hundred. | If you find his last page, bring it to me. He hid it from the Hierophant. He hid it from me, too.
+### 1508 landing_point [cutscene_point]
+  <after_hint> The shaft has caved in behind you. Find another way out of the Undercity.
+  <say1> The way up... gone.
+  <say2> Then I find another way out.
+### 689 r2_spout_hint [sign]
+  <hint_text> The pipes cough tainted Ether in rhythm. Watch for the drip, then pass.
+### 691 hub_rest [checkpoint]
+  <stage_name> lab=Malric's Laboratory;descent=Into the Undercity
+### 1509 eye_glimpse [cutscene_point]
+  <after_hint> Cold air drifts down from beyond the cistern - the only way out lies past that thing. Something pale lies by the old converter, east of the pit.
+  <say1> ...What is that thing?
+### 1512 boil_fight [boss]
+  <card_name> Ether Ram
+  <card_sub> Terror of the Boiler Room
+### 1513 vault_fight [boss]
+  <card_sub> The Sleeper in the Vault
+  <relic_hint> The spine sinks into you. In you, its light stays blue: Grasping Roots, Hand of the Vessel and Requiem Wail - three mantras bound as one.
+  <relic_say> It wanted to hold everything down... Now it holds what I tell it to.
+  <relic_text> The red roots tear loose from the Sleeper and wither. What they held is a spine of white bone - and as the red drains out of it, it begins to glow blue.
+### 701 plague_eye_fight [boss]
+  <card_name> Plague Eye
+  <card_sub> Malric's Great Experiment
+  <relic_hint> The Eye's core sinks into you. Pure blue Ether floods your veins - three mantras, bound as one.
+  <relic_say> It's inside me... I can feel it looking out through my eyes.
+  <relic_text> Something rises from the husk of the Eye - a core of pure, blue light. It searches you for something to hold, finds nothing - and holds on.
+### 1515 escape_surge [cutscene_point]
+  <after_hint> Climb out through the outflow, north of the pit.
+  <say1> Up. Now - before this place drowns.
+### 702 to_map3 [exit]
+  <depart_text> You haul yourself into the outflow pipe and follow the water up toward daylight.
+  <open_text> The great outflow gapes open. Cold air - real air - breathes through it...
+### 703 book_turned_blade [pickup]
+  <hint_text> Book of the Turned Blade. Strike a projectile at the last moment to send it back.
+### 1560 odo_key [pickup]
+  <hint_text> A small brass key on a string, tagged in a careful hand: ODO - TONICS.
+  <key_desc> A small brass key on a string, tagged in a careful hand: ODO - TONICS.
+  <key_opens> Odo's tonic chest - Specimen Cells, cell 4
+### 704 book_purifier [pickup]
+  <hint_text> The Purifier's Rite. Earthshatter now also clears poison clouds.
+### 707 lever_handle [pickup]
+  <hint_text> A pump crank, stamped with Malric's sigil.
+  <key_desc> A pump crank stamped with Malric's sigil.
+  <key_opens> The pump console (Pump Control)
+### 710 pump_key [pickup]
+  <hint_text> Coughed up from the beast's gullet: an iron key tagged PUMP CONTROL - OVERSEER.
+  <key_desc> An iron key tagged PUMP CONTROL - OVERSEER, coughed up by Gorgemaw.
+  <key_name> Pump Control Key
+  <key_opens> The Pump Control door (Sluice Hall, south) and the Vat Hall shortcut
+### 712 vat_key [pickup]
+  <hint_text> On Brakk's belt: a key tagged VAT HALL.
+  <key_desc> Taken from Brakk's belt. The tag reads VAT HALL.
+  <key_name> Vat Hall Key
+  <key_opens> The sealed door to the Vat Hall (Specimen Cells, south)
+### 1487 rest_cistern [checkpoint]
+  <stage_name> boiler=The Boiler Room;cistern=The Eye's Cistern
+### 1493 rest_cells [checkpoint]
+  <stage_name> The Vat Hall
+### 1505 rest_reliquary [checkpoint]
+  <stage_name> The Containment Vault
+### 1792 hub_west_lock [turn_back]
+  <say> No - the cold air comes from the east. That's my way out.
+### 1793 hub_southeast_lock [turn_back]
+  <say> No - the cold air comes from the east. That's my way out.
+### 1813 scroll_sever_draw [pickup]
+  <hint_text> Tucked inside a mouldering ledger: a bladewright's secret scroll - SEVERING DRAW. Dash through your foes and cut them all in one stroke. Rest to attune it.
+### 1817 scroll_ichor_flask [pickup]
+  <hint_text> Pressed between the pages of a feeder's logbook: a recipe sealed in green wax - BLIGHT FLASK. Throw raw Ether to corrode whatever stands in it. Rest to attune it.
+### 1853 pell_meet [story]
+  <script> bubble pell: Don't strike! I'm not one of the mad ones. Not yet.
+say Pell: My name is Pell. I was Malric's clerk, long ago - before the green made me what I am.|He was a man, you know. A scholar. He wanted every serf in Vael to stand level with the deathless lords.|He did terrible things for it. So did I. I held the knife when we fed the Sleeper.|In the end he chained the Eye with his own dying breath. The pumps, the pipes, the brimming basin - all of it is his seal.|You want the crank. It is the only way out, and you will take it. Just... know what you are turning.
+bubble ren: I'm sorry. I have to get out.
+bubble pell: He said someone would. He hoped they would at least be sorry.
+### 1854 pell_page [story]
+  <script> set mercy_2
+say Pell: His hand. I would know it anywhere.|"If this is read, the seal is broken, and I was right to fear it. Whoever carries the Eye now: it cannot take you. Do not let it teach you to want to be taken."|"And Pell - forgive me. You were the only one who stayed."
+bubble pell: ...Thank you. Now go. Get out before it wakes.
+  <verb> Give Malric's last page
+### 1855 malric_page [pickup]
+  <hint_text> Hidden under the lining of the vault: a last page in Malric's hand. The old clerk in the laboratory should have this.
+  <key_desc> A single page in Malric's hand, folded small and hidden under the vault's lining. It is addressed to no one - and then, at the bottom, to Pell.
+  <key_name> Malric's Last Page
+  <key_opens> Pell, in the laboratory
+### 1856 hub_grate [story]
+  <script> cam 69,96 0.9
+wait 1.6
+beat 69,96 #e05a64 3
+camren
+wait 0.6
+bubble ren: Something under this place is chained... and it's counting.
+### 1857 pump_seal [story]
+  <script> face 58,67
+say Scratched into the console:If you are reading this, you want out. So did I.|Do not turn it. I am asking you as a dead man.|- M.
+bubble ren: ...I'm sorry, Malric. There is no other way up.
+### 720 ctrl_door [gate]
+  <locked_say> Locked. 'PUMP CONTROL - KEY HELD BY THE OVERSEER.' I need that key.
+### 728 r8_lock [gate_visual]
+  <locked_say> A rotten wooden fence blocks the way. A few good blows would bring it down.
+### 739 s3_door [gate]
+  <locked_say> Old fence planks, rotten through. A few strikes should do it.
+### 745 records_gate [gate]
+  <locked_say> Sealed. The wheel lock beside it must open it.
+### 759 cult_door [gate]
+  <locked_say> Barred and chained - sealed by the overseer. There has to be a key.
+### 763 cult_short [gate]
+  <locked_say> Locked from this side. Same make of lock as the pump control room.
+### 764 cult_short [gate_visual]
+  <locked_say> Black iron and a Choir seal. I'd need a key of the same make.
+### 1002 pump_console [console]
+  <fit_text> You fit Malric's crank onto the console. It locks into place with a heavy clunk.
+  <locked_text> The lever has no crank. Malric kept it in his laboratory.
+  <needs> lever_handle=the CRANK for the lever (Malric's laboratory, west)
+  <prompt> Left click: turn a joint. Right click: turn it back. R: reset. Esc: step back. Send the Ether into the drain, cut the cistern line - and leave no open joint.
+### 1003 gallery_pipes [pipegrid]
+  <after_text> The basin drains dry. The shield around the Eye bursts - and the thing in the pit wakes, shrieking.
+  <solve_text> The pumps shudder. The Ether pours into the drain and the cistern begins to empty. The way to the outflow is open - if the Eye lets you pass.
+### 1013 office_ledger [note]
+  <text> Forty barrels drawn for the Gift this week. The crew won't go near the cistern anymore.
+
+Lost the pump-room key in the culture vats - the big toad swallowed it before I could fish it out. Sealed the vat hall. Brakk keeps the hall key down in the boiler room, where the brute won't follow.
+
+The old clerk - the goblin who was here before any of us - scratched a mark on the cover: wheel II of the records vault lock.
+### 1027 ichor_divert [toggle]
+  <hide_layers> curb water A,curb A,flood base,curb surface A
+### 1028 s2_barricade [breakable]
+  <hint> A rotten wooden fence. A few strikes would break it.
+  <text> The fence splinters apart.
+### 1030 s3_door [breakable]
+  <hint> A rotten wooden fence. A few strikes would break it.
+  <text> The fence splinters apart.
+### 1035 records_lock [cipher]
+  <hint> Turn each wheel to the right Vael mark. Malric's journal, the overseer's ledger and the specimen chart each show one wheel.
+  <text> The three seals align. The records vault grinds open.
+  <title> Records Vault - Seal Lock
+### 1041 rec_dossier [note]
+  <text> Hierophant Absalom came down to us with a body: a spine of white bone, and around it red Ether grown into the shape of a man. No eyes. No heart. The thing his people call SPECIMEN ZERO. It breathes. It has never once been anyone.
+
+He wanted my family's relic for it - the left eye, kept in Luke's chest since the year they killed Him. I gave the Eye a body of its own instead.
+
+It sings to anyone who has drunk of Him. Green or red, it makes no difference: not one of the Hierophant's knights could stand before it.
+
+The Sleeper is sealed in this vault. It wakes every hundred years. If the Eye is ever lost, the Sleeper must never learn of it.   - M.
+  <title> SEALED - The Vessel
+### 1045 r6_journal [note]
+  <text> The Eye drinks and grows. When it is ripe, every serf in Vael drinks of IT - and stands level with the deathless lords.
+
+I keep the crank myself. No fool will starve my Eye.
+
+The records vault lock has three wheels, each carved with old Vael marks. Wheel I must show the mark below. The clerk keeps wheel II in the overseer's ledger; wheel III is on the specimen chart.
+  <title> Journal of Malric
+### 1067 spec_chart [note]
+  <text> G-2 - feral. Never feed by hand.
+G-5 - feral. Has torn its tether twice.
+V-3 - feral. Spits.
+V-4 - DOCILE. Odo, my former assistant. Feed weekly. He hid the key to his tonic chest in the old store behind the well - sentimental fool.
+V-7 - feral. Hunts by sound.
+V-9 - feral.
+
+Anything not marked docile: DO NOT OPEN.
+
+In the margin, in Malric's hand - wheel III of the records vault lock:
+  <title> Subject Chart - Cell Block B
+### 1069 incident_report [note]
+  <text> CROWN ETHER-WORKS - by order of House Vey.
+
+Specimen G-7 'Gorgemaw' broke its tether at the evening feeding. Two handlers lost - and the overseer's pump-room key with them, down the brute's gullet.
+
+The vat hall is SEALED by order of the overseer. The only key to the hall door went to Brakk, chief of the boiler crew: the boiler room is the one place the brute will not follow.
+
+Brakk has not reported back since the Ram broke loose down there.
+
+   - Overseer Grisk
+
+P.S. The courier from the capital asked after the Eye again. Not the Ether - the Eye, and whether it is still whole. I told him it sleeps. He said the King would like it to go on sleeping, unharmed, until it is sent for.
+  <title> Incident Report - Vat Hall
+### 1558 odo_chest [chest]
+  <key_desc> Odo's sealed tonic, still good after all these years. Drunk on the spot - your flask belt now holds one more flask.
+  <key_stats> Flask capacity:+1
+  <locked_say> Locked. Odo's chest... the chart said he hid the key somewhere.
+  <text> Odo's tonic chest: a sealed flask, still good. You can carry one more flask now.
+### 1561 records_chest_lock [chest]
+  <key_desc> Black iron, set with a Choir seal. Kept under Malric's own lock.
+  <key_name> Choir Vault Key
+  <key_opens> The black iron door beneath the Reliquary of the Ascended
+  <text> Inside, on the Vessel dossier: a black iron key set with a Choir seal.
+### 1785 sluice_w [sluice]
+  <hint> A sluice valve. Strike it to flush the channel with cold water.
+  <text> Cold water roars down the channel!
+### 1786 sluice_e [sluice]
+  <hint> A sluice valve. Strike it to flush the channel with cold water.
+  <text> Cold water roars down the channel!
+### 1826 cell_1_lock [lever]
+  <hint> Tank V-7 - feral. Hunts by sound.
+  <locked_say> Locked tank. The overseer would have kept the keys close.
+  <text> The key turns - the seals blow, glass bursts, and V-7 lunges out!
+### 1829 cell_2_lock [lever]
+  <hint> Tank G-2 - feral. Never feed by hand.
+  <locked_say> Locked tank. The overseer would have kept the keys close.
+  <text> The key turns - the seals blow, glass bursts, and G-2 lunges out!
+### 1832 cell_3_lock [lever]
+  <locked_say> Locked tank. The overseer would have kept the keys close.
+  <text> The key turns - the seals blow, glass bursts, and V-3 lunges out!
+### 1835 cell_5_lock [lever]
+  <locked_say> Locked tank. The overseer would have kept the keys close.
+  <text> The key turns - the seals blow, glass bursts, and V-9 lunges out!
+### 1838 cell_6_lock [lever]
+  <hint> Tank G-5 - feral. Has torn its tether twice.
+  <locked_say> Locked tank. The overseer would have kept the keys close.
+  <text> The key turns - the seals blow, glass bursts, and G-5 lunges out!

@@ -63,7 +63,7 @@
    ]
   },
   {
-   "title": "Open the Pump Room - find what it takes",
+   "title": "Open the Pump Control - find what it takes",
    "done": "lever_handle,pump_key",
    "targets": [
     {
@@ -81,7 +81,7 @@
      "check": "Vat Hall key - Brakk, Boiler Room"
     },
     {
-     "label": "Culture Hall - the Pump Room key",
+     "label": "The Vat Hall - the Pump Control key",
      "x": 17,
      "y": 88.4,
      "done": "pump_key",
@@ -89,7 +89,7 @@
      "preLabel": "Boiler Room - the Vat Hall key",
      "preX": 110.5,
      "preY": 89.5,
-     "check": "Pump Room key - Culture Hall"
+     "check": "Pump Control key - The Vat Hall"
     }
    ]
   },

@@ -41,7 +41,14 @@ namespace SoulRequiem.Gameplay
         public int pending;               // 02/11: quái đã hẹn sinh (đang báo hiệu / chờ) — chưa tính là dọn xong
         public int generation;            // 02/11: tăng khi khu làm lại -> huỷ các lượt sinh đang chờ
         public readonly List<EnemyAI> alive = new List<EnemyAI>();
+        public float quietSince = -1f;    // 19/11 (§340): mốc bắt đầu "còn ≤ 2 quái mà không con nào giao chiến"
+        public bool stragglersCalled;     // 19/11 (§340): đã gọi quái sót của đợt này lao về phía Ren + hiện trên minimap
+        public bool fought;               // 20/11: đợt này đã có quái giao chiến -> mới được gọi quái sót (quái đang "diễn" như goblin đốt nhà thì không)
+        public bool bossDown;             // 19/11 (§343): boss của khu đã gục thật (Health.Died)
+        public string resetOnDeath = "";  // 19/11 (§343): thuộc tính `reset_on_death` — cờ gỡ khi người chơi gục giữa trận
         public readonly List<CaveSpawner> caves = new List<CaveSpawner>();
+        /// <summary>16/11 (§271): "diễn viên" đứng sẵn của điểm sinh có `stand_in` (vd Grok ở Stone Ring) — hiện khi khu chưa đánh, xoá lúc trận bắt đầu.</summary>
+        public readonly List<GameObject> standIns = new List<GameObject>();
     }
 
     /// <summary>Một cổng (các object cùng tên trong layer gates).</summary>
@@ -82,6 +89,10 @@ namespace SoulRequiem.Gameplay
             foreach (var so in mapRoot.GetComponentsInChildren<SuperObject>(true))
             {
                 string layer = so.transform.parent != null ? so.transform.parent.name : "";
+                // 18/11: map có 2 lớp Tiled cùng tên (Map 4: "gates" x2 — một lớp cho cầu nằm dưới đất, sorting khác) -> SuperTiled2Unity
+                // đặt tên lớp thứ hai là "gates (1)" -> trước đây MapLayout bỏ qua cả lớp -> 11 cổng Map 4 không bao giờ mở. Bỏ hậu tố " (n)".
+                int sfx = layer.LastIndexOf(" (");
+                if (sfx > 0 && layer.EndsWith(")") && int.TryParse(layer.Substring(sfx + 2, layer.Length - sfx - 3), out _)) layer = layer.Substring(0, sfx);
                 var props = so.GetComponent<SuperCustomProperties>();
                 switch (layer)
                 {
@@ -95,6 +106,7 @@ namespace SoulRequiem.Gameplay
                         z.optional = props.GetBool(MapSchema.Prop.Optional, false);
                         z.stage = props.GetString(MapSchema.Prop.Stage, "").Trim();
                         z.entryDepth = props.GetFloat(MapSchema.Prop.EntryDepth, -1f);
+                        z.resetOnDeath = props.GetString("reset_on_death", "").Trim();   // 19/11 (§343)
                         ReadStory(z, props.GetString(MapSchema.Prop.Story, ""), props.GetString(MapSchema.Prop.StoryDone, ""));
                         z.rect = RectOf(so);
                         z.order = so.m_Id;

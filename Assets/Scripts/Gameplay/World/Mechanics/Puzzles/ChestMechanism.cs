@@ -56,9 +56,11 @@ namespace SoulRequiem.Gameplay
             if (!keyOk || !Ctx.Flags.HasAll(req))
             {
                 KeyRing.Say(player, Str("locked_say", "Locked tight. I need a key."));
+                SfxHooks.MechanismEvent(this, "locked", "door_locked"); // 19/11 (§335): âm
                 return;
             }
             Done = true;
+            SfxHooks.MechanismEvent(this, "open", "chest_open");
             Ctx.Flags.Set(OpenedFlag);
             if (key.Length > 0) Ctx.Flags.Set(KeyRing.UsedFlag(key));
             Ctx.Run(Open(player, key));

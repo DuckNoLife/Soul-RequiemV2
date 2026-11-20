@@ -1,0 +1,86 @@
+{
+ "ppt": 4,
+ "kind": "side",
+ "hidden": [],
+ "view": {
+  "x": 0,
+  "y": 0,
+  "w": 54,
+  "h": 41,
+  "label": ""
+ },
+ "steps": [
+  {
+   "title": "Malric's notes: the Kroven guard kept something from a king",
+   "done": "kroven_gate",
+   "targets": [
+    {
+     "label": "Past the arrow curtain",
+     "x": 26,
+     "y": 26.5,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "A thief's bones: the alcoves in this hall are for hiding",
+   "done": "kroven_hall",
+   "targets": [
+    {
+     "label": "The far end of the hall",
+     "x": 42,
+     "y": 12.5,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Nine guards came down. Wait for the iron to sink, then walk",
+   "done": "kroven_post",
+   "targets": [
+    {
+     "label": "The guard's post",
+     "x": 25.5,
+     "y": 7,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Someone is still standing his post",
+   "done": "g4_cleared",
+   "targets": [
+    {
+     "label": "The Last Guard",
+     "x": 16.5,
+     "y": 8,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "What the King of Kroven could not keep",
+   "done": "ironcrown_taken",
+   "targets": [
+    {
+     "label": "Nolan's Rest",
+     "x": 13.2,
+     "y": 20.2,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Climb back to the Forgotten Store",
+   "done": "never",
+   "targets": [
+    {
+     "label": "The ladder",
+     "x": 6.5,
+     "y": 32.5,
+     "done": ""
+    }
+   ]
+  }
+ ]
+}

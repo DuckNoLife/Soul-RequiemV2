@@ -46,6 +46,7 @@ namespace SoulRequiem.Gameplay
         {
             var go = new GameObject("Shockwave");
             go.transform.position = at;
+            SoulRequiem.Core.Sfx.Play("shockwave", at); // 19/11 (§335): âm
             var s = go.AddComponent<Shockwave>();
             s.maxRadius = maxRadius; s.duration = duration; s.damage = damage; s.sortingOrder = order; s.color = color;
             return s;

@@ -16,12 +16,32 @@ namespace SoulRequiem.Gameplay
     {
         private Health hp;
         private PlayerCombat combat;
-        private float slowUntil, slowMul = 1f, silenceUntil, healBlockUntil;
+        private float slowUntil, slowMul = 1f, silenceUntil, healBlockUntil, rollSealUntil;
         private SpriteVfx slowFx, silenceFx, bleedFx;
         private static float nextHint;
 
         public float SpeedMul => Time.time < slowUntil ? slowMul : 1f;
         public bool Silenced => Time.time < silenceUntil;
+        /// <summary>20/11 (§355): KHOÁ LĂN (Dash) — sọ ma của Jackpot Engine chạm Ren. HUD làm mờ ô Lăn + biểu tượng đếm ngược.</summary>
+        public bool RollSealed => Time.time < rollSealUntil;
+        public float RollSealLeft => Mathf.Max(0f, rollSealUntil - Time.time);
+        /// <summary>17/11 (§306): trói theo MAP (MapRestraint đặt mỗi khung theo cờ): bị tước kiếm -> không chém; Mantra bị phong -> không dùng chiêu.
+        /// Chữ báo lấy từ thuộc tính map `disarm_text` / `mantra_seal_text`.</summary>
+        public bool Disarmed { get; set; }
+        public bool MantrasBound { get; set; }
+        public string DisarmText { get; set; } = "Your blade is gone.";
+        public string MantraSealText { get; set; } = "Your mantras are sealed.";
+        /// <summary>17/11: bình máu bị thu cùng kiếm (Map 4) -> không uống được tới khi lấy lại kiếm.</summary>
+        public bool FlaskTaken { get; set; }
+        public string FlaskText { get; set; } = "Your flask is gone. The warders took it.";
+        private float nextRestraintHint;
+        /// <summary>17/11 (§306): hiện chữ báo bị trói (cách nhau ít nhất 1,5 s).</summary>
+        public void SayRestraint(string text)
+        {
+            if (Time.time < nextRestraintHint || string.IsNullOrEmpty(text)) return;
+            nextRestraintHint = Time.time + 1.5f;
+            Hints.Show(text, 1.6f);
+        }
         public bool HealBlocked => Time.time < healBlockUntil;
         /// Giây còn lại của từng hiệu ứng (HUD hiện biểu tượng + đếm ngược).
         public float SlowLeft => Mathf.Max(0f, slowUntil - Time.time);
@@ -62,6 +82,14 @@ namespace SoulRequiem.Gameplay
             Say(hint);
         }
 
+        /// <summary>20/11 (§355): khoá lăn `seconds` giây (không cộng dồn: lấy mốc xa nhất).</summary>
+        public void SealRoll(float seconds, string hint = "Your dash is sealed!")
+        {
+            if (Blocked) return;
+            rollSealUntil = Mathf.Max(rollSealUntil, Time.time + seconds);
+            Say(hint);
+        }
+
         public void BlockHeal(float seconds, string hint = "Hemorrhage: potions will not close your wounds!")
         {
             if (Blocked) return;
@@ -74,14 +102,13 @@ namespace SoulRequiem.Gameplay
         {
             if (Blocked) return;
             hp.Stun(seconds);
-            var v = SpriteVfx.SpawnAttached("stun_stars", transform, 0.6f, Layer, Order + 2, 14f, seconds);
-            if (v != null) v.transform.localPosition = new Vector3(0f, 0.62f, 0f);
+            // 18/11: KHÔNG sinh sao choáng ở đây nữa — PlayerHurtReactions.UpdateStun đã sinh khi Health bị choáng (trước đây 2 vòng sao, cao thấp khác nhau)
             Say(hint);
         }
 
         public void ClearAll()
         {
-            slowUntil = silenceUntil = healBlockUntil = 0f;
+            slowUntil = silenceUntil = healBlockUntil = rollSealUntil = 0f;
             slowMul = 1f;
             foreach (var f in new[] { slowFx, silenceFx, bleedFx }) if (f != null) f.Stop();
             slowFx = silenceFx = bleedFx = null;

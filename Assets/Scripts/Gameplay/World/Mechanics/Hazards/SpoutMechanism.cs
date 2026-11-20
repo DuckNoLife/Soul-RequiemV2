@@ -23,7 +23,7 @@ namespace SoulRequiem.Gameplay
             if (p == 2 && inside && Time.time >= nextTick)
             {
                 nextTick = Time.time + Ctx.DamageTick;
-                Ctx.HurtPlayer(Float("damage", 12f), Vector2.down, 2.5f);
+                TrapArt.HurtPlayerCrush(Ctx, Float("damage", 12f), Vector2.down, 2.5f);   // 16/11 (§284): lăn không né được
             }
         }
     }

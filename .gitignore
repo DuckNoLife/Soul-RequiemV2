@@ -254,3 +254,15 @@ _lfsfix/
 *.skel.bytes
 /*.md
 /*.md
+
+# ElevenLabs API key
+.env.local
+.env
+
+# 21/11: file tạm của quy trình làm việc (sao lưu trước khi sửa, đồ chờ xoá, cache Python, gói nén, thư mục xuất của Claude)
+/_backups/
+/_to_delete/
+__pycache__/
+*.pyc
+*.tgz
+/Claude outputs/

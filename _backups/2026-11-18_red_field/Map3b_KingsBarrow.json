@@ -1,0 +1,50 @@
+{
+ "ppt": 4,
+ "hidden": [],
+ "view": {
+  "x": 0,
+  "y": 0,
+  "w": 18,
+  "h": 15,
+  "label": ""
+ },
+ "steps": [
+  {
+   "title": "Put the barrow's dead to rest",
+   "done": "x2_cleared",
+   "targets": [
+    {
+     "label": "King's Barrow",
+     "x": 9,
+     "y": 8,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Pull down the rope",
+   "done": "x2_rope",
+   "targets": [
+    {
+     "label": "Frayed rope",
+     "x": 4.5,
+     "y": 3.8,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Climb back up to the Sinking Fields",
+   "done": "never",
+   "targets": [
+    {
+     "label": "The rope",
+     "x": 4.5,
+     "y": 5.1,
+     "done": ""
+    }
+   ]
+  }
+ ],
+ "kind": "side"
+}

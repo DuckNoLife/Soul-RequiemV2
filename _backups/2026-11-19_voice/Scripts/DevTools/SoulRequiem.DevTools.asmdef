@@ -1,0 +1,20 @@
+{
+    "name": "SoulRequiem.DevTools",
+    "rootNamespace": "SoulRequiem.DevTools",
+    "references": [
+        "SoulRequiem.Core",
+        "SoulRequiem.Gameplay",
+        "SoulRequiem.UI",
+        "SoulRequiem.Visual",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

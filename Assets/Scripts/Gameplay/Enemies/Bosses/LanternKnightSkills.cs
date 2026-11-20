@@ -100,6 +100,7 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ Charge
         private IEnumerator Charge()
         {
+            SfxHooks.BossMove(this, "Charge"); // 19/11 (§335): âm
             int n = ai.InPhase2 ? 3 : 1;
             for (int i = 0; i < n && !ai.Health.IsDead && ai.Player != null; i++)
             {
@@ -108,19 +109,24 @@ namespace SoulRequiem.Gameplay
                 Vector2 dir = ai.DirToPlayer.normalized;
                 ai.FaceX(dir.x);
                 ai.PlayState(ai.HasAnimState("ChargePrep") ? "ChargePrep" : "Idle");    // hạ thấp người, kéo kiếm ra sau
-                var line = chargeLine = MakeLine();
+                // §372: làn báo trước rộng bằng thân (thay vạch 0,1 đv); quãng lao = tới chỗ Ren + 1 đv (2,4..4,2), dừng trước vật cản
+                float width = DashTelegraph.WidthFor(ai.BodyCollider, 0.7f), reach = 2.4f;
+                DashTelegraph tg = null;
                 float t = 0f;
                 while (t < wind && !ai.Health.IsDead)
                 {
-                    if (ai.Player != null && t < wind * 0.75f) dir = ai.DirToPlayer.normalized;
+                    if (ai.Player != null && (t < wind * 0.75f || tg == null))
+                    {
+                        dir = ai.DirToPlayer.normalized;
+                        reach = DashTelegraph.Reach(transform.position, dir, DashTelegraph.WantReach(transform.position, ai.Player.position, 1f, 2.4f, 4.2f), 0.25f, ai.BodyCollider, ai.Player);
+                    }
+                    if (tg == null) tg = DashTelegraph.Spawn(transform.position, dir, reach, width, Cold, wind, Layer, Order - 1);
+                    else tg.Aim(transform.position, dir, reach);
                     ai.FaceX(dir.x);
-                    line.transform.position = transform.position;
-                    line.transform.rotation = Quaternion.Euler(0, 0, Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg);
-                    line.color = new Color(Cold.r, Cold.g, Cold.b, Mathf.Repeat(Time.time * 8f, 1f) < 0.5f ? 0.6f : 0.25f);
                     t += Time.deltaTime;
                     yield return null;
                 }
-                KillLine();
+                if (tg != null) tg.Release();
                 if (ai.Health.IsDead) yield break;
 
                 ai.Desired = dir * chargeSpeed;              // hướng chạy = hướng hoạt ảnh (EnemyAI chọn _S/_N theo Desired)
@@ -128,7 +134,8 @@ namespace SoulRequiem.Gameplay
                 if (ai.Vfx != null) ai.Vfx.Dash(dir);
                 bool hit = false;
                 t = 0f;
-                while (t < chargeTime && !ai.Health.IsDead)
+                float runTime = reach / Mathf.Max(0.1f, chargeSpeed);
+                while (t < runTime && !ai.Health.IsDead)
                 {
                     ai.Desired = dir * chargeSpeed;
                     if (!hit && ai.GapToPlayer() <= 0.1f) { ai.Hurt(ai.damage * 1.2f, transform.position, 4f); hit = true; }
@@ -145,6 +152,7 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ Judgement (Slam)
         private IEnumerator Judgement()
         {
+            SfxHooks.BossMove(this, "Judgement"); // 19/11 (§335): âm
             ai.Desired = Vector2.zero;
             Vector2 dir = ai.DirToPlayer.normalized;
             ai.FaceX(dir.x);
@@ -196,6 +204,7 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ Vow
         private IEnumerator Vow()
         {
+            SfxHooks.BossMove(this, "Vow"); // 19/11 (§335): âm
             nextVow = Time.time + vowEvery;
             ai.Desired = Vector2.zero;
             ai.FaceX(ai.DirToPlayer.x);
@@ -215,7 +224,7 @@ namespace SoulRequiem.Gameplay
             if (ai.Health.IsDead) yield break;
             if (broken)
             {
-                Hints.Show("The vow is broken!", 2f);
+                // 16/11 (§269): bỏ thông báo thừa — hình / hoạt ảnh / bảng tên boss đã thể hiện
                 ai.PlayState(ai.HasAnimState("Stagger") ? "Stagger" : "Idle");   // quỳ một gối chống kiếm: cửa sổ phản công
                 yield return ai.Flash(2.2f, new Color(1f, 1f, 0.55f));
                 ai.PlayState("Idle");
@@ -234,11 +243,12 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ Lightless (vào pha 2)
         private IEnumerator Lightless()
         {
+            SfxHooks.BossMove(this, "Lightless"); // 19/11 (§335): âm
             lightlessDone = true;
             ai.Desired = Vector2.zero;
             ai.PlayState("Vow");
             SpriteVfx.Spawn("m3_lk_lightless", transform.position, VfxScale, Layer, Order + 1, false, 12f);
-            Hints.Show("The Lantern Knight snuffs out the light.", 2.5f);
+            // 16/11 (§269): bỏ thông báo thừa — hình / hoạt ảnh / bảng tên boss đã thể hiện
             yield return ai.WaitFor(0.6f);
             ZoneAmbience.DimMul = darkness;
             CameraFollow.KickMain(Vector2.down, 0.05f, 0.3f);

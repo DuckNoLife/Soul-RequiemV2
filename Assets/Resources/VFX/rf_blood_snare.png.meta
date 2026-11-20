@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: d2fe527c03014bfa9da074ffcbf3be00
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8887051012888901658
+    second: rf_blood_snare_0
+  - first:
+      213: 6467946583888544046
+    second: rf_blood_snare_1
+  - first:
+      213: 6727128754369052684
+    second: rf_blood_snare_2
+  - first:
+      213: 7731343751579667525
+    second: rf_blood_snare_3
+  - first:
+      213: 1621252651644837779
+    second: rf_blood_snare_4
+  - first:
+      213: 7141773987969087658
+    second: rf_blood_snare_5
+  - first:
+      213: 2283676286963445987
+    second: rf_blood_snare_6
+  - first:
+      213: 7594143398000829394
+    second: rf_blood_snare_7
+  - first:
+      213: 4961889797527859891
+    second: rf_blood_snare_8
+  - first:
+      213: 7297094508988341916
+    second: rf_blood_snare_9
+  - first:
+      213: 706644232048005618
+    second: rf_blood_snare_10
+  - first:
+      213: 6380424507757774478
+    second: rf_blood_snare_11
+  - first:
+      213: 8081971407480308010
+    second: rf_blood_snare_12
+  - first:
+      213: 6281227680551559575
+    second: rf_blood_snare_13
+  - first:
+      213: 2912139121229125447
+    second: rf_blood_snare_14
+  - first:
+      213: 8538522296832354777
+    second: rf_blood_snare_15
+  - first:
+      213: 1310456394472271151
+    second: rf_blood_snare_16
+  - first:
+      213: 1706967575696042382
+    second: rf_blood_snare_17
+  - first:
+      213: 8527592689702148811
+    second: rf_blood_snare_18
+  - first:
+      213: 868485229109787209
+    second: rf_blood_snare_19
+  - first:
+      213: 2240769974756927512
+    second: rf_blood_snare_20
+  - first:
+      213: 4483661505483614015
+    second: rf_blood_snare_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rf_blood_snare_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 152
+        height: 139
+      alignment: 9
+      pivot: {x: 0.500000, y: 0.223022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9266a2603e14b23a2fb1a56021f9952
+      internalID: 8887051012888901658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_blood_snare_1
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 152
+        height: 139
+      alignment: 9
+      pivot: {x: 0.500000, y: 0.223022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8460eb5ad6d4f788f8e3fdb449e57eb
+      internalID: 6467946583888544046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_blood_snare_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 152
+        height: 139
+      alignment: 9
+      pivot: {x: 0.500000, y: 0.223022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67aee8f729b941c68924349fbe3a2919
+      internalID: 6727128754369052684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_blood_snare_3
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 0
+        width: 152
+        height: 139
+      alignment: 9
+      pivot: {x: 0.500000, y: 0.223022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8d7d77ceff4e4abded615f30174410
+      internalID: 7731343751579667525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_blood_snare_4
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 0
+        width: 152
+        height: 139
+      alignment: 9
+      pivot: {x: 0.500000, y: 0.223022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0540295f52b242178a8eb9372643a6cd
+      internalID: 1621252651644837779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_blood_snare_5
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 0
+        width: 152
+        height: 139
+      alignment: 9
+      pivot: {x: 0.500000, y: 0.223022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aad00f8dcd040d2ba061025665654ff
+      internalID: 7141773987969087658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_blood_snare_6
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 0
+        width: 152
+        height: 139
+      alignment: 9
+      pivot: {x: 0.500000, y: 0.223022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2985ee3df2554255abbd51c2d1e098d5
+      internalID: 2283676286963445987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_blood_snare_7
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 0
+        width: 152
+        height: 139
+      alignment: 9
+      pivot: {x: 0.500000, y: 0.223022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a8a1eee42b465c992ccb04c4b9227e
+      internalID: 7594143398000829394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_blood_snare_8
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 0
+        width: 152
+        height: 139
+      alignment: 9
+      pivot: {x: 0.500000, y: 0.223022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b85a8d77f9047d6af7b6df464561cc0
+      internalID: 4961889797527859891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_blood_snare_9
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 0
+        width: 152
+        height: 139
+      alignment: 9
+      pivot: {x: 0.500000, y: 0.223022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbec6ccd1cfa4b568ea0e31d33b8ce3b
+      internalID: 7297094508988341916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_blood_snare_10
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 0
+        width: 152
+        height: 139
+      alignment: 9
+      pivot: {x: 0.500000, y: 0.223022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00fef7d587b144e1a8ee8c0ac0623e73
+      internalID: 706644232048005618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_blood_snare_11
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 0
+        width: 152
+        height: 139
+      alignment: 9
+      pivot: {x: 0.500000, y: 0.223022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b9679708cc4d358fc451c92b5e0810
+      internalID: 6380424507757774478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_blood_snare_12
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 0
+        width: 152
+        height: 139
+      alignment: 9
+      pivot: {x: 0.500000, y: 0.223022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68060d0574654c6fa9ec742b988a8b78
+      internalID: 8081971407480308010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_blood_snare_13
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 0
+        width: 152
+        height: 139
+      alignment: 9
+      pivot: {x: 0.500000, y: 0.223022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f548802cf9494a996b78b65e44529a
+      internalID: 6281227680551559575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_blood_snare_14
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 0
+        width: 152
+        height: 139
+      alignment: 9
+      pivot: {x: 0.500000, y: 0.223022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc22cf8429a04692afedd8246780808a
+      internalID: 2912139121229125447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_blood_snare_15
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 0
+        width: 152
+        height: 139
+      alignment: 9
+      pivot: {x: 0.500000, y: 0.223022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9e5b2093b446b888596946af225519
+      internalID: 8538522296832354777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_blood_snare_16
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 0
+        width: 152
+        height: 139
+      alignment: 9
+      pivot: {x: 0.500000, y: 0.223022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a1a70d6e104ac3846f23f647a955b5
+      internalID: 1310456394472271151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_blood_snare_17
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 0
+        width: 152
+        height: 139
+      alignment: 9
+      pivot: {x: 0.500000, y: 0.223022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3116fd7f0a4ae5894de6e55becc9ef
+      internalID: 1706967575696042382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_blood_snare_18
+      rect:
+        serializedVersion: 2
+        x: 2736
+        y: 0
+        width: 152
+        height: 139
+      alignment: 9
+      pivot: {x: 0.500000, y: 0.223022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7885ee8049cb4fc18176ebdde6ac3719
+      internalID: 8527592689702148811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_blood_snare_19
+      rect:
+        serializedVersion: 2
+        x: 2888
+        y: 0
+        width: 152
+        height: 139
+      alignment: 9
+      pivot: {x: 0.500000, y: 0.223022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1e17f852d74a5ca6052a850f1cba46
+      internalID: 868485229109787209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_blood_snare_20
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 0
+        width: 152
+        height: 139
+      alignment: 9
+      pivot: {x: 0.500000, y: 0.223022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75fd5b2308224fe08bd7153a6fa2265f
+      internalID: 2240769974756927512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_blood_snare_21
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 0
+        width: 152
+        height: 139
+      alignment: 9
+      pivot: {x: 0.500000, y: 0.223022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1e0faea4d348db8a36d0606edbc0df
+      internalID: 4483661505483614015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rf_blood_snare_0: 8887051012888901658
+      rf_blood_snare_1: 6467946583888544046
+      rf_blood_snare_2: 6727128754369052684
+      rf_blood_snare_3: 7731343751579667525
+      rf_blood_snare_4: 1621252651644837779
+      rf_blood_snare_5: 7141773987969087658
+      rf_blood_snare_6: 2283676286963445987
+      rf_blood_snare_7: 7594143398000829394
+      rf_blood_snare_8: 4961889797527859891
+      rf_blood_snare_9: 7297094508988341916
+      rf_blood_snare_10: 706644232048005618
+      rf_blood_snare_11: 6380424507757774478
+      rf_blood_snare_12: 8081971407480308010
+      rf_blood_snare_13: 6281227680551559575
+      rf_blood_snare_14: 2912139121229125447
+      rf_blood_snare_15: 8538522296832354777
+      rf_blood_snare_16: 1310456394472271151
+      rf_blood_snare_17: 1706967575696042382
+      rf_blood_snare_18: 8527592689702148811
+      rf_blood_snare_19: 868485229109787209
+      rf_blood_snare_20: 2240769974756927512
+      rf_blood_snare_21: 4483661505483614015
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

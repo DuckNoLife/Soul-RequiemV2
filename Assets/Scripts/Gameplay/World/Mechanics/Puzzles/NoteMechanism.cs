@@ -144,16 +144,35 @@ namespace SoulRequiem.Gameplay
         public override void Use()
         {
             if (PanelIsOpen) { MechanismPanels.Close(); return; }
-            MechanismPanels.Open(BuildPanel());
-            if (read) return;
+            var panel = BuildPanel();
+            if (read) { MechanismPanels.Open(panel); return; }
             read = true;
             if (marker != null) marker.SetActive(false);
             if (paper != null && Props.GetBool("pickup", false)) paper.gameObject.SetActive(false);
+            // 16/11 (§269): đồ nhận được ghi ở CHÂN BẢNG (bảng đang mở), không hiện thêm dòng chữ dưới màn hình (người dùng: thừa)
+            string got = TextUtil.Clean(Str("key_got", ""));
             string item = Str("key_id", "");
-            if (item.Length > 0 && !KeyRing.Has(Ctx.Flags, item)) KeyRing.Give(Ctx.Flags, item, Str("key_got", ""));   // 09/11 (§200)
+            if (item.Length > 0 && !KeyRing.Has(Ctx.Flags, item))                                                      // 09/11 (§200)
+            {
+                KeyRing.Give(Ctx.Flags, item, got, false);
+                panel.Obtained = got.Length > 0 ? got : $"Obtained: {KeyRing.NameOf(item)}.";
+            }
             string wep = Str("weapon_id", "");                                                                        // 10/11 (§217): di vật = một thanh katana
-            if (wep.Length > 0) WeaponRing.Give(Ctx.Flags, wep, Str("key_got", ""));
+            if (wep.Length > 0 && !Ctx.Flags.Has(WeaponRing.Flag(wep)))
+            {
+                WeaponRing.Give(Ctx.Flags, wep, got, false);
+                var w = WeaponRing.Find(wep);
+                panel.Obtained = got.Length > 0 ? got : $"Obtained: {(w != null ? w.displayName : wep)}.";
+            }
             string sets = Str("sets", "");
+            // 18/11 (người dùng): ghi chú có cảnh diễn đi kèm (`cutscene_only` = true) -> lần đầu KHÔNG mở bảng chữ, chỉ bật cờ để cảnh chạy;
+            // đọc lại sau (tương tác lần nữa / túi đồ) vẫn mở bảng như thường.
+            if (Props.GetBool("cutscene_only", false))
+            {
+                if (!string.IsNullOrEmpty(sets)) Ctx.Flags.Set(sets);
+                return;
+            }
+            MechanismPanels.Open(panel);
             if (!string.IsNullOrEmpty(sets)) Ctx.Flags.Set(sets);
         }
 

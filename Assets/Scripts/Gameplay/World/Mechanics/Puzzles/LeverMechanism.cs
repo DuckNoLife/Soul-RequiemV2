@@ -11,6 +11,7 @@ namespace SoulRequiem.Gameplay
     /// có `rearm` (giây) thì gạt lại được (cần quay về chỗ cũ sau khi nạp); có `fires` mà không ghi `sets` thì không bật cờ.
     /// 09/11 (§200): `requires_key` (id chìa trong túi đồ) + `locked_say` (Ren nói khi chưa có chìa) — vd khoá bình mẫu vật Specimen Cells.
     /// Nạp bản lưu: đã có cờ `sets` (không có rearm) -> Done (không thả quái lần nữa).
+    /// 17/11 (§304): `requires` = danh sách cờ cần có trước khi gạt được + `locked_say`.
     /// </summary>
     public sealed class LeverMechanism : Mechanism
     {
@@ -20,7 +21,9 @@ namespace SoulRequiem.Gameplay
         private float shown, target, readyAt;
 
         public override string DefaultVerb => "Pull";
-        public override bool Usable => !Done && Time.time >= readyAt;
+        public override bool Usable => !Hidden && !Done && Time.time >= readyAt;
+        /// <summary>20/11 (§364): cơ quan khác cất cần gạt đi (ẩn hình, không nhấn T, không nhắc) — vd cần máy phóng bao cỏ chỉ hiện ở trạm 3 sân tập.</summary>
+        public bool Hidden { get; set; }
 
         public override void Init()
         {
@@ -36,6 +39,7 @@ namespace SoulRequiem.Gameplay
 
         public override void Animate()
         {
+            if (sr != null && sr.enabled == Hidden) sr.enabled = !Hidden;   // §364
             if (sr == null || frames.Length < 2) return;
             if (readyAt > 0f && Time.time >= readyAt && !Done) target = 0f;     // nạp xong: cần quay về
             shown = Mathf.MoveTowards(shown, target, Time.deltaTime * 16f);
@@ -44,6 +48,7 @@ namespace SoulRequiem.Gameplay
 
         public override void Tick(Vector2 playerPos, bool inside)
         {
+            if (Hidden) { announced = false; return; }                   // §364
             bool near = Vector2.Distance(playerPos, Rect.center) < 0.7f;
             if (near && !announced) { announced = true; Hints.Show(Str("hint", ""), 3f); }
             if (!near) announced = false;
@@ -52,6 +57,12 @@ namespace SoulRequiem.Gameplay
         public override void Use()
         {
             if (Done || Time.time < readyAt) return;
+            // 17/11 (§304): `requires` = cờ cần có (vd tời xà lim Pell bị quấn xích: phải chém đứt xích trước); chưa đủ -> Ren nói `locked_say`
+            if (!Ctx.Flags.HasAll(Str("requires", "")))
+            {
+                KeyRing.Say(Ctx.Director != null ? Ctx.Director.Player : null, Str("locked_say", "It won't move."));
+                return;
+            }
             string key = Str("requires_key", "");                       // 09/11 (§200)
             if (key.Length > 0 && !KeyRing.Has(Ctx.Flags, key))
             {

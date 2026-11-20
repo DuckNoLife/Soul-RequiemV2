@@ -166,22 +166,24 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ pha 1: lao có nhắm
         private IEnumerator Charge()
         {
+            SfxHooks.BossMove(this, "Charge"); // 19/11 (§335): âm
             ai.Desired = Vector2.zero;
             ai.PlayState("ChargeBegin");
-            var line = chargeLine = MakeLine();
             float t = 0f, w = Windup(windupTime), speed = chargeSpeed * SpeedMul;
-            Vector2 dir = Vector2.right;
+            Vector2 dir = ai.Player != null ? ((Vector2)ai.Player.position - (Vector2)transform.position).normalized : Vector2.right;
+            // §372: làn báo trước dùng chung, rộng bằng thân con cừu; dài tới vật cản đầu tiên (nó lao tới khi đâm vách)
+            var tg = DashTelegraph.Spawn(transform.position, dir, speed * maxRun, DashTelegraph.WidthFor(ai.BodyCollider, 0.75f), RamWarn, w, ai.Body != null ? ai.Body.sortingLayerID : 0, ai.Body != null ? ai.Body.sortingOrder - 1 : 1);
             while (t < w && !ai.Health.IsDead)
             {
                 if (ai.Player != null && t < w * 0.75f)
                     dir = ((Vector2)ai.Player.position - (Vector2)transform.position).normalized;
                 ai.FaceX(dir.x);
-                PlaceLine(line, dir, speed * maxRun);
+                tg.Aim(transform.position, dir, DashTelegraph.Reach(transform.position, dir, speed * maxRun, 0.3f, ai.BodyCollider, ai.Player));
                 if (SluiceMechanism.Wet(transform.position)) break;           // đang gồng mà nước tràn tới chân
                 t += Time.deltaTime;
                 yield return null;
             }
-            DropLine();
+            tg.Release();
             if (ai.Health.IsDead) yield break;
             if (SluiceMechanism.Wet(transform.position)) { yield return Quench(); yield break; }
 
@@ -224,6 +226,7 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ pha 2: lao liên tục, bật tường như lò xo
         private IEnumerator Rampage()
         {
+            SfxHooks.BossMove(this, "Rampage"); // 19/11 (§335): âm
             if (!rampHinted)
             {
                 rampHinted = true;
@@ -233,14 +236,15 @@ namespace SoulRequiem.Gameplay
             ai.Desired = Vector2.zero;
             ai.PlayState("ChargeBegin");
             Vector2 dir = ai.Player != null ? ((Vector2)ai.Player.position - (Vector2)transform.position).normalized : Vector2.right;
-            var line = chargeLine = MakeLine();
-            for (float t = 0f, w = Windup(0.55f); t < w && !ai.Health.IsDead; t += Time.deltaTime)
+            float rw = Windup(0.55f);
+            var tg = DashTelegraph.Spawn(transform.position, dir, DashTelegraph.Reach(transform.position, dir, 3.5f, 0.3f, ai.BodyCollider, ai.Player),
+                                         DashTelegraph.WidthFor(ai.BodyCollider, 0.75f), RamWarn, rw, ai.Body != null ? ai.Body.sortingLayerID : 0, ai.Body != null ? ai.Body.sortingOrder - 1 : 1);
+            for (float t = 0f; t < rw && !ai.Health.IsDead; t += Time.deltaTime)
             {
                 ai.FaceX(dir.x);
-                PlaceLine(line, dir, 2.5f);
                 yield return null;
             }
-            DropLine();
+            tg.Release();
             if (ai.Health.IsDead) yield break;
 
             IgnorePlayer(true);
@@ -416,6 +420,8 @@ namespace SoulRequiem.Gameplay
             if (mm != null) mm.RamImpact(at, impactRadius);
             Rubble(at, rocks, aimOne);
             CameraFollow.KickMain(dir, 0.08f, 0.25f);
+            SoulRequiem.Core.Sfx.Play("lg_wall_crash", at); // 19/11 (§337): âm: đâm vách -> trần nứt, đá sắp rơi
+            if (rocks > 0) SoulRequiem.Core.Sfx.Play("ceiling_crack", at);
         }
 
         // ------------------------------------------------------------------ bị nước dập
@@ -443,6 +449,7 @@ namespace SoulRequiem.Gameplay
         /// <summary>Hơi nước trắng bốc lên từ thân Ram.</summary>
         private IEnumerator Steam()
         {
+            SfxHooks.BossMove(this, "Steam"); // 19/11 (§335): âm
             int layer = ai.Body != null ? ai.Body.sortingLayerID : 0, order = ai.Body != null ? ai.Body.sortingOrder + 2 : 3;
             var puffs = new List<(SpriteRenderer sr, Vector2 from, Vector2 vel, float born)>();
             float k0 = 0.22f / Mathf.Max(0.01f, EtherVfx.Orb.bounds.size.x);
@@ -642,6 +649,9 @@ namespace SoulRequiem.Gameplay
             s.sortingOrder = ai.Body != null ? ai.Body.sortingOrder - 1 : 1;
             return s;
         }
+
+        /// <summary>§372: màu làn báo trước (đỏ; xanh lục khi quá tải).</summary>
+        private Color RamWarn => Overcharged ? new Color(0.55f, 1f, 0.35f) : new Color(1f, 0.3f, 0.24f);
 
         private void PlaceLine(SpriteRenderer line, Vector2 dir, float length)
         {

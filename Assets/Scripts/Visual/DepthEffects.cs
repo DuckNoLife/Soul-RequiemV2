@@ -97,6 +97,10 @@ namespace SoulRequiem.Visual
                 if (sr.GetComponentInParent<PlayerController>() != null) continue;
                 if (sr.GetComponentInParent<EnemyAI>() != null) continue;
                 if (sr.GetComponentInParent<Rigidbody2D>() != null) continue;      // vật di chuyển, đạn...
+                // 18/11 (§319): cổng + vòm tường trên cổng (lintel_*) KHÔNG làm mờ: Ren đi qua khung cửa phải khuất sau vòm,
+                // làm mờ vòm khiến Ren trông như "trèo lên cổng".
+                if (sr.GetComponentInParent<SoulRequiem.Gameplay.GateAnimator>() != null) continue;
+                if (IsLintel(sr)) continue;
                 FixSortLine(sr);
                 if (sr.bounds.size.y < minOccluderHeight) continue;                 // vật thấp không che được người
                 occluders.Add(sr); keep.Add(sr);
@@ -104,6 +108,15 @@ namespace SoulRequiem.Visual
             // vật đã mờ mà không còn trong danh sách (bị ẩn / xoá) -> trả lại độ đục
             foreach (var sr in new List<SpriteRenderer>(fading))
                 if (sr != null && !keep.Contains(sr)) { var c = sr.color; c.a = 1f; sr.color = c; fading.Remove(sr); covered.Remove(sr); }
+        }
+
+        /// 18/11: vòm tường trên cổng — tên object Tiled (hoặc tên ảnh) bắt đầu bằng "lintel_".
+        static bool IsLintel(SpriteRenderer sr)
+        {
+            if (sr.sprite != null && sr.sprite.name.StartsWith("lintel_")) return true;
+            for (var t = sr.transform; t != null; t = t.parent)
+                if (t.name.StartsWith("lintel_")) return true;
+            return false;
         }
 
         void Update()

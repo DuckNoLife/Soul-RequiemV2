@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: aa4e291f1f26408ba895c73b7c416123
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3468393310831527544
+    second: lg_break_0
+  - first:
+      213: 8911188109439691340
+    second: lg_break_1
+  - first:
+      213: 2909012724310597630
+    second: lg_break_2
+  - first:
+      213: 1937343017954617627
+    second: lg_break_3
+  - first:
+      213: 8208271236611684724
+    second: lg_break_4
+  - first:
+      213: 6415878991295497868
+    second: lg_break_5
+  - first:
+      213: 7599649234875666999
+    second: lg_break_6
+  - first:
+      213: 620268884801913423
+    second: lg_break_7
+  - first:
+      213: 6003643941792393525
+    second: lg_break_8
+  - first:
+      213: 8538494857108709187
+    second: lg_break_9
+  - first:
+      213: 2807333839457917316
+    second: lg_break_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lg_break_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 66
+        height: 71
+      alignment: 9
+      pivot: {x: 0.530303, y: 0.591549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66db6375392f47d585bdfcd87cff4e70
+      internalID: 3468393310831527544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lg_break_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 66
+        height: 71
+      alignment: 9
+      pivot: {x: 0.530303, y: 0.591549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9777e83d5b24bbcbfb95d558b69bdcf
+      internalID: 8911188109439691340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lg_break_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 66
+        height: 71
+      alignment: 9
+      pivot: {x: 0.530303, y: 0.591549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12391d9ac1144f40bd143afb48e67319
+      internalID: 2909012724310597630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lg_break_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 66
+        height: 71
+      alignment: 9
+      pivot: {x: 0.530303, y: 0.591549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe1fa57e4fd40818756b079336e2ad0
+      internalID: 1937343017954617627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lg_break_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 66
+        height: 71
+      alignment: 9
+      pivot: {x: 0.530303, y: 0.591549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5520747acdd94f23b107c3fadef9885d
+      internalID: 8208271236611684724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lg_break_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 0
+        width: 66
+        height: 71
+      alignment: 9
+      pivot: {x: 0.530303, y: 0.591549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47696c3cd304a10b4d6ae17a974f40d
+      internalID: 6415878991295497868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lg_break_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 66
+        height: 71
+      alignment: 9
+      pivot: {x: 0.530303, y: 0.591549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584c50a80d824204898e3b872bdc7ab9
+      internalID: 7599649234875666999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lg_break_7
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 0
+        width: 66
+        height: 71
+      alignment: 9
+      pivot: {x: 0.530303, y: 0.591549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e27c92fc2d434cb8fd6693366b1fc7
+      internalID: 620268884801913423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lg_break_8
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 66
+        height: 71
+      alignment: 9
+      pivot: {x: 0.530303, y: 0.591549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284e2bd9bf2b4de385de64142517e190
+      internalID: 6003643941792393525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lg_break_9
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 0
+        width: 66
+        height: 71
+      alignment: 9
+      pivot: {x: 0.530303, y: 0.591549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99526f0390c64003a85d29cd59150b69
+      internalID: 8538494857108709187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lg_break_10
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 0
+        width: 66
+        height: 71
+      alignment: 9
+      pivot: {x: 0.530303, y: 0.591549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d41c186ae14357ae1f1d288c193124
+      internalID: 2807333839457917316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      lg_break_0: 3468393310831527544
+      lg_break_1: 8911188109439691340
+      lg_break_2: 2909012724310597630
+      lg_break_3: 1937343017954617627
+      lg_break_4: 8208271236611684724
+      lg_break_5: 6415878991295497868
+      lg_break_6: 7599649234875666999
+      lg_break_7: 620268884801913423
+      lg_break_8: 6003643941792393525
+      lg_break_9: 8538494857108709187
+      lg_break_10: 2807333839457917316
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

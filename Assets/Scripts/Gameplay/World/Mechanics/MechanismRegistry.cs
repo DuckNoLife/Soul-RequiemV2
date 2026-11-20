@@ -19,9 +19,19 @@ namespace SoulRequiem.Gameplay
             { "plate", () => new PlateMechanism() },             // 08/11 (§196): vùng kích bẫy (tấm sàn) -> xung tín hiệu
             { "spikes", () => new SpikeMechanism() },            // 08/11 (§196): ô gai sàn hoạt ảnh (nhịp / giẫm / theo tín hiệu)
             { "launcher", () => new LauncherMechanism() },       // 08/11 (§197): máy bắn tên / lửa / băng gắn tường
+            { "stillness", () => new StillnessMechanism() },     // 16/11 (§261): cảm biến chuyển động -> xung tín hiệu (The Still Walk)
             { "cover", () => new CoverMechanism() },             // 08/11 (§197): bàn lật làm khiên chắn đạn
             { "roller", () => new RollerMechanism() },           // 08/11 (§197): khúc gỗ gai lăn theo làn
-            { "blade", () => new BladeMechanism() },             // 08/11 (§197): lưỡi cưa / lưỡi xoay chạy ray
+            { "ranks", () => new RankMechanism() },              // 18/11 (§331): hàng lính hồn hành quân (Marching Hall, Map 3b)
+            { "pit", () => new PitTrapMechanism() },             // 17/11 (§305): sàn sập (Map 4, trước cửa kho Reliquary)
+            { "blade", () => new BladeMechanism() },
+            { "warden_statue", () => new WardenStatueMechanism() },   // 19/11 (§345): tượng che chắn Warden Gallery (Champion lao trúng -> vỡ, choáng)
+            { "powder_keg", () => new PowderKegMechanism() },         // 19/11 (§345): thùng thuốc nổ (chém / đạn / cối / Champion ném)             // 08/11 (§197): lưỡi cưa / lưỡi xoay chạy ray
+            { "relic_rack", () => new RelicRackMechanism() },         // 20/11 (§349): giá vũ khí — minigame đua giành vũ khí (Reliquary Lists)
+            { "crystal_pillar", () => new CrystalPillarMechanism() }, // 20/11 (§350): cột pha lê 4 màu (thay giá vũ khí) — Champion hút đổi nguyên tố
+            { "drill_yard", () => new DrillYardMechanism() },         // 20/11 (§356): minigame né người nộm (The Drill Yard, Map 4)
+            { "drill_horn", () => new DrillHornMechanism() },         // 20/11 (§356): tù và bắt đầu / chơi lại minigame
+            { "crate_puzzle", () => new CratePuzzleMechanism() },     // 20/11 (§360): đẩy thùng lên tấm ép (Quartermaster's Store) — thay drill_post
             { "flood", () => new FloodMechanism() },
             // hiệu ứng theo cờ
             { "beam", () => new BeamMechanism() },

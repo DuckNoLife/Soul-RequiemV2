@@ -10,8 +10,8 @@ namespace SoulRequiem.Gameplay
     /// <summary>
     /// Chiến đấu của người chơi — component trên Player, giữ THÔNG SỐ (Inspector) và nhận phím; mỗi tính năng là một class
     /// trong Player/Abilities:
-    ///   <see cref="PlayerMelee"/>          chém (Attack: J / chuột trái / tay cầm X)
-    ///   <see cref="PlayerDodge"/>          lộn nhào có bất tử (Roll: Q / tay cầm B)
+    ///   <see cref="PlayerMelee"/>          chém (Attack: J / chuột trái)
+    ///   <see cref="PlayerDodge"/>          lộn nhào có bất tử (Roll: Q )
     ///   <see cref="PlayerFlask"/>          bình máu (Heal: E / tay cầm Y)
     ///   <see cref="PlayerStrikes"/>        gây sát thương, dừng hình, giật camera, VFX trúng đòn
     ///   <see cref="PlayerHurtReactions"/>  trúng đòn / choáng / gục / hồi sinh
@@ -106,6 +106,10 @@ namespace SoulRequiem.Gameplay
         public static event Action<Vector2, float> Struck;
         /// <summary>Kỹ năng vùng: (tâm, bán kính). Mây độc (sách Purifier), đèn quanh người nghe sự kiện này.</summary>
         public static event Action<Vector2, float> SkillCast;
+        /// <summary>16/11 (§252): mỗi nhát chém kiếm vừa ra (kể cả chém hụt): (người chơi, tâm xoay, hướng, tầm, sát thương, đẩy lùi).
+        /// Afterecho (bộ Mantras of the Ear) nghe sự kiện này để chém lặp lại.</summary>
+        public static event Action<PlayerCombat, Vector2, Vector2, float, float, float> MeleeSwung;
+        internal static void RaiseMeleeSwung(PlayerCombat p, Vector2 pivot, Vector2 dir, float range, float dmg, float knock) => MeleeSwung?.Invoke(p, pivot, dir, range, dmg, knock);
 
         // ------------------------------------------------------------------ tính năng
         private PlayerActionState actions;
@@ -136,6 +140,7 @@ namespace SoulRequiem.Gameplay
             if (weapon == null) weapon = WeaponDefinition.LoadDefault();          // 09/11 (§201)
             WeaponView = PlayerWeaponView.Ensure(this);
             WeaponView.SetWeapon(weapon);
+            IaiStance.Ensure(this);                                           // 16/11 (§271): thanh nộ đòn giữ Iaijutsu
             dodge = new PlayerDodge(this, anim, actions);
             flask = new PlayerFlask(this, anim);
             reactions = new PlayerHurtReactions(this, anim, actions, flask);
@@ -166,6 +171,9 @@ namespace SoulRequiem.Gameplay
         private void OnDisable() => PlayerStrikes.ReleaseHitStop();
 
         public void AddPotion(int n) => potions += n;
+        private PlayerStatus status;
+        /// <summary>17/11 (§306): trạng thái của Ren (tự gắn khi cần).</summary>
+        public PlayerStatus Status => status != null ? status : (status = PlayerStatus.Of(this));
         /// <summary>02/11: số bình tối đa (nghỉ ở điểm nghỉ / hồi sinh nạp lại tới mức này). Rương của Hob +1.</summary>
         public int maxPotions = 3;
         public void RefillPotions() => potions = Mathf.Max(potions, maxPotions);
@@ -192,9 +200,47 @@ namespace SoulRequiem.Gameplay
         public void StopLook() => lookUntil = 0f;
         /// <summary>07/11: cảnh diễn cho Ren loạng choạng (vd tiếp đất sau khi bị ném).</summary>
         public void PlayStagger() => anim?.Stagger();
+
+        /// <summary>
+        /// 18/11 (§327): tư thế trong cảnh cắt (StoryScenes lệnh `ren`). Chỉ đổi hoạt ảnh, không đụng máu / Health.
+        /// draw = rút kiếm · sheathe = tra kiếm · stagger = loạng choạng · fall = ngã gục (clip Death, nằm yên) · getup = đứng dậy (clip Revive/GetUp).
+        /// </summary>
+        public void CutscenePose(string pose)
+        {
+            if (anim == null) return;
+            switch ((pose ?? "").Trim().ToLowerInvariant())
+            {
+                case "draw": anim.DrawNow(); SoulRequiem.Core.Sfx.Play("sword_draw", transform.position); break; // 19/11 (§335): âm
+                case "sheathe": anim.SheatheNow(); SoulRequiem.Core.Sfx.Play("sword_sheathe", transform.position); break;
+                case "stagger": anim.Stagger(); break;
+                case "fall": case "down": anim.Die(); SoulRequiem.Core.Sfx.Play("body_fall", transform.position); break;
+                case "getup": case "up": anim.Revive(); break;
+                default: Debug.LogWarning($"[Player] tư thế cảnh cắt lạ '{pose}'"); break;
+            }
+        }
         /// <summary>Hướng đang quay mặt nói chuyện (zero = không).</summary>
         public Vector2 LookDir => Time.time < lookUntil ? lookDir : Vector2.zero;
         public void SetPotions(int n) => potions = Mathf.Max(0, n);
+
+        // ------------------------------------------------------------------ 16/11 (§281): sách The Rampart Forms (cờ book_rampart)
+        /// <summary>Đứng yên (không bấm hướng) `RampartDelay` giây -> nhận ít hơn 20% sát thương tới khi bước đi. Lúc thế đứng vào: thân loé xanh thép.</summary>
+        public const string RampartFlag = "book_rampart";
+        private const float RampartDelay = 0.5f, RampartMulValue = 0.8f;
+        private float stillTime;
+        private bool rampartOn;
+        public bool RampartActive => rampartOn;
+
+        private float RampartMul()
+        {
+            var dir = MapEncounterDirector.Instance;
+            bool learned = GameSession.Books.Contains(RampartFlag) || (dir != null && dir.Flags != null && dir.Flags.Has(RampartFlag));
+            if (!learned || Health == null || Health.IsDead) { stillTime = 0f; rampartOn = false; return 1f; }
+            if (GameInput.Move.sqrMagnitude > 0.01f) stillTime = 0f; else stillTime += Time.deltaTime;
+            bool on = stillTime >= RampartDelay;
+            if (on && !rampartOn) Health.TintPulse(new Color(0.62f, 0.78f, 1f, 1f), 0.15f);
+            rampartOn = on;
+            return on ? RampartMulValue : 1f;
+        }
 
         // ------------------------------------------------------------------ nhận phím
         private void Update()
@@ -203,6 +249,7 @@ namespace SoulRequiem.Gameplay
             // 10/11 (§217): nội tại đang bật -> lưỡi kiếm sáng hơn (Vigil "ngọn đèn chưa tắt" nhìn thấy được)
             bool lit = WeaponTraits.Active(this);
             if (lit != traitLit) { traitLit = lit; if (WeaponView != null) WeaponView.TraitGlow = lit ? 1.75f : 1f; }
+            if (Health != null) Health.DamageTakenMul = WeaponTraits.TakenMul(this) * RampartMul() * RelicBoons.TakenMul;   // 20/11 (§349): Bone Bulwark   // 16/11 (§254): Last Stand / Accord; §281: The Rampart Forms
             if (Health.IsDead) return;
             var move = GameInput.Move;
             if (move.sqrMagnitude > 0.01f) facing = move.normalized;
@@ -214,9 +261,21 @@ namespace SoulRequiem.Gameplay
             var mouse = Mouse.current;
             bool attack = GameInput.Pressed(GameAction.Attack) ||
                           (mouse != null && mouse.leftButton.wasPressedThisFrame && !MapMechanics.PanelOpen);   // chuột đang bấm bảng
+            // 17/11 (§306): bị tước kiếm theo map (Map 4: tới khi lấy lại katana ở phòng lính gác) -> không chém
+            if (attack && Status != null && Status.Disarmed) { attack = false; attackQueuedUntil = -1f; }   // 18/11 (§323): bỏ dòng "Your blade is gone" — áo tù tay không đã đủ nói
             // đệm phím: nhớ lần bấm inputBuffer giây, làm ngay khi được (Roll ưu tiên: lăn là để huỷ / né)
+            // 16/11 (§271): thanh kiếm có Iaijutsu — nhát đầu combo thành đòn GIỮ (giữ phím / chuột: đứng thế, thanh nộ đầy thì thả ra chém mạnh)
+            if (attack && WeaponTraits.IsIaijutsu(this) && melee.Ready && melee.ComboStep == 0 && !(Time.time <= rollQueuedUntil))
+            {
+                attack = false; attackQueuedUntil = -1f;
+                StartCoroutine(melee.IaiSlash(AttackHeld));
+            }
             if (attack) attackQueuedUntil = Time.time + inputBuffer;
             if (GameInput.Pressed(GameAction.Roll)) rollQueuedUntil = Time.time + inputBuffer;
+            // 18/11 (§320): mặc áo tù (bị tước kiếm, Map 4) -> không lăn (Q), chỉ đi bộ
+            if (Status != null && Status.Disarmed) rollQueuedUntil = -1f;
+            if (Status != null && Status.RollSealed && Time.time <= rollQueuedUntil)   // 20/11 (§355): lăn bị sọ ma khoá
+            { rollQueuedUntil = -1f; Status.SayRestraint("Your dash is sealed!"); }
             if (Time.time <= rollQueuedUntil && dodge.Ready)
             {
                 rollQueuedUntil = attackQueuedUntil = -1f;
@@ -276,7 +335,20 @@ namespace SoulRequiem.Gameplay
         public bool CounterReady { get; internal set; }
         /// <summary>Lúc trúng đòn gần nhất (nội tại Vigil).</summary>
         public float LastHurtTime { get; private set; } = -99f;
-        private void OnDamagedTrait(Health h, float amount) => LastHurtTime = Time.time;
+        private void OnDamagedTrait(Health h, float amount) { LastHurtTime = Time.time; WeaponTraits.OnHurt(this); }   // 16/11 (§257): + Penance
+        /// <summary>16/11 (§257): số nấc Penance đang tích.</summary>
+        public int PenanceStacks { get; internal set; }
+        /// <summary>16/11 (§254): lúc bắt đầu nhát chém gần nhất (Iaijutsu).</summary>
+        public float LastSwingTime { get; internal set; } = -99f;
+        /// <summary>Nhát chém đang ra là đòn rút kiếm (Iaijutsu).</summary>
+        public bool IaiCharged { get; internal set; }
+        /// <summary>16/11 (§271): đang đứng thế giữ Iaijutsu / thanh nộ 0..1 (IaiStance vẽ cạnh Ren).</summary>
+        public bool IaiHolding { get; internal set; }
+        /// <summary>16/11 (§273): độ mạnh đòn rút kiếm 0..1 (0 = vừa qua mốc, 1 = thanh đầy) — nhân với `bonus`.</summary>
+        public float IaiPower { get; internal set; }
+        public float IaiCharge { get; internal set; }
+        /// <summary>Accord: giảm sát thương nhận vào tới lúc này.</summary>
+        public float AccordUntil { get; internal set; } = -99f;
         private bool traitLit;
         /// <summary>09/11 (§201): đổi vũ khí (null = Katana mặc định). Combo đang dở bị huỷ.</summary>
         public void Equip(WeaponDefinition w)
@@ -292,6 +364,14 @@ namespace SoulRequiem.Gameplay
         public void PlayDash(Vector2 d) => anim.Dash(d);
         /// <summary>07/11: quay mặt Ren về hướng d (chiêu ngắm theo chuột).</summary>
         public void SetFacing(Vector2 d) { if (d.sqrMagnitude > 0.0001f) facing = d.normalized; }
+
+        /// <summary>16/11 (§271): phím chém (hoặc chuột trái) còn đang giữ.</summary>
+        private bool AttackHeld()
+        {
+            if (GameInput.Held(GameAction.Attack)) return true;
+            var m = Mouse.current;
+            return m != null && m.leftButton.isPressed && !MapMechanics.PanelOpen && !GameInput.Blocked && !GameInput.Reading;
+        }
         /// <summary>VFX dưới chân (tắt VFX thì vẽ vòng tạm).</summary>
         public void SpawnGroundVfx(string name, Vector2 c, float scale, Color fallback, float radius) => strikes.GroundVfx(name, c, scale, fallback, radius);
         /// <summary>Giật camera (nhân cameraKick và cài đặt rung màn hình).</summary>

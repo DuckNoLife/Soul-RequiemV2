@@ -42,11 +42,13 @@ namespace SoulRequiem.Gameplay
         }
 
         /// Tạo hiệu ứng tại vị trí (pivot của ảnh đặt đúng vào pos). scale = tỉ lệ so với 100 px / đơn vị.
+        /// 19/11 (§339): sfx = false -> hiệu ứng trang trí lặp liên tục (tia lửa điểm nghỉ...) KHÔNG kêu âm theo bảng VfxSfx.
         public static SpriteVfx Spawn(string name, Vector2 pos, float scale, int sortingLayerId, int sortingOrder,
-                                      bool flipX = false, float fps = 16f)
+                                      bool flipX = false, float fps = 16f, bool sfx = true)
         {
             var f = Load(name);
             if (f.Length == 0) return null;
+            if (sfx) SfxHooks.Vfx(name, pos);   // 17/11 (§294): âm
             var go = new GameObject("vfx_" + name);
             go.transform.position = new Vector3(pos.x, pos.y, 0f);
             go.transform.localScale = new Vector3(scale, scale, 1f);

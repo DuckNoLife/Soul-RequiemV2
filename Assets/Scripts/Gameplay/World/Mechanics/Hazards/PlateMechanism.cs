@@ -52,7 +52,7 @@ namespace SoulRequiem.Gameplay
             bool playerOn = inside && by != "enemy";
             pressed = playerOn || (by != "player" && enemyOn);
 
-            if (pressed && fireAt < 0f && Time.time >= readyAt) fireAt = Time.time + Float("delay", 0f);
+            if (pressed && fireAt < 0f && Time.time >= readyAt) { fireAt = Time.time + Float("delay", 0f); SoulRequiem.Core.Sfx.Play("trap_plate", Rect.center); }   // 17/11 (§294): âm
             if (fireAt >= 0f && Time.time >= fireAt)
             {
                 fireAt = -1f;

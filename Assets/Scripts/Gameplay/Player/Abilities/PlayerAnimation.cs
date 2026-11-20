@@ -90,6 +90,12 @@ namespace SoulRequiem.Gameplay
             anim.SetTrigger(AttackTriggers[Mathf.Clamp(step, 1, 3) - 1]);
         }
 
+        /// <summary>16/11 (§271): tốc độ clip chém (0 = dừng khung — thế giữ Iaijutsu).</summary>
+        public void SetAttackSpeed(float v) { if (HasAttack) anim.SetFloat(AtkSpeed, Mathf.Max(0f, v)); }
+
+        /// <summary>16/11 (§271): xoay hướng đòn chém đang giữ (không đổi khung).</summary>
+        public void SetAttackDir(Vector2 d) { if (!HasAttack) return; anim.SetFloat(AtkX, d.x); anim.SetFloat(AtkY, d.y); Engage(); }
+
         public void Dash(Vector2 facing)
         {
             if (!HasDash) return;
@@ -190,6 +196,16 @@ namespace SoulRequiem.Gameplay
             if (HasCastVeil) anim.ResetTrigger(CastVeilTrigger);
             RayEnd();
             anim.SetBool(Dead, true);
+        }
+
+        /// <summary>18/11 (§327): cảnh cắt — rút kiếm ra tay ngay (giữ như sau giao tranh <see cref="DrawnHold"/> giây).</summary>
+        public void DrawNow() => Engage();
+
+        /// <summary>18/11 (§327): cảnh cắt — tra kiếm vào bao ngay (Animator chạy clip Sheathe nếu đang cầm kiếm).</summary>
+        public void SheatheNow()
+        {
+            drawnUntil = 0f;
+            if (HasSheath) anim.SetBool(Sheathed, true);
         }
 
         public void Revive()

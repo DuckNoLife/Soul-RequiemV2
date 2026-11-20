@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="128" height="108" tilewidth="32" tileheight="32" infinite="0" nextlayerid="38" nextobjectid="1852">
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="128" height="108" tilewidth="32" tileheight="32" infinite="0" nextlayerid="39" nextobjectid="1868">
  <tileset firstgid="1" source="../tilesets/Sewers - Terrain.tsx"/>
  <tileset firstgid="4226" source="../tilesets/Sewers - Terrain2.tsx"/>
  <tileset firstgid="7086" source="../tilesets/Sewers-Tileset-wall-1.tsx"/>
@@ -63,6 +63,8 @@
  <tileset firstgid="14640" source="../tilesets/SR-animT-sr-extra2-sr-keyrack-empty.tsx"/>
  <tileset firstgid="14641" source="../tilesets/SR-relic-plinth.tsx"/>
  <tileset firstgid="14642" source="../tilesets/SR-relic-moonlit.tsx"/>
+ <tileset firstgid="14643" source="../tilesets/SR-stair-down-kroven.tsx"/>
+ <tileset firstgid="14644" source="../tilesets/SR-stair-grate-kroven.tsx"/>
  <layer id="1" name="channel bed" width="128" height="108">
   <properties>
    <property name="unity:SortingOrder" type="int" value="-22"/>
@@ -2583,6 +2585,8 @@
   <object id="1606" gid="14319" x="2323.2" y="3273.6" width="30" height="15"/>
   <object id="1607" gid="14298" x="2220.8" y="3360" width="18" height="9"/>
   <object id="1608" gid="14318" x="2176" y="3324.8" width="26" height="12"/>
+  <object id="1864" name="kroven_stair" gid="14643" x="540.8" y="256" width="64" height="64"/>
+  <object id="1865" name="kroven_grate" gid="14644" x="540.8" y="256" width="64" height="64"/>
  </objectgroup>
  <objectgroup id="36" name="wall props">
   <properties>
@@ -2655,7 +2659,7 @@
   <object id="493" gid="13128" x="2141.8" y="1747.2" width="30" height="84"/>
   <object id="494" gid="13128" x="2468.2" y="1747.2" width="30" height="84"/>
   <object id="495" gid="14174" x="1215.33" y="1952.13" width="64" height="64"/>
-  <object id="500" gid="13959" x="98" y="1949" width="64" height="48"/>
+  <object id="500" gid="13959" x="98.6667" y="1925" width="64" height="48"/>
   <object id="502" gid="14201" x="1148.8" y="1964" width="64" height="44"/>
   <object id="503" gid="14186" x="1107.2" y="1979.8" width="64" height="47"/>
   <object id="510" gid="14168" x="3026" y="2109" width="64" height="48"/>
@@ -2737,7 +2741,7 @@
   <object id="1229" gid="14277" x="774.3" y="828.8" width="13" height="14"/>
   <object id="1230" gid="14276" x="825.5" y="832" width="13" height="14"/>
   <object id="1231" gid="14246" x="808.7" y="780.8" width="21" height="24"/>
-  <object id="1232" gid="14294" x="235.2" y="1330.88" width="81" height="46"/>
+  <object id="1232" gid="14294" x="235.2" y="1332.88" width="81" height="46"/>
   <object id="1234" gid="14296" x="62.3" y="1184" width="29" height="73"/>
   <object id="1236" gid="14296" x="62.3" y="1254.4" width="29" height="73"/>
   <object id="1238" gid="14297" x="62.3" y="1395.2" width="29" height="59"/>
@@ -2880,7 +2884,6 @@
   <object id="1433" name="spec_chart_item" gid="14454" x="168.367" y="2015.6" width="35" height="44"/>
   <object id="1469" gid="14367" x="2459.2" y="561.6" width="10" height="26"/>
   <object id="1470" gid="14367" x="1262.4" y="1329.6" width="10" height="26"/>
-  <object id="1471" gid="14367" x="284.8" y="1307.2" width="10" height="26"/>
   <object id="1472" gid="14367" x="536" y="2076.8" width="10" height="26"/>
   <object id="1473" gid="14367" x="547.2" y="2067.2" width="10" height="26"/>
   <object id="1474" gid="14367" x="556.8" y="2080" width="10" height="26"/>
@@ -2983,28 +2986,28 @@
  </objectgroup>
  <objectgroup id="37" name="mechanics_art">
   <object id="1841" name="reliquary_relic" type="note" gid="14642" x="2216" y="3206.4" width="48" height="14">
-    <properties>
-     <property name="key_got" value="Moonlit Edge. The temper line still holds the lamp&apos;s light - and holds it for you, while you stay untouched."/>
-     <property name="mechanic" value="note"/>
-     <property name="pickup" type="bool" value="true"/>
-     <property name="range" type="float" value="1.2"/>
-     <property name="sets" value="moonlit_taken"/>
-     <property name="text" value="Set in the Reliquary in the ninth year of the Drowning, when the Choir still called itself a church of mercy. Folded under the vigil lamp - fifteen nights, fifteen brothers at the bellows and the wick.\n\nThe brothers who carried it down did not go back up. Malric's wardens found them in the dark, and found what the blade does to a thing made of Ether: what it cuts, it holds still.\n\nSo they drove it into the Sleeper's chest, and the Sleeper slept.\n\nIt has fallen out of the wound. The temper line still holds the lamp's light."/>
-     <property name="title" value="The Vigil"/>
-     <property name="unity:IsTrigger" type="bool" value="true"/>
-     <property name="verb" value="Take the blade"/>
-     <property name="weapon_id" value="katana_moonlit"/>
-     <property name="drop" type="bool" value="true"/>
-     <property name="show_delay" type="float" value="2.4"/>
-     <property name="show_hint" value="Something drops out of the Sleeper's chest - pale steel, glowing faintly."/>
-     <property name="show_when" value="vault_cleared"/>
-     <property name="shown_sets" value="vault_relic_shown"/>
-    </properties>
+   <properties>
+    <property name="drop" type="bool" value="true"/>
+    <property name="key_got" value="Moonlit Edge. The temper line still holds the lamp's light - and holds it for you, while you stay untouched."/>
+    <property name="mechanic" value="note"/>
+    <property name="pickup" type="bool" value="true"/>
+    <property name="range" type="float" value="1.2"/>
+    <property name="sets" value="moonlit_taken"/>
+    <property name="show_delay" type="float" value="2.4"/>
+    <property name="show_hint" value="Something drops out of the Sleeper's chest - pale steel, glowing faintly."/>
+    <property name="show_when" value="vault_cleared"/>
+    <property name="shown_sets" value="vault_relic_shown"/>
+    <property name="text" value="Set in the Reliquary in the first years after the Angel Bird, when the Children of Light were still what their name said. Folded under the vigil lamp - fifteen nights, fifteen brothers at the bellows and the wick.\n\nThe brothers who carried it down did not go back up. Malric's wardens found them in the dark, and found what the blade does to a thing made of Ether: what it cuts, it holds still.\n\nSo they drove it into the Sleeper's chest, and the Sleeper slept.\n\nIt has fallen out of the wound. The temper line still holds the lamp's light."/>
+    <property name="title" value="The Vigil"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="verb" value="Take the blade"/>
+    <property name="weapon_id" value="katana_moonlit"/>
+   </properties>
   </object>
   <object id="1562" name="cistern_note" type="note" gid="14631" x="3878" y="1624" width="12" height="16">
    <properties>
     <property name="glyphs" value=""/>
-    <property name="key_desc" value="While the converter basin brims, the Eye cannot be hurt. Turn the flow at the Pump Control (south of the Sluice Hall) to starve it - then climb out through the outflow above the pit. Needs: the Pump Room key (Culture Hall), the vat-hall key (Boiler Room), Malric's crank (laboratory)."/>
+    <property name="key_desc" value="While the converter basin brims, the Eye cannot be hurt. Turn the flow at the Pump Control (south of the Sluice Hall) to starve it - then climb out through the outflow above the pit. Needs: the Pump Control key (Vat Hall), the vat-hall key (Boiler Room), Malric's crank (laboratory)."/>
     <property name="key_icon" value="item_note"/>
     <property name="key_id" value="cistern_note"/>
     <property name="key_name" value="Sluice-keeper's Page"/>
@@ -3013,7 +3016,7 @@
     <property name="pickup" type="bool" value="true"/>
     <property name="sets" value="cistern_note_read"/>
     <property name="sort_at" value="121.38,51.46"/>
-    <property name="text" value="Day thirty-one since the Eye woke.\n\nThe outflow above the pit is the only way up to the surface - Brakk's lads saw daylight through it. But the Eye hangs over that pit, and while Malric's converter keeps its basin brimming, its hide is hard as glass. Spears just skid off.\n\nThere is one way. The console at the PUMP CONTROL, south of the Sluice Hall, can send the flow down the drain instead of into the basin. Starve it. The shell cracks, and the thing can bleed.\n\nThe pump room is locked. The overseer's key went down that toad's gullet in the vat hall, and Brakk keeps the vat-hall key in the boiler room. Malric took the console's crank back to his laboratory, west.\n\nIf you are reading this, I did not make it. Turn the pumps. Get out."/>
+    <property name="text" value="Day thirty-one since the Eye woke. A month before it did, a stranger with a red lantern came down the old ring shaft and walked straight past the crew, singing.\n\nThe outflow above the pit is the only way up to the surface - Brakk's lads saw daylight through it. But the Eye hangs over that pit, and while Malric's converter keeps its basin brimming, its hide is hard as glass. Spears just skid off.\n\nThere is one way. The console at the PUMP CONTROL, south of the Sluice Hall, can send the flow down the drain instead of into the basin. Starve it. The shell cracks, and the thing can bleed.\n\nThe pump control room is locked. The overseer's key went down that toad's gullet in the vat hall, and Brakk keeps the vat-hall key in the boiler room. Malric took the console's crank back to his laboratory, west.\n\nIf you are reading this, I did not make it. Turn the pumps. Get out."/>
     <property name="title" value="A Sluice-keeper's Last Page"/>
    </properties>
   </object>
@@ -3253,6 +3256,22 @@
     <property name="verb" value="Take"/>
    </properties>
   </object>
+  <object id="1863" name="kroven_notes" type="note" gid="14631" x="621.2" y="721.6" width="12" height="16">
+   <properties>
+    <property name="key_desc" value="Malric's hand: a barred stair in the Records Vault, three crests, and the order they stood in."/>
+    <property name="key_icon" value="item_note"/>
+    <property name="key_id" value="kroven_notes"/>
+    <property name="key_kind" value="Document"/>
+    <property name="key_name" value="Malric's Notes on the Old Cistern"/>
+    <property name="key_opens" value="The Crown Lock - Records Vault"/>
+    <property name="mechanic" value="note"/>
+    <property name="pickup" type="bool" value="true"/>
+    <property name="range" type="float" value="1.2"/>
+    <property name="text" value="In the corner of the Records Vault, under the cabinets we dragged aside: a stair cut down into the stone, barred with iron, older than anything of ours. Older than Vael. Kroven work - the northmen who were here before the city.\n\nIts lock is a crown with three wheels of crests. Above our own cistern stair the same crests are cut in the gate-stone, in the order the old houses stood at their king's gate: the Anvil, the Tower, the Ram.\n\nI have not turned the wheels. Whatever Kroven locked away down there, it locked away from a king. I have enough kings of my own.\n\n- M."/>
+    <property name="title" value="Notes on the Old Cistern"/>
+    <property name="verb" value="Read"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="23" name="zones" opacity="0.35">
   <properties>
@@ -3364,7 +3383,7 @@
     <property name="stage" value="culture"/>
     <property name="story" value="3.2"/>
     <property name="story_done" value="cult_cleared,pump_key,key_pump"/>
-    <property name="title" value="Culture Hall"/>
+    <property name="title" value="The Vat Hall"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="zone_id" value="cult"/>
    </properties>
@@ -3472,7 +3491,7 @@
   <object id="640" name="vault" type="zone" x="1856" y="2784" width="768" height="608">
    <properties>
     <property name="ambient" value="0.48"/>
-    <property name="ambient_color" value="#a48ccc"/>
+    <property name="ambient_color" value="#c8949c"/>
     <property name="ambient_fight" value="0.36"/>
     <property name="fog" value="secret"/>
     <property name="hint_text" value=""/>
@@ -3916,6 +3935,30 @@
    <point/>
   </object>
  </objectgroup>
+ <objectgroup id="38" name="npcs" opacity="0.5">
+  <properties>
+   <property name="unity:IsTrigger" type="bool" value="true"/>
+  </properties>
+  <object id="1852" name="pell" type="villager" x="320" y="1184" width="32" height="32">
+   <properties>
+    <property name="face" value="S"/>
+    <property name="hide_when" value="r8_cleared"/>
+    <property name="kind" value="pell"/>
+    <property name="lines" value="He built that seal with the last of his life. Please - don't be the one who undoes it. | Twenty years he worked down here. I have been sweeping his floor for four hundred. | The Eye cannot call you, can it? You never drank. I knew the moment you walked in - you smell of nothing at all. | If you find his last page, bring it to me. He hid it from the Hierophant. He hid it from me, too."/>
+    <property name="lines_1" value="I have read it nine times now. His hand shakes on the last line. | Four hundred years, and he finally said it. | Go on. You still have to turn that crank. I know."/>
+    <property name="lines_1_when" value="mercy_2"/>
+    <property name="lines_2" value="I heard the basin empty from here. Forty barrels a week for four hundred years - and it took you one turn. | The Eye is awake now, and it has your scent. Go, before it learns anything else about you. | If it takes you... I will sweep that floor too."/>
+    <property name="lines_2_when" value="ichor_diverted"/>
+    <property name="lines_3" value="You kept his page and broke his seal in the same night. He would have laughed at that. | The Eye is awake. Go. And - thank you, swordsman."/>
+    <property name="lines_3_when" value="ichor_diverted,mercy_2"/>
+    <property name="scale" type="float" value="0.52"/>
+    <property name="show_when" value="r6_cleared"/>
+    <property name="speaker" value="Pell"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="walk" type="bool" value="false"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="25" name="triggers" opacity="0.35">
   <properties>
    <property name="unity:IsTrigger" type="bool" value="true"/>
@@ -4001,19 +4044,21 @@
   </object>
   <object id="1513" name="vault_fight" type="boss" x="1856" y="2784" width="768" height="608">
    <properties>
-    <property name="card_color" value="#463468"/>
+    <property name="card_color" value="#5a1e28"/>
     <property name="card_sub" value="The Sleeper in the Vault"/>
     <property name="entrance" value="wake"/>
     <property name="portrait" value="boss_specimen"/>
-    <property name="relic_color" value="#b48cff"/>
+    <property name="relic_beat" type="bool" value="false"/>
+    <property name="relic_color" value="#8fd0ff"/>
     <property name="relic_delay" value="1.8"/>
     <property name="relic_flag" value="relic_vessel"/>
-    <property name="relic_hint" value="The Vessel's hunger is yours: Grasping Roots, Hand of the Vessel and Requiem Wail - three mantras bound as one."/>
+    <property name="relic_hint" value="The spine sinks into you. In you, its light stays blue: Grasping Roots, Hand of the Vessel and Requiem Wail - three mantras bound as one."/>
     <property name="relic_say" value="It wanted to hold everything down... Now it holds what I tell it to."/>
     <property name="relic_skill" value="vessel_roots"/>
-    <property name="relic_text" value="Something tears loose from the Sleeper's chest - a knot of violet roots, still beating."/>
+    <property name="relic_sprite" value="VFX/specimen/relic_spine"/>
+    <property name="relic_text" value="The red roots tear loose from the Sleeper and wither. What they held is a spine of white bone - and as the red drains out of it, it begins to glow blue."/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
-    <property name="wake_color" value="#b48cff"/>
+    <property name="wake_color" value="#e05a64"/>
     <property name="zone_id" value="vault"/>
    </properties>
   </object>
@@ -4024,12 +4069,15 @@
     <property name="card_sub" value="Malric's Great Experiment"/>
     <property name="entrance" value="wake"/>
     <property name="portrait" value="boss_eye"/>
+    <property name="relic_beat" type="bool" value="false"/>
     <property name="relic_color" value="#8fd0ff"/>
     <property name="relic_flag" value="eye_relic_taken"/>
     <property name="relic_hint" value="The Eye's core sinks into you. Pure blue Ether floods your veins - three mantras, bound as one."/>
     <property name="relic_say" value="It's inside me... I can feel it looking out through my eyes."/>
+    <property name="relic_size" type="float" value="0.45"/>
     <property name="relic_skill" value="eye_orbs"/>
-    <property name="relic_text" value="Something rises from the husk of the Eye - a core of pure, blue light."/>
+    <property name="relic_sprite" value="VFX/relics/relic_eye_left"/>
+    <property name="relic_text" value="Something rises from the husk of the Eye - a core of pure, blue light. It searches you for something to hold, finds nothing - and holds on."/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="wake_color" value="#9be86a"/>
     <property name="zone_id" value="r8"/>
@@ -4108,13 +4156,13 @@
    <properties>
     <property name="flag" value="pump_key"/>
     <property name="hide" value="pump_key_item"/>
-    <property name="hint_text" value="Coughed up from the beast's gullet: an iron key tagged PUMP ROOM - OVERSEER."/>
+    <property name="hint_text" value="Coughed up from the beast's gullet: an iron key tagged PUMP CONTROL - OVERSEER."/>
     <property name="item" value="key"/>
-    <property name="key_desc" value="An iron key tagged PUMP ROOM - OVERSEER, coughed up by Gorgemaw."/>
+    <property name="key_desc" value="An iron key tagged PUMP CONTROL - OVERSEER, coughed up by Gorgemaw."/>
     <property name="key_icon" value="key_pump"/>
     <property name="key_id" value="pump"/>
-    <property name="key_name" value="Pump Room Key"/>
-    <property name="key_opens" value="The pump-room door (Sluice Hall, south) and the Culture Hall shortcut"/>
+    <property name="key_name" value="Pump Control Key"/>
+    <property name="key_opens" value="The Pump Control door (Sluice Hall, south) and the Vat Hall shortcut"/>
     <property name="locked_text" value=""/>
     <property name="requires" value="cult_cleared"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
@@ -4131,7 +4179,7 @@
     <property name="key_icon" value="key_vat"/>
     <property name="key_id" value="vat"/>
     <property name="key_name" value="Vat Hall Key"/>
-    <property name="key_opens" value="The sealed door to the Culture Hall (Specimen Cells, south)"/>
+    <property name="key_opens" value="The sealed door to the Vat Hall (Specimen Cells, south)"/>
     <property name="locked_text" value=""/>
     <property name="requires" value="boil_cleared"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
@@ -4151,7 +4199,7 @@
    <properties>
     <property name="marker" type="bool" value="true"/>
     <property name="stage" value="culture"/>
-    <property name="stage_name" value="The Culture Hall"/>
+    <property name="stage_name" value="The Vat Hall"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="zone_id" value="spec"/>
    </properties>
@@ -4190,7 +4238,7 @@
    <properties>
     <property name="flag" value="scroll_sever_draw_taken"/>
     <property name="hide" value="scroll_sever_draw_art"/>
-    <property name="hint_text" value="Tucked inside a mouldering ledger: a bladewright's secret scroll - SEVERING DRAW. Dash through your foes and cut them all in one stroke. Rest to attune it."/>
+    <property name="hint_text" value="Tucked inside a mouldering ledger: a bladewright's secret scroll - SEVERING DRAW. Dash through your foes and cut them all in one stroke. Press {mantras} to attune it."/>
     <property name="item" value="skill"/>
     <property name="skill_id" value="sever_draw"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
@@ -4201,11 +4249,90 @@
    <properties>
     <property name="flag" value="scroll_ichor_flask_taken"/>
     <property name="hide" value="scroll_ichor_flask_art"/>
-    <property name="hint_text" value="Pressed between the pages of a feeder's logbook: a recipe sealed in green wax - ICHOR FLASK. Throw raw Ichor to corrode whatever stands in it. Rest to attune it."/>
+    <property name="hint_text" value="Pressed between the pages of a feeder's logbook: a recipe sealed in green wax - BLIGHT FLASK. Throw raw Ether to corrode whatever stands in it. Press {mantras} to attune it."/>
     <property name="item" value="skill"/>
     <property name="skill_id" value="ichor_flask"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="zone_id" value="s2"/>
+   </properties>
+  </object>
+  <object id="1853" name="pell_meet" type="story" x="320" y="1184" width="32" height="32">
+   <properties>
+    <property name="radius" value="0.95"/>
+    <property name="script" value="say Pell: Don't strike! I'm not one of the mad ones. Not yet.\nsay Pell: My name is Pell. I kept Malric's books, long ago - his youngest student, before the green made me what I am.|He was a man, you know. A scholar. He wanted every serf in Vael to stand level with the deathless lords.|He did terrible things for it. So did I. I held the knife when we fed the Sleeper.|In the end he chained the Eye with his own dying breath. The pumps, the pipes, the brimming basin - all of it is his seal.|It calls to everything with the green in it. Every night it asks me to open the basin. Every night I sweep a little louder.|You want the crank. It is the only way out, and you will take it. Just... know what you are turning.\nsay Ren: I'm sorry. I have to get out.\nsay Pell: He said someone would. He hoped they would at least be sorry."/>
+    <property name="trigger" value="enter"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="when" value="r6_cleared"/>
+   </properties>
+  </object>
+  <object id="1854" name="pell_page" type="story" x="320" y="1184" width="32" height="32">
+   <properties>
+    <property name="script" value="set mercy_2\nsay Pell: His hand. I would know it anywhere.|&quot;If this is read, the seal is broken, and I was right to fear it. Whoever carries the Eye now: it cannot take you. Do not let it teach you to want to be taken.&quot;|&quot;And Pell - forgive me. You were the only one who stayed.&quot;\nsay Pell: ...Thank you. Now go. Get out before it wakes."/>
+    <property name="trigger" value="interact"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="unless" value="mercy_2"/>
+    <property name="verb" value="Give Malric's last page"/>
+    <property name="when" value="malric_page"/>
+   </properties>
+  </object>
+  <object id="1855" name="malric_page" type="pickup" x="384" y="224" width="32" height="32">
+   <properties>
+    <property name="flag" value="malric_page"/>
+    <property name="hint_text" value="Hidden under the lining of the vault: a last page in Malric's hand. The old clerk in the laboratory should have this."/>
+    <property name="item" value="key"/>
+    <property name="key_desc" value="A single page in Malric's hand, folded small and hidden under the vault's lining. It is addressed to no one - and then, at the bottom, to Pell."/>
+    <property name="key_icon" value="item_note"/>
+    <property name="key_id" value="malric_last_page"/>
+    <property name="key_name" value="Malric's Last Page"/>
+    <property name="key_opens" value="Pell, in the laboratory"/>
+    <property name="marker" type="bool" value="true"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="zone_id" value="rec"/>
+   </properties>
+  </object>
+  <object id="1857" name="pump_seal" type="story" x="1856" y="2176" width="32" height="32">
+   <properties>
+    <property name="radius" value="0.95"/>
+    <property name="script" value="face 58,67\nsay Scratched into the console:If you are reading this, you want out. So did I.|Do not turn it. I am asking you as a dead man.|- M.\nbubble ren: ...I'm sorry, Malric. There is no other way up."/>
+    <property name="trigger" value="enter"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="unless" value="ichor_diverted"/>
+    <property name="when" value="lever_handle"/>
+   </properties>
+  </object>
+  <object id="1858" name="pell_after_pumps" type="story" x="304" y="1168" width="32" height="32">
+   <properties>
+    <property name="radius" type="float" value="1.3"/>
+    <property name="script" value="say Pell: So. It is done.|I felt it through the floor. The basin is draining, and the Eye is waking angry.|Don't look at me like that. He knew someone would come. He only hoped it would be someone who could walk away from what is in that pit.\nsay Pell: Can you? We will see."/>
+    <property name="trigger" value="enter"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="unless" value="r8_cleared"/>
+    <property name="when" value="ichor_diverted"/>
+   </properties>
+  </object>
+  <object id="1859" name="pell_after_sleeper" type="story" x="304" y="1168" width="32" height="32">
+   <properties>
+    <property name="radius" type="float" value="1.3"/>
+    <property name="script" value="say Pell: You went down to the Sleeper - and came back.|Malric drove a holy blade into it to buy a hundred years at a time. You pulled out what it was built on. It will not stand up again.|The Hierophant will come for its body all the same. He does not like to lose a single bone."/>
+    <property name="trigger" value="enter"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="unless" value="r8_cleared"/>
+    <property name="when" value="vault_cleared"/>
+   </properties>
+  </object>
+  <object id="1862" name="to_kroven" type="exit" x="547.2" y="230.4" width="51.2" height="38.4">
+   <properties>
+    <property name="arrive_at" value="6.5,33.6"/>
+    <property name="arrive_subtitle" value="Beneath the Records Vault"/>
+    <property name="arrive_title" value="The Kroven Deep"/>
+    <property name="depart_text" value="You go down the worn steps, into air that has not moved in a very long time."/>
+    <property name="interact" type="bool" value="true"/>
+    <property name="quake" type="bool" value="false"/>
+    <property name="range" type="float" value="0.8"/>
+    <property name="requires" value="crown_lock_open"/>
+    <property name="target" value="map2b_kroven_deep"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="verb" value="Climb down"/>
    </properties>
   </object>
  </objectgroup>
@@ -4232,7 +4359,7 @@
   <object id="720" name="ctrl_door" type="gate" x="1625.5" y="2134" width="74" height="32">
    <properties>
     <property name="collider_kind" value="gate"/>
-    <property name="locked_say" value="Locked. 'PUMP ROOM - KEY HELD BY THE OVERSEER.' I need that key."/>
+    <property name="locked_say" value="Locked. 'PUMP CONTROL - KEY HELD BY THE OVERSEER.' I need that key."/>
     <property name="requires_key" value="pump"/>
     <property name="starts_closed" type="bool" value="true"/>
     <property name="zone_id" value="r4"/>
@@ -4312,7 +4439,7 @@
   <object id="763" name="cult_short" type="gate" x="1152" y="2432" width="32" height="160">
    <properties>
     <property name="collider_kind" value="gate"/>
-    <property name="locked_say" value="Locked from this side. Same make of lock as the pump room."/>
+    <property name="locked_say" value="Locked from this side. Same make of lock as the pump control room."/>
     <property name="requires_key" value="pump"/>
     <property name="starts_closed" type="bool" value="true"/>
     <property name="zone_id" value="cult"/>
@@ -4878,6 +5005,11 @@
     <property name="collider_kind" value="prop"/>
    </properties>
   </object>
+  <object id="1866" name="kroven_stair_hole" type="obstacle" x="545.6" y="193.6" width="54.4" height="46.4">
+   <properties>
+    <property name="collider_kind" value="prop"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="28" name="water colliders" opacity="0.35">
   <properties>
@@ -5416,22 +5548,22 @@
   </object>
  </objectgroup>
  <objectgroup id="32" name="mechanics" opacity="0.35">
-  <object id="1842" name="reliquary_lamp" type="light" x="1664" y="2784" width="32" height="32">
-    <properties>
-     <property name="anim" value="pulse"/>
-     <property name="anim_amount" type="float" value="0.1"/>
-     <property name="anim_speed" type="float" value="0.25"/>
-     <property name="color" value="#9fd0ff"/>
-     <property name="intensity" type="float" value="0.85"/>
-     <property name="light" value="torch"/>
-     <property name="mechanic" value="light"/>
-     <property name="radius" type="float" value="3.4"/>
-     <property name="unity:IsTrigger" type="bool" value="true"/>
-    </properties>
-  </object>
   <properties>
    <property name="unity:IsTrigger" type="bool" value="true"/>
   </properties>
+  <object id="1842" name="reliquary_lamp" type="light" x="1664" y="2784" width="32" height="32">
+   <properties>
+    <property name="anim" value="pulse"/>
+    <property name="anim_amount" type="float" value="0.1"/>
+    <property name="anim_speed" type="float" value="0.25"/>
+    <property name="color" value="#9fd0ff"/>
+    <property name="intensity" type="float" value="0.85"/>
+    <property name="light" value="torch"/>
+    <property name="mechanic" value="light"/>
+    <property name="radius" type="float" value="3.4"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
   <object id="975" name="r2_spout_w" type="spout" x="1530" y="506" width="45" height="58">
    <properties>
     <property name="damage" type="int" value="14"/>
@@ -5496,7 +5628,7 @@
     <property name="mechanic" value="note"/>
     <property name="seal" value="2:7"/>
     <property name="show_when" value="office_cleared"/>
-    <property name="text" value="Forty barrels to the Eye this week. The crew won't go near the cistern anymore.\n\nLost the pump-room key in the culture vats - the big toad swallowed it before I could fish it out. Sealed the vat hall. Brakk keeps the hall key down in the boiler room, where the brute won't follow.\n\nMalric's clerk scratched a mark on the cover: wheel II of the records vault lock."/>
+    <property name="text" value="Forty barrels drawn for the Gift this week. The crew won't go near the cistern anymore.\n\nLost the pump-room key in the culture vats - the big toad swallowed it before I could fish it out. Sealed the vat hall. Brakk keeps the hall key down in the boiler room, where the brute won't follow.\n\nThe old clerk - the goblin who was here before any of us - scratched a mark on the cover: wheel II of the records vault lock."/>
     <property name="title" value="Overseer's Ledger"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
    </properties>
@@ -5602,7 +5734,7 @@
    <properties>
     <property name="glyphs" value=""/>
     <property name="mechanic" value="note"/>
-    <property name="text" value="Three centuries ago, Hierophant Absalom of the Choir brought us a relic from the reliquary above: the eye of the Ascended, kept whole since the Requiem.\n\nThe Choir wanted a new body for their dead god. We grew one in the vats - SPECIMEN ZERO. It breathed. It never woke. A vessel with no one inside.\n\nWe set the Eye in it for a mind. The Eye woke; the body did not. So we cut the Eye free and fed it Ether in the cistern - and it learned to sing to my goblins. Not one of the Choir's Named knights could stand before it. It unmakes any soul that bears a Name.\n\nThe Choir sealed the body in this vault and left. The key stays here. If the Eye is ever lost, the body must never learn of it.   - M."/>
+    <property name="text" value="Hierophant Absalom came down to us with a body: a spine of white bone, and around it red Ether grown into the shape of a man. No eyes - his men set dead eyes in the vault walls to watch for it. No heart. The thing his people call SPECIMEN ZERO. It breathes. It has never once been anyone.\n\nHe wanted my family's relic for it - the left eye, kept in Luke's chest since the year they killed Him. I gave the Eye a body of its own instead.\n\nIt sings to anyone who has drunk of Him. Green or red, it makes no difference: not one of the Hierophant's knights could stand before it.\n\nThe Sleeper is sealed in this vault. It wakes every hundred years. If the Eye is ever lost, the Sleeper must never learn of it.   - M."/>
     <property name="title" value="SEALED - The Vessel"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
    </properties>
@@ -5613,8 +5745,8 @@
     <property name="mechanic" value="note"/>
     <property name="seal" value="1:3"/>
     <property name="show_when" value="r6_cleared"/>
-    <property name="text" value="The Eye drinks and grows. When it is ripe, we drink IT - and goblin-kind stands beside the gods.\n\nI keep the crank myself. No fool will starve my Eye.\n\nThe records vault lock has three wheels, each carved with old Vael marks. Wheel I must show the mark below. The clerk keeps wheel II in the overseer's ledger; wheel III is on the specimen chart."/>
-    <property name="title" value="Journal of Malric, Arch-Alchemist"/>
+    <property name="text" value="The Eye drinks and grows. When it is ripe, every serf in Vael drinks of IT - and stands level with the deathless lords.\n\nI keep the crank myself. No fool will starve my Eye.\n\nThe records vault lock has three wheels, each carved with old Vael marks. Wheel I must show the mark below. The clerk keeps wheel II in the overseer's ledger; wheel III is on the specimen chart."/>
+    <property name="title" value="Journal of Malric"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
    </properties>
   </object>
@@ -6044,7 +6176,7 @@
     <property name="unity:IsTrigger" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="1009" name="torch_36" type="light" x="3274" y="2083.2" width="32" height="32">
+  <object id="1009" name="torch_36" type="light" x="3274.67" y="2073.87" width="32" height="32">
    <properties>
     <property name="anim" value="flicker"/>
     <property name="anim_amount" value="0.14"/>
@@ -6213,7 +6345,7 @@
     <property name="anim" value="pulse"/>
     <property name="anim_amount" value="0.25"/>
     <property name="anim_speed" value="0.6"/>
-    <property name="color" value="#b48cff"/>
+    <property name="color" value="#e05a64"/>
     <property name="light" value="torch"/>
     <property name="mechanic" value="light"/>
     <property name="off_when" value="vault_key"/>
@@ -6331,7 +6463,7 @@
     <property name="unity:IsTrigger" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="1064" name="torch_91" type="light" x="114" y="1944.2" width="32" height="32">
+  <object id="1064" name="torch_91" type="light" x="116" y="1911.53" width="32" height="32">
    <properties>
     <property name="anim" value="flicker"/>
     <property name="anim_amount" value="0.14"/>
@@ -6406,7 +6538,7 @@
     <property name="anim" value="pulse"/>
     <property name="anim_amount" value="0.18"/>
     <property name="anim_speed" value="0.25"/>
-    <property name="color" value="#b48cff"/>
+    <property name="color" value="#e05a64"/>
     <property name="intensity" value="0.9"/>
     <property name="light" value="torch"/>
     <property name="mechanic" value="light"/>
@@ -6419,7 +6551,7 @@
     <property name="anim" value="pulse"/>
     <property name="anim_amount" value="0.18"/>
     <property name="anim_speed" value="0.25"/>
-    <property name="color" value="#b48cff"/>
+    <property name="color" value="#e05a64"/>
     <property name="intensity" value="0.9"/>
     <property name="light" value="torch"/>
     <property name="mechanic" value="light"/>
@@ -6432,7 +6564,7 @@
     <property name="anim" value="pulse"/>
     <property name="anim_amount" value="0.15"/>
     <property name="anim_speed" value="0.2"/>
-    <property name="color" value="#b48cff"/>
+    <property name="color" value="#e05a64"/>
     <property name="intensity" value="0.9"/>
     <property name="light" value="torch"/>
     <property name="mechanic" value="light"/>
@@ -6565,7 +6697,7 @@
     <property name="anim" value="pulse"/>
     <property name="anim_amount" value="0.2"/>
     <property name="anim_speed" value="0.5"/>
-    <property name="color" value="#b48cff"/>
+    <property name="color" value="#e05a64"/>
     <property name="intensity" value="0.8"/>
     <property name="light" value="torch"/>
     <property name="mechanic" value="light"/>
@@ -6672,7 +6804,7 @@
     <property name="anim" value="pulse"/>
     <property name="anim_amount" value="0.2"/>
     <property name="anim_speed" value="0.4"/>
-    <property name="color" value="#b48cff"/>
+    <property name="color" value="#e05a64"/>
     <property name="light" value="torch"/>
     <property name="mechanic" value="light"/>
     <property name="radius" value="3"/>
@@ -6822,20 +6954,6 @@
    </properties>
   </object>
   <object id="1444" name="candle_770_170" type="light" x="2448.32" y="526.4" width="32" height="32">
-   <properties>
-    <property name="anim" value="flicker"/>
-    <property name="anim_amount" value="0.2"/>
-    <property name="anim_speed" value="9"/>
-    <property name="color" value="#ffc070"/>
-    <property name="inner" value="0.12"/>
-    <property name="intensity" value="0.85"/>
-    <property name="light" value="torch"/>
-    <property name="mechanic" value="light"/>
-    <property name="radius" value="2.25"/>
-    <property name="unity:IsTrigger" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1445" name="candle_91_402" type="light" x="273.92" y="1272" width="32" height="32">
    <properties>
     <property name="anim" value="flicker"/>
     <property name="anim_amount" value="0.2"/>
@@ -7066,7 +7184,7 @@
     <property name="anim" value="pulse"/>
     <property name="anim_amount" value="0.25"/>
     <property name="anim_speed" value="0.3"/>
-    <property name="color" value="#b48cff"/>
+    <property name="color" value="#e05a64"/>
     <property name="intensity" value="0.6"/>
     <property name="light" value="torch"/>
     <property name="mechanic" value="light"/>
@@ -7079,7 +7197,7 @@
     <property name="anim" value="pulse"/>
     <property name="anim_amount" value="0.25"/>
     <property name="anim_speed" value="0.3"/>
-    <property name="color" value="#b48cff"/>
+    <property name="color" value="#e05a64"/>
     <property name="intensity" value="0.6"/>
     <property name="light" value="torch"/>
     <property name="mechanic" value="light"/>
@@ -7092,7 +7210,7 @@
     <property name="anim" value="pulse"/>
     <property name="anim_amount" value="0.25"/>
     <property name="anim_speed" value="0.3"/>
-    <property name="color" value="#b48cff"/>
+    <property name="color" value="#e05a64"/>
     <property name="intensity" value="0.6"/>
     <property name="light" value="torch"/>
     <property name="mechanic" value="light"/>
@@ -7105,7 +7223,7 @@
     <property name="anim" value="pulse"/>
     <property name="anim_amount" value="0.25"/>
     <property name="anim_speed" value="0.3"/>
-    <property name="color" value="#b48cff"/>
+    <property name="color" value="#e05a64"/>
     <property name="intensity" value="0.6"/>
     <property name="light" value="torch"/>
     <property name="mechanic" value="light"/>
@@ -7127,8 +7245,8 @@
     <property name="glyphs" value=""/>
     <property name="mechanic" value="note"/>
     <property name="sets" value="report_read"/>
-    <property name="text" value="Specimen G-7 'Gorgemaw' broke its tether at the evening feeding. Two handlers lost - and the overseer's pump-room key with them, down the brute's gullet.\n\nThe vat hall is SEALED by order of the overseer. The only key to the hall door went to Brakk, chief of the boiler crew: the boiler room is the one place the brute will not follow.\n\nBrakk has not reported back since the Ram broke loose down there.\n\n   - Overseer Grisk"/>
-    <property name="title" value="Incident Report - Culture Hall"/>
+    <property name="text" value="CROWN ETHER-WORKS - by order of House Vey.\n\nSpecimen G-7 'Gorgemaw' broke its tether at the evening feeding. Two handlers lost - and the overseer's pump-room key with them, down the brute's gullet.\n\nThe vat hall is SEALED by order of the overseer. The only key to the hall door went to Brakk, chief of the boiler crew: the boiler room is the one place the brute will not follow.\n\nBrakk has not reported back since the Ram broke loose down there.\n\n   - Overseer Grisk\n\nP.S. The courier from the capital asked after the Eye again. Not the Ether - the Eye, and whether it is still whole. I told him it sleeps. He said the King would like it to go on sleeping, unharmed, until it is sent for."/>
+    <property name="title" value="Incident Report - Vat Hall"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
    </properties>
   </object>
@@ -7286,7 +7404,7 @@
     <property name="anim" value="pulse"/>
     <property name="anim_amount" value="0.2"/>
     <property name="anim_speed" value="0.25"/>
-    <property name="color" value="#8a5cff"/>
+    <property name="color" value="#c0303c"/>
     <property name="intensity" value="0.6"/>
     <property name="light" value="torch"/>
     <property name="mechanic" value="light"/>
@@ -7299,7 +7417,7 @@
     <property name="anim" value="pulse"/>
     <property name="anim_amount" value="0.2"/>
     <property name="anim_speed" value="0.25"/>
-    <property name="color" value="#8a5cff"/>
+    <property name="color" value="#c0303c"/>
     <property name="intensity" value="0.6"/>
     <property name="light" value="torch"/>
     <property name="mechanic" value="light"/>
@@ -7562,7 +7680,7 @@
     <property name="anim" value="pulse"/>
     <property name="anim_amount" value="0.25"/>
     <property name="anim_speed" value="0.45"/>
-    <property name="color" value="#8ff0ff"/>
+    <property name="color" value="#c48cff"/>
     <property name="intensity" value="0.75"/>
     <property name="light" value="torch"/>
     <property name="lit_when" value="vault_relic_shown"/>
@@ -7570,6 +7688,27 @@
     <property name="off_when" value="moonlit_taken"/>
     <property name="radius" value="1.6"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1861" name="crown_lock" type="cipher" x="547.2" y="230.4" width="51.2" height="38.4">
+   <properties>
+    <property name="answer" value="0,1,2"/>
+    <property name="glyph_res" value="UI/Kroven/crest_"/>
+    <property name="hint" value="A stair cut down into the floor, older than the Undercity, barred by an iron grate. Its lock is ringed by three wheels of bronze crests around a small iron crown. Kroven work. Nothing here says which crests, or in what order."/>
+    <property name="mechanic" value="cipher"/>
+    <property name="perm" value="3,4,0,2,1"/>
+    <property name="sets" value="crown_lock_open"/>
+    <property name="text" value="The three crests sink home. The grate shudders and slides back into the stone."/>
+    <property name="title" value="The Crown Lock"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1867" name="kroven_grate_open" type="toggle" x="540.8" y="192" width="64" height="64">
+   <properties>
+    <property name="hide_objects" value="kroven_grate"/>
+    <property name="mechanic" value="toggle"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="when" value="crown_lock_open"/>
    </properties>
   </object>
  </objectgroup>

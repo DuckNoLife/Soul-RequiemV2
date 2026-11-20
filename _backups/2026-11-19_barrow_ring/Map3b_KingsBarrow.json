@@ -1,0 +1,86 @@
+{
+ "ppt": 4,
+ "hidden": [],
+ "view": {
+  "x": 0,
+  "y": 0,
+  "w": 34,
+  "h": 129,
+  "label": ""
+ },
+ "kind": "side",
+ "steps": [
+  {
+   "title": "Find what lies beyond the empty coffin",
+   "done": "x2_rubble_broken",
+   "targets": [
+    {
+     "label": "The choked doorway",
+     "x": 16.0,
+     "y": 116.8,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Cross the Drowned Muster",
+   "done": "x3_cleared",
+   "targets": [
+    {
+     "label": "The Drowned Muster",
+     "x": 16.0,
+     "y": 104.5,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Run the Spear Walk and hold the Marching Hall",
+   "done": "x7_held",
+   "targets": [
+    {
+     "label": "The Marching Hall",
+     "x": 17.0,
+     "y": 60.0,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Face what still holds the field",
+   "done": "x4_cleared",
+   "targets": [
+    {
+     "label": "The Red Field",
+     "x": 17.0,
+     "y": 28.0,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Find the king who walked into the marsh",
+   "done": "oath_taken",
+   "targets": [
+    {
+     "label": "Borrow's Rest",
+     "x": 17.0,
+     "y": 5.8,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Climb back up to the Sinking Fields",
+   "done": "never",
+   "targets": [
+    {
+     "label": "The rope",
+     "x": 5.5,
+     "y": 119.1,
+     "done": ""
+    }
+   ]
+  }
+ ]
+}

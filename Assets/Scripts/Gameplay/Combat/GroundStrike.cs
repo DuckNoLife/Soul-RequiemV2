@@ -21,6 +21,8 @@ namespace SoulRequiem.Gameplay
         [Tooltip("Gọi khi đòn trúng người chơi (sát thương 0 = chỉ gây hiệu ứng trạng thái).")]
         public System.Action<Health> onHit;
         public Color warnColor = new Color(1f, 0.45f, 0.25f, 1f);
+        [Tooltip("19/11 (§337): âm lúc chạm (id Sfx). Trống = tự chọn: có tảng rơi (shell) -> rock_crash, có hoạt ảnh -> ground_strike, chỉ vòng báo -> im (boss tự phát âm). 'none' = im.")]
+        public string impactSfx = "";
 
         [Header("Hoạt ảnh va chạm")]
         public Sprite[] frames;
@@ -118,6 +120,8 @@ namespace SoulRequiem.Gameplay
                 if (t >= warnTime)
                 {
                     impacting = true;
+                    string sfxId = !string.IsNullOrEmpty(impactSfx) ? impactSfx : shell != null ? "rock_crash" : frames != null && frames.Length > 0 && frames.Length > impactFrame ? "ground_strike" : ""; // 19/11 (§337): âm
+                    if (sfxId != "none") SoulRequiem.Core.Sfx.Play(sfxId, transform.position);
                     impactAt = Time.time;
                     if (shellSr != null) Destroy(shellSr.gameObject);
                     if (frames == null || frames.Length == 0) Hit();

@@ -153,6 +153,7 @@ namespace SoulRequiem.Gameplay
         // Trước đây cờ bật ngay khi giải xong: camera tới nơi thì mọi thứ đã tắt, người chơi không thấy gì xảy ra.
         private IEnumerator Solved()
         {
+            SfxHooks.MechanismEvent(this, "solved", "puzzle_solved"); // 19/11 (§335): âm
             Hints.Show(Str("solve_text", "The pipes connect."), 4f);
             string flag = Str("sets", Name + "_solved");
             string after = Str("after_focus", "");

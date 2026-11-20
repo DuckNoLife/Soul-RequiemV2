@@ -128,7 +128,7 @@ namespace SoulRequiem.Gameplay
         {
             yield return new WaitForSeconds(0.2f);
             while (CutsceneState.Active) yield return null;            // để sau bảng tên boss
-            Hints.Show("A seal of Ether closes the way out.", 2.5f);
+            // 16/11 (§269): bỏ thông báo thừa — hình / hoạt ảnh / bảng tên boss đã thể hiện
         }
 
         private readonly List<Collider2D> hits = new List<Collider2D>();
@@ -340,7 +340,7 @@ namespace SoulRequiem.Gameplay
             if (a.root != null)
             {
                 foreach (var b in a.root.GetComponents<BoxCollider2D>()) b.enabled = false;
-                if (a.strips.Count > 0 && a.boss != null && a.boss.Health != null && a.boss.Health.IsDead) Hints.Show("The seal of Ether fades.", 2f);
+                // 16/11 (§269): bỏ thông báo thừa — hình / hoạt ảnh / bảng tên boss đã thể hiện
             }
         }
 

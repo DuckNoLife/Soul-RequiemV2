@@ -88,6 +88,7 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ Root Line
         private IEnumerator RootLine()
         {
+            SfxHooks.BossMove(this, "RootLine"); // 19/11 (§335): âm
             yield return Gather(lineWarn);
             if (ai.Health.IsDead || ai.Player == null) yield break;
             Vector2 dir = ((Vector2)ai.Player.position - Pos).normalized;
@@ -100,6 +101,7 @@ namespace SoulRequiem.Gameplay
                 {
                     Vector2 p = Pos + dd * (0.45f + i * lineStep);
                     var g = GroundStrike.Spawn(p, 0.35f + i * lineDelay, spikeRadius, ai.damage, frames, 2, 14f, Order, Root);
+                    g.impactSfx = "root_spike"; // 19/11 (§337): âm
                     g.bodyScale = vfxScale;
                     g.knockback = 1.5f;
                 }
@@ -121,6 +123,7 @@ namespace SoulRequiem.Gameplay
             {
                 Vector2 p = i == 0 ? target : target + Random.insideUnitCircle * 1.3f;
                 var g = GroundStrike.Spawn(p, volleyWarn + i * 0.1f, 0.32f, ai.damage * 0.8f, splash, 1, 14f, Order, Ichor);
+                g.impactSfx = "acid_splash"; // 19/11 (§337): âm
                 g.bodyScale = vfxScale;
                 if (glob.Length > 0) { g.shell = glob[0]; g.shellFrom = mouth; g.shellArc = 0.9f; g.shellScale = vfxScale; }
             }
@@ -130,6 +133,7 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ Bramble Ring
         private IEnumerator BrambleRing()
         {
+            SfxHooks.BossMove(this, "BrambleRing"); // 19/11 (§335): âm
             yield return Gather(ringWarn);
             if (ai.Health.IsDead) yield break;
             float g0 = Random.Range(0f, 360f);
@@ -164,11 +168,13 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ Grasp
         private IEnumerator Grasp()
         {
+            SfxHooks.BossMove(this, "Grasp"); // 19/11 (§335): âm
             nextGrasp = Time.time + 4f;
             ai.Desired = Vector2.zero;
             ai.PlayState("Prepare");
             var g = GroundStrike.Spawn(ai.Player.position, graspWarn, 0.36f, ai.damage * 0.6f, SpriteVfx.Load("m3_root_spike"), 2, 14f,
                                        Order + 1, Root);
+            g.impactSfx = "root_spike"; // 19/11 (§337): âm
             g.bodyScale = vfxScale;
             g.stunSeconds = graspStun;
             yield return ai.WaitFor(graspWarn);
@@ -178,6 +184,7 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ Communion (hồi máu)
         private IEnumerator Communion()
         {
+            SfxHooks.BossMove(this, "Communion"); // 19/11 (§337): âm
             heals++;
             nextHeal = Time.time + healEvery;
             ai.Desired = Vector2.zero;
@@ -199,7 +206,7 @@ namespace SoulRequiem.Gameplay
             ai.PlayState("Recover");
             if (broken)
             {
-                Hints.Show("The roots tear loose!", 2f);
+                // 16/11 (§269): bỏ thông báo thừa — hình / hoạt ảnh / bảng tên boss đã thể hiện
                 yield return ai.Flash(2f, new Color(1f, 1f, 0.55f));
             }
             else yield return ai.WaitFor(0.5f);
@@ -209,6 +216,7 @@ namespace SoulRequiem.Gameplay
         // ------------------------------------------------------------------ Pha 2: gọi cây con
         private IEnumerator Summon()
         {
+            SfxHooks.BossMove(this, "Summon"); // 19/11 (§335): âm
             summoned = true;
             yield return Gather(0.7f);
             var dirr = MapEncounterDirector.Instance;
@@ -218,7 +226,7 @@ namespace SoulRequiem.Gameplay
                 SpriteVfx.Spawn("m3_root_spike", p, vfxScale, Layer, Order, false, 14f);
                 dirr.SpawnSummon("Ent_1", p, ai);
             }
-            Hints.Show("Saplings claw their way up from the graves.", 2.5f);
+            // 16/11 (§269): bỏ thông báo thừa — hình / hoạt ảnh / bảng tên boss đã thể hiện
             yield return Release(0.5f);
         }
     }

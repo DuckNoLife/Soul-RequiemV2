@@ -26,6 +26,7 @@ namespace SoulRequiem.Gameplay
                                         float poison, float poisonDuration, int order)
         {
             var go = new GameObject("PoisonCloud");
+            SoulRequiem.Core.Sfx.Play("gas_hiss", at); // 19/11 (§335): âm
             go.transform.position = at;
             var c = go.AddComponent<PoisonCloud>();
             c.pop = pop; c.loop = loop; c.fade = fade;

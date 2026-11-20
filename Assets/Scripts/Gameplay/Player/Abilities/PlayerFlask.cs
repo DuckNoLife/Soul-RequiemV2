@@ -21,13 +21,15 @@ namespace SoulRequiem.Gameplay
         public void Drink()
         {
             var health = owner.Health;
+            var st = owner.GetComponent<PlayerStatus>();
+            if (st != null && st.FlaskTaken) { st.SayRestraint(st.FlaskText); return; }   // 17/11: bị thu bình (Map 4)
             if (owner.potions <= 0)
             {
                 Hints.Show("Out of potions!", 1.5f);
+                SoulRequiem.Core.Sfx.Play("flask_empty", owner.transform.position); // 19/11 (§335): âm
                 return;
             }
             if (health.Percent >= 0.999f) return;
-            var st = owner.GetComponent<PlayerStatus>();
             if (st != null && st.HealBlocked)
             {
                 Hints.Show("Hemorrhage: the potion will not take!", 1.4f);
@@ -36,6 +38,7 @@ namespace SoulRequiem.Gameplay
             owner.potions--;
             DrinkingUntil = Time.time + owner.healLock + 0.05f;
             anim.Drink();
+            SoulRequiem.Core.Sfx.Play("flask_drink", owner.transform.position);   // 17/11 (§294): âm
             health.Stun(owner.healLock);
             owner.StartCoroutine(Gulp());
         }
@@ -49,7 +52,7 @@ namespace SoulRequiem.Gameplay
             yield return new WaitForSeconds(GulpTime);
             var health = owner.Health;
             if (health.IsDead) yield break;
-            health.Heal(health.Max * owner.healPercent);
+            health.Heal(health.Max * owner.healPercent * WeaponTraits.FlaskMul(owner));   // 16/11 (§254): Hunger
             if (owner.showVfx) HealVfx();
         }
 

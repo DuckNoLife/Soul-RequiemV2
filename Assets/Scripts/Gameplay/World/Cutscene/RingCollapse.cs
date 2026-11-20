@@ -52,6 +52,7 @@ namespace SoulRequiem.Gameplay
         {
             var player = dir.Player;
             if (player == null) yield break;
+            SoulRequiem.Core.Sfx.Play2D("cave_collapse"); // 19/11 (§335): âm
             Vector2 ringCenter = float.IsNaN(centerTile.x) ? (Vector2)player.position : (Vector2)dir.TileToWorld(centerTile.x, centerTile.y);
             var psr = player.GetComponentInChildren<SpriteRenderer>();
             int layer = psr != null ? psr.sortingLayerID : 0, order = psr != null ? psr.sortingOrder : 2;
@@ -117,6 +118,7 @@ namespace SoulRequiem.Gameplay
                     Vector2 c = Random.value < 0.5f ? ringCenter : (Vector2)feet;
                     Vector3 to = c + Random.insideUnitCircle * 2.0f;
                     var go = new GameObject("Collapse Pebble");
+                    SoulRequiem.Core.Sfx.Play2D("rock_fall", 0.7f); // 19/11 (§337): âm
                     var sr = go.AddComponent<SpriteRenderer>();
                     sr.sprite = pebbleSprites[Random.Range(0, pebbleSprites.Count)];
                     sr.flipX = Random.value < 0.5f;
@@ -153,6 +155,7 @@ namespace SoulRequiem.Gameplay
                     bool last = stage == stageAt.Length - 1;
                     float big = 0.7f + 0.15f * stage;
                     CameraFollow.KickMain(Vector2.down, last ? 0.13f : 0.06f, last ? 0.35f : 0.2f);
+                    SoulRequiem.Core.Sfx.Play2D("rock_crash", last ? 1f : 0.7f); // 19/11 (§337): âm: vòng đá sụt từng nấc
                     for (int d = 0; d < 5 + stage * 3; d++)                                    // bụi bật quanh mép hố
                     {
                         float a = Random.value * Mathf.PI * 2f;

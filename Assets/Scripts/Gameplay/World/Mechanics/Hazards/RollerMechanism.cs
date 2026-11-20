@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using SoulRequiem.Core;
 
 namespace SoulRequiem.Gameplay
 {
@@ -10,6 +11,8 @@ namespace SoulRequiem.Gameplay
     ///   trigger (tín hiệu, vd tấm sàn) và / hoặc period (giây; 0 = chỉ theo tín hiệu), offset
     ///   speed (ô / giây, mặc định 6), damage (người chơi, 22), enemy_damage (80), knock (5), rearm (giây sau mỗi lượt, 2)
     ///   disable_on, start_when, stop_when. Tránh: núp vào hốc tường dọc làn, hoặc chạy kịp ra khỏi làn.
+    ///   17/11 (§288): `fit_lane` = true -> khúc gỗ phóng to cho KÍN bề ngang làn (vùng cán cũng kín làn) — trước đây gỗ chỉ dài ~3,75 ô,
+    ///   làn 5 ô thì áp sát vách là thoát. `log_fill` = phần thân gỗ có hình trên chiều dài ảnh (trap_log_v: 120/160 = 0.75).
     /// </summary>
     public sealed class RollerMechanism : HazardMechanismBase
     {
@@ -19,8 +22,8 @@ namespace SoulRequiem.Gameplay
         private float disabledUntil, startAt = -1f, readyAt, lastCycle = -1f;
         private const float HatchTime = 0.65f;
         private readonly HashSet<Health> hit = new HashSet<Health>();
-        private readonly List<Health> found = new List<Health>();
         private bool playerHit;
+        private float fitCross;                                           // 17/11 (§288): > 0 = vùng cán phủ kín bề ngang làn
 
         private Vector2 Dir
         {
@@ -46,6 +49,14 @@ namespace SoulRequiem.Gameplay
                 logSr = TrapArt.MakeRenderer(Ctx.Host.transform, "Log " + Name, StartPos(), Ctx.Player, 0);
                 logSr.sprite = log[0];
                 logSr.enabled = false;
+                if (Props.GetBool("fit_lane", false))                         // 17/11 (§288): gỗ kín làn
+                {
+                    float cross = Vertical ? Rect.width : Rect.height;
+                    float art = (Vertical ? log[0].bounds.size.x : log[0].bounds.size.y) * Mathf.Clamp(Float("log_fill", 0.75f), 0.1f, 1f);
+                    float k = cross / Mathf.Max(0.01f, art);
+                    logSr.transform.localScale = new Vector3(logSr.transform.localScale.x * k, logSr.transform.localScale.y * k, 1f);
+                    fitCross = cross;
+                }
             }
             trigger = new TrapListener(Str("trigger", ""));
             disabler = new TrapListener(Str("disable_on", ""));
@@ -84,7 +95,7 @@ namespace SoulRequiem.Gameplay
                 float c = Mathf.Floor((now + Float("offset", 0f)) / period);
                 if (c != lastCycle) { if (lastCycle >= 0f) go = true; lastCycle = c; }
             }
-            if (go && startAt < 0f && now >= readyAt) { startAt = now; hit.Clear(); playerHit = false; }
+            if (go && startAt < 0f && now >= readyAt) { startAt = now; hit.Clear(); playerHit = false; if (logSr != null) SoulRequiem.Core.Sfx.PlayAt("trap_roller", logSr.transform); }   // 17/11 (§294): âm
             if (startAt < 0f || logSr == null) return;
 
             float e = now - startAt - (hatch.Length > 0 ? HatchTime : 0.4f);
@@ -107,15 +118,14 @@ namespace SoulRequiem.Gameplay
             // vùng cán: thân khúc gỗ (dẹt theo hướng lăn)
             var size = (Vector2)log[0].bounds.size;
             var box = Vertical ? new Vector2(size.x * 0.85f, 0.3f) : new Vector2(0.3f, size.y * 0.75f);
+            if (fitCross > 0f) box = Vertical ? new Vector2(fitCross, 0.3f) : new Vector2(0.3f, fitCross);   // kín làn: áp sát vách vẫn dính
             var hitRect = new Rect((Vector2)logSr.transform.position - box / 2f, box);
             if (!playerHit && hitRect.Contains(playerPos))
             {
                 playerHit = true;
-                TrapArt.HurtPlayer(Ctx, Float("damage", 22f), Dir, Float("knock", 5f));
+                TrapArt.HurtPlayerCrush(Ctx, Float("damage", 22f), Dir, Float("knock", 5f));
             }
-            TrapArt.EnemiesIn(hitRect, found);
-            foreach (var h in found)
-                if (hit.Add(h)) h.TakeDamage(Float("enemy_damage", 80f), Dir, Float("knock", 5f));
+            // 20/11 (§353): khúc gỗ lăn KHÔNG cán quái — chỉ Ren dính.
         }
 
         public override void Animate()

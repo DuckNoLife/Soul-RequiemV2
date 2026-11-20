@@ -65,12 +65,30 @@ namespace SoulRequiem.Gameplay
         public override void OnStruck()
         {
             if (Done) return;
+            // 17/11 (§304): `requires` = cờ cần có thì mới chém được (vd xích tời Map 4 cần katana); chưa đủ -> `locked_text`
+            if (!Ctx.Flags.HasAll(Str("requires", "")))
+            {
+                foreach (var p in pieces) if (p != null) Ctx.Run(Jiggle(p.transform, 0.1f, 0.015f));
+                Hints.Show(Str("locked_text", "It will not break. Not like this."), 2.2f);
+                return;
+            }
+            // 16/11 (§255): `min_radius` > 0 = chỉ đòn nặng phá được (Earthshatter ~1,1; nhát kiếm ~0,45). Đòn nhẹ: rung nhẹ + `weak_hint`.
+            float minR = Float("min_radius", 0f);
+            if (minR > 0f && MapMechanics.StrikeRadius < minR)
+            {
+                foreach (var p in pieces) if (p != null) Ctx.Run(Jiggle(p.transform, 0.1f, 0.015f));
+                Hints.Show(Str("weak_hint", "Your blade only scratches it. It needs a heavier blow."), 2.2f);
+                return;
+            }
             hits--;
             Ctx.Run(Ctx.ShakeGate(Name));
             foreach (var p in pieces) if (p != null) Ctx.Run(Jiggle(p.transform, 0.18f, 0.035f));
             Ctx.Run(Chips(6));
-            if (hits > 0) { ShowDamage(); return; }
+            string what = (Name + " " + Str("sprite", "")).ToLowerInvariant();
+            bool stoneLike = minR > 0f || what.Contains("rubble") || what.Contains("stone") || what.Contains("rock") || what.Contains("slab"); // 19/11 (§335): âm
+            if (hits > 0) { ShowDamage(); if (!stoneLike) SfxHooks.MechanismEvent(this, "hit", "hit_wood"); return; }
             Done = true;
+            SfxHooks.MechanismEvent(this, "break", stoneLike ? "break_stone" : "break_wood");
             Hints.Show(Str("text", "It breaks apart."), 2.5f);
             Ctx.Flags.Set(Str("sets", Name + "_broken"));
             var psr = PlayerSprite();

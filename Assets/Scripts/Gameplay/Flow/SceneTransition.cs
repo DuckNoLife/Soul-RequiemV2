@@ -24,6 +24,8 @@ namespace SoulRequiem.Gameplay
             { "map2_sewers", "Map2_UndercityOfVael" },
             { "map3_vale_of_graves", "Map3_ValeOfGraves" },
             { "map3_vale", "Map3_ValeOfGraves" },
+            { "map1b_hermits_hollow", "Map1b_HermitsHollow" },  // 16/11 (§261): khu bí mật Oathbreaker dưới Old Copper Mine
+            { "map2b_kroven_deep", "Map2b_KrovenDeep" },        // 16/11 (§281): khu bí mật Ironcrown dưới Forgotten Store
             { "map3b_kings_barrow", "Map3b_KingsBarrow" },      // 07/11: hầm bí mật X2 tách khỏi Map 3
             { "map4_catacombs", "Map4_CatacombsOfNaming" },     // 08/11 (§192): Map 4 (bản đồ thô) — Requiem Door của Map 3 dẫn vào
         };
@@ -36,6 +38,8 @@ namespace SoulRequiem.Gameplay
             { "map2_sewers", new[] { "The Undercity of Vael", "Beneath the Stone Ring" } },
             { "map3_vale_of_graves", new[] { "The Vale of Graves", "Where the Named are buried" } },
             { "map3_vale", new[] { "The Vale of Graves", "Where the Named are buried" } },
+            { "map1b_hermits_hollow", new[] { "Hermit's Hollow", "Beneath the Old Copper Mine" } },
+            { "map2b_kroven_deep", new[] { "The Kroven Deep", "Beneath the Records Vault" } },   // 17/11 (§286): lối xuống dời sang Records Vault
             { "map3b_kings_barrow", new[] { "King's Barrow", "Beneath the Sinking Fields" } },
             { "map4_catacombs", new[] { "The Catacombs of Naming", "Beneath the Requiem Door" } },
         };

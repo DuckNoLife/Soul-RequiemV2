@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="136" height="126" tilewidth="32" tileheight="32" infinite="0" nextlayerid="34" nextobjectid="5467">
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="136" height="126" tilewidth="32" tileheight="32" infinite="0" nextlayerid="35" nextobjectid="5484">
  <properties>
   <property name="flag_group" value="vale_of_graves"/>
  </properties>
@@ -17,6 +17,9 @@
  <tileset firstgid="4848" source="../Tilesets/SR-animT-crow-animated-crow-for-the-environment-idle2.tsx"/>
  <tileset firstgid="4873" source="../Tilesets/SR-animT-animated-cypt9-entrance-glow-animation-160x280.tsx"/>
  <tileset firstgid="4889" source="../Tilesets/SR-props-trimmed.tsx"/>
+ <tileset firstgid="4987" source="../Tilesets/SR-reliquary-old.tsx"/>
+ <tileset firstgid="4988" source="../Tilesets/SR-reliquary-eye.tsx"/>
+ <tileset firstgid="4989" source="../Tilesets/SR-barrow.tsx"/>
  <layer id="1" name="ground" width="136" height="126">
   <properties>
    <property name="unity:SortingOrder" type="int" value="-20"/>
@@ -5599,6 +5602,7 @@
     <property name="ambient_color" value="#e0a0b8"/>
     <property name="ambient_fight" value="0.24"/>
     <property name="hint_text" value=""/>
+    <property name="reset_on_death" value="west_bell_rung,isolde_summoned"/>
     <property name="stage" value="west"/>
     <property name="story" value="3.05"/>
     <property name="story_done" value="x3_cleared"/>
@@ -5682,7 +5686,7 @@
     <property name="stage" value="requiem"/>
     <property name="story" value="5"/>
     <property name="story_done" value="v11_cleared"/>
-    <property name="title" value="Mausoleum Forecourt"/>
+    <property name="title" value="The Precentor's Court"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="zone_id" value="v11"/>
    </properties>
@@ -5690,7 +5694,7 @@
   <object id="4430" name="v12" type="zone" x="1952" y="3827.2" width="480" height="108.8">
    <properties>
     <property name="ambient" value="0.34"/>
-    <property name="ambient_color" value="#d0a0ff"/>
+    <property name="ambient_color" value="#e0a8b0"/>
     <property name="ambient_fight" value="0.29"/>
     <property name="hint_text" value=""/>
     <property name="stage" value="requiem"/>
@@ -6252,6 +6256,48 @@
    <point/>
   </object>
  </objectgroup>
+ <objectgroup id="34" name="npcs" opacity="0.5">
+  <properties>
+   <property name="unity:IsTrigger" type="bool" value="true"/>
+  </properties>
+  <object id="5467" name="aldous" type="villager" x="2752" y="1184" width="32" height="32">
+   <properties>
+    <property name="face" value="S"/>
+    <property name="hide_when" value="x1_wall_broken"/>
+    <property name="kind" value="aldous"/>
+    <property name="lines" value="Don't finish them in the green. Drag them onto dry ground first. Learned that one the hard way. | The Lady of House Vey keeps the green for the King. If anyone can pull that thing out of you, it's her. Whether you'd live through it is another matter. | Me? Never took the Gift. The dead don't seem to notice me. One of the few perks of the job. | My grandfather swore a king walked into the Sinking Fields and never walked out. There is a pit down there, between the dead trees on the south bank - deeper than the others, with a crowned stone at its lip. I have never had a reason to find out where it goes."/>
+    <property name="scale" type="float" value="0.66"/>
+    <property name="speaker" value="Aldous"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="walk" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="5468" name="aldous_field" type="villager" x="1600" y="2144" width="32" height="32">
+   <properties>
+    <property name="face" value="S"/>
+    <property name="kind" value="aldous"/>
+    <property name="lines" value="The only quiet patch in the Vale. Babes who died before they could drink. Not one of them has stood up. | Funny. The Choir calls these the lost ones."/>
+    <property name="scale" type="float" value="0.66"/>
+    <property name="show_when" value="x1_wall_broken"/>
+    <property name="speaker" value="Aldous"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="walk" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="5478" name="hooded_one" type="villager" x="1964.8" y="3820.8" width="32" height="32">
+   <properties>
+    <property name="face" value="E"/>
+    <property name="hide_when" value="ren_taken"/>
+    <property name="kind" value="hooded_one"/>
+    <property name="scale" type="float" value="0.66"/>
+    <property name="show_when" value="hooded_watch"/>
+    <property name="speaker" value="The hooded one"/>
+    <property name="speed" type="float" value="0.5"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="walk" type="bool" value="false"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="27" name="triggers" opacity="0.35">
   <properties>
    <property name="unity:IsTrigger" type="bool" value="true"/>
@@ -6272,7 +6318,7 @@
   </object>
   <object id="4494" name="wanted_poster" type="sign" x="2041.6" y="928" width="70.4" height="64">
    <properties>
-    <property name="hint_text" value="WANTED: The Nameless - alive. By order of the Choir of the Requiem."/>
+    <property name="hint_text" value="WANTED: The Nameless - alive. By order of the Soul Requiem."/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="zone_id" value="v2"/>
    </properties>
@@ -6301,7 +6347,7 @@
   </object>
   <object id="4498" name="barrier_sign" type="sign" x="2080" y="1907.2" width="192" height="64">
    <properties>
-    <property name="hint_text" value="A violet ward hums across the chapel gate. Three blue flames burn before it - one for each bell."/>
+    <property name="hint_text" value="A red ward hums across the chapel gate. Three blue flames burn before it - one for each bell."/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="zone_id" value="v3"/>
    </properties>
@@ -6328,7 +6374,7 @@
   </object>
   <object id="4502" name="vey_aurel" type="sign" x="656" y="1612.8" width="57.6" height="38.4">
    <properties>
-    <property name="hint_text" value="AUREL VEY. First of the House, Named by the Hierophant's own hand."/>
+    <property name="hint_text" value="AUREL VEY. First of the House. He held the cup at the lake."/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="zone_id" value="v5"/>
    </properties>
@@ -6372,23 +6418,6 @@
     <property name="zone_id" value="v8"/>
    </properties>
   </object>
-  <object id="4509" name="barrow_drop" type="exit" x="3891.2" y="2158.4" width="96" height="24">
-   <properties>
-    <property name="arrive_at" value="10,10.5"/>
-    <property name="depart_text" value="You lower yourself over the broken edge and drop into the dark."/>
-    <property name="interact" type="bool" value="true"/>
-    <property name="target" value="map3b_kings_barrow"/>
-    <property name="unity:IsTrigger" type="bool" value="true"/>
-    <property name="verb" value="Climb down"/>
-   </properties>
-  </object>
-  <object id="4510" name="barrow_glint" type="sign" x="3840" y="2099.2" width="160" height="57.6">
-   <properties>
-    <property name="hint_text" value="Far below, something gold catches the light."/>
-    <property name="unity:IsTrigger" type="bool" value="true"/>
-    <property name="zone_id" value="v8"/>
-   </properties>
-  </object>
   <object id="4514" name="rest_bridge" type="checkpoint" x="2947.2" y="3116.8" width="96" height="57.6">
    <properties>
     <property name="stage" value="south"/>
@@ -6399,7 +6428,7 @@
   </object>
   <object id="4516" name="naming_font" type="sign" x="1916.8" y="2438.4" width="57.6" height="51.2">
    <properties>
-    <property name="hint_text" value="The Naming font. The tainted Ether in it shrinks away from you."/>
+    <property name="hint_text" value="The Font of the Gift. Raw Ether wells up through it from the pipes below - and shrinks away from you."/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="zone_id" value="v10"/>
    </properties>
@@ -6422,7 +6451,7 @@
   <object id="4519" name="barred_gate" type="sign" x="2124.8" y="2502.4" width="102.4" height="38.4">
    <properties>
     <property name="hide_when" value="window_solved|mausoleum_gate_open"/>
-    <property name="hint_text" value="A violet ward seals the gate - the same light that left the rose window dark. Beyond the railings: the mausoleum arch."/>
+    <property name="hint_text" value="A red ward seals the gate - the same light that left the rose window dark. Beyond the railings: the mausoleum arch."/>
     <property name="range" value="0.2"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="zone_id" value="v10"/>
@@ -6435,20 +6464,31 @@
     <property name="entrance" value="turn"/>
     <property name="entrance_lights" value="morrow_pillar_4,morrow_pillar_1,morrow_pillar_3,morrow_pillar_2"/>
     <property name="intro_anim" value="Toll"/>
-    <property name="intro_line1" value="The Nameless. You silenced my bells and read my window. Did the truth comfort you?"/>
-    <property name="intro_line2" value="The Ascended never rose. He was held down - by hands like mine, for a thousand years."/>
-    <property name="intro_line3" value="Give me the Eye, and I will finish what they began."/>
+    <property name="intro_line1" value="The Nameless. You silenced my bells - and I heard every one of them fall quiet."/>
+    <property name="intro_line2" value="Seven hundred years the Choir has sung for Him in the dark. Tonight, at last, the hymn has its verse."/>
+    <property name="intro_line3" value="Give me the Eye, and the Choir will lift Him up at last."/>
     <property name="intro_vfx" value="m3_intro_toll"/>
     <property name="lights_color" value="#6aa8ff"/>
     <property name="portrait" value="boss_morrow"/>
+    <property name="relic_beat" type="bool" value="false"/>
+    <property name="relic_color" value="#8fd0ff"/>
+    <property name="relic_delay" value="1.8"/>
+    <property name="relic_flag" value="relic_ear"/>
+    <property name="relic_hint" value="The ears sink into you, and the world grows loud: Afterecho, Discord and Forewarning - three mantras attuned as one."/>
+    <property name="relic_say" value="So that's how he heard me coming... Every bell. Every step."/>
+    <property name="relic_size" type="float" value="0.5"/>
+    <property name="relic_skill" value="ear_afterecho"/>
+    <property name="relic_sprite" value="VFX/relics/relic_ears"/>
+    <property name="relic_text" value="Something falls from under the Precentor's hood - a pair of withered ears on a cord, older than any bell in the Vale. As they leave him, they begin to glow blue."/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="zone_id" value="v11"/>
    </properties>
   </object>
   <object id="4521" name="to_map4" type="exit" x="2138.8" y="3715.2" width="70.4" height="57.6">
    <properties>
-    <property name="depart_text" value="The violet light seizes the Eye inside you - and you with it."/>
-    <property name="open_text" value="With his last breath, Morrow tears the Requiem Door open. Violet light pours out of it."/>
+    <property name="depart_text" value="Down. Then further down."/>
+    <property name="open_text" value="With his last breath, Morrow tears the Requiem Door open. Red light pours out of it."/>
+    <property name="quake" type="bool" value="false"/>
     <property name="target" value="map4_catacombs"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="zone_id" value="v11"/>
@@ -6469,9 +6509,9 @@
     <property name="entrance" value="mist"/>
     <property name="entrance_vfx" value="m3_intro_bats"/>
     <property name="intro_anim" value="Cast"/>
-    <property name="intro_line1" value="So this is the Nameless. The Church would pay a great deal for you."/>
+    <property name="intro_line1" value="So this is the Nameless. My King would pay a great deal for you."/>
     <property name="intro_line2" value="House Vey kept this vale before their Hierophant learned to write. We kept it with blood."/>
-    <property name="intro_line3" value="Kneel, and I will be gentle."/>
+    <property name="intro_line3" value="Kneel, and I will cut the Eye out of you gently. You will hardly miss the rest."/>
     <property name="mist_color" value="#ff3a6a"/>
     <property name="portrait" value="boss_isolde"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
@@ -6512,26 +6552,6 @@
     <property name="zone_id" value="v6"/>
    </properties>
   </object>
-  <object id="5441" name="barrow_drop_w" type="exit" x="3846.4" y="2208" width="25.6" height="83.2">
-   <properties>
-    <property name="arrive_at" value="10,10.5"/>
-    <property name="depart_text" value="You lower yourself over the broken edge and drop into the dark."/>
-    <property name="interact" type="bool" value="true"/>
-    <property name="target" value="map3b_kings_barrow"/>
-    <property name="unity:IsTrigger" type="bool" value="true"/>
-    <property name="verb" value="Climb down"/>
-   </properties>
-  </object>
-  <object id="5442" name="barrow_drop_s" type="exit" x="3891.2" y="2336" width="83.2" height="19.2">
-   <properties>
-    <property name="arrive_at" value="10,10.5"/>
-    <property name="depart_text" value="You lower yourself over the broken edge and drop into the dark."/>
-    <property name="interact" type="bool" value="true"/>
-    <property name="target" value="map3b_kings_barrow"/>
-    <property name="unity:IsTrigger" type="bool" value="true"/>
-    <property name="verb" value="Climb down"/>
-   </properties>
-  </object>
   <object id="5455" name="rest_fields" type="checkpoint" x="3379.2" y="1824" width="96" height="57.6">
    <properties>
     <property name="stage" value="fields"/>
@@ -6546,6 +6566,70 @@
     <property name="stage_name" value="The West Bell"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="zone_id" value="v3"/>
+   </properties>
+  </object>
+  <object id="5469" name="outfall" type="story" x="2080" y="160" width="32" height="32">
+   <properties>
+    <property name="script" value="fade out 0.01\nnarrate Far below, in the Undercity, red lanterns came down the old ring shaft.|The Hierophant's men chained the Sleeper's body and carried it away.|They took the old goblin, too. He did not fight them.\nfade in 1.5\ncam 60,12 1\nwait 1.2\nglow 60,12 #8dff5a 2.4 3\nshake 0.03 0.8\ncamren\nwait 0.6\nbubble ren: The water from the pumps... it's running into the graves. I did this."/>
+    <property name="trigger" value="start"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="5470" name="commons_bell" type="story" x="64" y="64" width="32" height="32">
+   <properties>
+    <property name="script" value="shake 0.03 0.6\nbubble ren: That bell... the thing in my chest is singing back to it.\nhint Every bell that tolls tells the Choir where you are. Silence them."/>
+    <property name="trigger" value="flag"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="when" value="v3_started"/>
+   </properties>
+  </object>
+  <object id="5471" name="aldous_meet" type="story" x="2752" y="1184" width="32" height="32">
+   <properties>
+    <property name="radius" value="1.0"/>
+    <property name="script" value="bubble aldous: Easy, easy. I'm still breathing - unlike most of my parish.\nsay Aldous: Aldous. Sexton of the Vale, for what's left of it.|You came up out of the pump works drain, didn't you? With that light in your chest. Blue, too - funny, they say the thing in the pit glowed green. The Choir has your face on every gate.|If you want it out of you, only one soul keeps the green in this valley: the Lady of House Vey. West, along the Avenue of Peers.|Mind her, though. She's been &quot;the Lady&quot; for four hundred years.\nset aldous_met"/>
+    <property name="trigger" value="enter"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="unless" value="x1_wall_broken"/>
+   </properties>
+  </object>
+  <object id="5472" name="aldous_field" type="story" x="1600" y="2144" width="32" height="32">
+   <properties>
+    <property name="radius" value="1.0"/>
+    <property name="script" value="say Aldous: Followed you. Hope you don't mind.|These are the ones who died before they could drink. The Choir calls them lost.|Strange, isn't it? They're the only dead in the Vale who sleep."/>
+    <property name="trigger" value="enter"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="when" value="x1_wall_broken"/>
+   </properties>
+  </object>
+  <object id="5473" name="morrow_door" type="story" x="2112" y="3648" width="32" height="32">
+   <properties>
+    <property name="script" value="cam 67.9,117 1\nwait 1.2\nshake 0.05 1.2\nglow 67.9,117.4 #e05a64 3 5\nnarrate With his last breath, Morrow strikes his bell once more. The Requiem Door tears open.|Red light pours out of it, and the Eye inside you answers.\nfade out 0.6\nren warp 67.9,120.3\nface 67.9,117.4\nset hooded_watch\ncam 66.2,119.6 1\nfade in 1.0\nren draw\nwait 0.8\nbubble ren: It's over. The bells are quiet.\nren sheathe\nwait 1.4\nwalk hooded_one 66.9,120.4\nwait 0.3\nbubble ren: ...Footsteps?\nface 66.9,120.4\nplay hooded_one strike nowait fps=11\nwait 0.36\nshake 0.09 0.3\nren fall\nwait 0.3\nfade out 0.15\nwait 1.0\nsay The hooded one: Gently. He is not to be broken.|Not yet.\nset ren_taken\nslide Story/m3_carried_down: They carry you down, past the last of the graves, into the dark beneath the Vale.\nexit to_map4"/>
+    <property name="trigger" value="flag"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="when" value="v11_cleared,relic_ear"/>
+   </properties>
+  </object>
+  <object id="5480" name="barrow_stair" type="exit" x="3756.8" y="2464" width="70.4" height="38.4">
+   <properties>
+    <property name="arrive_at" value="5.6,60.4"/>
+    <property name="arrive_subtitle" value="Beneath the Sinking Fields"/>
+    <property name="arrive_title" value="King's Barrow"/>
+    <property name="depart_text" value="The pit is deeper than the others, and its walls are cut stone under the mud. You lower yourself down on a rotten rope someone left tied to a root."/>
+    <property name="interact" type="bool" value="true"/>
+    <property name="quake" type="bool" value="false"/>
+    <property name="target" value="map3b_kings_barrow"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="verb" value="Climb down"/>
+    <property name="zone_id" value="v8"/>
+   </properties>
+  </object>
+  <object id="5481" name="barrow_stone" type="sign" x="3817.6" y="2364.8" width="41.6" height="35.2">
+   <properties>
+    <property name="hint_text" value="A stone half sunk in the mud, its crown worn smooth. One word is left on it: &quot;...ROW&quot;."/>
+    <property name="interact" type="bool" value="true"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="verb" value="Read"/>
+    <property name="zone_id" value="v8"/>
    </properties>
   </object>
  </objectgroup>
@@ -7577,7 +7661,7 @@
     <property name="collider_kind" value="prop"/>
    </properties>
   </object>
-  <object id="4746" name="SR crypt coffin - vertical - 1" type="obstacle" x="797" y="1604" width="32" height="22">
+  <object id="4746" name="SR crypt coffin - vertical - 1" type="obstacle" x="792" y="1558" width="45" height="68">
    <properties>
     <property name="collider_kind" value="prop"/>
    </properties>
@@ -8218,13 +8302,13 @@
    </properties>
    <ellipse/>
   </object>
-  <object id="5325" name="tree 1" type="obstacle" x="3687.7" y="2500.3" width="56" height="16">
+  <object id="5325" name="tree 1" type="obstacle" x="3706.7" y="2501.3" width="56" height="16">
    <properties>
     <property name="collider_kind" value="prop"/>
    </properties>
    <ellipse/>
   </object>
-  <object id="5327" name="tree 1" type="obstacle" x="3943.7" y="2493.9" width="56" height="16">
+  <object id="5327" name="tree 1" type="obstacle" x="3971.7" y="2492.9" width="56" height="16">
    <properties>
     <property name="collider_kind" value="prop"/>
    </properties>
@@ -8302,7 +8386,7 @@
    </properties>
    <ellipse/>
   </object>
-  <object id="5464" name="crypt 1" type="obstacle" x="284" y="1715" width="140" height="64">
+  <object id="5464" name="crypt 1" type="obstacle" x="284" y="1638" width="139" height="141">
    <properties>
     <property name="collider_kind" value="prop"/>
    </properties>
@@ -9519,6 +9603,16 @@
     <property name="collider_kind" value="terrain"/>
    </properties>
   </object>
+  <object id="5476" name="blocker" type="blocker" x="1805" y="2485" width="40" height="14">
+   <properties>
+    <property name="collider_kind" value="prop"/>
+   </properties>
+  </object>
+  <object id="5477" name="blocker" type="blocker" x="399" y="1801" width="20" height="9">
+   <properties>
+    <property name="collider_kind" value="prop"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="32" name="map bounds" opacity="0.35">
   <object id="5159" name="map_bound" type="bound" x="-32" y="-32" width="4416" height="32">
@@ -9604,7 +9698,7 @@
   <object id="5170" name="bl_orders" type="note" x="2605" y="928" width="58" height="51">
    <properties>
     <property name="mechanic" value="note"/>
-    <property name="text" value="Weighted down with a stone on the watch's supply barrel.\n\nTo the Lychgate watch.\n\nA man came up out of the pump works drain. No family, no Naming, no name. He carries what the Choir has waited three hundred years for. He is to be taken ALIVE and brought to the Precentor.\n\nAny man who drinks his blood or wastes it answers to Morrow.   - Sergeant of the Lantern"/>
+    <property name="text" value="Weighted down with a stone on the watch's supply barrel.\n\nTo the Lychgate watch.\n\nA man came up out of the pump works drain. No family, no Naming, no name. He carries what the Choir has waited four hundred years for. He is to be taken ALIVE and brought to the Precentor.\n\nKeep the bells ringing. The Precentor hears what the bells hear - he will know where the man is before you see him.\n\nAny man who drinks his blood or wastes it answers to Morrow.   - Sergeant of the Lantern"/>
     <property name="title" value="Black Lantern Orders"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
    </properties>
@@ -9715,7 +9809,7 @@
    <properties>
     <property name="anim" value="pulse"/>
     <property name="anim_amount" value="0.2"/>
-    <property name="color" value="#b070ff"/>
+    <property name="color" value="#e05a64"/>
     <property name="light" value="torch"/>
     <property name="mechanic" value="light"/>
     <property name="off_when" value="x3_cleared,amen_rung,south_bell_rung"/>
@@ -9726,7 +9820,7 @@
   <object id="5181" name="naming_register" type="note" x="1792" y="2374" width="109" height="70">
    <properties>
     <property name="mechanic" value="note"/>
-    <property name="text" value="Pages torn from the Book of Names, blown out across the flagstones.\n\n...every child born in the Vale is carried to the Chapel on the third day, and their name is written in the Book of Names.\n\nA name written is a soul bound. A soul bound is a soul kept.\n\n- Chapter of the Naming, verse 4"/>
+    <property name="text" value="Pages torn from the Book of Names, blown out across the flagstones.\n\n...every child of the Vale, in its twelfth year, is brought to the Chapel to drink of the Font. Only then is its name written in the Book of Names.\n\nA name written is a soul bound. A soul bound is a soul kept.\n\n- Chapter of the Naming, verse 4"/>
     <property name="title" value="Naming Register (torn)"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
    </properties>
@@ -9795,7 +9889,7 @@
   <object id="5188" name="peer_diary" type="note" x="618" y="1222" width="64" height="45">
    <properties>
     <property name="mechanic" value="note"/>
-    <property name="text" value="The vintage thins each year. Tonight we dig up Uncle.\n\nGrandmother Isolde still sleeps below the old crypt. We do not dig there. We do not even knock."/>
+    <property name="text" value="The vintage thins each year. Tonight we dig up Uncle.\n\nGrandmother Isolde still sleeps below the old crypt. We do not dig there. We do not even knock.\n\nThe King's riders came again tonight. They want the thing the drain-man carries - for the King's collection, they said, and whole. Grandmother says if she brings it to him, he will lift her up into the light at last. She has been promised that before."/>
     <property name="title" value="Peer's Diary"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
    </properties>
@@ -9804,7 +9898,7 @@
    <properties>
     <property name="anim" value="pulse"/>
     <property name="anim_amount" value="0.18"/>
-    <property name="color" value="#c070ff"/>
+    <property name="color" value="#e05a64"/>
     <property name="light" value="torch"/>
     <property name="mechanic" value="light"/>
     <property name="off_when" value="vey_open"/>
@@ -9815,7 +9909,7 @@
   <object id="5190" name="vey_lock" type="cipher" x="704" y="1760" width="128" height="64">
    <properties>
     <property name="answer" value="0,1,2,3"/>
-    <property name="hint" value="&quot;Speak the line of Vey, from the first Named to the last.&quot; The family lies in the yard behind you."/>
+    <property name="hint" value="&quot;Speak the line of Vey, from the first who drank to the last.&quot; The family lies in the yard behind you."/>
     <property name="mechanic" value="cipher"/>
     <property name="perm" value="4,0,5,1,6,2,7,3"/>
     <property name="sets" value="vey_open"/>
@@ -9857,8 +9951,8 @@
   <object id="5194" name="sermon" type="note" x="3674" y="1306" width="77" height="58">
    <properties>
     <property name="mechanic" value="note"/>
-    <property name="text" value="Grace answers every prayer. Pray carefully.\n\nThe serf prayed to work without rest, and was answered. The soldier prayed never to fall, and was answered. The noble prayed never to die.\n\nAnd was answered."/>
-    <property name="title" value="Sermon of Communion"/>
+    <property name="text" value="The Eternal King gives, and his Gift answers.\n\nThe serf drank, and worked without rest. The soldier drank, and did not fall. The noble drank of the older water,\n\nand did not die.\n\nGive thanks for the Gift. Ask nothing more of it."/>
+    <property name="title" value="Sermon of the Gift"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
    </properties>
   </object>
@@ -9881,7 +9975,7 @@
     <property name="mechanic" value="bell"/>
     <property name="note" type="int" value="1"/>
     <property name="sets" value="amen_rung"/>
-    <property name="text" value="The Amen rings out across the Vale. For the first time in a thousand years, the hymn ends."/>
+    <property name="text" value="The Amen rings out across the Vale. For the first time in seven hundred years, the hymn ends."/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="zone" value="v7"/>
    </properties>
@@ -9894,7 +9988,7 @@
     <property name="mechanic" value="bell"/>
     <property name="note" type="int" value="2"/>
     <property name="sets" value="amen_rung"/>
-    <property name="text" value="The Amen rings out across the Vale. For the first time in a thousand years, the hymn ends."/>
+    <property name="text" value="The Amen rings out across the Vale. For the first time in seven hundred years, the hymn ends."/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="zone" value="v7"/>
    </properties>
@@ -9907,7 +10001,7 @@
     <property name="mechanic" value="bell"/>
     <property name="note" type="int" value="3"/>
     <property name="sets" value="amen_rung"/>
-    <property name="text" value="The Amen rings out across the Vale. For the first time in a thousand years, the hymn ends."/>
+    <property name="text" value="The Amen rings out across the Vale. For the first time in seven hundred years, the hymn ends."/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="zone" value="v7"/>
    </properties>
@@ -9920,7 +10014,7 @@
     <property name="mechanic" value="bell"/>
     <property name="note" type="int" value="4"/>
     <property name="sets" value="amen_rung"/>
-    <property name="text" value="The Amen rings out across the Vale. For the first time in a thousand years, the hymn ends."/>
+    <property name="text" value="The Amen rings out across the Vale. For the first time in seven hundred years, the hymn ends."/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="zone" value="v7"/>
    </properties>
@@ -9933,7 +10027,7 @@
     <property name="mechanic" value="bell"/>
     <property name="note" type="int" value="5"/>
     <property name="sets" value="amen_rung"/>
-    <property name="text" value="The Amen rings out across the Vale. For the first time in a thousand years, the hymn ends."/>
+    <property name="text" value="The Amen rings out across the Vale. For the first time in seven hundred years, the hymn ends."/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
     <property name="zone" value="v7"/>
    </properties>
@@ -9954,17 +10048,6 @@
     <property name="mechanic" value="note"/>
     <property name="text" value="The Requiem, as sung at the Ossuary. Four bell-marks drawn by size at the foot of the page.\n\nUnder them, underlined twice: &quot;The Amen - never to be rung.&quot;"/>
     <property name="title" value="Hymn Sheet"/>
-    <property name="unity:IsTrigger" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="5204" name="barrow_glint_light" type="light" x="3920" y="2224" width="32" height="32">
-   <properties>
-    <property name="anim" value="pulse"/>
-    <property name="anim_amount" value="0.3"/>
-    <property name="color" value="#ffd27a"/>
-    <property name="light" value="torch"/>
-    <property name="mechanic" value="light"/>
-    <property name="radius" value="2.5"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
    </properties>
   </object>
@@ -10078,7 +10161,7 @@
   <object id="5222" name="soldier_letter" type="note" x="2982" y="2918" width="77" height="58">
    <properties>
     <property name="mechanic" value="note"/>
-    <property name="text" value="Mother - they've got us guarding a bridge with lamps full of the green. Anything that dies near them gets up again. Even ours.\n\nBreak the lamps first, or nothing here stays dead."/>
+    <property name="text" value="Mother - they've got us guarding a bridge with lamps full of the green. Anything that dies near them gets up again. Even ours.\n\nBreak the lamps first, or nothing here stays dead.\n\nCaptain read us the King's own order: the drain-man's Eye goes to the capital whole. Not a scratch on it. Nobody says what for."/>
     <property name="title" value="Soldier's Letter"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
    </properties>
@@ -10102,7 +10185,7 @@
     <property name="sets" value="window_solved"/>
     <property name="solved_hint" value="Moonlight stains the floor red. Down the path, the ward on the mausoleum gate gutters out."/>
     <property name="start" value="1,2,3,1"/>
-    <property name="text" value="Moonlight floods the glass. The blue was never sky - it was blood. The Ascended is not rising. He is held down - and the hands on him wear the rings of the great Houses."/>
+    <property name="text" value="Moonlight floods the glass, and the picture is not the one in the prayer books. No glory, no gold. A figure lies on its back above dark water, and many hands reach over it - each hand wearing the ring of a great House. White birds rise from the water. Close to the figure's chest, one hand wears no ring at all."/>
     <property name="title" value="The Rose Window"/>
     <property name="truth" value="rose_truth"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
@@ -10313,7 +10396,7 @@
    <properties>
     <property name="anim" value="pulse"/>
     <property name="anim_amount" value="0.25"/>
-    <property name="color" value="#c070ff"/>
+    <property name="color" value="#e05a64"/>
     <property name="light" value="torch"/>
     <property name="mechanic" value="light"/>
     <property name="radius" type="int" value="7"/>
@@ -10401,7 +10484,7 @@
    <properties>
     <property name="anim" value="pulse"/>
     <property name="anim_amount" value="0.2"/>
-    <property name="color" value="#b070ff"/>
+    <property name="color" value="#e05a64"/>
     <property name="light" value="torch"/>
     <property name="mechanic" value="light"/>
     <property name="off_when" value="window_solved|mausoleum_gate_open"/>
@@ -10425,7 +10508,7 @@
     <property name="when" value="x3_cleared,amen_rung,south_bell_rung"/>
    </properties>
   </object>
-  <object id="5427" name="bell_west" type="bell" x="288" y="1977.6" width="96" height="51.2">
+  <object id="5427" name="bell_west" type="bell" x="334" y="1981.6" width="96" height="51.2">
    <properties>
     <property name="answer" value="1"/>
     <property name="group" value="west"/>
@@ -10455,7 +10538,7 @@
     <property name="zone" value="v9"/>
    </properties>
   </object>
-  <object id="5429" name="isolde_summon" type="summon" x="288" y="1920" width="96" height="32">
+  <object id="5429" name="isolde_summon" type="summon" x="455" y="1942" width="96" height="32">
    <properties>
     <property name="actor" value="Matriarch_Isolde"/>
     <property name="actor_anim_appear" value="Cast"/>
@@ -10477,6 +10560,7 @@
     <property name="throw_line" value="Down you go, little thief."/>
     <property name="throw_time" value="1.15"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="unless" value="x3_cleared"/>
     <property name="warp_text" value="Cold hands close around your ankles - and the earth drags you down into the Bower."/>
     <property name="when" value="west_bell_rung"/>
    </properties>
@@ -10500,6 +10584,24 @@
     <property name="light" value="torch"/>
     <property name="mechanic" value="light"/>
     <property name="radius" value="4.5"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="5474" name="reliquary_old" type="note" gid="4987" x="1803.2" y="2499.2" width="44" height="30">
+   <properties>
+    <property name="mechanic" value="note"/>
+    <property name="range" type="float" value="1.2"/>
+    <property name="text" value="A reliquary case far older than the Chapel's pews, its lid stamped with the crown of Vael. Whoever brought it here brought it a long way, and in a hurry: one hinge is torn half off.\n\nThe velvet inside is pressed into hollows. One long and ridged, like a string of knuckles. Two small and curled, like shells. One round.\n\nAll of them empty. Dust has settled in each of them, and in nothing else."/>
+    <property name="title" value="Reliquary of the Crown"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="5475" name="reliquary_eye_case" type="note" gid="4988" x="396.8" y="1809.6" width="24" height="20">
+   <properties>
+    <property name="mechanic" value="note"/>
+    <property name="range" type="float" value="1.2"/>
+    <property name="text" value="A small case of black lacquer left on the crypt step - new, its gold still bright, the King's seal on the lid. Inside, a single round hollow lined with fresh red velvet. It is about the size of an eye.\n\nA card is tucked into the lid:\n\nTo be filled in the Vale, and carried to the capital by a Vey hand. Not to be opened on the road.\n   - by order of the Crown"/>
+    <property name="title" value="A Case for the King"/>
     <property name="unity:IsTrigger" type="bool" value="true"/>
    </properties>
   </object>
