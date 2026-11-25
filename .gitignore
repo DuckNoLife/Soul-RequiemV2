@@ -265,3 +265,4 @@ __pycache__/
 /Claude outputs/
 _to_delete/ 
 _to_delete/ 
+*.docx
