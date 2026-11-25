@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: ffaf94cbf13946158bc05c7ef0d330f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2539688353942563488
+    second: abs_sun_pillar_0
+  - first:
+      213: -3595826309469763716
+    second: abs_sun_pillar_1
+  - first:
+      213: -2697630155422641590
+    second: abs_sun_pillar_2
+  - first:
+      213: -3740495581074029759
+    second: abs_sun_pillar_3
+  - first:
+      213: -2784156083709304239
+    second: abs_sun_pillar_4
+  - first:
+      213: 4493725716175036113
+    second: abs_sun_pillar_5
+  - first:
+      213: 4138093222038838384
+    second: abs_sun_pillar_6
+  - first:
+      213: 1766552871838914000
+    second: abs_sun_pillar_7
+  - first:
+      213: 800862547082670411
+    second: abs_sun_pillar_8
+  - first:
+      213: 791499239775879520
+    second: abs_sun_pillar_9
+  - first:
+      213: -2006410087111634714
+    second: abs_sun_pillar_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: abs_sun_pillar_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 46
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 0.144737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f55046c14b4661b268c9433859eec1
+      internalID: -2539688353942563488
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sun_pillar_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 46
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 0.144737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19cfbd1dab37442fb8a718e4c44158c1
+      internalID: -3595826309469763716
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sun_pillar_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 46
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 0.144737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95bbfa1fdee944c9b330ec207f2dc31e
+      internalID: -2697630155422641590
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sun_pillar_3
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 46
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 0.144737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9182f20a57a049c39b389f7a2dd29acf
+      internalID: -3740495581074029759
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sun_pillar_4
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 46
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 0.144737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8648b810b054c06af697b2635583c2a
+      internalID: -2784156083709304239
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sun_pillar_5
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 46
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 0.144737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df271e6351b741c2b1f3f1406786a099
+      internalID: 4493725716175036113
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sun_pillar_6
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 46
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 0.144737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99bde62f22ff4e68ba5123380d8c1172
+      internalID: 4138093222038838384
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sun_pillar_7
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 0
+        width: 46
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 0.144737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a537c2d14a4581a6cfbcdc14a31be9
+      internalID: 1766552871838914000
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sun_pillar_8
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 0
+        width: 46
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 0.144737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff9fe9cd9644d4c83501e8ddcac324a
+      internalID: 800862547082670411
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sun_pillar_9
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 0
+        width: 46
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 0.144737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c0db36fc1a42c581ded9fe1978dbdd
+      internalID: 791499239775879520
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sun_pillar_10
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 0
+        width: 46
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 0.144737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a009a79df61d4bc4a5b2acea6404bf7e
+      internalID: -2006410087111634714
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      abs_sun_pillar_0: -2539688353942563488
+      abs_sun_pillar_1: -3595826309469763716
+      abs_sun_pillar_2: -2697630155422641590
+      abs_sun_pillar_3: -3740495581074029759
+      abs_sun_pillar_4: -2784156083709304239
+      abs_sun_pillar_5: 4493725716175036113
+      abs_sun_pillar_6: 4138093222038838384
+      abs_sun_pillar_7: 1766552871838914000
+      abs_sun_pillar_8: 800862547082670411
+      abs_sun_pillar_9: 791499239775879520
+      abs_sun_pillar_10: -2006410087111634714
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

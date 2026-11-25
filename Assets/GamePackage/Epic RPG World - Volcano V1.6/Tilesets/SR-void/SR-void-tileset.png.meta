@@ -1,0 +1,5733 @@
+fileFormatVersion: 2
+guid: 8d333a7c2995bb84abbdaf087a11bd46
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3017909888136654925
+    second: SR-void-tileset_0
+  - first:
+      213: 3100023481216461859
+    second: SR-void-tileset_1
+  - first:
+      213: 2193715137126436665
+    second: SR-void-tileset_2
+  - first:
+      213: -7671332548390196631
+    second: SR-void-tileset_3
+  - first:
+      213: -7174804325483549225
+    second: SR-void-tileset_4
+  - first:
+      213: 2958855743671508445
+    second: SR-void-tileset_5
+  - first:
+      213: 2754500685977574709
+    second: SR-void-tileset_6
+  - first:
+      213: 1339459250337500450
+    second: SR-void-tileset_7
+  - first:
+      213: 8969313776528826721
+    second: SR-void-tileset_8
+  - first:
+      213: -391023866283993422
+    second: SR-void-tileset_9
+  - first:
+      213: 3118568201981470175
+    second: SR-void-tileset_10
+  - first:
+      213: -7634279946850025848
+    second: SR-void-tileset_11
+  - first:
+      213: -6403610693285030337
+    second: SR-void-tileset_12
+  - first:
+      213: 7414789446514191981
+    second: SR-void-tileset_13
+  - first:
+      213: 7067860746918842055
+    second: SR-void-tileset_14
+  - first:
+      213: 2573656596609819363
+    second: SR-void-tileset_15
+  - first:
+      213: 3393165011505421721
+    second: SR-void-tileset_16
+  - first:
+      213: -3735185648993518620
+    second: SR-void-tileset_17
+  - first:
+      213: 3212637744834217559
+    second: SR-void-tileset_18
+  - first:
+      213: 4934443075932589064
+    second: SR-void-tileset_19
+  - first:
+      213: 317197393265827808
+    second: SR-void-tileset_20
+  - first:
+      213: 9199248224191909652
+    second: SR-void-tileset_21
+  - first:
+      213: 1045019743412748387
+    second: SR-void-tileset_22
+  - first:
+      213: 6583684755446558289
+    second: SR-void-tileset_23
+  - first:
+      213: -4691826309891893445
+    second: SR-void-tileset_24
+  - first:
+      213: -2075497560093403024
+    second: SR-void-tileset_25
+  - first:
+      213: 3908997095753743356
+    second: SR-void-tileset_26
+  - first:
+      213: 8374683684090497654
+    second: SR-void-tileset_27
+  - first:
+      213: -8261125164611242610
+    second: SR-void-tileset_28
+  - first:
+      213: -1398794055493012195
+    second: SR-void-tileset_29
+  - first:
+      213: 8161129889363344331
+    second: SR-void-tileset_30
+  - first:
+      213: -1526784334510644540
+    second: SR-void-tileset_31
+  - first:
+      213: -1762955976719971543
+    second: SR-void-tileset_32
+  - first:
+      213: 7137116931630491197
+    second: SR-void-tileset_33
+  - first:
+      213: 6631063906561190544
+    second: SR-void-tileset_34
+  - first:
+      213: -814947951695684500
+    second: SR-void-tileset_35
+  - first:
+      213: -3304358170782522139
+    second: SR-void-tileset_36
+  - first:
+      213: 4798685488617089294
+    second: SR-void-tileset_37
+  - first:
+      213: -4194416537163441440
+    second: SR-void-tileset_38
+  - first:
+      213: -9220979823352107940
+    second: SR-void-tileset_39
+  - first:
+      213: -4633055402223616139
+    second: SR-void-tileset_40
+  - first:
+      213: 5390787862077441890
+    second: SR-void-tileset_41
+  - first:
+      213: 9186405564322613722
+    second: SR-void-tileset_42
+  - first:
+      213: 5844720477427596431
+    second: SR-void-tileset_43
+  - first:
+      213: -3740930679767190046
+    second: SR-void-tileset_44
+  - first:
+      213: 6875737204127900521
+    second: SR-void-tileset_45
+  - first:
+      213: -5626819852699680083
+    second: SR-void-tileset_46
+  - first:
+      213: -9182347107410267112
+    second: SR-void-tileset_47
+  - first:
+      213: 7826351410740214657
+    second: SR-void-tileset_48
+  - first:
+      213: -7414198375081540302
+    second: SR-void-tileset_49
+  - first:
+      213: 6928770092398496064
+    second: SR-void-tileset_50
+  - first:
+      213: -6805394671726293505
+    second: SR-void-tileset_51
+  - first:
+      213: -2537178565871703281
+    second: SR-void-tileset_52
+  - first:
+      213: 7616108834829284866
+    second: SR-void-tileset_53
+  - first:
+      213: 7196601364217161520
+    second: SR-void-tileset_54
+  - first:
+      213: 5623478087640943
+    second: SR-void-tileset_55
+  - first:
+      213: -8874890749307670303
+    second: SR-void-tileset_56
+  - first:
+      213: 8819110264941176690
+    second: SR-void-tileset_57
+  - first:
+      213: 1649318093974187085
+    second: SR-void-tileset_58
+  - first:
+      213: -855115374604065294
+    second: SR-void-tileset_59
+  - first:
+      213: 1721772348253152893
+    second: SR-void-tileset_60
+  - first:
+      213: 2772655327099729319
+    second: SR-void-tileset_61
+  - first:
+      213: 2004771096025153235
+    second: SR-void-tileset_62
+  - first:
+      213: 8313870630090271602
+    second: SR-void-tileset_63
+  - first:
+      213: 119223899094369178
+    second: SR-void-tileset_64
+  - first:
+      213: 3886708717406053604
+    second: SR-void-tileset_65
+  - first:
+      213: 4714439042771453709
+    second: SR-void-tileset_66
+  - first:
+      213: -7408999288624215808
+    second: SR-void-tileset_67
+  - first:
+      213: -4068548329875085259
+    second: SR-void-tileset_68
+  - first:
+      213: -4827426886240212979
+    second: SR-void-tileset_69
+  - first:
+      213: 650214044096463156
+    second: SR-void-tileset_70
+  - first:
+      213: 7229249385902190069
+    second: SR-void-tileset_71
+  - first:
+      213: -8517941028246709401
+    second: SR-void-tileset_72
+  - first:
+      213: -870798216023844422
+    second: SR-void-tileset_73
+  - first:
+      213: -59122933433233705
+    second: SR-void-tileset_74
+  - first:
+      213: -970168824101360169
+    second: SR-void-tileset_75
+  - first:
+      213: 1192900183392675364
+    second: SR-void-tileset_76
+  - first:
+      213: 3483918351621291504
+    second: SR-void-tileset_77
+  - first:
+      213: 1830115180545976667
+    second: SR-void-tileset_78
+  - first:
+      213: -322669963790779110
+    second: SR-void-tileset_79
+  - first:
+      213: -505166916362286200
+    second: SR-void-tileset_80
+  - first:
+      213: 6548966108391918316
+    second: SR-void-tileset_81
+  - first:
+      213: 4532643812197074801
+    second: SR-void-tileset_82
+  - first:
+      213: 6005166379941285980
+    second: SR-void-tileset_83
+  - first:
+      213: -6695407397152537729
+    second: SR-void-tileset_84
+  - first:
+      213: -7820373327799410329
+    second: SR-void-tileset_85
+  - first:
+      213: -736144850334592675
+    second: SR-void-tileset_86
+  - first:
+      213: 1621328064812106075
+    second: SR-void-tileset_87
+  - first:
+      213: -574803454126917470
+    second: SR-void-tileset_88
+  - first:
+      213: 2245009214721183691
+    second: SR-void-tileset_89
+  - first:
+      213: -6653245032108877064
+    second: SR-void-tileset_90
+  - first:
+      213: -5100244631937612287
+    second: SR-void-tileset_91
+  - first:
+      213: 6599604279865624563
+    second: SR-void-tileset_92
+  - first:
+      213: 1083125037482940063
+    second: SR-void-tileset_93
+  - first:
+      213: 3438936298687939204
+    second: SR-void-tileset_94
+  - first:
+      213: 3914214762770806554
+    second: SR-void-tileset_95
+  - first:
+      213: -8540407610329521447
+    second: SR-void-tileset_96
+  - first:
+      213: -8671119825212384652
+    second: SR-void-tileset_97
+  - first:
+      213: 6106107520248926391
+    second: SR-void-tileset_98
+  - first:
+      213: 6273239533667218548
+    second: SR-void-tileset_99
+  - first:
+      213: -647886487207380601
+    second: SR-void-tileset_100
+  - first:
+      213: -1135400608834537265
+    second: SR-void-tileset_101
+  - first:
+      213: 8488134726180260945
+    second: SR-void-tileset_102
+  - first:
+      213: -7075136531801807344
+    second: SR-void-tileset_103
+  - first:
+      213: -5350094299300408765
+    second: SR-void-tileset_104
+  - first:
+      213: 8978917737151409700
+    second: SR-void-tileset_105
+  - first:
+      213: -8074632206761970341
+    second: SR-void-tileset_106
+  - first:
+      213: -586510871606012944
+    second: SR-void-tileset_107
+  - first:
+      213: 6130127843308487346
+    second: SR-void-tileset_108
+  - first:
+      213: -8425755608330567036
+    second: SR-void-tileset_109
+  - first:
+      213: -1743567746647857689
+    second: SR-void-tileset_110
+  - first:
+      213: 8803540653600529286
+    second: SR-void-tileset_111
+  - first:
+      213: -241376578206443543
+    second: SR-void-tileset_112
+  - first:
+      213: 7668479569761449333
+    second: SR-void-tileset_113
+  - first:
+      213: 4100776039626846041
+    second: SR-void-tileset_114
+  - first:
+      213: -680717789849787574
+    second: SR-void-tileset_115
+  - first:
+      213: 8709804938057723950
+    second: SR-void-tileset_116
+  - first:
+      213: -7680297846774283290
+    second: SR-void-tileset_117
+  - first:
+      213: -4111229092290804892
+    second: SR-void-tileset_118
+  - first:
+      213: -5904352196749447730
+    second: SR-void-tileset_119
+  - first:
+      213: 1038422249086274332
+    second: SR-void-tileset_120
+  - first:
+      213: 2171509284844397434
+    second: SR-void-tileset_121
+  - first:
+      213: 2670613302736363642
+    second: SR-void-tileset_122
+  - first:
+      213: -5636621478070366556
+    second: SR-void-tileset_123
+  - first:
+      213: -8651234217220504112
+    second: SR-void-tileset_124
+  - first:
+      213: -538483678322743845
+    second: SR-void-tileset_125
+  - first:
+      213: 975475587861583274
+    second: SR-void-tileset_126
+  - first:
+      213: 2536473073582817028
+    second: SR-void-tileset_127
+  - first:
+      213: -5106166146979268047
+    second: SR-void-tileset_128
+  - first:
+      213: 3437332134497113902
+    second: SR-void-tileset_129
+  - first:
+      213: -7908234101863445751
+    second: SR-void-tileset_130
+  - first:
+      213: 3584167079380369407
+    second: SR-void-tileset_131
+  - first:
+      213: 5181747213038931632
+    second: SR-void-tileset_132
+  - first:
+      213: -2629409367591309346
+    second: SR-void-tileset_133
+  - first:
+      213: -1372403890488586706
+    second: SR-void-tileset_134
+  - first:
+      213: -7443198459714342517
+    second: SR-void-tileset_135
+  - first:
+      213: 5407271802984366798
+    second: SR-void-tileset_136
+  - first:
+      213: 2395083041152527923
+    second: SR-void-tileset_137
+  - first:
+      213: -6205052295491581387
+    second: SR-void-tileset_138
+  - first:
+      213: -1877437490183460831
+    second: SR-void-tileset_139
+  - first:
+      213: -1677913754838684607
+    second: SR-void-tileset_140
+  - first:
+      213: 4678217694382874826
+    second: SR-void-tileset_141
+  - first:
+      213: 2302904900040416572
+    second: SR-void-tileset_142
+  - first:
+      213: 6097386283345083348
+    second: SR-void-tileset_143
+  - first:
+      213: 7635405014512249955
+    second: SR-void-tileset_144
+  - first:
+      213: -5953907917303978674
+    second: SR-void-tileset_145
+  - first:
+      213: -6490645967542194158
+    second: SR-void-tileset_146
+  - first:
+      213: -2213121578008375263
+    second: SR-void-tileset_147
+  - first:
+      213: 8658335473142592046
+    second: SR-void-tileset_148
+  - first:
+      213: 1952564141577516985
+    second: SR-void-tileset_149
+  - first:
+      213: 8118134952993960283
+    second: SR-void-tileset_150
+  - first:
+      213: -6554781076324486324
+    second: SR-void-tileset_151
+  - first:
+      213: -4256643997217340081
+    second: SR-void-tileset_152
+  - first:
+      213: -6363727198334985984
+    second: SR-void-tileset_153
+  - first:
+      213: 3196105188930377461
+    second: SR-void-tileset_154
+  - first:
+      213: 3402410167292831621
+    second: SR-void-tileset_155
+  - first:
+      213: -8552740729540881542
+    second: SR-void-tileset_156
+  - first:
+      213: -169276765426491766
+    second: SR-void-tileset_157
+  - first:
+      213: -5329737277009721453
+    second: SR-void-tileset_158
+  - first:
+      213: 8054141054881596632
+    second: SR-void-tileset_159
+  - first:
+      213: -5040116474803902961
+    second: SR-void-tileset_160
+  - first:
+      213: -2184175993859383760
+    second: SR-void-tileset_161
+  - first:
+      213: 3535010182608655658
+    second: SR-void-tileset_162
+  - first:
+      213: 427329212914792346
+    second: SR-void-tileset_163
+  - first:
+      213: 2372151593246831368
+    second: SR-void-tileset_164
+  - first:
+      213: 1736397729945723625
+    second: SR-void-tileset_165
+  - first:
+      213: -6097461300633443744
+    second: SR-void-tileset_166
+  - first:
+      213: 6933262895364248023
+    second: SR-void-tileset_167
+  - first:
+      213: 8430934285506243079
+    second: SR-void-tileset_168
+  - first:
+      213: 1092596926815097300
+    second: SR-void-tileset_169
+  - first:
+      213: -5092221513685777377
+    second: SR-void-tileset_170
+  - first:
+      213: 18738914924865404
+    second: SR-void-tileset_171
+  - first:
+      213: 4035141554690676423
+    second: SR-void-tileset_172
+  - first:
+      213: -1554796181493814293
+    second: SR-void-tileset_173
+  - first:
+      213: -1553323934936698263
+    second: SR-void-tileset_174
+  - first:
+      213: 5638407462352714783
+    second: SR-void-tileset_175
+  - first:
+      213: 7099466192015108861
+    second: SR-void-tileset_176
+  - first:
+      213: -5193171658435087488
+    second: SR-void-tileset_177
+  - first:
+      213: 3865194361959296953
+    second: SR-void-tileset_178
+  - first:
+      213: -4207461406228138678
+    second: SR-void-tileset_179
+  - first:
+      213: 3995216588784605927
+    second: SR-void-tileset_180
+  - first:
+      213: -3999913393438378048
+    second: SR-void-tileset_181
+  - first:
+      213: 5228130951231957713
+    second: SR-void-tileset_182
+  - first:
+      213: 3972789378259320133
+    second: SR-void-tileset_183
+  - first:
+      213: 8653359523688120689
+    second: SR-void-tileset_184
+  - first:
+      213: -5640469864656249541
+    second: SR-void-tileset_185
+  - first:
+      213: -99479202425357094
+    second: SR-void-tileset_186
+  - first:
+      213: 1444854834197210238
+    second: SR-void-tileset_187
+  - first:
+      213: 34057783483327687
+    second: SR-void-tileset_188
+  - first:
+      213: 2486318943973358244
+    second: SR-void-tileset_189
+  - first:
+      213: 5391940659996158127
+    second: SR-void-tileset_190
+  - first:
+      213: -8758663747331957934
+    second: SR-void-tileset_191
+  - first:
+      213: -1277070345554413240
+    second: SR-void-tileset_192
+  - first:
+      213: -177221758305356893
+    second: SR-void-tileset_193
+  - first:
+      213: -8011432411668211395
+    second: SR-void-tileset_194
+  - first:
+      213: 2673380661284840590
+    second: SR-void-tileset_195
+  - first:
+      213: -203881894319802657
+    second: SR-void-tileset_196
+  - first:
+      213: 4949122080397296273
+    second: SR-void-tileset_197
+  - first:
+      213: -105551455286852661
+    second: SR-void-tileset_198
+  - first:
+      213: -3388564885460489840
+    second: SR-void-tileset_199
+  - first:
+      213: 4564653602857537905
+    second: SR-void-tileset_200
+  - first:
+      213: 8558420982101880514
+    second: SR-void-tileset_201
+  - first:
+      213: -105080486566358610
+    second: SR-void-tileset_202
+  - first:
+      213: -3014483202207735788
+    second: SR-void-tileset_203
+  - first:
+      213: -2007999817142985140
+    second: SR-void-tileset_204
+  - first:
+      213: 8891717750839344397
+    second: SR-void-tileset_205
+  - first:
+      213: 4028839273859448151
+    second: SR-void-tileset_206
+  - first:
+      213: 8351605679871984735
+    second: SR-void-tileset_207
+  - first:
+      213: 5874875244103682908
+    second: SR-void-tileset_208
+  - first:
+      213: -4494750939355908244
+    second: SR-void-tileset_209
+  - first:
+      213: 3070088777025509945
+    second: SR-void-tileset_210
+  - first:
+      213: 3075838855297062639
+    second: SR-void-tileset_211
+  - first:
+      213: 5454372587311913632
+    second: SR-void-tileset_212
+  - first:
+      213: 4211471079738306671
+    second: SR-void-tileset_213
+  - first:
+      213: 5651714142730103846
+    second: SR-void-tileset_214
+  - first:
+      213: -969197407846772079
+    second: SR-void-tileset_215
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SR-void-tileset_0
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2026
+        width: 45
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40368ebd05c1e920800000000000000
+      internalID: 3017909888136654925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 2026
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ce6497eee750b20800000000000000
+      internalID: 3100023481216461859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_2
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 2032
+        width: 45
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f81de5b44a17e10800000000000000
+      internalID: 2193715137126436665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_3
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 2032
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a6f4311b3f98590800000000000000
+      internalID: -7671332548390196631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_4
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 2032
+        width: 38
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dded9eca79fd6c90800000000000000
+      internalID: -7174804325483549225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_5
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 2033
+        width: 45
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd1a274f97ff0920800000000000000
+      internalID: 2958855743671508445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_6
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2033
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d5349a7c3f93620800000000000000
+      internalID: 2754500685977574709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_7
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 2034
+        width: 45
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d4a776717b69210800000000000000
+      internalID: 1339459250337500450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_8
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 2034
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161a409bb57697c70800000000000000
+      internalID: 8969313776528826721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_9
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 2032
+        width: 52
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b651778dddc29af0800000000000000
+      internalID: -391023866283993422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_10
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 2034
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd52feeb141674b20800000000000000
+      internalID: 3118568201981470175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_11
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 2032
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ebd1426d69d0690800000000000000
+      internalID: -7634279946850025848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_12
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 2033
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f365ad2900ec127a0800000000000000
+      internalID: -6403610693285030337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_13
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 2033
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e2bc367bf96e660800000000000000
+      internalID: 7414789446514191981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_14
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 2034
+        width: 33
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce4606f6e5161260800000000000000
+      internalID: 7067860746918842055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_15
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 2032
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2e4cee90777b320800000000000000
+      internalID: 2573656596609819363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_16
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 2034
+        width: 59
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d9017a991f61f20800000000000000
+      internalID: 3393165011505421721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_17
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 2034
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ebba9d2174f92cc0800000000000000
+      internalID: -3735185648993518620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_18
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 2034
+        width: 35
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7560bd4f105959c20800000000000000
+      internalID: 3212637744834217559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_19
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 2034
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c095175d9aa7440800000000000000
+      internalID: 4934443075932589064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_20
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 2034
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef1a4d3959e66400800000000000000
+      internalID: 317197393265827808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_21
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 2034
+        width: 46
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f0a9b258b4aaf70800000000000000
+      internalID: 9199248224191909652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_22
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 2034
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360036d7be7a08e00800000000000000
+      internalID: 1045019743412748387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_23
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 2018
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15eeb893762fd5b50800000000000000
+      internalID: 6583684755446558289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_24
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 2018
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37df0b54d843eeb0800000000000000
+      internalID: -4691826309891893445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_25
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 2016
+        width: 76
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078517e27f95233e0800000000000000
+      internalID: -2075497560093403024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_26
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 2017
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb7f68d52c8f3630800000000000000
+      internalID: 3908997095753743356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_27
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 2019
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a4970907ad83470800000000000000
+      internalID: 8374683684090497654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_28
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 2019
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e857e4e9e669a5d80800000000000000
+      internalID: -8261125164611242610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_29
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 2019
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d153968b73c769ce0800000000000000
+      internalID: -1398794055493012195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_30
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 2017
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb33551568224170800000000000000
+      internalID: 8161129889363344331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_31
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 2018
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2acdcacb5cfcae0800000000000000
+      internalID: -1526784334510644540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_32
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 2018
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b44f431e8b887e0800000000000000
+      internalID: -1762955976719971543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_33
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 2018
+        width: 46
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36e24609022c0360800000000000000
+      internalID: 7137116931630491197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_34
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 2018
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a6e797d75460c50800000000000000
+      internalID: 6631063906561190544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_35
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 2018
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c1fbcd729b0b4f0800000000000000
+      internalID: -814947951695684500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_36
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 2016
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e429db30cf8422d0800000000000000
+      internalID: -3304358170782522139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_37
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 2016
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09e7d1070b589240800000000000000
+      internalID: 4798685488617089294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_38
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 2016
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea5956e1607ac5c0800000000000000
+      internalID: -4194416537163441440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_39
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 2016
+        width: 45
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5cad0c94bf780080800000000000000
+      internalID: -9220979823352107940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_40
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 2016
+        width: 42
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57fb1cd98a414bfb0800000000000000
+      internalID: -4633055402223616139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_41
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 2016
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2670d9abffcefca40800000000000000
+      internalID: 5390787862077441890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_42
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1912
+        width: 112
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad90f18603bac7f70800000000000000
+      internalID: 9186405564322613722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_43
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1826
+        width: 155
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8cf58cbe4e9c1150800000000000000
+      internalID: 5844720477427596431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_44
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1663
+        width: 418
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5bd17fd5b851cc0800000000000000
+      internalID: -3740930679767190046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_45
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 1829
+        width: 151
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9632bf4de868b6f50800000000000000
+      internalID: 6875737204127900521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_46
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 1987
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da248b8f72589e1b0800000000000000
+      internalID: -5626819852699680083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_47
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 1984
+        width: 58
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814b97ab4ffb19080800000000000000
+      internalID: -9182347107410267112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_48
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 2000
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b3c8c6429cc9c60800000000000000
+      internalID: 7826351410740214657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_49
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 1987
+        width: 59
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2358cf62cd97b1990800000000000000
+      internalID: -7414198375081540302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_50
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 1999
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04943c750bfe72060800000000000000
+      internalID: 6928770092398496064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_51
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 1984
+        width: 76
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd0b634a916e81a0800000000000000
+      internalID: -6805394671726293505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_52
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 1987
+        width: 78
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b6b7179812accd0800000000000000
+      internalID: -2537178565871703281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_53
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 2000
+        width: 46
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206b6b622aad1b960800000000000000
+      internalID: 7616108834829284866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_54
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 2000
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0376140cfc67fd360800000000000000
+      internalID: 7196601364217161520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_55
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 1920
+        width: 48
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f67e0d5068af31000800000000000000
+      internalID: 5623478087640943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_56
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1762
+        width: 418
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0bd1b72ed06d480800000000000000
+      internalID: -8874890749307670303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_57
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1762
+        width: 418
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277e1d07f06c36a70800000000000000
+      internalID: 8819110264941176690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_58
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 1791
+        width: 162
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ca4f8611e83e610800000000000000
+      internalID: 1649318093974187085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_59
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 1944
+        width: 94
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f5efbee8150224f0800000000000000
+      internalID: -855115374604065294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_60
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1752
+        width: 112
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7628b114d6f4e710800000000000000
+      internalID: 1721772348253152893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_61
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 1760
+        width: 48
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5bf5074537a7620800000000000000
+      internalID: 2772655327099729319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_62
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 1784
+        width: 94
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3debc8aa0b062db10800000000000000
+      internalID: 2004771096025153235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_63
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1663
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b651f0a4dc06370800000000000000
+      internalID: 8313870630090271602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_64
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1535
+        width: 50
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a93c14a218197a100800000000000000
+      internalID: 119223899094369178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_65
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1666
+        width: 162
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4e66e5cfc50f530800000000000000
+      internalID: 3886708717406053604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_66
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1667
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0700abc45d0d6140800000000000000
+      internalID: 4714439042771453709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_67
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1667
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0098e6cc662fd2990800000000000000
+      internalID: -7408999288624215808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_68
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1663
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 538694e99dc9987c0800000000000000
+      internalID: -4068548329875085259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_69
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 1535
+        width: 52
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d086b72e2d8810db0800000000000000
+      internalID: -4827426886240212979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_70
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1669
+        width: 162
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43107566a36060900800000000000000
+      internalID: 650214044096463156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_71
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 1668
+        width: 55
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd2967a304735460800000000000000
+      internalID: 7229249385902190069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_72
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 1668
+        width: 55
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b11a9c3c13ac980800000000000000
+      internalID: -8517941028246709401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_73
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1713
+        width: 39
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9daded2ad4ae3f0800000000000000
+      internalID: -870798216023844422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_74
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1713
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de02aa5104fd2ff0800000000000000
+      internalID: -59122933433233705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_75
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 1713
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dda74b38944982f0800000000000000
+      internalID: -970168824101360169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_76
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 1713
+        width: 45
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4266e9385680e8010800000000000000
+      internalID: 1192900183392675364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_77
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 1713
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fdf9de384d595030800000000000000
+      internalID: 3483918351621291504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_78
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 1713
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b592e727f00e56910800000000000000
+      internalID: 1830115180545976667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_79
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 1713
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1dff84a065a58bf0800000000000000
+      internalID: -322669963790779110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_80
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 1714
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b42f5bd594df8f0800000000000000
+      internalID: -505166916362286200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_81
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 1699
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceac5c84af992ea50800000000000000
+      internalID: 6548966108391918316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_82
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 1714
+        width: 36
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177016f388f27ee30800000000000000
+      internalID: 4532643812197074801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_83
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 1699
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50d48d7103a65350800000000000000
+      internalID: 6005166379941285980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_84
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 1714
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73433232722513a0800000000000000
+      internalID: -6695407397152537729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_85
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 1714
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761a39974e3787390800000000000000
+      internalID: -7820373327799410329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_86
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1699
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51d29ca820b8c5f0800000000000000
+      internalID: -736144850334592675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_87
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 1714
+        width: 36
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b514f77e84d108610800000000000000
+      internalID: 1621328064812106075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_88
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 1699
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8f81dcd43e508f0800000000000000
+      internalID: -574803454126917470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_89
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1714
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf4fe87cffd72f10800000000000000
+      internalID: 2245009214721183691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_90
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 1699
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa9489c4eceaa3a0800000000000000
+      internalID: -6653245032108877064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_91
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1711
+        width: 57
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10604cd878a4839b0800000000000000
+      internalID: -5100244631937612287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_92
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1699
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7c9875021869b50800000000000000
+      internalID: 6599604279865624563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_93
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1699
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f969082ab78080f00800000000000000
+      internalID: 1083125037482940063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_94
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1699
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482cd78e75e89bf20800000000000000
+      internalID: 3438936298687939204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_95
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 1697
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a173b8d9695125630800000000000000
+      internalID: 3914214762770806554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_96
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 1697
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2244507806a7980800000000000000
+      internalID: -8540407610329521447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_97
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 1699
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a5e55e57ef9a780800000000000000
+      internalID: -8671119825212384652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_98
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 1699
+        width: 43
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b057c820704db450800000000000000
+      internalID: 6106107520248926391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_99
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 1699
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474fb2b6e160f0750800000000000000
+      internalID: 6273239533667218548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_100
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 1699
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7897a3b2cae3207f0800000000000000
+      internalID: -647886487207380601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_101
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 1699
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8b7a0792f3e30f0800000000000000
+      internalID: -1135400608834537265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_102
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 1697
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15cc1a7bf89ebc570800000000000000
+      internalID: 8488134726180260945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_103
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 1699
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016609c5fc010dd90800000000000000
+      internalID: -7075136531801807344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_104
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1696
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3425b5fa495a0c5b0800000000000000
+      internalID: -5350094299300408765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_105
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 1699
+        width: 43
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e2d5e0c168b9c70800000000000000
+      internalID: 8978917737151409700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_106
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1663
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5536080ac421ff80800000000000000
+      internalID: -8074632206761970341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_107
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1375
+        width: 545
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3d401487b4cd7f0800000000000000
+      internalID: -586510871606012944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_108
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 1548
+        width: 194
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b242207bc6921550800000000000000
+      internalID: 6130127843308487346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_109
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 1535
+        width: 194
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48283317ae3b11b80800000000000000
+      internalID: -8425755608330567036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_110
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1631
+        width: 47
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5e93b4f5a9dc7e0800000000000000
+      internalID: -1743567746647857689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_111
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1631
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bd19fc4957c2a70800000000000000
+      internalID: 8803540653600529286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_112
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1631
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7d7eee74576acf0800000000000000
+      internalID: -241376578206443543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_113
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1599
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575b8f21a89eb6a60800000000000000
+      internalID: 7668479569761449333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_114
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1523
+        width: 546
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f2469c412e8e830800000000000000
+      internalID: 4100776039626846041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_115
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1505
+        width: 221
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43e6b7d6ca9d86f0800000000000000
+      internalID: -680717789849787574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_116
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1523
+        width: 46
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20bfd3d1717fd870800000000000000
+      internalID: 8709804938057723950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_117
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1523
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e342d1ecc91a6590800000000000000
+      internalID: -7680297846774283290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_118
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1523
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46341cb3ceaf1f6c0800000000000000
+      internalID: -4111229092290804892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_119
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1520
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecda3fba5f68f0ea0800000000000000
+      internalID: -5904352196749447730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_120
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1518
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b46a3a887396e00800000000000000
+      internalID: 1038422249086274332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_121
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1518
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73ec9d7030c22e10800000000000000
+      internalID: 2171509284844397434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_122
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1515
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a70a80a36acef0520800000000000000
+      internalID: 2670613302736363642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_123
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1515
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae474a31a2b6c1b0800000000000000
+      internalID: -5636621478070366556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_124
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1505
+        width: 221
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d50eddc054a0f780800000000000000
+      internalID: -8651234217220504112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_125
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 1520
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd52a3492fbe688f0800000000000000
+      internalID: -538483678322743845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_126
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1518
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa51e8df0e5998d00800000000000000
+      internalID: 975475587861583274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_127
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1518
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f3f3552dc533320800000000000000
+      internalID: 2536473073582817028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_128
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1515
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13afc2561f04329b0800000000000000
+      internalID: -5106166146979268047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_129
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1515
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e275cb35d5bd3bf20800000000000000
+      internalID: 3437332134497113902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_130
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 1388
+        width: 194
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b8cc5ebfe404290800000000000000
+      internalID: -7908234101863445751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_131
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1215
+        width: 418
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fffbd1e08f48db130800000000000000
+      internalID: 3584167079380369407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_132
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1505
+        width: 94
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be4e0dd2a349e740800000000000000
+      internalID: 5181747213038931632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_133
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1505
+        width: 89
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edfa2a38c16728bd0800000000000000
+      internalID: -2629409367591309346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_134
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1375
+        width: 418
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e4013deed34fce0800000000000000
+      internalID: -1372403890488586706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_135
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1505
+        width: 94
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81fdf7cf6274b890800000000000000
+      internalID: -7443198459714342517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_136
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1505
+        width: 89
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec28edc4e0d7a0b40800000000000000
+      internalID: 5407271802984366798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_137
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 1474
+        width: 194
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e6573165b0d3120800000000000000
+      internalID: 2395083041152527923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_138
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 1348
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a808220d933e9a0800000000000000
+      internalID: -6205052295491581387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_139
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 1348
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1282d9dbc8002f5e0800000000000000
+      internalID: -1877437490183460831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_140
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 1343
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c2917745ad6b8e0800000000000000
+      internalID: -1677913754838684607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_141
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1348
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac063afe43e5ce040800000000000000
+      internalID: 4678217694382874826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_142
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 1348
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d5a662ecf85ff10800000000000000
+      internalID: 2302904900040416572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_143
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1127
+        width: 137
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db7f15f4844e9450800000000000000
+      internalID: 6097386283345083348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_144
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1058
+        width: 565
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c2d36186866f960800000000000000
+      internalID: 7635405014512249955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_145
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1058
+        width: 177
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e45e5bb5b487f5da0800000000000000
+      internalID: -5953907917303978674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_146
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 1198
+        width: 153
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21073d5a1e79ce5a0800000000000000
+      internalID: -6490645967542194158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_147
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 1198
+        width: 155
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1201f0286a96941e0800000000000000
+      internalID: -2213121578008375263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_148
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 914
+        width: 321
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22f3de2d36982870800000000000000
+      internalID: 8658335473142592046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_149
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 991
+        width: 386
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7b4ebddb6e81b10800000000000000
+      internalID: 1952564141577516985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_150
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1171
+        width: 49
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5133ef5ab869a070800000000000000
+      internalID: 8118134952993960283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_151
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 1171
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c43f93df65db805a0800000000000000
+      internalID: -6554781076324486324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_152
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1171
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45cf8256dc5de4c0800000000000000
+      internalID: -4256643997217340081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_153
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1169
+        width: 52
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00950cf54df7fa7a0800000000000000
+      internalID: -6363727198334985984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_154
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 1171
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f65af25cb8da5c20800000000000000
+      internalID: 3196105188930377461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_155
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 1171
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587aaa9350ac73f20800000000000000
+      internalID: 3402410167292831621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_156
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1171
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7353bfee9f8e4980800000000000000
+      internalID: -8552740729540881542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_157
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 1171
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ed600cdab96adf0800000000000000
+      internalID: -169276765426491766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_158
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 1171
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3978da94f28f806b0800000000000000
+      internalID: -5329737277009721453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_159
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1158
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d48b13ed9e06cf60800000000000000
+      internalID: 8054141054881596632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_160
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 1158
+        width: 37
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0628b415c8ed0ab0800000000000000
+      internalID: -5040116474803902961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_161
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 1156
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e531f718f30b1e0800000000000000
+      internalID: -2184175993859383760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_162
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 1032
+        width: 322
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2517c32801ee0130800000000000000
+      internalID: 3535010182608655658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_163
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 351
+        width: 1185
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97fee1b7ad2ee500800000000000000
+      internalID: 427329212914792346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_164
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 911
+        width: 54
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803badc4e439be020800000000000000
+      internalID: 2372151593246831368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_165
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 911
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e2a53a198ce81810800000000000000
+      internalID: 1736397729945723625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_166
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 911
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0626d08b047716ba0800000000000000
+      internalID: -6097461300633443744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_167
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 908
+        width: 59
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1159c8ed5e73060800000000000000
+      internalID: 6933262895364248023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_168
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 911
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ae24c4012b00570800000000000000
+      internalID: 8430934285506243079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_169
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 890
+        width: 54
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d15f79bd1fa92f00800000000000000
+      internalID: 1092596926815097300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_170
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 890
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f144827538bc459b0800000000000000
+      internalID: -5092221513685777377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_171
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 890
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77a29f91f2924000800000000000000
+      internalID: 18738914924865404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_172
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 890
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c651c96dd3bff730800000000000000
+      internalID: 4035141554690676423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_173
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 890
+        width: 35
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb6def4c114c6ae0800000000000000
+      internalID: -1554796181493814293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_174
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 877
+        width: 202
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9627cfc6c1c717ae0800000000000000
+      internalID: -1553323934936698263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_175
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 885
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1cf174a6b5af3e40800000000000000
+      internalID: 5638407462352714783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_176
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 870
+        width: 39
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfaa4f513ee568260800000000000000
+      internalID: 7099466192015108861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_177
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 867
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083b95924e52ee7b0800000000000000
+      internalID: -5193171658435087488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_178
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 870
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf2d642bcde3a530800000000000000
+      internalID: 3865194361959296953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_179
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 867
+        width: 63
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a453b93a4281c95c0800000000000000
+      internalID: -4207461406228138678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_180
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 838
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea1147e15cd17730800000000000000
+      internalID: 3995216588784605927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_181
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 831
+        width: 212
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c737cb06f37d78c0800000000000000
+      internalID: -3999913393438378048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_182
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 767
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dae76b766d0e8840800000000000000
+      internalID: 5228130951231957713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_183
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 799
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d779a04ee222730800000000000000
+      internalID: 3972789378259320133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_184
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 799
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1718c2ba3a8e61870800000000000000
+      internalID: 8653359523688120689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_185
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 767
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d5ed6ea8609b1b0800000000000000
+      internalID: -5640469864656249541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_186
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 670
+        width: 216
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adcb5e441349e9ef0800000000000000
+      internalID: -99479202425357094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_187
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 767
+        width: 66
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e74a45801d72d0410800000000000000
+      internalID: 1444854834197210238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_188
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 767
+        width: 66
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c46c56af5ff87000800000000000000
+      internalID: 34057783483327687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_189
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 671
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa3bdd08ed218220800000000000000
+      internalID: 2486318943973358244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_190
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 671
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa86e09667504da40800000000000000
+      internalID: 5391940659996158127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_191
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 671
+        width: 52
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25bdf292ab9f27680800000000000000
+      internalID: -8758663747331957934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_192
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 671
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8493b04794fe64ee0800000000000000
+      internalID: -1277070345554413240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_193
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 617
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a33db1ffb16a8df0800000000000000
+      internalID: -177221758305356893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_194
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 496
+        width: 57
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3917700baca1d090800000000000000
+      internalID: -8011432411668211395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_195
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 482
+        width: 58
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8428491c81c91520800000000000000
+      internalID: 2673380661284840590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_196
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 494
+        width: 215
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd63fe05f7aab2df0800000000000000
+      internalID: -203881894319802657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_197
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 58
+        width: 194
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1928f108f40dea440800000000000000
+      internalID: 4949122080397296273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_198
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 96
+        width: 130
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc30a1ab281098ef0800000000000000
+      internalID: -105551455286852661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_199
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 472
+        width: 66
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099e3c7a03669f0d0800000000000000
+      internalID: -3388564885460489840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_200
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 471
+        width: 66
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171d7096448e85f30800000000000000
+      internalID: 4564653602857537905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_201
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 319
+        width: 417
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ceae6ce98e95c670800000000000000
+      internalID: 8558420982101880514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_202
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 287
+        width: 178
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1136daaddaa8ef0800000000000000
+      internalID: -105080486566358610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_203
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 415
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410a60fbf776a26d0800000000000000
+      internalID: -3014483202207735788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_204
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 287
+        width: 66
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e942e1ec62224e0800000000000000
+      internalID: -2007999817142985140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_205
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 248
+        width: 66
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d70dd1f2ab56b70800000000000000
+      internalID: 8891717750839344397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_206
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 258
+        width: 66
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75df88f49ff49e730800000000000000
+      internalID: 4028839273859448151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_207
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 287
+        width: 66
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5487ecfd1dd6e370800000000000000
+      internalID: 8351605679871984735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_208
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 391
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b498878efb78150800000000000000
+      internalID: 5874875244103682908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_209
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 299
+        width: 45
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6776d9b5df6f91c0800000000000000
+      internalID: -4494750939355908244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_210
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 301
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ad4870a752b9a20800000000000000
+      internalID: 3070088777025509945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_211
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 301
+        width: 43
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe6535474239faa20800000000000000
+      internalID: 3075838855297062639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_212
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 80
+        width: 165
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aada5b38f2d1bb40800000000000000
+      internalID: 5454372587311913632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_213
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 142
+        width: 134
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60f1a932a6227a30800000000000000
+      internalID: 4211471079738306671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_214
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 108
+        width: 98
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62caa79911cee6e40800000000000000
+      internalID: 5651714142730103846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SR-void-tileset_215
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 31
+        width: 66
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1925014b718bc82f0800000000000000
+      internalID: -969197407846772079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SR-void-tileset_0: 3017909888136654925
+      SR-void-tileset_1: 3100023481216461859
+      SR-void-tileset_10: 3118568201981470175
+      SR-void-tileset_100: -647886487207380601
+      SR-void-tileset_101: -1135400608834537265
+      SR-void-tileset_102: 8488134726180260945
+      SR-void-tileset_103: -7075136531801807344
+      SR-void-tileset_104: -5350094299300408765
+      SR-void-tileset_105: 8978917737151409700
+      SR-void-tileset_106: -8074632206761970341
+      SR-void-tileset_107: -586510871606012944
+      SR-void-tileset_108: 6130127843308487346
+      SR-void-tileset_109: -8425755608330567036
+      SR-void-tileset_11: -7634279946850025848
+      SR-void-tileset_110: -1743567746647857689
+      SR-void-tileset_111: 8803540653600529286
+      SR-void-tileset_112: -241376578206443543
+      SR-void-tileset_113: 7668479569761449333
+      SR-void-tileset_114: 4100776039626846041
+      SR-void-tileset_115: -680717789849787574
+      SR-void-tileset_116: 8709804938057723950
+      SR-void-tileset_117: -7680297846774283290
+      SR-void-tileset_118: -4111229092290804892
+      SR-void-tileset_119: -5904352196749447730
+      SR-void-tileset_12: -6403610693285030337
+      SR-void-tileset_120: 1038422249086274332
+      SR-void-tileset_121: 2171509284844397434
+      SR-void-tileset_122: 2670613302736363642
+      SR-void-tileset_123: -5636621478070366556
+      SR-void-tileset_124: -8651234217220504112
+      SR-void-tileset_125: -538483678322743845
+      SR-void-tileset_126: 975475587861583274
+      SR-void-tileset_127: 2536473073582817028
+      SR-void-tileset_128: -5106166146979268047
+      SR-void-tileset_129: 3437332134497113902
+      SR-void-tileset_13: 7414789446514191981
+      SR-void-tileset_130: -7908234101863445751
+      SR-void-tileset_131: 3584167079380369407
+      SR-void-tileset_132: 5181747213038931632
+      SR-void-tileset_133: -2629409367591309346
+      SR-void-tileset_134: -1372403890488586706
+      SR-void-tileset_135: -7443198459714342517
+      SR-void-tileset_136: 5407271802984366798
+      SR-void-tileset_137: 2395083041152527923
+      SR-void-tileset_138: -6205052295491581387
+      SR-void-tileset_139: -1877437490183460831
+      SR-void-tileset_14: 7067860746918842055
+      SR-void-tileset_140: -1677913754838684607
+      SR-void-tileset_141: 4678217694382874826
+      SR-void-tileset_142: 2302904900040416572
+      SR-void-tileset_143: 6097386283345083348
+      SR-void-tileset_144: 7635405014512249955
+      SR-void-tileset_145: -5953907917303978674
+      SR-void-tileset_146: -6490645967542194158
+      SR-void-tileset_147: -2213121578008375263
+      SR-void-tileset_148: 8658335473142592046
+      SR-void-tileset_149: 1952564141577516985
+      SR-void-tileset_15: 2573656596609819363
+      SR-void-tileset_150: 8118134952993960283
+      SR-void-tileset_151: -6554781076324486324
+      SR-void-tileset_152: -4256643997217340081
+      SR-void-tileset_153: -6363727198334985984
+      SR-void-tileset_154: 3196105188930377461
+      SR-void-tileset_155: 3402410167292831621
+      SR-void-tileset_156: -8552740729540881542
+      SR-void-tileset_157: -169276765426491766
+      SR-void-tileset_158: -5329737277009721453
+      SR-void-tileset_159: 8054141054881596632
+      SR-void-tileset_16: 3393165011505421721
+      SR-void-tileset_160: -5040116474803902961
+      SR-void-tileset_161: -2184175993859383760
+      SR-void-tileset_162: 3535010182608655658
+      SR-void-tileset_163: 427329212914792346
+      SR-void-tileset_164: 2372151593246831368
+      SR-void-tileset_165: 1736397729945723625
+      SR-void-tileset_166: -6097461300633443744
+      SR-void-tileset_167: 6933262895364248023
+      SR-void-tileset_168: 8430934285506243079
+      SR-void-tileset_169: 1092596926815097300
+      SR-void-tileset_17: -3735185648993518620
+      SR-void-tileset_170: -5092221513685777377
+      SR-void-tileset_171: 18738914924865404
+      SR-void-tileset_172: 4035141554690676423
+      SR-void-tileset_173: -1554796181493814293
+      SR-void-tileset_174: -1553323934936698263
+      SR-void-tileset_175: 5638407462352714783
+      SR-void-tileset_176: 7099466192015108861
+      SR-void-tileset_177: -5193171658435087488
+      SR-void-tileset_178: 3865194361959296953
+      SR-void-tileset_179: -4207461406228138678
+      SR-void-tileset_18: 3212637744834217559
+      SR-void-tileset_180: 3995216588784605927
+      SR-void-tileset_181: -3999913393438378048
+      SR-void-tileset_182: 5228130951231957713
+      SR-void-tileset_183: 3972789378259320133
+      SR-void-tileset_184: 8653359523688120689
+      SR-void-tileset_185: -5640469864656249541
+      SR-void-tileset_186: -99479202425357094
+      SR-void-tileset_187: 1444854834197210238
+      SR-void-tileset_188: 34057783483327687
+      SR-void-tileset_189: 2486318943973358244
+      SR-void-tileset_19: 4934443075932589064
+      SR-void-tileset_190: 5391940659996158127
+      SR-void-tileset_191: -8758663747331957934
+      SR-void-tileset_192: -1277070345554413240
+      SR-void-tileset_193: -177221758305356893
+      SR-void-tileset_194: -8011432411668211395
+      SR-void-tileset_195: 2673380661284840590
+      SR-void-tileset_196: -203881894319802657
+      SR-void-tileset_197: 4949122080397296273
+      SR-void-tileset_198: -105551455286852661
+      SR-void-tileset_199: -3388564885460489840
+      SR-void-tileset_2: 2193715137126436665
+      SR-void-tileset_20: 317197393265827808
+      SR-void-tileset_200: 4564653602857537905
+      SR-void-tileset_201: 8558420982101880514
+      SR-void-tileset_202: -105080486566358610
+      SR-void-tileset_203: -3014483202207735788
+      SR-void-tileset_204: -2007999817142985140
+      SR-void-tileset_205: 8891717750839344397
+      SR-void-tileset_206: 4028839273859448151
+      SR-void-tileset_207: 8351605679871984735
+      SR-void-tileset_208: 5874875244103682908
+      SR-void-tileset_209: -4494750939355908244
+      SR-void-tileset_21: 9199248224191909652
+      SR-void-tileset_210: 3070088777025509945
+      SR-void-tileset_211: 3075838855297062639
+      SR-void-tileset_212: 5454372587311913632
+      SR-void-tileset_213: 4211471079738306671
+      SR-void-tileset_214: 5651714142730103846
+      SR-void-tileset_215: -969197407846772079
+      SR-void-tileset_22: 1045019743412748387
+      SR-void-tileset_23: 6583684755446558289
+      SR-void-tileset_24: -4691826309891893445
+      SR-void-tileset_25: -2075497560093403024
+      SR-void-tileset_26: 3908997095753743356
+      SR-void-tileset_27: 8374683684090497654
+      SR-void-tileset_28: -8261125164611242610
+      SR-void-tileset_29: -1398794055493012195
+      SR-void-tileset_3: -7671332548390196631
+      SR-void-tileset_30: 8161129889363344331
+      SR-void-tileset_31: -1526784334510644540
+      SR-void-tileset_32: -1762955976719971543
+      SR-void-tileset_33: 7137116931630491197
+      SR-void-tileset_34: 6631063906561190544
+      SR-void-tileset_35: -814947951695684500
+      SR-void-tileset_36: -3304358170782522139
+      SR-void-tileset_37: 4798685488617089294
+      SR-void-tileset_38: -4194416537163441440
+      SR-void-tileset_39: -9220979823352107940
+      SR-void-tileset_4: -7174804325483549225
+      SR-void-tileset_40: -4633055402223616139
+      SR-void-tileset_41: 5390787862077441890
+      SR-void-tileset_42: 9186405564322613722
+      SR-void-tileset_43: 5844720477427596431
+      SR-void-tileset_44: -3740930679767190046
+      SR-void-tileset_45: 6875737204127900521
+      SR-void-tileset_46: -5626819852699680083
+      SR-void-tileset_47: -9182347107410267112
+      SR-void-tileset_48: 7826351410740214657
+      SR-void-tileset_49: -7414198375081540302
+      SR-void-tileset_5: 2958855743671508445
+      SR-void-tileset_50: 6928770092398496064
+      SR-void-tileset_51: -6805394671726293505
+      SR-void-tileset_52: -2537178565871703281
+      SR-void-tileset_53: 7616108834829284866
+      SR-void-tileset_54: 7196601364217161520
+      SR-void-tileset_55: 5623478087640943
+      SR-void-tileset_56: -8874890749307670303
+      SR-void-tileset_57: 8819110264941176690
+      SR-void-tileset_58: 1649318093974187085
+      SR-void-tileset_59: -855115374604065294
+      SR-void-tileset_6: 2754500685977574709
+      SR-void-tileset_60: 1721772348253152893
+      SR-void-tileset_61: 2772655327099729319
+      SR-void-tileset_62: 2004771096025153235
+      SR-void-tileset_63: 8313870630090271602
+      SR-void-tileset_64: 119223899094369178
+      SR-void-tileset_65: 3886708717406053604
+      SR-void-tileset_66: 4714439042771453709
+      SR-void-tileset_67: -7408999288624215808
+      SR-void-tileset_68: -4068548329875085259
+      SR-void-tileset_69: -4827426886240212979
+      SR-void-tileset_7: 1339459250337500450
+      SR-void-tileset_70: 650214044096463156
+      SR-void-tileset_71: 7229249385902190069
+      SR-void-tileset_72: -8517941028246709401
+      SR-void-tileset_73: -870798216023844422
+      SR-void-tileset_74: -59122933433233705
+      SR-void-tileset_75: -970168824101360169
+      SR-void-tileset_76: 1192900183392675364
+      SR-void-tileset_77: 3483918351621291504
+      SR-void-tileset_78: 1830115180545976667
+      SR-void-tileset_79: -322669963790779110
+      SR-void-tileset_8: 8969313776528826721
+      SR-void-tileset_80: -505166916362286200
+      SR-void-tileset_81: 6548966108391918316
+      SR-void-tileset_82: 4532643812197074801
+      SR-void-tileset_83: 6005166379941285980
+      SR-void-tileset_84: -6695407397152537729
+      SR-void-tileset_85: -7820373327799410329
+      SR-void-tileset_86: -736144850334592675
+      SR-void-tileset_87: 1621328064812106075
+      SR-void-tileset_88: -574803454126917470
+      SR-void-tileset_89: 2245009214721183691
+      SR-void-tileset_9: -391023866283993422
+      SR-void-tileset_90: -6653245032108877064
+      SR-void-tileset_91: -5100244631937612287
+      SR-void-tileset_92: 6599604279865624563
+      SR-void-tileset_93: 1083125037482940063
+      SR-void-tileset_94: 3438936298687939204
+      SR-void-tileset_95: 3914214762770806554
+      SR-void-tileset_96: -8540407610329521447
+      SR-void-tileset_97: -8671119825212384652
+      SR-void-tileset_98: 6106107520248926391
+      SR-void-tileset_99: 6273239533667218548
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

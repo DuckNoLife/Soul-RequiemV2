@@ -1,0 +1,17 @@
+{
+    "name": "SoulRequiem.Core",
+    "rootNamespace": "SoulRequiem.Core",
+    "references": [
+        "Unity.InputSystem",
+        "SuperTiled2Unity"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

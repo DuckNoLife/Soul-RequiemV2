@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: d44a8007d3da44989fbae25c601fa78e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1764786494387806690
+    second: abs_charge2_0
+  - first:
+      213: -2436157015864039357
+    second: abs_charge2_1
+  - first:
+      213: 3208384938342062847
+    second: abs_charge2_2
+  - first:
+      213: -2918085675130550293
+    second: abs_charge2_3
+  - first:
+      213: -4291926458952202160
+    second: abs_charge2_4
+  - first:
+      213: -299178712437350780
+    second: abs_charge2_5
+  - first:
+      213: -4276339465804881218
+    second: abs_charge2_6
+  - first:
+      213: -2412288441565391496
+    second: abs_charge2_7
+  - first:
+      213: -1372134786938359108
+    second: abs_charge2_8
+  - first:
+      213: -1659619761242827165
+    second: abs_charge2_9
+  - first:
+      213: 3361746350079638546
+    second: abs_charge2_10
+  - first:
+      213: -4306543249644114844
+    second: abs_charge2_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: abs_charge2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 110
+        height: 109
+      alignment: 9
+      pivot: {x: 0.490909, y: 0.504587}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 361dc2a904384f4e9c81f133b8281393
+      internalID: -1764786494387806690
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_charge2_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 110
+        height: 109
+      alignment: 9
+      pivot: {x: 0.490909, y: 0.504587}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a971d695e9f647e9a586e2e4f5ee9177
+      internalID: -2436157015864039357
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_charge2_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 110
+        height: 109
+      alignment: 9
+      pivot: {x: 0.490909, y: 0.504587}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8953bcfd071842c28f068e2d6737b7af
+      internalID: 3208384938342062847
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_charge2_3
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 0
+        width: 110
+        height: 109
+      alignment: 9
+      pivot: {x: 0.490909, y: 0.504587}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1cd20d233414f7ea9a5f4d566e8d43c
+      internalID: -2918085675130550293
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_charge2_4
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 0
+        width: 110
+        height: 109
+      alignment: 9
+      pivot: {x: 0.490909, y: 0.504587}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933bb22a21e441b48a090d0173fcd3e3
+      internalID: -4291926458952202160
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_charge2_5
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 0
+        width: 110
+        height: 109
+      alignment: 9
+      pivot: {x: 0.490909, y: 0.504587}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62878ce33ba4edfb4a0345671a6461f
+      internalID: -299178712437350780
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_charge2_6
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 0
+        width: 110
+        height: 109
+      alignment: 9
+      pivot: {x: 0.490909, y: 0.504587}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084e91de1c5c49cfa96efd04b51c8a6d
+      internalID: -4276339465804881218
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_charge2_7
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 0
+        width: 110
+        height: 109
+      alignment: 9
+      pivot: {x: 0.490909, y: 0.504587}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c89f572f9e49dc96ec01f90ed07ae6
+      internalID: -2412288441565391496
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_charge2_8
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 110
+        height: 109
+      alignment: 9
+      pivot: {x: 0.490909, y: 0.504587}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7622ff4bee48b29e21c35fec33626f
+      internalID: -1372134786938359108
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_charge2_9
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 0
+        width: 110
+        height: 109
+      alignment: 9
+      pivot: {x: 0.490909, y: 0.504587}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526e86eb9b924ea1a2808c351f263219
+      internalID: -1659619761242827165
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_charge2_10
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 0
+        width: 110
+        height: 109
+      alignment: 9
+      pivot: {x: 0.490909, y: 0.504587}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07127926c33645adbbbeb5dcb31cebba
+      internalID: 3361746350079638546
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_charge2_11
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 0
+        width: 110
+        height: 109
+      alignment: 9
+      pivot: {x: 0.490909, y: 0.504587}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a544a0705ad340cfac8b7e50d4f532a1
+      internalID: -4306543249644114844
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      abs_charge2_0: -1764786494387806690
+      abs_charge2_1: -2436157015864039357
+      abs_charge2_2: 3208384938342062847
+      abs_charge2_3: -2918085675130550293
+      abs_charge2_4: -4291926458952202160
+      abs_charge2_5: -299178712437350780
+      abs_charge2_6: -4276339465804881218
+      abs_charge2_7: -2412288441565391496
+      abs_charge2_8: -1372134786938359108
+      abs_charge2_9: -1659619761242827165
+      abs_charge2_10: 3361746350079638546
+      abs_charge2_11: -4306543249644114844
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

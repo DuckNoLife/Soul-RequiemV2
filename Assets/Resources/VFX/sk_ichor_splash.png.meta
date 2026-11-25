@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: bf1dd6bc994d422296149ebf819f7254
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2214273158237934163
+    second: sk_ichor_splash_0
+  - first:
+      213: -2062351145656810619
+    second: sk_ichor_splash_1
+  - first:
+      213: 413907140218827745
+    second: sk_ichor_splash_2
+  - first:
+      213: -4433293123939905485
+    second: sk_ichor_splash_3
+  - first:
+      213: -4214013897602088749
+    second: sk_ichor_splash_4
+  - first:
+      213: -2374172908627242532
+    second: sk_ichor_splash_5
+  - first:
+      213: 3883835815160559616
+    second: sk_ichor_splash_6
+  - first:
+      213: 4533733248111021716
+    second: sk_ichor_splash_7
+  - first:
+      213: 3484161820711125907
+    second: sk_ichor_splash_8
+  - first:
+      213: -3597953291351967433
+    second: sk_ichor_splash_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sk_ichor_splash_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 55
+        height: 54
+      alignment: 9
+      pivot: {x: 0.327273, y: 0.62963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3e139aac366ec983f3bb30a42cadc7
+      internalID: -2214273158237934163
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ichor_splash_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 0
+        width: 55
+        height: 54
+      alignment: 9
+      pivot: {x: 0.327273, y: 0.62963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d16a5c6803457f3b211c5753a991bc9
+      internalID: -2062351145656810619
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ichor_splash_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 55
+        height: 54
+      alignment: 9
+      pivot: {x: 0.327273, y: 0.62963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b143d7d529644026f5a226218d024db
+      internalID: 413907140218827745
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ichor_splash_3
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 55
+        height: 54
+      alignment: 9
+      pivot: {x: 0.327273, y: 0.62963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef920a8a17f0c202d74fd2a2b88af2ae
+      internalID: -4433293123939905485
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ichor_splash_4
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 55
+        height: 54
+      alignment: 9
+      pivot: {x: 0.327273, y: 0.62963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c636ef8131f06b22266bbbe9b22eab50
+      internalID: -4214013897602088749
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ichor_splash_5
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 0
+        width: 55
+        height: 54
+      alignment: 9
+      pivot: {x: 0.327273, y: 0.62963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03fa3cb39f07113ee351f9c390663e67
+      internalID: -2374172908627242532
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ichor_splash_6
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 0
+        width: 55
+        height: 54
+      alignment: 9
+      pivot: {x: 0.327273, y: 0.62963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b63f3d3e3cfd83a998db1608ebc98f
+      internalID: 3883835815160559616
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ichor_splash_7
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 0
+        width: 55
+        height: 54
+      alignment: 9
+      pivot: {x: 0.327273, y: 0.62963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c76e09f3875d22d8246bfec49265e75
+      internalID: 4533733248111021716
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ichor_splash_8
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 0
+        width: 55
+        height: 54
+      alignment: 9
+      pivot: {x: 0.327273, y: 0.62963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12dbc1b91428d99324c6e45ba79a002
+      internalID: 3484161820711125907
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ichor_splash_9
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 0
+        width: 55
+        height: 54
+      alignment: 9
+      pivot: {x: 0.327273, y: 0.62963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63303ca12e2b5a803b63979c7b9fa11a
+      internalID: -3597953291351967433
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sk_ichor_splash_0: -2214273158237934163
+      sk_ichor_splash_1: -2062351145656810619
+      sk_ichor_splash_2: 413907140218827745
+      sk_ichor_splash_3: -4433293123939905485
+      sk_ichor_splash_4: -4214013897602088749
+      sk_ichor_splash_5: -2374172908627242532
+      sk_ichor_splash_6: 3883835815160559616
+      sk_ichor_splash_7: 4533733248111021716
+      sk_ichor_splash_8: 3484161820711125907
+      sk_ichor_splash_9: -3597953291351967433
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

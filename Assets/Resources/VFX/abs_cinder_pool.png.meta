@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 24ecccef4e1f42639f96d28ec4d1b2de
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1186982526895456333
+    second: abs_cinder_pool_0
+  - first:
+      213: 3397156356397465674
+    second: abs_cinder_pool_1
+  - first:
+      213: 1966671834771379708
+    second: abs_cinder_pool_2
+  - first:
+      213: -3322884247312555737
+    second: abs_cinder_pool_3
+  - first:
+      213: 2609667583541839940
+    second: abs_cinder_pool_4
+  - first:
+      213: -1710495125119397366
+    second: abs_cinder_pool_5
+  - first:
+      213: 2472136011975059191
+    second: abs_cinder_pool_6
+  - first:
+      213: -4160418820578888123
+    second: abs_cinder_pool_7
+  - first:
+      213: -653934633926156545
+    second: abs_cinder_pool_8
+  - first:
+      213: -264139703431157901
+    second: abs_cinder_pool_9
+  - first:
+      213: -3997283984782074327
+    second: abs_cinder_pool_10
+  - first:
+      213: 2888377721784399094
+    second: abs_cinder_pool_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: abs_cinder_pool_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 92
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.31746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7a3a1058d547fe87d2c0904a68005a
+      internalID: 1186982526895456333
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_cinder_pool_1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 92
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.31746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c4cc342ea942e1b0a2d8e6fca7a724
+      internalID: 3397156356397465674
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_cinder_pool_2
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 92
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.31746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8cb287a567a4d65ab61c0c4692b42cf
+      internalID: 1966671834771379708
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_cinder_pool_3
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 92
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.31746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa0cb695de1f4f50bbeb65dffe8034cd
+      internalID: -3322884247312555737
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_cinder_pool_4
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 0
+        width: 92
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.31746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdb711af467486ab6f2ca0241e393e9
+      internalID: 2609667583541839940
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_cinder_pool_5
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 0
+        width: 92
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.31746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d39e5162f2847b38c670e9f227968d4
+      internalID: -1710495125119397366
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_cinder_pool_6
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 0
+        width: 92
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.31746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df80336376814203b33ea49dce09d8fa
+      internalID: 2472136011975059191
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_cinder_pool_7
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 0
+        width: 92
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.31746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6444a5d7c6943b18ad5584ceaf112e6
+      internalID: -4160418820578888123
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_cinder_pool_8
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 0
+        width: 92
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.31746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d5fa400276441e80cc56d6c87fd18e
+      internalID: -653934633926156545
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_cinder_pool_9
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 0
+        width: 92
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.31746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d925a957752845cbb7e67e8c9b46f267
+      internalID: -264139703431157901
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_cinder_pool_10
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 0
+        width: 92
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.31746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5e9fa3991649c0b412df8d282e6438
+      internalID: -3997283984782074327
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_cinder_pool_11
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 0
+        width: 92
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.31746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ececb0d4404d46f5999251735d2216e8
+      internalID: 2888377721784399094
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      abs_cinder_pool_0: 1186982526895456333
+      abs_cinder_pool_1: 3397156356397465674
+      abs_cinder_pool_2: 1966671834771379708
+      abs_cinder_pool_3: -3322884247312555737
+      abs_cinder_pool_4: 2609667583541839940
+      abs_cinder_pool_5: -1710495125119397366
+      abs_cinder_pool_6: 2472136011975059191
+      abs_cinder_pool_7: -4160418820578888123
+      abs_cinder_pool_8: -653934633926156545
+      abs_cinder_pool_9: -264139703431157901
+      abs_cinder_pool_10: -3997283984782074327
+      abs_cinder_pool_11: 2888377721784399094
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

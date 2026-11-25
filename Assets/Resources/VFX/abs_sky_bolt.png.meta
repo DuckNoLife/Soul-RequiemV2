@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: 9aa7c0ceb6054fe2a44e79538d460de6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2073971846387469814
+    second: abs_sky_bolt_0
+  - first:
+      213: 3635946909351908721
+    second: abs_sky_bolt_1
+  - first:
+      213: -2933562721732506642
+    second: abs_sky_bolt_2
+  - first:
+      213: -3730376663253579831
+    second: abs_sky_bolt_3
+  - first:
+      213: 1956192952326622103
+    second: abs_sky_bolt_4
+  - first:
+      213: -3045249961986289912
+    second: abs_sky_bolt_5
+  - first:
+      213: -2985305615858982840
+    second: abs_sky_bolt_6
+  - first:
+      213: 624984479680257770
+    second: abs_sky_bolt_7
+  - first:
+      213: 891833351577941667
+    second: abs_sky_bolt_8
+  - first:
+      213: 3595465648821256357
+    second: abs_sky_bolt_9
+  - first:
+      213: 3314963949253780294
+    second: abs_sky_bolt_10
+  - first:
+      213: -2519277455466473172
+    second: abs_sky_bolt_11
+  - first:
+      213: 3469179758476951761
+    second: abs_sky_bolt_12
+  - first:
+      213: 1659131788182389711
+    second: abs_sky_bolt_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: abs_sky_bolt_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 99
+        height: 165
+      alignment: 9
+      pivot: {x: 0.494949, y: 0.163636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0718bbeaa3474fc8a28e1d856e0a0767
+      internalID: -2073971846387469814
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sky_bolt_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 99
+        height: 165
+      alignment: 9
+      pivot: {x: 0.494949, y: 0.163636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0327ed236e5b4df5aabc0450718808c1
+      internalID: 3635946909351908721
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sky_bolt_2
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 99
+        height: 165
+      alignment: 9
+      pivot: {x: 0.494949, y: 0.163636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317f69473e0a4ff0950b93946f886a95
+      internalID: -2933562721732506642
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sky_bolt_3
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 0
+        width: 99
+        height: 165
+      alignment: 9
+      pivot: {x: 0.494949, y: 0.163636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6486d739a9794bc79a8c7bf101241e39
+      internalID: -3730376663253579831
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sky_bolt_4
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 99
+        height: 165
+      alignment: 9
+      pivot: {x: 0.494949, y: 0.163636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d738de7a73474b90594a3032855fb2
+      internalID: 1956192952326622103
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sky_bolt_5
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 0
+        width: 99
+        height: 165
+      alignment: 9
+      pivot: {x: 0.494949, y: 0.163636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2bbfdfaa3a451685befb7e7058cc02
+      internalID: -3045249961986289912
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sky_bolt_6
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 0
+        width: 99
+        height: 165
+      alignment: 9
+      pivot: {x: 0.494949, y: 0.163636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5230f37ea62444c9816c42b406ec23d6
+      internalID: -2985305615858982840
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sky_bolt_7
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 0
+        width: 99
+        height: 165
+      alignment: 9
+      pivot: {x: 0.494949, y: 0.163636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befb6894fc8b4a9e9a202055b67a4cfb
+      internalID: 624984479680257770
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sky_bolt_8
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 0
+        width: 99
+        height: 165
+      alignment: 9
+      pivot: {x: 0.494949, y: 0.163636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c9652072014706922406f26449fa18
+      internalID: 891833351577941667
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sky_bolt_9
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 0
+        width: 99
+        height: 165
+      alignment: 9
+      pivot: {x: 0.494949, y: 0.163636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31260ba615b540928abcc9f97ae49790
+      internalID: 3595465648821256357
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sky_bolt_10
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 0
+        width: 99
+        height: 165
+      alignment: 9
+      pivot: {x: 0.494949, y: 0.163636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca319cac216b4dce9bbfb9f45da70896
+      internalID: 3314963949253780294
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sky_bolt_11
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 0
+        width: 99
+        height: 165
+      alignment: 9
+      pivot: {x: 0.494949, y: 0.163636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f521c4712ce6474ba964144afe987828
+      internalID: -2519277455466473172
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sky_bolt_12
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 0
+        width: 99
+        height: 165
+      alignment: 9
+      pivot: {x: 0.494949, y: 0.163636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04482c4ccb14ab993f250ed645042dc
+      internalID: 3469179758476951761
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sky_bolt_13
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 0
+        width: 99
+        height: 165
+      alignment: 9
+      pivot: {x: 0.494949, y: 0.163636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa975f041df243d0b7db33e638068b44
+      internalID: 1659131788182389711
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      abs_sky_bolt_0: -2073971846387469814
+      abs_sky_bolt_1: 3635946909351908721
+      abs_sky_bolt_2: -2933562721732506642
+      abs_sky_bolt_3: -3730376663253579831
+      abs_sky_bolt_4: 1956192952326622103
+      abs_sky_bolt_5: -3045249961986289912
+      abs_sky_bolt_6: -2985305615858982840
+      abs_sky_bolt_7: 624984479680257770
+      abs_sky_bolt_8: 891833351577941667
+      abs_sky_bolt_9: 3595465648821256357
+      abs_sky_bolt_10: 3314963949253780294
+      abs_sky_bolt_11: -2519277455466473172
+      abs_sky_bolt_12: 3469179758476951761
+      abs_sky_bolt_13: 1659131788182389711
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 589b17ad07c24b67a33a3344c81e0faa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1499851252643512944
+    second: sk_vuln_0
+  - first:
+      213: 4088879558716651854
+    second: sk_vuln_1
+  - first:
+      213: -2984407864885408651
+    second: sk_vuln_2
+  - first:
+      213: -717374901606506718
+    second: sk_vuln_3
+  - first:
+      213: -3844478818380948445
+    second: sk_vuln_4
+  - first:
+      213: 583946905028096204
+    second: sk_vuln_5
+  - first:
+      213: -605101937219708927
+    second: sk_vuln_6
+  - first:
+      213: -641556134066933345
+    second: sk_vuln_7
+  - first:
+      213: -3002199967482667226
+    second: sk_vuln_8
+  - first:
+      213: -233639413571262552
+    second: sk_vuln_9
+  - first:
+      213: -3881016419111825089
+    second: sk_vuln_10
+  - first:
+      213: -815548607505355990
+    second: sk_vuln_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sk_vuln_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 39
+        height: 36
+      alignment: 9
+      pivot: {x: 0.487179, y: 0.055556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f990ba9405e6ee532b8e347d56234cf9
+      internalID: -1499851252643512944
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_vuln_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 0
+        width: 39
+        height: 36
+      alignment: 9
+      pivot: {x: 0.487179, y: 0.055556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71b9eaf454e69487d62d3ea19c8b4f0
+      internalID: 4088879558716651854
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_vuln_2
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 0
+        width: 39
+        height: 36
+      alignment: 9
+      pivot: {x: 0.487179, y: 0.055556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e6b64b94ac0778a0ba46f66cebfd3d
+      internalID: -2984407864885408651
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_vuln_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 0
+        width: 39
+        height: 36
+      alignment: 9
+      pivot: {x: 0.487179, y: 0.055556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1fd82c3086e00e17c7fbbb3d0fdca99
+      internalID: -717374901606506718
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_vuln_4
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 39
+        height: 36
+      alignment: 9
+      pivot: {x: 0.487179, y: 0.055556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6acaa4b75ba48b8047cbf887a36abeb9
+      internalID: -3844478818380948445
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_vuln_5
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 0
+        width: 39
+        height: 36
+      alignment: 9
+      pivot: {x: 0.487179, y: 0.055556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad42392760bdbea509ca8f40772705f
+      internalID: 583946905028096204
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_vuln_6
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 0
+        width: 39
+        height: 36
+      alignment: 9
+      pivot: {x: 0.487179, y: 0.055556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628b4683a90b31c26c3434e45a149c19
+      internalID: -605101937219708927
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_vuln_7
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 0
+        width: 39
+        height: 36
+      alignment: 9
+      pivot: {x: 0.487179, y: 0.055556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c501b9a31dcc9d5c13e5373a6a2ec079
+      internalID: -641556134066933345
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_vuln_8
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 39
+        height: 36
+      alignment: 9
+      pivot: {x: 0.487179, y: 0.055556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ea4882dca142e0bacf30d9a7cea548
+      internalID: -3002199967482667226
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_vuln_9
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 0
+        width: 39
+        height: 36
+      alignment: 9
+      pivot: {x: 0.487179, y: 0.055556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8988b1918fb2745169f477756e55015
+      internalID: -233639413571262552
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_vuln_10
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 39
+        height: 36
+      alignment: 9
+      pivot: {x: 0.487179, y: 0.055556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0753511c8beec9a897429610f71b5a62
+      internalID: -3881016419111825089
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_vuln_11
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 0
+        width: 39
+        height: 36
+      alignment: 9
+      pivot: {x: 0.487179, y: 0.055556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d081ab5c80410503c82a7a970c2a2e
+      internalID: -815548607505355990
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sk_vuln_0: -1499851252643512944
+      sk_vuln_1: 4088879558716651854
+      sk_vuln_2: -2984407864885408651
+      sk_vuln_3: -717374901606506718
+      sk_vuln_4: -3844478818380948445
+      sk_vuln_5: 583946905028096204
+      sk_vuln_6: -605101937219708927
+      sk_vuln_7: -641556134066933345
+      sk_vuln_8: -3002199967482667226
+      sk_vuln_9: -233639413571262552
+      sk_vuln_10: -3881016419111825089
+      sk_vuln_11: -815548607505355990
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

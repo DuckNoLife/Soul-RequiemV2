@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: c8ae78257d2c4ed449fc36ab50e18ed7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7414285972539134456
+    second: Charge_Begin_24x1_0
+  - first:
+      213: -3222032513699889302
+    second: Charge_Begin_24x1_1
+  - first:
+      213: -9088309203951240711
+    second: Charge_Begin_24x1_2
+  - first:
+      213: 4647774105319459686
+    second: Charge_Begin_24x1_3
+  - first:
+      213: 842568934891626203
+    second: Charge_Begin_24x1_4
+  - first:
+      213: 4128748013568409997
+    second: Charge_Begin_24x1_5
+  - first:
+      213: 3601692736292120616
+    second: Charge_Begin_24x1_6
+  - first:
+      213: 8044978287746832012
+    second: Charge_Begin_24x1_7
+  - first:
+      213: 2284788258481780169
+    second: Charge_Begin_24x1_8
+  - first:
+      213: -3132244056229546908
+    second: Charge_Begin_24x1_9
+  - first:
+      213: 6797210960946757203
+    second: Charge_Begin_24x1_10
+  - first:
+      213: -4775342867364322327
+    second: Charge_Begin_24x1_11
+  - first:
+      213: 1244615675004003532
+    second: Charge_Begin_24x1_12
+  - first:
+      213: -4420885499554086612
+    second: Charge_Begin_24x1_13
+  - first:
+      213: -7102766518688484590
+    second: Charge_Begin_24x1_14
+  - first:
+      213: 4231015365220525119
+    second: Charge_Begin_24x1_15
+  - first:
+      213: -5030159870228207560
+    second: Charge_Begin_24x1_16
+  - first:
+      213: 339530557336049949
+    second: Charge_Begin_24x1_17
+  - first:
+      213: 107865838003658588
+    second: Charge_Begin_24x1_18
+  - first:
+      213: 5285093087226474193
+    second: Charge_Begin_24x1_19
+  - first:
+      213: -5251395345037536417
+    second: Charge_Begin_24x1_20
+  - first:
+      213: -2425755947287986416
+    second: Charge_Begin_24x1_21
+  - first:
+      213: -4941119960159600655
+    second: Charge_Begin_24x1_22
+  - first:
+      213: -4910121873333104297
+    second: Charge_Begin_24x1_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Charge_Begin_24x1_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 7
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ea4a7c03a2b1990800000000000000
+      internalID: -7414285972539134456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Begin_24x1_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 7
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6fb826ff7a0943d0800000000000000
+      internalID: -3222032513699889302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Begin_24x1_2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 7
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9b2915ee6dfd180800000000000000
+      internalID: -9088309203951240711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Begin_24x1_3
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 7
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b43df7ce5308040800000000000000
+      internalID: 4647774105319459686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Begin_24x1_4
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 7
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde9efe6bf761bb00800000000000000
+      internalID: 842568934891626203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Begin_24x1_5
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 7
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8148db71724c4930800000000000000
+      internalID: 4128748013568409997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Begin_24x1_6
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 7
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 828ebc80678cbf130800000000000000
+      internalID: 3601692736292120616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Begin_24x1_7
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 7
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8651eae02185af60800000000000000
+      internalID: 8044978287746832012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Begin_24x1_8
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 7
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c53ac5d0d235bf10800000000000000
+      internalID: 2284788258481780169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Begin_24x1_9
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 7
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 464fb9e40a80884d0800000000000000
+      internalID: -3132244056229546908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Begin_24x1_10
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 7
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e7f961b5b845e50800000000000000
+      internalID: 6797210960946757203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Begin_24x1_11
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 7
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3ed0686f29abdb0800000000000000
+      internalID: -4775342867364322327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Begin_24x1_12
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 7
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc42f76bc53c54110800000000000000
+      internalID: 1244615675004003532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Begin_24x1_13
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 7
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21476e9f0cd5a2c0800000000000000
+      internalID: -4420885499554086612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Begin_24x1_14
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 7
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 213f80bbb77ed6d90800000000000000
+      internalID: -7102766518688484590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Begin_24x1_15
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 7
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34603bce0697ba30800000000000000
+      internalID: 4231015365220525119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Begin_24x1_16
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 7
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8386f9bbf38413ab0800000000000000
+      internalID: -5030159870228207560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Begin_24x1_17
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 7
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19d7643e3146b400800000000000000
+      internalID: 339530557336049949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Begin_24x1_18
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 7
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f9b9d78673f7100800000000000000
+      internalID: 107865838003658588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Begin_24x1_19
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 7
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dea105492c685940800000000000000
+      internalID: 5285093087226474193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Begin_24x1_20
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 7
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53d5ebb1cb4f17b0800000000000000
+      internalID: -5251395345037536417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Begin_24x1_21
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 7
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01fbb1271dbf55ed0800000000000000
+      internalID: -2425755947287986416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Begin_24x1_22
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 7
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff381e439d9d6bb0800000000000000
+      internalID: -4941119960159600655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Charge_Begin_24x1_23
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 7
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751da10db2ebbdbb0800000000000000
+      internalID: -4910121873333104297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Charge_Begin_24x1_0: -7414285972539134456
+      Charge_Begin_24x1_1: -3222032513699889302
+      Charge_Begin_24x1_10: 6797210960946757203
+      Charge_Begin_24x1_11: -4775342867364322327
+      Charge_Begin_24x1_12: 1244615675004003532
+      Charge_Begin_24x1_13: -4420885499554086612
+      Charge_Begin_24x1_14: -7102766518688484590
+      Charge_Begin_24x1_15: 4231015365220525119
+      Charge_Begin_24x1_16: -5030159870228207560
+      Charge_Begin_24x1_17: 339530557336049949
+      Charge_Begin_24x1_18: 107865838003658588
+      Charge_Begin_24x1_19: 5285093087226474193
+      Charge_Begin_24x1_2: -9088309203951240711
+      Charge_Begin_24x1_20: -5251395345037536417
+      Charge_Begin_24x1_21: -2425755947287986416
+      Charge_Begin_24x1_22: -4941119960159600655
+      Charge_Begin_24x1_23: -4910121873333104297
+      Charge_Begin_24x1_3: 4647774105319459686
+      Charge_Begin_24x1_4: 842568934891626203
+      Charge_Begin_24x1_5: 4128748013568409997
+      Charge_Begin_24x1_6: 3601692736292120616
+      Charge_Begin_24x1_7: 8044978287746832012
+      Charge_Begin_24x1_8: 2284788258481780169
+      Charge_Begin_24x1_9: -3132244056229546908
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

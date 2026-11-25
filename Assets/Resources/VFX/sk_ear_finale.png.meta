@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: df236ccac5f94f718b5ddde02983172b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3801949024436154070
+    second: sk_ear_finale_0
+  - first:
+      213: -1053101725536517484
+    second: sk_ear_finale_1
+  - first:
+      213: 2021906429809729663
+    second: sk_ear_finale_2
+  - first:
+      213: -853546282565907263
+    second: sk_ear_finale_3
+  - first:
+      213: -1024082549286615888
+    second: sk_ear_finale_4
+  - first:
+      213: 1935031835310096871
+    second: sk_ear_finale_5
+  - first:
+      213: 4036242842975184007
+    second: sk_ear_finale_6
+  - first:
+      213: -1497098939123608955
+    second: sk_ear_finale_7
+  - first:
+      213: -1403400686395725773
+    second: sk_ear_finale_8
+  - first:
+      213: 294256605453026380
+    second: sk_ear_finale_9
+  - first:
+      213: -4512348796990420177
+    second: sk_ear_finale_10
+  - first:
+      213: -3313924995826943457
+    second: sk_ear_finale_11
+  - first:
+      213: -2825718318443040995
+    second: sk_ear_finale_12
+  - first:
+      213: -1913712508524560856
+    second: sk_ear_finale_13
+  - first:
+      213: -3502490373417149936
+    second: sk_ear_finale_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 8192
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sk_ear_finale_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 348
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.424138}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f85c6a1ae1b4acba36f12d61e86be83
+      internalID: 3801949024436154070
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_finale_1
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 0
+        width: 348
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.424138}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301801c71e56499093dc6bc04107da80
+      internalID: -1053101725536517484
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_finale_2
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 0
+        width: 348
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.424138}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e38f6f1195a40dca1c8a2c0f1bd26bb
+      internalID: 2021906429809729663
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_finale_3
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 0
+        width: 348
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.424138}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292e1f13d5bc4b71a78d5cd089a8a9b0
+      internalID: -853546282565907263
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_finale_4
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 0
+        width: 348
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.424138}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513a7a3152ac4719a399ad987adb25e8
+      internalID: -1024082549286615888
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_finale_5
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 0
+        width: 348
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.424138}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0259a32f90e346dea784881e5f963c85
+      internalID: 1935031835310096871
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_finale_6
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 0
+        width: 348
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.424138}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fdd83462c4b4a5f9cf6d3bfb401b1e7
+      internalID: 4036242842975184007
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_finale_7
+      rect:
+        serializedVersion: 2
+        x: 2436
+        y: 0
+        width: 348
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.424138}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b03863d20842c5ad4cc6abb57d3b30
+      internalID: -1497098939123608955
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_finale_8
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 0
+        width: 348
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.424138}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad2a08321d64fa09718ccdcd032835f
+      internalID: -1403400686395725773
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_finale_9
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 0
+        width: 348
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.424138}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bfc61acbcf74f39a6756e632ff3e8ce
+      internalID: 294256605453026380
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_finale_10
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 0
+        width: 348
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.424138}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 340ebaee77964509898ff0eabaa031a8
+      internalID: -4512348796990420177
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_finale_11
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 0
+        width: 348
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.424138}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fadd2456efbf4c63b5dd91820a4a19da
+      internalID: -3313924995826943457
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_finale_12
+      rect:
+        serializedVersion: 2
+        x: 4176
+        y: 0
+        width: 348
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.424138}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af16ca8b6d6f451ca0b50f4e831086c7
+      internalID: -2825718318443040995
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_finale_13
+      rect:
+        serializedVersion: 2
+        x: 4524
+        y: 0
+        width: 348
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.424138}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b050f97fa84b9e87addba3fb885932
+      internalID: -1913712508524560856
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_finale_14
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 0
+        width: 348
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.424138}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c62c7b7b1d24697a132a0314acff40f
+      internalID: -3502490373417149936
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sk_ear_finale_0: 3801949024436154070
+      sk_ear_finale_1: -1053101725536517484
+      sk_ear_finale_2: 2021906429809729663
+      sk_ear_finale_3: -853546282565907263
+      sk_ear_finale_4: -1024082549286615888
+      sk_ear_finale_5: 1935031835310096871
+      sk_ear_finale_6: 4036242842975184007
+      sk_ear_finale_7: -1497098939123608955
+      sk_ear_finale_8: -1403400686395725773
+      sk_ear_finale_9: 294256605453026380
+      sk_ear_finale_10: -4512348796990420177
+      sk_ear_finale_11: -3313924995826943457
+      sk_ear_finale_12: -2825718318443040995
+      sk_ear_finale_13: -1913712508524560856
+      sk_ear_finale_14: -3502490373417149936
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

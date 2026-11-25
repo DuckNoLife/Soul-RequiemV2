@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: d07985e2ce894898a24dad54f20e5760
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2908372500754689855
+    second: abs_takeoff_0
+  - first:
+      213: -756272490807124732
+    second: abs_takeoff_1
+  - first:
+      213: 634082740789072978
+    second: abs_takeoff_2
+  - first:
+      213: -3070885206661666436
+    second: abs_takeoff_3
+  - first:
+      213: 4546860137592163990
+    second: abs_takeoff_4
+  - first:
+      213: -1203534130376442354
+    second: abs_takeoff_5
+  - first:
+      213: -1062870777411624639
+    second: abs_takeoff_6
+  - first:
+      213: -2908266637318392266
+    second: abs_takeoff_7
+  - first:
+      213: 2188201696120299866
+    second: abs_takeoff_8
+  - first:
+      213: 4174239221225342977
+    second: abs_takeoff_9
+  - first:
+      213: 2135781653963215205
+    second: abs_takeoff_10
+  - first:
+      213: -1406017868649460184
+    second: abs_takeoff_11
+  - first:
+      213: -2815148095291474223
+    second: abs_takeoff_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: abs_takeoff_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 66
+        height: 110
+      alignment: 9
+      pivot: {x: 0.469697, y: 0.218182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2630e2fedc4848a0e07b953fd82354
+      internalID: 2908372500754689855
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_takeoff_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 66
+        height: 110
+      alignment: 9
+      pivot: {x: 0.469697, y: 0.218182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0c7d3aab164315aa7b44108d48a029
+      internalID: -756272490807124732
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_takeoff_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 66
+        height: 110
+      alignment: 9
+      pivot: {x: 0.469697, y: 0.218182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9248e7f16f26480589b7982c46d77c8f
+      internalID: 634082740789072978
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_takeoff_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 66
+        height: 110
+      alignment: 9
+      pivot: {x: 0.469697, y: 0.218182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed0a4c45e5d4ce5ac118a1a89e1329e
+      internalID: -3070885206661666436
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_takeoff_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 66
+        height: 110
+      alignment: 9
+      pivot: {x: 0.469697, y: 0.218182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c679be1439d495796cb009d78355df7
+      internalID: 4546860137592163990
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_takeoff_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 0
+        width: 66
+        height: 110
+      alignment: 9
+      pivot: {x: 0.469697, y: 0.218182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed983b6d36a448e9a8e55649e005957
+      internalID: -1203534130376442354
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_takeoff_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 66
+        height: 110
+      alignment: 9
+      pivot: {x: 0.469697, y: 0.218182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57bde883e083462dba96dbfce81e000d
+      internalID: -1062870777411624639
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_takeoff_7
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 0
+        width: 66
+        height: 110
+      alignment: 9
+      pivot: {x: 0.469697, y: 0.218182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098ba0a349cd49a7b05bc84f4ec484aa
+      internalID: -2908266637318392266
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_takeoff_8
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 66
+        height: 110
+      alignment: 9
+      pivot: {x: 0.469697, y: 0.218182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44da192aad7746a794ecd255763382d8
+      internalID: 2188201696120299866
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_takeoff_9
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 0
+        width: 66
+        height: 110
+      alignment: 9
+      pivot: {x: 0.469697, y: 0.218182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d8f1a1294c49f3b623e767bf2e30e6
+      internalID: 4174239221225342977
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_takeoff_10
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 0
+        width: 66
+        height: 110
+      alignment: 9
+      pivot: {x: 0.469697, y: 0.218182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f161a9d7636b47e8add374e3aa27b3b0
+      internalID: 2135781653963215205
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_takeoff_11
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 0
+        width: 66
+        height: 110
+      alignment: 9
+      pivot: {x: 0.469697, y: 0.218182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90024cd27ab648c2a037ce9a3b9679e6
+      internalID: -1406017868649460184
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_takeoff_12
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 0
+        width: 66
+        height: 110
+      alignment: 9
+      pivot: {x: 0.469697, y: 0.218182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e14945770a404d21a2ef443be7eb2d42
+      internalID: -2815148095291474223
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      abs_takeoff_0: 2908372500754689855
+      abs_takeoff_1: -756272490807124732
+      abs_takeoff_2: 634082740789072978
+      abs_takeoff_3: -3070885206661666436
+      abs_takeoff_4: 4546860137592163990
+      abs_takeoff_5: -1203534130376442354
+      abs_takeoff_6: -1062870777411624639
+      abs_takeoff_7: -2908266637318392266
+      abs_takeoff_8: 2188201696120299866
+      abs_takeoff_9: 4174239221225342977
+      abs_takeoff_10: 2135781653963215205
+      abs_takeoff_11: -1406017868649460184
+      abs_takeoff_12: -2815148095291474223
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

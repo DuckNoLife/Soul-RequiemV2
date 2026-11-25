@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 2cf979ad276941cc947934ce1c8ff8a9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2279006781337555953
+    second: abs_well2_0
+  - first:
+      213: 4498845662984812132
+    second: abs_well2_1
+  - first:
+      213: 270363287661355716
+    second: abs_well2_2
+  - first:
+      213: -2402555730262046119
+    second: abs_well2_3
+  - first:
+      213: 1940171647180300229
+    second: abs_well2_4
+  - first:
+      213: 1072092880135159120
+    second: abs_well2_5
+  - first:
+      213: 1023016906164936159
+    second: abs_well2_6
+  - first:
+      213: -1099681085102761014
+    second: abs_well2_7
+  - first:
+      213: 2550961578083916034
+    second: abs_well2_8
+  - first:
+      213: 1580942394670574593
+    second: abs_well2_9
+  - first:
+      213: 1635388781096803347
+    second: abs_well2_10
+  - first:
+      213: -4383661755039182205
+    second: abs_well2_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: abs_well2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 104
+        height: 105
+      alignment: 9
+      pivot: {x: 0.490385, y: 0.447619}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b881a2b96442c0bd0662cb7cf93c04
+      internalID: 2279006781337555953
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_well2_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 104
+        height: 105
+      alignment: 9
+      pivot: {x: 0.490385, y: 0.447619}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac587aed7394a42b9d137de31ec1ffa
+      internalID: 4498845662984812132
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_well2_2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 104
+        height: 105
+      alignment: 9
+      pivot: {x: 0.490385, y: 0.447619}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2549ddbe8e4548a46279c737472f4b
+      internalID: 270363287661355716
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_well2_3
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 104
+        height: 105
+      alignment: 9
+      pivot: {x: 0.490385, y: 0.447619}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c55f501aef4d78b03a5e2f098610c8
+      internalID: -2402555730262046119
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_well2_4
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 104
+        height: 105
+      alignment: 9
+      pivot: {x: 0.490385, y: 0.447619}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 296fa8c61b2747748299f12f7aa92dfa
+      internalID: 1940171647180300229
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_well2_5
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 0
+        width: 104
+        height: 105
+      alignment: 9
+      pivot: {x: 0.490385, y: 0.447619}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc28833fb7e421ebab7679fcf24b22a
+      internalID: 1072092880135159120
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_well2_6
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 104
+        height: 105
+      alignment: 9
+      pivot: {x: 0.490385, y: 0.447619}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c0a8cb3a1b54a8a8d78ddb97da5f296
+      internalID: 1023016906164936159
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_well2_7
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 0
+        width: 104
+        height: 105
+      alignment: 9
+      pivot: {x: 0.490385, y: 0.447619}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52c0ca3135148a29afaddc6c59c8e8f
+      internalID: -1099681085102761014
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_well2_8
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 104
+        height: 105
+      alignment: 9
+      pivot: {x: 0.490385, y: 0.447619}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1cf0222f8244418a625a166ee24a7ab
+      internalID: 2550961578083916034
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_well2_9
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 0
+        width: 104
+        height: 105
+      alignment: 9
+      pivot: {x: 0.490385, y: 0.447619}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94d238e3352f4787a3372023d090fcae
+      internalID: 1580942394670574593
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_well2_10
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 0
+        width: 104
+        height: 105
+      alignment: 9
+      pivot: {x: 0.490385, y: 0.447619}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1162909947b34e29bcb74f6fabe38c4a
+      internalID: 1635388781096803347
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_well2_11
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 0
+        width: 104
+        height: 105
+      alignment: 9
+      pivot: {x: 0.490385, y: 0.447619}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7f7a785b7d4628a21cabc02664fe53
+      internalID: -4383661755039182205
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      abs_well2_0: 2279006781337555953
+      abs_well2_1: 4498845662984812132
+      abs_well2_2: 270363287661355716
+      abs_well2_3: -2402555730262046119
+      abs_well2_4: 1940171647180300229
+      abs_well2_5: 1072092880135159120
+      abs_well2_6: 1023016906164936159
+      abs_well2_7: -1099681085102761014
+      abs_well2_8: 2550961578083916034
+      abs_well2_9: 1580942394670574593
+      abs_well2_10: 1635388781096803347
+      abs_well2_11: -4383661755039182205
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

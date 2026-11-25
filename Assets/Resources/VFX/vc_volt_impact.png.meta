@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 232f74e03f9e491487ad74ca3035b2e0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -410602854608395487
+    second: vc_volt_impact_0
+  - first:
+      213: -2735030948797701501
+    second: vc_volt_impact_1
+  - first:
+      213: -2237138864981236296
+    second: vc_volt_impact_2
+  - first:
+      213: -4500835515040527405
+    second: vc_volt_impact_3
+  - first:
+      213: -4232285592155579992
+    second: vc_volt_impact_4
+  - first:
+      213: -3233360955327425097
+    second: vc_volt_impact_5
+  - first:
+      213: 4518411487430388626
+    second: vc_volt_impact_6
+  - first:
+      213: 1152516476249585148
+    second: vc_volt_impact_7
+  - first:
+      213: 1737267929963770151
+    second: vc_volt_impact_8
+  - first:
+      213: -3630447562271190527
+    second: vc_volt_impact_9
+  - first:
+      213: -132043036851565833
+    second: vc_volt_impact_10
+  - first:
+      213: -3146956399027439467
+    second: vc_volt_impact_11
+  - first:
+      213: -1658653231078112184
+    second: vc_volt_impact_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 8192
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vc_volt_impact_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 113
+        height: 112
+      alignment: 9
+      pivot: {x: 0.469027, y: 0.544643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116bd91d1b3d40cea62870c02c4a0c2c
+      internalID: -410602854608395487
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_volt_impact_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 113
+        height: 112
+      alignment: 9
+      pivot: {x: 0.469027, y: 0.544643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4823b65f62034da189a5d3f21a1e7269
+      internalID: -2735030948797701501
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_volt_impact_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 0
+        width: 113
+        height: 112
+      alignment: 9
+      pivot: {x: 0.469027, y: 0.544643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6fd71b658964040b47fe437fe78c5ec
+      internalID: -2237138864981236296
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_volt_impact_3
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 0
+        width: 113
+        height: 112
+      alignment: 9
+      pivot: {x: 0.469027, y: 0.544643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068c4e7a1b394233a1570ca2f4a77d7c
+      internalID: -4500835515040527405
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_volt_impact_4
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 0
+        width: 113
+        height: 112
+      alignment: 9
+      pivot: {x: 0.469027, y: 0.544643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf675a21cc74214a5bf399978b26218
+      internalID: -4232285592155579992
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_volt_impact_5
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 0
+        width: 113
+        height: 112
+      alignment: 9
+      pivot: {x: 0.469027, y: 0.544643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415e0aae437048058eeffaf28566ffba
+      internalID: -3233360955327425097
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_volt_impact_6
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 0
+        width: 113
+        height: 112
+      alignment: 9
+      pivot: {x: 0.469027, y: 0.544643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c330ce7ab5f44fd944c2a02f1e2efe4
+      internalID: 4518411487430388626
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_volt_impact_7
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 0
+        width: 113
+        height: 112
+      alignment: 9
+      pivot: {x: 0.469027, y: 0.544643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028c01cbe7394ba39267964a2e2fa7d8
+      internalID: 1152516476249585148
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_volt_impact_8
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 0
+        width: 113
+        height: 112
+      alignment: 9
+      pivot: {x: 0.469027, y: 0.544643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a56d788cd6f4ac8adc1f746cf6f621c
+      internalID: 1737267929963770151
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_volt_impact_9
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 0
+        width: 113
+        height: 112
+      alignment: 9
+      pivot: {x: 0.469027, y: 0.544643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86b149a9257f41de837ca3d3185078c2
+      internalID: -3630447562271190527
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_volt_impact_10
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 0
+        width: 113
+        height: 112
+      alignment: 9
+      pivot: {x: 0.469027, y: 0.544643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d275f0a7d2450692e027fd8b215ade
+      internalID: -132043036851565833
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_volt_impact_11
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 0
+        width: 113
+        height: 112
+      alignment: 9
+      pivot: {x: 0.469027, y: 0.544643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f921ed2c17c461594e6114e1b812db6
+      internalID: -3146956399027439467
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_volt_impact_12
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 0
+        width: 113
+        height: 112
+      alignment: 9
+      pivot: {x: 0.469027, y: 0.544643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49878a4be3f14d0d84a5616e149c0b6f
+      internalID: -1658653231078112184
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vc_volt_impact_0: -410602854608395487
+      vc_volt_impact_1: -2735030948797701501
+      vc_volt_impact_2: -2237138864981236296
+      vc_volt_impact_3: -4500835515040527405
+      vc_volt_impact_4: -4232285592155579992
+      vc_volt_impact_5: -3233360955327425097
+      vc_volt_impact_6: 4518411487430388626
+      vc_volt_impact_7: 1152516476249585148
+      vc_volt_impact_8: 1737267929963770151
+      vc_volt_impact_9: -3630447562271190527
+      vc_volt_impact_10: -132043036851565833
+      vc_volt_impact_11: -3146956399027439467
+      vc_volt_impact_12: -1658653231078112184
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

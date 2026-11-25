@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 3cf142c23f724dd19849f7e6c978f077
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2559222640322772761
+    second: vc_skull_meteor_0
+  - first:
+      213: 1142399230777503276
+    second: vc_skull_meteor_1
+  - first:
+      213: 1206186355365529273
+    second: vc_skull_meteor_2
+  - first:
+      213: 3022753311438845030
+    second: vc_skull_meteor_3
+  - first:
+      213: -603670377661983027
+    second: vc_skull_meteor_4
+  - first:
+      213: 3716676513262966353
+    second: vc_skull_meteor_5
+  - first:
+      213: -1100283219773419683
+    second: vc_skull_meteor_6
+  - first:
+      213: -3711568921426591431
+    second: vc_skull_meteor_7
+  - first:
+      213: -1898024876411932293
+    second: vc_skull_meteor_8
+  - first:
+      213: -4321988939286962200
+    second: vc_skull_meteor_9
+  - first:
+      213: -2840802351162808742
+    second: vc_skull_meteor_10
+  - first:
+      213: -62261849094651440
+    second: vc_skull_meteor_11
+  - first:
+      213: 3431400150577515416
+    second: vc_skull_meteor_12
+  - first:
+      213: -1461863758684861279
+    second: vc_skull_meteor_13
+  - first:
+      213: 4124510697935586968
+    second: vc_skull_meteor_14
+  - first:
+      213: -1905618567773192748
+    second: vc_skull_meteor_15
+  - first:
+      213: -4262820939903955512
+    second: vc_skull_meteor_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 8192
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vc_skull_meteor_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 132
+        height: 151
+      alignment: 9
+      pivot: {x: 0.416667, y: 0.152318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f5ea5f04924d66bb324319aef75d4d
+      internalID: 2559222640322772761
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_skull_meteor_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 132
+        height: 151
+      alignment: 9
+      pivot: {x: 0.416667, y: 0.152318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fd8cd50039b40f89da4f8b206fcb19e
+      internalID: 1142399230777503276
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_skull_meteor_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 132
+        height: 151
+      alignment: 9
+      pivot: {x: 0.416667, y: 0.152318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7417685fab8a4e298052a8ba47e56d9f
+      internalID: 1206186355365529273
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_skull_meteor_3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 132
+        height: 151
+      alignment: 9
+      pivot: {x: 0.416667, y: 0.152318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0439bb2a806496f97d8410eba4630e1
+      internalID: 3022753311438845030
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_skull_meteor_4
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 132
+        height: 151
+      alignment: 9
+      pivot: {x: 0.416667, y: 0.152318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddaba2f407eb4d1c83bce56edfce6241
+      internalID: -603670377661983027
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_skull_meteor_5
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 0
+        width: 132
+        height: 151
+      alignment: 9
+      pivot: {x: 0.416667, y: 0.152318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27828f3c0e6c4e5f9e3c427ea7b5a803
+      internalID: 3716676513262966353
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_skull_meteor_6
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 0
+        width: 132
+        height: 151
+      alignment: 9
+      pivot: {x: 0.416667, y: 0.152318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc244bb2c3845ceb45a8fba67b7e867
+      internalID: -1100283219773419683
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_skull_meteor_7
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 0
+        width: 132
+        height: 151
+      alignment: 9
+      pivot: {x: 0.416667, y: 0.152318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273cdaf9c21a4c0cb3a81fdb554ef104
+      internalID: -3711568921426591431
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_skull_meteor_8
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 132
+        height: 151
+      alignment: 9
+      pivot: {x: 0.416667, y: 0.152318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff3e05db98748588bf6e236eef6b7d2
+      internalID: -1898024876411932293
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_skull_meteor_9
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 0
+        width: 132
+        height: 151
+      alignment: 9
+      pivot: {x: 0.416667, y: 0.152318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80bc2e37f4740bd9acb0f6a7333767f
+      internalID: -4321988939286962200
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_skull_meteor_10
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 0
+        width: 132
+        height: 151
+      alignment: 9
+      pivot: {x: 0.416667, y: 0.152318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4efe86f572334d618a1676b3c6ff75d2
+      internalID: -2840802351162808742
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_skull_meteor_11
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 0
+        width: 132
+        height: 151
+      alignment: 9
+      pivot: {x: 0.416667, y: 0.152318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2541385dce3a4a8cb021810913649c53
+      internalID: -62261849094651440
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_skull_meteor_12
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 0
+        width: 132
+        height: 151
+      alignment: 9
+      pivot: {x: 0.416667, y: 0.152318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5851028a99224748bf6736a9e4e4b90d
+      internalID: 3431400150577515416
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_skull_meteor_13
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 0
+        width: 132
+        height: 151
+      alignment: 9
+      pivot: {x: 0.416667, y: 0.152318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdbdb022c4e24b5dbb765e42bad9c5eb
+      internalID: -1461863758684861279
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_skull_meteor_14
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 0
+        width: 132
+        height: 151
+      alignment: 9
+      pivot: {x: 0.416667, y: 0.152318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f999139905b7456d8d3afbd127170efc
+      internalID: 4124510697935586968
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_skull_meteor_15
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 0
+        width: 132
+        height: 151
+      alignment: 9
+      pivot: {x: 0.416667, y: 0.152318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb03f6cfc9e14ee7bf6e55553c94213d
+      internalID: -1905618567773192748
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_skull_meteor_16
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 0
+        width: 132
+        height: 151
+      alignment: 9
+      pivot: {x: 0.416667, y: 0.152318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1091a704f16041869eee5539590f798b
+      internalID: -4262820939903955512
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vc_skull_meteor_0: 2559222640322772761
+      vc_skull_meteor_1: 1142399230777503276
+      vc_skull_meteor_2: 1206186355365529273
+      vc_skull_meteor_3: 3022753311438845030
+      vc_skull_meteor_4: -603670377661983027
+      vc_skull_meteor_5: 3716676513262966353
+      vc_skull_meteor_6: -1100283219773419683
+      vc_skull_meteor_7: -3711568921426591431
+      vc_skull_meteor_8: -1898024876411932293
+      vc_skull_meteor_9: -4321988939286962200
+      vc_skull_meteor_10: -2840802351162808742
+      vc_skull_meteor_11: -62261849094651440
+      vc_skull_meteor_12: 3431400150577515416
+      vc_skull_meteor_13: -1461863758684861279
+      vc_skull_meteor_14: 4124510697935586968
+      vc_skull_meteor_15: -1905618567773192748
+      vc_skull_meteor_16: -4262820939903955512
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

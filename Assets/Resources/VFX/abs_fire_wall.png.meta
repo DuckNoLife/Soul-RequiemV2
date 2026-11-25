@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: ff80c1f3d0c540a2916eae6a0c488319
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1233582230663625263
+    second: abs_fire_wall_0
+  - first:
+      213: 2480071156687824900
+    second: abs_fire_wall_1
+  - first:
+      213: 879482420282312691
+    second: abs_fire_wall_2
+  - first:
+      213: -1135387142839272404
+    second: abs_fire_wall_3
+  - first:
+      213: 1942204504395116734
+    second: abs_fire_wall_4
+  - first:
+      213: 1384796636916945502
+    second: abs_fire_wall_5
+  - first:
+      213: 3362072090596358452
+    second: abs_fire_wall_6
+  - first:
+      213: -698836902050190408
+    second: abs_fire_wall_7
+  - first:
+      213: -1932969088525007648
+    second: abs_fire_wall_8
+  - first:
+      213: 2820249102624759114
+    second: abs_fire_wall_9
+  - first:
+      213: -4390081403975244340
+    second: abs_fire_wall_10
+  - first:
+      213: 348326766598242032
+    second: abs_fire_wall_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: abs_fire_wall_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 56
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.122449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b25a9d47da4e229b7d215c0c10d68d
+      internalID: 1233582230663625263
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_fire_wall_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 0
+        width: 56
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.122449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921740f9b576473ba6bd69eae1edae22
+      internalID: 2480071156687824900
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_fire_wall_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 56
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.122449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821b1edc29dc41e2986ab3c93973d576
+      internalID: 879482420282312691
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_fire_wall_3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 56
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.122449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12efed4b5502419e9ff90bab0366b878
+      internalID: -1135387142839272404
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_fire_wall_4
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 56
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.122449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5033dec0104c7e80c41cbcb3c998e5
+      internalID: 1942204504395116734
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_fire_wall_5
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 56
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.122449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bdab935a774498d9ed3b5e6f2aa0f8e
+      internalID: 1384796636916945502
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_fire_wall_6
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 56
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.122449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a186bbcc00b54f5ea36061aa984112b6
+      internalID: 3362072090596358452
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_fire_wall_7
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 0
+        width: 56
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.122449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ee4df9ffdc496c9df570ca56d16faf
+      internalID: -698836902050190408
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_fire_wall_8
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 56
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.122449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d53108213c540f9b14badb27835e241
+      internalID: -1932969088525007648
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_fire_wall_9
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 0
+        width: 56
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.122449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af61b44ae1c4b4badb03e9702a59d11
+      internalID: 2820249102624759114
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_fire_wall_10
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 56
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.122449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78489d402aeb4838981e7bc1c346f003
+      internalID: -4390081403975244340
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_fire_wall_11
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 0
+        width: 56
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.122449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da67af990aca427d8b5956f7b890c630
+      internalID: 348326766598242032
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      abs_fire_wall_0: 1233582230663625263
+      abs_fire_wall_1: 2480071156687824900
+      abs_fire_wall_2: 879482420282312691
+      abs_fire_wall_3: -1135387142839272404
+      abs_fire_wall_4: 1942204504395116734
+      abs_fire_wall_5: 1384796636916945502
+      abs_fire_wall_6: 3362072090596358452
+      abs_fire_wall_7: -698836902050190408
+      abs_fire_wall_8: -1932969088525007648
+      abs_fire_wall_9: 2820249102624759114
+      abs_fire_wall_10: -4390081403975244340
+      abs_fire_wall_11: 348326766598242032
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

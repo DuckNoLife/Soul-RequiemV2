@@ -1,0 +1,1261 @@
+fileFormatVersion: 2
+guid: f62dd63be8958df419dc93f96c06ace8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4276360607395681844
+    second: Prepare_38x1_0
+  - first:
+      213: -4324529155684327453
+    second: Prepare_38x1_1
+  - first:
+      213: 989608027078407688
+    second: Prepare_38x1_2
+  - first:
+      213: -2114437885543504228
+    second: Prepare_38x1_3
+  - first:
+      213: 7049142367683944309
+    second: Prepare_38x1_4
+  - first:
+      213: -5439380129888787598
+    second: Prepare_38x1_5
+  - first:
+      213: -9161263933219031460
+    second: Prepare_38x1_6
+  - first:
+      213: -4571302060301336865
+    second: Prepare_38x1_7
+  - first:
+      213: 681154336229637018
+    second: Prepare_38x1_8
+  - first:
+      213: 4697166983648387954
+    second: Prepare_38x1_9
+  - first:
+      213: 3909714999154425257
+    second: Prepare_38x1_10
+  - first:
+      213: -2905625425258978229
+    second: Prepare_38x1_11
+  - first:
+      213: -4980856645402926710
+    second: Prepare_38x1_12
+  - first:
+      213: -809475618709019765
+    second: Prepare_38x1_13
+  - first:
+      213: -6932481039028598281
+    second: Prepare_38x1_14
+  - first:
+      213: 5284527322855762290
+    second: Prepare_38x1_15
+  - first:
+      213: -7531918148222808710
+    second: Prepare_38x1_16
+  - first:
+      213: 6657788730083340921
+    second: Prepare_38x1_17
+  - first:
+      213: 7047181160018710207
+    second: Prepare_38x1_18
+  - first:
+      213: 5542575778881188167
+    second: Prepare_38x1_19
+  - first:
+      213: -3989698685661044177
+    second: Prepare_38x1_20
+  - first:
+      213: -6557913601894731887
+    second: Prepare_38x1_21
+  - first:
+      213: 3410136359421085508
+    second: Prepare_38x1_22
+  - first:
+      213: -5921862802201350550
+    second: Prepare_38x1_23
+  - first:
+      213: 3116603002998406915
+    second: Prepare_38x1_24
+  - first:
+      213: 7237744712975322470
+    second: Prepare_38x1_25
+  - first:
+      213: 4879259343970621848
+    second: Prepare_38x1_26
+  - first:
+      213: -5449918384984217979
+    second: Prepare_38x1_27
+  - first:
+      213: 1786849105847114757
+    second: Prepare_38x1_28
+  - first:
+      213: 1315839300201557717
+    second: Prepare_38x1_29
+  - first:
+      213: -7358014030473938288
+    second: Prepare_38x1_30
+  - first:
+      213: 3096180641772638149
+    second: Prepare_38x1_31
+  - first:
+      213: -5444548802737553041
+    second: Prepare_38x1_32
+  - first:
+      213: 8063594256798539575
+    second: Prepare_38x1_33
+  - first:
+      213: 8308819241132752981
+    second: Prepare_38x1_34
+  - first:
+      213: -2302485694434556386
+    second: Prepare_38x1_35
+  - first:
+      213: 280670245773692174
+    second: Prepare_38x1_36
+  - first:
+      213: 7797438970551649541
+    second: Prepare_38x1_37
+  - first:
+      213: 6221403172221210120
+    second: Prepare_38x1_38
+  - first:
+      213: -4187751688720047595
+    second: Prepare_38x1_39
+  - first:
+      213: 7658127478895795212
+    second: Prepare_38x1_40
+  - first:
+      213: -1202353242285279644
+    second: Prepare_38x1_41
+  - first:
+      213: -866589352415975083
+    second: Prepare_38x1_42
+  - first:
+      213: -3124874860562040261
+    second: Prepare_38x1_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Prepare_38x1_0
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 28
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4361b47b05fa85b30800000000000000
+      internalID: 4276360607395681844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_1
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 28
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef9d9e25af2cf3c0800000000000000
+      internalID: -4324529155684327453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_2
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 29
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80632e8e14bcbbd00800000000000000
+      internalID: 989608027078407688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_3
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 29
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c962d8422f108a2e0800000000000000
+      internalID: -2114437885543504228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_4
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 31
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f15fca2a593d160800000000000000
+      internalID: 7049142367683944309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_5
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 31
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27329a747907384b0800000000000000
+      internalID: -5439380129888787598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_6
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 33
+        width: 61
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c56b1eebdf6acd080800000000000000
+      internalID: -9161263933219031460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_7
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 33
+        width: 61
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde3ab6fef87f80c0800000000000000
+      internalID: -4571302060301336865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_8
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 31
+        width: 61
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b3f288242f37900800000000000000
+      internalID: 681154336229637018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_9
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 31
+        width: 61
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2732e072c70bf2140800000000000000
+      internalID: 4697166983648387954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_10
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 22
+        width: 49
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9adbd91c319124630800000000000000
+      internalID: 3909714999154425257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_11
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 22
+        width: 49
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44681502152da7d0800000000000000
+      internalID: -2905625425258978229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_12
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 30
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a816d9d454170eab0800000000000000
+      internalID: -4980856645402926710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_13
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 30
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83628ca63a24c4f0800000000000000
+      internalID: -809475618709019765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_14
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 33
+        width: 58
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9c1909931eacf90800000000000000
+      internalID: -6932481039028598281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_15
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 33
+        width: 58
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279e9acf999665940800000000000000
+      internalID: 5284527322855762290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_16
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 34
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d8cd99950497790800000000000000
+      internalID: -7531918148222808710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_17
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 34
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97277365397356c50800000000000000
+      internalID: 6657788730083340921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_18
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 35
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe8dbe6ded9cc160800000000000000
+      internalID: 7047181160018710207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_19
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 35
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741b5e81e4f2bec40800000000000000
+      internalID: 5542575778881188167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_20
+      rect:
+        serializedVersion: 2
+        x: 2423
+        y: 58
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22a4580f2eb1a8c0800000000000000
+      internalID: -3989698685661044177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_21
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 58
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19fac5b035c9df4a0800000000000000
+      internalID: -6557913601894731887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_22
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 59
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44700f283fc335f20800000000000000
+      internalID: 3410136359421085508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_23
+      rect:
+        serializedVersion: 2
+        x: 2671
+        y: 59
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e6032282151dda0800000000000000
+      internalID: -5921862802201350550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_24
+      rect:
+        serializedVersion: 2
+        x: 2753
+        y: 55
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30fb2a33be5604b20800000000000000
+      internalID: 3116603002998406915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_25
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 55
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d0bdf1872a17460800000000000000
+      internalID: 7237744712975322470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_26
+      rect:
+        serializedVersion: 2
+        x: 2922
+        y: 55
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899df5c958c96b340800000000000000
+      internalID: 4879259343970621848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_27
+      rect:
+        serializedVersion: 2
+        x: 3007
+        y: 55
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58625209a100e54b0800000000000000
+      internalID: -5449918384984217979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_28
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 55
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50cdd3d6bc92cc810800000000000000
+      internalID: 1786849105847114757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_29
+      rect:
+        serializedVersion: 2
+        x: 3175
+        y: 55
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de23063fdcc24210800000000000000
+      internalID: 1315839300201557717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_30
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 8
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ab245493513e990800000000000000
+      internalID: -7358014030473938288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_31
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 8
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf8c41b3e7d7fa20800000000000000
+      internalID: 3096180641772638149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_32
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 23
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61cc8ad5b31174b0800000000000000
+      internalID: -5444548802737553041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_33
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 12
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f5b59f044a7ef60800000000000000
+      internalID: 8063594256798539575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_34
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 23
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55006aae31bde4370800000000000000
+      internalID: 8308819241132752981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_35
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 12
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e164fc2c57deb00e0800000000000000
+      internalID: -2302485694434556386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_36
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 21
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0dcc5af91425e300800000000000000
+      internalID: 280670245773692174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_37
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 21
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505c48d5e61163c60800000000000000
+      internalID: 7797438970551649541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_38
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 24
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ecbb4093dd65650800000000000000
+      internalID: 6221403172221210120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_39
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 31
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512ac4ad60e12e5c0800000000000000
+      internalID: -4187751688720047595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_40
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 24
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0cdd381e52274a60800000000000000
+      internalID: 7658127478895795212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_41
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 31
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466fb03b812605fe0800000000000000
+      internalID: -1202353242285279644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_42
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 22
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5592c1b439149f3f0800000000000000
+      internalID: -866589352415975083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prepare_38x1_43
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 22
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ab6a0eed632a4d0800000000000000
+      internalID: -3124874860562040261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Prepare_38x1_0: 4276360607395681844
+      Prepare_38x1_1: -4324529155684327453
+      Prepare_38x1_10: 3909714999154425257
+      Prepare_38x1_11: -2905625425258978229
+      Prepare_38x1_12: -4980856645402926710
+      Prepare_38x1_13: -809475618709019765
+      Prepare_38x1_14: -6932481039028598281
+      Prepare_38x1_15: 5284527322855762290
+      Prepare_38x1_16: -7531918148222808710
+      Prepare_38x1_17: 6657788730083340921
+      Prepare_38x1_18: 7047181160018710207
+      Prepare_38x1_19: 5542575778881188167
+      Prepare_38x1_2: 989608027078407688
+      Prepare_38x1_20: -3989698685661044177
+      Prepare_38x1_21: -6557913601894731887
+      Prepare_38x1_22: 3410136359421085508
+      Prepare_38x1_23: -5921862802201350550
+      Prepare_38x1_24: 3116603002998406915
+      Prepare_38x1_25: 7237744712975322470
+      Prepare_38x1_26: 4879259343970621848
+      Prepare_38x1_27: -5449918384984217979
+      Prepare_38x1_28: 1786849105847114757
+      Prepare_38x1_29: 1315839300201557717
+      Prepare_38x1_3: -2114437885543504228
+      Prepare_38x1_30: -7358014030473938288
+      Prepare_38x1_31: 3096180641772638149
+      Prepare_38x1_32: -5444548802737553041
+      Prepare_38x1_33: 8063594256798539575
+      Prepare_38x1_34: 8308819241132752981
+      Prepare_38x1_35: -2302485694434556386
+      Prepare_38x1_36: 280670245773692174
+      Prepare_38x1_37: 7797438970551649541
+      Prepare_38x1_38: 6221403172221210120
+      Prepare_38x1_39: -4187751688720047595
+      Prepare_38x1_4: 7049142367683944309
+      Prepare_38x1_40: 7658127478895795212
+      Prepare_38x1_41: -1202353242285279644
+      Prepare_38x1_42: -866589352415975083
+      Prepare_38x1_43: -3124874860562040261
+      Prepare_38x1_5: -5439380129888787598
+      Prepare_38x1_6: -9161263933219031460
+      Prepare_38x1_7: -4571302060301336865
+      Prepare_38x1_8: 681154336229637018
+      Prepare_38x1_9: 4697166983648387954
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

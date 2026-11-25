@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 978d1de48eabf1e47aafb9e5f5e846c4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5670104484578762391
+    second: Move_Execute_18x1_0
+  - first:
+      213: 1455797659079974931
+    second: Move_Execute_18x1_1
+  - first:
+      213: -236090755748407407
+    second: Move_Execute_18x1_2
+  - first:
+      213: -726085370269897096
+    second: Move_Execute_18x1_3
+  - first:
+      213: 3053963626417902049
+    second: Move_Execute_18x1_4
+  - first:
+      213: 4726149935261510502
+    second: Move_Execute_18x1_5
+  - first:
+      213: 537704490031405571
+    second: Move_Execute_18x1_6
+  - first:
+      213: 3158208024542373254
+    second: Move_Execute_18x1_7
+  - first:
+      213: 6702244279240074607
+    second: Move_Execute_18x1_8
+  - first:
+      213: 3448026310520203908
+    second: Move_Execute_18x1_9
+  - first:
+      213: -1790673154031780512
+    second: Move_Execute_18x1_10
+  - first:
+      213: -3165101574410825383
+    second: Move_Execute_18x1_11
+  - first:
+      213: -3627928904062608920
+    second: Move_Execute_18x1_12
+  - first:
+      213: 8342635195128755801
+    second: Move_Execute_18x1_13
+  - first:
+      213: 8296696229135400201
+    second: Move_Execute_18x1_14
+  - first:
+      213: 7143161415159277556
+    second: Move_Execute_18x1_15
+  - first:
+      213: -6829174287667089100
+    second: Move_Execute_18x1_16
+  - first:
+      213: -3602871331249022149
+    second: Move_Execute_18x1_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Move_Execute_18x1_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 4
+        width: 68
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9616555430ebf41b0800000000000000
+      internalID: -5670104484578762391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Execute_18x1_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 4
+        width: 68
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310ae4ef148043410800000000000000
+      internalID: 1455797659079974931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Execute_18x1_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 6
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197dcd065bc39bcf0800000000000000
+      internalID: -236090755748407407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Execute_18x1_3
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 6
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e6474e33d6ce5f0800000000000000
+      internalID: -726085370269897096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Execute_18x1_4
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 12
+        width: 68
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e15a95dcbbd16a20800000000000000
+      internalID: 3053963626417902049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Execute_18x1_5
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 12
+        width: 68
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b6f7e6358a69140800000000000000
+      internalID: 4726149935261510502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Execute_18x1_6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 17
+        width: 68
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a5472826f467700800000000000000
+      internalID: 537704490031405571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Execute_18x1_7
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 17
+        width: 68
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 685e2a5277534db20800000000000000
+      internalID: 3158208024542373254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Execute_18x1_8
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 35
+        width: 69
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f65aff579a7230d50800000000000000
+      internalID: 6702244279240074607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Execute_18x1_9
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 35
+        width: 69
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48ae1c639a9d9df20800000000000000
+      internalID: 3448026310520203908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Execute_18x1_10
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 25
+        width: 76
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d7b19f0404627e0800000000000000
+      internalID: -1790673154031780512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Execute_18x1_11
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 25
+        width: 76
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951963333ec4314d0800000000000000
+      internalID: -3165101574410825383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Execute_18x1_12
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 15
+        width: 81
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9d9f222e107adc0800000000000000
+      internalID: -3627928904062608920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Execute_18x1_13
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 15
+        width: 81
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9563250428ef6c370800000000000000
+      internalID: 8342635195128755801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Execute_18x1_14
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 0
+        width: 88
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d30fa3349c32370800000000000000
+      internalID: 8296696229135400201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Execute_18x1_15
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 0
+        width: 88
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f768d3067b912360800000000000000
+      internalID: 7143161415159277556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Execute_18x1_16
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 0
+        width: 79
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4313f5afa26e931a0800000000000000
+      internalID: -6829174287667089100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Execute_18x1_17
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 0
+        width: 79
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b9671fc97000ec0800000000000000
+      internalID: -3602871331249022149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Move_Execute_18x1_0: -5670104484578762391
+      Move_Execute_18x1_1: 1455797659079974931
+      Move_Execute_18x1_10: -1790673154031780512
+      Move_Execute_18x1_11: -3165101574410825383
+      Move_Execute_18x1_12: -3627928904062608920
+      Move_Execute_18x1_13: 8342635195128755801
+      Move_Execute_18x1_14: 8296696229135400201
+      Move_Execute_18x1_15: 7143161415159277556
+      Move_Execute_18x1_16: -6829174287667089100
+      Move_Execute_18x1_17: -3602871331249022149
+      Move_Execute_18x1_2: -236090755748407407
+      Move_Execute_18x1_3: -726085370269897096
+      Move_Execute_18x1_4: 3053963626417902049
+      Move_Execute_18x1_5: 4726149935261510502
+      Move_Execute_18x1_6: 537704490031405571
+      Move_Execute_18x1_7: 3158208024542373254
+      Move_Execute_18x1_8: 6702244279240074607
+      Move_Execute_18x1_9: 3448026310520203908
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

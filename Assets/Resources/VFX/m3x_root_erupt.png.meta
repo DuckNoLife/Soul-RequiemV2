@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 5a5e9880f74f485b86520b77475b7e8e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2790686264652442149
+    second: m3x_root_erupt_0
+  - first:
+      213: 3637774205153857239
+    second: m3x_root_erupt_1
+  - first:
+      213: -608433104764352931
+    second: m3x_root_erupt_2
+  - first:
+      213: 4126634310414075575
+    second: m3x_root_erupt_3
+  - first:
+      213: -59211392806524538
+    second: m3x_root_erupt_4
+  - first:
+      213: -1675048257925556866
+    second: m3x_root_erupt_5
+  - first:
+      213: -3506048106315385911
+    second: m3x_root_erupt_6
+  - first:
+      213: -3202961697830585983
+    second: m3x_root_erupt_7
+  - first:
+      213: 4265886838296829177
+    second: m3x_root_erupt_8
+  - first:
+      213: -2432487644961493870
+    second: m3x_root_erupt_9
+  - first:
+      213: -2445767336033347609
+    second: m3x_root_erupt_10
+  - first:
+      213: -1644869233666104156
+    second: m3x_root_erupt_11
+  - first:
+      213: -3429926282419975981
+    second: m3x_root_erupt_12
+  - first:
+      213: -1850728752325694129
+    second: m3x_root_erupt_13
+  - first:
+      213: -1136028242109877509
+    second: m3x_root_erupt_14
+  - first:
+      213: 1449263377538395898
+    second: m3x_root_erupt_15
+  - first:
+      213: -1531128307007251586
+    second: m3x_root_erupt_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: m3x_root_erupt_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 103
+        height: 65
+      alignment: 9
+      pivot: {x: 0.495146, y: 0.276923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1bf58bd7334c1b9ac5789fa96d45a6
+      internalID: -2790686264652442149
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3x_root_erupt_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 0
+        width: 103
+        height: 65
+      alignment: 9
+      pivot: {x: 0.495146, y: 0.276923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05604229ffea4351b00a2e950ab32f67
+      internalID: 3637774205153857239
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3x_root_erupt_2
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 0
+        width: 103
+        height: 65
+      alignment: 9
+      pivot: {x: 0.495146, y: 0.276923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb8d72b82e146fb9dd26a0838604661
+      internalID: -608433104764352931
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3x_root_erupt_3
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 0
+        width: 103
+        height: 65
+      alignment: 9
+      pivot: {x: 0.495146, y: 0.276923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1c311d5e6d477eb5aa979f89178ef3
+      internalID: 4126634310414075575
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3x_root_erupt_4
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 0
+        width: 103
+        height: 65
+      alignment: 9
+      pivot: {x: 0.495146, y: 0.276923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4384ce260614405a0ac27b8da65cace
+      internalID: -59211392806524538
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3x_root_erupt_5
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 0
+        width: 103
+        height: 65
+      alignment: 9
+      pivot: {x: 0.495146, y: 0.276923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e227499e8e4db9b806da9ef1064c15
+      internalID: -1675048257925556866
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3x_root_erupt_6
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 0
+        width: 103
+        height: 65
+      alignment: 9
+      pivot: {x: 0.495146, y: 0.276923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92f9766e3be446dadcbe974d7a8e695
+      internalID: -3506048106315385911
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3x_root_erupt_7
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 0
+        width: 103
+        height: 65
+      alignment: 9
+      pivot: {x: 0.495146, y: 0.276923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc53d862c58b4fa38a0a6f5047da7a8b
+      internalID: -3202961697830585983
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3x_root_erupt_8
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 0
+        width: 103
+        height: 65
+      alignment: 9
+      pivot: {x: 0.495146, y: 0.276923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa581b4f3e14252944d109b93e2a1ea
+      internalID: 4265886838296829177
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3x_root_erupt_9
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 0
+        width: 103
+        height: 65
+      alignment: 9
+      pivot: {x: 0.495146, y: 0.276923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8fd2a8a0db94c9a90edf80ef42122c5
+      internalID: -2432487644961493870
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3x_root_erupt_10
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 0
+        width: 103
+        height: 65
+      alignment: 9
+      pivot: {x: 0.495146, y: 0.276923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6365c031e8a8457fb89a6c13ecf80fc2
+      internalID: -2445767336033347609
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3x_root_erupt_11
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 0
+        width: 103
+        height: 65
+      alignment: 9
+      pivot: {x: 0.495146, y: 0.276923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ce62b6e20c4f2f86a14cf1ef3d2ee2
+      internalID: -1644869233666104156
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3x_root_erupt_12
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 0
+        width: 103
+        height: 65
+      alignment: 9
+      pivot: {x: 0.495146, y: 0.276923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18ef1a4d73b64e4e80755bba12c536fc
+      internalID: -3429926282419975981
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3x_root_erupt_13
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 0
+        width: 103
+        height: 65
+      alignment: 9
+      pivot: {x: 0.495146, y: 0.276923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02a3fdefc5d4b18bfc2ce030b78fa43
+      internalID: -1850728752325694129
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3x_root_erupt_14
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 0
+        width: 103
+        height: 65
+      alignment: 9
+      pivot: {x: 0.495146, y: 0.276923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5cf4cefc7ee4513a455c4816a1b790a
+      internalID: -1136028242109877509
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3x_root_erupt_15
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 0
+        width: 103
+        height: 65
+      alignment: 9
+      pivot: {x: 0.495146, y: 0.276923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f7a3978a816475ea9c7e0ec43aaa6a4
+      internalID: 1449263377538395898
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3x_root_erupt_16
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 0
+        width: 103
+        height: 65
+      alignment: 9
+      pivot: {x: 0.495146, y: 0.276923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd7657165e2b44ddb0b96ec0bdd4862f
+      internalID: -1531128307007251586
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      m3x_root_erupt_0: -2790686264652442149
+      m3x_root_erupt_1: 3637774205153857239
+      m3x_root_erupt_2: -608433104764352931
+      m3x_root_erupt_3: 4126634310414075575
+      m3x_root_erupt_4: -59211392806524538
+      m3x_root_erupt_5: -1675048257925556866
+      m3x_root_erupt_6: -3506048106315385911
+      m3x_root_erupt_7: -3202961697830585983
+      m3x_root_erupt_8: 4265886838296829177
+      m3x_root_erupt_9: -2432487644961493870
+      m3x_root_erupt_10: -2445767336033347609
+      m3x_root_erupt_11: -1644869233666104156
+      m3x_root_erupt_12: -3429926282419975981
+      m3x_root_erupt_13: -1850728752325694129
+      m3x_root_erupt_14: -1136028242109877509
+      m3x_root_erupt_15: 1449263377538395898
+      m3x_root_erupt_16: -1531128307007251586
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

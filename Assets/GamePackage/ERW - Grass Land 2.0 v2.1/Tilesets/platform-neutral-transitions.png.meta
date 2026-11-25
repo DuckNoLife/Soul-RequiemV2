@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 8943d3fc897f09049b457f2f27d76f10
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4138714931188565095
+    second: platform-neutral-transitions_0
+  - first:
+      213: -4311841474585619548
+    second: platform-neutral-transitions_1
+  - first:
+      213: -9097751196769153732
+    second: platform-neutral-transitions_2
+  - first:
+      213: -7373001176764511885
+    second: platform-neutral-transitions_3
+  - first:
+      213: -3994654245602789681
+    second: platform-neutral-transitions_4
+  - first:
+      213: 6956076062612149104
+    second: platform-neutral-transitions_5
+  - first:
+      213: 8043250172148078352
+    second: platform-neutral-transitions_6
+  - first:
+      213: -8242716876324572126
+    second: platform-neutral-transitions_7
+  - first:
+      213: 2528185424145637222
+    second: platform-neutral-transitions_8
+  - first:
+      213: -5726991845831340553
+    second: platform-neutral-transitions_9
+  - first:
+      213: 2842935755772203264
+    second: platform-neutral-transitions_10
+  - first:
+      213: 2661913886107473653
+    second: platform-neutral-transitions_11
+  - first:
+      213: 5130415267603707690
+    second: platform-neutral-transitions_12
+  - first:
+      213: 6619170323925459073
+    second: platform-neutral-transitions_13
+  - first:
+      213: 3932091756256967382
+    second: platform-neutral-transitions_14
+  - first:
+      213: -8328957127867260580
+    second: platform-neutral-transitions_15
+  - first:
+      213: -3169864707193120983
+    second: platform-neutral-transitions_16
+  - first:
+      213: -8400181366401038121
+    second: platform-neutral-transitions_17
+  - first:
+      213: -4376719451395683938
+    second: platform-neutral-transitions_18
+  - first:
+      213: -3924922094898758499
+    second: platform-neutral-transitions_19
+  - first:
+      213: -6937468355994950484
+    second: platform-neutral-transitions_20
+  - first:
+      213: 1909178561817706856
+    second: platform-neutral-transitions_21
+  - first:
+      213: 6352528163599073299
+    second: platform-neutral-transitions_22
+  - first:
+      213: 749225814874207389
+    second: platform-neutral-transitions_23
+  - first:
+      213: -8460270639233167465
+    second: platform-neutral-transitions_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: platform-neutral-transitions_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 315
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b76eba2b45096c0800000000000000
+      internalID: -4138714931188565095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-neutral-transitions_1
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 642
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3178326034924c0800000000000000
+      internalID: -4311841474585619548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-neutral-transitions_2
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 641
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d80bd0d7b4eb180800000000000000
+      internalID: -9097751196769153732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-neutral-transitions_3
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 543
+        width: 92
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3790a6a5e76dda990800000000000000
+      internalID: -7373001176764511885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-neutral-transitions_4
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 599
+        width: 63
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc6f652d0232098c0800000000000000
+      internalID: -3994654245602789681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-neutral-transitions_5
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 543
+        width: 59
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0735896f252f88060800000000000000
+      internalID: 6956076062612149104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-neutral-transitions_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 289
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0175c76aa6d5f9f60800000000000000
+      internalID: 8043250172148078352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-neutral-transitions_7
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 409
+        width: 66
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2247e8a3cacfb9d80800000000000000
+      internalID: -8242716876324572126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-neutral-transitions_8
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 409
+        width: 61
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f55849f3be51320800000000000000
+      internalID: 2528185424145637222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-neutral-transitions_9
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 255
+        width: 220
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd0aa55243a580b0800000000000000
+      internalID: -5726991845831340553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-neutral-transitions_10
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 255
+        width: 64
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0011f02e103247720800000000000000
+      internalID: 2842935755772203264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-neutral-transitions_11
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 351
+        width: 58
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f69d14739401f420800000000000000
+      internalID: 2661913886107473653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-neutral-transitions_12
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 259
+        width: 30
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2772c7f085e23740800000000000000
+      internalID: 5130415267603707690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-neutral-transitions_13
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 258
+        width: 32
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1806269f6540cdb50800000000000000
+      internalID: 6619170323925459073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-neutral-transitions_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da30f38e98919630800000000000000
+      internalID: 3932091756256967382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-neutral-transitions_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 289
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51a304fe99996c80800000000000000
+      internalID: -8328957127867260580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-neutral-transitions_16
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 127
+        width: 47
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 927d4bde7d06204d0800000000000000
+      internalID: -3169864707193120983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-neutral-transitions_17
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 127
+        width: 28
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d88fc6ad8f8c6b80800000000000000
+      internalID: -8400181366401038121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-neutral-transitions_18
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 192
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99840a09d4c243c0800000000000000
+      internalID: -4376719451395683938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-neutral-transitions_19
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 193
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c3a7a5620e789c0800000000000000
+      internalID: -3924922094898758499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-neutral-transitions_20
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 138
+        width: 60
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca46868594929bf90800000000000000
+      internalID: -6937468355994950484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-neutral-transitions_21
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 148
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8618fe569c3ce7a10800000000000000
+      internalID: 1909178561817706856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-neutral-transitions_22
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 137
+        width: 51
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310ccf825b6b82850800000000000000
+      internalID: 6352528163599073299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-neutral-transitions_23
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 63
+        width: 51
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d943128b8e8c56a00800000000000000
+      internalID: 749225814874207389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-neutral-transitions_24
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 63
+        width: 52
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f07d49da4179a80800000000000000
+      internalID: -8460270639233167465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      platform-neutral-transitions_0: -4138714931188565095
+      platform-neutral-transitions_1: -4311841474585619548
+      platform-neutral-transitions_10: 2842935755772203264
+      platform-neutral-transitions_11: 2661913886107473653
+      platform-neutral-transitions_12: 5130415267603707690
+      platform-neutral-transitions_13: 6619170323925459073
+      platform-neutral-transitions_14: 3932091756256967382
+      platform-neutral-transitions_15: -8328957127867260580
+      platform-neutral-transitions_16: -3169864707193120983
+      platform-neutral-transitions_17: -8400181366401038121
+      platform-neutral-transitions_18: -4376719451395683938
+      platform-neutral-transitions_19: -3924922094898758499
+      platform-neutral-transitions_2: -9097751196769153732
+      platform-neutral-transitions_20: -6937468355994950484
+      platform-neutral-transitions_21: 1909178561817706856
+      platform-neutral-transitions_22: 6352528163599073299
+      platform-neutral-transitions_23: 749225814874207389
+      platform-neutral-transitions_24: -8460270639233167465
+      platform-neutral-transitions_3: -7373001176764511885
+      platform-neutral-transitions_4: -3994654245602789681
+      platform-neutral-transitions_5: 6956076062612149104
+      platform-neutral-transitions_6: 8043250172148078352
+      platform-neutral-transitions_7: -8242716876324572126
+      platform-neutral-transitions_8: 2528185424145637222
+      platform-neutral-transitions_9: -5726991845831340553
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

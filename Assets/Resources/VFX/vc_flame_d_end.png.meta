@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: 77e687ad43884e6dacf0a7ef220d058c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -977646956285023066
+    second: vc_flame_d_end_0
+  - first:
+      213: -2111912211249141610
+    second: vc_flame_d_end_1
+  - first:
+      213: -440847350039427230
+    second: vc_flame_d_end_2
+  - first:
+      213: -2572892041936906615
+    second: vc_flame_d_end_3
+  - first:
+      213: -2478240765204743617
+    second: vc_flame_d_end_4
+  - first:
+      213: 2193513629672981786
+    second: vc_flame_d_end_5
+  - first:
+      213: 1148282009440146079
+    second: vc_flame_d_end_6
+  - first:
+      213: -2683906117926583105
+    second: vc_flame_d_end_7
+  - first:
+      213: 2395834018892484717
+    second: vc_flame_d_end_8
+  - first:
+      213: -1764425529043753131
+    second: vc_flame_d_end_9
+  - first:
+      213: 1505441547364255391
+    second: vc_flame_d_end_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 8192
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vc_flame_d_end_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 224
+        height: 128
+      alignment: 9
+      pivot: {x: 0.205357, y: 0.8125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e8a80b2b0c44969ea58e773dcb69bf
+      internalID: -977646956285023066
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_flame_d_end_1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 224
+        height: 128
+      alignment: 9
+      pivot: {x: 0.205357, y: 0.8125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e2c6116d914055ad85c00ef86f34ab
+      internalID: -2111912211249141610
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_flame_d_end_2
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 224
+        height: 128
+      alignment: 9
+      pivot: {x: 0.205357, y: 0.8125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 026db3a4906a4e4f9fe269a5b6e18727
+      internalID: -440847350039427230
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_flame_d_end_3
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 224
+        height: 128
+      alignment: 9
+      pivot: {x: 0.205357, y: 0.8125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: addef0c0d5d34e06acfdb0da72a938a2
+      internalID: -2572892041936906615
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_flame_d_end_4
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 224
+        height: 128
+      alignment: 9
+      pivot: {x: 0.205357, y: 0.8125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc83cb5816246eb9835248187feff16
+      internalID: -2478240765204743617
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_flame_d_end_5
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0
+        width: 224
+        height: 128
+      alignment: 9
+      pivot: {x: 0.205357, y: 0.8125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c688dc0bef804d3c820e7828c88cba23
+      internalID: 2193513629672981786
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_flame_d_end_6
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 224
+        height: 128
+      alignment: 9
+      pivot: {x: 0.205357, y: 0.8125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff56d73bef2432cbab2a04db78710f2
+      internalID: 1148282009440146079
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_flame_d_end_7
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 0
+        width: 224
+        height: 128
+      alignment: 9
+      pivot: {x: 0.205357, y: 0.8125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6b168842124e7182b3a9d79db592cb
+      internalID: -2683906117926583105
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_flame_d_end_8
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 224
+        height: 128
+      alignment: 9
+      pivot: {x: 0.205357, y: 0.8125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070acb5c5ff54da8a4ad1ac8ab2c13bf
+      internalID: 2395834018892484717
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_flame_d_end_9
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 0
+        width: 224
+        height: 128
+      alignment: 9
+      pivot: {x: 0.205357, y: 0.8125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6083f0d2aec41a9bec4f1c91a529e04
+      internalID: -1764425529043753131
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_flame_d_end_10
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 224
+        height: 128
+      alignment: 9
+      pivot: {x: 0.205357, y: 0.8125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d5a3c6bf694f5b902699be90c4ec1b
+      internalID: 1505441547364255391
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vc_flame_d_end_0: -977646956285023066
+      vc_flame_d_end_1: -2111912211249141610
+      vc_flame_d_end_2: -440847350039427230
+      vc_flame_d_end_3: -2572892041936906615
+      vc_flame_d_end_4: -2478240765204743617
+      vc_flame_d_end_5: 2193513629672981786
+      vc_flame_d_end_6: 1148282009440146079
+      vc_flame_d_end_7: -2683906117926583105
+      vc_flame_d_end_8: 2395834018892484717
+      vc_flame_d_end_9: -1764425529043753131
+      vc_flame_d_end_10: 1505441547364255391
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

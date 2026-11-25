@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: f97c0160b88b41cc8e008468b3bb7280
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1955909417127701252
+    second: vc_ember_wisp_0
+  - first:
+      213: 509281840488486350
+    second: vc_ember_wisp_1
+  - first:
+      213: 741954947498292394
+    second: vc_ember_wisp_2
+  - first:
+      213: -3009617650790194921
+    second: vc_ember_wisp_3
+  - first:
+      213: -3173512125840896150
+    second: vc_ember_wisp_4
+  - first:
+      213: 230431364602409403
+    second: vc_ember_wisp_5
+  - first:
+      213: -1558837285809869971
+    second: vc_ember_wisp_6
+  - first:
+      213: 3964770725320758805
+    second: vc_ember_wisp_7
+  - first:
+      213: -474784052426610155
+    second: vc_ember_wisp_8
+  - first:
+      213: 1825644808291200423
+    second: vc_ember_wisp_9
+  - first:
+      213: 2033420414691993352
+    second: vc_ember_wisp_10
+  - first:
+      213: -3874768869110781505
+    second: vc_ember_wisp_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 8192
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vc_ember_wisp_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 74
+        height: 28
+      alignment: 9
+      pivot: {x: 0.851351, y: 0.464286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c3affff6e24c49b4ec95cab1fb3ab7
+      internalID: -1955909417127701252
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_ember_wisp_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 74
+        height: 28
+      alignment: 9
+      pivot: {x: 0.851351, y: 0.464286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec40fae294b2499284cf48d009b7e685
+      internalID: 509281840488486350
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_ember_wisp_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 74
+        height: 28
+      alignment: 9
+      pivot: {x: 0.851351, y: 0.464286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e99495434543b1a42a4fa8b644e881
+      internalID: 741954947498292394
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_ember_wisp_3
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 0
+        width: 74
+        height: 28
+      alignment: 9
+      pivot: {x: 0.851351, y: 0.464286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2363cd3b89a48df92d90a3c33f171d9
+      internalID: -3009617650790194921
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_ember_wisp_4
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 0
+        width: 74
+        height: 28
+      alignment: 9
+      pivot: {x: 0.851351, y: 0.464286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88048465f2994b1f9c179e86b15b80c0
+      internalID: -3173512125840896150
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_ember_wisp_5
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 0
+        width: 74
+        height: 28
+      alignment: 9
+      pivot: {x: 0.851351, y: 0.464286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906da4c41c0548b885a91385a0fcc40c
+      internalID: 230431364602409403
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_ember_wisp_6
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 0
+        width: 74
+        height: 28
+      alignment: 9
+      pivot: {x: 0.851351, y: 0.464286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa823fdd490438e94bd5167de7abf46
+      internalID: -1558837285809869971
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_ember_wisp_7
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 0
+        width: 74
+        height: 28
+      alignment: 9
+      pivot: {x: 0.851351, y: 0.464286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e24f3dafb349b799cc813f362352cf
+      internalID: 3964770725320758805
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_ember_wisp_8
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 0
+        width: 74
+        height: 28
+      alignment: 9
+      pivot: {x: 0.851351, y: 0.464286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5432e4016e3f442980b322250ade0258
+      internalID: -474784052426610155
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_ember_wisp_9
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 0
+        width: 74
+        height: 28
+      alignment: 9
+      pivot: {x: 0.851351, y: 0.464286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ab8f08f4bd434ab80f810c9712d560
+      internalID: 1825644808291200423
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_ember_wisp_10
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 0
+        width: 74
+        height: 28
+      alignment: 9
+      pivot: {x: 0.851351, y: 0.464286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b093410817c84bf494bedec48ff423b0
+      internalID: 2033420414691993352
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_ember_wisp_11
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 0
+        width: 74
+        height: 28
+      alignment: 9
+      pivot: {x: 0.851351, y: 0.464286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde0c40e7d9a4d6ba08839e02f3580e0
+      internalID: -3874768869110781505
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vc_ember_wisp_0: -1955909417127701252
+      vc_ember_wisp_1: 509281840488486350
+      vc_ember_wisp_2: 741954947498292394
+      vc_ember_wisp_3: -3009617650790194921
+      vc_ember_wisp_4: -3173512125840896150
+      vc_ember_wisp_5: 230431364602409403
+      vc_ember_wisp_6: -1558837285809869971
+      vc_ember_wisp_7: 3964770725320758805
+      vc_ember_wisp_8: -474784052426610155
+      vc_ember_wisp_9: 1825644808291200423
+      vc_ember_wisp_10: 2033420414691993352
+      vc_ember_wisp_11: -3874768869110781505
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

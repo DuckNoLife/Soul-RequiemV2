@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 7e75a24602ff4ce7af7739f53c1f452d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2062684961124848064
+    second: abs_crackle_0
+  - first:
+      213: 699373631162410870
+    second: abs_crackle_1
+  - first:
+      213: 957000930800890321
+    second: abs_crackle_2
+  - first:
+      213: -1709810640821262595
+    second: abs_crackle_3
+  - first:
+      213: 1820545395053674038
+    second: abs_crackle_4
+  - first:
+      213: 754569621256021381
+    second: abs_crackle_5
+  - first:
+      213: -3659748000566911704
+    second: abs_crackle_6
+  - first:
+      213: 1674642795688243582
+    second: abs_crackle_7
+  - first:
+      213: -1911634964044673279
+    second: abs_crackle_8
+  - first:
+      213: 3748230655600902817
+    second: abs_crackle_9
+  - first:
+      213: 4464728282634975210
+    second: abs_crackle_10
+  - first:
+      213: -3856259072608321176
+    second: abs_crackle_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: abs_crackle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 53
+        height: 62
+      alignment: 9
+      pivot: {x: 0.490566, y: 0.467742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0694e0b252454053b20c03978f8909a5
+      internalID: 2062684961124848064
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_crackle_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 53
+        height: 62
+      alignment: 9
+      pivot: {x: 0.490566, y: 0.467742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ea57e092c74297a0aee87e252b13eb
+      internalID: 699373631162410870
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_crackle_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 0
+        width: 53
+        height: 62
+      alignment: 9
+      pivot: {x: 0.490566, y: 0.467742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38bebc648f504870b18bf9790346edd1
+      internalID: 957000930800890321
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_crackle_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 53
+        height: 62
+      alignment: 9
+      pivot: {x: 0.490566, y: 0.467742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be31933ff1e5484790454013c07c7e92
+      internalID: -1709810640821262595
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_crackle_4
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 0
+        width: 53
+        height: 62
+      alignment: 9
+      pivot: {x: 0.490566, y: 0.467742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce7db5edb8841db9d1a3880d3678928
+      internalID: 1820545395053674038
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_crackle_5
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 0
+        width: 53
+        height: 62
+      alignment: 9
+      pivot: {x: 0.490566, y: 0.467742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2932cc60993648ba9a0146a43df7a089
+      internalID: 754569621256021381
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_crackle_6
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 0
+        width: 53
+        height: 62
+      alignment: 9
+      pivot: {x: 0.490566, y: 0.467742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e762d90f184d6cbccd664c482cb91f
+      internalID: -3659748000566911704
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_crackle_7
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 0
+        width: 53
+        height: 62
+      alignment: 9
+      pivot: {x: 0.490566, y: 0.467742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bebbbdfb8d545e68d6371e15a497e9e
+      internalID: 1674642795688243582
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_crackle_8
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 0
+        width: 53
+        height: 62
+      alignment: 9
+      pivot: {x: 0.490566, y: 0.467742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40895bf476b34b948fbb362369f16b0c
+      internalID: -1911634964044673279
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_crackle_9
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 0
+        width: 53
+        height: 62
+      alignment: 9
+      pivot: {x: 0.490566, y: 0.467742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60344ec2c314508b61cc52c0be3f8f2
+      internalID: 3748230655600902817
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_crackle_10
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 0
+        width: 53
+        height: 62
+      alignment: 9
+      pivot: {x: 0.490566, y: 0.467742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87791376d4d3455195e51a5b918e3bc8
+      internalID: 4464728282634975210
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_crackle_11
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 0
+        width: 53
+        height: 62
+      alignment: 9
+      pivot: {x: 0.490566, y: 0.467742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e976e48d8ae4cf693641155682af97d
+      internalID: -3856259072608321176
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      abs_crackle_0: 2062684961124848064
+      abs_crackle_1: 699373631162410870
+      abs_crackle_2: 957000930800890321
+      abs_crackle_3: -1709810640821262595
+      abs_crackle_4: 1820545395053674038
+      abs_crackle_5: 754569621256021381
+      abs_crackle_6: -3659748000566911704
+      abs_crackle_7: 1674642795688243582
+      abs_crackle_8: -1911634964044673279
+      abs_crackle_9: 3748230655600902817
+      abs_crackle_10: 4464728282634975210
+      abs_crackle_11: -3856259072608321176
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

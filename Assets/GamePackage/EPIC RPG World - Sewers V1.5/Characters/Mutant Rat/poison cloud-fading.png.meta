@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 1475d5f0889bc35478cb466dc884066b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1065320030322623845
+    second: poison cloud-fading_0
+  - first:
+      213: -9125973294221151441
+    second: poison cloud-fading_1
+  - first:
+      213: 4164661591934749769
+    second: poison cloud-fading_2
+  - first:
+      213: 1144951542351643177
+    second: poison cloud-fading_3
+  - first:
+      213: -2062144267153652724
+    second: poison cloud-fading_4
+  - first:
+      213: 2619514037328349201
+    second: poison cloud-fading_5
+  - first:
+      213: 858964672764827403
+    second: poison cloud-fading_6
+  - first:
+      213: 8156973968097216596
+    second: poison cloud-fading_7
+  - first:
+      213: 7593680810676812680
+    second: poison cloud-fading_8
+  - first:
+      213: -4769210797243955352
+    second: poison cloud-fading_9
+  - first:
+      213: -5207091701101439695
+    second: poison cloud-fading_10
+  - first:
+      213: -3787444489987080590
+    second: poison cloud-fading_11
+  - first:
+      213: 2611337231640398684
+    second: poison cloud-fading_12
+  - first:
+      213: 587699893491427197
+    second: poison cloud-fading_13
+  - first:
+      213: 8409441238160220946
+    second: poison cloud-fading_14
+  - first:
+      213: 339498111253323538
+    second: poison cloud-fading_15
+  - first:
+      213: -7541650212052007664
+    second: poison cloud-fading_16
+  - first:
+      213: -8139929177044422032
+    second: poison cloud-fading_17
+  - first:
+      213: -5093320154869850671
+    second: poison cloud-fading_18
+  - first:
+      213: -1086064170097186962
+    second: poison cloud-fading_19
+  - first:
+      213: 5166371328094884181
+    second: poison cloud-fading_20
+  - first:
+      213: -5368717053065288762
+    second: poison cloud-fading_21
+  - first:
+      213: 4292031050635982004
+    second: poison cloud-fading_22
+  - first:
+      213: 102064483558798904
+    second: poison cloud-fading_23
+  - first:
+      213: 7625180345202948272
+    second: poison cloud-fading_24
+  - first:
+      213: -7372553727699236101
+    second: poison cloud-fading_25
+  - first:
+      213: 1796838098466598110
+    second: poison cloud-fading_26
+  - first:
+      213: -7847142435965001951
+    second: poison cloud-fading_27
+  - first:
+      213: 7564665366481006273
+    second: poison cloud-fading_28
+  - first:
+      213: -6189052379929005867
+    second: poison cloud-fading_29
+  - first:
+      213: 5572526993959838139
+    second: poison cloud-fading_30
+  - first:
+      213: 7147671922791434712
+    second: poison cloud-fading_31
+  - first:
+      213: -6051954310059062479
+    second: poison cloud-fading_32
+  - first:
+      213: -2247253145914914622
+    second: poison cloud-fading_33
+  - first:
+      213: 608267134310338037
+    second: poison cloud-fading_34
+  - first:
+      213: 8838048479152381725
+    second: poison cloud-fading_35
+  - first:
+      213: 5285234871507432766
+    second: poison cloud-fading_36
+  - first:
+      213: 9068015224282283791
+    second: poison cloud-fading_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 4096
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: poison cloud-fading_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9af284a3193731f0800000000000000
+      internalID: -1065320030322623845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison cloud-fading_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f233f30f3a70a5180800000000000000
+      internalID: -9125973294221151441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison cloud-fading_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ccbfc07a9dbc930800000000000000
+      internalID: 4164661591934749769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison cloud-fading_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 200
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 922c7ee8c5fa3ef00800000000000000
+      internalID: 1144951542351643177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison cloud-fading_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 200
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04c2b8f6bac163e0800000000000000
+      internalID: -2062144267153652724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison cloud-fading_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 200
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1180b1f53226a5420800000000000000
+      internalID: 2619514037328349201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison cloud-fading_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 200
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b07d1c2a1d7abeb00800000000000000
+      internalID: 858964672764827403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison cloud-fading_7
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 0
+        width: 200
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4580b824b94633170800000000000000
+      internalID: 8156973968097216596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison cloud-fading_8
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 200
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b771ad67c226960800000000000000
+      internalID: 7593680810676812680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison cloud-fading_9
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 200
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867015b5c0c50ddb0800000000000000
+      internalID: -4769210797243955352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison cloud-fading_10
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 200
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135d6faafa1bcb7b0800000000000000
+      internalID: -5207091701101439695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison cloud-fading_11
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 0
+        width: 200
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e3fc79d4b407bc0800000000000000
+      internalID: -3787444489987080590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3ea2bfa1f04b4c24ca5a434ad703fcea
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      poison cloud-fading_0: -1065320030322623845
+      poison cloud-fading_1: -9125973294221151441
+      poison cloud-fading_10: -5207091701101439695
+      poison cloud-fading_11: -3787444489987080590
+      poison cloud-fading_2: 4164661591934749769
+      poison cloud-fading_3: 1144951542351643177
+      poison cloud-fading_4: -2062144267153652724
+      poison cloud-fading_5: 2619514037328349201
+      poison cloud-fading_6: 858964672764827403
+      poison cloud-fading_7: 8156973968097216596
+      poison cloud-fading_8: 7593680810676812680
+      poison cloud-fading_9: -4769210797243955352
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

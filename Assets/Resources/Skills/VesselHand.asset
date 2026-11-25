@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022ae21e40f35b83b5f6a4c21032ea74, type: 3}
+  m_Name: VesselHand
+  m_EditorClassIdentifier: 
+  id: vessel_hand
+  displayName: Hand of the Vessel
+  description: 'A shadow spreads beneath the foe nearest your aim, follows it, then a dead giant''s hand bursts up and crushes it. A Bound foe takes half again as much. The Vessel mantras are bound together: they take all three sockets.'
+  icon: {fileID: 0}
+  iconName: ic_vessel_hand
+  accent: {r: 0.78, g: 0.5, b: 1, a: 1}
+  cooldown: 15
+  unlockedAtStart: 0
+  setId: vessel
+  setSlot: 1
+  setName: 
+  setDescription: 
+  range: 3
+  searchRadius: 1.2
+  markTime: 0.5
+  lockBefore: 0.12
+  damage: 75
+  hitRadius: 0.45
+  stun: 1.5
+  castLock: 0.4
+  castDelay: 0.2
+  handScale: 0.65
+  boundBonus: 0.5

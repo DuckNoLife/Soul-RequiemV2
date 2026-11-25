@@ -1,0 +1,1729 @@
+fileFormatVersion: 2
+guid: 4c8bd3e01f8e38e4997f0df90edd730c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1223718357933808869
+    second: ATK_Fullcombo_58x1_0
+  - first:
+      213: -2722997323907874414
+    second: ATK_Fullcombo_58x1_1
+  - first:
+      213: 7309643205270318672
+    second: ATK_Fullcombo_58x1_2
+  - first:
+      213: -984863511910424057
+    second: ATK_Fullcombo_58x1_3
+  - first:
+      213: -1152461112302795922
+    second: ATK_Fullcombo_58x1_4
+  - first:
+      213: -1648257955433095312
+    second: ATK_Fullcombo_58x1_5
+  - first:
+      213: 5887269283643348256
+    second: ATK_Fullcombo_58x1_6
+  - first:
+      213: 7803208937024923539
+    second: ATK_Fullcombo_58x1_7
+  - first:
+      213: 6261430786075728154
+    second: ATK_Fullcombo_58x1_8
+  - first:
+      213: -6513007440204258255
+    second: ATK_Fullcombo_58x1_9
+  - first:
+      213: 5454645983885847365
+    second: ATK_Fullcombo_58x1_10
+  - first:
+      213: -69638261209202008
+    second: ATK_Fullcombo_58x1_11
+  - first:
+      213: 7945081439083654736
+    second: ATK_Fullcombo_58x1_12
+  - first:
+      213: -5517528223010898259
+    second: ATK_Fullcombo_58x1_13
+  - first:
+      213: -1824783845110090606
+    second: ATK_Fullcombo_58x1_14
+  - first:
+      213: 624747712111266718
+    second: ATK_Fullcombo_58x1_15
+  - first:
+      213: -6564414329254896015
+    second: ATK_Fullcombo_58x1_16
+  - first:
+      213: 3925054043553014107
+    second: ATK_Fullcombo_58x1_17
+  - first:
+      213: -6617173381936366230
+    second: ATK_Fullcombo_58x1_18
+  - first:
+      213: 5932453389732763780
+    second: ATK_Fullcombo_58x1_19
+  - first:
+      213: 6132350281581538158
+    second: ATK_Fullcombo_58x1_20
+  - first:
+      213: 2198034963588600601
+    second: ATK_Fullcombo_58x1_21
+  - first:
+      213: 5082331735676812777
+    second: ATK_Fullcombo_58x1_22
+  - first:
+      213: -6269856802483592111
+    second: ATK_Fullcombo_58x1_23
+  - first:
+      213: 2853797828450073774
+    second: ATK_Fullcombo_58x1_24
+  - first:
+      213: 3916185890627078205
+    second: ATK_Fullcombo_58x1_25
+  - first:
+      213: 7135210119617932899
+    second: ATK_Fullcombo_58x1_26
+  - first:
+      213: -6480456267244749144
+    second: ATK_Fullcombo_58x1_27
+  - first:
+      213: 7753783249398476146
+    second: ATK_Fullcombo_58x1_28
+  - first:
+      213: 2664044878947660836
+    second: ATK_Fullcombo_58x1_29
+  - first:
+      213: -6117123752355087651
+    second: ATK_Fullcombo_58x1_30
+  - first:
+      213: 7994935743870791582
+    second: ATK_Fullcombo_58x1_31
+  - first:
+      213: -7574046090687998577
+    second: ATK_Fullcombo_58x1_32
+  - first:
+      213: -8483762939012906879
+    second: ATK_Fullcombo_58x1_33
+  - first:
+      213: -4730672190930255300
+    second: ATK_Fullcombo_58x1_34
+  - first:
+      213: -1400681852174824222
+    second: ATK_Fullcombo_58x1_35
+  - first:
+      213: 1230223278856320315
+    second: ATK_Fullcombo_58x1_36
+  - first:
+      213: -5318465529289375996
+    second: ATK_Fullcombo_58x1_37
+  - first:
+      213: 2900479932207404223
+    second: ATK_Fullcombo_58x1_38
+  - first:
+      213: 4584166295281393531
+    second: ATK_Fullcombo_58x1_39
+  - first:
+      213: -4995306557898982947
+    second: ATK_Fullcombo_58x1_40
+  - first:
+      213: -3649358256144857671
+    second: ATK_Fullcombo_58x1_41
+  - first:
+      213: 4982015019353160455
+    second: ATK_Fullcombo_58x1_42
+  - first:
+      213: -140912928029752678
+    second: ATK_Fullcombo_58x1_43
+  - first:
+      213: 2665114054615864240
+    second: ATK_Fullcombo_58x1_44
+  - first:
+      213: -4886746649991969605
+    second: ATK_Fullcombo_58x1_45
+  - first:
+      213: 2362505423540497362
+    second: ATK_Fullcombo_58x1_46
+  - first:
+      213: 8040353098948626821
+    second: ATK_Fullcombo_58x1_47
+  - first:
+      213: -1970936599860893770
+    second: ATK_Fullcombo_58x1_48
+  - first:
+      213: -2943439554027100952
+    second: ATK_Fullcombo_58x1_49
+  - first:
+      213: -8115147876015366992
+    second: ATK_Fullcombo_58x1_50
+  - first:
+      213: -5155920491677928779
+    second: ATK_Fullcombo_58x1_51
+  - first:
+      213: -4046112414273278192
+    second: ATK_Fullcombo_58x1_52
+  - first:
+      213: -3339395197383058104
+    second: ATK_Fullcombo_58x1_53
+  - first:
+      213: 6543349346935198745
+    second: ATK_Fullcombo_58x1_54
+  - first:
+      213: 2722858735623287683
+    second: ATK_Fullcombo_58x1_55
+  - first:
+      213: -3979045872563546199
+    second: ATK_Fullcombo_58x1_56
+  - first:
+      213: 3901166125767717135
+    second: ATK_Fullcombo_58x1_57
+  - first:
+      213: 44045095347710946
+    second: ATK_Fullcombo_58x1_58
+  - first:
+      213: -2385913787302274594
+    second: ATK_Fullcombo_58x1_59
+  - first:
+      213: 4289852909199344158
+    second: ATK_Fullcombo_58x1_60
+  - first:
+      213: -3408524119116550547
+    second: ATK_Fullcombo_58x1_61
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ecd4cdec558bf010800000000000000
+      internalID: 1223718357933808869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 8
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291c1286c58f53ad0800000000000000
+      internalID: -2722997323907874414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 8
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e2cfc54c1117560800000000000000
+      internalID: 7309643205270318672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_3
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 8
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702e55c9adf0552f0800000000000000
+      internalID: -984863511910424057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 8
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e638dbf69b2a100f0800000000000000
+      internalID: -1152461112302795922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_5
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 8
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07fd2345f163029e0800000000000000
+      internalID: -1648257955433095312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_6
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 8
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02551aca838c3b150800000000000000
+      internalID: 5887269283643348256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_7
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 8
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397268f5f219a4c60800000000000000
+      internalID: 7803208937024923539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_8
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 22
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a191dbd102215e650800000000000000
+      internalID: 6261430786075728154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_9
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 9
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13426239d362d95a0800000000000000
+      internalID: -6513007440204258255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_10
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 22
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54be6055f9bc2bb40800000000000000
+      internalID: 5454645983885847365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_11
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 22
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a289d1de58980ff0800000000000000
+      internalID: -69638261209202008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_12
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 9
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e61285979924e60800000000000000
+      internalID: 7945081439083654736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_13
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 22
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae3e35705dcd63b0800000000000000
+      internalID: -5517528223010898259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_14
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 10
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2947750d2c01da6e0800000000000000
+      internalID: -1824783845110090606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_15
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 10
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b41aeebbc8ba800800000000000000
+      internalID: 624747712111266718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_16
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 9
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e174282f386e4a0800000000000000
+      internalID: -6564414329254896015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_17
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 9
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5120365bd7987630800000000000000
+      internalID: 3925054043553014107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_18
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 8
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d33805ed31b24a0800000000000000
+      internalID: -6617173381936366230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_19
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 8
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488559d2dee445250800000000000000
+      internalID: 5932453389732763780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_20
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 8
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b2feb271c7a1550800000000000000
+      internalID: 6132350281581538158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_21
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 8
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9135698572df08e10800000000000000
+      internalID: 2198034963588600601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_22
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 8
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9edf5b749c1188640800000000000000
+      internalID: 5082331735676812777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_23
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 8
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154266f057efcf8a0800000000000000
+      internalID: -6269856802483592111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_24
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 8
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac3c81410aba9720800000000000000
+      internalID: 2853797828450073774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_25
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 8
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3849359156195630800000000000000
+      internalID: 3916185890627078205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_26
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 8
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e6991cccb550360800000000000000
+      internalID: 7135210119617932899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_27
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 8
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae3c602c5bc016a0800000000000000
+      internalID: -6480456267244749144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_28
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 8
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d25c5b8c8fa9b60800000000000000
+      internalID: 7753783249398476146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_29
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 8
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424bf53e3b698f420800000000000000
+      internalID: 2664044878947660836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_30
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 8
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda35cd6b5c9b1ba0800000000000000
+      internalID: -6117123752355087651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_31
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 8
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9fed7733b7b3fe60800000000000000
+      internalID: 7994935743870791582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_32
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 8
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f851b14a53593e690800000000000000
+      internalID: -7574046090687998577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_33
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 8
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180038d4e8e934a80800000000000000
+      internalID: -8483762939012906879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_34
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 8
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3288ced4b6495eb0800000000000000
+      internalID: -4730672190930255300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_35
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 8
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec88cdc647cf8ce0800000000000000
+      internalID: -1400681852174824222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_36
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 8
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35b5aadd81a21110800000000000000
+      internalID: 1230223278856320315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_37
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 8
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ffb8097c30136b0800000000000000
+      internalID: -5318465529289375996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_38
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 8
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb41f558123904820800000000000000
+      internalID: 2900479932207404223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_39
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 8
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7fd09525fa3e9f30800000000000000
+      internalID: 4584166295281393531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_40
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 0
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd97040e62b1daab0800000000000000
+      internalID: -4995306557898982947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_41
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 0
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5c85c4000ea5dc0800000000000000
+      internalID: -3649358256144857671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_42
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 0
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70bb436a34ca32540800000000000000
+      internalID: 4982015019353160455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_43
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 0
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92c68440706b0ef0800000000000000
+      internalID: -140912928029752678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_44
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 0
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3974fbc136cf420800000000000000
+      internalID: 2665114054615864240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_45
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 0
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb406eb10d9ce2cb0800000000000000
+      internalID: -4886746649991969605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_46
+      rect:
+        serializedVersion: 2
+        x: 2109
+        y: 0
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dba0166a2e49c020800000000000000
+      internalID: 2362505423540497362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_47
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 0
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5894b8b3b82159f60800000000000000
+      internalID: 8040353098948626821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_48
+      rect:
+        serializedVersion: 2
+        x: 2209
+        y: 0
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b7a97ada93d5a4e0800000000000000
+      internalID: -1970936599860893770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_49
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 0
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e46164125dc627d0800000000000000
+      internalID: -2943439554027100952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_50
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 0
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc965ea004316f80800000000000000
+      internalID: -8115147876015366992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_51
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 0
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2316b41ad7278b0800000000000000
+      internalID: -5155920491677928779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_52
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 0
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f61f9423259d7c0800000000000000
+      internalID: -4046112414273278192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_53
+      rect:
+        serializedVersion: 2
+        x: 2459
+        y: 0
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d5657c2c518a1d0800000000000000
+      internalID: -3339395197383058104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_54
+      rect:
+        serializedVersion: 2
+        x: 2507
+        y: 5
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9145b591095aeca50800000000000000
+      internalID: 6543349346935198745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_55
+      rect:
+        serializedVersion: 2
+        x: 2557
+        y: 5
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383356ef79989c520800000000000000
+      internalID: 2722858735623287683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_56
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 5
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a79ddc5cd697c8c0800000000000000
+      internalID: -3979045872563546199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_57
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 5
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01fb201ce9b32630800000000000000
+      internalID: 3901166125767717135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_58
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 5
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb6c46e7ca7c9000800000000000000
+      internalID: 44045095347710946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_59
+      rect:
+        serializedVersion: 2
+        x: 2762
+        y: 5
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed914233d0883eed0800000000000000
+      internalID: -2385913787302274594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_60
+      rect:
+        serializedVersion: 2
+        x: 2809
+        y: 8
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12c0870e7e988b30800000000000000
+      internalID: 4289852909199344158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATK_Fullcombo_58x1_61
+      rect:
+        serializedVersion: 2
+        x: 2859
+        y: 8
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ee4bf6f5d72b0d0800000000000000
+      internalID: -3408524119116550547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ATK_Fullcombo_58x1_0: 1223718357933808869
+      ATK_Fullcombo_58x1_1: -2722997323907874414
+      ATK_Fullcombo_58x1_10: 5454645983885847365
+      ATK_Fullcombo_58x1_11: -69638261209202008
+      ATK_Fullcombo_58x1_12: 7945081439083654736
+      ATK_Fullcombo_58x1_13: -5517528223010898259
+      ATK_Fullcombo_58x1_14: -1824783845110090606
+      ATK_Fullcombo_58x1_15: 624747712111266718
+      ATK_Fullcombo_58x1_16: -6564414329254896015
+      ATK_Fullcombo_58x1_17: 3925054043553014107
+      ATK_Fullcombo_58x1_18: -6617173381936366230
+      ATK_Fullcombo_58x1_19: 5932453389732763780
+      ATK_Fullcombo_58x1_2: 7309643205270318672
+      ATK_Fullcombo_58x1_20: 6132350281581538158
+      ATK_Fullcombo_58x1_21: 2198034963588600601
+      ATK_Fullcombo_58x1_22: 5082331735676812777
+      ATK_Fullcombo_58x1_23: -6269856802483592111
+      ATK_Fullcombo_58x1_24: 2853797828450073774
+      ATK_Fullcombo_58x1_25: 3916185890627078205
+      ATK_Fullcombo_58x1_26: 7135210119617932899
+      ATK_Fullcombo_58x1_27: -6480456267244749144
+      ATK_Fullcombo_58x1_28: 7753783249398476146
+      ATK_Fullcombo_58x1_29: 2664044878947660836
+      ATK_Fullcombo_58x1_3: -984863511910424057
+      ATK_Fullcombo_58x1_30: -6117123752355087651
+      ATK_Fullcombo_58x1_31: 7994935743870791582
+      ATK_Fullcombo_58x1_32: -7574046090687998577
+      ATK_Fullcombo_58x1_33: -8483762939012906879
+      ATK_Fullcombo_58x1_34: -4730672190930255300
+      ATK_Fullcombo_58x1_35: -1400681852174824222
+      ATK_Fullcombo_58x1_36: 1230223278856320315
+      ATK_Fullcombo_58x1_37: -5318465529289375996
+      ATK_Fullcombo_58x1_38: 2900479932207404223
+      ATK_Fullcombo_58x1_39: 4584166295281393531
+      ATK_Fullcombo_58x1_4: -1152461112302795922
+      ATK_Fullcombo_58x1_40: -4995306557898982947
+      ATK_Fullcombo_58x1_41: -3649358256144857671
+      ATK_Fullcombo_58x1_42: 4982015019353160455
+      ATK_Fullcombo_58x1_43: -140912928029752678
+      ATK_Fullcombo_58x1_44: 2665114054615864240
+      ATK_Fullcombo_58x1_45: -4886746649991969605
+      ATK_Fullcombo_58x1_46: 2362505423540497362
+      ATK_Fullcombo_58x1_47: 8040353098948626821
+      ATK_Fullcombo_58x1_48: -1970936599860893770
+      ATK_Fullcombo_58x1_49: -2943439554027100952
+      ATK_Fullcombo_58x1_5: -1648257955433095312
+      ATK_Fullcombo_58x1_50: -8115147876015366992
+      ATK_Fullcombo_58x1_51: -5155920491677928779
+      ATK_Fullcombo_58x1_52: -4046112414273278192
+      ATK_Fullcombo_58x1_53: -3339395197383058104
+      ATK_Fullcombo_58x1_54: 6543349346935198745
+      ATK_Fullcombo_58x1_55: 2722858735623287683
+      ATK_Fullcombo_58x1_56: -3979045872563546199
+      ATK_Fullcombo_58x1_57: 3901166125767717135
+      ATK_Fullcombo_58x1_58: 44045095347710946
+      ATK_Fullcombo_58x1_59: -2385913787302274594
+      ATK_Fullcombo_58x1_6: 5887269283643348256
+      ATK_Fullcombo_58x1_60: 4289852909199344158
+      ATK_Fullcombo_58x1_61: -3408524119116550547
+      ATK_Fullcombo_58x1_7: 7803208937024923539
+      ATK_Fullcombo_58x1_8: 6261430786075728154
+      ATK_Fullcombo_58x1_9: -6513007440204258255
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

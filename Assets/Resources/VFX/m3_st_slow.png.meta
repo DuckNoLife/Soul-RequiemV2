@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 052807ee59784bcabd546b113b35f952
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -330079171682959737
+    second: m3_st_slow_0
+  - first:
+      213: 4283210213102252952
+    second: m3_st_slow_1
+  - first:
+      213: -3319547909299743777
+    second: m3_st_slow_2
+  - first:
+      213: -2844397433339792811
+    second: m3_st_slow_3
+  - first:
+      213: 644101237615116524
+    second: m3_st_slow_4
+  - first:
+      213: -1989824238088700326
+    second: m3_st_slow_5
+  - first:
+      213: -1959433008764185677
+    second: m3_st_slow_6
+  - first:
+      213: 459814419163472186
+    second: m3_st_slow_7
+  - first:
+      213: 511665513100912266
+    second: m3_st_slow_8
+  - first:
+      213: -4463339121221603012
+    second: m3_st_slow_9
+  - first:
+      213: 3327240286994147424
+    second: m3_st_slow_10
+  - first:
+      213: 1883633263919002276
+    second: m3_st_slow_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: m3_st_slow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 47
+        height: 46
+      alignment: 9
+      pivot: {x: 0.489362, y: 0.043478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f48044d191b9920f7ffe45b23c7707a
+      internalID: -330079171682959737
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_slow_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 47
+        height: 46
+      alignment: 9
+      pivot: {x: 0.489362, y: 0.043478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1acf531d2b702bf4a96dd85f5d0b743f
+      internalID: 4283210213102252952
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_slow_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 0
+        width: 47
+        height: 46
+      alignment: 9
+      pivot: {x: 0.489362, y: 0.043478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 699ce383b0d6c55d575238619c980854
+      internalID: -3319547909299743777
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_slow_3
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 0
+        width: 47
+        height: 46
+      alignment: 9
+      pivot: {x: 0.489362, y: 0.043478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a09a30fd078783e0c58efffd79a043
+      internalID: -2844397433339792811
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_slow_4
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 0
+        width: 47
+        height: 46
+      alignment: 9
+      pivot: {x: 0.489362, y: 0.043478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2c2d72178e3f04c22c5558d84905e0
+      internalID: 644101237615116524
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_slow_5
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 0
+        width: 47
+        height: 46
+      alignment: 9
+      pivot: {x: 0.489362, y: 0.043478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f340ce908cbc96bfa1db8f8c6a7bb6
+      internalID: -1989824238088700326
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_slow_6
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 0
+        width: 47
+        height: 46
+      alignment: 9
+      pivot: {x: 0.489362, y: 0.043478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac827f5b42973c3017e13463cb7713d
+      internalID: -1959433008764185677
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_slow_7
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 0
+        width: 47
+        height: 46
+      alignment: 9
+      pivot: {x: 0.489362, y: 0.043478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95cdb3e686fcde5e2cf4352268b8817d
+      internalID: 459814419163472186
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_slow_8
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 0
+        width: 47
+        height: 46
+      alignment: 9
+      pivot: {x: 0.489362, y: 0.043478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8433c7c8ff60bad2b73234d9925de4f7
+      internalID: 511665513100912266
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_slow_9
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 0
+        width: 47
+        height: 46
+      alignment: 9
+      pivot: {x: 0.489362, y: 0.043478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3afd18b29e7f6a8ebe369448e41d90cb
+      internalID: -4463339121221603012
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_slow_10
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 0
+        width: 47
+        height: 46
+      alignment: 9
+      pivot: {x: 0.489362, y: 0.043478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caedd8e4a554c1fa31f14835d1252665
+      internalID: 3327240286994147424
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_slow_11
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 0
+        width: 47
+        height: 46
+      alignment: 9
+      pivot: {x: 0.489362, y: 0.043478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d125e38db954677b249febb90d5dbd7d
+      internalID: 1883633263919002276
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      m3_st_slow_0: -330079171682959737
+      m3_st_slow_1: 4283210213102252952
+      m3_st_slow_2: -3319547909299743777
+      m3_st_slow_3: -2844397433339792811
+      m3_st_slow_4: 644101237615116524
+      m3_st_slow_5: -1989824238088700326
+      m3_st_slow_6: -1959433008764185677
+      m3_st_slow_7: 459814419163472186
+      m3_st_slow_8: 511665513100912266
+      m3_st_slow_9: -4463339121221603012
+      m3_st_slow_10: 3327240286994147424
+      m3_st_slow_11: 1883633263919002276
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

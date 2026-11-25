@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: 00e30ba9705f4a1d93bef5eecb203abc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3799045781979411080
+    second: m3_death_blood_0
+  - first:
+      213: 2189311188590515480
+    second: m3_death_blood_1
+  - first:
+      213: -2811347324114492889
+    second: m3_death_blood_2
+  - first:
+      213: 2813631602575822043
+    second: m3_death_blood_3
+  - first:
+      213: 2026501286239821769
+    second: m3_death_blood_4
+  - first:
+      213: 2245942392510495813
+    second: m3_death_blood_5
+  - first:
+      213: -4100212540302152117
+    second: m3_death_blood_6
+  - first:
+      213: 3626606929453229044
+    second: m3_death_blood_7
+  - first:
+      213: 34360591072185533
+    second: m3_death_blood_8
+  - first:
+      213: 4181784144148915978
+    second: m3_death_blood_9
+  - first:
+      213: -2505583426547368990
+    second: m3_death_blood_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: m3_death_blood_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 42
+        height: 87
+      alignment: 9
+      pivot: {x: 0.52381, y: 0.126437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f22293d0fe7a3272e8cf0ec9edabdce
+      internalID: -3799045781979411080
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_death_blood_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 42
+        height: 87
+      alignment: 9
+      pivot: {x: 0.52381, y: 0.126437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c5e7211a120061bb922f3f29153262
+      internalID: 2189311188590515480
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_death_blood_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 42
+        height: 87
+      alignment: 9
+      pivot: {x: 0.52381, y: 0.126437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90fe0b95e3c5df97d2245f27fd0b5c7
+      internalID: -2811347324114492889
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_death_blood_3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 42
+        height: 87
+      alignment: 9
+      pivot: {x: 0.52381, y: 0.126437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c147017b1b13af5f31987742e3766e
+      internalID: 2813631602575822043
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_death_blood_4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 42
+        height: 87
+      alignment: 9
+      pivot: {x: 0.52381, y: 0.126437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b75c80ccf42f540cdd89b127c608013
+      internalID: 2026501286239821769
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_death_blood_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 42
+        height: 87
+      alignment: 9
+      pivot: {x: 0.52381, y: 0.126437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577c8abecb1d6d7335b0bf4aee6f63ae
+      internalID: 2245942392510495813
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_death_blood_6
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 42
+        height: 87
+      alignment: 9
+      pivot: {x: 0.52381, y: 0.126437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583d160008b7ba1a1ef8ab5f714468cf
+      internalID: -4100212540302152117
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_death_blood_7
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0
+        width: 42
+        height: 87
+      alignment: 9
+      pivot: {x: 0.52381, y: 0.126437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717c66a02dd4a99999d59c02a56c45d2
+      internalID: 3626606929453229044
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_death_blood_8
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 42
+        height: 87
+      alignment: 9
+      pivot: {x: 0.52381, y: 0.126437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a08a790e8fbb951df1c9d919d378b8
+      internalID: 34360591072185533
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_death_blood_9
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 0
+        width: 42
+        height: 87
+      alignment: 9
+      pivot: {x: 0.52381, y: 0.126437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b777152d13b3e0ad0d36bbd37af1b5b
+      internalID: 4181784144148915978
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_death_blood_10
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 42
+        height: 87
+      alignment: 9
+      pivot: {x: 0.52381, y: 0.126437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9042293e18672f7f0791a10876a4f9f0
+      internalID: -2505583426547368990
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      m3_death_blood_0: -3799045781979411080
+      m3_death_blood_1: 2189311188590515480
+      m3_death_blood_2: -2811347324114492889
+      m3_death_blood_3: 2813631602575822043
+      m3_death_blood_4: 2026501286239821769
+      m3_death_blood_5: 2245942392510495813
+      m3_death_blood_6: -4100212540302152117
+      m3_death_blood_7: 3626606929453229044
+      m3_death_blood_8: 34360591072185533
+      m3_death_blood_9: 4181784144148915978
+      m3_death_blood_10: -2505583426547368990
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

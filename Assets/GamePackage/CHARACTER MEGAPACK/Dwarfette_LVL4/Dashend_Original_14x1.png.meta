@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: fbcaea58b37f4384faa4c2becb674fca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8082315498612076240
+    second: Dashend_Original_14x1_0
+  - first:
+      213: 733542224525822917
+    second: Dashend_Original_14x1_1
+  - first:
+      213: -6192384578774509318
+    second: Dashend_Original_14x1_2
+  - first:
+      213: -2159183338252031508
+    second: Dashend_Original_14x1_3
+  - first:
+      213: -2388655256460907017
+    second: Dashend_Original_14x1_4
+  - first:
+      213: -2588653929879510893
+    second: Dashend_Original_14x1_5
+  - first:
+      213: -2651717968572060229
+    second: Dashend_Original_14x1_6
+  - first:
+      213: -7110598819582939482
+    second: Dashend_Original_14x1_7
+  - first:
+      213: 4534447754505117353
+    second: Dashend_Original_14x1_8
+  - first:
+      213: -7809297641614115939
+    second: Dashend_Original_14x1_9
+  - first:
+      213: -933171199646596471
+    second: Dashend_Original_14x1_10
+  - first:
+      213: 6071355152957662497
+    second: Dashend_Original_14x1_11
+  - first:
+      213: -4062957824980410693
+    second: Dashend_Original_14x1_12
+  - first:
+      213: 7212607593278459120
+    second: Dashend_Original_14x1_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dashend_Original_14x1_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031d79e30e8d5df80800000000000000
+      internalID: -8082315498612076240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dashend_Original_14x1_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 0
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb8c9844c01e2a00800000000000000
+      internalID: 733542224525822917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dashend_Original_14x1_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8d985c80b301aa0800000000000000
+      internalID: -6192384578774509318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dashend_Original_14x1_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 0
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9ab86913a0902e0800000000000000
+      internalID: -2159183338252031508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dashend_Original_14x1_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd27cb23bac9ded0800000000000000
+      internalID: -2388655256460907017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dashend_Original_14x1_5
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 0
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 390ec1f47f0431cd0800000000000000
+      internalID: -2588653929879510893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dashend_Original_14x1_6
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbdedb69e84333bd0800000000000000
+      internalID: -2651717968572060229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dashend_Original_14x1_7
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 0
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae62721c04125d90800000000000000
+      internalID: -7110598819582939482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dashend_Original_14x1_8
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 0
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae58db45389dee30800000000000000
+      internalID: 4534447754505117353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dashend_Original_14x1_9
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 0
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b7b4e9b2dcf9390800000000000000
+      internalID: -7809297641614115939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dashend_Original_14x1_10
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 0
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9828072fcb5bc03f0800000000000000
+      internalID: -933171199646596471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dashend_Original_14x1_11
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 0
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125674d1859c14450800000000000000
+      internalID: 6071355152957662497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dashend_Original_14x1_12
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 0
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe16a872697d97c0800000000000000
+      internalID: -4062957824980410693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dashend_Original_14x1_13
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 0
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fcc5ad5464581460800000000000000
+      internalID: 7212607593278459120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dashend_Original_14x1_0: -8082315498612076240
+      Dashend_Original_14x1_1: 733542224525822917
+      Dashend_Original_14x1_10: -933171199646596471
+      Dashend_Original_14x1_11: 6071355152957662497
+      Dashend_Original_14x1_12: -4062957824980410693
+      Dashend_Original_14x1_13: 7212607593278459120
+      Dashend_Original_14x1_2: -6192384578774509318
+      Dashend_Original_14x1_3: -2159183338252031508
+      Dashend_Original_14x1_4: -2388655256460907017
+      Dashend_Original_14x1_5: -2588653929879510893
+      Dashend_Original_14x1_6: -2651717968572060229
+      Dashend_Original_14x1_7: -7110598819582939482
+      Dashend_Original_14x1_8: 4534447754505117353
+      Dashend_Original_14x1_9: -7809297641614115939
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 333b6476e0f04fa4b698e4923f81468f, type: 3}
+  m_Name: EyeRay
+  m_EditorClassIdentifier: 
+  id: eye_ray
+  displayName: Judgement Ray
+  description: 'Raise one hand and pour the Eye''s light out as a beam that follows your aim for five seconds. You cannot move while it burns unless the Veil lifts you; press the mantra again or roll to end it early. The Eye mantras are attuned together: they take all three sockets.'
+  icon: {fileID: 0}
+  iconName: ic_mantra_ray
+  accent: {r: 0.45, g: 0.78, b: 1, a: 1}
+  cooldown: 25
+  unlockedAtStart: 0
+  setId: eye
+  setSlot: 2
+  duration: 5
+  dps: 45
+  tick: 0.15
+  range: 8
+  width: 0.22
+  hitWidth: 0.6
+  turnRate: 220
+  veiledMove: 0.4

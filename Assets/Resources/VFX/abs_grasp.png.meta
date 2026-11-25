@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: 1549d2051bbb4f3ca26ca09933c15b42
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1089149488311188507
+    second: abs_grasp_0
+  - first:
+      213: 1007310809527072669
+    second: abs_grasp_1
+  - first:
+      213: 4569153075765131107
+    second: abs_grasp_2
+  - first:
+      213: -4014584802245759577
+    second: abs_grasp_3
+  - first:
+      213: 2768688338529100424
+    second: abs_grasp_4
+  - first:
+      213: -4231424339357078207
+    second: abs_grasp_5
+  - first:
+      213: -2832594002180479440
+    second: abs_grasp_6
+  - first:
+      213: 1174502648659810080
+    second: abs_grasp_7
+  - first:
+      213: -3741187046098060950
+    second: abs_grasp_8
+  - first:
+      213: -3644721891795251573
+    second: abs_grasp_9
+  - first:
+      213: 1494811999283089339
+    second: abs_grasp_10
+  - first:
+      213: -4493555146488607057
+    second: abs_grasp_11
+  - first:
+      213: 3929002610013895632
+    second: abs_grasp_12
+  - first:
+      213: 211333278749938947
+    second: abs_grasp_13
+  - first:
+      213: 2150072253619086833
+    second: abs_grasp_14
+  - first:
+      213: 1432881036209251168
+    second: abs_grasp_15
+  - first:
+      213: 3172125513145599441
+    second: abs_grasp_16
+  - first:
+      213: -3097609606627130201
+    second: abs_grasp_17
+  - first:
+      213: -4320739802066850646
+    second: abs_grasp_18
+  - first:
+      213: 2742933481325892924
+    second: abs_grasp_19
+  - first:
+      213: 4441745646505533785
+    second: abs_grasp_20
+  - first:
+      213: 2197460897841099555
+    second: abs_grasp_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: abs_grasp_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.235955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aee21d234e649868cf62e707ccb37eb
+      internalID: 1089149488311188507
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_grasp_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.235955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2371f5c8462b40d6acb2f2e7b47cf24b
+      internalID: 1007310809527072669
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_grasp_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.235955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a840507fa7fc4a15a055ef4384ed1209
+      internalID: 4569153075765131107
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_grasp_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.235955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686a7304b279492795da70241c12c719
+      internalID: -4014584802245759577
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_grasp_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 96
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.235955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c981d8d071e414fbf8b5e664840ad47
+      internalID: 2768688338529100424
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_grasp_5
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 96
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.235955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ece478f0244cc39aef2b377222bc73
+      internalID: -4231424339357078207
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_grasp_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 96
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.235955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01c81a897224515aa6e7d88534e357d
+      internalID: -2832594002180479440
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_grasp_7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 96
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.235955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21ceff83f8948d9932eaa8ca77f5179
+      internalID: 1174502648659810080
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_grasp_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 96
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.235955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b105862c9644a296e7696d4431d837
+      internalID: -3741187046098060950
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_grasp_9
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 96
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.235955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c753e3b4e874692a8bdd6c377a75b16
+      internalID: -3644721891795251573
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_grasp_10
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 96
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.235955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d60eb8019514d639895c588e3ef2a4f
+      internalID: 1494811999283089339
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_grasp_11
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 96
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.235955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d1e6c0e0e134f5d9c70bc28108294a6
+      internalID: -4493555146488607057
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_grasp_12
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 96
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.235955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc39e57556c5471d82e3505c54f25fd9
+      internalID: 3929002610013895632
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_grasp_13
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 0
+        width: 96
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.235955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7941e63ebf438392e18eec65e92ea2
+      internalID: 211333278749938947
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_grasp_14
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 96
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.235955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2938ab7414124d3ab80494df219d3a65
+      internalID: 2150072253619086833
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_grasp_15
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 96
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.235955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2042d594983b49d785b47efdba4375cf
+      internalID: 1432881036209251168
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_grasp_16
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 96
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.235955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c52c095c0d1349a2880f4e9be1fde2ec
+      internalID: 3172125513145599441
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_grasp_17
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 0
+        width: 96
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.235955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ce611879464c73a4452f0c0108f96b
+      internalID: -3097609606627130201
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_grasp_18
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 96
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.235955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2577d26b5647b89f3e0cca06d316f5
+      internalID: -4320739802066850646
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_grasp_19
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 0
+        width: 96
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.235955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1209275385a49479dd35aba15106f8a
+      internalID: 2742933481325892924
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_grasp_20
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 96
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.235955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a02381f84bd464db0da8b785c255527
+      internalID: 4441745646505533785
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_grasp_21
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 0
+        width: 96
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.235955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daba1cbeb68a4abaaeb93bff7853c2ac
+      internalID: 2197460897841099555
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      abs_grasp_0: 1089149488311188507
+      abs_grasp_1: 1007310809527072669
+      abs_grasp_2: 4569153075765131107
+      abs_grasp_3: -4014584802245759577
+      abs_grasp_4: 2768688338529100424
+      abs_grasp_5: -4231424339357078207
+      abs_grasp_6: -2832594002180479440
+      abs_grasp_7: 1174502648659810080
+      abs_grasp_8: -3741187046098060950
+      abs_grasp_9: -3644721891795251573
+      abs_grasp_10: 1494811999283089339
+      abs_grasp_11: -4493555146488607057
+      abs_grasp_12: 3929002610013895632
+      abs_grasp_13: 211333278749938947
+      abs_grasp_14: 2150072253619086833
+      abs_grasp_15: 1432881036209251168
+      abs_grasp_16: 3172125513145599441
+      abs_grasp_17: -3097609606627130201
+      abs_grasp_18: -4320739802066850646
+      abs_grasp_19: 2742933481325892924
+      abs_grasp_20: 4441745646505533785
+      abs_grasp_21: 2197460897841099555
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

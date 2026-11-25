@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: ad729c273d0e4134904f76d8cc3affb1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1281870470890394343
+    second: abs_rift_0
+  - first:
+      213: -1162234976632534401
+    second: abs_rift_1
+  - first:
+      213: -1099215349566366860
+    second: abs_rift_2
+  - first:
+      213: 1167583274971766009
+    second: abs_rift_3
+  - first:
+      213: -3378755315736434510
+    second: abs_rift_4
+  - first:
+      213: -4090569019358524816
+    second: abs_rift_5
+  - first:
+      213: -2888502739146042310
+    second: abs_rift_6
+  - first:
+      213: 1223959306281497774
+    second: abs_rift_7
+  - first:
+      213: 2052040352713325718
+    second: abs_rift_8
+  - first:
+      213: -4449323818274691906
+    second: abs_rift_9
+  - first:
+      213: 1134697336610585716
+    second: abs_rift_10
+  - first:
+      213: 3433117359260739499
+    second: abs_rift_11
+  - first:
+      213: -4446716662396864493
+    second: abs_rift_12
+  - first:
+      213: 4186429488416956601
+    second: abs_rift_13
+  - first:
+      213: -2979968954095964095
+    second: abs_rift_14
+  - first:
+      213: -881053907994344205
+    second: abs_rift_15
+  - first:
+      213: 1777342469268098689
+    second: abs_rift_16
+  - first:
+      213: 774066807518062981
+    second: abs_rift_17
+  - first:
+      213: -1573566388164488414
+    second: abs_rift_18
+  - first:
+      213: 191547819393847178
+    second: abs_rift_19
+  - first:
+      213: -1644531932563029090
+    second: abs_rift_20
+  - first:
+      213: -1906149439534761991
+    second: abs_rift_21
+  - first:
+      213: -291047029406427888
+    second: abs_rift_22
+  - first:
+      213: 236405166886580877
+    second: abs_rift_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: abs_rift_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 177
+        height: 253
+      alignment: 9
+      pivot: {x: 0.497175, y: 0.501976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d56493d288d14b45b9c218e89c88155d
+      internalID: -1281870470890394343
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rift_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 0
+        width: 177
+        height: 253
+      alignment: 9
+      pivot: {x: 0.497175, y: 0.501976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f84ccd7a3544009c49d80298313c2d
+      internalID: -1162234976632534401
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rift_2
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 0
+        width: 177
+        height: 253
+      alignment: 9
+      pivot: {x: 0.497175, y: 0.501976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4248705ee8e74ecba075c5c41b8151f5
+      internalID: -1099215349566366860
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rift_3
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 0
+        width: 177
+        height: 253
+      alignment: 9
+      pivot: {x: 0.497175, y: 0.501976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab4922340b240a48040c5ac50801dba
+      internalID: 1167583274971766009
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rift_4
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 0
+        width: 177
+        height: 253
+      alignment: 9
+      pivot: {x: 0.497175, y: 0.501976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef238af20224535a4fc4c8f1ed21130
+      internalID: -3378755315736434510
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rift_5
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 0
+        width: 177
+        height: 253
+      alignment: 9
+      pivot: {x: 0.497175, y: 0.501976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909ba661dbc340e596e3e53aa83bb20d
+      internalID: -4090569019358524816
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rift_6
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 0
+        width: 177
+        height: 253
+      alignment: 9
+      pivot: {x: 0.497175, y: 0.501976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4440d4a9d84391be54a3aaf064a86b
+      internalID: -2888502739146042310
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rift_7
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 0
+        width: 177
+        height: 253
+      alignment: 9
+      pivot: {x: 0.497175, y: 0.501976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01911bca20b04cfe8af1b9394c4b4bac
+      internalID: 1223959306281497774
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rift_8
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 0
+        width: 177
+        height: 253
+      alignment: 9
+      pivot: {x: 0.497175, y: 0.501976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f556cecf7afa47709e0cc8e6cc53726e
+      internalID: 2052040352713325718
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rift_9
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 0
+        width: 177
+        height: 253
+      alignment: 9
+      pivot: {x: 0.497175, y: 0.501976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ae6760168843f885319a49f94e892e
+      internalID: -4449323818274691906
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rift_10
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 0
+        width: 177
+        height: 253
+      alignment: 9
+      pivot: {x: 0.497175, y: 0.501976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c73a50cd064d21ade7c92fa3d865eb
+      internalID: 1134697336610585716
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rift_11
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 0
+        width: 177
+        height: 253
+      alignment: 9
+      pivot: {x: 0.497175, y: 0.501976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6cbf52e5824e3395e41df1e37818b4
+      internalID: 3433117359260739499
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rift_12
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 0
+        width: 177
+        height: 253
+      alignment: 9
+      pivot: {x: 0.497175, y: 0.501976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb87bb2e9ef48928aca4d085474cdb2
+      internalID: -4446716662396864493
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rift_13
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 0
+        width: 177
+        height: 253
+      alignment: 9
+      pivot: {x: 0.497175, y: 0.501976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff97c78e37e4941934849c9ab5590cc
+      internalID: 4186429488416956601
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rift_14
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 0
+        width: 177
+        height: 253
+      alignment: 9
+      pivot: {x: 0.497175, y: 0.501976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55738f5b69a544c38505f429ff466a1c
+      internalID: -2979968954095964095
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rift_15
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 0
+        width: 177
+        height: 253
+      alignment: 9
+      pivot: {x: 0.497175, y: 0.501976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c16130870404a3d8620e9bdd1c80f78
+      internalID: -881053907994344205
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rift_16
+      rect:
+        serializedVersion: 2
+        x: 2832
+        y: 0
+        width: 177
+        height: 253
+      alignment: 9
+      pivot: {x: 0.497175, y: 0.501976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396d4d4f0ae249f5a003125a62e5376e
+      internalID: 1777342469268098689
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rift_17
+      rect:
+        serializedVersion: 2
+        x: 3009
+        y: 0
+        width: 177
+        height: 253
+      alignment: 9
+      pivot: {x: 0.497175, y: 0.501976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1012e2ac43d4c4ea9dd3013720195fd
+      internalID: 774066807518062981
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rift_18
+      rect:
+        serializedVersion: 2
+        x: 3186
+        y: 0
+        width: 177
+        height: 253
+      alignment: 9
+      pivot: {x: 0.497175, y: 0.501976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff4504336a64c61b7782e2bbb084ddc
+      internalID: -1573566388164488414
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rift_19
+      rect:
+        serializedVersion: 2
+        x: 3363
+        y: 0
+        width: 177
+        height: 253
+      alignment: 9
+      pivot: {x: 0.497175, y: 0.501976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59d25364680473cb2ba10f28abdaee2
+      internalID: 191547819393847178
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rift_20
+      rect:
+        serializedVersion: 2
+        x: 3540
+        y: 0
+        width: 177
+        height: 253
+      alignment: 9
+      pivot: {x: 0.497175, y: 0.501976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0d00410dd346d283bca4fa0b1d75cf
+      internalID: -1644531932563029090
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rift_21
+      rect:
+        serializedVersion: 2
+        x: 3717
+        y: 0
+        width: 177
+        height: 253
+      alignment: 9
+      pivot: {x: 0.497175, y: 0.501976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce03247f2b7496fab6f748a018eed09
+      internalID: -1906149439534761991
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rift_22
+      rect:
+        serializedVersion: 2
+        x: 3894
+        y: 0
+        width: 177
+        height: 253
+      alignment: 9
+      pivot: {x: 0.497175, y: 0.501976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2715a545204171b75c5208f33a17e7
+      internalID: -291047029406427888
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rift_23
+      rect:
+        serializedVersion: 2
+        x: 4071
+        y: 0
+        width: 177
+        height: 253
+      alignment: 9
+      pivot: {x: 0.497175, y: 0.501976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e21898778944814bac54e575ec52002
+      internalID: 236405166886580877
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      abs_rift_0: -1281870470890394343
+      abs_rift_1: -1162234976632534401
+      abs_rift_2: -1099215349566366860
+      abs_rift_3: 1167583274971766009
+      abs_rift_4: -3378755315736434510
+      abs_rift_5: -4090569019358524816
+      abs_rift_6: -2888502739146042310
+      abs_rift_7: 1223959306281497774
+      abs_rift_8: 2052040352713325718
+      abs_rift_9: -4449323818274691906
+      abs_rift_10: 1134697336610585716
+      abs_rift_11: 3433117359260739499
+      abs_rift_12: -4446716662396864493
+      abs_rift_13: 4186429488416956601
+      abs_rift_14: -2979968954095964095
+      abs_rift_15: -881053907994344205
+      abs_rift_16: 1777342469268098689
+      abs_rift_17: 774066807518062981
+      abs_rift_18: -1573566388164488414
+      abs_rift_19: 191547819393847178
+      abs_rift_20: -1644531932563029090
+      abs_rift_21: -1906149439534761991
+      abs_rift_22: -291047029406427888
+      abs_rift_23: 236405166886580877
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

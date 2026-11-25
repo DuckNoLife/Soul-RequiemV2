@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="30" height="27" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="37">
+ <properties>
+  <property name="camera_clamp" value="none"/>
+  <property name="flag_group" value="Map4_CatacombsOfNaming"/>
+ </properties>
+ <tileset firstgid="1" source="../Tilesets/SR-margin.tsx"/>
+ <tileset firstgid="17" source="../Tilesets/SR-margin-art.tsx"/>
+ <tileset firstgid="25" source="../Tilesets/SR-animT-candle-violet.tsx"/>
+ <layer id="1" name="ground" width="30" height="27">
+  <properties>
+   <property name="unity:SortingOrder" type="int" value="-20"/>
+  </properties>
+  <data encoding="csv">
+13,2147483661,13,2147483661,13,13,2147483661,2147483661,2147483661,2147483661,2147483661,13,2147483661,13,2147483661,2147483661,2147483661,13,2147483661,2147483661,2147483661,2147483661,2147483661,13,13,2147483661,13,2147483661,13,13,
+13,2147483661,13,13,13,13,13,13,2147483661,2147483661,13,13,2147483661,13,13,13,2147483661,13,13,13,13,13,2147483661,13,13,2147483661,2147483661,13,2147483661,2147483661,
+2147483661,13,13,13,14,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,1,2147483661,13,13,13,
+2147483661,2147483661,13,2147483661,2,7,7,7,7,7,7,7,7,7,2147483655,7,7,7,7,2147483655,2147483655,2147483655,7,7,2147483655,12,13,2147483661,13,2147483661,
+13,2147483661,13,2147483661,2,7,7,2147483655,2147483655,2147483655,2147483655,7,7,7,7,7,7,2147483655,2147483655,2147483655,2147483655,7,7,7,7,12,2147483661,2147483661,2147483661,2147483661,
+13,2147483661,13,13,2,7,7,7,2147483655,2147483655,7,7,7,7,2147483655,7,7,7,7,7,7,2147483655,2147483655,7,7,12,2147483661,2147483661,2147483661,13,
+2147483661,13,2147483661,2147483661,2,7,7,2147483655,7,2147483655,7,7,2147483655,2147483655,7,2147483655,7,2147483655,7,7,7,2147483655,2147483655,7,7,12,13,13,2147483661,2147483661,
+13,2147483661,13,13,2,2147483655,7,7,2147483655,2147483655,7,7,2147483655,2147483655,7,7,2147483655,2147483655,2147483655,2147483655,7,2147483655,7,7,7,12,13,13,2147483661,2147483661,
+13,2147483661,2147483661,2147483661,2,7,2147483655,7,2147483655,2147483655,2147483655,7,7,2147483655,7,7,7,2147483655,7,2147483655,2147483655,2147483655,2147483655,7,2147483655,12,2147483661,13,2147483661,2147483661,
+2147483661,13,2147483661,2147483661,2,7,7,7,2147483655,7,2147483655,7,2147483655,2147483655,7,7,2147483655,2147483655,2147483655,7,2147483655,2147483655,7,2147483655,7,12,2147483661,13,2147483661,2147483661,
+13,2147483661,2147483661,13,2,7,2147483655,2147483655,2147483655,2147483655,2147483655,2147483655,7,2147483655,7,2147483655,7,7,7,2147483655,2147483655,7,2147483655,7,7,12,13,2147483661,2147483661,13,
+13,2147483661,2147483661,13,2,2147483655,7,2147483655,2147483655,2147483655,7,7,2147483655,7,2147483655,2147483655,2147483655,7,2147483655,2147483655,2147483655,7,2147483655,7,7,12,13,2147483661,2147483661,13,
+2147483661,13,2147483661,2147483661,2,7,2147483655,7,2147483655,7,2147483655,7,2147483655,7,7,2147483655,2147483655,7,7,2147483655,7,7,7,7,2147483655,12,2147483661,13,2147483661,13,
+13,13,2147483661,13,2,7,7,2147483655,2147483655,7,2147483655,7,7,2147483655,7,7,2147483655,7,7,7,7,7,7,7,7,12,2147483661,13,13,2147483661,
+2147483661,2147483661,13,2147483661,2,2147483655,7,7,2147483655,7,7,7,2147483655,2147483655,2147483655,2147483655,7,2147483655,7,7,2147483655,2147483655,7,7,7,12,13,13,2147483661,2147483661,
+2147483661,13,13,2147483661,2,7,7,7,2147483655,7,7,2147483655,7,2147483655,7,2147483655,2147483655,2147483655,2147483655,2147483655,7,2147483655,7,2147483655,7,12,2147483661,2147483661,13,13,
+2147483661,13,2147483661,13,9,10,10,10,10,10,10,10,10,11,7,7,8,10,10,10,10,10,10,10,10,16,2147483661,2147483661,13,13,
+13,2147483661,13,13,2147483661,2147483661,2147483661,2147483661,2147483661,13,2147483661,2147483661,2147483661,2,7,2147483655,12,13,13,2147483661,2147483661,2147483661,13,13,2147483661,13,2147483661,13,2147483661,13,
+13,2147483661,13,2147483661,2147483661,13,2147483661,2147483661,2147483661,13,13,2147483661,13,2,7,7,12,2147483661,2147483661,13,13,2147483661,13,13,13,2147483661,2147483661,2147483661,2147483661,13,
+2147483661,2147483661,2147483661,2147483661,13,13,13,2147483661,2147483661,2147483661,13,2147483661,2147483661,2,7,2147483655,12,2147483661,2147483661,2147483661,13,2147483661,13,13,2147483661,13,2147483661,2147483661,2147483661,2147483661,
+13,13,13,13,2147483661,2147483661,2147483661,2147483661,2147483661,14,4,4,4,6,2147483655,2147483655,3,4,4,4,1,13,2147483661,13,2147483661,13,13,2147483661,13,13,
+13,2147483661,2147483661,13,13,2147483661,2147483661,13,2147483661,2,2147483655,2147483655,7,2147483655,2147483655,7,7,2147483655,2147483655,7,12,13,13,13,13,13,13,13,13,13,
+13,13,2147483661,13,13,13,2147483661,2147483661,2147483661,2,2147483655,2147483655,2147483655,2147483655,2147483655,7,2147483655,7,2147483655,2147483655,12,2147483661,13,13,2147483661,2147483661,13,13,13,2147483661,
+2147483661,2147483661,2147483661,2147483661,13,13,2147483661,2147483661,2147483661,2,7,2147483655,2147483655,2147483655,7,7,7,7,7,2147483655,12,2147483661,13,2147483661,2147483661,2147483661,2147483661,2147483661,13,13,
+13,2147483661,2147483661,2147483661,2147483661,2147483661,2147483661,13,2147483661,2,7,2147483655,7,2147483655,2147483655,2147483655,2147483655,7,7,2147483655,12,2147483661,2147483661,2147483661,2147483661,2147483661,2147483661,2147483661,2147483661,13,
+13,2147483661,2147483661,13,13,13,13,13,2147483661,9,10,10,10,10,10,10,10,10,10,10,16,2147483661,13,2147483661,2147483661,2147483661,13,13,13,13,
+2147483661,2147483661,2147483661,13,13,13,2147483661,2147483661,2147483661,13,13,2147483661,2147483661,13,2147483661,2147483661,2147483661,13,2147483661,2147483661,13,13,13,13,13,13,2147483661,2147483661,13,2147483661
+</data>
+ </layer>
+ <objectgroup id="2" name="ground decals">
+  <properties>
+   <property name="unity:SortingOrder" type="int" value="-5"/>
+  </properties>
+ </objectgroup>
+ <objectgroup id="3" name="props">
+  <properties>
+   <property name="unity:SortingOrder" type="int" value="2"/>
+  </properties>
+  <object id="17" gid="25" x="163.2" y="137.6" width="64" height="49"/>
+  <object id="20" gid="25" x="732.8" y="137.6" width="64" height="49"/>
+  <object id="31" gid="25" x="582.4" y="790.4" width="64" height="49"/>
+ </objectgroup>
+ <objectgroup id="4" name="zones" opacity="0.35">
+  <properties>
+   <property name="unity:IsTrigger" type="bool" value="true"/>
+  </properties>
+  <object id="13" name="c2r" type="zone" x="160" y="96" width="640" height="416">
+   <properties>
+    <property name="ambient" type="float" value="0.24"/>
+    <property name="ambient_color" value="#8f7cc4"/>
+    <property name="ambient_fight" type="float" value="0.2"/>
+    <property name="fog" value="off"/>
+    <property name="hint_text" value=""/>
+    <property name="seal_color" value="#9a6cff"/>
+    <property name="stage" value="margin"/>
+    <property name="title" value="The Margin"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="zone_id" value="c2r"/>
+   </properties>
+  </object>
+  <object id="26" name="c2g" type="zone" x="320" y="672" width="320" height="128">
+   <properties>
+    <property name="ambient" type="float" value="0.26"/>
+    <property name="ambient_color" value="#8f7cc4"/>
+    <property name="fog" value="off"/>
+    <property name="hint_text" value=""/>
+    <property name="optional" type="bool" value="true"/>
+    <property name="stage" value="margin"/>
+    <property name="title" value="The Gutter"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="zone_id" value="c2g"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="spawns" opacity="0.35">
+  <object id="14" name="The_Registrar" type="spawn" x="480" y="179.2">
+   <properties>
+    <property name="boss" type="bool" value="true"/>
+    <property name="enemy" value="The_Registrar"/>
+    <property name="stand_in" type="bool" value="true"/>
+    <property name="wave" type="int" value="1"/>
+    <property name="zone_id" value="c2r"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="triggers" opacity="0.35">
+  <properties>
+   <property name="unity:IsTrigger" type="bool" value="true"/>
+  </properties>
+  <object id="15" name="registrar_page" type="boss" x="160" y="224" width="640" height="288">
+   <properties>
+    <property name="card_color" value="#5a3f8c"/>
+    <property name="card_sub" value="Keeper of the Register of Names"/>
+    <property name="entrance" value="turn"/>
+    <property name="intro_line1" value="Welcome to the margin, Seven. Nothing written here is ever read."/>
+    <property name="intro_line2" value="You cannot strike me. I am the one holding the pen."/>
+    <property name="intro_line3" value="So. Let us see how long a mistake can last."/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="zone_id" value="c2r"/>
+   </properties>
+  </object>
+  <object id="27" name="player_start" type="player_start" x="464" y="736" width="32" height="32">
+   <properties>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="zone_id" value="c2g"/>
+   </properties>
+  </object>
+  <object id="28" name="rest_margin" type="checkpoint" x="352" y="691.2" width="70.4" height="83.2">
+   <properties>
+    <property name="marker" type="bool" value="true"/>
+    <property name="stage" value="margin"/>
+    <property name="stage_name" value="The Margin"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="zone_id" value="c2g"/>
+   </properties>
+  </object>
+  <object id="29" name="to_scriptorium" type="exit" x="448" y="768" width="64" height="28.8">
+   <properties>
+    <property name="arrive_at" value="10.5,81.6"/>
+    <property name="arrive_subtitle" value="The Catacombs of Naming"/>
+    <property name="arrive_title" value="The Scriptorium"/>
+    <property name="depart_text" value="You step off the edge of the page, and fall back into the Scriptorium."/>
+    <property name="interact" type="bool" value="true"/>
+    <property name="locked_text" value="There is no edge to step off. Not while he is still writing."/>
+    <property name="quake" type="bool" value="false"/>
+    <property name="range" type="float" value="0.9"/>
+    <property name="requires" value="c2r_cleared"/>
+    <property name="target" value="map4_catacombs"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="verb" value="Step off the page"/>
+   </properties>
+  </object>
+  <object id="35" name="margin_arrival" type="story" x="432" y="688" width="96" height="96">
+   <properties>
+    <property name="script" value="wait 0.8\nbubble ren: ...Where is this?\nnarrate The floor is a page. Past its torn edges there is nothing at all.|Somewhere above, a quill is scratching.\nbubble ren: He brought me into his book."/>
+    <property name="trigger" value="start"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="unless" value="c2r_cleared"/>
+   </properties>
+  </object>
+  <object id="36" name="margin_struck" type="story" x="432" y="256" width="96" height="96">
+   <properties>
+    <property name="script" value="wait 1.4\nbubble ren: Struck through. Like all the others.\nnarrate His register slips from his hands and falls open. The last line on the last page is his own name, with a single neat line through it.|The page begins to curl at the edges.\nexit to_scriptorium"/>
+    <property name="trigger" value="flag"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="when" value="c2r_cleared"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="obstacle colliders" opacity="0.35">
+  <object id="18" name="prop collider" type="obstacle" x="179.2" y="121.6" width="32" height="14.4">
+   <properties>
+    <property name="collider_kind" value="prop"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="21" name="prop collider" type="obstacle" x="748.8" y="121.6" width="32" height="14.4">
+   <properties>
+    <property name="collider_kind" value="prop"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="32" name="prop collider" type="obstacle" x="598.4" y="774.4" width="32" height="14.4">
+   <properties>
+    <property name="collider_kind" value="prop"/>
+   </properties>
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="blockers" opacity="0.35">
+  <object id="1" name="blocker" type="blocker" x="0" y="96" width="160" height="416">
+   <properties>
+    <property name="collider_kind" value="terrain"/>
+   </properties>
+  </object>
+  <object id="2" name="blocker" type="blocker" x="0" y="672" width="320" height="128">
+   <properties>
+    <property name="collider_kind" value="terrain"/>
+   </properties>
+  </object>
+  <object id="3" name="blocker" type="blocker" x="0" y="512" width="448" height="160">
+   <properties>
+    <property name="collider_kind" value="terrain"/>
+   </properties>
+  </object>
+  <object id="4" name="blocker" type="blocker" x="0" y="0" width="960" height="96">
+   <properties>
+    <property name="collider_kind" value="terrain"/>
+   </properties>
+  </object>
+  <object id="5" name="blocker" type="blocker" x="0" y="800" width="960" height="64">
+   <properties>
+    <property name="collider_kind" value="terrain"/>
+   </properties>
+  </object>
+  <object id="6" name="blocker" type="blocker" x="512" y="512" width="448" height="160">
+   <properties>
+    <property name="collider_kind" value="terrain"/>
+   </properties>
+  </object>
+  <object id="7" name="blocker" type="blocker" x="640" y="672" width="320" height="128">
+   <properties>
+    <property name="collider_kind" value="terrain"/>
+   </properties>
+  </object>
+  <object id="8" name="blocker" type="blocker" x="800" y="96" width="160" height="416">
+   <properties>
+    <property name="collider_kind" value="terrain"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="map bounds" opacity="0.35">
+  <object id="9" name="map_bound" type="bound" x="-32" y="-32" width="1024" height="32">
+   <properties>
+    <property name="collider_kind" value="bound"/>
+   </properties>
+  </object>
+  <object id="10" name="map_bound" type="bound" x="-32" y="864" width="1024" height="32">
+   <properties>
+    <property name="collider_kind" value="bound"/>
+   </properties>
+  </object>
+  <object id="11" name="map_bound" type="bound" x="-32" y="0" width="32" height="864">
+   <properties>
+    <property name="collider_kind" value="bound"/>
+   </properties>
+  </object>
+  <object id="12" name="map_bound" type="bound" x="960" y="0" width="32" height="864">
+   <properties>
+    <property name="collider_kind" value="bound"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="10" name="mechanics" opacity="0.35">
+  <properties>
+   <property name="unity:IsTrigger" type="bool" value="true"/>
+  </properties>
+  <object id="16" name="margin_page" type="ritual_pillar" x="160" y="96" width="640" height="416">
+   <properties>
+    <property name="mechanic" value="ritual_pillar"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="19" name="margin_candle_6" type="light" x="195.2" y="108.8" width="32" height="32">
+   <properties>
+    <property name="anim" value="flicker"/>
+    <property name="anim_amount" type="float" value="0.2"/>
+    <property name="color" value="#b07aff"/>
+    <property name="intensity" type="float" value="0.75"/>
+    <property name="light" value="torch"/>
+    <property name="mechanic" value="light"/>
+    <property name="radius" type="float" value="2.6"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="22" name="margin_candle_23" type="light" x="764.8" y="108.8" width="32" height="32">
+   <properties>
+    <property name="anim" value="flicker"/>
+    <property name="anim_amount" type="float" value="0.2"/>
+    <property name="color" value="#b07aff"/>
+    <property name="intensity" type="float" value="0.75"/>
+    <property name="light" value="torch"/>
+    <property name="mechanic" value="light"/>
+    <property name="radius" type="float" value="2.6"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="23" name="margin_page_glow" type="light" x="480" y="336" width="32" height="32">
+   <properties>
+    <property name="anim" value="pulse"/>
+    <property name="anim_amount" type="float" value="0.12"/>
+    <property name="anim_speed" type="float" value="0.3"/>
+    <property name="color" value="#7a5ad0"/>
+    <property name="intensity" type="float" value="0.5"/>
+    <property name="light" value="torch"/>
+    <property name="mechanic" value="light"/>
+    <property name="radius" type="float" value="9.0"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="24" name="margin_lectern_glow" type="light" x="480" y="147.2" width="32" height="32">
+   <properties>
+    <property name="anim" value="flicker"/>
+    <property name="anim_amount" type="float" value="0.15"/>
+    <property name="color" value="#b07aff"/>
+    <property name="intensity" type="float" value="0.95"/>
+    <property name="light" value="torch"/>
+    <property name="mechanic" value="light"/>
+    <property name="off_when" value="c2r_cleared"/>
+    <property name="radius" type="float" value="3.6"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="25" name="margin_drift" type="drifting_pages" x="0" y="0" width="960" height="864">
+   <properties>
+    <property name="avoid" value="5,3,20,13;14,16,2,5;10,21,10,4"/>
+    <property name="count" type="int" value="24"/>
+    <property name="mechanic" value="drifting_pages"/>
+    <property name="motes" type="int" value="28"/>
+    <property name="sprites" value="margin_page,margin_page2,margin_page3"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="30" name="margin_note" type="note" x="563.2" y="700.8" width="32" height="25.6">
+   <properties>
+    <property name="marker" type="bool" value="true"/>
+    <property name="mechanic" value="note"/>
+    <property name="range" type="float" value="1.0"/>
+    <property name="sprite" value="VFX/props/margin_page"/>
+    <property name="text" value="Candidate VII. Struck at the Naming.\n\nDid not stay struck.\n\nCorrection required. I will see to it myself, on a clean page, where no one else will have to read it.\n\n- R."/>
+    <property name="title" value="A Note in the Margin"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="verb" value="Read"/>
+   </properties>
+  </object>
+  <object id="33" name="margin_gutter_candle" type="light" x="614.4" y="761.6" width="32" height="32">
+   <properties>
+    <property name="anim" value="flicker"/>
+    <property name="anim_amount" type="float" value="0.2"/>
+    <property name="color" value="#b07aff"/>
+    <property name="intensity" type="float" value="0.7"/>
+    <property name="light" value="torch"/>
+    <property name="mechanic" value="light"/>
+    <property name="radius" type="float" value="2.4"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="34" name="margin_gutter_glow" type="light" x="480" y="729.6" width="32" height="32">
+   <properties>
+    <property name="color" value="#8a7ab8"/>
+    <property name="intensity" type="float" value="0.45"/>
+    <property name="light" value="torch"/>
+    <property name="mechanic" value="light"/>
+    <property name="radius" type="float" value="5.0"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

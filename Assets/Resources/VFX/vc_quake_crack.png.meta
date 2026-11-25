@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: ae4fd73efe014b85a5ed317dfcc7bc3d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -81255346025439769
+    second: vc_quake_crack_0
+  - first:
+      213: 3713987565260393479
+    second: vc_quake_crack_1
+  - first:
+      213: -1222635310348240179
+    second: vc_quake_crack_2
+  - first:
+      213: 3126273255618258157
+    second: vc_quake_crack_3
+  - first:
+      213: -1643606581527267921
+    second: vc_quake_crack_4
+  - first:
+      213: -2452922625883630454
+    second: vc_quake_crack_5
+  - first:
+      213: -2111925104775605433
+    second: vc_quake_crack_6
+  - first:
+      213: -3385327073025855486
+    second: vc_quake_crack_7
+  - first:
+      213: 4468123424336438505
+    second: vc_quake_crack_8
+  - first:
+      213: -4290687734738499458
+    second: vc_quake_crack_9
+  - first:
+      213: -4033966030766743719
+    second: vc_quake_crack_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 8192
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vc_quake_crack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 176
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.416667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4591b095d54158bc89d7ee04e092eb
+      internalID: -81255346025439769
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_quake_crack_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 176
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.416667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942990e1efe94367a419dadf9b5553d0
+      internalID: 3713987565260393479
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_quake_crack_2
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 176
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.416667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d4356ab20d49208ab0d96c2a1ee22c
+      internalID: -1222635310348240179
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_quake_crack_3
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 176
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.416667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9ae062495f48e19a5f05062e969de1
+      internalID: 3126273255618258157
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_quake_crack_4
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 176
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.416667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab62d8ce0434c1ca19127f857b8c90c
+      internalID: -1643606581527267921
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_quake_crack_5
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 176
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.416667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef073eb2c1264e5eb013f5d2bd9cdd0b
+      internalID: -2452922625883630454
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_quake_crack_6
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 176
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.416667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb1d6dba1d44ccaac57d7c41270da53
+      internalID: -2111925104775605433
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_quake_crack_7
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 0
+        width: 176
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.416667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786d561757cf4c43981945c7566727c0
+      internalID: -3385327073025855486
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_quake_crack_8
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 176
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.416667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0556dbc3320a48008848fa0ed160b2ab
+      internalID: 4468123424336438505
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_quake_crack_9
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 0
+        width: 176
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.416667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6091257f5542443cb3ba331f9a242502
+      internalID: -4290687734738499458
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_quake_crack_10
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 0
+        width: 176
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.416667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c67c4ae6524376b0bf6f3a2d76b16c
+      internalID: -4033966030766743719
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vc_quake_crack_0: -81255346025439769
+      vc_quake_crack_1: 3713987565260393479
+      vc_quake_crack_2: -1222635310348240179
+      vc_quake_crack_3: 3126273255618258157
+      vc_quake_crack_4: -1643606581527267921
+      vc_quake_crack_5: -2452922625883630454
+      vc_quake_crack_6: -2111925104775605433
+      vc_quake_crack_7: -3385327073025855486
+      vc_quake_crack_8: 4468123424336438505
+      vc_quake_crack_9: -4290687734738499458
+      vc_quake_crack_10: -4033966030766743719
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

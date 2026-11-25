@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 77b483acafb6457d97c7dfcbce80ca9d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2976882830318304462
+    second: abs_dive_impact_0
+  - first:
+      213: -4251663272473336098
+    second: abs_dive_impact_1
+  - first:
+      213: -3410009996167239686
+    second: abs_dive_impact_2
+  - first:
+      213: 3514329104553941535
+    second: abs_dive_impact_3
+  - first:
+      213: 1907547076046832577
+    second: abs_dive_impact_4
+  - first:
+      213: 612178861863174102
+    second: abs_dive_impact_5
+  - first:
+      213: -3723393131281889685
+    second: abs_dive_impact_6
+  - first:
+      213: -3624946997816583502
+    second: abs_dive_impact_7
+  - first:
+      213: 154345333560629461
+    second: abs_dive_impact_8
+  - first:
+      213: 1297309099527744219
+    second: abs_dive_impact_9
+  - first:
+      213: 2440547160602992993
+    second: abs_dive_impact_10
+  - first:
+      213: -1935176757845312621
+    second: abs_dive_impact_11
+  - first:
+      213: -1906115765445576977
+    second: abs_dive_impact_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: abs_dive_impact_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 182
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5, y: 0.190722}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0e00665bd242c09f6c9bb352945577
+      internalID: -2976882830318304462
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_dive_impact_1
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 0
+        width: 182
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5, y: 0.190722}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3e1135e25c4590b43d367010a9c15f
+      internalID: -4251663272473336098
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_dive_impact_2
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 0
+        width: 182
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5, y: 0.190722}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea7c33975ca47c8a06600f4879ae7d6
+      internalID: -3410009996167239686
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_dive_impact_3
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 0
+        width: 182
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5, y: 0.190722}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f5013fda5e42d39affa2d69fa43f25
+      internalID: 3514329104553941535
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_dive_impact_4
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 0
+        width: 182
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5, y: 0.190722}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 902b8732d846473cbbdba69f953b7f0e
+      internalID: 1907547076046832577
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_dive_impact_5
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 0
+        width: 182
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5, y: 0.190722}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea27d26a5f548a398561815c0c251d2
+      internalID: 612178861863174102
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_dive_impact_6
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 0
+        width: 182
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5, y: 0.190722}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa43c2fa755444eaf30a4024ce6c7c4
+      internalID: -3723393131281889685
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_dive_impact_7
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 0
+        width: 182
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5, y: 0.190722}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f6c4adaf134f599deb10968d175c9d
+      internalID: -3624946997816583502
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_dive_impact_8
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 0
+        width: 182
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5, y: 0.190722}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ecb75e47f094d6abd15198d54bab3ae
+      internalID: 154345333560629461
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_dive_impact_9
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 0
+        width: 182
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5, y: 0.190722}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6e764ac4cb4f37b89ea8e20d4ed0a1
+      internalID: 1297309099527744219
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_dive_impact_10
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 0
+        width: 182
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5, y: 0.190722}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4d41ceb99d4d8c85f85cdee4130141
+      internalID: 2440547160602992993
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_dive_impact_11
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 0
+        width: 182
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5, y: 0.190722}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f77d2b614a41c18aedf89a9a7e1b23
+      internalID: -1935176757845312621
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_dive_impact_12
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 0
+        width: 182
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5, y: 0.190722}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d447e121d34e0291b897a80c5623ce
+      internalID: -1906115765445576977
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      abs_dive_impact_0: -2976882830318304462
+      abs_dive_impact_1: -4251663272473336098
+      abs_dive_impact_2: -3410009996167239686
+      abs_dive_impact_3: 3514329104553941535
+      abs_dive_impact_4: 1907547076046832577
+      abs_dive_impact_5: 612178861863174102
+      abs_dive_impact_6: -3723393131281889685
+      abs_dive_impact_7: -3624946997816583502
+      abs_dive_impact_8: 154345333560629461
+      abs_dive_impact_9: 1297309099527744219
+      abs_dive_impact_10: 2440547160602992993
+      abs_dive_impact_11: -1935176757845312621
+      abs_dive_impact_12: -1906115765445576977
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

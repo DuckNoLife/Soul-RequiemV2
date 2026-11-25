@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: 72079a4752854076bc14c2b1f13cc840
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3415871656873432624
+    second: abs_storm_bolt_0
+  - first:
+      213: 4162164383770816812
+    second: abs_storm_bolt_1
+  - first:
+      213: 788228918135619812
+    second: abs_storm_bolt_2
+  - first:
+      213: 1782798903759823321
+    second: abs_storm_bolt_3
+  - first:
+      213: 187267816558549068
+    second: abs_storm_bolt_4
+  - first:
+      213: -2597922815414238285
+    second: abs_storm_bolt_5
+  - first:
+      213: -3839761332457112531
+    second: abs_storm_bolt_6
+  - first:
+      213: 2395753170838997021
+    second: abs_storm_bolt_7
+  - first:
+      213: 285833742834669874
+    second: abs_storm_bolt_8
+  - first:
+      213: -2968770127083412497
+    second: abs_storm_bolt_9
+  - first:
+      213: 4168502665779916369
+    second: abs_storm_bolt_10
+  - first:
+      213: -3461776556443266655
+    second: abs_storm_bolt_11
+  - first:
+      213: 131375798088350434
+    second: abs_storm_bolt_12
+  - first:
+      213: -1180399640936901506
+    second: abs_storm_bolt_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: abs_storm_bolt_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 62
+        height: 89
+      alignment: 9
+      pivot: {x: 0.483871, y: 0.05618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90fba7cd96774cb5a678464c0687e544
+      internalID: -3415871656873432624
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_storm_bolt_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 0
+        width: 62
+        height: 89
+      alignment: 9
+      pivot: {x: 0.483871, y: 0.05618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b039f624d85b44619356cff6c08953cd
+      internalID: 4162164383770816812
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_storm_bolt_2
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 0
+        width: 62
+        height: 89
+      alignment: 9
+      pivot: {x: 0.483871, y: 0.05618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b3eb5052b9467f81976e684d9bb75f
+      internalID: 788228918135619812
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_storm_bolt_3
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 0
+        width: 62
+        height: 89
+      alignment: 9
+      pivot: {x: 0.483871, y: 0.05618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0b5cd93bee47f59efe335105e8fb3a
+      internalID: 1782798903759823321
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_storm_bolt_4
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 0
+        width: 62
+        height: 89
+      alignment: 9
+      pivot: {x: 0.483871, y: 0.05618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b6a7441a4c4f5bb6997d2b21ac9a69
+      internalID: 187267816558549068
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_storm_bolt_5
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 0
+        width: 62
+        height: 89
+      alignment: 9
+      pivot: {x: 0.483871, y: 0.05618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070e43be0bf04889b4d12a8f859052b1
+      internalID: -2597922815414238285
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_storm_bolt_6
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 0
+        width: 62
+        height: 89
+      alignment: 9
+      pivot: {x: 0.483871, y: 0.05618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f262bc8ce4e40d1929a7ccc69455711
+      internalID: -3839761332457112531
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_storm_bolt_7
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 0
+        width: 62
+        height: 89
+      alignment: 9
+      pivot: {x: 0.483871, y: 0.05618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f68e1eeeac34a2a9dfc3a1d8c479f86
+      internalID: 2395753170838997021
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_storm_bolt_8
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 0
+        width: 62
+        height: 89
+      alignment: 9
+      pivot: {x: 0.483871, y: 0.05618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4fd7bc399024ed09bfc3b1dcdc9d13d
+      internalID: 285833742834669874
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_storm_bolt_9
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 0
+        width: 62
+        height: 89
+      alignment: 9
+      pivot: {x: 0.483871, y: 0.05618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500fbf2b06d943afb43a4b6e4da6d2fc
+      internalID: -2968770127083412497
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_storm_bolt_10
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 0
+        width: 62
+        height: 89
+      alignment: 9
+      pivot: {x: 0.483871, y: 0.05618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27dbdcb0302c4ec58c7560f75e43fd31
+      internalID: 4168502665779916369
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_storm_bolt_11
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 0
+        width: 62
+        height: 89
+      alignment: 9
+      pivot: {x: 0.483871, y: 0.05618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ed1ebd9a5b48c5bd6fc084beb902a0
+      internalID: -3461776556443266655
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_storm_bolt_12
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 0
+        width: 62
+        height: 89
+      alignment: 9
+      pivot: {x: 0.483871, y: 0.05618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0cc0a8dc12244d2966b508385a24755
+      internalID: 131375798088350434
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_storm_bolt_13
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 0
+        width: 62
+        height: 89
+      alignment: 9
+      pivot: {x: 0.483871, y: 0.05618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171c38622075457b9b8f2b84b674ff08
+      internalID: -1180399640936901506
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      abs_storm_bolt_0: -3415871656873432624
+      abs_storm_bolt_1: 4162164383770816812
+      abs_storm_bolt_2: 788228918135619812
+      abs_storm_bolt_3: 1782798903759823321
+      abs_storm_bolt_4: 187267816558549068
+      abs_storm_bolt_5: -2597922815414238285
+      abs_storm_bolt_6: -3839761332457112531
+      abs_storm_bolt_7: 2395753170838997021
+      abs_storm_bolt_8: 285833742834669874
+      abs_storm_bolt_9: -2968770127083412497
+      abs_storm_bolt_10: 4168502665779916369
+      abs_storm_bolt_11: -3461776556443266655
+      abs_storm_bolt_12: 131375798088350434
+      abs_storm_bolt_13: -1180399640936901506
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

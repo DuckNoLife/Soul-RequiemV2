@@ -1,0 +1,74 @@
+{
+ "ppt": 4,
+ "kind": "side",
+ "hidden": [],
+ "view": {
+  "x": 0,
+  "y": 0,
+  "w": 34,
+  "h": 26,
+  "label": ""
+ },
+ "steps": [
+  {
+   "title": "Hob's note: something below the old mine clicks when you move",
+   "done": "hollow_seam",
+   "targets": [
+    {
+     "label": "Past Oswin's board",
+     "x": 7.5,
+     "y": 17.5,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Oswin's board: follow the green, and what's past it",
+   "done": "hollow_walk",
+   "targets": [
+    {
+     "label": "The end of the green",
+     "x": 8.5,
+     "y": 6.5,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Cross the hall that only hears moving feet",
+   "done": "hollow_cell",
+   "targets": [
+    {
+     "label": "Far end of the hall",
+     "x": 22.5,
+     "y": 6.5,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "The smith's old swordsman - did he truly live down here?",
+   "done": "oathbreaker_taken",
+   "targets": [
+    {
+     "label": "The hermit",
+     "x": 25.6,
+     "y": 6.2,
+     "done": ""
+    }
+   ]
+  },
+  {
+   "title": "Climb back to the Old Copper Mine",
+   "done": "never",
+   "targets": [
+    {
+     "label": "Mine mouth",
+     "x": 16.5,
+     "y": 25,
+     "done": ""
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 8878bcc453b6419fab7aa1d9fa0ab033
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1127383062804889813
+    second: vc_ember_pop_0
+  - first:
+      213: -992138928124571425
+    second: vc_ember_pop_1
+  - first:
+      213: -1391017583622464803
+    second: vc_ember_pop_2
+  - first:
+      213: -3268592020340928430
+    second: vc_ember_pop_3
+  - first:
+      213: 3670108768116247239
+    second: vc_ember_pop_4
+  - first:
+      213: 1572466460899662280
+    second: vc_ember_pop_5
+  - first:
+      213: -2285423680432135192
+    second: vc_ember_pop_6
+  - first:
+      213: -2937525835429858612
+    second: vc_ember_pop_7
+  - first:
+      213: 1602294796544472253
+    second: vc_ember_pop_8
+  - first:
+      213: -435030303986458660
+    second: vc_ember_pop_9
+  - first:
+      213: 4589421878134560041
+    second: vc_ember_pop_10
+  - first:
+      213: 4090055260075987141
+    second: vc_ember_pop_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 8192
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vc_ember_pop_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 57
+        height: 55
+      alignment: 9
+      pivot: {x: 0.54386, y: 0.527273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f448dcfdf8dc49fba0b94740de93a719
+      internalID: -1127383062804889813
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_ember_pop_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 0
+        width: 57
+        height: 55
+      alignment: 9
+      pivot: {x: 0.54386, y: 0.527273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c80bdff6a1648a7aac7b2e42d9d90c0
+      internalID: -992138928124571425
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_ember_pop_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 0
+        width: 57
+        height: 55
+      alignment: 9
+      pivot: {x: 0.54386, y: 0.527273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7ef4c9d623497d9185475b7d8300f8
+      internalID: -1391017583622464803
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_ember_pop_3
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 0
+        width: 57
+        height: 55
+      alignment: 9
+      pivot: {x: 0.54386, y: 0.527273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bee7f8ac12c43339276e7e0ad996bad
+      internalID: -3268592020340928430
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_ember_pop_4
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 0
+        width: 57
+        height: 55
+      alignment: 9
+      pivot: {x: 0.54386, y: 0.527273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a170b650d74484e8828c2e34b0d21ed
+      internalID: 3670108768116247239
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_ember_pop_5
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 0
+        width: 57
+        height: 55
+      alignment: 9
+      pivot: {x: 0.54386, y: 0.527273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ee579e22a74e25ba866ae593c4c6c0
+      internalID: 1572466460899662280
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_ember_pop_6
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 0
+        width: 57
+        height: 55
+      alignment: 9
+      pivot: {x: 0.54386, y: 0.527273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f472d601c84344b10171173a86d5cc
+      internalID: -2285423680432135192
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_ember_pop_7
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 0
+        width: 57
+        height: 55
+      alignment: 9
+      pivot: {x: 0.54386, y: 0.527273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14115a9bde654926b8e9c93117b5da55
+      internalID: -2937525835429858612
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_ember_pop_8
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 0
+        width: 57
+        height: 55
+      alignment: 9
+      pivot: {x: 0.54386, y: 0.527273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f150b0326fd471a8db5a9967fc22b02
+      internalID: 1602294796544472253
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_ember_pop_9
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 0
+        width: 57
+        height: 55
+      alignment: 9
+      pivot: {x: 0.54386, y: 0.527273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4ced2a69144b3cacb390c8dd5bffb5
+      internalID: -435030303986458660
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_ember_pop_10
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 0
+        width: 57
+        height: 55
+      alignment: 9
+      pivot: {x: 0.54386, y: 0.527273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d2b47655b14f8fb3302d8770488467
+      internalID: 4589421878134560041
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_ember_pop_11
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 0
+        width: 57
+        height: 55
+      alignment: 9
+      pivot: {x: 0.54386, y: 0.527273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7bcabbc720f446487da154126044052
+      internalID: 4090055260075987141
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vc_ember_pop_0: -1127383062804889813
+      vc_ember_pop_1: -992138928124571425
+      vc_ember_pop_2: -1391017583622464803
+      vc_ember_pop_3: -3268592020340928430
+      vc_ember_pop_4: 3670108768116247239
+      vc_ember_pop_5: 1572466460899662280
+      vc_ember_pop_6: -2285423680432135192
+      vc_ember_pop_7: -2937525835429858612
+      vc_ember_pop_8: 1602294796544472253
+      vc_ember_pop_9: -435030303986458660
+      vc_ember_pop_10: 4589421878134560041
+      vc_ember_pop_11: 4090055260075987141
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

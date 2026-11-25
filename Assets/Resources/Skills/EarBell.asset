@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e1a02644db7483881b0af6b92d106fe, type: 3}
+  m_Name: EarBell
+  m_EditorClassIdentifier: 
+  id: ear_bell
+  displayName: Sanctuary Bell
+  description: 'Ring the bell and the glass rises around you. For five seconds every shot that strikes the sanctuary is thrown back at whoever loosed it, twice as hard, and blows that reach you inside are softened. The Ear mantras are attuned together: they take all three sockets.'
+  icon: {fileID: 0}
+  iconName: ic_ear_bell
+  accent: {r: 0.78, g: 0.62, b: 1, a: 1}
+  cooldown: 22
+  unlockedAtStart: 0
+  setId: ear
+  setSlot: 1
+  setName: 
+  setDescription: ''
+  duration: 5
+  radius: 1.1
+  reflectMul: 2
+  damageCut: 0.3
+  shatterPush: 3
+  castLock: 0.35
+  vfxScalePerUnit: 0.99

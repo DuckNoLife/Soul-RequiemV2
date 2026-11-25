@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: 1ef7d5c66907419aa19cd9d566f644f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2081827418419931354
+    second: sk_ear_bell_rise_0
+  - first:
+      213: -1610711060397940439
+    second: sk_ear_bell_rise_1
+  - first:
+      213: 2093355094900793826
+    second: sk_ear_bell_rise_2
+  - first:
+      213: 1942183463398252152
+    second: sk_ear_bell_rise_3
+  - first:
+      213: -200189900568023232
+    second: sk_ear_bell_rise_4
+  - first:
+      213: 2576593962202580600
+    second: sk_ear_bell_rise_5
+  - first:
+      213: -428594591154798525
+    second: sk_ear_bell_rise_6
+  - first:
+      213: 1900950737602612297
+    second: sk_ear_bell_rise_7
+  - first:
+      213: 461129548805965955
+    second: sk_ear_bell_rise_8
+  - first:
+      213: 4465930503714778917
+    second: sk_ear_bell_rise_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 8192
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sk_ear_bell_rise_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 212
+        height: 219
+      alignment: 9
+      pivot: {x: 0.5, y: 0.223744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6663bf8ec75405db5bbafa52f9a90aa
+      internalID: 2081827418419931354
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_bell_rise_1
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 0
+        width: 212
+        height: 219
+      alignment: 9
+      pivot: {x: 0.5, y: 0.223744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f70e433cb8c4be2aa499a7f9fb1d48f
+      internalID: -1610711060397940439
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_bell_rise_2
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 0
+        width: 212
+        height: 219
+      alignment: 9
+      pivot: {x: 0.5, y: 0.223744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0592b238f514617a254aa2fe5a31da7
+      internalID: 2093355094900793826
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_bell_rise_3
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 0
+        width: 212
+        height: 219
+      alignment: 9
+      pivot: {x: 0.5, y: 0.223744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc315b735304584b292774e1fef4a74
+      internalID: 1942183463398252152
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_bell_rise_4
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 0
+        width: 212
+        height: 219
+      alignment: 9
+      pivot: {x: 0.5, y: 0.223744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5280375eb07c4278a59a2fa25063dd2c
+      internalID: -200189900568023232
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_bell_rise_5
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 0
+        width: 212
+        height: 219
+      alignment: 9
+      pivot: {x: 0.5, y: 0.223744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571002bc2bbe4e908fb40495caf19423
+      internalID: 2576593962202580600
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_bell_rise_6
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 0
+        width: 212
+        height: 219
+      alignment: 9
+      pivot: {x: 0.5, y: 0.223744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4a8b441d2c404cb302d5067f553d86
+      internalID: -428594591154798525
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_bell_rise_7
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 0
+        width: 212
+        height: 219
+      alignment: 9
+      pivot: {x: 0.5, y: 0.223744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa028945c41a493494f7b990a6201b44
+      internalID: 1900950737602612297
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_bell_rise_8
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 0
+        width: 212
+        height: 219
+      alignment: 9
+      pivot: {x: 0.5, y: 0.223744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b658c627e5488ba185b4c614a7289a
+      internalID: 461129548805965955
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_bell_rise_9
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 0
+        width: 212
+        height: 219
+      alignment: 9
+      pivot: {x: 0.5, y: 0.223744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37e56dbb65145d5bb9cd2b7b4f5d2bf
+      internalID: 4465930503714778917
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sk_ear_bell_rise_0: 2081827418419931354
+      sk_ear_bell_rise_1: -1610711060397940439
+      sk_ear_bell_rise_2: 2093355094900793826
+      sk_ear_bell_rise_3: 1942183463398252152
+      sk_ear_bell_rise_4: -200189900568023232
+      sk_ear_bell_rise_5: 2576593962202580600
+      sk_ear_bell_rise_6: -428594591154798525
+      sk_ear_bell_rise_7: 1900950737602612297
+      sk_ear_bell_rise_8: 461129548805965955
+      sk_ear_bell_rise_9: 4465930503714778917
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: 59b19d5bba7d467e9538db7e2cd999f3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -815178536150985784
+    second: abs_ice_shatter_0
+  - first:
+      213: 953074578526190260
+    second: abs_ice_shatter_1
+  - first:
+      213: -2340367082355498476
+    second: abs_ice_shatter_2
+  - first:
+      213: 437701236558906904
+    second: abs_ice_shatter_3
+  - first:
+      213: 1880603997593022035
+    second: abs_ice_shatter_4
+  - first:
+      213: 3525994476000462169
+    second: abs_ice_shatter_5
+  - first:
+      213: -817962120769139761
+    second: abs_ice_shatter_6
+  - first:
+      213: 296756752766919375
+    second: abs_ice_shatter_7
+  - first:
+      213: -1666078459967676320
+    second: abs_ice_shatter_8
+  - first:
+      213: -2017307413061021519
+    second: abs_ice_shatter_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: abs_ice_shatter_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 77
+        height: 99
+      alignment: 9
+      pivot: {x: 0.532468, y: 0.636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52212ab2cbfd48e3ad711bcc9e84d4d9
+      internalID: -815178536150985784
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_ice_shatter_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 0
+        width: 77
+        height: 99
+      alignment: 9
+      pivot: {x: 0.532468, y: 0.636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b7025578cd494cb92595fe8781a513
+      internalID: 953074578526190260
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_ice_shatter_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 0
+        width: 77
+        height: 99
+      alignment: 9
+      pivot: {x: 0.532468, y: 0.636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933a530f60764e808c7cca24081d0f3e
+      internalID: -2340367082355498476
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_ice_shatter_3
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 0
+        width: 77
+        height: 99
+      alignment: 9
+      pivot: {x: 0.532468, y: 0.636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99d379de6f44dcdad24a0494f93e7ac
+      internalID: 437701236558906904
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_ice_shatter_4
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 0
+        width: 77
+        height: 99
+      alignment: 9
+      pivot: {x: 0.532468, y: 0.636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cec970d37334f6094b3d1ccf1d1eb59
+      internalID: 1880603997593022035
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_ice_shatter_5
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 0
+        width: 77
+        height: 99
+      alignment: 9
+      pivot: {x: 0.532468, y: 0.636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede5febaacd841d3b82670d95c38682f
+      internalID: 3525994476000462169
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_ice_shatter_6
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 0
+        width: 77
+        height: 99
+      alignment: 9
+      pivot: {x: 0.532468, y: 0.636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499bc5bd730543e893df0b1cc16f7dfc
+      internalID: -817962120769139761
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_ice_shatter_7
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 0
+        width: 77
+        height: 99
+      alignment: 9
+      pivot: {x: 0.532468, y: 0.636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bdb20a5dc434c2d876406f24d9181d6
+      internalID: 296756752766919375
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_ice_shatter_8
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 0
+        width: 77
+        height: 99
+      alignment: 9
+      pivot: {x: 0.532468, y: 0.636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8655a60d1014d738de5704f981688fd
+      internalID: -1666078459967676320
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_ice_shatter_9
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 0
+        width: 77
+        height: 99
+      alignment: 9
+      pivot: {x: 0.532468, y: 0.636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e71d6cc6f5e47e499c959a43351715f
+      internalID: -2017307413061021519
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      abs_ice_shatter_0: -815178536150985784
+      abs_ice_shatter_1: 953074578526190260
+      abs_ice_shatter_2: -2340367082355498476
+      abs_ice_shatter_3: 437701236558906904
+      abs_ice_shatter_4: 1880603997593022035
+      abs_ice_shatter_5: 3525994476000462169
+      abs_ice_shatter_6: -817962120769139761
+      abs_ice_shatter_7: 296756752766919375
+      abs_ice_shatter_8: -1666078459967676320
+      abs_ice_shatter_9: -2017307413061021519
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

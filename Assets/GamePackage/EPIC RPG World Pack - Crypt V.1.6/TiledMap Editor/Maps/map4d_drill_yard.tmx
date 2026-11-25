@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="72" height="22" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="81">
+ <properties>
+  <property name="camera_clamp" value="none"/>
+  <property name="disarm_text" value="Your blade is gone. The warders took it."/>
+  <property name="disarm_until" value="m4_katana"/>
+  <property name="flag_group" value="Map4_CatacombsOfNaming"/>
+  <property name="mantra_seal_text" value="Your mantras are bound. The binding drinks every word."/>
+  <property name="mantra_seal_until" value="m4_mantras_free"/>
+ </properties>
+ <tileset firstgid="1" source="../Tilesets/Tileset-Terrain.tsx"/>
+ <tileset firstgid="2901" source="../Tilesets/Tileset - wall 1.tsx"/>
+ <tileset firstgid="3141" source="../Tilesets/Tileset - wall 2.tsx"/>
+ <tileset firstgid="3381" source="../Tilesets/Tileset - wall 3.tsx"/>
+ <tileset firstgid="3621" source="../../../EPIC RPG World Pack - Old Prison V1.7.1/TiledMap Editor New/Tilesets/Tileset-Terrain-old prison.tsx"/>
+ <tileset firstgid="8106" source="../../../EPIC RPG World Pack - Old Prison V1.7.1/TiledMap Editor New/Tilesets/Tileset - wall 1.tsx"/>
+ <tileset firstgid="8474" source="../../../EPIC RPG World Pack - Old Prison V1.7.1/TiledMap Editor New/Tilesets/Tileset - wall 2.tsx"/>
+ <tileset firstgid="8714" source="../../../EPIC RPG World Pack - Old Prison V1.7.1/TiledMap Editor New/Tilesets/Blood pool - style2 - with spikes - transparency.tsx"/>
+ <tileset firstgid="9024" source="../../../EPIC RPG World Pack - Old Prison V1.7.1/TiledMap Editor New/Tilesets/atlas-props-sprites.tsx"/>
+ <tileset firstgid="9915" source="../Tilesets/Atlas-Props-sprites.tsx"/>
+ <tileset firstgid="10303" source="../Tilesets/SR-animT-props-magic-flame.tsx"/>
+ <tileset firstgid="10311" source="../Tilesets/SR-animT-animated-torch-burning.tsx"/>
+ <tileset firstgid="10323" source="../Tilesets/SR-animT-animated-candle-burning.tsx"/>
+ <tileset firstgid="10331" source="../Tilesets/SR-traps.tsx"/>
+ <tileset firstgid="10346" source="../Tilesets/SR-m4-art.tsx"/>
+ <tileset firstgid="10372" source="../Tilesets/SR-props-trimmed.tsx"/>
+ <tileset firstgid="10535" source="../Tilesets/SR-lists-art.tsx"/>
+ <tileset firstgid="10552" source="../Tilesets/SR-drill-art.tsx"/>
+ <layer id="1" name="op_pit" width="72" height="22">
+  <properties>
+   <property name="unity:SortingOrder" type="int" value="-30"/>
+  </properties>
+  <data encoding="csv">
+4281,4409,4410,4278,4277,4279,4281,4278,4279,4347,4344,4346,4344,4279,4410,4346,4277,4347,4347,4345,4282,4281,4281,4281,4347,4277,4346,4407,4409,4344,4279,4346,4407,4277,4346,4409,4278,4279,4278,4345,4282,4347,4346,4347,4278,4277,4407,4281,4346,4279,4347,4407,4410,4345,4279,4347,4282,4410,4346,4278,4282,4345,4281,4345,4281,4345,4409,4347,4407,4409,4347,4407,
+4346,4407,4410,4344,4347,4278,4346,4279,4277,4410,4346,4281,4281,4279,4344,4346,4344,4346,4279,4344,4281,4277,4409,4407,4278,4407,4409,4347,4346,4277,4347,4410,4344,4277,4279,4346,4279,4278,4345,4409,4282,4347,4346,4277,4277,4344,4344,4407,4282,4278,4282,4344,4282,4278,4347,4278,4346,4277,4277,4347,4279,4282,4407,4407,4410,4345,4407,4277,4281,4410,4281,4281,
+4282,4279,4410,4282,4277,4410,4277,4278,4279,4345,4278,4282,4347,4347,4407,4409,4279,4347,4347,4346,4277,4345,4345,4277,4345,4407,4282,4346,4409,4277,4347,4346,4407,4278,4277,4345,4407,4281,4410,4279,4279,4344,4279,4278,4279,4410,4347,4407,4345,4278,4278,4344,4347,4277,4345,4345,4410,4278,4347,4278,4282,4279,4347,4347,4347,4345,4279,4345,4407,4281,4278,4345,
+4281,4277,4282,4279,4346,4278,4410,4410,4344,4281,4281,4282,4277,4407,4407,4407,4281,4282,4344,4281,4277,4347,4282,4344,4409,4410,4345,4279,4278,4347,4346,4279,4407,4279,4278,4282,4410,4346,4407,4281,4344,4410,4281,4279,4347,4278,4279,4345,4407,4409,4277,4347,4344,4347,4410,4345,4409,4282,4277,4407,4282,4282,4345,4344,4347,4278,4345,4347,4410,4346,4282,4277,
+4277,4346,4347,4278,4281,4410,4407,4410,4410,4281,4409,4281,4344,4345,4347,4277,4407,4410,4347,4410,4279,4345,4279,4407,4344,4344,4277,4407,4278,4410,4282,4282,4282,4279,4347,4277,4345,4410,4345,4278,4282,4277,4344,4409,4410,4278,4278,4282,4347,4344,4407,4346,4281,4282,4345,4277,4278,4344,4282,4281,4346,4410,4407,4347,4278,4344,4344,4282,4345,4346,4277,4347,
+4344,4279,4347,4344,4281,4281,4346,4281,4347,4346,4347,4344,4346,4277,4410,4346,4277,4281,4345,4345,4347,4347,4347,4279,4407,4344,4345,4281,4278,4407,4345,4344,4409,4410,4279,4282,4344,4345,4410,4278,4282,4282,4281,4281,4346,4407,4279,4277,4407,4347,4282,4278,4282,4277,4344,4282,4410,4277,4281,4345,4281,4346,4281,4282,4347,4282,4279,4278,4282,4407,4344,4278,
+4410,4409,4410,4278,4345,4282,4345,4410,4347,4346,4279,4277,4345,4347,4407,4345,4410,4407,4281,4410,4279,4346,4279,4347,4281,4410,4282,4281,4278,4277,4279,4344,4410,4344,4345,4407,4279,4345,4345,4277,4278,4346,4410,4279,4346,4344,4279,4410,4279,4409,4345,4407,4345,4345,4282,4347,4409,4282,4345,4281,4346,4346,4282,4345,4282,4279,4279,4410,4278,4345,4278,4409,
+4410,4347,4281,4277,4282,4409,4279,4278,4281,4347,4277,4282,4345,4279,4345,4345,4282,4279,4345,4345,4282,4407,4278,4278,4407,4281,4346,4344,4279,4344,4345,4345,4279,4407,4282,4410,4278,4282,4282,4281,4278,4407,4345,4344,4344,4345,4409,4282,4347,4409,4344,4410,4281,4345,4347,4407,4344,4278,4346,4347,4277,4279,4409,4345,4279,4278,4344,4347,4410,4410,4278,4347,
+4345,4282,4346,4279,4278,4347,4279,4344,4409,4410,4282,4344,4279,4277,4346,4277,4346,4407,4346,4282,4344,4344,4279,4278,4344,4345,4281,4281,4347,4347,4344,4279,4279,4278,4344,4409,4346,4410,4409,4407,4279,4282,4409,4278,4277,4282,4279,4409,4279,4346,4279,4407,4282,4407,4347,4282,4278,4281,4407,4407,4279,4282,4282,4346,4410,4279,4281,4281,4279,4277,4282,4281,
+4410,4410,4407,4346,4279,4347,4282,4281,4282,4278,4281,4279,4277,4346,4278,4282,4345,4407,4279,4278,4282,4347,4281,4277,4407,4277,4281,4344,4410,4282,4344,4279,4347,4282,4344,4277,4346,4345,4281,4410,4409,4344,4282,4277,4347,4344,4282,4347,4346,4347,4407,4279,4409,4278,4277,4277,4277,4277,4278,4281,4347,4281,4282,4347,4347,4282,4277,4279,4281,4282,4281,4282,
+4409,4346,4347,4345,4279,4344,4345,4278,4344,4410,4407,4277,4347,4346,4281,4345,4344,4278,4277,4410,4282,4277,4407,4407,4407,4409,4344,4347,4345,4278,4407,4281,4277,4282,4347,4282,4282,4409,4407,4345,4281,4281,4407,4407,4277,4407,4347,4344,4281,4409,4346,4410,4409,4347,4347,4278,4279,4410,4277,4279,4409,4345,4281,4344,4409,4344,4344,4279,4407,4278,4409,4279,
+4410,4281,4278,4277,4409,4409,4409,4410,4282,4347,4281,4407,4410,4345,4347,4282,4279,4407,4277,4279,4407,4281,4282,4407,4282,4345,4409,4347,4410,4409,4407,4279,4407,4410,4282,4407,4346,4278,4409,4410,4409,4407,4345,4281,4345,4345,4344,4281,4279,4344,4281,4282,4409,4282,4407,4344,4282,4410,4345,4409,4279,4282,4282,4409,4344,4281,4347,4407,4277,4409,4347,4344,
+4282,4345,4281,4410,4282,4279,4409,4345,4346,4409,4279,4278,4281,4410,4278,4410,4282,4345,4347,4346,4410,4279,4347,4410,4347,4281,4407,4278,4345,4278,4410,4347,4410,4281,4410,4410,4279,4344,4409,4344,4410,4409,4409,4347,4407,4410,4409,4282,4278,4344,4278,4407,4409,4345,4281,4344,4282,4345,4410,4279,4345,4410,4407,4277,4344,4407,4278,4279,4282,4282,4344,4279,
+4347,4281,4410,4344,4347,4347,4410,4277,4279,4407,4278,4346,4278,4345,4278,4279,4410,4279,4409,4279,4281,4279,4345,4409,4279,4407,4282,4282,4409,4345,4281,4409,4347,4409,4345,4344,4410,4409,4345,4407,4407,4282,4344,4279,4407,4407,4278,4278,4410,4346,4277,4279,4347,4344,4409,4407,4344,4346,4407,4346,4347,4278,4279,4346,4346,4347,4282,4281,4345,4346,4410,4346,
+4282,4347,4410,4279,4278,4410,4281,4282,4282,4346,4279,4407,4409,4345,4282,4407,4281,4347,4347,4409,4410,4282,4279,4407,4409,4346,4347,4347,4407,4279,4277,4277,4344,4281,4409,4281,4281,4347,4347,4410,4347,4347,4346,4407,4281,4346,4344,4346,4344,4277,4345,4277,4281,4347,4344,4407,4344,4409,4282,4281,4344,4407,4407,4409,4347,4279,4277,4347,4407,4345,4278,4407,
+4409,4410,4344,4278,4281,4410,4347,4279,4347,4410,4347,4407,4346,4281,4282,4282,4409,4407,4282,4344,4278,4410,4346,4278,4409,4282,4344,4279,4407,4279,4282,4344,4346,4344,4278,4282,4407,4407,4344,4346,4345,4409,4282,4277,4347,4278,4278,4346,4345,4278,4347,4277,4277,4344,4345,4278,4281,4278,4346,4344,4281,4277,4277,4345,4347,4282,4347,4347,4407,4281,4347,4409,
+4279,4409,4344,4281,4344,4344,4407,4410,4278,4277,4279,4279,4410,4410,4407,4345,4409,4278,4282,4282,4347,4344,4278,4345,4277,4409,4407,4281,4277,4279,4277,4346,4347,4345,4277,4282,4347,4409,4410,4277,4345,4282,4282,4347,4279,4278,4409,4281,4407,4345,4281,4277,4278,4281,4281,4410,4410,4281,4278,4278,4346,4282,4282,4281,4279,4409,4410,4410,4278,4278,4347,4345,
+4347,4344,4344,4344,4407,4409,4278,4346,4281,4407,4279,4347,4407,4347,4347,4345,4344,4281,4282,4277,4410,4409,4281,4279,4409,4407,4282,4344,4409,4410,4282,4345,4409,4347,4277,4410,4345,4281,4410,4410,4282,4410,4347,4279,4345,4407,4407,4277,4277,4345,4407,4345,4344,4345,4279,4410,4409,4344,4278,4281,4278,4345,4282,4410,4345,4346,4281,4346,4345,4279,4281,4409,
+4279,4407,4279,4346,4410,4282,4407,4346,4277,4347,4410,4279,4345,4281,4277,4345,4409,4345,4407,4279,4409,4407,4279,4279,4277,4409,4281,4410,4282,4279,4345,4279,4410,4281,4347,4282,4410,4345,4346,4407,4278,4282,4282,4345,4281,4409,4407,4279,4407,4345,4282,4277,4409,4407,4281,4345,4282,4281,4281,4344,4277,4281,4409,4345,4347,4346,4345,4279,4277,4407,4278,4278,
+4277,4278,4282,4281,4345,4277,4277,4345,4279,4279,4345,4281,4409,4278,4278,4345,4281,4278,4407,4347,4279,4345,4281,4409,4409,4346,4344,4347,4409,4279,4282,4278,4281,4278,4407,4344,4410,4279,4346,4346,4346,4407,4279,4344,4279,4281,4347,4346,4279,4409,4410,4281,4410,4281,4407,4347,4344,4281,4277,4346,4281,4347,4279,4346,4278,4282,4344,4347,4277,4347,4277,4347,
+4407,4278,4278,4279,4410,4346,4407,4347,4407,4277,4345,4410,4279,4281,4409,4282,4278,4409,4282,4282,4407,4345,4344,4410,4347,4282,4278,4277,4345,4278,4409,4282,4344,4410,4278,4282,4344,4278,4281,4282,4347,4347,4279,4407,4278,4346,4409,4278,4346,4282,4277,4407,4278,4282,4346,4344,4347,4279,4282,4278,4344,4277,4344,4407,4277,4281,4277,4407,4278,4409,4279,4344,
+4281,4409,4282,4281,4344,4282,4279,4347,4279,4281,4409,4409,4407,4278,4345,4407,4410,4281,4279,4346,4281,4344,4277,4282,4407,4345,4277,4407,4345,4278,4281,4279,4279,4278,4278,4278,4344,4279,4279,4410,4278,4281,4344,4279,4409,4409,4344,4279,4409,4281,4409,4344,4344,4279,4344,4279,4407,4345,4347,4345,4344,4347,4278,4409,4409,4278,4347,4345,4345,4279,4407,4410
+</data>
+ </layer>
+ <layer id="2" name="op_plat" width="72" height="22">
+  <properties>
+   <property name="unity:SortingOrder" type="int" value="-25"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,8122,3113,3113,3113,3113,3113,3113,3113,3113,3113,3113,3113,3113,3113,3113,3113,3113,3113,3113,8126,0,8122,3113,3113,3113,3113,3113,3113,3113,3113,3113,3113,3113,3113,3113,3113,3113,3113,3113,3113,8126,0,8122,3113,3113,3113,3113,3113,3113,3113,3113,3113,3113,3113,3113,3113,3113,3113,3113,3113,3113,8126,0,0,0,0,0,
+0,0,0,0,0,3095,8414,8427,8431,8427,8431,8430,8446,8431,8447,8414,8140,8449,8431,8414,8416,8446,8414,8140,3096,0,3095,8415,8432,8449,8432,8427,8431,8443,8445,8412,8449,8447,8447,8140,8447,8416,8431,8416,8432,3096,0,3095,8446,8442,8447,8412,8431,8428,8412,8414,8415,8430,8431,8428,8426,8445,8410,8412,8430,8449,3096,0,0,0,0,0,
+0,0,0,0,0,3111,8443,8415,8449,8449,8449,8449,8411,8443,8432,8432,8432,8430,8414,8449,8415,8443,8416,8432,3112,0,3111,8449,8410,8430,8430,8446,8449,8446,8449,8415,8431,8416,8415,8446,8140,8447,8411,8411,8412,3112,0,3111,8427,8416,8446,8449,8416,8410,8414,8431,8447,8449,8447,8415,8140,8430,8416,8410,8431,8449,3112,0,0,0,0,0,
+0,0,0,0,0,3111,8140,8140,8415,8432,8415,8449,8449,8415,8414,8442,8449,8449,8431,8412,8446,8432,8414,8415,8125,8108,8123,8414,8414,8140,8445,8449,8449,8430,8416,8431,8428,8415,8449,8447,8415,8442,8449,8410,8446,8125,8108,8123,8415,8442,8415,8415,8410,8428,8414,8447,8427,8427,8443,8427,8432,8449,8414,8415,8431,8432,8125,8108,8108,8108,8108,8108,
+0,0,0,0,0,3111,8427,8449,8432,8410,8449,8416,8428,8447,8414,8449,8430,8447,8428,8447,8430,8411,8410,8449,8443,8415,8449,8431,8140,8447,8445,8430,8410,8446,8415,8410,8447,8415,8447,8415,8430,8416,8449,8410,8412,8443,8415,8449,8432,8445,8414,8431,8449,8430,8447,8140,8416,8447,8449,8432,8432,8432,8447,8449,8431,8431,8443,8415,8415,8415,8415,8415,
+0,0,0,0,0,3111,8415,8431,8412,8446,8432,8447,8445,8415,8415,8449,8415,8431,8415,8416,8431,8414,8446,8446,8411,8430,8430,8415,8414,8427,8416,8415,8411,8447,8447,8140,8447,8426,8430,8415,8410,8412,8430,8446,8414,8411,8430,8430,8446,8445,8449,8412,8447,8415,8426,8415,8432,8431,8411,8447,8447,8416,8416,8140,8140,8432,8411,8430,8430,8430,8430,8430,
+0,0,0,0,0,3111,8428,8414,8443,8432,8410,8428,8447,8447,8445,8443,8430,8431,8410,8430,8428,8414,8447,8415,8449,8449,8140,8416,8428,8428,8415,8427,8446,8449,8448,8430,8428,8443,8449,8415,8415,8428,8447,8432,8431,8449,8449,8140,8443,8410,8415,8447,8415,8447,8426,8415,8415,8430,8445,8428,8432,8447,8140,8415,8449,8449,8449,8449,8449,8449,8449,8449,
+0,0,0,0,0,3111,8415,8446,8414,8431,8446,8412,8430,8415,8415,8415,8414,8412,8447,8432,8415,8446,8410,8416,2952,3045,2950,8432,8445,8430,8432,8449,8140,8416,8431,8412,8430,8414,8410,8446,8443,8415,8415,8416,8415,2952,3045,2950,8412,8427,8431,8449,8427,8447,8140,8427,8416,8428,8430,8447,8447,8430,8140,8449,8411,8414,2952,3045,3045,3045,3045,3045,
+0,0,0,0,0,3111,8415,8416,8430,8431,8414,8411,8442,8414,8447,8442,8431,8430,8447,8414,8428,8447,8446,8410,2927,3061,2926,8449,8432,8430,8414,8432,8430,8443,8446,8449,8447,8432,8446,8443,8449,8428,8446,8414,8430,2927,3061,2926,8430,8431,8442,8449,8140,8415,8428,8414,8414,8447,8415,8140,8414,8416,8443,8446,8410,8432,2927,3061,3061,3061,3061,3061,
+0,0,0,0,0,3111,8447,8416,8416,8410,8447,8430,8412,8449,8414,8414,8415,8449,8414,8430,8446,8430,8447,8430,2943,3077,2942,8430,8412,8449,8410,8414,8432,8447,8411,8415,8431,8426,8140,8431,8414,8442,8430,8416,8447,2943,3077,2942,8449,8445,8443,8414,8446,8447,8449,8449,8431,8432,8432,8415,8428,8415,8447,8449,8428,8447,2943,3077,3077,3077,3077,3077,
+0,0,0,0,0,3095,8415,8430,8416,8415,8415,8431,8412,8411,8416,8443,8447,8442,8432,8415,8442,8449,8432,8415,3096,0,3095,8415,8415,8412,8416,8415,8414,8416,8414,8432,8415,8431,8411,8449,8430,8416,8430,8415,8416,3096,0,3095,8432,8447,8446,8445,8449,8140,8415,8432,8447,8432,8446,8447,8447,8443,8430,8449,8415,8415,3096,0,0,0,0,0,
+0,0,0,0,0,3102,3045,3045,3047,3045,3045,3047,3045,3045,3047,3045,3045,3047,3045,3045,3047,3045,3045,3047,3105,0,3102,3045,3045,3045,3045,3045,3045,3045,3045,3045,3045,3045,3045,3045,3045,3045,3045,3045,3045,3105,0,3102,3046,3045,3048,3046,3045,3048,3046,3045,3048,3046,3045,3048,3046,3045,3048,3046,3045,3048,3105,0,0,0,0,0,
+0,0,0,0,0,2965,3061,3061,3063,3061,3061,3063,3061,3061,3063,3061,3061,3063,3061,3061,3063,3061,3061,3063,2969,0,2965,3061,3061,3061,3061,3061,3061,3061,3061,3061,3061,3061,3061,3061,3061,3061,3061,3061,3061,2969,0,2965,3062,3061,3064,3062,3061,3064,3062,3061,3064,3062,3061,3064,3062,3061,3064,3062,3061,3064,2969,0,0,0,0,0,
+0,0,0,0,0,2981,3077,3077,3079,3077,3077,3079,3077,3077,3079,3077,3077,3079,3077,3077,3079,3077,3077,3079,2985,0,2981,3077,3077,3077,3077,3077,3077,3077,3077,3077,3077,3077,3077,3077,3077,3077,3077,3077,3077,2985,0,2981,3078,3077,3080,3078,3077,3080,3078,3077,3080,3078,3077,3080,3078,3077,3080,3078,3077,3080,2985,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="3" name="props">
+  <properties>
+   <property name="unity:SortingOrder" type="int" value="2"/>
+  </properties>
+  <object id="29" gid="10450" x="1542.4" y="208" width="32" height="62"/>
+  <object id="31" gid="10458" x="2080" y="480" width="32" height="27"/>
+  <object id="33" gid="10434" x="1539.2" y="480" width="32" height="27"/>
+  <object id="44" gid="10450" x="870.4" y="208" width="32" height="62"/>
+  <object id="46" gid="10458" x="1408" y="480" width="32" height="27"/>
+  <object id="48" gid="10434" x="867.2" y="480" width="32" height="27"/>
+  <object id="59" gid="10450" x="198.4" y="208" width="32" height="62"/>
+ </objectgroup>
+ <objectgroup id="4" name="gates">
+  <object id="14" name="drill_gate_back" type="gate" x="2176" y="256" width="32" height="96">
+   <properties>
+    <property name="collider_kind" value="gate"/>
+    <property name="starts_closed" type="bool" value="false"/>
+    <property name="unlock_when" value="drill_gate_never"/>
+   </properties>
+  </object>
+  <object id="15" name="drill_gate_back" type="gate_visual" gid="10352" x="2175.04" y="360.96" width="96" height="128">
+   <properties>
+    <property name="anim" value="m4_op_door_v"/>
+    <property name="anim_fps" value="8"/>
+   </properties>
+  </object>
+  <object id="16" name="drill_gate_1" type="gate" x="1472" y="256" width="32" height="96">
+   <properties>
+    <property name="collider_kind" value="gate"/>
+    <property name="starts_closed" type="bool" value="true"/>
+    <property name="unlock_when" value="drill_s1"/>
+   </properties>
+  </object>
+  <object id="17" name="drill_gate_1" type="gate_visual" gid="10352" x="1471.04" y="360.96" width="96" height="128">
+   <properties>
+    <property name="anim" value="m4_op_door_v"/>
+    <property name="anim_fps" value="8"/>
+   </properties>
+  </object>
+  <object id="18" name="drill_gate_2" type="gate" x="800" y="256" width="32" height="96">
+   <properties>
+    <property name="collider_kind" value="gate"/>
+    <property name="starts_closed" type="bool" value="true"/>
+    <property name="unlock_when" value="drill_s2"/>
+   </properties>
+  </object>
+  <object id="19" name="drill_gate_2" type="gate_visual" gid="10352" x="799.04" y="360.96" width="96" height="128">
+   <properties>
+    <property name="anim" value="m4_op_door_v"/>
+    <property name="anim_fps" value="8"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="mechanics_art">
+  <object id="23" name="drill_horn_art" gid="10552" x="2046.8" y="211.2" width="28" height="44">
+   <properties>
+    <property name="art_for" value="drill_horn_1"/>
+   </properties>
+  </object>
+  <object id="24" name="drill_king_art" gid="10560" x="1781" y="211.2" width="86" height="92">
+   <properties>
+    <property name="art_for" value="drill_blades"/>
+   </properties>
+  </object>
+  <object id="38" name="drill_horn_art" gid="10552" x="1374.8" y="211.2" width="28" height="44">
+   <properties>
+    <property name="art_for" value="drill_horn_2"/>
+   </properties>
+  </object>
+  <object id="39" name="drill_king_art" gid="10560" x="1109" y="211.2" width="86" height="92">
+   <properties>
+    <property name="art_for" value="drill_lantern"/>
+   </properties>
+  </object>
+  <object id="53" name="drill_horn_art" gid="10552" x="645.2" y="211.2" width="28" height="44">
+   <properties>
+    <property name="art_for" value="drill_horn_3"/>
+   </properties>
+  </object>
+  <object id="54" name="drill_king_art" gid="10560" x="437" y="211.2" width="86" height="92">
+   <properties>
+    <property name="art_for" value="drill_exam"/>
+   </properties>
+  </object>
+  <object id="61" name="drill_rack_art" gid="10566" x="925" y="230.4" width="70" height="61">
+   <properties>
+    <property name="art_for" value="drill_lantern"/>
+   </properties>
+  </object>
+  <object id="62" name="drill_lantern_art" gid="10567" x="1405.6" y="316.8" width="24" height="55">
+   <properties>
+    <property name="art_for" value="drill_lantern"/>
+   </properties>
+  </object>
+  <object id="63" name="drill_board_art" gid="10568" x="305.8" y="243.2" width="118" height="66">
+   <properties>
+    <property name="art_for" value="drill_exam"/>
+    <property name="role" value="board"/>
+   </properties>
+  </object>
+  <object id="64" name="drill_trapdoor_art_1" gid="10569" x="630" y="382.08" width="60" height="60">
+   <properties>
+    <property name="art_for" value="drill_exam"/>
+    <property name="role" value="door"/>
+   </properties>
+  </object>
+  <object id="65" name="drill_trapdoor_art_2" gid="10569" x="510" y="382.08" width="60" height="60">
+   <properties>
+    <property name="art_for" value="drill_exam"/>
+    <property name="role" value="door"/>
+   </properties>
+  </object>
+  <object id="66" name="drill_trapdoor_art_3" gid="10569" x="390" y="382.08" width="60" height="60">
+   <properties>
+    <property name="art_for" value="drill_exam"/>
+    <property name="role" value="door"/>
+   </properties>
+  </object>
+  <object id="67" name="drill_trapdoor_art_4" gid="10569" x="270" y="382.08" width="60" height="60">
+   <properties>
+    <property name="art_for" value="drill_exam"/>
+    <property name="role" value="door"/>
+   </properties>
+  </object>
+  <object id="68" name="drill_mortar_art_1" gid="10570" x="598" y="428.8" width="52" height="63">
+   <properties>
+    <property name="art_for" value="drill_exam"/>
+    <property name="role" value="mortar"/>
+   </properties>
+  </object>
+  <object id="69" name="drill_mortar_art_2" gid="10570" x="310" y="428.8" width="52" height="63">
+   <properties>
+    <property name="art_for" value="drill_exam"/>
+    <property name="role" value="mortar"/>
+   </properties>
+  </object>
+  <object id="70" name="drill_hay_art_1" gid="10571" x="648.8" y="300.8" width="72" height="52">
+   <properties>
+    <property name="art_for" value="drill_exam"/>
+    <property name="role" value="hay"/>
+   </properties>
+  </object>
+  <object id="71" name="drill_hay_art_2" gid="10571" x="444" y="371.2" width="72" height="52">
+   <properties>
+    <property name="art_for" value="drill_exam"/>
+    <property name="role" value="hay"/>
+   </properties>
+  </object>
+  <object id="72" name="drill_hay_art_3" gid="10571" x="239.2" y="300.8" width="72" height="52">
+   <properties>
+    <property name="art_for" value="drill_exam"/>
+    <property name="role" value="hay"/>
+   </properties>
+  </object>
+  <object id="73" name="drill_ammo_art_1" gid="10572" x="717" y="472" width="38" height="36">
+   <properties>
+    <property name="art_for" value="drill_exam"/>
+    <property name="role" value="crate"/>
+   </properties>
+  </object>
+  <object id="74" name="drill_ammo_art_2" gid="10572" x="205" y="472" width="38" height="36">
+   <properties>
+    <property name="art_for" value="drill_exam"/>
+    <property name="role" value="crate"/>
+   </properties>
+  </object>
+  <object id="75" name="drill_keyped_art" gid="10554" x="711.2" y="200" width="24" height="33"/>
+ </objectgroup>
+ <objectgroup id="6" name="zones" opacity="0.35">
+  <properties>
+   <property name="unity:IsTrigger" type="bool" value="true"/>
+  </properties>
+  <object id="20" name="d1" type="zone" x="1536" y="160" width="576" height="320">
+   <properties>
+    <property name="ambient" type="float" value="0.27"/>
+    <property name="ambient_color" value="#b8b2c8"/>
+    <property name="stage" value="cells"/>
+    <property name="title" value="The Drill Yard"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="zone_id" value="d1"/>
+   </properties>
+  </object>
+  <object id="35" name="d2" type="zone" x="864" y="160" width="576" height="320">
+   <properties>
+    <property name="ambient" type="float" value="0.27"/>
+    <property name="ambient_color" value="#b8b2c8"/>
+    <property name="stage" value="cells"/>
+    <property name="title" value="The Lantern Yard"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="zone_id" value="d2"/>
+   </properties>
+  </object>
+  <object id="50" name="d3" type="zone" x="192" y="160" width="576" height="320">
+   <properties>
+    <property name="ambient" type="float" value="0.27"/>
+    <property name="ambient_color" value="#b8b2c8"/>
+    <property name="stage" value="cells"/>
+    <property name="title" value="The Examination Yard"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="zone_id" value="d3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="triggers" opacity="0.35">
+  <properties>
+   <property name="unity:IsTrigger" type="bool" value="true"/>
+  </properties>
+  <object id="77" name="drill_key" type="pickup" x="707.2" y="171.2" width="32" height="28.8">
+   <properties>
+    <property name="hint_text" value="The sergeant's key."/>
+    <property name="item" value="key"/>
+    <property name="key_desc" value="Brass, still warm from a stuffed fist. The tag reads: WARDERS' ROOM - QUESTIONS ANSWERED HERE."/>
+    <property name="key_icon" value="key_pump"/>
+    <property name="key_id" value="drill_key"/>
+    <property name="key_name" value="Sergeant Burlap's Key"/>
+    <property name="key_opens" value="The warders' room - Question Room"/>
+    <property name="locked_text" value="Sergeant Burlap looms over it. 'EARN IT, RECRUIT. Sound the horn.'"/>
+    <property name="marker" type="bool" value="true"/>
+    <property name="requires" value="drill_passed"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="zone_id" value="d3"/>
+   </properties>
+  </object>
+  <object id="78" name="player_start" type="player_start" x="2073.6" y="288" width="32" height="32">
+   <properties>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="zone_id" value="d1"/>
+   </properties>
+  </object>
+  <object id="79" name="rest_drillyard" type="checkpoint" x="2038.4" y="406.4" width="70.4" height="64">
+   <properties>
+    <property name="marker" type="bool" value="true"/>
+    <property name="stage" value="cells"/>
+    <property name="stage_name" value="The Drill Yard"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="zone_id" value="d1"/>
+   </properties>
+  </object>
+  <object id="80" name="to_store" type="exit" x="2265.6" y="256" width="38.4" height="96">
+   <properties>
+    <property name="arrive_at" value="25.7,138.6"/>
+    <property name="arrive_subtitle" value="The Catacombs of Naming"/>
+    <property name="arrive_title" value="The Quartermaster's Store"/>
+    <property name="depart_text" value="You slip back through the door. Behind you, a stuffed voice yells: 'DESERTER!'"/>
+    <property name="depart_text_when" value="Behind you, Sergeant Burlap salutes until the door swings shut."/>
+    <property name="depart_when" value="drill_passed"/>
+    <property name="quake" type="bool" value="false"/>
+    <property name="target" value="map4_catacombs"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="obstacle colliders" opacity="0.35">
+  <object id="30" name="prop collider" type="obstacle" x="1548.8" y="192" width="19.2" height="9.6">
+   <properties>
+    <property name="collider_kind" value="prop"/>
+   </properties>
+  </object>
+  <object id="32" name="prop collider" type="obstacle" x="2084.8" y="464" width="22.4" height="9.6">
+   <properties>
+    <property name="collider_kind" value="prop"/>
+   </properties>
+  </object>
+  <object id="34" name="prop collider" type="obstacle" x="1547.2" y="465.6" width="16" height="8">
+   <properties>
+    <property name="collider_kind" value="prop"/>
+   </properties>
+  </object>
+  <object id="45" name="prop collider" type="obstacle" x="876.8" y="192" width="19.2" height="9.6">
+   <properties>
+    <property name="collider_kind" value="prop"/>
+   </properties>
+  </object>
+  <object id="47" name="prop collider" type="obstacle" x="1412.8" y="464" width="22.4" height="9.6">
+   <properties>
+    <property name="collider_kind" value="prop"/>
+   </properties>
+  </object>
+  <object id="49" name="prop collider" type="obstacle" x="875.2" y="465.6" width="16" height="8">
+   <properties>
+    <property name="collider_kind" value="prop"/>
+   </properties>
+  </object>
+  <object id="60" name="prop collider" type="obstacle" x="204.8" y="192" width="19.2" height="9.6">
+   <properties>
+    <property name="collider_kind" value="prop"/>
+   </properties>
+  </object>
+  <object id="76" name="prop collider" type="obstacle" x="713.6" y="190.4" width="19.2" height="8">
+   <properties>
+    <property name="collider_kind" value="prop"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="blockers" opacity="0.35">
+  <object id="1" name="blocker" type="blocker" x="0" y="160" width="192" height="320">
+   <properties>
+    <property name="collider_kind" value="terrain"/>
+   </properties>
+  </object>
+  <object id="2" name="blocker" type="blocker" x="0" y="0" width="2304" height="160">
+   <properties>
+    <property name="collider_kind" value="terrain"/>
+   </properties>
+  </object>
+  <object id="3" name="blocker" type="blocker" x="0" y="480" width="2304" height="224">
+   <properties>
+    <property name="collider_kind" value="terrain"/>
+   </properties>
+  </object>
+  <object id="4" name="blocker" type="blocker" x="768" y="160" width="96" height="96">
+   <properties>
+    <property name="collider_kind" value="terrain"/>
+   </properties>
+  </object>
+  <object id="5" name="blocker" type="blocker" x="768" y="352" width="96" height="128">
+   <properties>
+    <property name="collider_kind" value="terrain"/>
+   </properties>
+  </object>
+  <object id="6" name="blocker" type="blocker" x="1440" y="160" width="96" height="96">
+   <properties>
+    <property name="collider_kind" value="terrain"/>
+   </properties>
+  </object>
+  <object id="7" name="blocker" type="blocker" x="1440" y="352" width="96" height="128">
+   <properties>
+    <property name="collider_kind" value="terrain"/>
+   </properties>
+  </object>
+  <object id="8" name="blocker" type="blocker" x="2112" y="160" width="192" height="96">
+   <properties>
+    <property name="collider_kind" value="terrain"/>
+   </properties>
+  </object>
+  <object id="9" name="blocker" type="blocker" x="2112" y="352" width="192" height="128">
+   <properties>
+    <property name="collider_kind" value="terrain"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="10" name="map bounds" opacity="0.35">
+  <object id="10" name="map_bound" type="bound" x="-32" y="-32" width="2368" height="32">
+   <properties>
+    <property name="collider_kind" value="bound"/>
+   </properties>
+  </object>
+  <object id="11" name="map_bound" type="bound" x="-32" y="704" width="2368" height="32">
+   <properties>
+    <property name="collider_kind" value="bound"/>
+   </properties>
+  </object>
+  <object id="12" name="map_bound" type="bound" x="2304" y="0" width="32" height="704">
+   <properties>
+    <property name="collider_kind" value="bound"/>
+   </properties>
+  </object>
+  <object id="13" name="map_bound" type="bound" x="-32" y="0" width="32" height="704">
+   <properties>
+    <property name="collider_kind" value="bound"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="11" name="mechanics" opacity="0.35">
+  <properties>
+   <property name="unity:IsTrigger" type="bool" value="true"/>
+  </properties>
+  <object id="21" name="drill_blades" type="drill_yard" x="1536" y="160" width="576" height="320">
+   <properties>
+    <property name="cam_size" type="float" value="2.0"/>
+    <property name="exit_at" value="46.5,9.5"/>
+    <property name="king_at" value="57,6.6"/>
+    <property name="mechanic" value="drill_yard"/>
+    <property name="morale" type="int" value="3"/>
+    <property name="seal_gate" value="drill_gate_back"/>
+    <property name="sets" value="drill_s1"/>
+    <property name="station" type="int" value="0"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="22" name="drill_horn_1" type="drill_horn" x="2048" y="195.2" width="25.6" height="16">
+   <properties>
+    <property name="mechanic" value="drill_horn"/>
+    <property name="range" type="float" value="0.7"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="yard" value="drill_blades"/>
+   </properties>
+  </object>
+  <object id="25" name="dy0_lamp_0" type="light" x="2000" y="169.6" width="32" height="32">
+   <properties>
+    <property name="anim" value="flicker"/>
+    <property name="anim_amount" type="float" value="0.15"/>
+    <property name="anim_speed" type="float" value="0.8"/>
+    <property name="color" value="#ffcf8a"/>
+    <property name="intensity" type="float" value="0.8"/>
+    <property name="light" value="torch"/>
+    <property name="mechanic" value="light"/>
+    <property name="radius" type="float" value="3.2"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="26" name="dy0_lamp_1" type="light" x="1584" y="169.6" width="32" height="32">
+   <properties>
+    <property name="anim" value="flicker"/>
+    <property name="anim_amount" type="float" value="0.15"/>
+    <property name="anim_speed" type="float" value="0.8"/>
+    <property name="color" value="#ffcf8a"/>
+    <property name="intensity" type="float" value="0.8"/>
+    <property name="light" value="torch"/>
+    <property name="mechanic" value="light"/>
+    <property name="radius" type="float" value="3.2"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="27" name="dy0_lamp_2" type="light" x="2057.6" y="435.2" width="32" height="32">
+   <properties>
+    <property name="anim" value="flicker"/>
+    <property name="anim_amount" type="float" value="0.15"/>
+    <property name="anim_speed" type="float" value="0.8"/>
+    <property name="color" value="#7fa8ff"/>
+    <property name="intensity" type="float" value="0.7"/>
+    <property name="light" value="torch"/>
+    <property name="mechanic" value="light"/>
+    <property name="radius" type="float" value="3.2"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="28" name="dy0_lamp_3" type="light" x="1526.4" y="435.2" width="32" height="32">
+   <properties>
+    <property name="anim" value="flicker"/>
+    <property name="anim_amount" type="float" value="0.15"/>
+    <property name="anim_speed" type="float" value="0.8"/>
+    <property name="color" value="#7fa8ff"/>
+    <property name="intensity" type="float" value="0.7"/>
+    <property name="light" value="torch"/>
+    <property name="mechanic" value="light"/>
+    <property name="radius" type="float" value="3.2"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="36" name="drill_lantern" type="drill_yard" x="864" y="160" width="576" height="320">
+   <properties>
+    <property name="cam_size" type="float" value="2.0"/>
+    <property name="exit_at" value="25.5,9.5"/>
+    <property name="king_at" value="36,6.6"/>
+    <property name="lantern_at" value="44.3,9.9"/>
+    <property name="mechanic" value="drill_yard"/>
+    <property name="morale" type="int" value="3"/>
+    <property name="rack_at" value="30,7.2"/>
+    <property name="requires" value="drill_s1"/>
+    <property name="seal_gate" value="drill_gate_1"/>
+    <property name="sets" value="drill_s2"/>
+    <property name="station" type="int" value="1"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="37" name="drill_horn_2" type="drill_horn" x="1376" y="195.2" width="25.6" height="16">
+   <properties>
+    <property name="mechanic" value="drill_horn"/>
+    <property name="range" type="float" value="0.7"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="yard" value="drill_lantern"/>
+   </properties>
+  </object>
+  <object id="40" name="dy1_lamp_0" type="light" x="1328" y="169.6" width="32" height="32">
+   <properties>
+    <property name="anim" value="flicker"/>
+    <property name="anim_amount" type="float" value="0.15"/>
+    <property name="anim_speed" type="float" value="0.8"/>
+    <property name="color" value="#ffcf8a"/>
+    <property name="intensity" type="float" value="0.8"/>
+    <property name="light" value="torch"/>
+    <property name="mechanic" value="light"/>
+    <property name="radius" type="float" value="3.2"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="41" name="dy1_lamp_1" type="light" x="912" y="169.6" width="32" height="32">
+   <properties>
+    <property name="anim" value="flicker"/>
+    <property name="anim_amount" type="float" value="0.15"/>
+    <property name="anim_speed" type="float" value="0.8"/>
+    <property name="color" value="#ffcf8a"/>
+    <property name="intensity" type="float" value="0.8"/>
+    <property name="light" value="torch"/>
+    <property name="mechanic" value="light"/>
+    <property name="radius" type="float" value="3.2"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="42" name="dy1_lamp_2" type="light" x="1385.6" y="435.2" width="32" height="32">
+   <properties>
+    <property name="anim" value="flicker"/>
+    <property name="anim_amount" type="float" value="0.15"/>
+    <property name="anim_speed" type="float" value="0.8"/>
+    <property name="color" value="#7fa8ff"/>
+    <property name="intensity" type="float" value="0.7"/>
+    <property name="light" value="torch"/>
+    <property name="mechanic" value="light"/>
+    <property name="radius" type="float" value="3.2"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="43" name="dy1_lamp_3" type="light" x="854.4" y="435.2" width="32" height="32">
+   <properties>
+    <property name="anim" value="flicker"/>
+    <property name="anim_amount" type="float" value="0.15"/>
+    <property name="anim_speed" type="float" value="0.8"/>
+    <property name="color" value="#7fa8ff"/>
+    <property name="intensity" type="float" value="0.7"/>
+    <property name="light" value="torch"/>
+    <property name="mechanic" value="light"/>
+    <property name="radius" type="float" value="3.2"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="51" name="drill_exam" type="drill_yard" x="192" y="160" width="576" height="320">
+   <properties>
+    <property name="cam_size" type="float" value="2.0"/>
+    <property name="key_at" value="22.6,6.25"/>
+    <property name="key_id" value="drill_key"/>
+    <property name="king_at" value="15,6.6"/>
+    <property name="mechanic" value="drill_yard"/>
+    <property name="morale" type="int" value="3"/>
+    <property name="requires" value="drill_s2"/>
+    <property name="seal_gate" value="drill_gate_2"/>
+    <property name="sets" value="drill_passed"/>
+    <property name="station" type="int" value="2"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="52" name="drill_horn_3" type="drill_horn" x="646.4" y="195.2" width="25.6" height="16">
+   <properties>
+    <property name="mechanic" value="drill_horn"/>
+    <property name="range" type="float" value="0.7"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="yard" value="drill_exam"/>
+   </properties>
+  </object>
+  <object id="55" name="dy2_lamp_0" type="light" x="656" y="169.6" width="32" height="32">
+   <properties>
+    <property name="anim" value="flicker"/>
+    <property name="anim_amount" type="float" value="0.15"/>
+    <property name="anim_speed" type="float" value="0.8"/>
+    <property name="color" value="#ffcf8a"/>
+    <property name="intensity" type="float" value="0.8"/>
+    <property name="light" value="torch"/>
+    <property name="mechanic" value="light"/>
+    <property name="radius" type="float" value="3.2"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="56" name="dy2_lamp_1" type="light" x="240" y="169.6" width="32" height="32">
+   <properties>
+    <property name="anim" value="flicker"/>
+    <property name="anim_amount" type="float" value="0.15"/>
+    <property name="anim_speed" type="float" value="0.8"/>
+    <property name="color" value="#ffcf8a"/>
+    <property name="intensity" type="float" value="0.8"/>
+    <property name="light" value="torch"/>
+    <property name="mechanic" value="light"/>
+    <property name="radius" type="float" value="3.2"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="57" name="dy2_lamp_2" type="light" x="713.6" y="435.2" width="32" height="32">
+   <properties>
+    <property name="anim" value="flicker"/>
+    <property name="anim_amount" type="float" value="0.15"/>
+    <property name="anim_speed" type="float" value="0.8"/>
+    <property name="color" value="#7fa8ff"/>
+    <property name="intensity" type="float" value="0.7"/>
+    <property name="light" value="torch"/>
+    <property name="mechanic" value="light"/>
+    <property name="radius" type="float" value="3.2"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="58" name="dy2_lamp_3" type="light" x="182.4" y="435.2" width="32" height="32">
+   <properties>
+    <property name="anim" value="flicker"/>
+    <property name="anim_amount" type="float" value="0.15"/>
+    <property name="anim_speed" type="float" value="0.8"/>
+    <property name="color" value="#7fa8ff"/>
+    <property name="intensity" type="float" value="0.7"/>
+    <property name="light" value="torch"/>
+    <property name="mechanic" value="light"/>
+    <property name="radius" type="float" value="3.2"/>
+    <property name="unity:IsTrigger" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

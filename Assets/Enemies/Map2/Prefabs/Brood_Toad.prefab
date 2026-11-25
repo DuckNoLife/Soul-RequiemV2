@@ -1,0 +1,321 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4135917237528171162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4971686966502059779}
+  - component: {fileID: 6948183895602100773}
+  - component: {fileID: 1218678782118157196}
+  - component: {fileID: 4061432649837931654}
+  - component: {fileID: 6384379476324992746}
+  - component: {fileID: 2158089464185612939}
+  - component: {fileID: 1494674060042022984}
+  - component: {fileID: 1572412930605726137}
+  m_Layer: 0
+  m_Name: Brood_Toad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4971686966502059779
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4135917237528171162}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.1, y: 2.1, z: 2.1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &6948183895602100773
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4135917237528171162}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 8787973877703225048, guid: 42e71c234b1799f4e9066406b2170e24, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.16, y: 0.97}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 1
+--- !u!95 &1218678782118157196
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4135917237528171162}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 983aca0e46686664baed1cc021f68cd5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!50 &4061432649837931654
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4135917237528171162}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 40
+  m_LinearDamping: 5
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 1
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
+--- !u!70 &6384379476324992746
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4135917237528171162}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.07}
+  m_Size: {x: 0.62, y: 0.2}
+  m_Direction: 1
+--- !u!114 &2158089464185612939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4135917237528171162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5671e6f005b2249983ad56d97a0765, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SoulRequiem.Gameplay::SoulRequiem.Gameplay.Health
+  maxHp: 700
+  isPlayer: 0
+  immuneToCrowdControl: 1
+  knockbackDecay: 20
+  hitIFrames: 0.25
+--- !u!114 &1494674060042022984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4135917237528171162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fb98898d2747a74f8f19a0ce1f19e32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SoulRequiem.Gameplay::SoulRequiem.Gameplay.EnemyAI
+  definition: {fileID: 11400000, guid: e7ac2e8694b97a14295f30424a729fe9, type: 2}
+  displayName: Gorgemaw, the Brood Toad
+  kind: 6
+  moveSpeed: 1.2
+  aggroRange: 5
+  attackRange: 0.15
+  damage: 14
+  windup: 0.35
+  attackTime: 0.6
+  attack2Time: 0.6
+  cooldown: 1
+  leashRange: 0
+  poisonPercent: 0
+  poisonDuration: 5
+  stunSeconds: 0
+  knockback: 2
+  projectilePrefab: {fileID: 0}
+  projectileSpeed: 2.5
+  projectileLifetime: 2
+  keepDistance: 1.8
+  spikeCount: 10
+  spikeTriggerRange: 0.9
+  closeRange: 0
+  strikeFrames: []
+  strikeImpactFrame: 0
+  strikeWarn: 0.6
+  strikeRadius: 0.3
+  strikeFps: 14
+  strikeColor: {r: 0.45, g: 1, b: 0.4, a: 1}
+  shellSprite: {fileID: 0}
+  special: 0
+  specialEvery: 0
+  specialWindup: 0.8
+  spinTime: 1.2
+  spinEndTime: 0.4
+  spinRadius: 0.55
+  spinTick: 0.35
+  spinMoveFactor: 0.55
+  specialFrames: []
+  specialImpactFrame: 1
+  specialRadius: 0.38
+  comboHits: 1
+  comboGap: 0.2
+  enrageAt: 0
+  dashSpeed: 4
+  dashTime: 0.35
+  dashCooldown: 3.5
+  aimSprites: []
+  chargeSpeed: 5
+  chargeTime: 0.45
+  pillarStun: 3
+  recoveryTime: 1.6
+  slamRadius: 0.35
+  phase2At: 0.5
+  treatAsBoss: 1
+  floating: 0
+  bounds:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  shellTime: 2
+  shellCooldown: 3.5
+  Airborne: 0
+--- !u!114 &1572412930605726137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4135917237528171162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58ab45e33bec0344db87e3043cadb9fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SoulRequiem.Gameplay::SoulRequiem.Gameplay.ToadSkills
+  globPrefab: {fileID: 7799922301307522436, guid: f1aeefb6fc4824a4fa1ecfa6e4cf3541, type: 3}
+  globShell: {fileID: 2236752355965635532, guid: 55f0e89890b289747b15e929a1c7354b, type: 3}
+  splashFrames:
+  - {fileID: 6102006491163204962, guid: 494bcc5455beb33489c4dad3d262f2c1, type: 3}
+  - {fileID: 4435028795908635524, guid: 494bcc5455beb33489c4dad3d262f2c1, type: 3}
+  - {fileID: 902745826181570694, guid: 494bcc5455beb33489c4dad3d262f2c1, type: 3}
+  - {fileID: -3944962050074106660, guid: 494bcc5455beb33489c4dad3d262f2c1, type: 3}
+  - {fileID: -4649919373148449114, guid: 494bcc5455beb33489c4dad3d262f2c1, type: 3}
+  - {fileID: -5412705956409761428, guid: 494bcc5455beb33489c4dad3d262f2c1, type: 3}
+  - {fileID: -585162238526287853, guid: 494bcc5455beb33489c4dad3d262f2c1, type: 3}
+  - {fileID: 5388206523162736810, guid: 494bcc5455beb33489c4dad3d262f2c1, type: 3}
+  broodEnemy: Skinned_Hopper
+  broodCap: 4
+  slamEvery: 7
+  tongueEvery: 3.2
+  broodEvery: 12
+  hopSpeed: 1.6
+  hopTime: 0.8
+  leapHeight: 2.4
+  trackTime: 1.2
+  lockTime: 0.5
+  slamRadius: 0.9
+  shatterRadius: 1
+  stunTime: 3
+  sinkTime: 1.8
+  sinkRadius: 1.1
+  tongueRange: 2.6
+  tongueWidth: 0.16
+  mouthOffset: {x: 0, y: 0.5}
+  tongueColor: {r: 0.86, g: 0.42, b: 0.5, a: 1}

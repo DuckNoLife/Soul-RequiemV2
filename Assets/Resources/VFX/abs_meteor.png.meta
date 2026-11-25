@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: bf9ab22a61714f78996a55964bdfbd4b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4168079312405545609
+    second: abs_meteor_0
+  - first:
+      213: -503719259111698365
+    second: abs_meteor_1
+  - first:
+      213: -1550498818577373587
+    second: abs_meteor_2
+  - first:
+      213: 2411893825453064228
+    second: abs_meteor_3
+  - first:
+      213: 360107408362563312
+    second: abs_meteor_4
+  - first:
+      213: 787102707036150694
+    second: abs_meteor_5
+  - first:
+      213: 1753505744694593098
+    second: abs_meteor_6
+  - first:
+      213: 4533388376274946523
+    second: abs_meteor_7
+  - first:
+      213: 2107630312672226770
+    second: abs_meteor_8
+  - first:
+      213: 1579567219414554960
+    second: abs_meteor_9
+  - first:
+      213: 2572355657705572597
+    second: abs_meteor_10
+  - first:
+      213: 4435604827818903674
+    second: abs_meteor_11
+  - first:
+      213: 1587200331820511606
+    second: abs_meteor_12
+  - first:
+      213: 4262774269074109379
+    second: abs_meteor_13
+  - first:
+      213: 2798794394438249888
+    second: abs_meteor_14
+  - first:
+      213: 4052198370655534908
+    second: abs_meteor_15
+  - first:
+      213: -4713547955208784
+    second: abs_meteor_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: abs_meteor_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 170
+        height: 194
+      alignment: 9
+      pivot: {x: 0.417647, y: 0.149485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6352912dfaed43039955fd6af9e2fd9a
+      internalID: 4168079312405545609
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_meteor_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170
+        height: 194
+      alignment: 9
+      pivot: {x: 0.417647, y: 0.149485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115b4e13231e44f190870f615cd04da5
+      internalID: -503719259111698365
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_meteor_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 170
+        height: 194
+      alignment: 9
+      pivot: {x: 0.417647, y: 0.149485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff1870ac0ef244f1aaa1a818c76ce2e4
+      internalID: -1550498818577373587
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_meteor_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 170
+        height: 194
+      alignment: 9
+      pivot: {x: 0.417647, y: 0.149485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2abe2094ff5c4984b34d880e75d6d7e2
+      internalID: 2411893825453064228
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_meteor_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 170
+        height: 194
+      alignment: 9
+      pivot: {x: 0.417647, y: 0.149485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9d7e432cac4816a2cb5c200ce7da4f
+      internalID: 360107408362563312
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_meteor_5
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 0
+        width: 170
+        height: 194
+      alignment: 9
+      pivot: {x: 0.417647, y: 0.149485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64967f62e66b46028a0ff5d9271de962
+      internalID: 787102707036150694
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_meteor_6
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 0
+        width: 170
+        height: 194
+      alignment: 9
+      pivot: {x: 0.417647, y: 0.149485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1dcd84510044c068bb79484e1227fad
+      internalID: 1753505744694593098
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_meteor_7
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 0
+        width: 170
+        height: 194
+      alignment: 9
+      pivot: {x: 0.417647, y: 0.149485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb74562731747bf924797e99cd42094
+      internalID: 4533388376274946523
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_meteor_8
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 0
+        width: 170
+        height: 194
+      alignment: 9
+      pivot: {x: 0.417647, y: 0.149485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2868c1fb6674611ba80c030383e1233
+      internalID: 2107630312672226770
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_meteor_9
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 0
+        width: 170
+        height: 194
+      alignment: 9
+      pivot: {x: 0.417647, y: 0.149485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3240ce12da4d4abfdeefe8e2540845
+      internalID: 1579567219414554960
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_meteor_10
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 0
+        width: 170
+        height: 194
+      alignment: 9
+      pivot: {x: 0.417647, y: 0.149485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b002ee3b448e4db98cd0cf8f808a3ad0
+      internalID: 2572355657705572597
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_meteor_11
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 0
+        width: 170
+        height: 194
+      alignment: 9
+      pivot: {x: 0.417647, y: 0.149485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8598c859732d4dc6a64aa23bc4e7b698
+      internalID: 4435604827818903674
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_meteor_12
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 0
+        width: 170
+        height: 194
+      alignment: 9
+      pivot: {x: 0.417647, y: 0.149485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8db998929aa4d86aad32cb6f2ad7596
+      internalID: 1587200331820511606
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_meteor_13
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 0
+        width: 170
+        height: 194
+      alignment: 9
+      pivot: {x: 0.417647, y: 0.149485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3efba2eb3b8422aa47d94d6f25165fd
+      internalID: 4262774269074109379
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_meteor_14
+      rect:
+        serializedVersion: 2
+        x: 2380
+        y: 0
+        width: 170
+        height: 194
+      alignment: 9
+      pivot: {x: 0.417647, y: 0.149485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54342491393428082daae19c7604224
+      internalID: 2798794394438249888
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_meteor_15
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 0
+        width: 170
+        height: 194
+      alignment: 9
+      pivot: {x: 0.417647, y: 0.149485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 340f6a1e53e6428d90dc943b80db0b51
+      internalID: 4052198370655534908
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_meteor_16
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 0
+        width: 170
+        height: 194
+      alignment: 9
+      pivot: {x: 0.417647, y: 0.149485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724309fdef26451591751ba06b56753a
+      internalID: -4713547955208784
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      abs_meteor_0: 4168079312405545609
+      abs_meteor_1: -503719259111698365
+      abs_meteor_2: -1550498818577373587
+      abs_meteor_3: 2411893825453064228
+      abs_meteor_4: 360107408362563312
+      abs_meteor_5: 787102707036150694
+      abs_meteor_6: 1753505744694593098
+      abs_meteor_7: 4533388376274946523
+      abs_meteor_8: 2107630312672226770
+      abs_meteor_9: 1579567219414554960
+      abs_meteor_10: 2572355657705572597
+      abs_meteor_11: 4435604827818903674
+      abs_meteor_12: 1587200331820511606
+      abs_meteor_13: 4262774269074109379
+      abs_meteor_14: 2798794394438249888
+      abs_meteor_15: 4052198370655534908
+      abs_meteor_16: -4713547955208784
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

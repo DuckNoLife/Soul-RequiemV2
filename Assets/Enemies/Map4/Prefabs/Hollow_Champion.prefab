@@ -1,0 +1,352 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &602495437886778831
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5676444095141491853}
+  - component: {fileID: 4431875270722116601}
+  - component: {fileID: 1781833694124733963}
+  - component: {fileID: 6335760708856105180}
+  - component: {fileID: 3102026343957411778}
+  - component: {fileID: 8433422525788505935}
+  - component: {fileID: 3261062605903069028}
+  - component: {fileID: 4526530779523159016}
+  - component: {fileID: 3938040252968727869}
+  - component: {fileID: 5458610538053268766}
+  m_Layer: 0
+  m_Name: Hollow_Champion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5676444095141491853
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602495437886778831}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.35, y: 1.35, z: 1.35}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &4431875270722116601
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602495437886778831}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 8787973877703225048, guid: cb55258f850f9604aa254c78646dea50, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.96, y: 1.12}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 1
+--- !u!95 &1781833694124733963
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602495437886778831}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cf05e32d227bdad4995120dc253eea64, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!50 &6335760708856105180
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602495437886778831}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 60
+  m_LinearDamping: 5
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 1
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
+--- !u!70 &3102026343957411778
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602495437886778831}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.04148148}
+  m_Size: {x: 0.3111111, y: 0.11851852}
+  m_Direction: 1
+--- !u!114 &8433422525788505935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602495437886778831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5671e6f005b2249983ad56d97a0765, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SoulRequiem.Gameplay::SoulRequiem.Gameplay.Health
+  maxHp: 850
+  isPlayer: 0
+  immuneToCrowdControl: 1
+  knockbackDecay: 20
+  hitIFrames: 0.25
+--- !u!114 &3261062605903069028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602495437886778831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fb98898d2747a74f8f19a0ce1f19e32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SoulRequiem.Gameplay::SoulRequiem.Gameplay.EnemyAI
+  Airborne: 0
+  definition: {fileID: 11400000, guid: ae15d6a8bcf007d4abf9e87ba00b6d03, type: 2}
+  displayName: The Hollow Champion
+  kind: 6
+  moveSpeed: 1.25
+  aggroRange: 6
+  attackRange: 0.25
+  damage: 16
+  windup: 0.35
+  attackTime: 0.6
+  attack2Time: 0.6
+  cooldown: 0.5
+  leashRange: 0
+  poisonPercent: 0
+  poisonDuration: 5
+  stunSeconds: 0
+  knockback: 2.5
+  projectilePrefab: {fileID: 0}
+  projectileSpeed: 2.5
+  projectileLifetime: 2
+  keepDistance: 1.8
+  spikeCount: 10
+  spikeTriggerRange: 0.9
+  closeRange: 0
+  strikeFrames: []
+  strikeImpactFrame: 0
+  strikeWarn: 0.6
+  strikeRadius: 0.3
+  strikeFps: 14
+  strikeColor: {r: 0.45, g: 1, b: 0.4, a: 1}
+  shellSprite: {fileID: 0}
+  special: 0
+  specialEvery: 0
+  specialWindup: 0.8
+  spinTime: 1.2
+  spinEndTime: 0.4
+  spinRadius: 0.55
+  spinTick: 0.35
+  spinMoveFactor: 0.55
+  specialFrames: []
+  specialImpactFrame: 1
+  specialRadius: 0.38
+  comboHits: 1
+  comboGap: 0.2
+  enrageAt: 0
+  dashSpeed: 4
+  dashTime: 0.35
+  dashCooldown: 3.5
+  aimSprites: []
+  chargeSpeed: 5
+  chargeTime: 0.45
+  pillarStun: 3
+  recoveryTime: 1.6
+  slamRadius: 0.35
+  phase2At: 0.5
+  treatAsBoss: 1
+  floating: 0
+  bounds:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  shellTime: 2
+  shellCooldown: 3.5
+--- !u!114 &4526530779523159016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602495437886778831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 944a4584066df634a9b51bf3a9c07a74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SoulRequiem.Gameplay::SoulRequiem.Gameplay.HollowChampionSkills
+  arenaRadii: {x: 2.1, y: 1}
+  arenaOffset: {x: 0, y: 0}
+  meleeRange: 0.4
+  preferredRange: 1.7
+  edgeLimit: 0.86
+  edgeTimeMax: 1.2
+  pinnedTimeMax: 2.2
+  stuckTimeMax: 0.7
+  repositionCooldown: 3
+  rushSpeed: 4
+  rushDamage: 18
+  slamDamage: 20
+  slamRadius: 1.7
+  armorMax: 200
+--- !u!114 &3938040252968727869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602495437886778831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7aee826cda068049a188dfe254be9e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SoulRequiem.Gameplay::SoulRequiem.Gameplay.ChampionPalette
+  baseController: {fileID: 9100000, guid: cf05e32d227bdad4995120dc253eea64, type: 2}
+  variants:
+  - name: crimson
+    controller: {fileID: 22100000, guid: 88a94ea7d19df504db2a5f969ba4d2bb, type: 2}
+  - name: azure
+    controller: {fileID: 22100000, guid: badff6b65f9f1094f814a277c3300dcc, type: 2}
+  - name: verdant
+    controller: {fileID: 22100000, guid: de855b569d603674395f7918f50133c9, type: 2}
+  - name: gilded
+    controller: {fileID: 22100000, guid: c9d1650a604b585499dba2e4a5ccb47b, type: 2}
+--- !u!114 &5458610538053268766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602495437886778831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c405a44683b5d1544b78eed86225c5f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SoulRequiem.Gameplay::SoulRequiem.Gameplay.EnemyVfx
+  swing: 
+  windup: m3_windup
+  windupAtFeet: 0
+  hurt: m3_hurt
+  dash: m3_dash_dust
+  cast: 
+  heal: 
+  death: m3_death_soul
+  spawn: 
+  scale: 0.7
+  chestY: 0.45

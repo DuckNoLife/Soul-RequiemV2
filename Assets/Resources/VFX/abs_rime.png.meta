@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 93a6435834424652a9579eadc53dd021
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1909678272061455623
+    second: abs_rime_0
+  - first:
+      213: -3360576252723412808
+    second: abs_rime_1
+  - first:
+      213: -3801965697615258869
+    second: abs_rime_2
+  - first:
+      213: 3836521603254929450
+    second: abs_rime_3
+  - first:
+      213: -793570796496756343
+    second: abs_rime_4
+  - first:
+      213: 514595600260335416
+    second: abs_rime_5
+  - first:
+      213: -1553623391125653166
+    second: abs_rime_6
+  - first:
+      213: -1949729685420058521
+    second: abs_rime_7
+  - first:
+      213: 4272700338904901786
+    second: abs_rime_8
+  - first:
+      213: 2469592677564987592
+    second: abs_rime_9
+  - first:
+      213: 173086534796831308
+    second: abs_rime_10
+  - first:
+      213: -3543752287493642958
+    second: abs_rime_11
+  - first:
+      213: 3320689364062505898
+    second: abs_rime_12
+  - first:
+      213: 2664254634273612917
+    second: abs_rime_13
+  - first:
+      213: 470948284120082999
+    second: abs_rime_14
+  - first:
+      213: -2757085672107545820
+    second: abs_rime_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: abs_rime_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 95
+        height: 85
+      alignment: 9
+      pivot: {x: 0.484211, y: 0.223529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d404730e3d5b43d9afbbdcc3d051b58e
+      internalID: -1909678272061455623
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rime_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 0
+        width: 95
+        height: 85
+      alignment: 9
+      pivot: {x: 0.484211, y: 0.223529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d4dc955d2d406fa984281a4a6e3140
+      internalID: -3360576252723412808
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rime_2
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 95
+        height: 85
+      alignment: 9
+      pivot: {x: 0.484211, y: 0.223529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257c8943234c425abd5b1c11ba84d9ca
+      internalID: -3801965697615258869
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rime_3
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 0
+        width: 95
+        height: 85
+      alignment: 9
+      pivot: {x: 0.484211, y: 0.223529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27632893106e44f6939a232763da5cbb
+      internalID: 3836521603254929450
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rime_4
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 0
+        width: 95
+        height: 85
+      alignment: 9
+      pivot: {x: 0.484211, y: 0.223529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 781ae1fb1c734883bb47c08a2d7b5786
+      internalID: -793570796496756343
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rime_5
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 0
+        width: 95
+        height: 85
+      alignment: 9
+      pivot: {x: 0.484211, y: 0.223529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d4111437d94c0fa3f68a07559b6308
+      internalID: 514595600260335416
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rime_6
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 0
+        width: 95
+        height: 85
+      alignment: 9
+      pivot: {x: 0.484211, y: 0.223529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5d8881de224783adcb127d1cba79c2
+      internalID: -1553623391125653166
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rime_7
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 0
+        width: 95
+        height: 85
+      alignment: 9
+      pivot: {x: 0.484211, y: 0.223529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b1215136cc4873a7c17be69715395b
+      internalID: -1949729685420058521
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rime_8
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 0
+        width: 95
+        height: 85
+      alignment: 9
+      pivot: {x: 0.484211, y: 0.223529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0440e744c5aa4ea1a7c5b68074808575
+      internalID: 4272700338904901786
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rime_9
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 0
+        width: 95
+        height: 85
+      alignment: 9
+      pivot: {x: 0.484211, y: 0.223529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c2284437944d0ba1ceccf38b8fcb57
+      internalID: 2469592677564987592
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rime_10
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 0
+        width: 95
+        height: 85
+      alignment: 9
+      pivot: {x: 0.484211, y: 0.223529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3609ff153cfe4adc9829430e6b522406
+      internalID: 173086534796831308
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rime_11
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 0
+        width: 95
+        height: 85
+      alignment: 9
+      pivot: {x: 0.484211, y: 0.223529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c2aac9215148b9bb6f6a020c6bb85a
+      internalID: -3543752287493642958
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rime_12
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 0
+        width: 95
+        height: 85
+      alignment: 9
+      pivot: {x: 0.484211, y: 0.223529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356065c58da34477bf424367f8cfcbf0
+      internalID: 3320689364062505898
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rime_13
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 0
+        width: 95
+        height: 85
+      alignment: 9
+      pivot: {x: 0.484211, y: 0.223529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7dbbab08c3545b8b808afce3b54525a
+      internalID: 2664254634273612917
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rime_14
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 0
+        width: 95
+        height: 85
+      alignment: 9
+      pivot: {x: 0.484211, y: 0.223529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e3c6ac19ca482da04077b2146c4ace
+      internalID: 470948284120082999
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_rime_15
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 0
+        width: 95
+        height: 85
+      alignment: 9
+      pivot: {x: 0.484211, y: 0.223529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a5d632590544fa93864a63dc39009c
+      internalID: -2757085672107545820
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      abs_rime_0: -1909678272061455623
+      abs_rime_1: -3360576252723412808
+      abs_rime_2: -3801965697615258869
+      abs_rime_3: 3836521603254929450
+      abs_rime_4: -793570796496756343
+      abs_rime_5: 514595600260335416
+      abs_rime_6: -1553623391125653166
+      abs_rime_7: -1949729685420058521
+      abs_rime_8: 4272700338904901786
+      abs_rime_9: 2469592677564987592
+      abs_rime_10: 173086534796831308
+      abs_rime_11: -3543752287493642958
+      abs_rime_12: 3320689364062505898
+      abs_rime_13: 2664254634273612917
+      abs_rime_14: 470948284120082999
+      abs_rime_15: -2757085672107545820
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

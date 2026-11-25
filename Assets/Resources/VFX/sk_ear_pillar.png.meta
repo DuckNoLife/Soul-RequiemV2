@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: 2c295645104145f798714a04ca589e45
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3827483718461108036
+    second: sk_ear_pillar_0
+  - first:
+      213: 2794669465601350949
+    second: sk_ear_pillar_1
+  - first:
+      213: -3340255596672153267
+    second: sk_ear_pillar_2
+  - first:
+      213: -3826920594010053108
+    second: sk_ear_pillar_3
+  - first:
+      213: -2793821613997090048
+    second: sk_ear_pillar_4
+  - first:
+      213: 4488758692933011976
+    second: sk_ear_pillar_5
+  - first:
+      213: 3639668208724395883
+    second: sk_ear_pillar_6
+  - first:
+      213: 4066976366463065994
+    second: sk_ear_pillar_7
+  - first:
+      213: -3317898857536675502
+    second: sk_ear_pillar_8
+  - first:
+      213: 1058299222781618268
+    second: sk_ear_pillar_9
+  - first:
+      213: -912217045027971775
+    second: sk_ear_pillar_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 8192
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sk_ear_pillar_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 72
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5, y: 0.147059}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d0fed2823c4095b76db5bd88f6ab19
+      internalID: 3827483718461108036
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_pillar_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 72
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5, y: 0.147059}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9311305d0206497aa18d487f8a55e243
+      internalID: 2794669465601350949
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_pillar_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 72
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5, y: 0.147059}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4367615299ff4a5a8e56795b50f60df7
+      internalID: -3340255596672153267
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_pillar_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 72
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5, y: 0.147059}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af09c91672243818488dbf65ee77dea
+      internalID: -3826920594010053108
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_pillar_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 72
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5, y: 0.147059}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4560818634bc4378add2ac3e83bd6e52
+      internalID: -2793821613997090048
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_pillar_5
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 72
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5, y: 0.147059}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844201cb6a9d4dac8d8bc46101858c92
+      internalID: 4488758692933011976
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_pillar_6
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 72
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5, y: 0.147059}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a6db0ef22f4dedbf25ea52ef6d2182
+      internalID: 3639668208724395883
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_pillar_7
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 0
+        width: 72
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5, y: 0.147059}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba4dac452b24b87813b4a6f6aa87d43
+      internalID: 4066976366463065994
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_pillar_8
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 72
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5, y: 0.147059}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 930c587a34ac4137947103f2b383c63a
+      internalID: -3317898857536675502
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_pillar_9
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 0
+        width: 72
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5, y: 0.147059}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a47faaa32c4d87a387c94cc6966b53
+      internalID: 1058299222781618268
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_pillar_10
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 72
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5, y: 0.147059}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d342d6094e344576b8047e06c1264431
+      internalID: -912217045027971775
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sk_ear_pillar_0: 3827483718461108036
+      sk_ear_pillar_1: 2794669465601350949
+      sk_ear_pillar_2: -3340255596672153267
+      sk_ear_pillar_3: -3826920594010053108
+      sk_ear_pillar_4: -2793821613997090048
+      sk_ear_pillar_5: 4488758692933011976
+      sk_ear_pillar_6: 3639668208724395883
+      sk_ear_pillar_7: 4066976366463065994
+      sk_ear_pillar_8: -3317898857536675502
+      sk_ear_pillar_9: 1058299222781618268
+      sk_ear_pillar_10: -912217045027971775
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

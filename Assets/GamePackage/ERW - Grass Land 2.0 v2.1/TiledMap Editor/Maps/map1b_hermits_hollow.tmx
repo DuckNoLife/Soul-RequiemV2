@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="34" height="26" tilewidth="32" tileheight="32" infinite="0" nextlayerid="21" nextobjectid="134">
+ <properties>
+  <property name="flag_group" value="Map1_GreystonePlains"/>
+ </properties>
+ <tileset firstgid="1" source="../Tilesets/Tileset-Terrain-new grass.tsx"/>
+ <tileset firstgid="3961" source="../Tilesets/Tileset-Terrain-new grass - transparency.tsx"/>
+ <tileset firstgid="7921" source="../Tilesets/platform - water to grass(transparency) - river orientation.tsx"/>
+ <tileset firstgid="8791" source="../Tilesets/hole3.tsx"/>
+ <tileset firstgid="9031" source="../Tilesets/gl2-Tileset - wall 1-3tiles-transp.tsx"/>
+ <tileset firstgid="9287" source="../Tilesets/Atlas-Props-sheet1-sprites.tsx"/>
+ <tileset firstgid="9926" source="../Tilesets/Atlas-Props-sheet2-sprites.tsx"/>
+ <tileset firstgid="10223" source="../Tilesets/Atlas-props-sheet3-sprites.tsx"/>
+ <tileset firstgid="10417" source="../Tilesets/SR-orc-huts.tsx"/>
+ <tileset firstgid="10420" source="../Tilesets/SR-flowers-mushrooms.tsx"/>
+ <tileset firstgid="10532" source="../Tilesets/SR-pines.tsx"/>
+ <tileset firstgid="10539" source="../Tilesets/SR-farm.tsx"/>
+ <tileset firstgid="10867" source="../Tilesets/SR-waterfall.tsx"/>
+ <tileset firstgid="10987" source="../Tilesets/SR-anim-animated-props-wind-cartoonish-fx-288x64-48frames.tsx"/>
+ <tileset firstgid="11039" source="../Tilesets/SR-anim-animated-props-chimney-smoke-chiminey-1-white-smoke.tsx"/>
+ <tileset firstgid="11063" source="../Tilesets/SR-anim-animated-props-animated-lamp-posts-1.tsx"/>
+ <tileset firstgid="11082" source="../Tilesets/fertilized soil.tsx"/>
+ <tileset firstgid="11222" source="../Tilesets/SR-anim-animated-props-campfire1-fire.tsx"/>
+ <tileset firstgid="11230" source="../Tilesets/SR-anim-animated-props-campfire-smoke.tsx"/>
+ <tileset firstgid="11246" source="../Tilesets/SR-anim-animated-props-animated-lamp-posts-2.tsx"/>
+ <tileset firstgid="11262" source="../Tilesets/SR-anim-animated-props-shrine2-1available-blood.tsx"/>
+ <tileset firstgid="11268" source="../Tilesets/SR-anim-animated-props-enemy-flag1animation.tsx"/>
+ <tileset firstgid="11283" source="../Tilesets/SR-anim-animated-props-insects-butterfly1-flying-around-24-frames-150x106.tsx"/>
+ <tileset firstgid="11307" source="../Tilesets/SR-anim-animated-props-insects-butterfly2-flying-around-24-frames-150x106.tsx"/>
+ <tileset firstgid="11331" source="../Tilesets/SR-anim-animated-props-insects-butterfly3-flying-around-24-frames-150x106.tsx"/>
+ <tileset firstgid="11355" source="../Tilesets/SR-anim-animated-props-insects-mosquito-flying-around-14-frames-150x106.tsx"/>
+ <tileset firstgid="11369" source="../Tilesets/SR-anim-animated-props-insects-mosquito-flying-around2-14-frames-150x106.tsx"/>
+ <tileset firstgid="11383" source="../Tilesets/SR-anim-animated-props-insects-mosquito-flying-around3-14-frames-150x106.tsx"/>
+ <tileset firstgid="11397" source="../Tilesets/SR-anim-animated-props-flies96x96-16-frames.tsx"/>
+ <tileset firstgid="11413" source="../Tilesets/SR-anim-animated-props-generic-nature-particles96x96.tsx"/>
+ <tileset firstgid="11429" source="../Tilesets/SR-anim-bird1-small-animals-bird-idle-sideview.tsx"/>
+ <tileset firstgid="11444" source="../Tilesets/SR-anim-bird2-small-animals-bird-idle-sideview.tsx"/>
+ <tileset firstgid="11459" source="../Tilesets/SR-anim-bird3-small-animals-bird-idle-sideview.tsx"/>
+ <tileset firstgid="11474" source="../Tilesets/SR-anim-bird4-small-animals-bird-idle-sideview.tsx"/>
+ <tileset firstgid="11489" source="../Tilesets/SR-anim-duck1-small-animals-duck-water-ripples.tsx"/>
+ <tileset firstgid="11495" source="../Tilesets/SR-anim-duck1-small-animals-duck-duck-idle-sideview.tsx"/>
+ <tileset firstgid="11513" source="../Tilesets/SR-anim-duck2-small-animals-duck-water-ripples.tsx"/>
+ <tileset firstgid="11519" source="../Tilesets/SR-anim-duck2-small-animals-duck-duck-idle-sideview.tsx"/>
+ <tileset firstgid="11537" source="../Tilesets/SR-anim-frog1-small-animals-frog-frog-idle-sideview.tsx"/>
+ <tileset firstgid="11554" source="../Tilesets/SR-anim-frog2-small-animals-frog-frog-idle-sideview.tsx"/>
+ <tileset firstgid="11571" source="../Tilesets/SR-anim-frog3-small-animals-frog-frog-idle-sideview.tsx"/>
+ <tileset firstgid="11588" source="../Tilesets/SR-anim-frog4-small-animals-frog-frog-idle-sideview.tsx"/>
+ <tileset firstgid="11605" source="../Tilesets/SR-props-trimmed.tsx"/>
+ <tileset firstgid="11749" source="../Tilesets/SR-village-buildings.tsx"/>
+ <tileset firstgid="11762" source="../../../Epic RPG World - The Village V2.2/TiledMap Editor/tilesets/props(as sprites).tsx"/>
+ <tileset firstgid="12034" source="../Tilesets/SR-anim-village-watermill.tsx"/>
+ <tileset firstgid="12043" source="../Tilesets/SR-anim-village-chimney-dark-smoke.tsx"/>
+ <tileset firstgid="12067" source="../Tilesets/SR-cave.tsx"/>
+ <tileset firstgid="12072" source="../Tilesets/SR-props-trim.tsx"/>
+ <tileset firstgid="12084" source="../Tilesets/SR-mine.tsx"/>
+ <layer id="1" name="ground" width="34" height="26">
+  <properties>
+   <property name="unity:SortingOrder" type="int" value="-20"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,255,143,201,201,255,201,146,0,0,0,0,0,
+0,0,254,197,146,142,254,201,146,197,253,201,146,198,198,144,199,198,199,201,199,255,145,145,255,143,254,145,197,144,144,0,0,0,
+0,0,201,200,253,201,197,146,256,198,143,146,144,144,255,145,253,198,252,253,254,201,252,253,198,253,254,252,252,253,200,0,0,0,
+0,0,201,198,254,201,201,256,142,199,146,145,253,254,142,143,146,143,199,255,256,256,254,143,254,253,253,199,199,144,143,0,0,0,
+0,0,144,145,255,253,255,254,253,142,256,145,200,200,252,200,143,201,256,198,146,143,146,255,198,201,200,200,255,199,143,0,0,0,
+0,0,144,199,252,145,198,255,143,198,255,144,254,198,198,145,142,146,256,142,142,256,198,146,146,144,255,200,255,255,253,0,0,0,
+0,0,256,145,200,197,253,145,254,0,0,0,0,0,0,0,0,0,0,0,0,0,144,144,142,199,252,201,145,146,0,0,0,0,
+0,0,142,198,201,197,200,255,145,0,0,0,0,0,0,0,0,0,0,0,0,0,0,144,146,146,144,143,256,0,0,0,0,0,
+0,0,201,199,254,197,253,255,252,0,0,0,0,0,0,0,0,0,0,0,0,0,0,254,142,256,198,146,0,0,0,0,0,0,
+0,0,200,255,201,201,252,197,201,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,143,255,255,201,146,201,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,253,256,252,253,199,253,0,0,253,142,253,255,255,144,142,145,146,198,199,143,252,198,0,0,0,0,0,0,0,0,0,0,
+0,0,253,142,201,146,201,197,0,144,198,143,256,198,198,200,201,146,144,255,142,146,145,254,254,0,0,0,0,0,0,0,0,0,
+0,0,143,197,201,200,197,252,252,143,201,144,256,200,144,146,254,199,253,201,146,197,143,252,145,0,0,0,0,0,0,0,0,0,
+0,0,145,144,254,254,146,201,146,254,253,201,142,256,197,252,200,197,197,256,145,142,254,255,252,0,0,0,0,0,0,0,0,0,
+0,0,255,198,256,255,142,252,253,252,256,256,145,255,255,143,199,252,252,255,142,255,197,144,144,0,0,0,0,0,0,0,0,0,
+0,0,0,144,253,145,199,255,256,145,256,254,256,254,197,254,253,197,199,201,256,199,200,142,197,0,0,0,0,0,0,0,0,0,
+0,0,0,142,146,200,255,0,0,198,200,199,198,198,253,143,256,146,142,142,143,255,145,201,142,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,200,253,252,256,200,254,143,256,254,198,252,199,252,255,252,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,255,252,252,145,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,256,255,256,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,253,143,197,256,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,197,144,254,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,200,255,197,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="seam floor" width="34" height="26">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="ceiling" width="34" height="26">
+  <data encoding="csv">
+12102,12101,12101,12102,12102,12100,12100,12100,12102,12100,12100,12100,12102,12102,12102,12100,12102,12102,12102,12102,12101,12101,12102,12102,12102,12100,12102,12101,12100,12101,12101,12102,12102,12102,
+12100,12101,12101,12100,12102,12101,12101,12101,12102,12100,12101,12102,12102,12101,12101,12101,12102,12102,12100,12101,12100,12100,12088,12088,12088,12088,12088,12088,12088,12102,12101,12102,12101,12102,
+12100,12101,12088,12088,12088,12088,12088,12088,12088,12088,12088,12088,12088,12088,12088,12088,12088,12088,12088,12088,12088,12090,0,0,0,0,0,0,0,12096,12088,12102,12102,12102,
+12100,12086,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12092,12102,12100,
+12101,12086,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12092,12102,12102,
+12100,12086,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12092,12100,12100,
+12100,12086,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12092,12101,12102,
+12102,12086,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12092,12102,12101,
+12100,12086,0,0,0,0,0,0,0,12093,12085,12085,12085,12085,12085,12085,12085,12085,12085,12085,12085,12087,0,0,0,0,0,0,0,0,12093,12102,12100,12101,
+12102,12086,0,0,0,0,0,0,0,12092,12100,12102,12101,12101,12102,12101,12101,12102,12102,12100,12102,12100,12087,0,0,0,0,0,0,12093,12100,12101,12102,12101,
+12101,12086,0,0,0,0,0,0,0,12092,12101,12101,12102,12101,12100,12102,12101,12102,12101,12100,12100,12102,12086,0,0,0,0,0,12093,12102,12100,12102,12100,12102,
+12101,12086,0,0,0,0,0,0,0,12092,12101,12101,12100,12102,12100,12101,12100,12100,12102,12101,12100,12102,12101,12085,12085,12085,12085,12085,12102,12101,12101,12102,12102,12102,
+12100,12086,0,0,0,0,0,0,12093,12102,12088,12088,12088,12088,12088,12088,12088,12088,12088,12088,12088,12088,12088,12088,12100,12101,12102,12101,12100,12102,12102,12102,12100,12102,
+12100,12086,0,0,0,0,0,0,12092,12090,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12096,12102,12100,12101,12102,12102,12102,12100,12102,12100,
+12100,12086,0,0,0,0,0,0,12098,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12092,12100,12100,12101,12101,12100,12101,12102,12100,
+12100,12086,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12092,12100,12101,12101,12102,12100,12100,12102,12102,
+12100,12086,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12092,12100,12102,12101,12101,12101,12102,12100,12100,
+12102,12086,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12092,12102,12101,12100,12100,12100,12100,12100,12102,
+12100,12102,12087,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12092,12102,12100,12100,12102,12101,12102,12100,12102,
+12102,12101,12086,0,0,0,0,12093,12087,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12092,12102,12101,12102,12102,12100,12102,12101,12102,
+12100,12102,12101,12085,12085,12085,12085,12100,12086,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12093,12101,12101,12101,12100,12100,12101,12101,12101,12100,
+12100,12101,12101,12101,12101,12101,12102,12102,12101,12085,12085,12085,12085,12087,0,0,0,0,12093,12085,12085,12085,12085,12085,12102,12101,12102,12101,12102,12100,12101,12101,12101,12101,
+12102,12101,12100,12102,12101,12102,12102,12100,12100,12101,12101,12102,12100,12086,0,0,0,0,12092,12102,12100,12101,12101,12101,12101,12100,12101,12100,12102,12100,12100,12101,12100,12102,
+12100,12100,12102,12101,12101,12102,12102,12100,12102,12101,12101,12102,12100,12086,0,0,0,0,12092,12102,12102,12100,12100,12102,12100,12101,12102,12101,12100,12102,12101,12101,12102,12101,
+12100,12101,12100,12102,12100,12100,12100,12102,12102,12100,12102,12101,12102,12102,12087,0,0,0,12092,12101,12102,12101,12100,12100,12102,12101,12100,12100,12102,12101,12102,12100,12101,12102,
+12101,12102,12101,12101,12100,12102,12102,12100,12100,12100,12102,12101,12101,12102,12086,0,0,0,12092,12100,12102,12100,12102,12101,12101,12102,12100,12102,12100,12100,12101,12102,12101,12102
+</data>
+ </layer>
+ <layer id="4" name="ceiling corners" width="34" height="26">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12104,0,0,0,0,0,0,0,12105,0,0,0,0,
+0,12104,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12105,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12106,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12103,0,0,0,0,0,0,0,0,12106,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12106,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12103,0,0,0,0,0,12106,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,12106,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12105,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,12104,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12105,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,12103,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,12103,0,0,0,0,12106,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12106,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,12103,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12106,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,12103,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="walls" width="34" height="26">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9194,9191,9193,9193,9194,9195,9193,0,0,0,0,0,
+0,0,9191,9192,9195,9192,9191,9194,9191,9193,9195,9194,9192,9192,9192,9191,9191,9191,9192,9192,9195,9192,9200,9199,9199,9200,9200,9199,9203,9192,9194,0,0,0,
+0,0,9203,9202,9200,9202,9203,9198,9201,9201,9203,9201,9198,9202,9199,9200,9201,9200,9203,9202,9203,9202,0,0,0,0,0,0,0,9201,9201,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,9191,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,9195,0,0,0,0,0,9198,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,9198,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,9191,9193,9193,9194,9195,9194,9193,9192,9195,9191,9191,9193,9192,9194,0,0,0,0,0,0,0,0,0,0,
+0,0,9194,0,0,0,0,0,0,9191,9199,9201,9198,9200,9199,9201,9203,9201,9198,9199,9200,9200,9201,9198,9192,0,0,0,0,0,0,0,0,0,
+0,0,9203,0,0,0,0,0,9194,9203,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9199,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,9200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,9192,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,9202,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="veins" width="34" height="26">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,12109,12108,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,12107,0,0,12109,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,12107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,12108,0,12109,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,12108,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="7" name="tree shadows">
+  <properties>
+   <property name="unity:SortingOrder" type="int" value="-6"/>
+  </properties>
+ </objectgroup>
+ <objectgroup id="8" name="ground decals">
+  <properties>
+   <property name="unity:SortingOrder" type="int" value="-5"/>
+  </properties>
+  <object id="7" gid="11630" x="358.4" y="524.8" width="64" height="24"/>
+  <object id="8" gid="2147495278" x="640.0" y="659.2" width="64" height="24"/>
+  <object id="9" gid="2147495278" x="320.0" y="627.2" width="64" height="24"/>
+  <object id="10" gid="9431" x="412.8" y="553.6" width="32" height="32"/>
+  <object id="11" gid="9468" x="579.2" y="508.8" width="32" height="32"/>
+  <object id="12" gid="2147493079" x="700.8" y="614.4" width="32" height="32"/>
+  <object id="21" gid="11699" x="451.2" y="620.8" width="32" height="24"/>
+  <object id="22" gid="11699" x="361.6" y="576.0" width="32" height="24"/>
+  <object id="34" gid="12112" x="67.2" y="358.4" width="128" height="64"/>
+  <object id="37" gid="12110" x="140.8" y="476.8" width="96" height="56"/>
+  <object id="40" gid="12111" x="76.8" y="563.2" width="64" height="40"/>
+  <object id="43" gid="12113" x="142.4" y="252.8" width="48" height="32"/>
+  <object id="48" gid="11699" x="76.8" y="425.6" width="32" height="24"/>
+  <object id="58" gid="12115" x="352.0" y="192" width="32" height="32"/>
+  <object id="59" gid="12116" x="352.0" y="224" width="32" height="32"/>
+  <object id="60" gid="12114" x="352.0" y="256" width="32" height="32"/>
+  <object id="61" gid="12115" x="448.0" y="192" width="32" height="32"/>
+  <object id="62" gid="12116" x="448.0" y="224" width="32" height="32"/>
+  <object id="63" gid="12114" x="448.0" y="256" width="32" height="32"/>
+  <object id="64" gid="12115" x="544.0" y="192" width="32" height="32"/>
+  <object id="65" gid="12116" x="544.0" y="224" width="32" height="32"/>
+  <object id="66" gid="12114" x="544.0" y="256" width="32" height="32"/>
+  <object id="67" gid="12115" x="640.0" y="192" width="32" height="32"/>
+  <object id="68" gid="12116" x="640.0" y="224" width="32" height="32"/>
+  <object id="69" gid="12114" x="640.0" y="256" width="32" height="32"/>
+  <object id="70" gid="12115" x="256.0" y="192" width="32" height="32"/>
+  <object id="71" gid="12116" x="256.0" y="224" width="32" height="32"/>
+  <object id="72" gid="12114" x="256.0" y="256" width="32" height="32"/>
+  <object id="73" gid="12116" x="672.0" y="192" width="32" height="32"/>
+  <object id="74" gid="12114" x="672.0" y="224" width="32" height="32"/>
+  <object id="75" gid="12115" x="672.0" y="256" width="32" height="32"/>
+  <object id="76" gid="12117" x="288.0" y="222.4" width="32" height="32"/>
+  <object id="77" gid="12118" x="320.0" y="254.4" width="32" height="32"/>
+  <object id="78" gid="12119" x="416.0" y="190.4" width="32" height="32"/>
+  <object id="79" gid="12117" x="384.0" y="254.4" width="32" height="32"/>
+  <object id="80" gid="12118" x="480.0" y="222.4" width="32" height="32"/>
+  <object id="81" gid="12119" x="512.0" y="190.4" width="32" height="32"/>
+  <object id="82" gid="12117" x="576.0" y="254.4" width="32" height="32"/>
+  <object id="83" gid="12118" x="608.0" y="222.4" width="32" height="32"/>
+  <object id="84" gid="12117" x="512.0" y="254.4" width="32" height="32"/>
+  <object id="86" gid="12120" x="713.6" y="124.8" width="64" height="32"/>
+  <object id="96" gid="11630" x="832.0" y="332.8" width="64" height="24"/>
+ </objectgroup>
+ <objectgroup id="9" name="props">
+  <properties>
+   <property name="unity:SortingOrder" type="int" value="2"/>
+  </properties>
+  <object id="4" gid="12122" x="464.0" y="676.8" width="128" height="96"/>
+  <object id="13" gid="12126" x="310.4" y="508.8" width="64" height="40"/>
+  <object id="15" gid="12123" x="736.0" y="588.8" width="64" height="55"/>
+  <object id="17" gid="12127" x="595.2" y="672.0" width="64" height="40"/>
+  <object id="19" gid="12126" x="284.8" y="649.6" width="64" height="40"/>
+  <object id="23" gid="12125" x="371.2" y="504.0" width="128" height="52"/>
+  <object id="25" gid="12124" x="278.4" y="544.0" width="64" height="89"/>
+  <object id="88" gid="12132" x="797.2" y="177.6" width="44" height="46"/>
+  <object id="92" gid="9376" x="851.2" y="268.8" width="64" height="64"/>
+  <object id="94" gid="11694" x="902.4" y="195.2" width="32" height="30"/>
+ </objectgroup>
+ <objectgroup id="10" name="props front">
+  <properties>
+   <property name="unity:SortingOrder" type="int" value="2"/>
+  </properties>
+ </objectgroup>
+ <objectgroup id="11" name="ambient fx">
+  <properties>
+   <property name="unity:SortingOrder" type="int" value="10"/>
+  </properties>
+ </objectgroup>
+ <objectgroup id="12" name="zones" opacity="0.35">
+  <properties>
+   <property name="unity:IsTrigger" type="bool" value="true"/>
+  </properties>
+  <object id="100" name="h1" type="zone" x="272.0" y="464.0" width="544" height="368.0">
+    <properties>
+       <property name="ambient" value="0.24"/>
+       <property name="ambient_color" value="#9a8f86"/>
+       <property name="ambient_fight" value="0.2"/>
+       <property name="fog" value="off"/>
+       <property name="title" value="Collapsed Gallery"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+       <property name="zone_id" value="h1"/>
+    </properties>
+  </object>
+  <object id="101" name="h2" type="zone" x="32" y="144.0" width="240.0" height="496.0">
+    <properties>
+       <property name="ambient" value="0.2"/>
+       <property name="ambient_color" value="#7fa08f"/>
+       <property name="ambient_fight" value="0.17"/>
+       <property name="fog" value="off"/>
+       <property name="title" value="The Green Seam"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+       <property name="zone_id" value="h2"/>
+    </properties>
+  </object>
+  <object id="102" name="h3" type="zone" x="272.0" y="128" width="416" height="144.0">
+    <properties>
+       <property name="ambient" value="0.17"/>
+       <property name="ambient_color" value="#8a90a6"/>
+       <property name="ambient_fight" value="0.15"/>
+       <property name="fog" value="off"/>
+       <property name="title" value="The Still Walk"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+       <property name="zone_id" value="h3"/>
+    </properties>
+  </object>
+  <object id="103" name="h4" type="zone" x="688.0" y="96" width="288" height="272.0">
+    <properties>
+       <property name="ambient" value="0.2"/>
+       <property name="ambient_color" value="#8f9fb8"/>
+       <property name="ambient_fight" value="0.18"/>
+       <property name="fog" value="off"/>
+       <property name="title" value="Hermit's Cell"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+       <property name="zone_id" value="h4"/>
+    </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="13" name="spawns">
+  <object id="28" name="Spider" type="spawn" x="454.4" y="582.4">
+    <properties>
+       <property name="enemy" value="Spider"/>
+       <property name="wave" type="int" value="1"/>
+       <property name="zone_id" value="h1"/>
+    </properties>
+    <point/>
+  </object>
+  <object id="29" name="Spider" type="spawn" x="588.8" y="608.0">
+    <properties>
+       <property name="enemy" value="Spider"/>
+       <property name="wave" type="int" value="1"/>
+       <property name="zone_id" value="h1"/>
+    </properties>
+    <point/>
+  </object>
+  <object id="30" name="Spider" type="spawn" x="672.0" y="531.2">
+    <properties>
+       <property name="enemy" value="Spider"/>
+       <property name="wave" type="int" value="1"/>
+       <property name="zone_id" value="h1"/>
+    </properties>
+    <point/>
+  </object>
+  <object id="31" name="Spider" type="spawn" x="371.2" y="544.0">
+    <properties>
+       <property name="enemy" value="Spider"/>
+       <property name="wave" type="int" value="2"/>
+       <property name="zone_id" value="h1"/>
+    </properties>
+    <point/>
+  </object>
+  <object id="32" name="Spider" type="spawn" x="633.6" y="563.2">
+    <properties>
+       <property name="enemy" value="Spider"/>
+       <property name="wave" type="int" value="2"/>
+       <property name="zone_id" value="h1"/>
+    </properties>
+    <point/>
+  </object>
+  <object id="33" name="Spider" type="spawn" x="742.4" y="601.6">
+    <properties>
+       <property name="enemy" value="Spider"/>
+       <property name="wave" type="int" value="2"/>
+       <property name="zone_id" value="h1"/>
+    </properties>
+    <point/>
+  </object>
+  <object id="46" name="Lizard" type="spawn" x="134.4" y="288.0">
+    <properties>
+       <property name="enemy" value="Lizard"/>
+       <property name="wave" type="int" value="1"/>
+       <property name="zone_id" value="h2"/>
+    </properties>
+    <point/>
+  </object>
+  <object id="47" name="Lizard" type="spawn" x="211.2" y="531.2">
+    <properties>
+       <property name="enemy" value="Lizard"/>
+       <property name="wave" type="int" value="1"/>
+       <property name="zone_id" value="h2"/>
+    </properties>
+    <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="14" name="triggers" opacity="0.35">
+  <properties>
+   <property name="unity:IsTrigger" type="bool" value="true"/>
+  </properties>
+  <object id="1" name="player_start" type="player_start" x="480" y="704" width="32" height="32">
+    <properties>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+       <property name="zone_id" value="h1"/>
+    </properties>
+  </object>
+  <object id="2" name="hollow_out" type="exit" x="480" y="811.2" width="96" height="20.8">
+    <properties>
+       <property name="arrive_at" value="10.5,49.4"/>
+       <property name="arrive_subtitle" value="Greystone Plains"/>
+       <property name="arrive_title" value="Old Copper Mine"/>
+       <property name="depart_text" value="You climb back toward the grey light of the mine mouth."/>
+       <property name="quake" type="bool" value="false"/>
+       <property name="target" value="map1_greystone_plains"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+    </properties>
+  </object>
+  <object id="97" name="mark_seam" type="story" x="64" y="256" width="192" height="384">
+    <properties>
+       <property name="script" value="set hollow_seam"/>
+       <property name="trigger" value="enter"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+       <property name="unless" value="hollow_seam"/>
+    </properties>
+  </object>
+  <object id="98" name="mark_walk" type="story" x="256" y="160" width="64" height="96">
+    <properties>
+       <property name="script" value="set hollow_walk"/>
+       <property name="trigger" value="enter"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+       <property name="unless" value="hollow_walk"/>
+    </properties>
+  </object>
+  <object id="99" name="mark_cell" type="story" x="704" y="128" width="256" height="224">
+    <properties>
+       <property name="script" value="set hollow_cell"/>
+       <property name="trigger" value="enter"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+       <property name="unless" value="hollow_cell"/>
+    </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="15" name="gates">
+  <properties>
+   <property name="unity:SortingOrder" type="int" value="2"/>
+  </properties>
+ </objectgroup>
+ <objectgroup id="16" name="obstacle colliders" opacity="0.35">
+  <object id="5" name="prop collider" type="obstacle" x="480.0" y="664.0" width="14.4" height="11.2">
+    <properties>
+       <property name="collider_kind" value="prop"/>
+    </properties><ellipse/>
+  </object>
+  <object id="6" name="prop collider" type="obstacle" x="561.6" y="664.0" width="14.4" height="11.2">
+    <properties>
+       <property name="collider_kind" value="prop"/>
+    </properties><ellipse/>
+  </object>
+  <object id="14" name="prop collider" type="obstacle" x="320.0" y="498.8" width="44.8" height="9">
+    <properties>
+       <property name="collider_kind" value="prop"/>
+    </properties><ellipse/>
+  </object>
+  <object id="16" name="prop collider" type="obstacle" x="745.6" y="578.8" width="44.8" height="9">
+    <properties>
+       <property name="collider_kind" value="prop"/>
+    </properties><ellipse/>
+  </object>
+  <object id="18" name="prop collider" type="obstacle" x="604.8" y="662.0" width="44.8" height="9">
+    <properties>
+       <property name="collider_kind" value="prop"/>
+    </properties><ellipse/>
+  </object>
+  <object id="20" name="prop collider" type="obstacle" x="294.4" y="639.6" width="44.8" height="9">
+    <properties>
+       <property name="collider_kind" value="prop"/>
+    </properties><ellipse/>
+  </object>
+  <object id="24" name="prop collider" type="obstacle" x="377.6" y="491.2" width="115.2" height="12.8">
+    <properties>
+       <property name="collider_kind" value="prop"/>
+    </properties>
+  </object>
+  <object id="26" name="prop collider" type="obstacle" x="302.4" y="536.0" width="16.0" height="8.0">
+    <properties>
+       <property name="collider_kind" value="prop"/>
+    </properties><ellipse/>
+  </object>
+  <object id="89" name="prop collider" type="obstacle" x="800.0" y="168.0" width="38.4" height="9.6">
+    <properties>
+       <property name="collider_kind" value="prop"/>
+    </properties><ellipse/>
+  </object>
+  <object id="93" name="prop collider" type="obstacle" x="860.8" y="254.4" width="44.8" height="12.8">
+    <properties>
+       <property name="collider_kind" value="prop"/>
+    </properties>
+    <ellipse/>
+  </object>
+  <object id="95" name="prop collider" type="obstacle" x="907.2" y="187.2" width="22.4" height="8.0">
+    <properties>
+       <property name="collider_kind" value="prop"/>
+    </properties><ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup id="17" name="water colliders" opacity="0.35">
+  <properties>
+   <property name="unity:layer" value="Water"/>
+  </properties>
+ </objectgroup>
+ <objectgroup id="18" name="blockers" opacity="0.35">
+  <object id="104" name="blocker" type="blocker" x="0" y="0" width="1088" height="128">
+    <properties>
+       <property name="collider_kind" value="terrain"/>
+    </properties>
+  </object>
+  <object id="105" name="blocker" type="blocker" x="0" y="128" width="704" height="32">
+    <properties>
+       <property name="collider_kind" value="terrain"/>
+    </properties>
+  </object>
+  <object id="106" name="blocker" type="blocker" x="928" y="128" width="160" height="32">
+    <properties>
+       <property name="collider_kind" value="terrain"/>
+    </properties>
+  </object>
+  <object id="107" name="blocker" type="blocker" x="0" y="160" width="64" height="672">
+    <properties>
+       <property name="collider_kind" value="terrain"/>
+    </properties>
+  </object>
+  <object id="108" name="blocker" type="blocker" x="992" y="160" width="96" height="672">
+    <properties>
+       <property name="collider_kind" value="terrain"/>
+    </properties>
+  </object>
+  <object id="109" name="blocker" type="blocker" x="256" y="256" width="448" height="64">
+    <properties>
+       <property name="collider_kind" value="terrain"/>
+    </properties>
+  </object>
+  <object id="110" name="blocker" type="blocker" x="960" y="256" width="32" height="576">
+    <properties>
+       <property name="collider_kind" value="terrain"/>
+    </properties>
+  </object>
+  <object id="111" name="blocker" type="blocker" x="64" y="288" width="32" height="64">
+    <properties>
+       <property name="collider_kind" value="terrain"/>
+    </properties>
+  </object>
+  <object id="112" name="blocker" type="blocker" x="704" y="288" width="32" height="192">
+    <properties>
+       <property name="collider_kind" value="terrain"/>
+    </properties>
+  </object>
+  <object id="113" name="blocker" type="blocker" x="928" y="288" width="32" height="544">
+    <properties>
+       <property name="collider_kind" value="terrain"/>
+    </properties>
+  </object>
+  <object id="114" name="blocker" type="blocker" x="288" y="320" width="416" height="160">
+    <properties>
+       <property name="collider_kind" value="terrain"/>
+    </properties>
+  </object>
+  <object id="115" name="blocker" type="blocker" x="896" y="320" width="32" height="512">
+    <properties>
+       <property name="collider_kind" value="terrain"/>
+    </properties>
+  </object>
+  <object id="116" name="blocker" type="blocker" x="736" y="352" width="160" height="128">
+    <properties>
+       <property name="collider_kind" value="terrain"/>
+    </properties>
+  </object>
+  <object id="117" name="blocker" type="blocker" x="256" y="384" width="32" height="160">
+    <properties>
+       <property name="collider_kind" value="terrain"/>
+    </properties>
+  </object>
+  <object id="118" name="blocker" type="blocker" x="64" y="448" width="32" height="64">
+    <properties>
+       <property name="collider_kind" value="terrain"/>
+    </properties>
+  </object>
+  <object id="119" name="blocker" type="blocker" x="288" y="480" width="32" height="32">
+    <properties>
+       <property name="collider_kind" value="terrain"/>
+    </properties>
+  </object>
+  <object id="120" name="blocker" type="blocker" x="768" y="480" width="128" height="32">
+    <properties>
+       <property name="collider_kind" value="terrain"/>
+    </properties>
+  </object>
+  <object id="121" name="blocker" type="blocker" x="800" y="512" width="96" height="320">
+    <properties>
+       <property name="collider_kind" value="terrain"/>
+    </properties>
+  </object>
+  <object id="122" name="blocker" type="blocker" x="64" y="576" width="32" height="256">
+    <properties>
+       <property name="collider_kind" value="terrain"/>
+    </properties>
+  </object>
+  <object id="123" name="blocker" type="blocker" x="224" y="608" width="64" height="224">
+    <properties>
+       <property name="collider_kind" value="terrain"/>
+    </properties>
+  </object>
+  <object id="124" name="blocker" type="blocker" x="96" y="640" width="128" height="192">
+    <properties>
+       <property name="collider_kind" value="terrain"/>
+    </properties>
+  </object>
+  <object id="125" name="blocker" type="blocker" x="768" y="640" width="32" height="192">
+    <properties>
+       <property name="collider_kind" value="terrain"/>
+    </properties>
+  </object>
+  <object id="126" name="blocker" type="blocker" x="288" y="672" width="192" height="64">
+    <properties>
+       <property name="collider_kind" value="terrain"/>
+    </properties>
+  </object>
+  <object id="127" name="blocker" type="blocker" x="576" y="672" width="192" height="160">
+    <properties>
+       <property name="collider_kind" value="terrain"/>
+    </properties>
+  </object>
+  <object id="128" name="blocker" type="blocker" x="288" y="736" width="160" height="96">
+    <properties>
+       <property name="collider_kind" value="terrain"/>
+    </properties>
+  </object>
+  <object id="129" name="blocker" type="blocker" x="448" y="768" width="32" height="64">
+    <properties>
+       <property name="collider_kind" value="terrain"/>
+    </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="19" name="map bounds" opacity="0.35">
+  <object id="130" name="map_bound" type="bound" x="-32" y="-32" width="1152" height="32">
+    <properties>
+       <property name="collider_kind" value="bound"/>
+    </properties>
+  </object>
+  <object id="131" name="map_bound" type="bound" x="-32" y="832" width="1152" height="32">
+    <properties>
+       <property name="collider_kind" value="bound"/>
+    </properties>
+  </object>
+  <object id="132" name="map_bound" type="bound" x="-32" y="0" width="32" height="832">
+    <properties>
+       <property name="collider_kind" value="bound"/>
+    </properties>
+  </object>
+  <object id="133" name="map_bound" type="bound" x="1088" y="0" width="32" height="832">
+    <properties>
+       <property name="collider_kind" value="bound"/>
+    </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="20" name="mechanics" opacity="0.35">
+  <properties>
+   <property name="unity:IsTrigger" type="bool" value="true"/>
+  </properties>
+  <object id="3" name="h1_daylight" type="light" x="512.0" y="771.2" width="32" height="32">
+    <properties>
+       <property name="color" value="#c8d4ff"/>
+       <property name="intensity" type="float" value="0.55"/>
+       <property name="light" value="torch"/>
+       <property name="mechanic" value="light"/>
+       <property name="radius" type="float" value="3.2"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+    </properties>
+  </object>
+  <object id="27" name="oswin_board" type="note" x="288.0" y="499.2" width="44.8" height="44.8">
+    <properties>
+       <property name="mechanic" value="note"/>
+       <property name="range" type="float" value="1.2"/>
+       <property name="text" value="Scratched into the board with a nail, the letters gone grey with age.\n\nDEEP VEIN - SHUT.\n\nNot for the copper. The copper ran out years back. Shut for the green, and for what's past it.\n\nSomething down there counts your steps. You walk, it clicks. You stand, it stops. I stood a long time.\n\n- O."/>
+       <property name="title" value="A Board by the West Tunnel"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+    <property name="prompt_at" value="9.70,14.56"/>
+   </properties>
+  </object>
+  <object id="35" name="seam_pool_0" type="hazard" x="77.4" y="303.4" width="107.5" height="48.6">
+    <properties>
+       <property name="dps_percent" type="float" value="6"/>
+       <property name="mechanic" value="hazard"/>
+       <property name="poison_percent" type="float" value="8"/>
+       <property name="poison_seconds" type="float" value="2.5"/>
+       <property name="shape" value="ellipse"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+    </properties>
+  </object>
+  <object id="36" name="seam_glow_0" type="light" x="115.2" y="310.4" width="32" height="32">
+    <properties>
+       <property name="anim" value="pulse"/>
+       <property name="anim_amount" type="float" value="0.25"/>
+       <property name="anim_speed" type="float" value="0.35"/>
+       <property name="color" value="#5dffa0"/>
+       <property name="intensity" type="float" value="0.7"/>
+       <property name="light" value="torch"/>
+       <property name="mechanic" value="light"/>
+       <property name="radius" type="float" value="3.33"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+    </properties>
+  </object>
+  <object id="38" name="seam_pool_1" type="hazard" x="148.5" y="428.6" width="80.6" height="42.6">
+    <properties>
+       <property name="dps_percent" type="float" value="6"/>
+       <property name="mechanic" value="hazard"/>
+       <property name="poison_percent" type="float" value="8"/>
+       <property name="poison_seconds" type="float" value="2.5"/>
+       <property name="shape" value="ellipse"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+    </properties>
+  </object>
+  <object id="39" name="seam_glow_1" type="light" x="172.8" y="432.8" width="32" height="32">
+    <properties>
+       <property name="anim" value="pulse"/>
+       <property name="anim_amount" type="float" value="0.25"/>
+       <property name="anim_speed" type="float" value="0.42"/>
+       <property name="color" value="#5dffa0"/>
+       <property name="intensity" type="float" value="0.7"/>
+       <property name="light" value="torch"/>
+       <property name="mechanic" value="light"/>
+       <property name="radius" type="float" value="3.0"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+    </properties>
+  </object>
+  <object id="41" name="seam_pool_2" type="hazard" x="81.9" y="528.8" width="53.8" height="30.4">
+    <properties>
+       <property name="dps_percent" type="float" value="6"/>
+       <property name="mechanic" value="hazard"/>
+       <property name="poison_percent" type="float" value="8"/>
+       <property name="poison_seconds" type="float" value="2.5"/>
+       <property name="shape" value="ellipse"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+    </properties>
+  </object>
+  <object id="42" name="seam_glow_2" type="light" x="92.8" y="527.2" width="32" height="32">
+    <properties>
+       <property name="anim" value="pulse"/>
+       <property name="anim_amount" type="float" value="0.25"/>
+       <property name="anim_speed" type="float" value="0.49"/>
+       <property name="color" value="#5dffa0"/>
+       <property name="intensity" type="float" value="0.7"/>
+       <property name="light" value="torch"/>
+       <property name="mechanic" value="light"/>
+       <property name="radius" type="float" value="2.67"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+    </properties>
+  </object>
+  <object id="44" name="seam_pool_3" type="hazard" x="146.2" y="225.3" width="40.3" height="24.3">
+    <properties>
+       <property name="dps_percent" type="float" value="6"/>
+       <property name="mechanic" value="hazard"/>
+       <property name="poison_percent" type="float" value="8"/>
+       <property name="poison_seconds" type="float" value="2.5"/>
+       <property name="shape" value="ellipse"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+    </properties>
+  </object>
+  <object id="45" name="seam_glow_3" type="light" x="150.4" y="220.8" width="32" height="32">
+    <properties>
+       <property name="anim" value="pulse"/>
+       <property name="anim_amount" type="float" value="0.25"/>
+       <property name="anim_speed" type="float" value="0.56"/>
+       <property name="color" value="#5dffa0"/>
+       <property name="intensity" type="float" value="0.7"/>
+       <property name="light" value="torch"/>
+       <property name="mechanic" value="light"/>
+       <property name="radius" type="float" value="2.5"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+    </properties>
+  </object>
+  <object id="49" name="still_walk" type="stillness" x="275.2" y="160" width="396.8" height="96">
+    <properties>
+       <property name="fires" value="still_walk"/>
+       <property name="hint" value="The air is dead still. Somewhere in the rock, something waits to hear you move."/>
+       <property name="mechanic" value="stillness"/>
+       <property name="rearm" type="float" value="0.8"/>
+       <property name="speed_min" type="float" value="0.35"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+    </properties>
+  </object>
+  <object id="50" name="still_arrow_9" type="launcher" x="288" y="128" width="32" height="32">
+    <properties>
+       <property name="art" value="mine"/>
+       <property name="burst" type="int" value="2"/>
+       <property name="burst_gap" type="float" value="0.28"/>
+       <property name="damage" type="float" value="18"/>
+       <property name="dir" value="down"/>
+       <property name="kind" value="arrow"/>
+       <property name="mechanic" value="launcher"/>
+       <property name="mode" value="trigger"/>
+       <property name="range" type="float" value="4"/>
+       <property name="speed" type="float" value="8"/>
+       <property name="trigger" value="still_walk"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+       <property name="warn_seconds" type="float" value="0.6"/>
+    </properties>
+  </object>
+  <object id="51" name="still_arrow_10" type="launcher" x="320" y="128" width="32" height="32">
+    <properties>
+       <property name="art" value="mine"/>
+       <property name="burst" type="int" value="2"/>
+       <property name="burst_gap" type="float" value="0.28"/>
+       <property name="damage" type="float" value="18"/>
+       <property name="dir" value="down"/>
+       <property name="kind" value="arrow"/>
+       <property name="mechanic" value="launcher"/>
+       <property name="mode" value="trigger"/>
+       <property name="range" type="float" value="4"/>
+       <property name="speed" type="float" value="8"/>
+       <property name="trigger" value="still_walk"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+       <property name="warn_seconds" type="float" value="0.6"/>
+    </properties>
+  </object>
+  <object id="52" name="still_arrow_12" type="launcher" x="384" y="128" width="32" height="32">
+    <properties>
+       <property name="art" value="mine"/>
+       <property name="burst" type="int" value="2"/>
+       <property name="burst_gap" type="float" value="0.28"/>
+       <property name="damage" type="float" value="18"/>
+       <property name="dir" value="down"/>
+       <property name="kind" value="arrow"/>
+       <property name="mechanic" value="launcher"/>
+       <property name="mode" value="trigger"/>
+       <property name="range" type="float" value="4"/>
+       <property name="speed" type="float" value="8"/>
+       <property name="trigger" value="still_walk"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+       <property name="warn_seconds" type="float" value="0.6"/>
+    </properties>
+  </object>
+  <object id="53" name="still_arrow_13" type="launcher" x="416" y="128" width="32" height="32">
+    <properties>
+       <property name="art" value="mine"/>
+       <property name="burst" type="int" value="2"/>
+       <property name="burst_gap" type="float" value="0.28"/>
+       <property name="damage" type="float" value="18"/>
+       <property name="dir" value="down"/>
+       <property name="kind" value="arrow"/>
+       <property name="mechanic" value="launcher"/>
+       <property name="mode" value="trigger"/>
+       <property name="range" type="float" value="4"/>
+       <property name="speed" type="float" value="8"/>
+       <property name="trigger" value="still_walk"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+       <property name="warn_seconds" type="float" value="0.6"/>
+    </properties>
+  </object>
+  <object id="54" name="still_arrow_15" type="launcher" x="480" y="128" width="32" height="32">
+    <properties>
+       <property name="art" value="mine"/>
+       <property name="burst" type="int" value="3"/>
+       <property name="burst_gap" type="float" value="0.28"/>
+       <property name="damage" type="float" value="18"/>
+       <property name="dir" value="down"/>
+       <property name="kind" value="arrow"/>
+       <property name="mechanic" value="launcher"/>
+       <property name="mode" value="trigger"/>
+       <property name="range" type="float" value="4"/>
+       <property name="speed" type="float" value="8"/>
+       <property name="trigger" value="still_walk"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+       <property name="warn_seconds" type="float" value="0.6"/>
+    </properties>
+  </object>
+  <object id="55" name="still_arrow_16" type="launcher" x="512" y="128" width="32" height="32">
+    <properties>
+       <property name="art" value="mine"/>
+       <property name="burst" type="int" value="3"/>
+       <property name="burst_gap" type="float" value="0.28"/>
+       <property name="damage" type="float" value="18"/>
+       <property name="dir" value="down"/>
+       <property name="kind" value="arrow"/>
+       <property name="mechanic" value="launcher"/>
+       <property name="mode" value="trigger"/>
+       <property name="range" type="float" value="4"/>
+       <property name="speed" type="float" value="8"/>
+       <property name="trigger" value="still_walk"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+       <property name="warn_seconds" type="float" value="0.6"/>
+    </properties>
+  </object>
+  <object id="56" name="still_arrow_18" type="launcher" x="576" y="128" width="32" height="32">
+    <properties>
+       <property name="art" value="mine"/>
+       <property name="burst" type="int" value="3"/>
+       <property name="burst_gap" type="float" value="0.28"/>
+       <property name="damage" type="float" value="18"/>
+       <property name="dir" value="down"/>
+       <property name="kind" value="arrow"/>
+       <property name="mechanic" value="launcher"/>
+       <property name="mode" value="trigger"/>
+       <property name="range" type="float" value="4"/>
+       <property name="speed" type="float" value="8"/>
+       <property name="trigger" value="still_walk"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+       <property name="warn_seconds" type="float" value="0.6"/>
+    </properties>
+  </object>
+  <object id="57" name="still_arrow_19" type="launcher" x="608" y="128" width="32" height="32">
+    <properties>
+       <property name="art" value="mine"/>
+       <property name="burst" type="int" value="3"/>
+       <property name="burst_gap" type="float" value="0.28"/>
+       <property name="damage" type="float" value="18"/>
+       <property name="dir" value="down"/>
+       <property name="kind" value="arrow"/>
+       <property name="mechanic" value="launcher"/>
+       <property name="mode" value="trigger"/>
+       <property name="range" type="float" value="4"/>
+       <property name="speed" type="float" value="8"/>
+       <property name="trigger" value="still_walk"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+       <property name="warn_seconds" type="float" value="0.6"/>
+    </properties>
+  </object>
+  <object id="85" name="still_carving" type="note" x="243.2" y="102.4" width="51.2" height="57.6">
+    <properties>
+       <property name="mechanic" value="note"/>
+       <property name="range" type="float" value="1.3"/>
+       <property name="text" value="Letters cut deep and careful, by someone with time.\n\nSTAND.  BREATHE.  THEN WALK.\n\nThe arrows were not set for beasts. Beasts do not wait.\n\nOn the flat stones you may stand. Anywhere else, do not stop."/>
+       <property name="title" value="Cut into the Rock"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+       <property name="verb" value="Read"/>
+    <property name="prompt_at" value="8.50,5.06"/>
+   </properties>
+  </object>
+  <object id="87" name="merek_page" type="note" x="716.8" y="70.4" width="70.4" height="60.8">
+    <properties>
+       <property name="mechanic" value="note"/>
+       <property name="range" type="float" value="1.3"/>
+       <property name="text" value="Fourteen marks, then the same careful hand.\n\nI was the King's sword in Arden. In the 14th year of King Lucas he gave me a village in the west and a child the stars had marked, and told me to come home alone.\n\nI found the child. I drew. I did not cut.\n\nA man who swears to a king swears to the king's hand. I broke that oath in a barn in the west, and I have kept the broken half ever since. Let them call the blade what they like.\n\nI set the arrows in the long hall so that hunters who run will die and men who wait may pass. Lucas never sent a patient man.\n\nIf you are reading this, you waited. Take the sword. Draw it the way I learned to down here: once, and only when you are sure.\n\n- Merek"/>
+       <property name="title" value="Cut Beside the Tally"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+       <property name="verb" value="Read"/>
+    <property name="prompt_at" value="23.33,3.15"/>
+   </properties>
+  </object>
+  <object id="90" name="cell_blade_glow" type="light" x="803.2" y="176.0" width="32" height="32">
+    <properties>
+       <property name="anim" value="pulse"/>
+       <property name="anim_amount" type="float" value="0.2"/>
+       <property name="anim_speed" type="float" value="0.4"/>
+       <property name="color" value="#9fb8d6"/>
+       <property name="intensity" type="float" value="0.7"/>
+       <property name="light" value="torch"/>
+       <property name="mechanic" value="light"/>
+       <property name="off_when" value="oathbreaker_taken"/>
+       <property name="radius" type="float" value="2.2"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+    </properties>
+  </object>
+  <object id="91" name="cell_oathbreaker" type="note" gid="12133" x="787.2" y="192.4" width="64" height="14">
+    <properties>
+       <property name="key_got" value="Oathbreaker. Hold your attack and wait while the meter beside you fills, then release: the cut is drawn like his - far heavier, and it staggers."/>
+       <property name="mechanic" value="note"/>
+       <property name="pickup" type="bool" value="true"/>
+       <property name="range" type="float" value="1.3"/>
+       <property name="sets" value="oathbreaker_taken"/>
+       <property name="text" value="A sheathed blade in plain grey steel, laid on the stone before a man who died sitting up. The seal on the scabbard was never broken.\n\nThe King's swordmaster carried it into the west to end a child. It came back out of the west unbloodied, and its master never came back at all."/>
+       <property name="title" value="The Swordmaster of Arden"/>
+       <property name="unity:IsTrigger" type="bool" value="true"/>
+       <property name="verb" value="Take the blade"/>
+       <property name="weapon_id" value="katana_oathbreaker"/>
+    </properties>
+  </object>
+ </objectgroup>
+</map>

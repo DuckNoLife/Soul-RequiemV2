@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c43d32acf707f24eaa72d6043f23cda, type: 3}
+  m_Name: Acolyte_Frost
+  m_EditorClassIdentifier: SoulRequiem.Gameplay::SoulRequiem.Gameplay.EnemyDefinition
+  maxHp: 75
+  immuneToCrowdControl: 0
+  mass: 1.5
+  stats:
+    displayName: Rime Acolyte
+    kind: 6
+    moveSpeed: 1.1
+    aggroRange: 4.8
+    attackRange: 0.3
+    damage: 9
+    windup: 0.5
+    cooldown: 1
+    leashRange: 5
+    poisonPercent: 0
+    poisonDuration: 5
+    stunSeconds: 0
+    knockback: 0
+    projectileSpeed: 2.5
+    projectileLifetime: 2
+    keepDistance: 2.2
+    spikeCount: 10
+    spikeTriggerRange: 0.9
+    closeRange: 0
+    strikeImpactFrame: 0
+    strikeWarn: 0.6
+    strikeRadius: 0.3
+    strikeFps: 14
+    strikeColor: {r: 0.45, g: 1, b: 0.4, a: 1}
+    special: 0
+    specialEvery: 0
+    specialWindup: 0.8
+    spinTime: 1.2
+    spinEndTime: 0.4
+    spinRadius: 0.55
+    spinTick: 0.35
+    spinMoveFactor: 0.55
+    specialImpactFrame: 1
+    specialRadius: 0.38
+    comboHits: 1
+    comboGap: 0.2
+    enrageAt: 0
+    dashSpeed: 4
+    dashTime: 0.35
+    dashCooldown: 3.5
+    chargeSpeed: 5
+    chargeTime: 0.45
+    recoveryTime: 1.6
+    slamRadius: 0.35
+    phase2At: 0.5
+    treatAsBoss: 0
+    floating: 0
+    shellTime: 2
+    shellCooldown: 3.5

@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: edbbb29f6c2b402c8fa3f320466a1c39
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3771078908746469786
+    second: m3_st_bleed_0
+  - first:
+      213: -3205333222822330657
+    second: m3_st_bleed_1
+  - first:
+      213: -4309698770263983776
+    second: m3_st_bleed_2
+  - first:
+      213: 4353696195765765795
+    second: m3_st_bleed_3
+  - first:
+      213: -2140601541294517632
+    second: m3_st_bleed_4
+  - first:
+      213: -967153079605479395
+    second: m3_st_bleed_5
+  - first:
+      213: 698458170650699362
+    second: m3_st_bleed_6
+  - first:
+      213: 3478401961673029646
+    second: m3_st_bleed_7
+  - first:
+      213: 2260843249895279842
+    second: m3_st_bleed_8
+  - first:
+      213: -2758780643787389629
+    second: m3_st_bleed_9
+  - first:
+      213: -1676568797905881055
+    second: m3_st_bleed_10
+  - first:
+      213: 2084091104740242287
+    second: m3_st_bleed_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: m3_st_bleed_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 25
+        height: 45
+      alignment: 9
+      pivot: {x: 0.6, y: 0.822222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c8bce88f299b8ebf54b942049138d2d
+      internalID: 3771078908746469786
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_bleed_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 0
+        width: 25
+        height: 45
+      alignment: 9
+      pivot: {x: 0.6, y: 0.822222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e50a08797799abedc15799ff4e0af8c
+      internalID: -3205333222822330657
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_bleed_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 25
+        height: 45
+      alignment: 9
+      pivot: {x: 0.6, y: 0.822222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb04302d958fcef1eb1736ad853c4c0
+      internalID: -4309698770263983776
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_bleed_3
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 25
+        height: 45
+      alignment: 9
+      pivot: {x: 0.6, y: 0.822222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c173f14e40d30fd73211c4ae83f89a11
+      internalID: 4353696195765765795
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_bleed_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 25
+        height: 45
+      alignment: 9
+      pivot: {x: 0.6, y: 0.822222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8000ed41164587f5536e78e44cd40723
+      internalID: -2140601541294517632
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_bleed_5
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 0
+        width: 25
+        height: 45
+      alignment: 9
+      pivot: {x: 0.6, y: 0.822222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70d228c7456249a3703bbc024699f67
+      internalID: -967153079605479395
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_bleed_6
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 25
+        height: 45
+      alignment: 9
+      pivot: {x: 0.6, y: 0.822222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1debc9d4ef13569220e6db75c2109d0c
+      internalID: 698458170650699362
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_bleed_7
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 25
+        height: 45
+      alignment: 9
+      pivot: {x: 0.6, y: 0.822222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87262b34ebedd34e1d562b0e1ea834fb
+      internalID: 3478401961673029646
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_bleed_8
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 25
+        height: 45
+      alignment: 9
+      pivot: {x: 0.6, y: 0.822222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1dbac3d3b9147ff3740204c3ae56e4
+      internalID: 2260843249895279842
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_bleed_9
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 0
+        width: 25
+        height: 45
+      alignment: 9
+      pivot: {x: 0.6, y: 0.822222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24d53a0c3cbbb31bfcdaa0cbddbd6a3
+      internalID: -2758780643787389629
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_bleed_10
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 25
+        height: 45
+      alignment: 9
+      pivot: {x: 0.6, y: 0.822222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb93e431176f4610fd01e711db387a87
+      internalID: -1676568797905881055
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m3_st_bleed_11
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 0
+        width: 25
+        height: 45
+      alignment: 9
+      pivot: {x: 0.6, y: 0.822222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c84ea351d02cd6075565adc7068cfc2
+      internalID: 2084091104740242287
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      m3_st_bleed_0: 3771078908746469786
+      m3_st_bleed_1: -3205333222822330657
+      m3_st_bleed_2: -4309698770263983776
+      m3_st_bleed_3: 4353696195765765795
+      m3_st_bleed_4: -2140601541294517632
+      m3_st_bleed_5: -967153079605479395
+      m3_st_bleed_6: 698458170650699362
+      m3_st_bleed_7: 3478401961673029646
+      m3_st_bleed_8: 2260843249895279842
+      m3_st_bleed_9: -2758780643787389629
+      m3_st_bleed_10: -1676568797905881055
+      m3_st_bleed_11: 2084091104740242287
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

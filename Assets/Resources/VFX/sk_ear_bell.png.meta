@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 52b3eceb69ad4659b38049747994c5e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -336414080268190657
+    second: sk_ear_bell_0
+  - first:
+      213: -331803258644677464
+    second: sk_ear_bell_1
+  - first:
+      213: 1049583585011280980
+    second: sk_ear_bell_2
+  - first:
+      213: -4080406457203192406
+    second: sk_ear_bell_3
+  - first:
+      213: 685441349083586952
+    second: sk_ear_bell_4
+  - first:
+      213: -4427340636780096189
+    second: sk_ear_bell_5
+  - first:
+      213: -845991898632239053
+    second: sk_ear_bell_6
+  - first:
+      213: 54102214980549682
+    second: sk_ear_bell_7
+  - first:
+      213: -3086907774429685092
+    second: sk_ear_bell_8
+  - first:
+      213: 1909415303141282034
+    second: sk_ear_bell_9
+  - first:
+      213: 88982357295616939
+    second: sk_ear_bell_10
+  - first:
+      213: -2880838970270701424
+    second: sk_ear_bell_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 8192
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sk_ear_bell_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 212
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407195d5b8ea4f44aa5fda5c97501e44
+      internalID: -336414080268190657
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_bell_1
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 0
+        width: 212
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9774b980df44c99601522246cc97bb
+      internalID: -331803258644677464
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_bell_2
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 0
+        width: 212
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f96d8799e54c96b62ced35f021bb06
+      internalID: 1049583585011280980
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_bell_3
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 0
+        width: 212
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3191f61196d64e67ae7e70480872d5ec
+      internalID: -4080406457203192406
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_bell_4
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 0
+        width: 212
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68a1c3763174875b7bc63aa3896519c
+      internalID: 685441349083586952
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_bell_5
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 0
+        width: 212
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b131b3219dde4b28ba7ad7fa22192f55
+      internalID: -4427340636780096189
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_bell_6
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 0
+        width: 212
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1941dea94e8d44e5b6058b18f4aa1e94
+      internalID: -845991898632239053
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_bell_7
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 0
+        width: 212
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705f7c1f392344299f911393d39cb868
+      internalID: 54102214980549682
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_bell_8
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 0
+        width: 212
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a20732dfb8349358fe4312583dac043
+      internalID: -3086907774429685092
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_bell_9
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 0
+        width: 212
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3794f735cd4c4160bd336ab0c7d4e40b
+      internalID: 1909415303141282034
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_bell_10
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 0
+        width: 212
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38de3f998c5403b8dc39456435485b9
+      internalID: 88982357295616939
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sk_ear_bell_11
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 0
+        width: 212
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e0ae18dee84194a14b0de0591dc4fa
+      internalID: -2880838970270701424
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sk_ear_bell_0: -336414080268190657
+      sk_ear_bell_1: -331803258644677464
+      sk_ear_bell_2: 1049583585011280980
+      sk_ear_bell_3: -4080406457203192406
+      sk_ear_bell_4: 685441349083586952
+      sk_ear_bell_5: -4427340636780096189
+      sk_ear_bell_6: -845991898632239053
+      sk_ear_bell_7: 54102214980549682
+      sk_ear_bell_8: -3086907774429685092
+      sk_ear_bell_9: 1909415303141282034
+      sk_ear_bell_10: 88982357295616939
+      sk_ear_bell_11: -2880838970270701424
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

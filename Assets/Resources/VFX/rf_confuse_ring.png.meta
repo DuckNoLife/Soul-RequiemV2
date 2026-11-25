@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 3fb39e42330041c19918b8731a42984f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3266553528107370907
+    second: rf_confuse_ring_0
+  - first:
+      213: 4804279344107631655
+    second: rf_confuse_ring_1
+  - first:
+      213: 5598365044864127759
+    second: rf_confuse_ring_2
+  - first:
+      213: 6209273220330354820
+    second: rf_confuse_ring_3
+  - first:
+      213: 3576990397671466144
+    second: rf_confuse_ring_4
+  - first:
+      213: 5914531027302135667
+    second: rf_confuse_ring_5
+  - first:
+      213: 8116284492005615606
+    second: rf_confuse_ring_6
+  - first:
+      213: 1655557404046610731
+    second: rf_confuse_ring_7
+  - first:
+      213: 5967791604625827146
+    second: rf_confuse_ring_8
+  - first:
+      213: 7339069963812324727
+    second: rf_confuse_ring_9
+  - first:
+      213: 5307173370910746266
+    second: rf_confuse_ring_10
+  - first:
+      213: 5722141873420613371
+    second: rf_confuse_ring_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rf_confuse_ring_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 39
+        height: 23
+      alignment: 9
+      pivot: {x: 0.487179, y: 0.347826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7c009a44dd412da4744e6bafe05700
+      internalID: 3266553528107370907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_confuse_ring_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 0
+        width: 39
+        height: 23
+      alignment: 9
+      pivot: {x: 0.487179, y: 0.347826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eae449394cb4c9e84e492cfcbd777bc
+      internalID: 4804279344107631655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_confuse_ring_2
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 0
+        width: 39
+        height: 23
+      alignment: 9
+      pivot: {x: 0.487179, y: 0.347826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d6f75f0df64871be985c38a1d34f92
+      internalID: 5598365044864127759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_confuse_ring_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 0
+        width: 39
+        height: 23
+      alignment: 9
+      pivot: {x: 0.487179, y: 0.347826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41298ed9aee142819feec9bda93b63c6
+      internalID: 6209273220330354820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_confuse_ring_4
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 39
+        height: 23
+      alignment: 9
+      pivot: {x: 0.487179, y: 0.347826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9a0ab829224ee5a29a6825e9f06118
+      internalID: 3576990397671466144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_confuse_ring_5
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 0
+        width: 39
+        height: 23
+      alignment: 9
+      pivot: {x: 0.487179, y: 0.347826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e415f97488e4649ae5fb8b40e37314a
+      internalID: 5914531027302135667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_confuse_ring_6
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 0
+        width: 39
+        height: 23
+      alignment: 9
+      pivot: {x: 0.487179, y: 0.347826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f675c043b724bc497043261199730d0
+      internalID: 8116284492005615606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_confuse_ring_7
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 0
+        width: 39
+        height: 23
+      alignment: 9
+      pivot: {x: 0.487179, y: 0.347826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91dc7125fdf94465a30d096a6e868183
+      internalID: 1655557404046610731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_confuse_ring_8
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 39
+        height: 23
+      alignment: 9
+      pivot: {x: 0.487179, y: 0.347826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b4d3623c5a4b01b5b9bc4c8e9c01c2
+      internalID: 5967791604625827146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_confuse_ring_9
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 0
+        width: 39
+        height: 23
+      alignment: 9
+      pivot: {x: 0.487179, y: 0.347826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da409c2f46f34dbabd5c538f77da0294
+      internalID: 7339069963812324727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_confuse_ring_10
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 39
+        height: 23
+      alignment: 9
+      pivot: {x: 0.487179, y: 0.347826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5bfd45d6ad4878b7eee2e291a0fe2d
+      internalID: 5307173370910746266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rf_confuse_ring_11
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 0
+        width: 39
+        height: 23
+      alignment: 9
+      pivot: {x: 0.487179, y: 0.347826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5b252b273b4cb2a7bd8ab3b28f19d0
+      internalID: 5722141873420613371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rf_confuse_ring_0: 3266553528107370907
+      rf_confuse_ring_1: 4804279344107631655
+      rf_confuse_ring_2: 5598365044864127759
+      rf_confuse_ring_3: 6209273220330354820
+      rf_confuse_ring_4: 3576990397671466144
+      rf_confuse_ring_5: 5914531027302135667
+      rf_confuse_ring_6: 8116284492005615606
+      rf_confuse_ring_7: 1655557404046610731
+      rf_confuse_ring_8: 5967791604625827146
+      rf_confuse_ring_9: 7339069963812324727
+      rf_confuse_ring_10: 5307173370910746266
+      rf_confuse_ring_11: 5722141873420613371
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

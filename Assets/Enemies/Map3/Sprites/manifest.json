@@ -1,0 +1,133 @@
+{
+ "Lantern_Knight": {
+  "cell": [
+   144,
+   144
+  ],
+  "states": {
+   "Idle": "9f v5",
+   "Move": "9f v3",
+   "Dash": "9f v6",
+   "Death": "13f v5",
+   "Attack": "9f v1"
+  },
+  "pivotY": 0.1458
+ },
+ "Precentor_Morrow": {
+  "cell": [
+   152,
+   152
+  ],
+  "states": {
+   "Attack": "13f v3",
+   "Move": "6f v1",
+   "Idle": "4f v1",
+   "Death": "13f v6"
+  },
+  "pivotY": 0.1579
+ },
+ "BL_Warrior": {
+  "cell": [
+   140,
+   140
+  ],
+  "states": {
+   "Attack": "13f v6",
+   "Move": "9f v5",
+   "Idle": "9f v5",
+   "Death": "13f v5"
+  },
+  "pivotY": 0.1429
+ },
+ "BL_Lancer": {
+  "cell": [
+   152,
+   152
+  ],
+  "states": {
+   "Death": "13f v5",
+   "Attack": "13f v5",
+   "Idle": "9f v5",
+   "Move": "9f v5"
+  },
+  "pivotY": 0.1776
+ },
+ "BL_Archer": {
+  "cell": [
+   140,
+   140
+  ],
+  "states": {
+   "Move": "6f v1",
+   "Death": "13f v5",
+   "Attack": "13f v5",
+   "Idle": "9f v5"
+  },
+  "pivotY": 0.15
+ },
+ "BL_Monk": {
+  "cell": [
+   140,
+   140
+  ],
+  "states": {
+   "Death": "13f v5",
+   "Heal": "13f v5",
+   "Move": "6f v1",
+   "Idle": "4f v1"
+  },
+  "pivotY": 0.15
+ },
+ "Choir_Novice": {
+  "cell": [
+   144,
+   144
+  ],
+  "states": {
+   "Idle": "4f v1",
+   "Attack": "13f v5",
+   "Death": "13f v5",
+   "Move": "6f v1"
+  },
+  "pivotY": 0.1597
+ },
+ "Vampire": {
+  "cell": [
+   140,
+   140
+  ],
+  "states": {
+   "Death": "7f v1",
+   "Attack": "13f v6",
+   "Move": "6f v1",
+   "Idle": "4f v1"
+  },
+  "pivotY": 0.15
+ },
+ "Vampire_Archer": {
+  "cell": [
+   140,
+   140
+  ],
+  "states": {
+   "Idle": "9f v5",
+   "Move": "9f v5",
+   "Attack": "13f v5",
+   "Death": "13f v5"
+  },
+  "pivotY": 0.15
+ },
+ "Matriarch_Isolde": {
+  "cell": [
+   152,
+   152
+  ],
+  "states": {
+   "Death": "13f v5",
+   "Move": "6f v1",
+   "Attack": "13f v5",
+   "Idle": "4f v1"
+  },
+  "pivotY": 0.1513
+ }
+}

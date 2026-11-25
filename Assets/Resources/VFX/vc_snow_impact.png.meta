@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: 8fbb521985ca4d358ccac9f1e21a76c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4457186521730812177
+    second: vc_snow_impact_0
+  - first:
+      213: 3620310192978018734
+    second: vc_snow_impact_1
+  - first:
+      213: -2625480751250227356
+    second: vc_snow_impact_2
+  - first:
+      213: 3895637084066916461
+    second: vc_snow_impact_3
+  - first:
+      213: -2312746519560556044
+    second: vc_snow_impact_4
+  - first:
+      213: 2832068466421234351
+    second: vc_snow_impact_5
+  - first:
+      213: -3330353185153618669
+    second: vc_snow_impact_6
+  - first:
+      213: -3425484710344277623
+    second: vc_snow_impact_7
+  - first:
+      213: 1720670076271375666
+    second: vc_snow_impact_8
+  - first:
+      213: -1499470632088686514
+    second: vc_snow_impact_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 8192
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vc_snow_impact_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 83
+        height: 107
+      alignment: 9
+      pivot: {x: 0.53012, y: 0.635514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6986850decdf406ab1840e42c050e193
+      internalID: 4457186521730812177
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_snow_impact_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 0
+        width: 83
+        height: 107
+      alignment: 9
+      pivot: {x: 0.53012, y: 0.635514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66246c6e6de146c386681d7ff1e67b7f
+      internalID: 3620310192978018734
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_snow_impact_2
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 0
+        width: 83
+        height: 107
+      alignment: 9
+      pivot: {x: 0.53012, y: 0.635514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4a32300fae486fbc7e2c869dd7e33b
+      internalID: -2625480751250227356
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_snow_impact_3
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 0
+        width: 83
+        height: 107
+      alignment: 9
+      pivot: {x: 0.53012, y: 0.635514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e94e5fc1fe40bf81b04df9abcc23da
+      internalID: 3895637084066916461
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_snow_impact_4
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 0
+        width: 83
+        height: 107
+      alignment: 9
+      pivot: {x: 0.53012, y: 0.635514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d5bc8652dc64ab3aaa2609a6e746631
+      internalID: -2312746519560556044
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_snow_impact_5
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 0
+        width: 83
+        height: 107
+      alignment: 9
+      pivot: {x: 0.53012, y: 0.635514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67cbeac3a9244a5ba3c60ee46a0c1be5
+      internalID: 2832068466421234351
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_snow_impact_6
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 0
+        width: 83
+        height: 107
+      alignment: 9
+      pivot: {x: 0.53012, y: 0.635514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f70693ef78d48fdb4703b93cfee386c
+      internalID: -3330353185153618669
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_snow_impact_7
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 0
+        width: 83
+        height: 107
+      alignment: 9
+      pivot: {x: 0.53012, y: 0.635514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71acde1f08a34d7cbace4c9bd9ffa60a
+      internalID: -3425484710344277623
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_snow_impact_8
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 0
+        width: 83
+        height: 107
+      alignment: 9
+      pivot: {x: 0.53012, y: 0.635514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9199d7fa25bf47ed9412e1fe87a48b04
+      internalID: 1720670076271375666
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vc_snow_impact_9
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 0
+        width: 83
+        height: 107
+      alignment: 9
+      pivot: {x: 0.53012, y: 0.635514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e1a9ff73604996bcf16e0a3c69510b
+      internalID: -1499470632088686514
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vc_snow_impact_0: 4457186521730812177
+      vc_snow_impact_1: 3620310192978018734
+      vc_snow_impact_2: -2625480751250227356
+      vc_snow_impact_3: 3895637084066916461
+      vc_snow_impact_4: -2312746519560556044
+      vc_snow_impact_5: 2832068466421234351
+      vc_snow_impact_6: -3330353185153618669
+      vc_snow_impact_7: -3425484710344277623
+      vc_snow_impact_8: 1720670076271375666
+      vc_snow_impact_9: -1499470632088686514
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

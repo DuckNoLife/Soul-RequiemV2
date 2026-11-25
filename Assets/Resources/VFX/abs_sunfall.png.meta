@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: e8d84df82ea64d9fa0beec101ba3941e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1152903033310915356
+    second: abs_sunfall_0
+  - first:
+      213: 3594009224133545784
+    second: abs_sunfall_1
+  - first:
+      213: -3969071262886821194
+    second: abs_sunfall_2
+  - first:
+      213: 2238313093978319879
+    second: abs_sunfall_3
+  - first:
+      213: 1046616894530860378
+    second: abs_sunfall_4
+  - first:
+      213: -3599642915083257330
+    second: abs_sunfall_5
+  - first:
+      213: 1443607142553725869
+    second: abs_sunfall_6
+  - first:
+      213: -1051461161872740299
+    second: abs_sunfall_7
+  - first:
+      213: -2544985859274265767
+    second: abs_sunfall_8
+  - first:
+      213: 3845191264433568627
+    second: abs_sunfall_9
+  - first:
+      213: 2046007679088094853
+    second: abs_sunfall_10
+  - first:
+      213: -2857425836148185401
+    second: abs_sunfall_11
+  - first:
+      213: -4508106484843771880
+    second: abs_sunfall_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: abs_sunfall_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 148
+        height: 198
+      alignment: 9
+      pivot: {x: 0.5, y: 0.156566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6dacd9cf954ba48660cf203514ff93
+      internalID: -1152903033310915356
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sunfall_1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 148
+        height: 198
+      alignment: 9
+      pivot: {x: 0.5, y: 0.156566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d65cfb98f594898bd60e7af7bfb232c
+      internalID: 3594009224133545784
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sunfall_2
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 0
+        width: 148
+        height: 198
+      alignment: 9
+      pivot: {x: 0.5, y: 0.156566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a78ab3a281c4bbf8e670aa74b054f90
+      internalID: -3969071262886821194
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sunfall_3
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 0
+        width: 148
+        height: 198
+      alignment: 9
+      pivot: {x: 0.5, y: 0.156566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7f73864b0b4bf59ecd3d0f97bc52a6
+      internalID: 2238313093978319879
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sunfall_4
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 0
+        width: 148
+        height: 198
+      alignment: 9
+      pivot: {x: 0.5, y: 0.156566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7d915813344b88b5e8088a4c68f9f2
+      internalID: 1046616894530860378
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sunfall_5
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 0
+        width: 148
+        height: 198
+      alignment: 9
+      pivot: {x: 0.5, y: 0.156566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd7a5fb78c53412e8cf9bbfa7bdf7d70
+      internalID: -3599642915083257330
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sunfall_6
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 0
+        width: 148
+        height: 198
+      alignment: 9
+      pivot: {x: 0.5, y: 0.156566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03564814d9b44a7ca679331285706614
+      internalID: 1443607142553725869
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sunfall_7
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 0
+        width: 148
+        height: 198
+      alignment: 9
+      pivot: {x: 0.5, y: 0.156566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652756933fd4445b87f325a0cbf6699d
+      internalID: -1051461161872740299
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sunfall_8
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 0
+        width: 148
+        height: 198
+      alignment: 9
+      pivot: {x: 0.5, y: 0.156566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d5d623041544829e95d5765268d3bf
+      internalID: -2544985859274265767
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sunfall_9
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 0
+        width: 148
+        height: 198
+      alignment: 9
+      pivot: {x: 0.5, y: 0.156566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987ef4f8e5c14c018362ce08c2a88000
+      internalID: 3845191264433568627
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sunfall_10
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 0
+        width: 148
+        height: 198
+      alignment: 9
+      pivot: {x: 0.5, y: 0.156566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df9ca8ccb98456fa55ff4244c583b2b
+      internalID: 2046007679088094853
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sunfall_11
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 0
+        width: 148
+        height: 198
+      alignment: 9
+      pivot: {x: 0.5, y: 0.156566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a118f844ac941199409b432fa272332
+      internalID: -2857425836148185401
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abs_sunfall_12
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 0
+        width: 148
+        height: 198
+      alignment: 9
+      pivot: {x: 0.5, y: 0.156566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ad396d53c34a5190813b4acdd45dc1
+      internalID: -4508106484843771880
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      abs_sunfall_0: -1152903033310915356
+      abs_sunfall_1: 3594009224133545784
+      abs_sunfall_2: -3969071262886821194
+      abs_sunfall_3: 2238313093978319879
+      abs_sunfall_4: 1046616894530860378
+      abs_sunfall_5: -3599642915083257330
+      abs_sunfall_6: 1443607142553725869
+      abs_sunfall_7: -1051461161872740299
+      abs_sunfall_8: -2544985859274265767
+      abs_sunfall_9: 3845191264433568627
+      abs_sunfall_10: 2046007679088094853
+      abs_sunfall_11: -2857425836148185401
+      abs_sunfall_12: -4508106484843771880
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

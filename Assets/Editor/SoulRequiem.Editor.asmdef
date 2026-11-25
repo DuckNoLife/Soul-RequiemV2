@@ -1,0 +1,28 @@
+{
+    "name": "SoulRequiem.Editor",
+    "rootNamespace": "SoulRequiem.EditorTools",
+    "references": [
+        "SoulRequiem.Core",
+        "SoulRequiem.Gameplay",
+        "SoulRequiem.UI",
+        "SoulRequiem.Visual",
+        "Unity.2D.Sprite.Editor",
+        "SuperTiled2Unity",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.RenderPipelines.Universal.2D.Runtime",
+        "Unity.RenderPipelines.Core.Runtime",
+        "SuperTiled2UnityEditor",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
