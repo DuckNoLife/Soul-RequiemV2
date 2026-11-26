@@ -142,6 +142,7 @@ InitTestScene*.unity*
 .env.local
 
 # Local working folders
+/_tools/
 /_backups/
 /_to_delete/
 /_lfsfix/
