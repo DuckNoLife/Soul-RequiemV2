@@ -137,7 +137,7 @@ namespace SoulRequiem.Gameplay
                 iconKey = key;
                 iconFrames = key.Length > 0 ? Frames(key) : null;
             }
-            bool show = iconFrames != null && iconFrames.Length > 0 && body != null && hp != null && !hp.IsDead;
+            bool show = iconFrames != null && iconFrames.Length > 0 && body != null && body.enabled && hp != null && !hp.IsDead;   // hidden boss (BossSkillsBase.SetHidden) -> no icon
             if (!show) { if (icon != null) icon.enabled = false; return; }
             if (icon == null)
             {

@@ -214,12 +214,19 @@ namespace SoulRequiem.Gameplay
             var cc = sr.color; cc.a = target; sr.color = cc;
         }
 
-        /// Hide the boss completely (no collider, cannot be hit) - used when hiding in a coffin / turning into bats.
+        /// Hide the boss completely while it travels as bats or hides in a coffin: body renderer off, colliders off, invulnerable.
+        /// The renderer is switched off rather than made transparent because tint flashes (Health.TintPulse from katana statuses,
+        /// burn, hit flash) write the full body colour back and would make a transparent body visible again.
+        /// The blob shadow (DepthEffects.BlobShadowFollow) and the status icon (EnemyStatus.UpdateIcon) follow the renderer state.
+        /// Called from IsoldeSkills.Attacks.cs (Bat Dive, Night Flight).
         protected void SetHidden(bool hidden)
         {
             hp.Invulnerable = hidden;
             foreach (var c in GetComponents<Collider2D>()) c.enabled = !hidden;
-            if (ai.Body != null) { var c = ai.Body.color; c.a = hidden ? 0f : 1f; ai.Body.color = c; }
+            var body = ai.Body;
+            if (body == null) return;
+            body.enabled = !hidden;
+            var col = body.color; col.a = 1f; body.color = col;
         }
 
         /// Short "white lock" beat before a big attack: the player can read exactly when to dodge.

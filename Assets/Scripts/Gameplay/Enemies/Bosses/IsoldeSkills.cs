@@ -10,7 +10,8 @@ namespace SoulRequiem.Gameplay
     ///   ARENA
     ///   • Vey stone coffins (isolde_coffin_0..N) = HER LIVES: while any coffin is intact she cannot die (HP stops at undyingFloor).
     ///     Ren breaks a coffin with coffinHits slashes; each broken coffin heals her (healStep x coffins broken) and raises her regen.
-    ///     Rite of Repose rebuilds ONE broken coffin every restoreEvery seconds. All coffins broken + HP at the floor -> she kneels (BossMercy).
+    ///     Rite of Repose rebuilds ONE broken coffin every restoreEvery seconds. Once the last coffin breaks the HP floor is lifted and she dies
+    ///     like any boss (EnemyAI death -> MapEncounterDirector clears zone x3). No choice, no reward drop.
     ///   • Night Flight (shell game): she turns into bats and hides in ONE intact coffin, the coffins swap places, Ren has guessTime seconds to strike one.
     ///     Right -> her coffin breaks and she is dragged out (BREAK, x2 damage). Wrong / too slow -> she bursts out (blood wave) and heals wrongHeal.
     ///   • Blood pools: every Crimson Rain drop leaves a pool. She glides to a pool to drink (Feast, heals) - 4 hits pull her
@@ -64,7 +65,6 @@ namespace SoulRequiem.Gameplay
         [Tooltip("While coffins remain, HP never drops below this")] public float undyingFloor = 0.05f;
         private string baseName;
         private float nextFloorHint;
-        private BossMercy mercy;
         private int Intact => coffins.FindAll(c => !c.broken).Count;
         private int Destroyed => coffins.Count - Intact;
         private class Pool { public Vector2 pos; public SpriteVfx vfx; public float until; }
@@ -191,19 +191,12 @@ namespace SoulRequiem.Gameplay
             if (leavePool) StartCoroutine(PoolAfter(p, warn));
         }
 
-        /// Standing in a blood pool: sticky feet, 25% slower (a reason to burn pools with the F skill).
+        /// Per frame while engaged: regen that grows with broken coffins, the "break the coffins" hint while she sits at the HP floor,
+        /// and blood pools slowing Ren (sticky feet, 25% slower - a reason to burn pools with a Mantra, see OnSkillCast).
         protected override void Update()
         {
             base.Update();
             if (ai == null || hp == null || hp.IsDead || !engaged) return;
-            // all coffins broken + HP at the floor -> Isolde kneels; slash again = finish her, [T] = spare (BossMercy)
-            if (mercy == null && Intact == 0 && coffins.Count > 0 && hp.Current <= hp.Floor + 0.5f)
-            {
-                StopAllCoroutines();
-                mercy = BossMercy.Begin(ai, "mercy_3", "isolde_slain");
-                enabled = false;
-                return;
-            }
             if (Destroyed > 0 && !Broken) hp.Heal(hp.Max * regenStep * Destroyed * Time.deltaTime);   // constant regen, grows with the number of broken coffins
             if (Intact > 0 && hp.Current <= hp.Floor + 0.5f && Time.time >= nextFloorHint)
             {
@@ -255,17 +248,18 @@ namespace SoulRequiem.Gameplay
                 float amt = healStep * Destroyed * coffinDrinkMul;              // 3/6/9/12% -> ~2/4/6/8%
                 hp.Heal(hp.Max * amt);
                 for (int k = 0; k < 5; k++) StartCoroutine(FlyMote("m3x_blood_bolt", c.pos + Random.insideUnitCircle * 0.2f, transform, Vector2.up * 0.45f, 0.5f + k * 0.06f, 0.34f));
-                Hint(left > 0 ? $"A coffin shatters. She drinks its blood (+{amt * 100f:0}%). {left} remain." : "The last coffin falls. Now she can be brought to her knees!", 2.5f);
+                Hint(left > 0 ? $"A coffin shatters. She drinks its blood (+{amt * 100f:0}%). {left} remain." : "The last coffin falls. Now she can die!", 2.5f);
             }
-            else if (left == 0) Hint("The last coffin falls. Now she can be brought to her knees!", 2.5f);
+            else if (left == 0) Hint("The last coffin falls. Now she can die!", 2.5f);
             if (Ready("rite")) ready["rite"] = Time.time + restoreEvery;       // start the 30 s count from the first broken coffin
         }
 
-        /// Her lives: while coffins remain she cannot die (HP stops at undyingFloor). The HP bar name shows the coffin count.
+        /// Her lives: while coffins remain she cannot die (HP stops at undyingFloor); with none left the floor is 0 and Ren can finish her.
+        /// The HP bar name shows the coffin count. Called from OnEngage and BreakCoffin (and the Rite of Repose in IsoldeSkills.Attacks.cs).
         private void UpdateCoffinState()
         {
             int left = Intact;
-            hp.Floor = (left > 0 || mercy == null) ? hp.Max * undyingFloor : 0f;   // no coffins left but still at the floor -> kneel, wait for Ren's choice
+            hp.Floor = left > 0 ? hp.Max * undyingFloor : 0f;
             if (!string.IsNullOrEmpty(baseName)) ai.displayName = left > 0 ? $"{baseName}  —  Coffins {left}/{coffins.Count}" : baseName;
         }
 

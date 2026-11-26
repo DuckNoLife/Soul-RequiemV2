@@ -6348,24 +6348,6 @@
     <property name="zone_id" value="v5"/>
    </properties>
   </object>
-  <object id="4506" name="vey_signet" type="pickup" x="499.2" y="2668.8" width="64" height="51.2">
-   <properties>
-    <property name="flag" value="vey_signet"/>
-    <property name="hint_text" value="Obtained: The Vey Signet. The crest of House Vey - it opens their sealed crypt."/>
-    <property name="item" value="key"/>
-    <property name="locked_text" value=""/>
-    <property name="requires" value="mercy_3"/>
-    <property name="unity:IsTrigger" type="bool" value="true"/>
-    <property name="zone_id" value="x3"/>
-   <property name="unless" value="key_vey_signet"/>
-   <property name="key_id" value="vey_signet"/>
-   <property name="key_name" value="The Vey Signet"/>
-   <property name="key_kind" value="Key"/>
-   <property name="key_icon" value="key_vey_signet"/>
-   <property name="key_opens" value="The sealed crypt of House Vey"/>
-   <property name="key_desc" value="A heavy gold ring set with a blood-red stone, the crest of House Vey cut into it. Isolde pressed it into your hand when you let her go. &quot;The Vey keep their debts.&quot;"/>
-   </properties>
-  </object>
   <object id="4508" name="mass_grave" type="sign" x="3468.8" y="1830.4" width="83.2" height="57.6">
    <properties>
     <property name="hint_text" value="A board hammered into the mud: &quot;Mass grave, the Drowning. 1,100 Named. No time for stones.&quot;"/>

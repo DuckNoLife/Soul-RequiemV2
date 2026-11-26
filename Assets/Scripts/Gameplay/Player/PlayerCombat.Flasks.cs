@@ -3,8 +3,8 @@ using UnityEngine;
 namespace SoulRequiem.Gameplay
 {
     /// <summary>
-    /// Ren's HEALING FLASKS. Default 3 slots, at most MaxFlaskSlots (5) for the whole game: Hob's chest (Map 1) +1, Odo's chest (Map 2) +1;
-    /// Vey Heartblood (Isolde, Map 3) only +1 when below the cap. Drinking: PlayerFlask. Heal amount: healPercent (Inspector).
+    /// Ren's HEALING FLASKS. Default 3 slots, at most MaxFlaskSlots (5) for the whole game: Hob's chest (Map 1) +1, Odo's chest (Map 2) +1.
+    /// Drinking: PlayerFlask. Heal amount: healPercent (Inspector).
     /// Picking up a flask when full: MapTriggerHandler refuses (FlasksFull).
     /// </summary>
     public partial class PlayerCombat
@@ -23,7 +23,7 @@ namespace SoulRequiem.Gameplay
         /// <summary>Refill to exactly the slot count (resting at a campfire, respawn, boss phase cleared).</summary>
         public void RefillPotions() { maxPotions = Mathf.Clamp(maxPotions, 1, MaxFlaskSlots); potions = maxPotions; }
 
-        /// <summary>+`n` flask slots (never above MaxFlaskSlots) and add `n` flasks. Sources: skill scrolls (potions), chests (potions_max), Heartblood.</summary>
+        /// <summary>+`n` flask slots (never above MaxFlaskSlots) and add `n` flasks. Sources: skill scrolls (potions), chests (potions_max).</summary>
         public void AddFlaskSlots(int n)
         {
             if (n <= 0) return;
