@@ -150,3 +150,7 @@ InitTestScene*.unity*
 __pycache__/
 *.pyc
 
+__MACOSX/
+__MACOSX.meta
+._*
+.DS_Store
